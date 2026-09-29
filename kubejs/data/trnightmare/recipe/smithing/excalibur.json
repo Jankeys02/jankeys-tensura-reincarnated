@@ -1,0 +1,27 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:glowstone"
+  },
+  "inputAmount1": 4,
+  "input2": {
+    "item": "minecraft:nether_star"
+  },
+  "inputAmount2": 2,
+  "input3": {
+    "item": "tensura:hihiirokane_long_sword"
+  },
+  "inputAmount3": 1,
+  "input4": {
+    "item": "tensura:hihiirokane_ingot"
+  },
+  "inputAmount4": 2,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:excalibur"
+  },
+  "schematics": [
+    "tensura:long_sword_schematic",
+    "tensura:hihiirokane_gear_schematic"
+  ]
+}

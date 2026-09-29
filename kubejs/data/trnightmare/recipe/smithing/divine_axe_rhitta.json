@@ -1,0 +1,31 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "tensura:hihiirokane_spear"
+  },
+  "inputAmount1": 1,
+  "input2": {
+    "item": "tensura:hihiirokane_axe"
+  },
+  "inputAmount2": 1,
+  "input3": {
+    "item": "trnightmare:holy_essence"
+  },
+  "inputAmount3": 2,
+  "input4": {
+    "item": "minecraft:gold_block"
+  },
+  "inputAmount4": 2,
+  "input5": {
+    "item": "tensura:orichalcum_block"
+  },
+  "inputAmount5": 2,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:divine_axe_rhitta"
+  },
+  "schematics": [
+    "tensura:hihiirokane_gear_schematic",
+    "tensura:spear_schematic"
+  ]
+}

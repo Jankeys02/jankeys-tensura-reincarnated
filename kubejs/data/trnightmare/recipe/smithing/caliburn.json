@@ -1,0 +1,26 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:obsidian"
+  },
+  "inputAmount1": 4,
+  "input2": {
+    "item": "minecraft:nether_star"
+  },
+  "inputAmount2": 2,
+  "input3": {
+    "item": "tensura:hihiirokane_sword"
+  },
+  "inputAmount3": 1,
+  "input4": {
+    "item": "tensura:hihiirokane_ingot"
+  },
+  "inputAmount4": 2,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:caliburn"
+  },
+  "schematics": [
+    "tensura:hihiirokane_gear_schematic"
+  ]
+}

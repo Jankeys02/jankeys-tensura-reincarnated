@@ -1,0 +1,30 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "trnightmare:holy_essence"
+  },
+  "inputAmount1": 4,
+  "input2": {
+    "item": "minecraft:nether_star"
+  },
+  "inputAmount2": 4,
+  "input3": {
+    "item": "tensura:hihiirokane_sword"
+  },
+  "inputAmount3": 1,
+  "input4": {
+    "item": "tensura:hihiirokane_block"
+  },
+  "inputAmount4": 4,
+  "input5": {
+    "item": "tensura:hihiirokane_ingot"
+  },
+  "inputAmount5": 2,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:ark"
+  },
+  "schematics": [
+    "tensura:hihiirokane_gear_schematic"
+  ]
+}

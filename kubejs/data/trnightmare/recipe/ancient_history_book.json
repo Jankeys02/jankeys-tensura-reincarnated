@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "HEH",
+    "DBD",
+    "HEH"
+  ],
+  "key": {
+    "H": {
+      "item": "trnightmare:holy_essence"
+    },
+    "E": {
+      "item": "trnightmare:elder_essence"
+    },
+    "D": {
+      "item": "tensura:dragon_essence"
+    },
+    "B": {
+      "item": "trnightmare:ruined_history_book"
+    }
+  },
+  "result": {
+    "id": "trnightmare:ancient_history_book",
+    "count": 1
+  }
+}

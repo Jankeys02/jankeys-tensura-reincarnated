@@ -1,0 +1,31 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "tensura:hihiirokane_block"
+  },
+  "inputAmount1": 1,
+  "input2": {
+    "item": "tensura:dragon_peacock_feather"
+  },
+  "inputAmount2": 1,
+  "input3": {
+    "item": "tensura:daemon_essence"
+  },
+  "inputAmount3": 1,
+  "input4": {
+    "item": "tensura:element_core_space"
+  },
+  "inputAmount4": 1,
+  "input5": {
+    "item": "tensura:iron_long_sword"
+  },
+  "inputAmount5": 1,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:reinhard_locked"
+  },
+  "schematics": [
+    "tensura:long_sword_schematic",
+    "tensura:hihiirokane_gear_schematic"
+  ]
+}

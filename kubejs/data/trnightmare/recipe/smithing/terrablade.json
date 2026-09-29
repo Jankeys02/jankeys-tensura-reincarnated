@@ -1,0 +1,26 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "tensura:pure_magisteel_block"
+  },
+  "inputAmount1": 1,
+  "input2": {
+    "item": "tensura:dragon_peacock_feather"
+  },
+  "inputAmount2": 1,
+  "input3": {
+    "item": "tensura:elemental_essence"
+  },
+  "inputAmount3": 10,
+  "input4": {
+    "item": "tensura:iron_long_sword"
+  },
+  "inputAmount4": 1,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:terrablade"
+  },
+  "schematics": [
+    "tensura:long_sword_schematic"
+  ]
+}

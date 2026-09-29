@@ -11,6 +11,11 @@
 !/LICENSE
 !/PACK_DESCRIPTION.md
 !/README.md
+!/SERVER_PACK.md
 !/RELEASE_GUIDE.md
 !/SECURITY.md
 !/package.json
+
+# personal / runtime data
+/config/jei/world/
+/config/spark/

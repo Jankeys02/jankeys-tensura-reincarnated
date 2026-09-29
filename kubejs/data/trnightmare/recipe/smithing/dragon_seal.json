@@ -1,0 +1,30 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:emerald"
+  },
+  "inputAmount1": 2,
+  "input2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "inputAmount2": 1,
+  "input3": {
+    "item": "minecraft:redstone"
+  },
+  "inputAmount3": 1,
+  "input4": {
+    "item": "minecraft:iron_sword"
+  },
+  "inputAmount4": 1,
+  "input5": {
+    "item": "tensura:daemon_essence"
+  },
+  "inputAmount5": 4,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:dragon_seal"
+  },
+  "schematics": [
+    "tensura:iron_gear_schematic"
+  ]
+}

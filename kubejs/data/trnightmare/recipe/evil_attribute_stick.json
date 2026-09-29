@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HHH",
+    "HBH",
+    "HHH"
+  ],
+  "key": {
+    "H": {
+      "item": "tensura:hihiirokane_block"
+    },
+    "B": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "id": "trnightmare:evil_attribute_stick",
+    "count": 1
+  }
+}

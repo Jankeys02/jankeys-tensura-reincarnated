@@ -12,7 +12,7 @@ glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
 graphicsMode:1
-maxFps:180
+maxFps:120
 mipmapLevels:4
 narrator:0
 particles:0
@@ -42,7 +42,7 @@ hideSplashTexts:false
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","obscure_tooltips/packs/vibrant_tooltips","file/FreshAnimations_v1.10.4.zip","file/FA+All_Extensions-v1.8.1.zip","file/Beautiful Enchanted Books - MC 1.21.1 - 8.0.0.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Drigo 3D Lantern`s x Punchy.zip","file/Fyoncle\u0027s 3D Trims.zip","file/Refined Buckets 2.4.1.zip","file/refined torches 2.1.zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","file/FreshAnimations_v1.10.4.zip","file/FA+All_Extensions-v1.8.1.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Fyoncle\u0027s 3D Trims.zip","file/Drigo 3D Lantern`s x Punchy.zip","file/Refined Buckets 2.4.1.zip","file/refined torches 2.1.zip"]
 incompatibleResourcePacks:[]
 lang:en_us
 chatVisibility:0

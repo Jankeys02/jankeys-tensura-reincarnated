@@ -4,7 +4,7 @@
 	#Whether Reset Counter should require Awakening (True Hero/Demon Lord).
 	awakenCounter = true
 	#The list of bosses required for Reset Counter.
-	bossesCounter = ["tensura:orc_disaster", "tensura:ifrit", "tensura:charybdis", "tensura:elemental_colossus", "tensura:hinata_sakaguchi", "tensura:gazel_dwargo"]
+	bossesCounter = ["tensura:orc_disaster", "tensura:ifrit", "tensura:charybdis", "tensura:elemental_colossus", "tensura:hinata_sakaguchi", "tensura:gazel_dwargo", "mysticism:memoires"]
 	#The maximum number of bonus Unique Skills that resetCounterBonusUnique gamerule can give to a player.
 	maxCounterBonus = 1024
 	#Apply the reset counter Penalty when a player uses a Race/Skill Reset Scroll even when they meet all of their reset requirements

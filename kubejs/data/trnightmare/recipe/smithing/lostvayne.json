@@ -1,0 +1,27 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:emerald_block"
+  },
+  "inputAmount1": 2,
+  "input2": {
+    "item": "minecraft:gold_block"
+  },
+  "inputAmount2": 3,
+  "input3": {
+    "item": "tensura:daemon_essence"
+  },
+  "inputAmount3": 2,
+  "input4": {
+    "item": "tensura:hihiirokane_short_sword"
+  },
+  "inputAmount4": 1,
+  "output": {
+    "count": 1,
+    "id": "trnightmare:lostvayne_sword"
+  },
+  "schematics": [
+    "tensura:short_sword_schematic",
+    "tensura:hihiirokane_gear_schematic"
+  ]
+}
