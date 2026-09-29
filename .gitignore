@@ -12,6 +12,7 @@
 !/PACK_DESCRIPTION.md
 !/README.md
 !/SERVER_PACK.md
+!/client-mods-to-exclude.txt
 !/RELEASE_GUIDE.md
 !/SECURITY.md
 !/package.json
