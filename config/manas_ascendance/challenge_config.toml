@@ -1,0 +1,13 @@
+[General]
+	#The amount of Notoriety/Valor gained by Demon Lords/Hero when they win a challenge against a regular player.
+	notorietyValorGainChallenge = 10
+	#The amount of Notoriety/Valor gained by Demon Lords/Hero when they win a challenge against another Title Holder.
+	notorietyValorGainChallengeTitleHolder = 50
+	#The amount of Notoriety/Valor lost by Demon Lords/Hero when they lose a challenge against a regular player.
+	notorietyValorLossChallenge = 10
+	#The amount of Notoriety/Valor lost by Demon Lords/Hero when they lose a challenge against another Title Holder.
+	notorietyValorLossChallengeTitleHolder = 50
+	#The amount of reputation gained by the winner of a challenge.
+	reputationWinner = 1
+	#The amount of reputation lost by the loser of a challenge.
+	reputationLoser = 1

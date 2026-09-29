@@ -1,0 +1,1272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evolution"
+	group: ""
+	icon: {
+		id: "tensura:race_reset_scroll"
+	}
+	id: "624123C3BE351540"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tensura:race_reset_scroll"
+			}
+			id: "1498C58D46668368"
+			rewards: [{
+				id: "24E8B8157C1361C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tensura:grow_spurt"
+				criterion: ""
+				id: "6E4F1E1E0AD1056D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "46C7D03A7BCC4323"
+			optional: true
+			rewards: [{
+				id: "6B3D8E61DB3DDE2E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1B9DB0C4A76E3092"
+				race: "tensura:slime"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -8.75d
+		}
+		{
+			id: "040ADA5AB0FB8B31"
+			optional: true
+			rewards: [{
+				id: "0BA563BDA156E71D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "668BF79B5BDC9D19"
+				race: "tensura:metal_slime"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -8.75d
+		}
+		{
+			id: "36962A6BF5CC0937"
+			optional: true
+			rewards: [{
+				id: "035CA4CC225F6BA0"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "6E704DAEE7AB3BAF"
+				race: "tensura:demon_slime"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -8.75d
+		}
+		{
+			id: "7BB702E748125DC5"
+			optional: true
+			rewards: [
+				{
+					id: "18B18402AE93C950"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0D2CF3F9ED657888"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7EC840E5C7C7E932"
+				race: "tensura:god_slime"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -8.75d
+		}
+		{
+			id: "6172A474088AF38D"
+			optional: true
+			rewards: [{
+				id: "7BD64BF0AF9FD883"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "40DD1CC41B70E9B1"
+				race: "tensura:goblin"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			id: "7AAAD2D54CB1E6BD"
+			optional: true
+			rewards: [{
+				id: "4508E906B92EB4CE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "531ABE8BD512A7BA"
+				race: "tensura:hobgoblin"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "1089F2133BF02FFF"
+			optional: true
+			rewards: [{
+				id: "7920A8C91CE2A6E7"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "42E4870099FAEEBC"
+				race: "tensura:enlightened_hobgoblin"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			id: "6EEAE26AA1996D61"
+			optional: true
+			rewards: [{
+				id: "46A9E7A21231BCAD"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "21B88C3156C60533"
+				race: "tensura:hobgoblin_saint"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "402A1B45EF47578F"
+			optional: true
+			rewards: [{
+				id: "1F6CB3A97B6A44B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "293F48DF79D515B4"
+				race: "tensura:ogre"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -6.25d
+		}
+		{
+			id: "201C5541F467CCAF"
+			optional: true
+			rewards: [{
+				id: "3FE118FD2F978F42"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6EAEDA1D7368F6A9"
+				race: "tensura:kijin"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -6.25d
+		}
+		{
+			id: "776AE90066DAB17A"
+			optional: true
+			rewards: [{
+				id: "57E70435998F94C0"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "417E5B4BCE5DCF3A"
+				race: "tensura:mystic_oni"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -6.25d
+		}
+		{
+			id: "05432BFB095F474D"
+			optional: true
+			rewards: [{
+				id: "3C69DD67006B0E55"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "087CEF5548521FD4"
+				race: "tensura:wicked_oni"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -6.25d
+		}
+		{
+			id: "6D33202657254C72"
+			optional: true
+			rewards: [{
+				id: "2A98272EED4627CE"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [{
+				id: "7D743D444B579F29"
+				race: "tensura:death_oni"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: -6.25d
+		}
+		{
+			id: "4B85546C8653ACAD"
+			optional: true
+			rewards: [{
+				id: "27488C5ECF518567"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				id: "75891CDF98616674"
+				race: "tensura:spirit_oni"
+				type: "tensura_ftb:race"
+			}]
+			x: 9.5d
+			y: -6.25d
+		}
+		{
+			id: "5A2C7A1DD7094ADC"
+			optional: true
+			rewards: [
+				{
+					id: "39997DC15D4CF5CD"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "204EC200F8411C3C"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "60F822E6B1D5B9F9"
+				race: "tensura:divine_oni"
+				type: "tensura_ftb:race"
+			}]
+			x: 11.0d
+			y: -6.25d
+		}
+		{
+			id: "32DFA7526890F5D3"
+			optional: true
+			rewards: [
+				{
+					id: "56B336F04E6C2920"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "273B065E92C706F6"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "588BA4AE21A6CFAC"
+				race: "tensura:divine_fighter"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.5d
+			y: -6.25d
+		}
+		{
+			id: "30692FB040F69AF1"
+			optional: true
+			rewards: [{
+				id: "4B7A207A62BAE9D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "260BA70B9FE9E45D"
+				race: "tensura:orc"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "7CCF58A86F17497B"
+			optional: true
+			rewards: [{
+				id: "02AC0863B5DE886A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "19AED0C0F41A4170"
+				race: "tensura:high_orc"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "6F1ABA5B902C03E4"
+			optional: true
+			rewards: [{
+				id: "7B69626E13A11AC0"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "4377C59DDB46DBEB"
+				race: "tensura:orc_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "0FA84022F4B3FD73"
+			optional: true
+			rewards: [{
+				id: "6CF5B1869AAC5C40"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "7C7C7F316A98FBE0"
+				race: "tensura:orc_disaster"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "60436D566907215C"
+			optional: true
+			rewards: [{
+				id: "7A202DC69E2472EC"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			tasks: [{
+				id: "02F2D127A37C0A46"
+				race: "tensura:spirit_boar"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "075530C464DCF1EA"
+			optional: true
+			rewards: [
+				{
+					id: "128BAA266D84C5A3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "686877B1F350630D"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "17D9686905207496"
+				race: "tensura:divine_boar"
+				type: "tensura_ftb:race"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			id: "752D46BB107B9382"
+			optional: true
+			rewards: [{
+				id: "0844FB4FCA4635F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7C253F86A1F46C77"
+				race: "tensura:lizardman"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -3.75d
+		}
+		{
+			id: "16CA842ED82CD402"
+			optional: true
+			rewards: [{
+				id: "2D605C7D9D839554"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "47A5F5E2BEC55D4A"
+				race: "tensura:dragonewt"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -3.75d
+		}
+		{
+			id: "5DFFE504E99862EF"
+			optional: true
+			rewards: [{
+				id: "7F8000C3C63CAE90"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "03FBBD042E3C5CBF"
+				race: "tensura:true_dragonewt"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			id: "37B79C9A1164C37F"
+			optional: true
+			rewards: [
+				{
+					id: "4E96AABF82542C63"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "492E9E25E926F0FB"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A7571E3871A00D3"
+				race: "tensura:divine_dragon"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -3.75d
+		}
+		{
+			id: "4D6D3DA033C69A50"
+			optional: true
+			rewards: [{
+				id: "532DC0D4325076BC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3A33A53577E673B4"
+				race: "tensura:human"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "5F31547423552138"
+			optional: true
+			rewards: [{
+				id: "1693A4D74CDE140F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0E91EC09E4CE0A48"
+				race: "tensura:enlightened_human"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "50258871747D3261"
+			optional: true
+			rewards: [{
+				id: "4F069C01A9F44F9A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "46A028DEC175B414"
+				race: "tensura:human_saint"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "31DEDCCCBE3366B0"
+			optional: true
+			rewards: [
+				{
+					id: "54EA5BC5F0ED0232"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0D8FCB9E8BD7BBA7"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "761934730A697B6A"
+				race: "tensura:divine_human"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "0D325E5E0C068875"
+			optional: true
+			rewards: [{
+				id: "7400DFE83FA2FE06"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "056A25E460BFF1D5"
+				race: "tensura:elf"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			id: "6650FE83F68843E1"
+			optional: true
+			rewards: [{
+				id: "50EC8807F875FE16"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "540942AB4579A899"
+				race: "tensura:enlightened_elf"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			id: "6FB36EEF4DD86F32"
+			optional: true
+			rewards: [{
+				id: "3A72DA50FD8EA678"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "10C5D60B2A539078"
+				race: "tensura:elf_saint"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			id: "4528E715C7D45EB6"
+			optional: true
+			rewards: [
+				{
+					id: "354622A6A6F5944B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0780BA994E517E64"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "74C28FA8FD15EB8F"
+				race: "tensura:divine_elf"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: -1.25d
+		}
+		{
+			id: "74CA8207C057C40D"
+			optional: true
+			rewards: [{
+				id: "46D7C1B007551DEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7D3C0E2E005F77CE"
+				race: "tensura:dwarf"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "01FFF9ADC3D7F2DB"
+			optional: true
+			rewards: [{
+				id: "7DF4357AFF96FE9D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "33A73327364BDEE7"
+				race: "tensura:enlightened_dwarf"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "1BC1502BE01870DA"
+			optional: true
+			rewards: [{
+				id: "59FA92014F4248F8"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "6692AC496D7B3301"
+				race: "tensura:dwarf_saint"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "1A59ACF7C280881D"
+			optional: true
+			rewards: [
+				{
+					id: "7E04B012F62A3AC9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "21341CCCC9759D21"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B843127E89863C1"
+				race: "tensura:divine_dwarf"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "564718864D61028A"
+			optional: true
+			rewards: [{
+				id: "591023E8843BBF15"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "591218F94F2D3B8E"
+				race: "tensura:merfolk"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			id: "57BC6D775E9DFF54"
+			optional: true
+			rewards: [{
+				id: "097212C46DF546AF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4FA6E8AB82599681"
+				race: "tensura:enlightened_merfolk"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 1.25d
+		}
+		{
+			id: "75D548ED87FF475F"
+			optional: true
+			rewards: [{
+				id: "4865D6653C4BF4FD"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "7C0AD738B93D97A9"
+				race: "tensura:merfolk_saint"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			id: "10B2213FE4B60EB3"
+			optional: true
+			rewards: [
+				{
+					id: "64A23EE7892C4103"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "34CA6EC3F27A4FD4"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "216EAFA1892BEFAA"
+				race: "tensura:divine_fish"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 1.25d
+		}
+		{
+			id: "51B3782F2DF608EB"
+			optional: true
+			rewards: [{
+				id: "3613BFADE021263E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "48778F5266404D1B"
+				race: "tensura:beastfolk"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7C7F7553A38E06D4"
+			optional: true
+			rewards: [{
+				id: "5B4EB881BA6AAF39"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "15F1DAD1F04A1A9C"
+				race: "tensura:beast_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "0715D29BC26F32E3"
+			optional: true
+			rewards: [{
+				id: "7A6C4F97528F54DA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "60DFECD8B7E74AC4"
+				race: "tensura:spirit_beast"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "026E9BA18F34264E"
+			optional: true
+			rewards: [
+				{
+					id: "453A7D437628A0D1"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0780E650333A9A0C"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0DB7126026FC9456"
+				race: "tensura:divine_beast"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "521233726EB14E0F"
+			optional: true
+			rewards: [{
+				id: "1EC1EE374BA518AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "727AFBBF1269F5FC"
+				race: "tensura:harpy"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.75d
+		}
+		{
+			id: "5A3B6687C922B135"
+			optional: true
+			rewards: [{
+				id: "495A3B0301573516"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "3118754B39B2F1D9"
+				race: "tensura:harpy_queen"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 3.75d
+		}
+		{
+			id: "316B0AF8B93B1655"
+			optional: true
+			rewards: [{
+				id: "1DBD7DBCCD7B41EA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "43785CEE516E2E35"
+				race: "tensura:spirit_bird"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 3.75d
+		}
+		{
+			id: "1F112D4F842897A1"
+			optional: true
+			rewards: [
+				{
+					id: "374CC64AF0E2FB54"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "24D3D1DF302A819D"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7956C9511351FFE9"
+				race: "tensura:divine_bird"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 3.75d
+		}
+		{
+			id: "1F6B465C3E2DAC25"
+			optional: true
+			rewards: [{
+				id: "52DC5CE704F1F296"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1467D63F3E30C35B"
+				race: "tensura:giant"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "2769B38E3593AAC4"
+			optional: true
+			rewards: [{
+				id: "1DDF6FF9D65856AE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "12AA9F053BA1277C"
+				race: "tensura:ancient_giant"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "5182A93FEB4CDC63"
+			optional: true
+			rewards: [
+				{
+					id: "26FEAB4ADE3B29CB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "7A2A06E3AA44034D"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2B0BDFB2E038DE84"
+				race: "tensura:divine_giant"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "661972A82D8C9BD2"
+			optional: true
+			rewards: [{
+				id: "7F6246B7CCA1835E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "395A7BF3CC3F9DB2"
+				race: "tensura:vampire"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 6.25d
+		}
+		{
+			id: "718691268139EACC"
+			optional: true
+			rewards: [{
+				id: "4ACC8545917F82BC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6CFFE172C5189C01"
+				race: "tensura:ghoul"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 6.25d
+		}
+		{
+			id: "166CDBE335B34B78"
+			optional: true
+			rewards: [{
+				id: "54C78CCB9BEF3D8B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "0921D839B0EE7F0C"
+				race: "tensura:vampire_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 6.25d
+		}
+		{
+			id: "516CC7F14EFA8AEA"
+			optional: true
+			rewards: [{
+				id: "2959BDDBC516951D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "3E46F6C0143FDE86"
+				race: "tensura:vampire_overcomer"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 6.25d
+		}
+		{
+			id: "3EDF96C710319F35"
+			optional: true
+			rewards: [
+				{
+					id: "362BF489B82315AD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "02BEAF668BCBCD85"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6EDD10AA222986B5"
+				race: "tensura:divine_vampire"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 6.25d
+		}
+		{
+			id: "2ED606F90DAC40FD"
+			optional: true
+			rewards: [{
+				id: "0C51E3CF91692F47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1A3B3C7D177A71A8"
+				race: "tensura:wight"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "188D23CC6434B1A1"
+			optional: true
+			rewards: [{
+				id: "5F7C975479CCC1B3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "63C87CCD058635FB"
+				race: "tensura:wight_king"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "59C6CBEB4367810D"
+			optional: true
+			rewards: [{
+				id: "067B18458789DC92"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "2D50223EA3A42169"
+				race: "tensura:spirit_skeleton"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "7575E9B0B600803D"
+			optional: true
+			rewards: [
+				{
+					id: "5855F62158AA25F3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "582182C8475AA125"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1C153C66D07E9389"
+				race: "tensura:divine_skeleton"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "71F7F8672DB67878"
+			optional: true
+			rewards: [{
+				id: "770A5FD8C4EACB77"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "287A18479067717C"
+				race: "tensura:lesser_daemon"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 8.75d
+		}
+		{
+			id: "1F88480D77B5C1BA"
+			optional: true
+			rewards: [{
+				id: "5C7311FCB018ACCE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1E7283A7F3BEA5CC"
+				race: "tensura:greater_daemon"
+				type: "tensura_ftb:race"
+			}]
+			x: 3.5d
+			y: 8.75d
+		}
+		{
+			id: "7BC821E83E11D05F"
+			optional: true
+			rewards: [{
+				id: "17283749BC5996F2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "76DD4A73E8C5BA02"
+				race: "tensura:arch_daemon"
+				type: "tensura_ftb:race"
+			}]
+			x: 5.0d
+			y: 8.75d
+		}
+		{
+			id: "6BD369F17796E2F5"
+			optional: true
+			rewards: [{
+				id: "4D5E06815B4BC8F3"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "6F087D1C95E7111F"
+				race: "tensura:daemon_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.5d
+			y: 8.75d
+		}
+		{
+			id: "670BE2271E3767C1"
+			optional: true
+			rewards: [
+				{
+					id: "170E61282A5DC749"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "7B171BCB1156354A"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4DDD57FA79F25B96"
+				race: "tensura:devil_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 8.75d
+		}
+	]
+}

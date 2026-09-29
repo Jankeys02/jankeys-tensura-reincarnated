@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: ""
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "15E00D5E7B6F1FBE"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "5482E2056F81C5B8"
+			rewards: [{
+				id: "4EB479E945D5058D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "46C07B90095B1BC7"
+				structure: "tensura:villages/goblin_village/oak"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "31C325A4907C4233"
+			rewards: [{
+				id: "79E8FAE31831BC7D"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				entity: "tensura:direwolf"
+				id: "6084479D25D17145"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "40FE0A27BE1A2CDD"
+			rewards: [{
+				id: "046F740B3FBD1BCD"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "403BD9ADC1C1FA1B"
+				structure: "tensura:villages/orc_village"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "09E0BC73402CCF95"
+			rewards: [{
+				id: "777735AAB18C6AF6"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "1872B58596C63472"
+				structure: "tensura:villages/lizardmen_village/tower_tall"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09E0BC73402CCF95"]
+			id: "6767789E829E8AC6"
+			rewards: [{
+				id: "24E54B847378CE23"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "31E3A44CF3FF97A1"
+				structure: "tensura:villages/dwarf_village"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40FE0A27BE1A2CDD"]
+			id: "333565F78C8AFDAE"
+			rewards: [
+				{
+					id: "67D18193B001F54C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "3C3FA150C754E0F5"
+					item: {
+						count: 1
+						id: "tensura:medium_quality_magic_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "tensura:orc_lord"
+				id: "7B8B978348011BE6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: true
+			id: "1806CCA9857CAD6A"
+			rewards: [
+				{
+					id: "047FADA1EEF6E58D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "40472AC25A6FFE18"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "tensura:orc_disaster"
+				id: "33AB862B96611BD9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "65B2B2B98AA63D46"
+			rewards: [{
+				id: "1456E78FED0ADA4F"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "296C660B7C0E127A"
+				structure: "tensura:ruin/wizard_tower/ruined"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65B2B2B98AA63D46"]
+			id: "46392746B97DE30D"
+			rewards: [{
+				id: "37B9A162BCC88909"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "33AAB042B30FD4A0"
+				structure: "tensura:ruin/warp/plains_warp_pad"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "6545076AD68472F3"
+			rewards: [{
+				id: "0CE8609EAEAF81B1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:labyrinth"
+				criterion: ""
+				id: "33F6DCD5193119E2"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6545076AD68472F3"]
+			hide_details_until_startable: true
+			id: "7E6D1D75859BAD9A"
+			rewards: [
+				{
+					id: "4886FAFA0DE4BE34"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0AF8180BF84E15AF"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "tensura:charybdis"
+				id: "30C57AD8483E2AF6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "71D3A3E364399F46"
+			rewards: [{
+				id: "0B34A5D03D609EAF"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4A7ED6DB2FFBFF76"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "5D22783309CE8C54"
+			rewards: [{
+				id: "62FC1C2746B4ED95"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "408F60279A36C8C9"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "47A1D2433190FCA9"
+			rewards: [{
+				id: "7E51E897BE882125"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:hell"
+				criterion: ""
+				id: "6EFC5E2E54C65611"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "4B66239F2D3C49E8"
+			rewards: [
+				{
+					id: "4E075A868F2F6C2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "4C701B12062B88D3"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E25C45D97D4EF01"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B66239F2D3C49E8"]
+			id: "63CEAB4E2ECE12BF"
+			rewards: [
+				{
+					id: "1D506FC7708BC83C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "19EFB40CE963856F"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1B1A140FF4CBA128"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "113A0FF5189E0BF3"
+			rewards: [{
+				id: "4898AE98E0684F08"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "6183DAFC375034F7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "0DACE381437226AA"
+			rewards: [{
+				id: "1211374409EB5D5C"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "0AB0DC48B5FE0AF8"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			id: "32923A4C4099D9A7"
+			rewards: [{
+				id: "12D3D4E1B49D08B1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_village"
+				criterion: ""
+				id: "183744779F5EE424"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32923A4C4099D9A7"]
+			id: "635329ED80A141E0"
+			rewards: [{
+				id: "64500786A01E76E9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "7679BEC5A496A419"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32923A4C4099D9A7"]
+			id: "3E928DCA7FD75BC8"
+			rewards: [{
+				id: "09137B11F7F7ED3A"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "7D09CF93BFB36F7A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5482E2056F81C5B8"]
+			id: "762E27F0D94326FF"
+			rewards: [{
+				id: "7F3E0150B9B384E4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5EE5EF9C3BB76CFE"
+				item: { count: 1, id: "iceandfire:bestiary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["762E27F0D94326FF"]
+			id: "0303AC0731678D77"
+			rewards: [{
+				id: "52511F66C3E883B6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "120BCE735B2DC2F5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["762E27F0D94326FF"]
+			id: "74AEF26B86B7BCA0"
+			rewards: [
+				{
+					id: "121CA33DFA58305E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0FB6DA6BE3588090"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				id: "426A0B864652FB47"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+	]
+}

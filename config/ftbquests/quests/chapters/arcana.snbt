@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcana"
+	group: ""
+	icon: {
+		id: "tensura:high_quality_magic_crystal"
+	}
+	id: "4EF8F6219714AB1C"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tensura:high_quality_magic_crystal"
+			}
+			id: "299D230F869683BC"
+			rewards: [{
+				id: "67A6ED0FD5403D17"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tensura:wanderful"
+				criterion: ""
+				id: "2AA1E94A91E3A385"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299D230F869683BC"]
+			id: "5530B4DBEF3B0767"
+			rewards: [{
+				id: "1D8E7AFBC8C91549"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "tensura:forbidden_manual"
+				criterion: ""
+				id: "148F9306CEFCC092"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["299D230F869683BC"]
+			id: "2EDB01CDE3E3A5FA"
+			rewards: [{
+				id: "2908AD90AAE3AEC7"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:explosion"
+				criterion: ""
+				id: "539954831E2E123F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299D230F869683BC"]
+			id: "0A0A6C320AB3DEA0"
+			rewards: [{
+				id: "47FF8D231B2F2D41"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:blessed_one"
+				criterion: ""
+				id: "2CB6EA94C4B1B4F6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "0BA897137AB4BFB1"
+			rewards: [{
+				id: "7F3F3EEBE038E548"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:no_no_square"
+				criterion: ""
+				id: "4DCE61C843F02B90"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299D230F869683BC"]
+			id: "3ED037AA91AEDCA2"
+			rewards: [{
+				id: "55DE2B217292B16E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "tensura:hipokute_flower"
+				criterion: ""
+				id: "79507CECA2B0AB80"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ED037AA91AEDCA2"]
+			id: "5E6CFD0F441CF4C6"
+			rewards: [{
+				id: "77687DDB09DF3A2C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "tensura:magic_seedy_place"
+				criterion: ""
+				id: "3476546E90A7DCE8"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E6CFD0F441CF4C6"]
+			id: "0A25A46F284D2DB2"
+			rewards: [
+				{
+					id: "3604FAB4EE2EB35F"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "3C3E7ECF4746D501"
+					item: {
+						count: 1
+						id: "tensura:full_potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "tensura:good_as_new"
+				criterion: ""
+				id: "06928DBE8A101B90"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BA897137AB4BFB1"]
+			id: "11A9B205C6C788EE"
+			rewards: [{
+				id: "646C5AB10CA47D10"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:way_stone"
+				criterion: ""
+				id: "1CF1DEB710C7EE71"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299D230F869683BC"]
+			id: "67E9A9BBF9A1FED2"
+			optional: true
+			rewards: [{
+				id: "45913C327ECC458A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "tensura:rewind_time"
+				criterion: ""
+				id: "37DBE5E1230BA2E5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "657BECF97A2FAAFA"
+			rewards: [{
+				id: "058336419A16F16E"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:sa_rank"
+				criterion: ""
+				id: "05489E6E6C8F243D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["657BECF97A2FAAFA"]
+			id: "6784EDC361C977BE"
+			rewards: [
+				{
+					id: "09B51A32A460E66A"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "1C2AE0E2BC9F5A81"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:ss_rank"
+				criterion: ""
+				id: "13B72E5E7F12D43E"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "1F70B8E6BA084E53"
+			rewards: [{
+				id: "5C12DF2F33B6CC83"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:infamy_famous"
+				criterion: ""
+				id: "3C43A4D325E91775"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "0C888EC35914F1FF"
+			rewards: [{
+				id: "3A25070C630F4720"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:otherworldly_biomes"
+				criterion: ""
+				id: "54093CF2B6EBC6F1"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "19CFF34234029D40"
+			rewards: [{
+				id: "70D8FD0056A49DEB"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:unholy_tourism"
+				criterion: ""
+				id: "5B361D6747FBFCD4"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "56F093C77C60DC76"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1AED7D9C0F9E86E0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "tensura:nanoda"
+				criterion: ""
+				id: "24710DF16AD06B70"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,494 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "journal"
+	group: ""
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "55E2122160C31462"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "57136F93D7DC87DB"
+			rewards: [{
+				id: "1033B252A9D4C6E1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			tasks: [{
+				biome: "tensura:ancient_forest"
+				id: "50BE038A16ABB347"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "5A2629810492E443"
+			rewards: [{
+				id: "6AE20D11C0A4B155"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "tensura:barren_land"
+				id: "5D7C32947B25D67D"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "15E0A0CC8B26A397"
+			rewards: [{
+				id: "765E070E11EE78CD"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				biome: "tensura:miasmic_plains"
+				id: "00933EA21F5B46F7"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5A2629810492E443"
+				"15E0A0CC8B26A397"
+			]
+			id: "58432AD08BE34801"
+			rewards: [{
+				id: "76CA89A923164047"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "tensura:desert_of_death"
+				id: "6424E6099AC06510"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "1E2A45DEC21E500A"
+			rewards: [{
+				id: "4139B382A81A4527"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				id: "6CF5DCD37B243D0D"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E2A45DEC21E500A"]
+			id: "6A439E3DF277615E"
+			rewards: [{
+				id: "0C188ECF148DAF76"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				id: "6F1D506C6EBA386B"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E2A45DEC21E500A"]
+			id: "650E52DA9DBA6127"
+			rewards: [{
+				id: "431588E12E8011E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				id: "16AD97A80238784E"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["650E52DA9DBA6127"]
+			id: "1B1648A69B5F84F0"
+			rewards: [{
+				id: "6B5771AA04053BD1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "minecraft:badlands"
+				id: "65574CED7E31FF12"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "52B6743654E4695F"
+			rewards: [{
+				id: "56C4853923D98404"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				id: "30521512809AC781"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52B6743654E4695F"]
+			id: "27D893ACB4D8552B"
+			rewards: [{
+				id: "27C42C4EAF7212DF"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "61F2685EDEF3DE1A"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27D893ACB4D8552B"]
+			id: "3E5A739BD3149B0A"
+			optional: true
+			rewards: [{
+				id: "0AD922211260093B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				biome: "iceandfire:dread_forest"
+				id: "47451F5283E24291"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "76D0AB3B24FB78B0"
+			rewards: [{
+				id: "5DDC02ECD1B929DC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				id: "159D067AB059640B"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["76D0AB3B24FB78B0"]
+			id: "7D45FEE42A69ABE7"
+			rewards: [{
+				id: "5DDC27E61AD305AE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "42958716972DD339"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D45FEE42A69ABE7"]
+			id: "06FE00D920E35319"
+			rewards: [{
+				id: "3E48059BD0E3FF9D"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				id: "12FFC86D7F31E026"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06FE00D920E35319"]
+			id: "3952BF42028A466C"
+			rewards: [{
+				id: "0BD456D97D34D5DE"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "tensura:underworld_spikes"
+				id: "00A2D17E0FBB5C0A"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3952BF42028A466C"]
+			id: "27950EF264385970"
+			rewards: [{
+				id: "2556F8AB09D8206B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				id: "737E3778B928342B"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "0849F4800810E8D2"
+			rewards: [{
+				id: "15D7628FB8D7C5C6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0749D459B8959605"
+				observation_type: "block"
+				observe_type: 0
+				timer: 20L
+				to_observe: "tensura:magic_ore"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "7AEEBBB5D0DD9154"
+			rewards: [{
+				id: "324BCC3C03424CEB"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "54EF58A0F8D1DB6A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:unicorn"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AEEBBB5D0DD9154"]
+			id: "764AB3112CFE26BD"
+			rewards: [{
+				id: "7FC6B68E25BD3472"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "3CC7CEFB8A618678"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:pegasus"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AEEBBB5D0DD9154"]
+			id: "7132BFB5A70A2845"
+			rewards: [{
+				id: "54752495583BA19C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "6B2E07C7A3C302EE"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:winged_cat"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"764AB3112CFE26BD"
+				"7132BFB5A70A2845"
+			]
+			id: "0FE7A292CD1BB363"
+			rewards: [{
+				id: "2A3F922F9240B3C2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FD178ED538A92CF"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:dragon_peacock"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "77E9D62A287074D1"
+			rewards: [{
+				id: "13333DD5E9787498"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "459B45F50F45E85B"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:salamander"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E9D62A287074D1"]
+			id: "62B7289DD49F6952"
+			rewards: [{
+				id: "1F239E5ADA8C331C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "11970A1547D362E4"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:undine"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62B7289DD49F6952"]
+			id: "1FE180C4596E92D0"
+			rewards: [{
+				id: "3FAC0D7ACA96AC5A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3AAC53A28DC580C7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "tensura:sylphide"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57136F93D7DC87DB"]
+			id: "051021AF617A0D65"
+			rewards: [{
+				id: "6546BAFEA567DC6C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4C74FB16BCCE8E84"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "iceandfire:pixie"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["051021AF617A0D65"]
+			id: "615C752ED4A2D0A5"
+			rewards: [{
+				id: "395D627D7FFED1FB"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "1BBDE1650A211FA7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "iceandfire:fire_dragon"
+				type: "observation"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["615C752ED4A2D0A5"]
+			id: "69DC9F0CB3EE001B"
+			rewards: [{
+				id: "16D4EE6FC7AB27D7"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "0597203FE7C1CD22"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "iceandfire:sea_serpent"
+				type: "observation"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+	]
+}

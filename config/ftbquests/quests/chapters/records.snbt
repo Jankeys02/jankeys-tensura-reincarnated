@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "records"
+	group: ""
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "166EA8169D15B1F2"
+	images: [ ]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "137766BFB435480F"
+			rewards: [{
+				count: 16
+				id: "6DAFAF7F48CB4D25"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "230A07BED3EFA2AB"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["137766BFB435480F"]
+			id: "0EA823495B8C7EA9"
+			rewards: [{
+				count: 32
+				id: "7508B72166693431"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38B292CA7F0E90B6"
+				points: false
+				type: "xp"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA823495B8C7EA9"]
+			id: "33587B2363C7D082"
+			rewards: [{
+				id: "488FAA3B0E306D5E"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "48A72589F5296673"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["137766BFB435480F"]
+			id: "752DF7456B73E494"
+			rewards: [{
+				id: "3D150B46FFAA29C6"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "20659136D925708D"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["752DF7456B73E494"]
+			id: "27F907A13AF6C871"
+			rewards: [{
+				id: "61FA94AD6E569536"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AB3399010C5EA83"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 10000000
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27F907A13AF6C871"]
+			id: "5D5FFE73E1D51420"
+			rewards: [{
+				id: "090C946A524634B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "170B26AF60E8B840"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 5000000
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["137766BFB435480F"]
+			id: "2405A27421B7DC4B"
+			rewards: [{
+				id: "2AE8483F6FF86BB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "75B20129AD1EDFC7"
+				stat: "minecraft:swim_one_cm"
+				type: "stat"
+				value: 500000
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2405A27421B7DC4B"]
+			id: "7E7B019B2258D819"
+			rewards: [{
+				id: "3806D2A45D989D37"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "45923BC12E473818"
+				stat: "minecraft:boat_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E7B019B2258D819"]
+			id: "550A75DBBAF969AB"
+			optional: true
+			rewards: [{
+				id: "309CF3CF20960A88"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "741E335D5663A4F0"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 10000000
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["137766BFB435480F"]
+			id: "79281AF9F6F2CBBF"
+			rewards: [{
+				id: "468DDFCBBD503C59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "65BA6DE7D3102E84"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79281AF9F6F2CBBF"]
+			id: "45A64FF6DEFFF680"
+			rewards: [{
+				id: "7F507AAD8D6D1366"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61DFE256CB166C13"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45A64FF6DEFFF680"]
+			id: "22BE44EE433DD7EE"
+			optional: true
+			rewards: [{
+				id: "284842B6AE53F073"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "67EC21E618FE4D29"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 10000
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["137766BFB435480F"]
+			id: "4D328D69C7EF1D3F"
+			rewards: [{
+				id: "0B51250A1304F65A"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "570EDFD7B5FD102A"
+				stat: "minecraft:jump"
+				type: "stat"
+				value: 10000
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4D328D69C7EF1D3F"]
+			id: "5BD37A47E8095B63"
+			rewards: [{
+				id: "1E6ECD825BED7603"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0B9FE6883319CD87"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 50
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4D328D69C7EF1D3F"]
+			id: "12BE3C3B20B8E551"
+			rewards: [{
+				id: "628A3A25099D4424"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1F342FD9E0DFC483"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 50
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["12BE3C3B20B8E551"]
+			id: "1B8CA89E0206CFFB"
+			rewards: [{
+				id: "62337133D5E4383E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "53ACED25FBF4C159"
+				stat: "minecraft:traded_with_villager"
+				type: "stat"
+				value: 100
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79281AF9F6F2CBBF"]
+			id: "3848277491035296"
+			rewards: [{
+				id: "3A76062FB555B73A"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "170C5E4FFCD3507F"
+				stat: "minecraft:enchant_item"
+				type: "stat"
+				value: 25
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EA823495B8C7EA9"]
+			id: "3EA817C089B16C32"
+			rewards: [{
+				id: "0A8E4134BEF3434F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "759B1E3568C972A7"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 720000
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EA817C089B16C32"]
+			id: "5E94391E40AE9F8F"
+			optional: true
+			rewards: [{
+				id: "521A0014ED8AB7D1"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "06D3CECD48632A25"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 7200000
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

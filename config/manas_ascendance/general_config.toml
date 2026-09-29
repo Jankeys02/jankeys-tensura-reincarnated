@@ -1,0 +1,41 @@
+[General]
+	#The max amount of possible Demon Lords
+	maxDemonLord = 10
+	#The max amount of possible Heroes
+	maxHero = 10
+	#The amount of influence gained when a title holder kills a rival.
+	influenceGain = 1
+	#The amount of notoriety/valor gained when a title holder kills a rival outside of a challenge.
+	notorietyValorGain = 5
+	#The amount of notoriety/valor lost when a title holder is killed by a rival outside of a challenge.
+	notorietyValorLoss = 5
+	#UUIDs of players that should be skipped entirely during automatic title assignment.
+	titleAssignmentBlacklist = []
+	#The amount of hours a title holder can be offline before their title is automatically revoked. 0 means it is disabled.
+	titleRevokeTimer = 0
+
+[Faction]
+	#The percentage of soul gain increase given by the Soul Siphon perk.
+	soulSiphonGainIncrease = 10.0
+	#The percentage of reduction for trades of villagers given by the Better Trades perk.
+	betterTradeVillagerReduction = 10.0
+	#The percentage of reduction for trades of dwarves given by the Better Trades perk.
+	betterTradeDwarfReduction = 10.0
+	#Should reputation be reset when changing faction.
+	reputationReset = true
+	#Should the number of challenges won be reset when changing faction.
+	challengesWonReset = true
+
+[Command]
+	#The command to execute when a player becomes a Demon Lord.
+	commandDemonLordGrant = "lp user %s parent add"
+	#The command to execute when a player becomes a Hero.
+	commandHeroGrant = "lp user %s parent add"
+	#The command to execute when a player stops being a Demon Lord.
+	commandDemonLordRevoke = "lp user %s parent remove"
+	#The command to execute when a player stops being a Hero.
+	commandHeroRevoke = "lp user %s parent remove"
+	#The command to execute when a Walpurgis ends.
+	commandWalpurgisEnd = ""
+	#The command to execute when a Hero Council ends.
+	commandCouncilEnd = ""

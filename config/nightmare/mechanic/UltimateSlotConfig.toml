@@ -1,0 +1,45 @@
+[ultimateSlotSettings]
+	#Default amount of ultimate slots each player starts with.
+	# Default: 1
+	# Range: > 0
+	DefaultUltimateSlot = 1
+	#If true, the initial slot count is randomized instead of the default value.
+	UltimateSlotRandomizer = false
+	#Maximum value for randomized initial ultimate slots.
+	# Default: 4
+	# Range: > 1
+	UltimateSlotRandomizerMaxValue = 4
+	#If true, reset counters can grant additional ultimate slots.
+	UltimateSlotResetGain = true
+	#How many ultimate slots are granted by each reset counter reward.
+	# Default: 1
+	# Range: > 0
+	UltimateSlotResetEarn = 1
+	#Maximum ultimate slots that can be earned through reset counters.
+	# Default: 4
+	# Range: > 0
+	UltimateSlotResetMaxEarned = 4
+	#How many reset counters are needed before an extra slot reward is granted.
+	# Default: 1
+	# Range: > 1
+	UltimateSlotResetEarnRate = 1
+	#If true, bosses can grant additional ultimate slots on defeat.
+	EnableUltimateSlotRewards = true
+	#Chance for a boss reward to grant an additional ultimate slot.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	UltimateSlotRewardChance = 0.25
+	#Boss entity IDs that can grant an extra ultimate slot.
+	UltimateSlotRewardBosses = ["trnightmare:sentient_boss_veldora", "trnightmare:sentient_boss_velgrynd", "trnightmare:sentient_boss_velzard", "trnightmare:sentient_boss_yuuki_desire", "trnightmare:sentient_boss_milim_wrath", "trnightmare:sentient_boss_primordial_daemon", "trnightmare:sentient_boss_masayuuki"]
+	#If true, completing self-naming grants an extra ultimate slot.
+	EnableSelfNamingSlot = true
+	#How many ultimate slots self-naming grants.
+	# Default: 1
+	# Range: > 0
+	SelfNamingSlotAmount = 1
+	#If true, awakening grants an extra ultimate slot.
+	EnableAwakeningSlot = true
+	#How many ultimate slots awakening grants.
+	# Default: 1
+	# Range: > 0
+	AwakeningSlotAmount = 1

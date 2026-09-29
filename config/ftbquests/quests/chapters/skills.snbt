@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "skills"
+	group: ""
+	icon: {
+		id: "minecraft:enchanted_book"
+	}
+	id: "5CE71D4ABE9301CC"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "2A5C5A23E67B5A32"
+			rewards: [{
+				id: "7AD2A4A59D42A7EB"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "gear"
+			tasks: [{
+				ability: "tensura:magic_sense"
+				id: "5D911F7FD7310789"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "0EC40522D2447D4E"
+			rewards: [{
+				id: "7ED9CDD5D5022E52"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				ability: "tensura:thought_acceleration"
+				id: "681549E75935437A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "5EA1258B81F06949"
+			rewards: [{
+				id: "022236B99D8CA00C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				ability: "tensura:danger_sense"
+				id: "4CF8D9D497673B71"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0EC40522D2447D4E"
+				"5EA1258B81F06949"
+			]
+			id: "073FA249347D2BCE"
+			rewards: [{
+				id: "53785CCF38109859"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				ability: "tensura:analytical_appraisal"
+				id: "24E5E0E339FF5A73"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "099672DF32D25CE5"
+			rewards: [{
+				id: "25B619FB2DADD9C3"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				ability: "tensura:self_regeneration"
+				id: "16EEA847FFACFA5F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["099672DF32D25CE5"]
+			id: "31DB705917346CC8"
+			rewards: [{
+				id: "0BA081FC534F3E51"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "tensura:ultraspeed_regeneration"
+				id: "7B665D1971C9DF33"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31DB705917346CC8"]
+			id: "2C22430695760EB3"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "312D6F8C8F470059"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:infinite_regeneration"
+				id: "10A70F3812C71A34"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "46AE059C076DE53B"
+			rewards: [{
+				id: "4DBDFEB2D4CAA185"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "tensura:pain_resistance"
+				id: "5C7DA4382E27C2D3"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46AE059C076DE53B"]
+			id: "0BA797D7537E7677"
+			rewards: [{
+				id: "38F5BDB65AA8A5E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "tensura:physical_attack_resistance"
+				id: "7CE48AF418EEFF50"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46AE059C076DE53B"]
+			id: "58A1D041D9AA26C5"
+			rewards: [{
+				id: "3867AC60401960BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "tensura:magic_resistance"
+				id: "13CF66811F642EE9"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BA797D7537E7677"]
+			id: "75B72F33497EDC5C"
+			optional: true
+			rewards: [{
+				id: "4D73918B684EA7DA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				ability: "tensura:physical_attack_nullification"
+				id: "24C5FA6D539B7800"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["073FA249347D2BCE"]
+			id: "2ACC721C11B4EC5E"
+			rewards: [{
+				id: "418569653C06CCE8"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "tensura:haki"
+				id: "760AA4649BA5DB7A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ACC721C11B4EC5E"]
+			id: "71D706EB15A3A2F6"
+			optional: true
+			rewards: [{
+				id: "6B664378A230A884"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "tensura:demon_lord_haki"
+				id: "7B13A7FE86C4A7CC"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2ACC721C11B4EC5E"]
+			id: "218756F10310A0E3"
+			optional: true
+			rewards: [{
+				id: "09C307920B597251"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "tensura:hero_haki"
+				id: "2053EE5D3AA301DB"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "0FC1BEAC49FCA86D"
+			rewards: [{
+				id: "0570C45A09642BE0"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "7DAB649DCFF84DE9"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0FC1BEAC49FCA86D"]
+			id: "563A79B4738256A6"
+			rewards: [{
+				id: "5CAA62F68B762DC1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "6070E15D5C26926B"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["563A79B4738256A6"]
+			id: "58FA2FF88CC7F1BD"
+			rewards: [{
+				id: "2BBE98603F93D0CA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "235568EB0C91DB3B"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58FA2FF88CC7F1BD"]
+			id: "4DA35C916A223439"
+			rewards: [
+				{
+					id: "63B1C61D26CC7949"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "05978C7AE343C986"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6CB150EE18D3C321"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "4ECB92C3A88C7679"
+			rewards: [{
+				id: "76A9AEA28C4469B1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "5CE7E939EC24D377"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4ECB92C3A88C7679"]
+			id: "2570AD68C4BA6112"
+			rewards: [{
+				id: "74F2F38CF70BF6B2"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "45FD197BAC107A9B"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2570AD68C4BA6112"]
+			id: "575D949A6E1C4F7E"
+			rewards: [{
+				id: "3A60835F05CC34F2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0BFAC9B85EFEF9C8"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["575D949A6E1C4F7E"]
+			id: "440388226A5795E5"
+			rewards: [
+				{
+					id: "5B671E57B7449D10"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "6AB57B5CD45F2AD7"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F37DDAA7A5C4F28"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "7776696B306D8902"
+			optional: true
+			rewards: [{
+				id: "4BBE9D54E4B55CD5"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "FLAME"
+				id: "3CDBD4B1AE47F7A3"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "2E1D639FF3142FB2"
+			optional: true
+			rewards: [{
+				id: "0537A30F37791661"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "WATER"
+				id: "76547C1F2DE73FDB"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "713D283998F36E79"
+			optional: true
+			rewards: [{
+				id: "1F485E682B8B2542"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "WIND"
+				id: "76DDEDECCEE9A67C"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "2B24E74A9EBB8813"
+			optional: true
+			rewards: [{
+				id: "150DD48375DA035D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "EARTH"
+				id: "593610B6757E24AA"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "3EFAE8C117455633"
+			optional: true
+			rewards: [{
+				id: "07D828F29D5CD556"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "SPACE"
+				id: "2768ACA70D68AEE5"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "422956D01109519B"
+			optional: true
+			rewards: [{
+				id: "7F60C3EDEDD8906B"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "LIGHT"
+				id: "0C69BF1D54528C83"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A5C5A23E67B5A32"]
+			id: "409EF82E3D6CE23B"
+			optional: true
+			rewards: [{
+				id: "576D56081B952C80"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				element: "DARKNESS"
+				id: "13C5016BDC81CD5F"
+				level: "LESSER"
+				type: "tensura_ftb:spirit"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "6D92CC332EAFB996"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "451942D9A2AE006F"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:pride"
+				id: "7B9A7EA0EABED37F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			id: "728BCBE23A4970AB"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "333C8CB6BE6DAE95"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:greed"
+				id: "01AB3B972ECA079B"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			id: "0A3C3A8D11A79C12"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "084DFF978792B54E"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:envy"
+				id: "03B9E7D2ADEC9BD2"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "157A94DC1DB1406C"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1E8216630F831742"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:wrath"
+				id: "3216B87C3EC6825F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "0088A002A3BE7CE1"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "754466BAC19614B9"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:lust"
+				id: "61402933C673CF85"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "5F9315AA83604871"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "554470225DE9240A"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:gluttony"
+				id: "7D576A1662618735"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "2039B232340D9A30"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "525C20287F5E4F07"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:sloth"
+				id: "34B847DA6F8C9381"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			id: "16BA2F145C472041"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1F50F99AB743C01C"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:great_sage"
+				id: "4A8CB2A1D3FCBA9E"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			id: "3329421606AF9752"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "78D67B1E877018B7"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensura:predator"
+				id: "6A203A74F087D808"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+	]
+}

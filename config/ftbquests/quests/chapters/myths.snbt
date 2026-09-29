@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "myths"
+	group: ""
+	icon: {
+		id: "iceandfire:dragon_horn"
+	}
+	id: "17C12CBBFD2EED9B"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "iceandfire:bestiary"
+			}
+			id: "798C8C43078E749D"
+			rewards: [{
+				id: "6FF9289F63352206"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/bestiary"
+				criterion: ""
+				id: "19E36BA31106C2E4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["798C8C43078E749D"]
+			id: "537C803260DED43D"
+			rewards: [{
+				id: "39B7A6354F028657"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/lectern"
+				criterion: ""
+				id: "6AFAA09085ECECD1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["798C8C43078E749D"]
+			id: "1256BE7D799121CE"
+			rewards: [{
+				id: "1CB28A654D4FDB6B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "195A5D38B0544024"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7CDABC8B37CAC9D8"
+			rewards: [{
+				id: "17E7A2E506C6FC63"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_meal"
+				criterion: ""
+				id: "5425A6139C817092"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "7700E2273E2B3C39"
+			rewards: [{
+				id: "3D18BE162DCB57B6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_staff"
+				criterion: ""
+				id: "77BECC298467B818"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "41DEA4A660279B03"
+			rewards: [{
+				id: "34BD5A3B7F7D26D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_horn"
+				criterion: ""
+				id: "40AB6AE2F8D1CC4E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CDABC8B37CAC9D8"]
+			id: "3763BE464EFFBF11"
+			rewards: [{
+				id: "6383022E9B6835AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_flute"
+				criterion: ""
+				id: "1F7BE5E170D36887"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3763BE464EFFBF11"]
+			id: "0808529BCFD0B275"
+			rewards: [{
+				id: "00ADB8F154C1FC15"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonarmor"
+				criterion: ""
+				id: "194F8A63586A6B6A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["798C8C43078E749D"]
+			id: "57F59FC5F94AD543"
+			rewards: [{
+				id: "4F24975B448E4384"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				id: "68B0D89E4B6719CF"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "47A254C5BAEA0733"
+			rewards: [{
+				id: "0AF4D76134985353"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_tool"
+				criterion: ""
+				id: "273798BD0B1D7F5B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "3347B9ACAB9639FF"
+			rewards: [{
+				id: "315977C4AD8BC082"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+				criterion: ""
+				id: "01E6748DE6BF2040"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "6403C313333DEEE4"
+			rewards: [{
+				id: "4984EF57E5173AA8"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+				id: "23F7C2F688ADE135"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6403C313333DEEE4"]
+			id: "437FD2DC1EBFCFAA"
+			rewards: [{
+				id: "55DBAFAE8332EA80"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "1EEFD72256E54DB1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["437FD2DC1EBFCFAA"]
+			id: "0E78B805AA76B260"
+			rewards: [{
+				id: "238E8868A37F2E2D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "3D0C043E70993DD1"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "4F69F2DE1A885086"
+			rewards: [{
+				id: "44DFC66C35EADD3B"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+				id: "6D12174E5BD7DE5C"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["798C8C43078E749D"]
+			id: "43A0774374FEEFE8"
+			rewards: [{
+				id: "10A79455BEA5BD21"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "036C09CC99D1EF6F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "103745E3AC96B6B0"
+			rewards: [{
+				id: "60622F2875E499B1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "2529CF98AAA9701E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "580185BA339E184A"
+			rewards: [{
+				id: "04F9DCE9161932D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "386AC79E0921922A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "384CED9DEB6AA6B7"
+			rewards: [{
+				id: "74470753A70BB98A"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_cockatrice"
+				criterion: ""
+				id: "4C0D13D25B05A41B"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["798C8C43078E749D"]
+			id: "241B545DD9D57139"
+			rewards: [{
+				id: "373F297D324F0118"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				id: "2AE490686FE1FC39"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "3CC999DEE640FE31"
+			rewards: [{
+				id: "797C60D49BB6AE50"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "7EA8A3947AFEFDE0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3CC999DEE640FE31"]
+			id: "107CEB05F0F2CA93"
+			rewards: [{
+				id: "6BDFD14132E0F412"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/pixie_wand"
+				criterion: ""
+				id: "3C0C6A72A0CC8CF9"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			id: "2359DC0627F66C69"
+			rewards: [{
+				id: "012A3FACF9018AE6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "36C93AC533DD96A4"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "140094805984D111"
+			rewards: [{
+				id: "649F9DB5B2EF566E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+				id: "2E1B7DDB97FA552B"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			id: "5362EF3DF733A1E3"
+			rewards: [{
+				id: "295F74F189D18059"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+				id: "2A1193D675F2B9B8"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			id: "000A426030D835B9"
+			rewards: [{
+				id: "656439B5EBA5DE63"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "4C0C3E0CA243E2C1"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			id: "225D1F124DEDDB93"
+			rewards: [{
+				id: "0BE0D4E8407C9132"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/use_tide_trident"
+				criterion: ""
+				id: "0BB03F314FC11FD2"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["140094805984D111"]
+			id: "196B84A3D7697645"
+			rewards: [{
+				id: "1390B6FB6AFDBB6D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "5DA2DF65D901DACC"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			id: "7FEBFD4381D093C2"
+			rewards: [{
+				id: "01E30DA07AA83A23"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "4372671A78765CEF"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "2ADD14964B264CF4"
+			rewards: [{
+				id: "60BED7BEE644D6FF"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/gorgon_head"
+				criterion: ""
+				id: "596735548D88DFD0"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["225D1F124DEDDB93"]
+			hide_details_until_startable: true
+			id: "674B79271673826E"
+			rewards: [
+				{
+					id: "77F2FF4FBB3EDAF1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "5C962C0FCBD3810C"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "6EE69287024B2396"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "503DBFB104566626"
+			optional: true
+			rewards: [{
+				id: "22052B3DCE858079"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "6F75072A5DA8F4EE"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+	]
+}

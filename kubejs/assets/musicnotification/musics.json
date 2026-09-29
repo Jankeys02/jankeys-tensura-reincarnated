@@ -1,0 +1,1583 @@
+{
+ "minecraft:music/game/a_familiar_room": {
+  "album": "Trails & Tailes Update No.2",
+  "author": "Aaron Cherof",
+  "cover": "trails_and_tales_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.a_familiar_room",
+  "title": "A Familiar Room"
+ },
+ "minecraft:music/game/an_ordinary_day": {
+  "album": "Caves & Cliffs No. 10",
+  "author": "Kumi Tanioka",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.an_ordinary_day",
+  "title": "An Ordinary Day"
+ },
+ "minecraft:music/game/ancestry": {
+  "album": "The Wild Update No.3",
+  "author": "Lena Raine",
+  "cover": "wild_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.ancestry",
+  "title": "Ancestry"
+ },
+ "minecraft:music/game/bromeliad": {
+  "album": "Trails & Tailes Update No.3",
+  "author": "Aaron Cherof",
+  "cover": "trails_and_tales_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.bromeliad",
+  "title": "Bromeliad"
+ },
+ "minecraft:music/game/clark": {
+  "album": "Volume Alpha No. 14",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.clark",
+  "title": "Clark"
+ },
+ "minecraft:music/game/comforting_memories": {
+  "album": "Caves & Cliffs No. 9",
+  "author": "Kumi Tanioka",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.comforting_memories",
+  "title": "Comforting Memories"
+ },
+ "minecraft:music/game/creative/aria_math": {
+  "album": "Volume Beta No. 13",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.aria_math",
+  "title": "Aria Math"
+ },
+ "minecraft:music/game/creative/biome_fest": {
+  "album": "Volume Beta No. 8",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.biome_fest",
+  "title": "Biome Fest"
+ },
+ "minecraft:music/game/creative/blind_spots": {
+  "album": "Volume Beta No. 4",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.blind_spots",
+  "title": "Blind Spots"
+ },
+ "minecraft:music/game/creative/dreiton": {
+  "album": "Volume Beta No. 18",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.dreiton",
+  "title": "Dreiton"
+ },
+ "minecraft:music/game/creative/haunt_muskie": {
+  "album": "Volume Beta No. 10",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.haunt_muskie",
+  "title": "Haunt Muskie"
+ },
+ "minecraft:music/game/creative/taswell": {
+  "album": "Volume Beta No. 16",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.creative.taswell",
+  "title": "Taswell"
+ },
+ "minecraft:music/game/crescent_dunes": {
+  "album": "Trails & Tailes Update No.4",
+  "author": "Aaron Cherof",
+  "cover": "trails_and_tales_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.crescent_dunes",
+  "title": "Crescent Dunes"
+ },
+ "minecraft:music/game/danny": {
+  "album": "Volume Alpha No. 21",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.danny",
+  "title": "Danny"
+ },
+ "minecraft:music/game/deeper": {
+  "album": "Tricky Trials Update No. 7",
+  "author": "Lena Raine",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.deeper",
+  "title": "Deeper"
+ },
+ "minecraft:music/game/dry_hands": {
+  "album": "Volume Alpha No. 12",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.dry_hands",
+  "title": "Dry Hands"
+ },
+ "minecraft:music/game/echo_in_the_wind": {
+  "album": "Trails & Tailes Update No.1",
+  "author": "Aaron Cherof",
+  "cover": "trails_and_tales_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.echo_in_the_wind",
+  "title": "Echo in the Wind"
+ },
+ "minecraft:music/game/eld_unknown": {
+  "album": "Tricky Trials Update No. 8",
+  "author": "Lena Raine",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.eld_unknown",
+  "title": "Eld Unknown"
+ },
+ "minecraft:music/game/end/alpha": {
+  "album": "Volume Beta No. 2",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.end.alpha",
+  "title": "Alpha"
+ },
+ "minecraft:music/game/end/boss": {
+  "album": "",
+  "author": "C418",
+  "customId": "musicnotification:mn.minecraft.music.game.end.boss",
+  "title": "Boss"
+ },
+ "minecraft:music/game/end/the_end": {
+  "album": "Volume Beta No. 19",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.end.the_end",
+  "title": "The End"
+ },
+ "minecraft:music/game/endless": {
+  "album": "Tricky Trials Update No. 9",
+  "author": "Lena Raine",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.endless",
+  "title": "Endless"
+ },
+ "minecraft:music/game/featherfall": {
+  "album": "Tricky Trials Update No. 1",
+  "author": "Aaron Cherof",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.featherfall",
+  "title": "Featherfall"
+ },
+ "minecraft:music/game/floating_dream": {
+  "album": "Caves & Cliffs No. 8",
+  "author": "Kumi Tanioka",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.floating_dream",
+  "title": "Floating Dream"
+ },
+ "minecraft:music/game/haggstrom": {
+  "album": "Volume Alpha No. 7",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.haggstrom",
+  "title": "Haggstrom"
+ },
+ "minecraft:music/game/infinite_amethyst": {
+  "album": "Caves & Cliffs No. 5",
+  "author": "Lena Raine",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.infinite_amethyst",
+  "title": "Infinite Amethyst"
+ },
+ "minecraft:music/game/key": {
+  "album": "Volume Alpha No. 1",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.key",
+  "title": "Key"
+ },
+ "minecraft:music/game/komorebi": {
+  "album": "Tricky Trials Update No. 4",
+  "author": "Kumi Tanioka",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.komorebi",
+  "title": "komorebi"
+ },
+ "minecraft:music/game/left_to_bloom": {
+  "album": "Caves & Cliffs No. 2",
+  "author": "Lena Raine",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.left_to_bloom",
+  "title": "Left to Bloom"
+ },
+ "minecraft:music/game/living_mice": {
+  "album": "Volume Alpha No. 5",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.living_mice",
+  "title": "Living Mice"
+ },
+ "minecraft:music/game/mice_on_venus": {
+  "album": "Volume Alpha No. 11",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.mice_on_venus",
+  "title": "Mice on Venus"
+ },
+ "minecraft:music/game/minecraft": {
+  "album": "Volume Alpha No. 8",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.minecraft",
+  "title": "Minecraft"
+ },
+ "minecraft:music/game/nether/ballad_of_the_cats": {
+  "album": "Volume Beta No. 15",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.ballad_of_the_cats",
+  "title": "Ballad of the Cats"
+ },
+ "minecraft:music/game/nether/concrete_halls": {
+  "album": "Volume Beta No. 7",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.concrete_halls",
+  "title": "Concrete Halls"
+ },
+ "minecraft:music/game/nether/crimson_forest/chrysopoeia": {
+  "album": "Nether Update No. 1",
+  "author": "Lena Raine",
+  "cover": "nether_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.crimson_forest.chrysopoeia",
+  "title": "Chrysopoeia"
+ },
+ "minecraft:music/game/nether/dead_voxel": {
+  "album": "Volume Beta No. 3",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.dead_voxel",
+  "title": "Dead Voxel"
+ },
+ "minecraft:music/game/nether/nether_wastes/rubedo": {
+  "album": "Nether Update No. 2",
+  "author": "Lena Raine",
+  "cover": "nether_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.nether_wastes.rubedo",
+  "title": "Rubedo"
+ },
+ "minecraft:music/game/nether/soulsand_valley/so_below": {
+  "album": "Nether Update No. 3",
+  "author": "Lena Raine",
+  "cover": "nether_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.soulsand_valley.so_below",
+  "title": "So Below"
+ },
+ "minecraft:music/game/nether/warmth": {
+  "album": "Volume Beta No. 11",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.game.nether.warmth",
+  "title": "Warmth"
+ },
+ "minecraft:music/game/one_more_day": {
+  "album": "Caves & Cliffs No. 6",
+  "author": "Lena Raine",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.one_more_day",
+  "title": "One More Day"
+ },
+ "minecraft:music/game/oxygene": {
+  "album": "Volume Alpha No. 9",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.oxygene",
+  "title": "Oxygène"
+ },
+ "minecraft:music/game/pokopoko": {
+  "album": "Tricky Trials Update No. 5",
+  "author": "Kumi Tanioka",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.pokopoko",
+  "title": "pokopoko"
+ },
+ "minecraft:music/game/puzzlebox": {
+  "album": "Tricky Trials Update No. 3",
+  "author": "Aaron Cherof",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.puzzlebox",
+  "title": "Puzzlebox"
+ },
+ "minecraft:music/game/stand_tall": {
+  "album": "Caves & Cliffs No. 8",
+  "author": "Lena Raine",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.stand_tall",
+  "title": "Stand Tall"
+ },
+ "minecraft:music/game/subwoofer_lullaby": {
+  "album": "Volume Alpha No. 3",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.subwoofer_lullaby",
+  "title": "Subwoofer Lullaby"
+ },
+ "minecraft:music/game/swamp/aerie": {
+  "album": "The Wild Update No.2",
+  "author": "Lena Raine",
+  "cover": "wild_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.swamp.aerie",
+  "title": "Aerie"
+ },
+ "minecraft:music/game/swamp/firebugs": {
+  "album": "The Wild Update No. 1",
+  "author": "Lena Raine",
+  "cover": "wild_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.swamp.firebugs",
+  "title": "Firebugs"
+ },
+ "minecraft:music/game/swamp/labyrinthine": {
+  "album": "The Wild Update No. 3",
+  "author": "Lena Raine",
+  "cover": "wild_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.swamp.labyrinthine",
+  "title": "Labyrinthine"
+ },
+ "minecraft:music/game/sweden": {
+  "album": "Volume Alpha No. 18",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.sweden",
+  "title": "Sweden"
+ },
+ "minecraft:music/game/watcher": {
+  "album": "Tricky Trials Update No. 2",
+  "author": "Aaron Cherof",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.watcher",
+  "title": "Watcher"
+ },
+ "minecraft:music/game/water/axolotl": {
+  "album": "Axolotl",
+  "author": "C418",
+  "cover": "aquatic_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.water.axolotl",
+  "title": "Axolotl"
+ },
+ "minecraft:music/game/water/dragon_fish": {
+  "album": "Dragon Fish",
+  "author": "C418",
+  "cover": "aquatic_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.water.dragon_fish",
+  "title": "Dragon Fish"
+ },
+ "minecraft:music/game/water/shuniji": {
+  "album": "Shuniji",
+  "author": "C418",
+  "cover": "aquatic_update_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.water.shuniji",
+  "title": "Shuniji"
+ },
+ "minecraft:music/game/wending": {
+  "album": "Caves & Cliffs No. 4",
+  "author": "Lena Raine",
+  "cover": "caves_and_cliffs_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.wending",
+  "title": "Wending"
+ },
+ "minecraft:music/game/wet_hands": {
+  "album": "Volume Alpha No. 13",
+  "author": "C418",
+  "cover": "vol_alpha",
+  "customId": "musicnotification:mn.minecraft.music.game.wet_hands",
+  "title": "Wet Hands"
+ },
+ "minecraft:music/game/yakusoku": {
+  "album": "Tricky Trials Update No. 6",
+  "author": "Kumi Tanioka",
+  "cover": "tricky_trials_ost",
+  "customId": "musicnotification:mn.minecraft.music.game.yakusoku",
+  "title": "yakusoku"
+ },
+ "minecraft:music/menu/beginning_2": {
+  "album": "Volume Beta No. 17",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.menu.beginning_2",
+  "title": "Beginning 2"
+ },
+ "minecraft:music/menu/floating_trees": {
+  "album": "Volume Beta No. 12",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.menu.floating_trees",
+  "title": "Floating Trees"
+ },
+ "minecraft:music/menu/moog_city_2": {
+  "album": "Volume Beta No. 6",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.menu.moog_city_2",
+  "title": "Moog City 2"
+ },
+ "minecraft:music/menu/mutation": {
+  "album": "Volume Beta No. 9",
+  "author": "C418",
+  "cover": "vol_beta",
+  "customId": "musicnotification:mn.minecraft.music.menu.mutation",
+  "title": "Mutation"
+ },
+ "minecraft:records/11": {
+  "album": "",
+  "author": "C418",
+  "cover": "11",
+  "customId": "minecraft:music_disc.11",
+  "title": "11"
+ },
+ "minecraft:records/13": {
+  "album": "Volume Alpha No. 16",
+  "author": "C418",
+  "cover__": "13",
+  "customId": "minecraft:music_disc.13",
+  "title": "Thirteen"
+ },
+ "minecraft:records/5": {
+  "album": "The Wild Update No.4",
+  "author": "Samuel Åberg",
+  "cover": "5",
+  "customId": "minecraft:music_disc.5",
+  "title": "Five"
+ },
+ "minecraft:records/blocks": {
+  "album": "Volume Beta No. 28",
+  "author": "C418",
+  "cover": "blocks",
+  "customId": "minecraft:music_disc.blocks",
+  "title": "Blocks"
+ },
+ "minecraft:records/cat": {
+  "album": "Volume Alpha No. 19",
+  "author": "C418",
+  "cover": "cat",
+  "customId": "minecraft:music_disc.cat",
+  "title": "Cat"
+ },
+ "minecraft:records/chirp": {
+  "album": "Volume Beta No. 20",
+  "author": "C418",
+  "cover": "chirp",
+  "customId": "minecraft:music_disc.chirp",
+  "title": "Chirp"
+ },
+ "minecraft:records/creator": {
+  "album": "Tricky Trials Update No. 10",
+  "author": "Lena Raine",
+  "cover": "creator",
+  "customId": "minecraft:music_disc.creator",
+  "title": "Creator"
+ },
+ "minecraft:records/creator_music_box": {
+  "album": "Tricky Trials Update No. 11",
+  "author": "Lena Raine",
+  "cover": "creator_music_box",
+  "customId": "minecraft:music_disc.creator_music_box",
+  "title": "Creator (Music Box)"
+ },
+ "minecraft:records/far": {
+  "album": "Volume Beta No. 29",
+  "author": "C418",
+  "cover": "far",
+  "customId": "minecraft:music_disc.far",
+  "title": "Far"
+ },
+ "minecraft:records/mall": {
+  "album": "Volume Beta No. 27",
+  "author": "C418",
+  "cover": "mall",
+  "customId": "minecraft:music_disc.mall",
+  "title": "Mall"
+ },
+ "minecraft:records/mellohi": {
+  "album": "Volume Beta No. 22",
+  "author": "C418",
+  "cover": "mellohi",
+  "customId": "minecraft:music_disc.mellohi",
+  "title": "Mellohi"
+ },
+ "minecraft:records/otherside": {
+  "album": "Caves & Cliffs No. 7",
+  "author": "Lena Raine",
+  "cover": "otherside",
+  "customId": "minecraft:music_disc.otherside",
+  "title": "Otherside"
+ },
+ "minecraft:records/pigstep": {
+  "album": "Nether Update No. 4",
+  "author": "Lena Raine",
+  "cover": "pigstep",
+  "customId": "minecraft:music_disc.pigstep",
+  "title": "Pigstep"
+ },
+ "minecraft:records/precipice": {
+  "album": "Tricky Trials Update No. 12",
+  "author": "Aaron Cherof",
+  "cover": "precipice",
+  "customId": "minecraft:music_disc.precipice",
+  "title": "Precipice"
+ },
+ "minecraft:records/relic": {
+  "album": "Trails & Tailes Update No.5",
+  "author": "Aaron Cherof",
+  "cover": "relic",
+  "customId": "minecraft:music_disc.relic",
+  "title": "Relic"
+ },
+ "minecraft:records/stal": {
+  "album": "Volume Beta No. 23",
+  "author": "C418",
+  "cover": "stal",
+  "customId": "minecraft:music_disc.stal",
+  "title": "Stal"
+ },
+ "minecraft:records/strad": {
+  "album": "Volume Beta No. 24",
+  "author": "C418",
+  "cover": "strad",
+  "customId": "minecraft:music_disc.strad",
+  "title": "Strad"
+ },
+ "minecraft:records/wait": {
+  "album": "Volume Beta No. 21",
+  "author": "C418",
+  "cover": "wait",
+  "customId": "minecraft:music_disc.wait",
+  "title": "Wait"
+ },
+ "minecraft:records/ward": {
+  "album": "Volume Beta No. 26",
+  "author": "C418",
+  "cover": "ward",
+  "customId": "minecraft:music_disc.ward",
+  "title": "Ward"
+ },
+ "timm:music/creating_memories": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Creating Memories",
+  "customId": "timm:menu"
+ },
+ "timm:music/generating_worlds": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Generating Worlds",
+  "customId": "timm:menu"
+ },
+ "timm:music/idle": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Idle",
+  "customId": "timm:menu"
+ },
+ "timm:music/infinite_realities": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Infinite Realities",
+  "customId": "timm:menu"
+ },
+ "timm:music/menu-02": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "[Unnamed Menu Song]",
+  "customId": "timm:menu"
+ },
+ "timm:music/promised_lans": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Promised Lans",
+  "customId": "timm:menu"
+ },
+ "timm:music/echoes_of_the_canyon": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Echoes of the Canyon",
+  "customId": "timm:badlands"
+ },
+ "timm:music/the_final_grain": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Final Grain",
+  "customId": "timm:badlands"
+ },
+ "timm:music/track_6": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 6",
+  "customId": "timm:badlands"
+ },
+ "timm:music/thin_trees": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Thin Trees",
+  "customId": "timm:bamboo_jungle"
+ },
+ "timm:music/track_11": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 11",
+  "customId": "timm:beach"
+ },
+ "timm:music/turtles_retreat": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Turtles Retreat",
+  "customId": "timm:beach"
+ },
+ "timm:music/betulina": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Betulina",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/chateau": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Chateau",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/juagos_guago": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Juagos Guago",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/lost_concepts_broken_dreams": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lost Concepts (broken dreams)",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/rats_on_saturn": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Rats on Saturn",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/track_12": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 12",
+  "customId": "timm:birch_forest"
+ },
+ "timm:music/as_the_sakura_blossoms": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "As the Sakura Blossoms",
+  "customId": "timm:cherry_grove"
+ },
+ "timm:music/track_4": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 4",
+  "customId": "timm:cherry_grove"
+ },
+ "timm:music/zen_blossoms": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Zen Blossoms",
+  "customId": "timm:cherry_grove"
+ },
+ "timm:music/choral_vortex": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Choral Vortex",
+  "customId": "timm:ocean"
+ },
+ "timm:music/guardians_anthem": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Guardians Anthem",
+  "customId": "timm:ocean"
+ },
+ "timm:music/lurk": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lurk",
+  "customId": "timm:cold_ocean"
+ },
+ "timm:music/sea_foam": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Sea Foam",
+  "customId": "timm:ocean"
+ },
+ "timm:music/lost_in_a_forest": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lost in a Forest",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/lost_rituals": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lost Rituals",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/ruins_of_dukneyth": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Ruins of Dukneyth",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/spellbound": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Spellbound",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/terrible_plants": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Terrible Plants",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/the_wanderer": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Wanderer",
+  "customId": "timm:dark_forest"
+ },
+ "timm:music/ancients_lament": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Ancients Lament",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/city_of_sculk": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "City of Sculk",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/depths_unseen": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Depths Unseen",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/echoes": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Echoes",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/the_ancients_hymn": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Ancients Hymn",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/vengeful_shade": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Vengeful Shade",
+  "customId": "timm:deep_dark"
+ },
+ "timm:music/56e218": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "5.6e+218",
+  "customId": "timm:desert"
+ },
+ "timm:music/cereus": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Cereus",
+  "customId": "timm:desert"
+ },
+ "timm:music/its_cactie_not_cactus": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "It's Cacti not Cactus",
+  "customId": "timm:desert"
+ },
+ "timm:music/lack_of_water": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lack of Water",
+  "customId": "timm:desert"
+ },
+ "timm:music/osiriss_tomb": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Osiris's Tomb",
+  "customId": "timm:desert"
+ },
+ "timm:music/the_wind_blows": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Wind Blows",
+  "customId": "timm:desert"
+ },
+ "timm:music/track_5": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 5",
+  "customId": "timm:desert"
+ },
+ "timm:music/crystal_echoes": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Crystal Echoes",
+  "customId": "timm:dripstone_caves"
+ },
+ "timm:music/stalagmites": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Stalagmites",
+  "customId": "timm:dripstone_caves"
+ },
+ "timm:music/flower_bed": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Flower Bed",
+  "customId": "timm:flower_forest"
+ },
+ "timm:music/ii": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "II",
+  "customId": "timm:flower_forest"
+ },
+ "timm:music/pins": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Pins",
+  "customId": "timm:flower_forest"
+ },
+ "timm:music/track_13": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 13",
+  "customId": "timm:flower_forest"
+ },
+ "timm:music/friday": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Friday",
+  "customId": "timm:forest"
+ },
+ "timm:music/the_peaceful_grove": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Peaceful Grove",
+  "customId": "timm:forest"
+ },
+ "timm:music/there_in_the_trees": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "There in the Trees",
+  "customId": "timm:forest"
+ },
+ "timm:music/fracturescape": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Fracturescape",
+  "customId": "timm:ice_spikes"
+ },
+ "timm:music/subzero": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Subzero",
+  "customId": "timm:ice_spikes"
+ },
+ "timm:music/verdant_canopy": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Verdant Canopy",
+  "customId": "timm:jungle"
+ },
+ "timm:music/axolotls_dream": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Axolotls Dream",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/pillars_of_moss": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Pillars of Moss",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/pst": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Pst",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/subterrarium": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Subterrarium",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/the_monk": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Monk",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/to_eat_a_glowberry": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "To Eat a Glowberry",
+  "customId": "timm:lush_caves"
+ },
+ "timm:music/export": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Export",
+  "customId": "timm:meadow"
+ },
+ "timm:music/ruminance": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Ruminance",
+  "customId": "timm:meadow"
+ },
+ "timm:music/swaying_fields": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Swaying Fields",
+  "customId": "timm:meadow"
+ },
+ "timm:music/track_8": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 8",
+  "customId": "timm:meadow"
+ },
+ "timm:music/an_early_frost": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "An Early Frost",
+  "customId": "timm:mountains"
+ },
+ "timm:music/cascadia": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Cascadia",
+  "customId": "timm:windy_hills"
+ },
+ "timm:music/mountain-03": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "[Unnamed Mountain Song]",
+  "customId": "timm:mountains"
+ },
+ "timm:music/summit": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Summit",
+  "customId": "timm:mountains"
+ },
+ "timm:music/distant_isles": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Distant Isles",
+  "customId": "timm:mushroom_fields"
+ },
+ "timm:music/fungusgirl": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Fungusgirl",
+  "customId": "timm:mushroom_fields"
+ },
+ "timm:music/tulu": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Tulu",
+  "customId": "timm:mushroom_fields"
+ },
+ "timm:music/musical_waves": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Musical Waves",
+  "customId": "timm:ocean"
+ },
+ "timm:music/kart_minne": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Kart Minne",
+  "customId": "timm:ocean"
+ },
+ "timm:music/1752": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "1752",
+  "customId": "timm:plains"
+ },
+ "timm:music/home": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Home",
+  "customId": "timm:plains"
+ },
+ "timm:music/road_to_samwere": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Road to Såmwère",
+  "customId": "timm:plains"
+ },
+ "timm:music/the_pinkest_sheep": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Pinkest Sheep",
+  "customId": "timm:plains"
+ },
+ "timm:music/visualizing_home": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Visualizing Home",
+  "customId": "timm:plains"
+ },
+ "timm:music/nap_on_the_riverbed": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Nap on the Riverbed",
+  "customId": "timm:river"
+ },
+ "timm:music/rowing_along": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Rowing Along",
+  "customId": "timm:river"
+ },
+ "timm:music/alcatraz": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Alcatraz",
+  "customId": "timm:savanna"
+ },
+ "timm:music/armadillos_dream": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Armadillos Dream",
+  "customId": "timm:savanna"
+ },
+ "timm:music/scattered_blocks": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Scaterred Blocks",
+  "customId": "timm:savanna"
+ },
+ "timm:music/doctor_pavlolich": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Doctor Pavlolich",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/nataryuk": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Nataryuk",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/paiva_lumessa": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Paiva Lumessa",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/polar_t_block": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Polar T. Block",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/snowmans_home": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Snowman's Home",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/song_of_captivity": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Song of Captivity",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/star_flakes": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Star Flakes",
+  "customId": "timm:snow_plains"
+ },
+ "timm:music/frogs_lullaby": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Frogs Lullaby",
+  "customId": "timm:swamp"
+ },
+ "timm:music/frogstep": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Frogstep",
+  "customId": "timm:swamp"
+ },
+ "timm:music/through_the_mud": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Through the Mud",
+  "customId": "timm:swamp"
+ },
+ "timm:music/and_all_goes_quiet": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "And All Goes Quiet",
+  "customId": "timm:taiga"
+ },
+ "timm:music/boreal_december": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Boreal December",
+  "customId": "timm:taiga"
+ },
+ "timm:music/mossy_stones": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Mossy Stones",
+  "customId": "timm:taiga"
+ },
+ "timm:music/surhg": {
+  "album": "The Immersive Music Mod",
+  "author": "GoldEagleProductions",
+  "cover": "TIMM",
+  "title": "Surhg",
+  "customId": "timm:taiga"
+ },
+ "timm:music/the_box_of_pine": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Box of Pine",
+  "customId": "timm:taiga"
+ },
+ "timm:music/whispers_from_the_woods": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Whispers from the Woods",
+  "customId": "timm:taiga"
+ },
+ "timm:music/fish_soup": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Gold Eagle - Fish Soup",
+  "customId": "timm:warm_ocean"
+ },
+ "timm:music/light_of_a_cucumber": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Light of a Cucumber",
+  "customId": "timm:warm_ocean"
+ },
+ "timm:music/placid_shores": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Placid Shores",
+  "customId": "timm:warm_ocean"
+ },
+ "timm:music/track_2": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 2",
+  "customId": "timm:warm_ocean"
+ },
+ "timm:music/beautiful_breeze": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Beautiful Breeze",
+  "customId": "timm:windy_hills"
+ },
+ "timm:music/atomic_cubes": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Atomic Cubes",
+  "customId": "timm:basalt_deltas"
+ },
+ "timm:music/scorched_earth": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Scorched Earth",
+  "customId": "timm:basalt_deltas"
+ },
+ "timm:music/lurid": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lurid",
+  "customId": "timm:crimson_forest"
+ },
+ "timm:music/prototaxites": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Prototaxites",
+  "customId": "timm:crimson_forest"
+ },
+ "timm:music/appletrees_demise": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Appletrees Demise",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/burning_etherealism": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Burning Etherealism",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/flint_and_steel": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Flint and Steel",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/lava_pools": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lava Pools",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/track_3": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 3",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/track_7": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 7",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/track_9": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Track 9",
+  "customId": "timm:nether_wastes"
+ },
+ "timm:music/lost_souls": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Lost Souls",
+  "customId": "timm:soul_sand_valley"
+ },
+ "timm:music/script4506": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Script4506",
+  "customId": "timm:soul_sand_valley"
+ },
+ "timm:music/soulweaver": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Soulweaver",
+  "customId": "timm:soul_sand_valley"
+ },
+ "timm:music/abyss_archipelago": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Abyss' Archipelago",
+  "customId": "timm:end"
+ },
+ "timm:music/freedom_for_all": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Freedom for All",
+  "customId": "timm:end"
+ },
+ "timm:music/pillars_of_obsidian": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Pillars of Obsidian",
+  "customId": "timm:end"
+ },
+ "timm:music/pro-gen_islands": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "Pro-Gen Islands",
+  "customId": "timm:end"
+ },
+ "timm:music/the_dragons_home": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "The Dragon's Home",
+  "customId": "timm:end"
+ },
+ "timm:music/when_the_endless_eternity_fades": {
+  "album": "The Immersive Music Mod",
+  "author": "Gold Eagle",
+  "cover": "TIMM",
+  "title": "When the Endless Eternity Fades",
+  "customId": "timm:end"
+ },
+ "timm:music/civilization_lost": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Civilization Lost",
+  "customId": "timm:ancient_city"
+ },
+ "timm:music/hell_worn_treasures": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Hell Worn Treasures",
+  "customId": "timm:bastion_remnant"
+ },
+ "timm:music/x_marks_the_spot": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "X Marks The Spot",
+  "customId": "timm:buried_treasure"
+ },
+ "timm:music/ankh": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Ankh",
+  "customId": "timm:desert_pyramid"
+ },
+ "timm:music/colour_of_the_void": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Colour Of The Void",
+  "customId": "timm:end_city"
+ },
+ "timm:music/ashen_citadel": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Ashen Citadel",
+  "customId": "timm:fortress"
+ },
+ "timm:music/snow_bricks": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Snow Bricks",
+  "customId": "timm:igloo"
+ },
+ "timm:music/under_the_overgrowth": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Under The Overgrowth",
+  "customId": "timm:jungle_pyramid"
+ },
+ "timm:music/isolationist": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Isolationist",
+  "customId": "timm:mansion"
+ },
+ "timm:music/lost_and_found": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Lost And Found",
+  "customId": "timm:mineshaft"
+ },
+ "timm:music/guardian_of_the_depths": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Guardian Of The Depths",
+  "customId": "timm:monument"
+ },
+ "timm:music/city_of_the_drowned": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "City Of The Drowned",
+  "customId": "timm:ocean_ruin"
+ },
+ "timm:music/bad_omens": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Bad Omens",
+  "customId": "timm:pillager_outpost"
+ },
+ "timm:music/fragment_from_the_otherside": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Fragment From The Otherside",
+  "customId": "timm:ruined_portal"
+ },
+ "timm:music/return_to_grass": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Return To Grass",
+  "customId": "timm:ruined_portal_nether"
+ },
+ "timm:music/naufrage": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Naufrage",
+  "customId": "timm:shipwreck"
+ },
+ "timm:music/what_the_builders_left_behind": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "What The Builders Left Behind",
+  "customId": "timm:stronghold"
+ },
+ "timm:music/shivering_bog": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Shivering Bog",
+  "customId": "timm:swamp_hut"
+ },
+ "timm:music/dust_in_the_relics": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Dust In The Relics",
+  "customId": "timm:trail_ruins"
+ },
+ "timm:music/copper_whisper": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Copper Whisper",
+  "customId": "timm:trial_chambers"
+ },
+ "timm:music/valley_of_the_tradesmen": {
+  "album": "The Immersive Music Mod",
+  "author": "TIMM",
+  "cover": "TIMM",
+  "title": "Valley Of The Tradesmen",
+  "customId": "timm:village"
+ }
+}

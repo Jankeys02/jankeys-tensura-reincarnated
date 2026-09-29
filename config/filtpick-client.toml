@@ -1,0 +1,26 @@
+#Button offset configuration
+[buttons]
+
+	[buttons.RECIPE_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0
+
+	[buttons.ENTRY_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0
+
+	[buttons.FILT_MODE_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0
+
+	[buttons.DESTRUCTION_MODE_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0
+
+	[buttons.CLEAR_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0
+
+	[buttons.RETURN_BUTTON]
+		"horizontal offset" = 0
+		"vertical offset" = 0

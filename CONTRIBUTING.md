@@ -1,4 +1,4 @@
-# Contributing to {{PROJECT_NAME}}
+# Contributing to jankeys-tensura-reincarnated
 
 Thanks for taking a look — this is a small solo project, but issues and PRs are welcome.
 
@@ -9,8 +9,8 @@ Thanks for taking a look — this is a small solo project, but issues and PRs ar
 ## Setup
 
 ```bash
-git clone https://github.com/Jankeys02/{{PROJECT_NAME}}.git
-cd {{PROJECT_NAME}}
+git clone https://github.com/Jankeys02/jankeys-tensura-reincarnated.git
+cd jankeys-tensura-reincarnated
 npm install
 ```
 

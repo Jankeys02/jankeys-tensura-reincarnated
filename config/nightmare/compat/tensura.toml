@@ -1,0 +1,2 @@
+#One-shot flag for TRNightmare's Tensura reincarnation config injector. TRNightmare flips this to false after the first successful startup check. Set it back to true if you want to re-apply the default TRNightmare entries.
+injectReincarnationEntriesOnNextStartup = false

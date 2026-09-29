@@ -1,0 +1,1121 @@
+{
+	chapter.10DCBFBA4AEE7FBC.title: "Building and Economy"
+	chapter.15E00D5E7B6F1FBE.title: "Adventure"
+	chapter.166EA8169D15B1F2.title: "Milestones"
+	chapter.17C12CBBFD2EED9B.title: "Dragons and Myths"
+	chapter.1AC6B8236E80CE45.title: "Monster Hunter"
+	chapter.3690EFC35EC34002.title: "Smithing and Metals"
+	chapter.4BBCC113B81BF1A5.title: "Reincarnation"
+	chapter.4EF8F6219714AB1C.title: "Arcana and Wonders"
+	chapter.55E2122160C31462.title: "Explorer's Journal"
+	chapter.5CE71D4ABE9301CC.title: "Skills and Spirits"
+	chapter.609DD13C2023C8A1.title: "Getting Started"
+	chapter.624123C3BE351540.title: "Evolution Paths"
+	chapter.6EE46664020D6E17.title: "Caves and Treasure"
+	quest.000A426030D835B9.quest_desc: ["Slay a sea serpent."]
+	quest.000A426030D835B9.title: "Sea? Not a Problem"
+	quest.0088A002A3BE7CE1.quest_desc: [
+		"Acquire the Unique Skill &cLust&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.0088A002A3BE7CE1.title: "Lust"
+	quest.01FFF9ADC3D7F2DB.quest_desc: [
+		"&6Dwarf lineage&r · Evolution"
+		"Become a Enlightened Dwarf."
+	]
+	quest.01FFF9ADC3D7F2DB.title: "Enlightened Dwarf"
+	quest.026E9BA18F34264E.quest_desc: [
+		"&6Beastfolk lineage&r · Divine / final form"
+		"Become a Divine Beast."
+	]
+	quest.026E9BA18F34264E.title: "Divine Beast"
+	quest.027C29AF84513BD6.quest_desc: ["Build a crate shop to sell your goods."]
+	quest.027C29AF84513BD6.title: "Crate Shop"
+	quest.0303AC0731678D77.quest_desc: ["Steal a dragon egg from a roost."]
+	quest.0303AC0731678D77.title: "Dragon Egg"
+	quest.036703521B73A4BD.quest_desc: [
+		"Use a &eschematic&r at the smithing bench. Each one unlocks new gear recipes."
+		"Collect them all for &6The Master Smith&r."
+		""
+		"&6Metal path:&r silver/iron/gold + magic ore in a kiln →"
+		"Low/High/Pure Magisteel, Mithril, Orichalcum → Adamantite → Hihi'Irokane."
+	]
+	quest.036703521B73A4BD.quest_subtitle: "Schematics unlock recipes"
+	quest.036703521B73A4BD.title: "Start Smithing"
+	quest.040ADA5AB0FB8B31.quest_desc: [
+		"&6Slime lineage&r · Evolution"
+		"Become a Metal Slime."
+	]
+	quest.040ADA5AB0FB8B31.title: "Metal Slime"
+	quest.0446C2B07C0732BC.quest_desc: ["Enter a Fortress of the Undead."]
+	quest.0446C2B07C0732BC.title: "A Bone to Pick"
+	quest.0494CC9F8A9C32B2.quest_desc: ["Craft a kunai."]
+	quest.0494CC9F8A9C32B2.title: "Become a Real Ninja"
+	quest.051021AF617A0D65.quest_desc: ["Spot a pixie."]
+	quest.051021AF617A0D65.title: "Pixie Sighting"
+	quest.05432BFB095F474D.quest_desc: [
+		"&6Ogre lineage&r · Evolution"
+		"Become a Wicked Oni."
+	]
+	quest.05432BFB095F474D.title: "Wicked Oni"
+	quest.0657F1EFD5250DA3.quest_desc: ["Open one of every Lootr container type."]
+	quest.0657F1EFD5250DA3.title: "Socialised Loot"
+	quest.06FE00D920E35319.quest_desc: ["Survive the basalt deltas."]
+	quest.06FE00D920E35319.title: "Basalt Deltas"
+	quest.0715D29BC26F32E3.quest_desc: [
+		"&6Beastfolk lineage&r · Evolution"
+		"Become a Spirit Beast."
+	]
+	quest.0715D29BC26F32E3.title: "Spirit Beast"
+	quest.073FA249347D2BCE.quest_desc: ["Learn Analytical Appraisal."]
+	quest.073FA249347D2BCE.title: "Analytical Appraisal"
+	quest.075530C464DCF1EA.quest_desc: [
+		"&6Orc lineage&r · Divine / final form"
+		"Become a Divine Boar."
+	]
+	quest.075530C464DCF1EA.title: "Divine Boar"
+	quest.07D18CF47277E0D4.quest_desc: ["Reach &e1,000 EP&r. Just an average human... for now."]
+	quest.07D18CF47277E0D4.title: "D Rank"
+	quest.0808529BCFD0B275.quest_desc: ["Obtain dragon armor."]
+	quest.0808529BCFD0B275.title: "Suit Up, Dragon"
+	quest.0849F4800810E8D2.quest_desc: ["Look at a magic ore block."]
+	quest.0849F4800810E8D2.title: "It Glows"
+	quest.08CC569CBD49271F.quest_desc: ["Mix iron with magic ore in the kiln: &7Low Magisteel&r."]
+	quest.08CC569CBD49271F.title: "Feeling Low?"
+	quest.099672DF32D25CE5.quest_desc: ["Learn Self-Regeneration."]
+	quest.099672DF32D25CE5.title: "Self-Regeneration"
+	quest.09CCF7878142A4FD.quest_desc: ["Acquire a Pure Magisteel ingot."]
+	quest.09CCF7878142A4FD.title: "That's the Quality!"
+	quest.09E0BC73402CCF95.quest_desc: ["Lizardmen live by the water."]
+	quest.09E0BC73402CCF95.title: "Lizardmen"
+	quest.0A0A6C320AB3DEA0.quest_desc: ["Have a Greater Spirit or above in every element."]
+	quest.0A0A6C320AB3DEA0.title: "Blessed One!"
+	quest.0A25A46F284D2DB2.quest_desc: ["Drink a Full Potion. It heals almost anything."]
+	quest.0A25A46F284D2DB2.title: "As Good as New"
+	quest.0A3C3A8D11A79C12.quest_desc: [
+		"Acquire the Unique Skill &cEnvy&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.0A3C3A8D11A79C12.title: "Envy"
+	quest.0BA797D7537E7677.quest_desc: ["Learn Physical Attack Resistance."]
+	quest.0BA797D7537E7677.title: "Physical Attack Resistance"
+	quest.0BA897137AB4BFB1.quest_desc: ["Use a Magic Engine to block monster spawns in an area."]
+	quest.0BA897137AB4BFB1.title: "This Is My No-No Square"
+	quest.0C0941BCD25007AA.quest_desc: ["Open 100 Lootr containers."]
+	quest.0C0941BCD25007AA.title: "Centennial"
+	quest.0C28A286D6C5477B.quest_desc: ["Grow a slime into your own Supermassive Slime."]
+	quest.0C28A286D6C5477B.title: "The King Has Arrived"
+	quest.0C888EC35914F1FF.quest_desc: ["Explore every Overworld biome added by Tensura."]
+	quest.0C888EC35914F1FF.title: "Otherworldly Biomes"
+	quest.0D325E5E0C068875.quest_desc: [
+		"&6Elf lineage&r · Base race"
+		"Become a Elf."
+	]
+	quest.0D325E5E0C068875.title: "Elf"
+	quest.0DACE381437226AA.quest_desc: ["Clear a Better Desert Temple."]
+	quest.0DACE381437226AA.title: "Temple Run"
+	quest.0DCC2DD6573F86A4.quest_desc: ["Reach &e6,000 EP&r."]
+	quest.0DCC2DD6573F86A4.title: "B Rank"
+	quest.0E78B805AA76B260.quest_desc: ["Create dragonsteel from dragon blood and iron."]
+	quest.0E78B805AA76B260.title: "Forged in Flame"
+	quest.0E99A5731B45CD46.quest_desc: [
+		"Learn an ability. Many abilities are unlocked gradually:"
+		"doing the right things earns &elearning points&r (\"You have become closer to acquiring...\")."
+		"Some abilities require &emastery&r of another ability first."
+	]
+	quest.0E99A5731B45CD46.quest_subtitle: "How skills are learnt"
+	quest.0E99A5731B45CD46.title: "Fast Learner"
+	quest.0EA823495B8C7EA9.quest_desc: ["Reach experience level &e50&r."]
+	quest.0EA823495B8C7EA9.title: "Veteran"
+	quest.0EC40522D2447D4E.quest_desc: ["Learn Thought Acceleration."]
+	quest.0EC40522D2447D4E.title: "Thought Acceleration"
+	quest.0EDC28821D9A7774.quest_desc: [
+		"Sophisticated Storage chests can be upgraded &ein place&r, without emptying them."
+		"Middle-click inside a storage GUI to sort it."
+	]
+	quest.0EDC28821D9A7774.quest_subtitle: "Storage that grows with you"
+	quest.0EDC28821D9A7774.title: "Organised Chaos"
+	quest.0F02224B909262C4.quest_desc: ["Defeat Carrion, the Beast Master."]
+	quest.0F02224B909262C4.title: "The Lion King"
+	quest.0FA84022F4B3FD73.quest_desc: [
+		"&6Orc lineage&r · Evolution"
+		"Become a Orc Disaster."
+	]
+	quest.0FA84022F4B3FD73.title: "Orc Disaster"
+	quest.0FC1BEAC49FCA86D.quest_desc: [
+		"Reach &e1,000&r maximum magicules."
+		"&7Base races start at roughly 50 to 1,000.&r"
+	]
+	quest.0FC1BEAC49FCA86D.title: "Magicule Reserves I"
+	quest.0FE3F460349D0493.quest_desc: ["Obtain your first gold coin."]
+	quest.0FE3F460349D0493.title: "My Precious"
+	quest.0FE7A292CD1BB363.quest_desc: ["Spot a dragon peacock."]
+	quest.0FE7A292CD1BB363.title: "Dragon Peacock Sighting"
+	quest.103745E3AC96B6B0.quest_desc: ["Tame an amphithere by shooting it down and riding it."]
+	quest.103745E3AC96B6B0.title: "Jungle Fliers"
+	quest.107CEB05F0F2CA93.quest_desc: ["Create the legendary pixie weapon."]
+	quest.107CEB05F0F2CA93.title: "Where Is My Mind?"
+	quest.1089F2133BF02FFF.quest_desc: [
+		"&6Goblin lineage&r · Evolution"
+		"Become a Enlightened Hobgoblin."
+	]
+	quest.1089F2133BF02FFF.title: "Enlightened Hobgoblin"
+	quest.10B2213FE4B60EB3.quest_desc: [
+		"&6Merfolk lineage&r · Divine / final form"
+		"Become a Divine Fish."
+	]
+	quest.10B2213FE4B60EB3.title: "Divine Fish"
+	quest.1120EF8D27385175.quest_desc: [
+		"{\"text\": \"\", \"extra\": [\"Open the Tensura menu with \", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}, \" and pick your race.\"]}"
+		"Your race decides your stats, intrinsic skills and evolution path."
+		""
+		"&7Changed your mind? A &frace reset scroll&7 resets race, stats, naming,"
+		"&7awakening, spirits and resistances.&r"
+	]
+	quest.1120EF8D27385175.quest_subtitle: "Choose who you become"
+	quest.1120EF8D27385175.title: "Reborn"
+	quest.113A0FF5189E0BF3.quest_desc: ["Clear a YUNG's zombie dungeon."]
+	quest.113A0FF5189E0BF3.title: "Down in the Dark"
+	quest.11A9B205C6C788EE.quest_desc: ["Obtain a warp pad. Warp pads teleport you for a &emagicule cost per block&r travelled."]
+	quest.11A9B205C6C788EE.title: "It's a Way Stone?"
+	quest.11FBA5BE9C5D74E5.quest_desc: ["Have a subordinate of each race: &eDirewolf, Goblin, Lizardman, Orc and Slime&r."]
+	quest.11FBA5BE9C5D74E5.title: "Ruler of Monsters"
+	quest.123FDD04AFD662E4.quest_desc: ["More magic ore, better steel: &bHigh Magisteel&r."]
+	quest.123FDD04AFD662E4.title: "Don't Get Too High"
+	quest.1256BE7D799121CE.quest_desc: [
+		"Obtain a dragon egg, usually from a dragon's roost or cave."
+		"Dragon Meal grows the hatchling quickly, and a command staff controls it."
+	]
+	quest.1256BE7D799121CE.title: "Mother of Dragons"
+	quest.129626ACA6342414.quest_desc: ["Discover a spider cave."]
+	quest.129626ACA6342414.title: "Cobweb Entanglement"
+	quest.12A85B703C1B6D3E.quest_desc: ["Mix gold with magic ore: &6Orichalcum&r."]
+	quest.12A85B703C1B6D3E.title: "Divine Shining Gold"
+	quest.12BE3C3B20B8E551.quest_desc: ["Breed &e50&r animals."]
+	quest.12BE3C3B20B8E551.title: "Rancher"
+	quest.1338FA64BA471209.quest_desc: ["Tempest-style interiors start with tatami."]
+	quest.1338FA64BA471209.title: "Tatami Room"
+	quest.137766BFB435480F.quest_desc: [
+		"Reach experience level &e30&r."
+		"&7Milestones track long-term stats. They complete on their own as you play.&r"
+	]
+	quest.137766BFB435480F.title: "Seasoned"
+	quest.13C37A6798BDAD9D.quest_desc: [
+		"Feed a &eslime core&r to a tamed slime to grow it."
+		"Slimes can merge and grow up to a &eSupermassive Slime&r."
+	]
+	quest.13C37A6798BDAD9D.title: "Thrive, My Child!"
+	quest.13E8736B057DAAF5.quest_desc: ["Defeat Luminous Valentine."]
+	quest.13E8736B057DAAF5.title: "The Queen of Nightmares"
+	quest.140094805984D111.quest_desc: ["Kill a troll."]
+	quest.140094805984D111.title: "They Have a Cave Troll!"
+	quest.143FFC17300FBD5B.quest_desc: ["Reach &e10,000 EP&r. Such a hazard!"]
+	quest.143FFC17300FBD5B.title: "A Rank"
+	quest.147B4B103A5E1A5D.quest_desc: ["A thatch bed: rustic, cheap, and it skips the night."]
+	quest.147B4B103A5E1A5D.title: "Tatami Dreams"
+	quest.1498C58D46668368.quest_desc: [
+		"Each row is one lineage. The quests here are optional and complete"
+		"whenever you ARE that race, so your route doesn't matter."
+		"{\"text\": \"\", \"extra\": [\"Check requirements in the Tensura menu's evolution screen (\", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}, \").\"]}"
+		"&7Divine forms reward a nether star.&r"
+	]
+	quest.1498C58D46668368.quest_subtitle: "Every race, every form"
+	quest.1498C58D46668368.title: "Growth Spurt"
+	quest.14C1ABA7CFBDB626.quest_desc: ["Complete a trade and get coins."]
+	quest.14C1ABA7CFBDB626.title: "A Deal-ightful Trade"
+	quest.157A94DC1DB1406C.quest_desc: [
+		"Acquire the Unique Skill &cWrath&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.157A94DC1DB1406C.title: "Wrath"
+	quest.159E0149AE6DC993.quest_desc: ["Craft an Orichalcum Kiln."]
+	quest.159E0149AE6DC993.title: "The Best Smelter"
+	quest.15B7ED168EEED2F3.quest_desc: ["Tensura's woodcutter turns logs into planks, stairs and slabs efficiently."]
+	quest.15B7ED168EEED2F3.title: "Timber!"
+	quest.15E0A0CC8B26A397.quest_desc: ["Visit the Miasmic Plains. Watch your health."]
+	quest.15E0A0CC8B26A397.title: "Miasmic Plains"
+	quest.164FA847DC8A6FF5.quest_desc: ["Ride an Evil Centipede or a Tempest Serpent."]
+	quest.164FA847DC8A6FF5.title: "Choo Choo!"
+	quest.166CDBE335B34B78.quest_desc: [
+		"&6Vampire lineage&r · Evolution"
+		"Become a Vampire Lord."
+	]
+	quest.166CDBE335B34B78.title: "Vampire Lord"
+	quest.169236E11AB90303.quest_desc: ["Consume a bucketed slime with skills."]
+	quest.169236E11AB90303.title: "Traitor!"
+	quest.16BA2F145C472041.quest_desc: ["Acquire the Unique Skill &bGreat Sage&r. \"Answer: ...\""]
+	quest.16BA2F145C472041.title: "Great Sage"
+	quest.16CA842ED82CD402.quest_desc: [
+		"&6Lizardman lineage&r · Evolution"
+		"Become a Dragonewt."
+	]
+	quest.16CA842ED82CD402.title: "Dragonewt"
+	quest.17F325079CC1FC5B.quest_desc: ["Open 10 Lootr containers."]
+	quest.17F325079CC1FC5B.title: "Delightful Decade"
+	quest.1806CCA9857CAD6A.quest_desc: ["The Orc Disaster. Bring friends."]
+	quest.1806CCA9857CAD6A.title: "Orc Disaster"
+	quest.185902F88B2681FF.quest_desc: ["Upgrade to a Mithril Kiln."]
+	quest.185902F88B2681FF.title: "The Even Better Smelter"
+	quest.188D23CC6434B1A1.quest_desc: [
+		"&6Wight lineage&r · Evolution"
+		"Become a Wight King."
+	]
+	quest.188D23CC6434B1A1.title: "Wight King"
+	quest.19110656114D52A1.quest_desc: ["Obtain a Bone Golem to fight for you."]
+	quest.19110656114D52A1.title: "Build a Body"
+	quest.1923A41E88197D05.quest_desc: ["Slay the Pharaoh and lift the temple's curse."]
+	quest.1923A41E88197D05.title: "Eternal Slumber"
+	quest.196B84A3D7697645.quest_desc: ["Kill a stymphalian bird."]
+	quest.196B84A3D7697645.title: "Herc Was on a Roll!"
+	quest.19BE2FA93D03A96A.quest_desc: ["Tame a slime."]
+	quest.19BE2FA93D03A96A.title: "I'm Not a Bad Slime!"
+	quest.19CFF34234029D40.quest_desc: ["Explore every Hell biome."]
+	quest.19CFF34234029D40.title: "Unholy Tourism"
+	quest.19D07478B7136FC7.quest_desc: ["Monsters here hit harder than vanilla. Wear something."]
+	quest.19D07478B7136FC7.title: "Suit Up"
+	quest.1A59ACF7C280881D.quest_desc: [
+		"&6Dwarf lineage&r · Divine / final form"
+		"Become a Divine Dwarf."
+	]
+	quest.1A59ACF7C280881D.title: "Divine Dwarf"
+	quest.1B1648A69B5F84F0.quest_desc: ["Visit the badlands."]
+	quest.1B1648A69B5F84F0.title: "Red Rock Country"
+	quest.1B8CA89E0206CFFB.quest_desc: ["Trade with villagers &e100&r times."]
+	quest.1B8CA89E0206CFFB.title: "Merchant Prince"
+	quest.1BC1502BE01870DA.quest_desc: [
+		"&6Dwarf lineage&r · Evolution"
+		"Become a Dwarf Saint."
+	]
+	quest.1BC1502BE01870DA.title: "Dwarf Saint"
+	quest.1C66EE20AA9669CE.quest_desc: [
+		"Smelt or find a &fsilver ingot&r."
+		"Silver is the base for &3Mithril&r later, when you mix it with magic ore in a kiln."
+	]
+	quest.1C66EE20AA9669CE.quest_subtitle: "Tensura's first metal"
+	quest.1C66EE20AA9669CE.title: "Silverware"
+	quest.1CDE94A7AE1BF799.quest_desc: ["Defeat a natural Ifrit."]
+	quest.1CDE94A7AE1BF799.title: "Conqueror of Flames"
+	quest.1DBBB06CD1D22730.quest_desc: ["Explore every Better Dungeon."]
+	quest.1DBBB06CD1D22730.title: "Professional Dungeoneer"
+	quest.1E2A45DEC21E500A.quest_desc: ["Visit a cherry grove."]
+	quest.1E2A45DEC21E500A.title: "Pink Paradise"
+	quest.1F112D4F842897A1.quest_desc: [
+		"&6Harpy lineage&r · Divine / final form"
+		"Become a Divine Bird."
+	]
+	quest.1F112D4F842897A1.title: "Divine Bird"
+	quest.1F2107E945734BB0.quest_desc: ["Obtain a &eMagic Grimoire&r."]
+	quest.1F2107E945734BB0.title: "Booked on Magic"
+	quest.1F6B465C3E2DAC25.quest_desc: [
+		"&6Giant lineage&r · Base race"
+		"Become a Giant."
+	]
+	quest.1F6B465C3E2DAC25.title: "Giant"
+	quest.1F70B8E6BA084E53.quest_desc: ["Achieve Mass Naming by finishing raids or killing human mobs without dying."]
+	quest.1F70B8E6BA084E53.title: "Infamy and Fame"
+	quest.1F88480D77B5C1BA.quest_desc: [
+		"&6Daemon lineage&r · Evolution"
+		"Become a Greater Daemon."
+	]
+	quest.1F88480D77B5C1BA.title: "Greater Daemon"
+	quest.1FAE78D6EDB2F04C.quest_desc: ["Magic crystal bricks: the fanciest block in Tempest."]
+	quest.1FAE78D6EDB2F04C.title: "Crystal Palace"
+	quest.1FD5516BBB1F5AA1.quest_desc: ["Ride a Tempest Star Wolf."]
+	quest.1FD5516BBB1F5AA1.title: "Who's a Good Boy?"
+	quest.1FE180C4596E92D0.quest_desc: ["Spot a sylphide, a wind spirit."]
+	quest.1FE180C4596E92D0.title: "Sylphide Sighting"
+	quest.201C5541F467CCAF.quest_desc: [
+		"&6Ogre lineage&r · Evolution"
+		"Become a Kijin."
+	]
+	quest.201C5541F467CCAF.title: "Kijin"
+	quest.2039B232340D9A30.quest_desc: [
+		"Acquire the Unique Skill &cSloth&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.2039B232340D9A30.title: "Sloth"
+	quest.20798CC701C5DF0B.quest_desc: [
+		"Kill a monster to gain your first &eExistence Points (EP)&r."
+		"Fallen enemies give EP, and magicules (MP) and aura (AP) grow with it."
+		"Your EP decides your rank: D → C → B → A → Special-A → S → Special-S."
+	]
+	quest.20798CC701C5DF0B.quest_subtitle: "How you grow"
+	quest.20798CC701C5DF0B.title: "Empowerment"
+	quest.2160B6D138315265.quest_desc: [
+		"Use a &eMagic Tome&r to learn magic."
+		"{\"text\": \"\", \"extra\": [\"Put abilities in your slots (\", {\"keybind\": \"tensura.keybinding.ability.slot_1\", \"color\": \"yellow\"}, \"/\", {\"keybind\": \"tensura.keybinding.ability.slot_2\", \"color\": \"yellow\"}, \"/\", {\"keybind\": \"tensura.keybinding.ability.slot_3\", \"color\": \"yellow\"}, \") through the Tensura menu.\"]}"
+	]
+	quest.2160B6D138315265.quest_subtitle: "Magic, step one"
+	quest.2160B6D138315265.title: "You're a Wizard"
+	quest.218756F10310A0E3.quest_desc: ["Learn Hero Haki."]
+	quest.218756F10310A0E3.title: "Hero Haki"
+	quest.2205F7D5E5EF236F.quest_desc: ["Tame a direwolf."]
+	quest.2205F7D5E5EF236F.title: "Hear Me, Direwolves!"
+	quest.225D1F124DEDDB93.quest_desc: ["Throw a tide trident at a mob."]
+	quest.225D1F124DEDDB93.title: "Poseidon, God of the Seas"
+	quest.22BE44EE433DD7EE.quest_desc: ["Kill &e10,000&r mobs."]
+	quest.22BE44EE433DD7EE.title: "Calamity"
+	quest.2359DC0627F66C69.quest_desc: ["Defeat a cyclops."]
+	quest.2359DC0627F66C69.title: "My Name Is Nobody"
+	quest.23A21464529E2BDD.quest_desc: ["Obtain Winged Shoes."]
+	quest.23A21464529E2BDD.title: "I Believe I Can Fly"
+	quest.2405A27421B7DC4B.quest_desc: ["Swim &e5 km&r."]
+	quest.2405A27421B7DC4B.title: "Fish Out of Water"
+	quest.241B545DD9D57139.quest_desc: ["Befriend a pixie by dropping cake near it."]
+	quest.241B545DD9D57139.title: "Here Comes Your Man"
+	quest.244D061BF7419167.quest_desc: ["Set up a Spudacious shop to trade with other players and villagers."]
+	quest.244D061BF7419167.title: "Open for Business"
+	quest.245A7B4B163939F6.quest_desc: [
+		"A training dummy is a safe target for practising abilities."
+		"Using abilities earns &emastery points&r, and mastered abilities get much stronger."
+	]
+	quest.245A7B4B163939F6.title: "Practice Makes Perfect"
+	quest.25114F74EE436A34.quest_desc: ["Slay a Knight Spider and take its carapace."]
+	quest.25114F74EE436A34.title: "Goodnight Spider"
+	quest.2570AD68C4BA6112.quest_desc: ["Reach &e10,000&r maximum aura."]
+	quest.2570AD68C4BA6112.title: "Aura II"
+	quest.25F383B5D71150BD.quest_desc: ["Discover the Frosted Caves."]
+	quest.25F383B5D71150BD.title: "Cool, Cool Cave"
+	quest.2769B38E3593AAC4.quest_desc: [
+		"&6Giant lineage&r · Evolution"
+		"Become a Ancient Giant."
+	]
+	quest.2769B38E3593AAC4.title: "Ancient Giant"
+	quest.27950EF264385970.quest_desc: ["Reach the End highlands."]
+	quest.27950EF264385970.title: "The Outer End"
+	quest.27D893ACB4D8552B.quest_desc: ["Enter the Deep Dark. Quietly."]
+	quest.27D893ACB4D8552B.title: "Shhh..."
+	quest.27F907A13AF6C871.quest_desc: ["Walk &e100 km&r."]
+	quest.27F907A13AF6C871.title: "Pilgrim"
+	quest.28F13BE442B28C9B.quest_desc: ["Defeat the Elemental Colossus."]
+	quest.28F13BE442B28C9B.title: "The Fairy Won't Like This"
+	quest.290D933261D55CEA.quest_desc: ["Slay a Black Spider."]
+	quest.290D933261D55CEA.title: "Arachnophobic"
+	quest.299D230F869683BC.quest_desc: [
+		"Obtain a magic staff."
+		"This chapter covers magic, potions, travel and the highest ranks."
+	]
+	quest.299D230F869683BC.quest_subtitle: "Magic items and the late game"
+	quest.299D230F869683BC.title: "This Is Wand-erful!"
+	quest.29FAACF939FEFECB.quest_desc: [
+		"The kiln melts metals and mixes them with magic ore:"
+		"- iron + magic ore → &7Low&r / &bHigh Magisteel&r"
+		"- silver + magic ore → &3Mithril&r"
+		"- gold + magic ore → &6Orichalcum&r"
+		"The Smithing and Metals chapter follows this path."
+	]
+	quest.29FAACF939FEFECB.quest_subtitle: "Metallurgy begins"
+	quest.29FAACF939FEFECB.title: "Hot Stuff"
+	quest.2A5C5A23E67B5A32.quest_desc: [
+		"Learn &eMagic Sense&r: perceive magicules around you."
+		"&7This chapter lists notable skills. Most are learnt gradually through use,"
+		"&7and some need mastery of another skill first.&r"
+	]
+	quest.2A5C5A23E67B5A32.title: "Magic Sense"
+	quest.2ACC721C11B4EC5E.quest_desc: ["Learn Haki: overwhelm weaker foes with your presence."]
+	quest.2ACC721C11B4EC5E.title: "Haki"
+	quest.2ADD14964B264CF4.quest_desc: ["Obtain the gorgon's head, which turns anyone who looks at it to stone."]
+	quest.2ADD14964B264CF4.title: "Clash of the Titans"
+	quest.2B24E74A9EBB8813.quest_desc: ["Form a contract with a lesser &eEarth&r spirit."]
+	quest.2B24E74A9EBB8813.title: "Gnome"
+	quest.2B263645181D7BDF.quest_desc: ["Open 50 Lootr containers."]
+	quest.2B263645181D7BDF.title: "Half-Century"
+	quest.2B999ADFA3AD8C0E.quest_desc: ["Eat a Prickly Peach."]
+	quest.2B999ADFA3AD8C0E.title: "The Snack That Bites Back"
+	quest.2C22430695760EB3.quest_desc: ["Learn Infinite Regeneration."]
+	quest.2C22430695760EB3.title: "Infinite Regeneration"
+	quest.2E1D639FF3142FB2.quest_desc: ["Form a contract with a lesser &eWater&r spirit."]
+	quest.2E1D639FF3142FB2.title: "Undine"
+	quest.2E3114917EC6B975.quest_desc: ["Become a &bHero's Egg&r. The first step to awakening as a True Hero."]
+	quest.2E3114917EC6B975.quest_subtitle: "The path of the Hero"
+	quest.2E3114917EC6B975.title: "Hero's Egg"
+	quest.2ED606F90DAC40FD.quest_desc: [
+		"&6Wight lineage&r · Base race"
+		"Become a Wight."
+	]
+	quest.2ED606F90DAC40FD.title: "Wight"
+	quest.2EDB01CDE3E3A5FA.quest_desc: ["Cast a max-level Explosion."]
+	quest.2EDB01CDE3E3A5FA.title: "Explosions, La La La!"
+	quest.30692FB040F69AF1.quest_desc: [
+		"&6Orc lineage&r · Base race"
+		"Become a Orc."
+	]
+	quest.30692FB040F69AF1.title: "Orc"
+	quest.30D9E1E13DA185A7.quest_desc: ["Eat an Artifact. Yes, really."]
+	quest.30D9E1E13DA185A7.title: "Adventurous Eater"
+	quest.3131CD6B040303A8.quest_desc: ["Craft a Dragon Knuckle."]
+	quest.3131CD6B040303A8.title: "Bad to Be Strong"
+	quest.316B0AF8B93B1655.quest_desc: [
+		"&6Harpy lineage&r · Evolution"
+		"Become a Spirit Bird."
+	]
+	quest.316B0AF8B93B1655.title: "Spirit Bird"
+	quest.31A1C5FC4AAD42FA.quest_desc: ["Mine enchanted ice."]
+	quest.31A1C5FC4AAD42FA.title: "Breaking the Ice"
+	quest.31C325A4907C4233.quest_desc: ["Direwolves hunt goblins. Hunt them first."]
+	quest.31C325A4907C4233.title: "Hear Me, Direwolves"
+	quest.31DB705917346CC8.quest_desc: ["Learn Ultraspeed Regeneration."]
+	quest.31DB705917346CC8.title: "Ultraspeed Regeneration"
+	quest.31DEDCCCBE3366B0.quest_desc: [
+		"&6Human lineage&r · Divine / final form"
+		"Become a Divine Human."
+	]
+	quest.31DEDCCCBE3366B0.title: "Divine Human"
+	quest.32923A4C4099D9A7.quest_desc: ["When Dungeons Arise: find a bandit village."]
+	quest.32923A4C4099D9A7.title: "Bandit Territory"
+	quest.32DFA7526890F5D3.quest_desc: [
+		"&6Ogre lineage&r · Divine / final form"
+		"Become a Divine Fighter."
+	]
+	quest.32DFA7526890F5D3.title: "Divine Fighter"
+	quest.32EC48451B2F0C08.quest_desc: [
+		"Tame any monster. Subordinates can be set to &eAggressive&r, &eNeutral&r,"
+		"&ePassive&r or &eProtect&r behaviour."
+	]
+	quest.32EC48451B2F0C08.title: "Monster Tamer"
+	quest.3329421606AF9752.quest_desc: ["Acquire the Unique Skill &5Predator&r: devour, analyse, mimic."]
+	quest.3329421606AF9752.title: "Predator"
+	quest.333565F78C8AFDAE.quest_desc: ["Put down the Orc Lord before it becomes a Disaster."]
+	quest.333565F78C8AFDAE.title: "Orc Lord"
+	quest.3347B9ACAB9639FF.quest_desc: ["Create the legendary fire, ice or lightning dragon weapon."]
+	quest.3347B9ACAB9639FF.title: "A Flaming Sword"
+	quest.33587B2363C7D082.quest_desc: ["Reach experience level &e100&r."]
+	quest.33587B2363C7D082.title: "Living Legend"
+	quest.35277EAF70F70E39.quest_desc: ["Smelt or find a gold ingot."]
+	quest.35277EAF70F70E39.title: "Gold Rush"
+	quest.36962A6BF5CC0937.quest_desc: [
+		"&6Slime lineage&r · Evolution"
+		"Become a Demon Slime."
+	]
+	quest.36962A6BF5CC0937.title: "Demon Slime"
+	quest.370064E1242B3682.quest_desc: ["Upgrade a Sophisticated chest in place, without emptying it."]
+	quest.370064E1242B3682.title: "Bigger Chests"
+	quest.3763BE464EFFBF11.quest_desc: ["A dragon flute calms runaway dragons."]
+	quest.3763BE464EFFBF11.title: "The Song of the Dragons"
+	quest.379FD8D623B1B3CF.quest_desc: ["Smelt your first iron ingot."]
+	quest.379FD8D623B1B3CF.title: "Iron Will"
+	quest.37B79C9A1164C37F.quest_desc: [
+		"&6Lizardman lineage&r · Divine / final form"
+		"Become a Divine Dragon."
+	]
+	quest.37B79C9A1164C37F.title: "Divine Dragon"
+	quest.3840F39A09748D92.quest_desc: ["Find a small Nether dungeon."]
+	quest.3840F39A09748D92.title: "A Special Addition"
+	quest.3848277491035296.quest_desc: ["Enchant &e25&r items."]
+	quest.3848277491035296.title: "Enchanter"
+	quest.384CED9DEB6AA6B7.quest_desc: ["Tame a cockatrice from an egg, or by staring at it repeatedly."]
+	quest.384CED9DEB6AA6B7.title: "Stay Out of My Peripheral!"
+	quest.38CF1193C1757FD1.quest_desc: ["Place an Easy NPC: shopkeepers, guards and quest-givers for your town. Tick the box when done."]
+	quest.38CF1193C1757FD1.title: "Hire Some Help"
+	quest.3952BF42028A466C.quest_desc: ["Visit the Underworld Spikes in Tensura's Hell."]
+	quest.3952BF42028A466C.title: "Underworld Spikes"
+	quest.39A7AA09A7F5D72A.quest_desc: [
+		"You were reborn into a world of magic and monsters. This book is your guide."
+		""
+		"&6Key controls&r (they follow your own key bindings):"
+		"{\"text\": \"\", \"extra\": [\"- Tensura menu (race, skills, evolution): \", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}]}"
+		"{\"text\": \"\", \"extra\": [\"- Race ability: \", {\"keybind\": \"tensura.keybinding.race_ability\", \"color\": \"yellow\"}, \"   Dodge: \", {\"keybind\": \"tensura.keybinding.dodge\", \"color\": \"yellow\"}]}"
+		"{\"text\": \"\", \"extra\": [\"- Ability slots: \", {\"keybind\": \"tensura.keybinding.ability.slot_1\", \"color\": \"yellow\"}, \" / \", {\"keybind\": \"tensura.keybinding.ability.slot_2\", \"color\": \"yellow\"}, \" / \", {\"keybind\": \"tensura.keybinding.ability.slot_3\", \"color\": \"yellow\"}, \"   switch mode: \", {\"keybind\": \"tensura.keybinding.next_mode\", \"color\": \"yellow\"}]}"
+		"{\"text\": \"\", \"extra\": [\"- Great Sage menu: \", {\"keybind\": \"key.greatsage.menu\", \"color\": \"yellow\"}, \"   World map: \", {\"keybind\": \"gui.xaero_open_map\", \"color\": \"yellow\"}]}"
+		"{\"text\": \"\", \"extra\": [\"- Backpack: \", {\"keybind\": \"key.backpacked.open_backpack\", \"color\": \"yellow\"}, \"   Vein-mine (hold): \", {\"keybind\": \"key.ftbultimine\", \"color\": \"yellow\"}]}"
+		""
+		"&7Recipes: hover an item and press R (recipe) or U (uses) in JEI.&r"
+		"Tick the box to begin."
+	]
+	quest.39A7AA09A7F5D72A.quest_subtitle: "Start here: the basics in one page"
+	quest.39A7AA09A7F5D72A.title: "Welcome, Reincarnator"
+	quest.3A3766CD3FDA7971.quest_desc: [
+		"Macaw's Doors and Windows add hundreds of building blocks."
+		"This chapter covers building, storage and running a shop."
+	]
+	quest.3A3766CD3FDA7971.quest_subtitle: "Build and trade"
+	quest.3A3766CD3FDA7971.title: "A Proper Home"
+	quest.3B8AF828F73BFE08.quest_desc: ["Craft an Ice Blade."]
+	quest.3B8AF828F73BFE08.title: "Isn't It a Bit Cold?"
+	quest.3BFD98695485A786.quest_desc: ["Stack upgrades multiply how much each slot holds."]
+	quest.3BFD98695485A786.title: "Stack Overflow"
+	quest.3C0E71C4CD3BB289.quest_desc: ["Mix silver with magic ore: &3Mithril&r."]
+	quest.3C0E71C4CD3BB289.title: "Silver, but Magic"
+	quest.3CC4B42FAF3C7DC2.quest_desc: ["Slay a Tempest Serpent and take its scales."]
+	quest.3CC4B42FAF3C7DC2.title: "Hiss-tory"
+	quest.3CC999DEE640FE31.quest_desc: ["Trap a pixie in a jar to farm dust."]
+	quest.3CC999DEE640FE31.title: "Surfer Rosa"
+	quest.3E2CBE6F4A3ED137.quest_desc: ["Fight the Elemental Colossus and \"die\"."]
+	quest.3E2CBE6F4A3ED137.title: "Chill! It's Just a Test"
+	quest.3E5A739BD3149B0A.quest_desc: ["Visit Ice and Fire's Dread Forest."]
+	quest.3E5A739BD3149B0A.title: "Land of the Dead"
+	quest.3E928DCA7FD75BC8.quest_desc: [
+		"Open 25 Lootr containers."
+		"Loot is &eper player&r: everyone gets their own copy of each chest."
+	]
+	quest.3E928DCA7FD75BC8.title: "Looter"
+	quest.3EA817C089B16C32.quest_desc: ["Play for &e10 hours&r in this world."]
+	quest.3EA817C089B16C32.title: "Dedicated"
+	quest.3ED037AA91AEDCA2.quest_desc: ["Obtain a Hipokute flower."]
+	quest.3ED037AA91AEDCA2.title: "Hiccup-te"
+	quest.3EDF96C710319F35.quest_desc: [
+		"&6Vampire lineage&r · Divine / final form"
+		"Become a Divine Vampire."
+	]
+	quest.3EDF96C710319F35.title: "Divine Vampire"
+	quest.3EFAE8C117455633.quest_desc: ["Form a contract with a lesser &eSpace&r spirit."]
+	quest.3EFAE8C117455633.title: "Space Spirit"
+	quest.402A1B45EF47578F.quest_desc: [
+		"&6Ogre lineage&r · Base race"
+		"Become a Ogre."
+	]
+	quest.402A1B45EF47578F.title: "Ogre"
+	quest.403FFB9B050D2430.quest_desc: ["Master a Unique skill."]
+	quest.403FFB9B050D2430.title: "Unique Mastery"
+	quest.409EF82E3D6CE23B.quest_desc: ["Form a contract with a lesser &eDarkness&r spirit."]
+	quest.409EF82E3D6CE23B.title: "Darkness Spirit"
+	quest.40C250A9AB7C37A1.quest_desc: ["Craft a Spatial Blade."]
+	quest.40C250A9AB7C37A1.title: "Unhealable Wound"
+	quest.40FE0A27BE1A2CDD.quest_desc: ["Find the orcs."]
+	quest.40FE0A27BE1A2CDD.title: "Orc Village"
+	quest.41DEA4A660279B03.quest_desc: ["A dragon horn stores your dragon as an item."]
+	quest.41DEA4A660279B03.title: "An Ear-Shattering Roar"
+	quest.422553579DA4C689.quest_desc: ["Shoot and kill something with a unicorn horn from a crossbow."]
+	quest.422553579DA4C689.title: "So That's What They Do"
+	quest.422956D01109519B.quest_desc: ["Form a contract with a lesser &eLight&r spirit."]
+	quest.422956D01109519B.title: "Light Spirit"
+	quest.4288A348E0BD0A43.quest_desc: ["Kill a Mimic. Not every chest is a chest."]
+	quest.4288A348E0BD0A43.title: "Chest Slayer"
+	quest.43482D8851D19292.quest_desc: ["Find an Artifact."]
+	quest.43482D8851D19292.title: "Amateur Archaeologist"
+	quest.437FD2DC1EBFCFAA.quest_desc: ["Create a dragon forge core."]
+	quest.437FD2DC1EBFCFAA.title: "The Heart and the Flame"
+	quest.43A0774374FEEFE8.quest_desc: ["Tame a hippogryph by dropping rabbit feet near it."]
+	quest.43A0774374FEEFE8.title: "Buck Beak"
+	quest.43E32BC97EBE8066.quest_desc: ["Acquire a Hihi'Irokane item: the legendary metal."]
+	quest.43E32BC97EBE8066.title: "The Ultimate Metal"
+	quest.440388226A5795E5.quest_desc: ["Reach &e1,000,000&r maximum aura."]
+	quest.440388226A5795E5.title: "Overwhelming Aura"
+	quest.44FBF65092FB01A8.quest_desc: ["Use a weapon with 3 elemental cores slotted."]
+	quest.44FBF65092FB01A8.title: "Infinity Cores"
+	quest.4528E715C7D45EB6.quest_desc: [
+		"&6Elf lineage&r · Divine / final form"
+		"Become a Divine Elf."
+	]
+	quest.4528E715C7D45EB6.title: "Divine Elf"
+	quest.455E041A4AA954D0.quest_desc: ["Defeat Hinata Sakaguchi."]
+	quest.455E041A4AA954D0.title: "The Great Saint of the West"
+	quest.45A64FF6DEFFF680.quest_desc: ["Kill &e1,000&r mobs."]
+	quest.45A64FF6DEFFF680.title: "Exterminator"
+	quest.45FF3A0DF0322B29.quest_desc: ["Ride a Sissie."]
+	quest.45FF3A0DF0322B29.title: "Killer Fish from Sissiego"
+	quest.46392746B97DE30D.quest_desc: ["Ancient warp pads hint at fast travel."]
+	quest.46392746B97DE30D.title: "Ancient Warp Pad"
+	quest.46967FB979ECDEB7.quest_desc: ["Acquire an adamantite item."]
+	quest.46967FB979ECDEB7.title: "Biological Steel?"
+	quest.46AE059C076DE53B.quest_desc: ["Learn Pain Resistance."]
+	quest.46AE059C076DE53B.title: "Pain Resistance"
+	quest.46C7D03A7BCC4323.quest_desc: [
+		"&6Slime lineage&r · Base race"
+		"Become a Slime."
+	]
+	quest.46C7D03A7BCC4323.title: "Slime"
+	quest.4735E3D704BF2DC7.quest_desc: ["Set foot in a catacomb."]
+	quest.4735E3D704BF2DC7.title: "When in Rome"
+	quest.473F9D71F30F5A72.quest_desc: ["Contract scrolls formalise trades."]
+	quest.473F9D71F30F5A72.title: "Sign Here"
+	quest.47A1D2433190FCA9.quest_desc: ["Tensura's Hell awaits."]
+	quest.47A1D2433190FCA9.title: "Welcome to Hell"
+	quest.47A254C5BAEA0733.quest_desc: ["Craft a dragon-bone tool."]
+	quest.47A254C5BAEA0733.title: "Splintering II"
+	quest.497E889246FC67D7.quest_desc: ["Mine a &dmagic ore&r. It's the key ingredient for every magical metal."]
+	quest.497E889246FC67D7.title: "Magic in the Rocks"
+	quest.4AA0CBB0E8A58C39.quest_desc: [
+		"Master an ability by using it. Each use earns mastery points."
+		"Mastered abilities are stronger and unlock follow-up abilities."
+	]
+	quest.4AA0CBB0E8A58C39.title: "Mastery"
+	quest.4B66239F2D3C49E8.quest_desc: ["Find a stronghold."]
+	quest.4B66239F2D3C49E8.title: "Seek the Eye"
+	quest.4B85546C8653ACAD.quest_desc: [
+		"&6Ogre lineage&r · Evolution"
+		"Become a Spirit Oni."
+	]
+	quest.4B85546C8653ACAD.title: "Spirit Oni"
+	quest.4BF10FCB026D963A.quest_desc: [
+		"Name a mob to make it your subordinate. Naming can evolve it."
+		"The target must &esubmit&r to you, be &esane&r, and not already serve someone else."
+		"{\"text\": \"\", \"extra\": [\"Naming key: \", {\"keybind\": \"tensura.keybinding.name\", \"color\": \"yellow\"}, \".\"]}"
+	]
+	quest.4BF10FCB026D963A.quest_subtitle: "Rimuru's classic move"
+	quest.4BF10FCB026D963A.title: "Naming Ceremony"
+	quest.4C6C3FC44CB4EB2E.quest_desc: ["Reach &e3,000 EP&r."]
+	quest.4C6C3FC44CB4EB2E.title: "C Rank"
+	quest.4C8CDA0BF9BA7CA5.quest_desc: [
+		"Kill 3 horned rabbits to open this chapter."
+		"Monster drops give &emonster leather&r, carapaces and scales for better gear."
+		"&7Upper rows: hunting and bosses. Lower rows: slimes, wolves and mounts.&r"
+	]
+	quest.4C8CDA0BF9BA7CA5.quest_subtitle: "Hunting and taming"
+	quest.4C8CDA0BF9BA7CA5.title: "The Hunt Begins"
+	quest.4CC24E104101893D.quest_desc: ["Own and use a Hihi'Irokane hoe. For the farmer who has everything."]
+	quest.4CC24E104101893D.title: "Why..?"
+	quest.4D328D69C7EF1D3F.quest_desc: ["Jump &e10,000&r times."]
+	quest.4D328D69C7EF1D3F.title: "Bunny Hop"
+	quest.4D6D3DA033C69A50.quest_desc: [
+		"&6Human lineage&r · Base race"
+		"Become a Human."
+	]
+	quest.4D6D3DA033C69A50.title: "Human"
+	quest.4DA35C916A223439.quest_desc: ["Reach &e1,000,000&r maximum magicules. Divine-race territory."]
+	quest.4DA35C916A223439.title: "Sea of Magicules"
+	quest.4E9DE04F13AE0B36.quest_desc: ["Obtain vanilla leather."]
+	quest.4E9DE04F13AE0B36.title: "Getcha Leathers!"
+	quest.4EA6125EFD12A651.quest_desc: ["Hunt a Megalodon. Bring a boat. A big one."]
+	quest.4EA6125EFD12A651.title: "Jaws"
+	quest.4ECB92C3A88C7679.quest_desc: ["Reach &e1,000&r maximum aura."]
+	quest.4ECB92C3A88C7679.title: "Aura I"
+	quest.4F69F2DE1A885086.quest_desc: ["Forge a dragonsteel weapon."]
+	quest.4F69F2DE1A885086.title: "Draconic Evolution"
+	quest.50258871747D3261.quest_desc: [
+		"&6Human lineage&r · Evolution"
+		"Become a Human Saint."
+	]
+	quest.50258871747D3261.title: "Human Saint"
+	quest.503DBFB104566626.quest_desc: ["Slay a ghost."]
+	quest.503DBFB104566626.title: "Who You Gonna Call?"
+	quest.50480FD503A09B40.quest_desc: ["Have a daemon as a subordinate."]
+	quest.50480FD503A09B40.title: "Hella Cool!"
+	quest.50B4B795AF5485B9.quest_desc: ["The Dread Lamp stops Nether mob spawns nearby."]
+	quest.50B4B795AF5485B9.title: "Keep the Night Out"
+	quest.50E01DA55A2FB81C.quest_desc: [
+		"Become a &cDemon Lord Seed&r. The first step to awakening as a True Demon Lord."
+		"&7Choose this path or the Hero's. It shapes your awakening.&r"
+	]
+	quest.50E01DA55A2FB81C.quest_subtitle: "The path of the Demon Lord"
+	quest.50E01DA55A2FB81C.title: "Demon Lord Seed"
+	quest.50F6171FDAB689C2.quest_desc: ["Craft a mining station."]
+	quest.50F6171FDAB689C2.title: "Industrial Revolution"
+	quest.516CC7F14EFA8AEA.quest_desc: [
+		"&6Vampire lineage&r · Evolution"
+		"Become a Vampire Overcomer."
+	]
+	quest.516CC7F14EFA8AEA.title: "Vampire Overcomer"
+	quest.517A90A591E2DB21.quest_desc: ["Thatch roofs, goblin-village style."]
+	quest.517A90A591E2DB21.title: "Village Roofs"
+	quest.5182A93FEB4CDC63.quest_desc: [
+		"&6Giant lineage&r · Divine / final form"
+		"Become a Divine Giant."
+	]
+	quest.5182A93FEB4CDC63.title: "Divine Giant"
+	quest.51B3782F2DF608EB.quest_desc: [
+		"&6Beastfolk lineage&r · Base race"
+		"Become a Beastfolk."
+	]
+	quest.51B3782F2DF608EB.title: "Beastfolk"
+	quest.521233726EB14E0F.quest_desc: [
+		"&6Harpy lineage&r · Base race"
+		"Become a Harpy."
+	]
+	quest.521233726EB14E0F.title: "Harpy"
+	quest.52B6743654E4695F.quest_desc: ["Find the lush caves."]
+	quest.52B6743654E4695F.title: "Underground Garden"
+	quest.5311289204A31131.quest_desc: [
+		"Defeat Gazel Dwargo."
+		"&7Your &eDwarven reputation&7 decides whether the king greets you as a hero or a criminal.&r"
+	]
+	quest.5311289204A31131.title: "The Hero King of the Dwarves"
+	quest.5362EF3DF733A1E3.quest_desc: ["Resist her song and kill a siren."]
+	quest.5362EF3DF733A1E3.title: "Tie Me to the Mast"
+	quest.537C803260DED43D.quest_desc: ["Craft a Bestiary Lectern."]
+	quest.537C803260DED43D.title: "Would You Like to Know More?"
+	quest.5482E2056F81C5B8.quest_desc: [
+		"Find a goblin village. Goblins are allies waiting for a name."
+		"&7Tip: villages are prime candidates for Naming Ceremony (Reincarnation).&r"
+	]
+	quest.5482E2056F81C5B8.quest_subtitle: "Your first allies"
+	quest.5482E2056F81C5B8.title: "Goblin Village"
+	quest.54EA59FBC7E25738.quest_desc: ["Walk on powdered snow wearing monster-leather boots."]
+	quest.54EA59FBC7E25738.title: "Light as a Horned Rabbit"
+	quest.550A75DBBAF969AB.quest_desc: ["Fly &e100 km&r with an elytra."]
+	quest.550A75DBBAF969AB.title: "Frequent Flyer"
+	quest.5530B4DBEF3B0767.quest_desc: ["Use a Battlewill Manual: martial arts powered by aura."]
+	quest.5530B4DBEF3B0767.title: "The Forbidden Manual"
+	quest.55973FA3F5D7E266.quest_desc: [
+		"Evolve your race once."
+		"{\"text\": \"\", \"extra\": [\"The evolution screen in the Tensura menu (\", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}, \") lists what each evolution needs,\"]}"
+		"usually an &eEP threshold&r. Some forms have special requirements."
+		"&7Every race path is listed in the Evolution Paths chapter.&r"
+	]
+	quest.55973FA3F5D7E266.quest_subtitle: "Your first evolution"
+	quest.55973FA3F5D7E266.title: "Growth Spurt"
+	quest.55CEEE8201960D71.quest_desc: ["A Mega Torch stops hostile spawns in a large radius. Protect your base."]
+	quest.55CEEE8201960D71.title: "Safe Zone"
+	quest.5620DDEF33310C4B.quest_desc: ["Obtain every smithing schematic."]
+	quest.5620DDEF33310C4B.title: "The Master Smith"
+	quest.563A79B4738256A6.quest_desc: ["Reach &e10,000&r maximum magicules."]
+	quest.563A79B4738256A6.title: "Magicule Reserves II"
+	quest.564718864D61028A.quest_desc: [
+		"&6Merfolk lineage&r · Base race"
+		"Become a Merfolk."
+	]
+	quest.564718864D61028A.title: "Merfolk"
+	quest.56F093C77C60DC76.quest_desc: ["Get the Nanoda disc by having a Charybdis kill an Orc Disaster. Good luck."]
+	quest.56F093C77C60DC76.title: "Nanoda!!!"
+	quest.57136F93D7DC87DB.quest_desc: [
+		"Visit an &2Ancient Forest&r, one of Tensura's own biomes."
+		"This journal tracks places you've been and creatures you've &eseen&r."
+		"&7Sighting quests complete when you look at the creature for a moment.&r"
+	]
+	quest.57136F93D7DC87DB.title: "Explorer's Journal"
+	quest.575D949A6E1C4F7E.quest_desc: ["Reach &e100,000&r maximum aura."]
+	quest.575D949A6E1C4F7E.title: "Aura III"
+	quest.57BC6D775E9DFF54.quest_desc: [
+		"&6Merfolk lineage&r · Evolution"
+		"Become a Enlightened Merfolk."
+	]
+	quest.57BC6D775E9DFF54.title: "Enlightened Merfolk"
+	quest.57F59FC5F94AD543.quest_desc: ["Kill a fire, ice or lightning dragon."]
+	quest.57F59FC5F94AD543.title: "Dragonslayer"
+	quest.580185BA339E184A.quest_desc: ["Tame a hippocampus by feeding it kelp."]
+	quest.580185BA339E184A.title: "Free Willy"
+	quest.58432AD08BE34801.quest_desc: ["Visit the Desert of Death. The name is not a metaphor."]
+	quest.58432AD08BE34801.title: "Desert of Death"
+	quest.58A1D041D9AA26C5.quest_desc: ["Learn Magic Resistance."]
+	quest.58A1D041D9AA26C5.title: "Magic Resistance"
+	quest.58FA2FF88CC7F1BD.quest_desc: ["Reach &e100,000&r maximum magicules."]
+	quest.58FA2FF88CC7F1BD.title: "Magicule Reserves III"
+	quest.59C6CBEB4367810D.quest_desc: [
+		"&6Wight lineage&r · Evolution"
+		"Become a Spirit Skeleton."
+	]
+	quest.59C6CBEB4367810D.title: "Spirit Skeleton"
+	quest.5A2629810492E443.quest_desc: ["Visit the Barren Land."]
+	quest.5A2629810492E443.title: "Barren Land"
+	quest.5A2C7A1DD7094ADC.quest_desc: [
+		"&6Ogre lineage&r · Divine / final form"
+		"Become a Divine Oni."
+	]
+	quest.5A2C7A1DD7094ADC.title: "Divine Oni"
+	quest.5A3B6687C922B135.quest_desc: [
+		"&6Harpy lineage&r · Evolution"
+		"Become a Harpy Queen."
+	]
+	quest.5A3B6687C922B135.title: "Harpy Queen"
+	quest.5B668D40B56A792F.quest_desc: ["Craft a &eMonster Saddle&r and ride your subordinates."]
+	quest.5B668D40B56A792F.title: "Monster Rider"
+	quest.5B673DD088D7C846.quest_desc: ["Have an Arch Daemon subordinate of each lineage."]
+	quest.5B673DD088D7C846.title: "Rainbow in Hell"
+	quest.5B8538E9C4009F78.quest_desc: ["Awaken as a &cTrue Demon Lord&r."]
+	quest.5B8538E9C4009F78.title: "True Demon Lord"
+	quest.5BD37A47E8095B63.quest_desc: ["Catch &e50&r fish."]
+	quest.5BD37A47E8095B63.title: "Gone Fishing"
+	quest.5D22783309CE8C54.quest_desc: ["YUNG's fortresses are bigger and meaner."]
+	quest.5D22783309CE8C54.title: "Better Fortress"
+	quest.5D5FFE73E1D51420.quest_desc: ["Sprint &e50 km&r."]
+	quest.5D5FFE73E1D51420.title: "Marathon"
+	quest.5DFFE504E99862EF.quest_desc: [
+		"&6Lizardman lineage&r · Evolution"
+		"Become a True Dragonewt."
+	]
+	quest.5DFFE504E99862EF.title: "True Dragonewt"
+	quest.5E47EC47958D466E.quest_desc: ["Brew a Potion of Frost."]
+	quest.5E47EC47958D466E.title: "Brain Freeze"
+	quest.5E6CFD0F441CF4C6.quest_desc: ["Grow a Hipokute seed."]
+	quest.5E6CFD0F441CF4C6.title: "A Magic Seedy Place"
+	quest.5E94391E40AE9F8F.quest_desc: ["Play for &e100 hours&r in this world."]
+	quest.5E94391E40AE9F8F.title: "No Life"
+	quest.5EA1258B81F06949.quest_desc: ["Learn Danger Sense."]
+	quest.5EA1258B81F06949.title: "Danger Sense"
+	quest.5F31547423552138.quest_desc: [
+		"&6Human lineage&r · Evolution"
+		"Become a Enlightened Human."
+	]
+	quest.5F31547423552138.title: "Enlightened Human"
+	quest.5F9315AA83604871.quest_desc: [
+		"Acquire the Unique Skill &cGluttony&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.5F9315AA83604871.title: "Gluttony"
+	quest.5FDDA47B4C63F66D.quest_desc: [
+		"Reach &e400,000 EP&r. A walking disaster."
+		"&7Special-A (100,000 EP) and Special-S (800,000 EP) are in Arcana and Wonders.&r"
+	]
+	quest.5FDDA47B4C63F66D.title: "S Rank"
+	quest.60436D566907215C.quest_desc: [
+		"&6Orc lineage&r · Evolution"
+		"Become a Spirit Boar."
+	]
+	quest.60436D566907215C.title: "Spirit Boar"
+	quest.615C752ED4A2D0A5.quest_desc: ["Spot a fire dragon. From a safe distance."]
+	quest.615C752ED4A2D0A5.title: "Here Be Dragons"
+	quest.6172A474088AF38D.quest_desc: [
+		"&6Goblin lineage&r · Base race"
+		"Become a Goblin."
+	]
+	quest.6172A474088AF38D.title: "Goblin"
+	quest.62B7289DD49F6952.quest_desc: ["Spot an undine, a water spirit."]
+	quest.62B7289DD49F6952.title: "Undine Sighting"
+	quest.635329ED80A141E0.quest_desc: ["A fortress with a boss at the top."]
+	quest.635329ED80A141E0.title: "Keep Kayra"
+	quest.63AD6C8D914E64A4.quest_desc: ["Slay a Giant Ant and take its carapace."]
+	quest.63AD6C8D914E64A4.title: "VigilAnt"
+	quest.63CEAB4E2ECE12BF.quest_desc: ["Slay the Ender Dragon."]
+	quest.63CEAB4E2ECE12BF.title: "The End?"
+	quest.6403C313333DEEE4.quest_desc: ["Create a dragon forge brick."]
+	quest.6403C313333DEEE4.title: "Another Brick in the Wall"
+	quest.650E52DA9DBA6127.quest_desc: ["Visit an ice spikes biome."]
+	quest.650E52DA9DBA6127.title: "Frozen Spires"
+	quest.6545076AD68472F3.quest_desc: ["Enter the Labyrinth dimension."]
+	quest.6545076AD68472F3.title: "The Labyrinth"
+	quest.657BECF97A2FAAFA.quest_desc: ["Reach Special-A class (100,000 EP)."]
+	quest.657BECF97A2FAAFA.title: "Calamity Monster"
+	quest.65B2B2B98AA63D46.quest_desc: ["Old wizards left spellbooks behind."]
+	quest.65B2B2B98AA63D46.title: "Ruined Wizard Tower"
+	quest.661972A82D8C9BD2.quest_desc: [
+		"&6Vampire lineage&r · Base race"
+		"Become a Vampire."
+	]
+	quest.661972A82D8C9BD2.title: "Vampire"
+	quest.6650FE83F68843E1.quest_desc: [
+		"&6Elf lineage&r · Evolution"
+		"Become a Enlightened Elf."
+	]
+	quest.6650FE83F68843E1.title: "Enlightened Elf"
+	quest.66AAF48E079BC5CD.quest_desc: [
+		"Open your first Lootr chest. Loot is &eper player&r, so friends never steal your share."
+		"This chapter covers Lootr, Artifacts, YUNG's dungeons and cave biomes."
+	]
+	quest.66AAF48E079BC5CD.quest_subtitle: "Loot and dungeons"
+	quest.66AAF48E079BC5CD.title: "'X' Marks the Spot"
+	quest.66E83A9F48E4FE54.quest_desc: [
+		"Punch a tree, craft a pickaxe, mine some stone."
+		"&7Tip: monsters here hit harder than vanilla. Don't wander far on night one.&r"
+	]
+	quest.66E83A9F48E4FE54.title: "Stone Age"
+	quest.66F0BB90184361B7.quest_desc: ["Defeat Rimuru himself."]
+	quest.66F0BB90184361B7.title: "The Monster Ruler"
+	quest.670BE2271E3767C1.quest_desc: [
+		"&6Daemon lineage&r · Divine / final form"
+		"Become a Devil Lord."
+	]
+	quest.670BE2271E3767C1.title: "Devil Lord"
+	quest.674B79271673826E.quest_desc: ["Slay a hydra."]
+	quest.674B79271673826E.title: "The Twelve Labors of Hercules"
+	quest.6767789E829E8AC6.quest_desc: ["Dwarven villages hold great smiths."]
+	quest.6767789E829E8AC6.title: "Dwargon's Cousins"
+	quest.6784EDC361C977BE.quest_desc: ["Reach Special-S class (800,000 EP)."]
+	quest.6784EDC361C977BE.title: "Literal Catastrophe"
+	quest.67E9A9BBF9A1FED2.quest_desc: [
+		"Use a reset scroll:"
+		"- &frace&r: race, stats, naming, awakening, spirits, resistances"
+		"- &fskill&r: every skill except your race's intrinsic ones"
+		"- &fcharacter&r: everything"
+		"&cSkill resets don't refund Unique Skill costs. Read the tooltip first.&r"
+	]
+	quest.67E9A9BBF9A1FED2.title: "It's Rewind Time!"
+	quest.69DC9F0CB3EE001B.quest_desc: ["Spot a sea serpent."]
+	quest.69DC9F0CB3EE001B.title: "Something in the Water"
+	quest.6A439E3DF277615E.quest_desc: ["Find a mushroom island. No hostile mobs spawn there."]
+	quest.6A439E3DF277615E.title: "Fungal Island"
+	quest.6BD369F17796E2F5.quest_desc: [
+		"&6Daemon lineage&r · Evolution"
+		"Become a Daemon Lord."
+	]
+	quest.6BD369F17796E2F5.title: "Daemon Lord"
+	quest.6C3794E0955EC803.quest_desc: ["Slay an Armorsaurus for scales and shell."]
+	quest.6C3794E0955EC803.title: "Shell Lizard"
+	quest.6D33202657254C72.quest_desc: [
+		"&6Ogre lineage&r · Evolution"
+		"Become a Death Oni."
+	]
+	quest.6D33202657254C72.title: "Death Oni"
+	quest.6D92CC332EAFB996.quest_desc: [
+		"Acquire the Unique Skill &cPride&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.6D92CC332EAFB996.title: "Pride"
+	quest.6DAAB5EF51DF8DB6.quest_desc: [
+		"Use a Slime Staff to summon slimes."
+		"The staff orders every slime within 30 blocks to &eFollow&r or &eStay&r."
+	]
+	quest.6DAAB5EF51DF8DB6.title: "100 Slimes vs 1 Gorilla"
+	quest.6EC2DA6F1C1E5F41.quest_desc: ["Eat everything edible in Tensura, even the dangerous stuff."]
+	quest.6EC2DA6F1C1E5F41.title: "A Monstrous Diet"
+	quest.6EEAE26AA1996D61.quest_desc: [
+		"&6Goblin lineage&r · Evolution"
+		"Become a Hobgoblin Saint."
+	]
+	quest.6EEAE26AA1996D61.title: "Hobgoblin Saint"
+	quest.6EF8D8DDAC1F892C.quest_desc: [
+		"Form a contract with any elemental spirit."
+		"Higher spirit levels in every element lead to &6Blessed One&r (Arcana and Wonders)."
+	]
+	quest.6EF8D8DDAC1F892C.quest_subtitle: "Spirit contracts"
+	quest.6EF8D8DDAC1F892C.title: "Elementalist"
+	quest.6F1ABA5B902C03E4.quest_desc: [
+		"&6Orc lineage&r · Evolution"
+		"Become a Orc Lord."
+	]
+	quest.6F1ABA5B902C03E4.title: "Orc Lord"
+	quest.6F7109ECAA50655C.quest_desc: ["A storage controller links nearby Sophisticated chests into one inventory."]
+	quest.6F7109ECAA50655C.title: "Storage Network"
+	quest.6FB36EEF4DD86F32.quest_desc: [
+		"&6Elf lineage&r · Evolution"
+		"Become a Elf Saint."
+	]
+	quest.6FB36EEF4DD86F32.title: "Elf Saint"
+	quest.6FCF2732D22FFAC5.quest_desc: [
+		"Nature's Compass searches for any biome, including Tensura's own."
+		"{\"text\": \"\", \"extra\": [\"Pair it with the world map (\", {\"keybind\": \"gui.xaero_open_map\", \"color\": \"yellow\"}, \") and waypoints (\", {\"keybind\": \"gui.xaero_new_waypoint\", \"color\": \"yellow\"}, \").\"]}"
+	]
+	quest.6FCF2732D22FFAC5.title: "Where Am I?"
+	quest.7132BFB5A70A2845.quest_desc: ["Spot a winged cat."]
+	quest.7132BFB5A70A2845.title: "Winged Cat Sighting"
+	quest.713D283998F36E79.quest_desc: ["Form a contract with a lesser &eWind&r spirit."]
+	quest.713D283998F36E79.title: "Sylphide"
+	quest.718691268139EACC.quest_desc: [
+		"&6Vampire lineage&r · Evolution"
+		"Become a Ghoul."
+	]
+	quest.718691268139EACC.title: "Ghoul"
+	quest.71D3A3E364399F46.quest_desc: ["Enter the Nether."]
+	quest.71D3A3E364399F46.title: "Hot Feet"
+	quest.71D706EB15A3A2F6.quest_desc: ["Learn Demon Lord Haki."]
+	quest.71D706EB15A3A2F6.title: "Demon Lord Haki"
+	quest.71F7F8672DB67878.quest_desc: [
+		"&6Daemon lineage&r · Base race"
+		"Become a Lesser Daemon."
+	]
+	quest.71F7F8672DB67878.title: "Lesser Daemon"
+	quest.72370A4DC6EE72B6.quest_desc: ["Obtain a Bat Glider. Good enough?"]
+	quest.72370A4DC6EE72B6.title: "Ripoff Elytra"
+	quest.728BCBE23A4970AB.quest_desc: [
+		"Acquire the Unique Skill &cGreed&r, one of the seven deadly sins."
+		"&7Legendary: most players never find one.&r"
+	]
+	quest.728BCBE23A4970AB.title: "Greed"
+	quest.7484F7166A2CDEFE.quest_desc: ["Survive a sandstorm."]
+	quest.7484F7166A2CDEFE.title: "Sandblasted Corridors"
+	quest.74AEF26B86B7BCA0.quest_desc: ["Slay a fire, ice or lightning dragon."]
+	quest.74AEF26B86B7BCA0.title: "Dragonslayer"
+	quest.74CA8207C057C40D.quest_desc: [
+		"&6Dwarf lineage&r · Base race"
+		"Become a Dwarf."
+	]
+	quest.74CA8207C057C40D.title: "Dwarf"
+	quest.752D46BB107B9382.quest_desc: [
+		"&6Lizardman lineage&r · Base race"
+		"Become a Lizardman."
+	]
+	quest.752D46BB107B9382.title: "Lizardman"
+	quest.752DF7456B73E494.quest_desc: ["Walk &e10 km&r."]
+	quest.752DF7456B73E494.title: "Wanderer"
+	quest.756458E82FEE37E6.quest_desc: ["Obtain a Stellar Gold coin."]
+	quest.756458E82FEE37E6.title: "Over 1 Million Dollars"
+	quest.7575E9B0B600803D.quest_desc: [
+		"&6Wight lineage&r · Divine / final form"
+		"Become a Divine Skeleton."
+	]
+	quest.7575E9B0B600803D.title: "Divine Skeleton"
+	quest.75B72F33497EDC5C.quest_desc: ["Upgrade a resistance to a nullification."]
+	quest.75B72F33497EDC5C.title: "Physical Attack Nullification"
+	quest.75D548ED87FF475F.quest_desc: [
+		"&6Merfolk lineage&r · Evolution"
+		"Become a Merfolk Saint."
+	]
+	quest.75D548ED87FF475F.title: "Merfolk Saint"
+	quest.762D5B357637C729.quest_desc: ["Pick up a slime with a bucket."]
+	quest.762D5B357637C729.title: "Get Bucketed!"
+	quest.762E27F0D94326FF.quest_desc: [
+		"Craft a Bestiary from &e3 manuscripts&r found in dungeons."
+		"It documents Ice and Fire's creatures and how to deal with them."
+	]
+	quest.762E27F0D94326FF.title: "Know Thy Enemy"
+	quest.764AB3112CFE26BD.quest_desc: ["Spot a pegasus."]
+	quest.764AB3112CFE26BD.title: "Pegasus Sighting"
+	quest.76BB97170CE6C811.quest_desc: ["Craft a kiln. Metals are melted and mixed with magic ore here."]
+	quest.76BB97170CE6C811.title: "The Better Smelter"
+	quest.76D0AB3B24FB78B0.quest_desc: ["Visit a crimson forest in the Nether."]
+	quest.76D0AB3B24FB78B0.title: "Crimson Forest"
+	quest.7700E2273E2B3C39.quest_desc: ["Craft a dragon command staff."]
+	quest.7700E2273E2B3C39.title: "Dragon Commander"
+	quest.776AE90066DAB17A.quest_desc: [
+		"&6Ogre lineage&r · Evolution"
+		"Become a Mystic Oni."
+	]
+	quest.776AE90066DAB17A.title: "Mystic Oni"
+	quest.7776696B306D8902.quest_desc: ["Form a contract with a lesser &eFlame&r spirit."]
+	quest.7776696B306D8902.title: "Salamander"
+	quest.77CCEE9DFB24503B.quest_desc: ["Take down a Blade Tiger."]
+	quest.77CCEE9DFB24503B.title: "Tiger Tamer"
+	quest.77E9D62A287074D1.quest_desc: ["Spot a salamander, a fire spirit."]
+	quest.77E9D62A287074D1.title: "Salamander Sighting"
+	quest.786B1D748B0AA025.quest_desc: ["Obtain monster leather from Tensura's beasts."]
+	quest.786B1D748B0AA025.title: "Getcha Better Leathers!"
+	quest.78C1F246BA121A75.quest_desc: [
+		"The smithing bench is where Tensura gear is made."
+		"It works with &eschematics&r: each schematic unlocks a set of recipes."
+	]
+	quest.78C1F246BA121A75.title: "Apprentice Smith"
+	quest.79281AF9F6F2CBBF.quest_desc: ["Kill &e100&r mobs."]
+	quest.79281AF9F6F2CBBF.title: "Monster Slayer"
+	quest.798C8C43078E749D.quest_desc: [
+		"Craft a bestiary from 3 manuscripts found in dungeons."
+		"Dragons, sea serpents, hydras and more live in this world. The bestiary tells you how to fight them."
+	]
+	quest.798C8C43078E749D.quest_subtitle: "Ice and Fire"
+	quest.798C8C43078E749D.title: "Book of Monsters"
+	quest.7A0F311882E4E6C0.quest_desc: ["Awaken as a &bTrue Hero&r."]
+	quest.7A0F311882E4E6C0.title: "True Hero"
+	quest.7AAAD2D54CB1E6BD.quest_desc: [
+		"&6Goblin lineage&r · Evolution"
+		"Become a Hobgoblin."
+	]
+	quest.7AAAD2D54CB1E6BD.title: "Hobgoblin"
+	quest.7AEEBBB5D0DD9154.quest_desc: ["Spot a unicorn."]
+	quest.7AEEBBB5D0DD9154.title: "Unicorn Sighting"
+	quest.7BB702E748125DC5.quest_desc: [
+		"&6Slime lineage&r · Divine / final form"
+		"Become a God Slime."
+	]
+	quest.7BB702E748125DC5.title: "God Slime"
+	quest.7BC821E83E11D05F.quest_desc: [
+		"&6Daemon lineage&r · Evolution"
+		"Become a Arch Daemon."
+	]
+	quest.7BC821E83E11D05F.title: "Arch Daemon"
+	quest.7C7F7553A38E06D4.quest_desc: [
+		"&6Beastfolk lineage&r · Evolution"
+		"Become a Beast Lord."
+	]
+	quest.7C7F7553A38E06D4.title: "Beast Lord"
+	quest.7CA7034A2CA3E150.quest_desc: ["Set foot in the Lost Caves."]
+	quest.7CA7034A2CA3E150.title: "A Howling Discovery"
+	quest.7CCF58A86F17497B.quest_desc: [
+		"&6Orc lineage&r · Evolution"
+		"Become a High Orc."
+	]
+	quest.7CCF58A86F17497B.title: "High Orc"
+	quest.7CDABC8B37CAC9D8.quest_desc: ["Dragon Meal rapidly grows baby dragons."]
+	quest.7CDABC8B37CAC9D8.title: "Dragon Growth Hormone"
+	quest.7CF02E185A1CECD1.quest_desc: ["We told you not to."]
+	quest.7CF02E185A1CECD1.title: "Please Do Not Touch the Cactus"
+	quest.7D45FEE42A69ABE7.quest_desc: ["Visit a warped forest."]
+	quest.7D45FEE42A69ABE7.title: "Warped Forest"
+	quest.7E6D1D75859BAD9A.quest_desc: ["Charybdis. A Special S-class calamity."]
+	quest.7E6D1D75859BAD9A.title: "Storm Dragon's Spawn"
+	quest.7E7B019B2258D819.quest_desc: ["Travel &e10 km&r by boat."]
+	quest.7E7B019B2258D819.title: "Captain"
+	quest.7F361DDC77164F76.quest_desc: [
+		"{\"text\": \"\", \"extra\": [\"Craft a backpack and open it with \", {\"keybind\": \"key.backpacked.open_backpack\", \"color\": \"yellow\"}, \".\"]}"
+		"More slots are unlocked with &eunlock tokens&r."
+	]
+	quest.7F361DDC77164F76.quest_subtitle: "Carry more"
+	quest.7F361DDC77164F76.title: "Pack Mule"
+	quest.7FEBFD4381D093C2.quest_desc: ["Kill a death worm. Pro tip: they love to eat TNT."]
+	quest.7FEBFD4381D093C2.title: "The Desert Swimmers"
+	task.0BFAC9B85EFEF9C8.title: "Unknown type: tensura_ftb:existence"
+	task.1F37DDAA7A5C4F28.title: "Unknown type: tensura_ftb:existence"
+	task.235568EB0C91DB3B.title: "Unknown type: tensura_ftb:existence"
+	task.45FD197BAC107A9B.title: "Unknown type: tensura_ftb:existence"
+	task.5CE7E939EC24D377.title: "Unknown type: tensura_ftb:existence"
+	task.6070E15D5C26926B.title: "Unknown type: tensura_ftb:existence"
+	task.6CB150EE18D3C321.title: "Unknown type: tensura_ftb:existence"
+	task.7DAB649DCFF84DE9.title: "Unknown type: tensura_ftb:existence"
+}

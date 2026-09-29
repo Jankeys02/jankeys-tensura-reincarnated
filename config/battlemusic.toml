@@ -1,0 +1,46 @@
+["battlemusic configs"]
+	#Volume of battle music, set to zero to mute
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	volume = 1.0
+	#
+	#Whether battle music's volume is affected by the music slider
+	linked_to_music_volume = true
+	#
+	#How much the battle music changes in pitch when at low health    
+	#    > Values below zero shift the pitch down, above zero shift the pitch up    
+	#    > Set to zero to disable   
+	# Default: 0.05
+	# Range: -0.5 ~ 1.0
+	health_pitch_amount = 0.05
+	#
+	#How much the battle music changes in pitch during the second phases of the Ender Dragon and Wither fights    
+	#    > Values below zero shift the pitch down, above zero shift the pitch up  
+	#    > Set to zero to disable     
+	# Default: 0.05
+	# Range: -0.5 ~ 1.0
+	phase2_pitch_amount = 0.05
+	#
+	#At what HP should the battle music shift in pitch
+	# Default: 6
+	# Range: > 1
+	health_pitch_thresh = 6
+	#
+	#Is the health threshold a percentage value?    
+	#    > If it is, the above value must be between 1 and 100    
+	health_pitch_percent = false
+	#
+	#How many seconds songs take to fade in and out
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	fade_time = 1.0
+	#
+	#Entites and their respective songs, write in entity;song;priority format       
+	#    > entity = the entity's ID, eg. "minecraft:pig"       
+	#    > song = the song's ID, eg. "battlemusic:mini1"       
+	#    > priority = what precedence this song takes over other entity's music, eg. a priority of 1 will fade out and play over a priority of 0.      
+	entities_songs = ["minecraft:elder_guardian;battlemusic:mini1;0", "minecraft:warden;battlemusic:necromancer;1", "minecraft:wither;battlemusic:wither_storm;2", "minecraft:ender_dragon;battlemusic:enderman;5", "tensura:evil_centipede;battlemusic:mini1;0", "tensura:megalodon;battlemusic:mini1;0", "tensura:tempest_serpent;battlemusic:mini2;1", "tensura:greater_daemon;battlemusic:mini2;1", "tensura:kirara_mizutani;battlemusic:mini1;1", "tensura:kyoya_tachibana;battlemusic:mini1;1", "tensura:shogo_taguchi;battlemusic:mini1;1", "tensura:mai_furuki;battlemusic:mini1;1", "tensura:shinji_tanimura;battlemusic:mini1;1", "tensura:mark_lauren;battlemusic:mini1;1", "tensura:shin_ryusei;battlemusic:mini2;1", "tensura:folgen;battlemusic:mini2;2", "tensura:orc_lord;battlemusic:arena1;2", "tensura:arch_daemon;battlemusic:necromancer;3", "tensura:ifrit;battlemusic:wildfire;3", "tensura:shizu;battlemusic:summit;3", "tensura:gazel_dwargo;battlemusic:arena2;3", "tensura:orc_disaster;battlemusic:boss;4", "tensura:hinata_sakaguchi;battlemusic:ascension;4", "tensura:elemental_colossus;battlemusic:ancient_guardian;4", "tensura:charybdis;battlemusic:metaluna;5", "tensura_neb:rimuru_clone;battlemusic:mini2;2", "tensura_neb:carrion;battlemusic:kermetic;4", "tensura_neb:luminous_valentine;battlemusic:menta_menardi;4", "tensura_neb:rimuru_ogre_fight;battlemusic:redstone_monstrosity;5", "tensura_neb:veldora;battlemusic:broken_heart_of_ender;6", "trnightmare:sentient_boss_vert;battlemusic:cauldron;5", "trnightmare:sentient_boss_bleu;battlemusic:summit;5", "trnightmare:sentient_boss_jaune;battlemusic:wildfire;5", "trnightmare:sentient_boss_blanc;battlemusic:ascension;5", "trnightmare:sentient_boss_violet;battlemusic:shattered;5", "trnightmare:sentient_boss_noir;battlemusic:necromancer;5", "trnightmare:sentient_boss_veldora;battlemusic:broken_heart_of_ender;6", "trnightmare:sentient_boss_velgrynd;battlemusic:ancient;6", "trnightmare:sentient_boss_velzard;battlemusic:porcus_humungous;6", "iceandfire:troll;battlemusic:mini1;0", "iceandfire:deathworm;battlemusic:mini1;0", "iceandfire:siren;battlemusic:mini1;0", "iceandfire:cyclops;battlemusic:mini2;1", "iceandfire:dread_knight;battlemusic:mini2;1", "iceandfire:gorgon;battlemusic:shattered;3", "iceandfire:sea_serpent;battlemusic:ghast;3", "iceandfire:dread_lich;battlemusic:necromancer;3", "iceandfire:fire_dragon;battlemusic:enderman;3", "iceandfire:ice_dragon;battlemusic:enderman;3", "iceandfire:lightning_dragon;battlemusic:enderman;3", "iceandfire:hydra;battlemusic:arena1;4", "trnightmare:sentient_boss_veldanava;battlemusic:wither_storm;7", "trnightmare:sentient_boss_milim_wrath;battlemusic:metaluna;6", "trnightmare:sentient_boss_gii_crimson;battlemusic:redstone_monstrosity;6", "trnightmare:sentient_boss_primordial_daemon;battlemusic:necromancer;6", "trnightmare:sentient_boss_ancient_daemon;battlemusic:necromancer;5", "trnightmare:sentient_boss_yuuki_desire;battlemusic:menta_menardi;5", "trnightmare:sentient_boss_mariabell_rosso;battlemusic:kermetic;4", "trnightmare:sentient_boss_masayuuki;battlemusic:arena2;4", "trnightmare:sentient_boss_frey;battlemusic:summit;4", "trnightmare:sentient_boss_lucius;battlemusic:arena1;3", "trnightmare:sentient_boss_glenda;battlemusic:arena2;3", "trnightmare:sentient_boss_kokuyou;battlemusic:arena1;3", "trnightmare:sentient_boss_arios;battlemusic:mini2;3", "trnightmare:sentient_boss_agera;battlemusic:mini2;3", "trnightmare:sentient_boss_raymond;battlemusic:mini2;2"]
+	#
+	#A generic battle song to play for any other undefined hostile entity      
+	#    > Leave blank for no default battle music       
+	default_song = ""

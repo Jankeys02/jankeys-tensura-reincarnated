@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "town"
+	group: ""
+	icon: {
+		id: "spudaciousshops:shop_oak"
+	}
+	id: "10DCBFBA4AEE7FBC"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mcwdoors:oak_barn_door"
+			}
+			id: "3A3766CD3FDA7971"
+			rewards: [{
+				id: "53C153171E4F411C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "31060F827941E78B"
+					item: { count: 1, id: "mcwdoors:oak_barn_door" }
+					type: "item"
+				}
+				{
+					id: "2DBED40FC4966617"
+					item: { count: 1, id: "mcwwindows:oak_window" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1338FA64BA471209"
+			rewards: [{
+				id: "4CCC93FB3B1FAB3B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 8L
+				id: "6FB0F0E61091F6C4"
+				item: { count: 1, id: "tensura:tatami_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "517A90A591E2DB21"
+			rewards: [{
+				id: "389700F8C6934173"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				count: 16L
+				id: "6486EA5A733C0FBC"
+				item: { count: 1, id: "tensura:thatch_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1338FA64BA471209"]
+			id: "1FAE78D6EDB2F04C"
+			rewards: [{
+				id: "2339E7443345BA2D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				count: 16L
+				id: "1DF7EA0767139565"
+				item: { count: 1, id: "tensura:low_quality_magic_crystal_bricks" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "50F6171FDAB689C2"
+			rewards: [{
+				id: "619611DDB7630491"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "4FEB82CB120E7305"
+				item: { count: 1, id: "tensura:mining_station" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "370064E1242B3682"
+			rewards: [{
+				id: "447B4546445BF659"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4A79DB15DD5ECD7D"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "3BFD98695485A786"
+			rewards: [{
+				id: "7421DC2F1E6E5D85"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "3431009149DEE728"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BFD98695485A786"]
+			id: "6F7109ECAA50655C"
+			rewards: [{
+				id: "1B728586E728EA1E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66AB6B3419E0BB67"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "50B4B795AF5485B9"
+			optional: true
+			rewards: [{
+				id: "01D685D354FDEF76"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "38EBB3B14828AE18"
+				item: { count: 1, id: "torchmaster:dreadlamp" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "027C29AF84513BD6"
+			rewards: [{
+				id: "71C2C1BAEBDC8758"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "29A85247B6B31163"
+				item: { count: 1, id: "spudaciousshops:crate_shop" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["027C29AF84513BD6"]
+			id: "473F9D71F30F5A72"
+			rewards: [{
+				id: "0CE1842ED23D4AEF"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "00A977E47618A4BC"
+				item: { count: 1, id: "spudaciousshops:contract_scroll" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "14C1ABA7CFBDB626"
+			rewards: [{
+				id: "5125B47ADC833470"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "tensura:delightful_trade"
+				criterion: ""
+				id: "1C2AF4C91A4759EB"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14C1ABA7CFBDB626"]
+			id: "0FE3F460349D0493"
+			rewards: [{
+				id: "5601B5F4A3D535B5"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "tensura:my_precious"
+				criterion: ""
+				id: "39766F1DCC557949"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0FE3F460349D0493"]
+			id: "756458E82FEE37E6"
+			rewards: [{
+				id: "3C10090D69C586DE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:million_dollar"
+				criterion: ""
+				id: "728800716ECE163B"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "38CF1193C1757FD1"
+			optional: true
+			rewards: [{
+				id: "5946A08DF259C208"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				id: "0F1281F530DEE29F"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+	]
+}

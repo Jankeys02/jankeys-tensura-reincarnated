@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-Only the latest release of {{PROJECT_NAME}} is supported. Please update before reporting an issue.
+Only the latest release of jankeys-tensura-reincarnated is supported. Please update before reporting an issue.
 
 ## Reporting a vulnerability
 

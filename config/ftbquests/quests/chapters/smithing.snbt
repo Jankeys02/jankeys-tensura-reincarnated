@@ -1,0 +1,492 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smithing"
+	group: ""
+	icon: {
+		id: "tensura:smithing_bench"
+	}
+	id: "3690EFC35EC34002"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tensura:smithing_bench"
+			}
+			id: "036703521B73A4BD"
+			rewards: [{
+				id: "4A0371F6D8772F4A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "tensura:start_smithing"
+				criterion: ""
+				id: "585918045832F2EE"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["036703521B73A4BD"]
+			id: "35277EAF70F70E39"
+			rewards: [{
+				id: "7697EB7A248A3A21"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "tensura:gold_rush"
+				criterion: ""
+				id: "47AF0EFE88E156C7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["036703521B73A4BD"]
+			id: "76BB97170CE6C811"
+			rewards: [{
+				id: "333913350A87D928"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "tensura:better_smelter"
+				criterion: ""
+				id: "743B51C3430AB832"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76BB97170CE6C811"]
+			id: "08CC569CBD49271F"
+			rewards: [
+				{
+					id: "2456C507426213F9"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					count: 4
+					id: "3214251E8405732B"
+					item: {
+						count: 1
+						id: "tensura:magic_ore_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "tensura:low_magisteel"
+				criterion: ""
+				id: "3F4400501A2046E0"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08CC569CBD49271F"]
+			id: "123FDD04AFD662E4"
+			rewards: [{
+				id: "2E7C11D8A2F94D50"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:high_magisteel"
+				criterion: ""
+				id: "4A6CEAFC37C62EBC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "09CCF7878142A4FD"
+			rewards: [
+				{
+					id: "6FEC28EDCB99EAA6"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "0E646A047203A6E9"
+					item: {
+						count: 1
+						id: "tensura:medium_quality_magic_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:pure_magisteel"
+				criterion: ""
+				id: "0838B54B5EE3DC7A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB97170CE6C811"]
+			id: "3C0E71C4CD3BB289"
+			rewards: [{
+				id: "26AE25A8F8EF445D"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:mithril"
+				criterion: ""
+				id: "4687FE521A078D70"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C0E71C4CD3BB289"]
+			id: "185902F88B2681FF"
+			rewards: [{
+				id: "3C3C3312245826BD"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:even_better_smelter"
+				criterion: ""
+				id: "774161A19F7919EC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"185902F88B2681FF"
+				"35277EAF70F70E39"
+			]
+			id: "12A85B703C1B6D3E"
+			rewards: [{
+				id: "5314714CAF77BC2D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "tensura:orichalcum"
+				criterion: ""
+				id: "1E53249E37F9F418"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12A85B703C1B6D3E"]
+			id: "159E0149AE6DC993"
+			rewards: [{
+				id: "67AE92A6DBEFFD8B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:best_smelter"
+				criterion: ""
+				id: "5FB315974DB65751"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09CCF7878142A4FD"]
+			id: "46967FB979ECDEB7"
+			rewards: [{
+				id: "77CD618383C1E097"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:adamantite"
+				criterion: ""
+				id: "09D7AAD907F87C79"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46967FB979ECDEB7"]
+			id: "43E32BC97EBE8066"
+			rewards: [
+				{
+					id: "3459F80FD8552123"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "0C4A02E0935CC991"
+					item: {
+						count: 1
+						id: "tensura:high_quality_magic_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:hihiirokane"
+				criterion: ""
+				id: "0769FC5BA68F7C1B"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4CC24E104101893D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7765DADEFF679CA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "tensura:obtain_hihiirokane_hoe"
+				criterion: ""
+				id: "1224122F089FB6D5"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "5620DDEF33310C4B"
+			rewards: [
+				{
+					id: "77FE33FBFE5AC75D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "352C2A0D065F51D8"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tensura:master_smith"
+				criterion: ""
+				id: "1BDFB64398CF1E2B"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["036703521B73A4BD"]
+			id: "4E9DE04F13AE0B36"
+			rewards: [{
+				id: "2F6EBB70B834A60A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "tensura:getcha_leathers"
+				criterion: ""
+				id: "2B3C2F2B08245C58"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "786B1D748B0AA025"
+			rewards: [{
+				id: "64BEBFDF763CB8A9"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "tensura:getcha_better_leathers"
+				criterion: ""
+				id: "62AAD703D4E94F94"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["786B1D748B0AA025"]
+			id: "54EA59FBC7E25738"
+			rewards: [{
+				id: "2540F1D520235657"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "tensura:light_as_horned_rabbit"
+				criterion: ""
+				id: "3814AF25B785A7B3"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["786B1D748B0AA025"]
+			id: "23A21464529E2BDD"
+			rewards: [{
+				id: "0849DB47A40E58B7"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "tensura:believe_to_fly"
+				criterion: ""
+				id: "6A78FFAABFD0BEF3"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["786B1D748B0AA025"]
+			id: "72370A4DC6EE72B6"
+			rewards: [{
+				id: "155F515D50000EE1"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "tensura:ripoff_elytra"
+				criterion: ""
+				id: "2DA70A68E8C2369B"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76BB97170CE6C811"]
+			id: "0494CC9F8A9C32B2"
+			rewards: [{
+				id: "7AFD51D927D9E5FE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "tensura:become_ninja"
+				criterion: ""
+				id: "2298486EBB282659"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76BB97170CE6C811"]
+			id: "3B8AF828F73BFE08"
+			rewards: [{
+				id: "7EBFA9B4CAD73C78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "tensura:a_bit_cold"
+				criterion: ""
+				id: "7B177C7097EAA13B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "44FBF65092FB01A8"
+			rewards: [{
+				id: "734CE7D68D28108A"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "tensura:infinity_cores"
+				criterion: ""
+				id: "09ABFD47FC9E5136"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "40C250A9AB7C37A1"
+			rewards: [{
+				id: "5B124D78F7C93A99"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "tensura:unhealable_wound"
+				criterion: ""
+				id: "117070AFE22D56DC"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40C250A9AB7C37A1"]
+			id: "3131CD6B040303A8"
+			optional: true
+			rewards: [{
+				id: "6B809DB5AFA86F75"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				advancement: "tensura:too_strong"
+				criterion: ""
+				id: "0F82B40ADFE8AC9E"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09CCF7878142A4FD"]
+			id: "19110656114D52A1"
+			rewards: [{
+				id: "4396A0C6719DBB18"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "tensura:build_body"
+				criterion: ""
+				id: "2B9D445EC655E612"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+}

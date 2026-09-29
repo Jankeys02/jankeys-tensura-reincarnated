@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "treasure"
+	group: ""
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "6EE46664020D6E17"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "66AAF48E079BC5CD"
+			rewards: [{
+				id: "20D10D5C87BEA36A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "23C660E8BBF4E93B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "17F325079CC1FC5B"
+			rewards: [{
+				id: "23C08EAB4632B4B6"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "5E7370D5BED0D731"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F325079CC1FC5B"]
+			id: "2B263645181D7BDF"
+			rewards: [{
+				id: "740F4068A895C5C1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4FED95035844404B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "0C0941BCD25007AA"
+			rewards: [{
+				id: "136AACB3EE34C783"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "016379BAC9E4F9F9"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C0941BCD25007AA"]
+			id: "0657F1EFD5250DA3"
+			rewards: [{
+				id: "337158157EF127A6"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "lootr:social"
+				criterion: ""
+				id: "02D294439963F732"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "43482D8851D19292"
+			rewards: [{
+				id: "13D5887F0F2215E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+				id: "5D11FDDA971419E4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4288A348E0BD0A43"
+			rewards: [{
+				id: "136EA9FD7E2798AE"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				advancement: "artifacts:chest_slayer"
+				criterion: ""
+				id: "0E26FB26EE313C56"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "30D9E1E13DA185A7"
+			optional: true
+			rewards: [{
+				id: "40E56A5B9067402C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "artifacts:adventurous_eater"
+				criterion: ""
+				id: "74A3FA43FBF82A19"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "4735E3D704BF2DC7"
+			rewards: [{
+				id: "528805C8C718C715"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "6C133F2759BBE9FC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "129626ACA6342414"
+			rewards: [{
+				id: "06106AF38D726DFF"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "27C809DE2F1414FB"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "0446C2B07C0732BC"
+			rewards: [{
+				id: "36FA7681BF615650"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "298813D64FEF637D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0446C2B07C0732BC"]
+			id: "3840F39A09748D92"
+			rewards: [{
+				id: "5FE8A04E5B979727"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "betterdungeons:small_nether_dungeon"
+				criterion: ""
+				id: "50E1DA34E5C68815"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129626ACA6342414"]
+			id: "1DBBB06CD1D22730"
+			rewards: [{
+				id: "0D0DFA122B143DCE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdungeons:all_dungeons"
+				criterion: ""
+				id: "53DA60B01E8F8ACA"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "1923A41E88197D05"
+			rewards: [{
+				id: "60B796F557C4C5BC"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "0200953A5BD91995"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "25F383B5D71150BD"
+			rewards: [{
+				id: "23B1A76515A6F080"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:frosted_caves"
+				criterion: ""
+				id: "49006A8E9BA13DF9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "31A1C5FC4AAD42FA"
+			rewards: [{
+				id: "5B863A4C5F9FBE0C"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:mine_enchanted_ice"
+				criterion: ""
+				id: "45F0CB11B2100E52"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "5E47EC47958D466E"
+			rewards: [{
+				id: "18FAF03980E8543B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:frost_potion"
+				criterion: ""
+				id: "05C539BAECE25765"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "7CA7034A2CA3E150"
+			rewards: [{
+				id: "0EDE6ED06E0E8184"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:lost_caves"
+				criterion: ""
+				id: "465CBB49DB1BA86E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CA7034A2CA3E150"]
+			id: "7484F7166A2CDEFE"
+			rewards: [{
+				id: "716E860BBA292BF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:sandstorm_end"
+				criterion: ""
+				id: "34C8D0E6D06E8F44"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CA7034A2CA3E150"]
+			id: "2B999ADFA3AD8C0E"
+			rewards: [{
+				id: "0D3E69D9027EDFB4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:the_snack_that_bites_back"
+				criterion: ""
+				id: "26B08AD2A6A10D53"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2B999ADFA3AD8C0E"]
+			id: "7CF02E185A1CECD1"
+			optional: true
+			rewards: [{
+				id: "2BA3B5265FC8F540"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "yungscavebiomes:poke_the_cactus"
+				criterion: ""
+				id: "07B4FA4596310A4F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+	]
+}

@@ -1,0 +1,10 @@
+#The actual (not displayed) row count the filtpick list every player has.
+#The world must be restarted before the config value can be changed.
+#Modify this if you need more slots to filter items.
+#Range: 0 ~ 100
+"container row count" = 20
+#The number of slot rows displayed in filtpick screen.
+#Smaller number means you need to scroll more to reach the bottom.
+#Modify this if you think the filtpick screen is too big.
+#Range: 1 ~ 6
+"displayed row count" = 6
