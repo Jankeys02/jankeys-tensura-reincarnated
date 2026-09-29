@@ -252,7 +252,7 @@
 	quest.16CA842ED82CD402.title: "Dragonewt"
 	quest.17F325079CC1FC5B.quest_desc: ["Open 10 Lootr containers."]
 	quest.17F325079CC1FC5B.title: "Delightful Decade"
-	quest.1806CCA9857CAD6A.quest_desc: ["The Orc Disaster. Bring friends."]
+	quest.1806CCA9857CAD6A.quest_desc: ["The Orc Disaster. Bring friends.", "", "It is the evolution of an Orc Lord. An Orc Disaster Temple can also be found in deserts (see Boss Maps)."]
 	quest.1806CCA9857CAD6A.title: "Orc Disaster"
 	quest.185902F88B2681FF.quest_desc: ["Upgrade to a Mithril Kiln."]
 	quest.185902F88B2681FF.title: "The Even Better Smelter"
@@ -1098,7 +1098,7 @@
 	quest.7CF02E185A1CECD1.title: "Please Do Not Touch the Cactus"
 	quest.7D45FEE42A69ABE7.quest_desc: ["Visit a warped forest."]
 	quest.7D45FEE42A69ABE7.title: "Warped Forest"
-	quest.7E6D1D75859BAD9A.quest_desc: ["Charybdis. A Special S-class calamity."]
+	quest.7E6D1D75859BAD9A.quest_desc: ["Charybdis. A Special S-class calamity.", "", "Look for a Charybdis cave. They come in desert, ice, mesa and plains variants."]
 	quest.7E6D1D75859BAD9A.title: "Storm Dragon's Spawn"
 	quest.7E7B019B2258D819.quest_desc: ["Travel &e10 km&r by boat."]
 	quest.7E7B019B2258D819.title: "Captain"
@@ -1118,4 +1118,18 @@
 	task.6070E15D5C26926B.title: "Unknown type: tensura_ftb:existence"
 	task.6CB150EE18D3C321.title: "Unknown type: tensura_ftb:existence"
 	task.7DAB649DCFF84DE9.title: "Unknown type: tensura_ftb:existence"
+	quest.848D35E761F5CD59.title: "Boss Maps"
+	quest.848D35E761F5CD59.quest_desc: ["Some boss structures can be located with maps.", "", "Trade with Cartographer villagers: they sell a map for each boss structure in exchange for emeralds. You may need to level the villager up first.", "", "Open the map to see where the structure is, then tick this off."]
+	quest.7689082AAA65C8E3.title: "Orc Disaster Temple"
+	quest.7689082AAA65C8E3.quest_desc: ["Find the Orc Disaster Temple. A boss awaits.", "", "It generates in deserts. A Cartographer villager sells a map to it."]
+	quest.7B7A453C5DB15C11.title: "Beast Kingdom of Eurazania"
+	quest.7B7A453C5DB15C11.quest_desc: ["Find the Beast Kingdom of Eurazania. A boss awaits.", "", "It generates in deserts and badlands. A Cartographer villager sells a map to it."]
+	quest.807EBB874FB3BA95.title: "Hinata Church"
+	quest.807EBB874FB3BA95.quest_desc: ["Find the Hinata Church. A boss awaits.", "", "It generates in plains, forests, taigas and meadows. A Cartographer villager sells a map to it."]
+	quest.71FEDE5A759C9875.title: "Night Rose Castle"
+	quest.71FEDE5A759C9875.quest_desc: ["Find the Night Rose Castle. A boss awaits.", "", "It generates in plains, forests, taigas, meadows, savannas and windswept hills. A Cartographer villager sells a map to it."]
+	quest.21E324B6AC2FD19A.title: "Rimuru's Arena"
+	quest.21E324B6AC2FD19A.quest_desc: ["Find the Rimuru's Arena. A boss awaits.", "", "It generates in plains, forests, taigas, meadows, cherry groves and some jungles. A Cartographer villager sells a map to it."]
+	quest.EC2F3EB90E2F451F.title: "Shizu School"
+	quest.EC2F3EB90E2F451F.quest_desc: ["Find the Shizu School. A boss awaits.", "", "It generates in plains and forests. A Cartographer villager sells a map to it."]
 }
