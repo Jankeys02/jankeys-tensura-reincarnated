@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:is_plains",
+    "#c:is_forest",
+    "#c:is_taiga",
+    "#c:is_jungle"
+  ]
+}
