@@ -3,7 +3,9 @@
 Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
-Quest book expansion (planned as 0.2.0). Not yet released or tagged.
+
+## [0.2.0] - 2026-10-07
+The quest-book release: 17 new chapters narrated by the Voice of the World, four Tensura addons, a full audit of the book, and the dimension gate. Mods added since 0.1.1 are All Rights Reserved and are linked, not bundled, in the server pack.
 
 ### Added
 - **12 new quest chapters** (book grows from 14 to 26 chapters, 365 to 620 quests, before the addon chapters below), written as a story narrated by the "Voice of the World", with a short in-line tutorial ("Field note") in every quest:
@@ -12,7 +14,7 @@ Quest book expansion (planned as 0.2.0). Not yet released or tagged.
   - **Boss Hunts** group: Cataclysm Hunts, Mowzie's Hunts.
   - **Paths** group: Explorer's Path (more claimed/force-loaded chunks, faster /back), Homesteader's Path (more homes, faster /home), Hunter's Path (+10% maximum health per rank, see Known issues). Each has 5 ranks plus 5 optional bonus quests. 15 new ranks in `config/ftbranks-pack.snbt`.
   - **Homestead** group: Cooking and Farming (Farmer's Delight), Homestead and Travel (Comforts, Supplementaries, Waystones).
-- **Tensura Addons** group, 5 more chapters for the new mods (book grows to 31 chapters, 834 quests): Ascension (magicule infrastructure, Great Mage line, Ultimate awakening), Lineages of Ascension (all 69 races in 11 lineages), Origins (True Dragons, Dragotite gear, progenitor angels and daemons, the sub-dragon forms), Blood and Avalon (Bloodfiend line, Avalon relics, secret Lord-tier skills) and Elite Forge (Elite skills, the Saiyan line, armoury, plushie collection). Skills or items without a documented source are optional or secret quests.
+- **Tensura Addons** group, 5 more chapters for the new mods (book grows to 31 chapters; 830 quests after the audit below): Ascension (magicule infrastructure, Great Mage line, Ultimate awakening), Lineages of Ascension (all 69 races in 11 lineages), Origins (True Dragons, Dragotite gear, progenitor angels and daemons, the sub-dragon forms), Blood and Avalon (Bloodfiend line, Avalon relics, secret Lord-tier skills) and Elite Forge (Elite skills, the Saiyan line, armoury, plushie collection). Skills or items without a documented source are optional or secret quests.
 - Progression tiers: high-tier chapters unlock with the Miner's Path milestones (iron, diamond, Nether, Wither); later acts and bosses are hidden until earlier ones are done; side quests are secret until completed.
 - `kubejs/server_scripts/dimension_gate.js`: survival players who enter Eternal Starlight or Chrono Dawn before visiting the Nether, or The Afterdark before summoning a Wither, are sent back to their bed or spawn with a message. Creative, spectator and (by default) operators are exempt. Twilight Forest stays open.
 - Mods: Tensura: Ascension, TensuraMoreSkills, Elite Tensura Addon, Tensura: Origins. All four are All Rights Reserved: the server pack must not bundle them. `SERVER_HOSTING.md` links them, and they should be added as Required Dependencies on the server-pack file on CurseForge (ids 1505110, 1399788, 515631, 1230188).
@@ -30,6 +32,7 @@ Quest book expansion (planned as 0.2.0). Not yet released or tagged.
 - "Land of the Dead" (Explorer's Journal) needs a biome that only exists in the unreachable Dread Lands dimension; it is now a secret optional quest with a mysterious description.
 
 ### Known issues
+- The Path skill rewards (`tensura_ftb:ability`) and the chapter-final EP rewards (`tensura_ftb:existence_value`) load and serialise correctly but have not been claimed in game yet.
 - The Hunter's Path health bonus is applied with a vanilla attribute command and has not been tested against Tensura's own health system.
 - The Afterdark teleport catalyst is only found in chests (15% in six loot tables); there is no recipe.
 - The Ice and Fire Dread Lands dimension has no working entrance in survival.
