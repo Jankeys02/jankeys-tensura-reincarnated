@@ -118,6 +118,21 @@
 		}
 		{
 			dependencies: ["272ADC6FA03E327D"]
+			id: "6267213B70B26E33"
+			rewards: [{
+				id: "48B0B6B6A4DBAAFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "407BDCA95CFE6749"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6267213B70B26E33"]
 			id: "10C654DFD5E1BB92"
 			rewards: [{
 				id: "5DDB5C39EC317650"
@@ -128,7 +143,7 @@
 				id: "65057833541B8C8A"
 				type: "checkmark"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 3.0d
 		}
 		{
@@ -143,7 +158,7 @@
 				id: "27F856C2B8CD42C1"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -158,7 +173,7 @@
 				id: "10F1F4CDA4063E1D"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -173,7 +188,7 @@
 				id: "7AF93EE165A65344"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -188,7 +203,7 @@
 				id: "3A5633C482024F34"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -203,7 +218,7 @@
 				id: "71887E24BF4652B6"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -219,7 +234,7 @@
 				id: "1EB03DCB373E75A7"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 3.0d
 		}
 	]

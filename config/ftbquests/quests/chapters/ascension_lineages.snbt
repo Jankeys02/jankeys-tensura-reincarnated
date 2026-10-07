@@ -12,6 +12,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "0BA52AEA5444C4D0"
+			rewards: [{
+				id: "4F99D7EDCCD75E34"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5259F3E08CD28876"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "0CB39D92574C9DDF"
 			rewards: [{
 				id: "1628524E9BE19017"
@@ -24,10 +39,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0CB39D92574C9DDF"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "7FDFC8356BCFF2F2"
 			rewards: [{
@@ -41,10 +56,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7FDFC8356BCFF2F2"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "7F9428C5A9574035"
 			rewards: [{
@@ -58,10 +73,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7F9428C5A9574035"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "5A72B294F4EA97D1"
 			rewards: [{
@@ -75,10 +90,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7F9428C5A9574035"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "703F552DC3CA265A"
 			rewards: [{
@@ -92,11 +107,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["5A72B294F4EA97D1"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "6799DD4D27D3005F"
 			rewards: [{
 				id: "76815DBF47B571BC"
@@ -110,11 +125,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["703F552DC3CA265A"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "215EE5F38F772251"
 			rewards: [{
 				id: "39CD33E5C0A4C7D3"
@@ -128,9 +143,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "31CE7F801B4ADB34"
 			rewards: [{
 				id: "0B139ACE7621DA80"
@@ -143,10 +159,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["31CE7F801B4ADB34"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "5DAFD8BA5978290E"
 			rewards: [{
@@ -160,10 +176,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 10.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5DAFD8BA5978290E"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "1CC8B9ED697C40E6"
 			rewards: [{
@@ -177,10 +193,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["1CC8B9ED697C40E6"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0200EEC2D4CBA5F7"
 			rewards: [{
@@ -194,11 +210,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["0200EEC2D4CBA5F7"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "0FBF45898D761615"
 			rewards: [{
 				id: "21F4B7286C12A86A"
@@ -212,11 +228,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["0200EEC2D4CBA5F7"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "210B0D85C1332563"
 			rewards: [{
 				id: "4E4BB58782EAB35D"
@@ -230,11 +246,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["0200EEC2D4CBA5F7"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "454ECC621F07BB1F"
 			rewards: [{
 				id: "6EFA89AA59BD31FC"
@@ -248,9 +264,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "7F82CF82C2FAF2EC"
 			rewards: [{
 				id: "29D76599869DF1ED"
@@ -263,10 +280,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7F82CF82C2FAF2EC"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0F88E55503E8C001"
 			rewards: [{
@@ -280,10 +297,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["0F88E55503E8C001"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "7480E9D6F5DE0657"
 			rewards: [{
@@ -297,10 +314,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["7480E9D6F5DE0657"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "420523D9C47B11FD"
 			rewards: [{
@@ -314,11 +331,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["420523D9C47B11FD"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "4C397734D4F15848"
 			rewards: [{
 				id: "17BA4090DCE5C0DD"
@@ -332,9 +349,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 9.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "71980EDC7C51361B"
 			rewards: [{
 				id: "6F8F768B07742060"
@@ -347,10 +365,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 9.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["71980EDC7C51361B"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "00EC3794D0408330"
 			rewards: [{
@@ -364,10 +382,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 6.0d
-			y: 9.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["00EC3794D0408330"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "1FC7175F4678D53A"
 			rewards: [{
@@ -381,10 +399,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 4.0d
-			y: 9.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["1FC7175F4678D53A"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "6539C4536725B1F3"
 			rewards: [{
@@ -398,11 +416,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 2.0d
-			y: 9.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["6539C4536725B1F3"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "1908754AE23EFF06"
 			rewards: [{
 				id: "35F01826133BE323"
@@ -416,9 +434,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "0482B7407CA9BFA0"
 			rewards: [{
 				id: "40013CA717871DBE"
@@ -431,10 +450,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["0482B7407CA9BFA0"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "30A132487EC0944D"
 			rewards: [{
@@ -448,10 +467,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 2.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["30A132487EC0944D"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "64B2BD9CF8FE4837"
 			rewards: [{
@@ -465,10 +484,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 4.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["64B2BD9CF8FE4837"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "5F77B2EC580043E6"
 			rewards: [{
@@ -482,10 +501,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["5F77B2EC580043E6"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "5A7E95C2BDD198BD"
 			rewards: [{
@@ -499,10 +518,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["5A7E95C2BDD198BD"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "6CED21E75E319E18"
 			rewards: [{
@@ -516,10 +535,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 10.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["6CED21E75E319E18"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "196826719E603718"
 			rewards: [{
@@ -533,10 +552,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["196826719E603718"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "3DA5A1053B4F47D8"
 			rewards: [{
@@ -550,10 +569,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 14.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["3DA5A1053B4F47D8"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "2AF59864964C31A7"
 			rewards: [{
@@ -567,11 +586,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 16.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["2AF59864964C31A7"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "172D13B69AA9AF13"
 			rewards: [{
 				id: "1356031B7AF94DDF"
@@ -585,9 +604,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 18.0d
-			y: 12.0d
+			y: 15.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "012CBEC4F4F3CB06"
 			rewards: [{
 				id: "7BEAB4877B5CDD61"
@@ -600,10 +620,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 18.0d
-			y: 15.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["012CBEC4F4F3CB06"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "38AAD724AE4BAFAD"
 			rewards: [{
@@ -617,10 +637,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 16.0d
-			y: 15.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["38AAD724AE4BAFAD"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "536C2D3342B7FB3E"
 			rewards: [{
@@ -634,11 +654,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 14.0d
-			y: 15.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["536C2D3342B7FB3E"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "51EAB8BB07624BF2"
 			rewards: [{
 				id: "3F07867CA1FDEBB5"
@@ -652,9 +672,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 15.0d
+			y: 18.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "7BC978FD9DD26FA4"
 			rewards: [{
 				id: "6D50C5BC32F71728"
@@ -667,10 +688,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["7BC978FD9DD26FA4"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "35B80917B0686856"
 			rewards: [{
@@ -684,11 +705,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 14.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["35B80917B0686856"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "36F6120EFBFC7283"
 			rewards: [{
 				id: "733C730171F0B6F9"
@@ -702,10 +723,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 16.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["7BC978FD9DD26FA4"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0109E5C96A626095"
 			rewards: [{
@@ -719,10 +740,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 18.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["0109E5C96A626095"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "728E93FD83341E90"
 			rewards: [{
@@ -736,11 +757,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 20.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["728E93FD83341E90"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "3C21631B0A7A22E8"
 			rewards: [{
 				id: "605D95496E634EDC"
@@ -754,9 +775,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 22.0d
-			y: 18.0d
+			y: 21.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "7D251A09378B3B3E"
 			rewards: [{
 				id: "66A48B9F102A061E"
@@ -769,10 +791,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 22.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["7D251A09378B3B3E"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "3D04D3583550D8E2"
 			rewards: [{
@@ -786,10 +808,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 20.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["3D04D3583550D8E2"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "24C6E1482C2DCCE5"
 			rewards: [{
@@ -803,10 +825,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 18.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["24C6E1482C2DCCE5"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "7197EF4803AFEA3E"
 			rewards: [{
@@ -820,10 +842,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 16.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["7197EF4803AFEA3E"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "423244A75A861487"
 			rewards: [{
@@ -837,11 +859,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 14.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["423244A75A861487"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "37DD417DE62F7139"
 			rewards: [{
 				id: "7C93A8826DC34787"
@@ -855,9 +877,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 21.0d
+			y: 24.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "55AFE0EF76826BE4"
 			rewards: [{
 				id: "3A4F21E563452738"
@@ -870,10 +893,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 12.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["55AFE0EF76826BE4"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "01E8CB809C1F84BC"
 			rewards: [{
@@ -887,10 +910,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 14.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["01E8CB809C1F84BC"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0742979BDC621095"
 			rewards: [{
@@ -904,10 +927,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 16.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["0742979BDC621095"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "3EBDFD83FACC79AB"
 			rewards: [{
@@ -921,10 +944,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 18.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["3EBDFD83FACC79AB"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "1A684353790E121A"
 			rewards: [{
@@ -938,11 +961,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 20.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["1A684353790E121A"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "23CAE247E8490C20"
 			rewards: [{
 				id: "113617C181CF9C3E"
@@ -956,10 +979,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 22.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["01E8CB809C1F84BC"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0B5F316D9FC356D5"
 			rewards: [{
@@ -973,10 +996,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 24.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["0B5F316D9FC356D5"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "3D5393D0A53996A4"
 			rewards: [{
@@ -990,10 +1013,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 26.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["3D5393D0A53996A4"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "495D98A7CADE4F66"
 			rewards: [{
@@ -1007,11 +1030,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 28.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
-			dependencies: ["495D98A7CADE4F66"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "055A8FFCE26B8561"
 			rewards: [{
 				id: "5AB280C5E960B7D6"
@@ -1025,9 +1048,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 30.0d
-			y: 24.0d
+			y: 27.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "68274D0DEF60787E"
 			rewards: [{
 				id: "203F17C8B34BE513"
@@ -1040,10 +1064,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 30.0d
-			y: 27.0d
+			y: 30.0d
 		}
 		{
-			dependencies: ["68274D0DEF60787E"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "6CDAB482930EDE33"
 			rewards: [{
@@ -1057,10 +1081,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 28.0d
-			y: 27.0d
+			y: 30.0d
 		}
 		{
-			dependencies: ["6CDAB482930EDE33"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "41470656C4792B24"
 			rewards: [{
@@ -1074,11 +1098,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 26.0d
-			y: 27.0d
+			y: 30.0d
 		}
 		{
-			dependencies: ["41470656C4792B24"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "5F19FE806781DEB4"
 			rewards: [{
 				id: "58F28803536562E0"
@@ -1092,9 +1116,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 24.0d
-			y: 27.0d
+			y: 30.0d
 		}
 		{
+			dependencies: ["0BA52AEA5444C4D0"]
 			id: "44F6B5D35B3C49E8"
 			rewards: [{
 				id: "5EE226905A93C5A2"
@@ -1107,10 +1132,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 24.0d
-			y: 30.0d
+			y: 33.0d
 		}
 		{
-			dependencies: ["44F6B5D35B3C49E8"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "7A432357D4871A5C"
 			rewards: [{
@@ -1124,10 +1149,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 26.0d
-			y: 30.0d
+			y: 33.0d
 		}
 		{
-			dependencies: ["7A432357D4871A5C"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "0BE373EE882203E5"
 			rewards: [{
@@ -1141,10 +1166,10 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 28.0d
-			y: 30.0d
+			y: 33.0d
 		}
 		{
-			dependencies: ["0BE373EE882203E5"]
+			dependencies: ["0BA52AEA5444C4D0"]
 			hide_details_until_startable: true
 			id: "27A660F24595C2B3"
 			rewards: [{
@@ -1158,11 +1183,11 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 30.0d
-			y: 30.0d
+			y: 33.0d
 		}
 		{
-			dependencies: ["27A660F24595C2B3"]
-			hide_until_deps_complete: true
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_details_until_startable: true
 			id: "1F0A4526833CD7B1"
 			rewards: [{
 				id: "202E66DCD1ED8AA3"
@@ -1176,7 +1201,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 32.0d
-			y: 30.0d
+			y: 33.0d
 		}
 	]
 }

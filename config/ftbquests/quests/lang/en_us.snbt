@@ -3512,4 +3512,16 @@
 	task.7C4E32EB16D5FD73.title: "Obtain the astral edge"
 	task.7E3122201D9B9746.title: "Hold the lord of wisdom"
 	task.7E58836078676AE4.title: "Obtain the void edge"
+	quest.6267213B70B26E33.quest_desc: [
+		"&7&oIt writes down what you are, not what you were.&r"
+		"&6Field note:&r Quests that ask you to BE something, like a race, are checked when you log in, or when you open the quest and click the task while you hold that race. Skills and items stay recorded, but a race you have already evolved out of cannot be recorded afterwards, so open the quest before you move on."
+	]
+	quest.6267213B70B26E33.title: "The World Takes Notes"
+	task.407BDCA95CFE6749.title: "Understood"
+	quest.0BA52AEA5444C4D0.quest_desc: [
+		"&7&oThe World writes down what you are, not what you were.&r"
+		"&6Field note:&r A race is recorded when you log in as it, or when you open its quest and click the race task while you hold that race. If you evolve quickly, open the quest before moving on: a stage you have already left cannot be recorded afterwards."
+	]
+	quest.0BA52AEA5444C4D0.title: "How Lineages Are Recorded"
+	task.5259F3E08CD28876.title: "Understood"
 }

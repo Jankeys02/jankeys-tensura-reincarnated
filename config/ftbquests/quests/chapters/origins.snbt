@@ -275,7 +275,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7788D3A2EFD6ECC4"]
+			dependencies: ["606087AD55A214CD"]
 			hide_details_until_startable: true
 			id: "0378D519C27FCB5E"
 			rewards: [{
@@ -292,7 +292,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0378D519C27FCB5E"]
+			dependencies: ["606087AD55A214CD"]
 			hide_details_until_startable: true
 			id: "4647BFCCD6DE9E25"
 			rewards: [{
@@ -326,8 +326,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "741A13AFD9F2CA05"
 			rewards: [{
 				id: "6F8BA122BE1247A4"
@@ -343,8 +343,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "667C41AF930DBB3E"
 			rewards: [{
 				id: "6587246BB4DB06E6"
@@ -360,8 +360,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "2A57EA3C486B9AB4"
 			rewards: [{
 				id: "464C6857156BFA03"
@@ -377,8 +377,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "7C5C633E1153834B"
 			rewards: [{
 				id: "14BDA959BD546081"
@@ -394,8 +394,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "299C0B7662B32102"
 			rewards: [{
 				id: "260976DFB3A3FB20"
@@ -411,8 +411,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["73E269CAFF82BB2C"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "19B610EDC4BCDC53"
 			rewards: [{
 				id: "377B7DDBC6B82D2C"
@@ -444,8 +444,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["5BB21069D65CC2DC"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "369D06724E6968A9"
 			rewards: [{
 				id: "3578142742B01F37"
@@ -461,8 +461,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["369D06724E6968A9"]
-			hide_until_deps_complete: true
+			dependencies: ["606087AD55A214CD"]
+			hide_details_until_startable: true
 			id: "4F324BADAAEAD376"
 			rewards: [{
 				id: "0FB826C949714EA8"

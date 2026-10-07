@@ -30,6 +30,13 @@ Three mods are not bundled because their authors do not allow redistribution. Do
 - **Tensura: Enigmatic**: https://www.curseforge.com/projects/1299711
 - **Tensura: Unique Monsters**: https://www.curseforge.com/projects/1489273
 
+**From version 0.2.0 on, four more mods are in the same situation** (All Rights Reserved, not bundled). Same rule: download the version used by the client pack and put the jar in `mods/`.
+
+- **Tensura: Ascension**: https://www.curseforge.com/projects/1505110
+- **TensuraMoreSkills**: https://www.curseforge.com/projects/1399788
+- **Elite Tensura Addon**: https://www.curseforge.com/projects/515631
+- **Tensura: Origins**: https://www.curseforge.com/projects/1230188
+
 ## Bundled mods with open licenses
 These mods have CurseForge third-party distribution switched off, but their licenses allow redistribution, so they are bundled. All credit to their authors:
 
