@@ -9,7 +9,7 @@ Reincarnate as a slime (or anything else) in a NeoForge 1.21.1 world built aroun
 - **Dimension gate:** in survival, three dimensions (Eternal Starlight, Chrono Dawn, The Afterdark) are locked until you have visited the Nether or summoned a Wither. Creative, spectator and operators are exempt.
 - **World:** Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark).
 - **Structures and loot:** the YUNG's suite, Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage.
-- **Bosses:** L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures.
+- **Bosses:** L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures (some boss structures are rare and may be far from spawn).
 - **Homestead:** Farmer's Delight, Comforts, Supplementaries, Waystones.
 - **Performance:** Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons.
 - **Visuals (optional):** Fresh Animations, 3D trims, Complementary shaders.
