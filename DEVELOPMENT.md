@@ -103,6 +103,26 @@ It prints **MISSING** (mods to install or update, each with a download link) and
 
 **Later, if the manual step gets annoying:** a GitHub Action that fails a PR when `MODS.md` is out of date, or CurseForge's modpack manifest (`manifest.json`) as the source of truth. Not needed at two or three people.
 
+## Server pack
+
+The server pack is **not stored in this repo**. It is a zip built from the client pack and attached to each CurseForge release as an extra file. Players who just want to host download it from there; see [SERVER_HOSTING.md](SERVER_HOSTING.md). Build notes and boot-test results are in [SERVER_PACK.md](SERVER_PACK.md).
+
+How it relates to the repo:
+
+- **Same configs and quests.** The server uses the same `config/`, `kubejs/` and quests as the client. A change here reaches the server on the next server pack build, nothing extra to do.
+- **Fewer mods.** The server leaves out client-only mods (shaders, minimap, JEI and so on). [client-mods-to-exclude.txt](client-mods-to-exclude.txt) is that list, and the `Side` column in [MODS.md](MODS.md) shows it per mod: `client` means left out of the server, `client+server` means it goes on both.
+- **Three mods can't be bundled** (their authors forbid redistribution). Hosts download them themselves; see SERVER_HOSTING.md.
+
+**When you add a mod, also decide its side:**
+
+1. If it's client-only (visuals, HUD, sounds, minimap), add its exact jar filename to `client-mods-to-exclude.txt`.
+2. Run `node tools/modlist.js` so `MODS.md` shows the right `Side`.
+3. If you're not sure, leave it off the exclude list and test: start the server, and NeoForge crashes loudly at boot naming any client-only mod. Add that one to the list and retry.
+
+**To self-host a test server from your own game folder:** don't copy your whole instance. Build the zip with ServerPackCreator as described in SERVER_PACK.md, so the exclude list is applied for you.
+
+**Releasing:** every client release should come with a rebuilt server pack, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
+
 ## Where things are
 
 - `config/ftbquests/quests/chapters/*.snbt` — one file per quest chapter
