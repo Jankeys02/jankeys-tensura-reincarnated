@@ -15,8 +15,8 @@
 			id: "3C0306238D9540B2"
 			rewards: [{
 				id: "002025C7B6EB3FD6"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "2A81DDCA905EB148"
@@ -30,8 +30,8 @@
 			id: "48E66704EA9C2557"
 			rewards: [{
 				id: "65C8988F789B40EE"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				ability: "elitetensura:scavenger"
@@ -48,8 +48,8 @@
 			id: "3ABE1626F9C0E690"
 			rewards: [{
 				id: "31114192FD5DE90D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				ability: "elitetensura:runesmiths_insight"
@@ -66,8 +66,8 @@
 			id: "66DD071C463DE1C4"
 			rewards: [{
 				id: "45F00E00F7A056D2"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				ability: "elitetensura:ancient_soul"
@@ -84,8 +84,8 @@
 			id: "594B788EED9CEC14"
 			rewards: [{
 				id: "7C2FA3D73B31F610"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				ability: "elitetensura:gravity_well"
@@ -102,8 +102,8 @@
 			id: "60EE515BD59E7BD6"
 			rewards: [{
 				id: "1CD6B71558AC165E"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				ability: "elitetensura:meditation"
@@ -120,8 +120,8 @@
 			id: "700090D36AAAF2AD"
 			rewards: [{
 				id: "701E49DF82938B26"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				ability: "elitetensura:iron_resolve"
@@ -138,8 +138,8 @@
 			id: "0ABF1E9AD3453555"
 			rewards: [{
 				id: "48EAFB2084150026"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -165,8 +165,8 @@
 			id: "0F0B4B121C960B61"
 			rewards: [{
 				id: "44615327DD983052"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				ability: "elitetensura:hephaestus"
@@ -183,8 +183,8 @@
 			id: "3048A532F1975813"
 			rewards: [{
 				id: "45A1800E5DDB06E4"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				ability: "elitetensura:gaia"
@@ -201,8 +201,8 @@
 			id: "44A40AA0BB7A6B50"
 			rewards: [{
 				id: "41651D5DDE05ACA9"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				ability: "elitetensura:ouroboros"
@@ -219,8 +219,8 @@
 			id: "3C5418627EE57E67"
 			rewards: [{
 				id: "32AE6C46033B5F22"
-				type: "xp_levels"
-				xp_levels: 6
+				type: "xp"
+				xp: 200
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -238,8 +238,8 @@
 			id: "7C9B8910780A1252"
 			rewards: [{
 				id: "3319A70B9BB5FD8A"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				ability: "elitetensura:voidsovereign"
@@ -257,8 +257,8 @@
 			optional: true
 			rewards: [{
 				id: "2C377BFE12CC403E"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "3A83281A3E456EB4"
@@ -275,8 +275,8 @@
 			optional: true
 			rewards: [{
 				id: "1D23957B12E66AE8"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "33AAB07304251F59"
@@ -293,8 +293,8 @@
 			optional: true
 			rewards: [{
 				id: "71D944FBFB6D2FC1"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "5DCCCA22ADDBC61A"
@@ -311,8 +311,8 @@
 			optional: true
 			rewards: [{
 				id: "28C07A8B630B6728"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "126CA29EE81B6B62"
@@ -329,8 +329,8 @@
 			optional: true
 			rewards: [{
 				id: "609F0021B84DB521"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "534BF918047D628B"
@@ -347,8 +347,8 @@
 			optional: true
 			rewards: [{
 				id: "16D98D0D6098815D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "310A192F54446B9C"
@@ -365,8 +365,8 @@
 			optional: true
 			rewards: [{
 				id: "2F055A5B62271F10"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "1DAD455A1D1FD7BD"
@@ -383,8 +383,8 @@
 			optional: true
 			rewards: [{
 				id: "0D221BD9FE0F7657"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "1AE4A5979DCBB11D"
@@ -411,8 +411,8 @@
 			optional: true
 			rewards: [{
 				id: "2410AA982EE6E423"
-				type: "xp_levels"
-				xp_levels: 6
+				type: "xp"
+				xp: 200
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -430,8 +430,8 @@
 			optional: true
 			rewards: [{
 				id: "6D4DFEF0415FAC9F"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -460,8 +460,8 @@
 			optional: true
 			rewards: [{
 				id: "61B1C66C76A7964F"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -485,8 +485,8 @@
 			optional: true
 			rewards: [{
 				id: "13A08E0878B66BE6"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -510,8 +510,8 @@
 			optional: true
 			rewards: [{
 				id: "13A43AFCD5A0B2CC"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [
 				{
@@ -566,8 +566,8 @@
 			optional: true
 			rewards: [{
 				id: "0067AD1F29E3D59B"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "diamond"
 			tasks: [{

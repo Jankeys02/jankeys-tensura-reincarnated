@@ -25,8 +25,8 @@
 				}
 				{
 					id: "78B111D658EB0484"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					ability: "tensura:sense_heat_source"
@@ -60,8 +60,8 @@
 				}
 				{
 					id: "202888D9DC8DE9F8"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					ability: "tensura:heat_resistance"
@@ -95,8 +95,8 @@
 				}
 				{
 					id: "26A427951C61780C"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					ability: "tensura:cold_resistance"
@@ -130,8 +130,8 @@
 				}
 				{
 					id: "72981BC4AB467E07"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					ability: "tensura:farsight"
@@ -165,8 +165,8 @@
 				}
 				{
 					id: "024CEB545DDA9EDB"
-					type: "xp_levels"
-					xp_levels: 6
+					type: "xp"
+					xp: 200
 				}
 				{
 					ability: "tensura:spatial_attack_resistance"
@@ -193,8 +193,8 @@
 			optional: true
 			rewards: [{
 				id: "7E97B32413889742"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
@@ -212,8 +212,8 @@
 			optional: true
 			rewards: [{
 				id: "14E9BC052AA670EA"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
@@ -231,8 +231,8 @@
 			optional: true
 			rewards: [{
 				id: "3F18F7F9E2579BC6"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/adventuring_time"
@@ -250,8 +250,8 @@
 			optional: true
 			rewards: [{
 				id: "11C59E01EE9A25EF"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:nether/fast_travel"
@@ -269,8 +269,8 @@
 			optional: true
 			rewards: [{
 				id: "2C93067248A5EF25"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"

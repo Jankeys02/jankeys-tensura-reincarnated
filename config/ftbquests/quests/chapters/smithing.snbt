@@ -18,8 +18,8 @@
 			id: "036703521B73A4BD"
 			rewards: [{
 				id: "4A0371F6D8772F4A"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "gear"
 			tasks: [{
@@ -36,8 +36,8 @@
 			id: "35277EAF70F70E39"
 			rewards: [{
 				id: "7697EB7A248A3A21"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:gold_rush"
@@ -53,8 +53,8 @@
 			id: "76BB97170CE6C811"
 			rewards: [{
 				id: "333913350A87D928"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:better_smelter"
@@ -71,8 +71,8 @@
 			rewards: [
 				{
 					id: "2456C507426213F9"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					count: 4
@@ -98,8 +98,8 @@
 			id: "123FDD04AFD662E4"
 			rewards: [{
 				id: "2E7C11D8A2F94D50"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:high_magisteel"
@@ -115,8 +115,8 @@
 			rewards: [
 				{
 					id: "6FEC28EDCB99EAA6"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					count: 2
@@ -143,8 +143,8 @@
 			id: "3C0E71C4CD3BB289"
 			rewards: [{
 				id: "26AE25A8F8EF445D"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:mithril"
@@ -160,8 +160,8 @@
 			id: "185902F88B2681FF"
 			rewards: [{
 				id: "3C3C3312245826BD"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:even_better_smelter"
@@ -180,8 +180,8 @@
 			id: "12A85B703C1B6D3E"
 			rewards: [{
 				id: "5314714CAF77BC2D"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:orichalcum"
@@ -197,8 +197,8 @@
 			id: "159E0149AE6DC993"
 			rewards: [{
 				id: "67AE92A6DBEFFD8B"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -215,8 +215,8 @@
 			id: "46967FB979ECDEB7"
 			rewards: [{
 				id: "77CD618383C1E097"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -234,8 +234,8 @@
 			rewards: [
 				{
 					id: "3459F80FD8552123"
-					type: "xp_levels"
-					xp_levels: 4
+					type: "xp"
+					xp: 80
 				}
 				{
 					count: 2
@@ -263,8 +263,8 @@
 			optional: true
 			rewards: [{
 				id: "7765DADEFF679CA4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:obtain_hihiirokane_hoe"
@@ -280,8 +280,8 @@
 			rewards: [
 				{
 					id: "77FE33FBFE5AC75D"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 100
 				}
 				{
 					id: "352C2A0D065F51D8"
@@ -307,8 +307,8 @@
 			id: "4E9DE04F13AE0B36"
 			rewards: [{
 				id: "2F6EBB70B834A60A"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:getcha_leathers"
@@ -323,8 +323,8 @@
 			id: "786B1D748B0AA025"
 			rewards: [{
 				id: "64BEBFDF763CB8A9"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:getcha_better_leathers"
@@ -340,8 +340,8 @@
 			id: "54EA59FBC7E25738"
 			rewards: [{
 				id: "2540F1D520235657"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:light_as_horned_rabbit"
@@ -357,8 +357,8 @@
 			id: "23A21464529E2BDD"
 			rewards: [{
 				id: "0849DB47A40E58B7"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:believe_to_fly"
@@ -374,8 +374,8 @@
 			id: "72370A4DC6EE72B6"
 			rewards: [{
 				id: "155F515D50000EE1"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:ripoff_elytra"
@@ -391,8 +391,8 @@
 			id: "0494CC9F8A9C32B2"
 			rewards: [{
 				id: "7AFD51D927D9E5FE"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:become_ninja"
@@ -408,8 +408,8 @@
 			id: "3B8AF828F73BFE08"
 			rewards: [{
 				id: "7EBFA9B4CAD73C78"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:a_bit_cold"
@@ -424,8 +424,8 @@
 			id: "44FBF65092FB01A8"
 			rewards: [{
 				id: "734CE7D68D28108A"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -441,8 +441,8 @@
 			id: "40C250A9AB7C37A1"
 			rewards: [{
 				id: "5B124D78F7C93A99"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "tensura:unhealable_wound"
@@ -459,8 +459,8 @@
 			optional: true
 			rewards: [{
 				id: "6B809DB5AFA86F75"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			tasks: [{
 				advancement: "tensura:too_strong"
@@ -476,8 +476,8 @@
 			id: "19110656114D52A1"
 			rewards: [{
 				id: "4396A0C6719DBB18"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:build_body"

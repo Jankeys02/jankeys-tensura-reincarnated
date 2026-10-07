@@ -18,8 +18,8 @@
 			id: "4C8CDA0BF9BA7CA5"
 			rewards: [{
 				id: "799A9A1748D3671B"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "gear"
 			tasks: [{
@@ -36,8 +36,8 @@
 			id: "63AD6C8D914E64A4"
 			rewards: [{
 				id: "1044DBF97A910247"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:vigilant"
@@ -53,8 +53,8 @@
 			id: "290D933261D55CEA"
 			rewards: [{
 				id: "62C2BAB4070145A1"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:arachnophobic"
@@ -70,8 +70,8 @@
 			id: "25114F74EE436A34"
 			rewards: [{
 				id: "55CDF2888874CBEC"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:goodnight_spider"
@@ -87,8 +87,8 @@
 			id: "6C3794E0955EC803"
 			rewards: [{
 				id: "43272A01DDCFEFA7"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:shell_lizard"
@@ -104,8 +104,8 @@
 			id: "77CCEE9DFB24503B"
 			rewards: [{
 				id: "414BCFC61D93ED66"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				entity: "tensura:blade_tiger"
@@ -120,8 +120,8 @@
 			id: "3CC4B42FAF3C7DC2"
 			rewards: [{
 				id: "4565E4922B0E1EFA"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -137,8 +137,8 @@
 			id: "4EA6125EFD12A651"
 			rewards: [{
 				id: "19416D0C490975F4"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				entity: "tensura:megalodon"
@@ -155,8 +155,8 @@
 			optional: true
 			rewards: [{
 				id: "3BB8E9F5C1C50CEC"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:unicorn_horn"
@@ -172,8 +172,8 @@
 			id: "1CDE94A7AE1BF799"
 			rewards: [{
 				id: "602116A89375C3BB"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -192,8 +192,8 @@
 			optional: true
 			rewards: [{
 				id: "104957B373B9D4E8"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:just_a_test"
@@ -210,8 +210,8 @@
 			id: "28F13BE442B28C9B"
 			rewards: [{
 				id: "26599927E53BA3EA"
-				type: "xp_levels"
-				xp_levels: 5
+				type: "xp"
+				xp: 100
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -228,8 +228,8 @@
 			id: "5311289204A31131"
 			rewards: [{
 				id: "7D5E48F1D1BBBE8E"
-				type: "xp_levels"
-				xp_levels: 6
+				type: "xp"
+				xp: 120
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -246,8 +246,8 @@
 			id: "455E041A4AA954D0"
 			rewards: [{
 				id: "7EB4D1729867A1D4"
-				type: "xp_levels"
-				xp_levels: 6
+				type: "xp"
+				xp: 120
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -265,8 +265,8 @@
 			id: "0F02224B909262C4"
 			rewards: [{
 				id: "4DFEB6CBE3C9B3DE"
-				type: "xp_levels"
-				xp_levels: 7
+				type: "xp"
+				xp: 140
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -283,8 +283,8 @@
 			id: "13E8736B057DAAF5"
 			rewards: [{
 				id: "22DF233B75997F97"
-				type: "xp_levels"
-				xp_levels: 7
+				type: "xp"
+				xp: 140
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -303,8 +303,8 @@
 			rewards: [
 				{
 					id: "6F1D0BC19639E328"
-					type: "xp_levels"
-					xp_levels: 12
+					type: "xp"
+					xp: 240
 				}
 				{
 					count: 2
@@ -331,8 +331,8 @@
 			id: "762D5B357637C729"
 			rewards: [{
 				id: "1C2F0F3F1D5F882C"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:get_bucketed"
@@ -349,8 +349,8 @@
 			optional: true
 			rewards: [{
 				id: "52EB9E8ED5AA32BB"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:slime_traitor"
@@ -366,8 +366,8 @@
 			id: "19BE2FA93D03A96A"
 			rewards: [{
 				id: "6399F1AFCCAC88DE"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "tensura:tamed_a_slime"
@@ -383,8 +383,8 @@
 			id: "13C37A6798BDAD9D"
 			rewards: [{
 				id: "4C847CC9BD76833F"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:grow_a_slime"
@@ -400,8 +400,8 @@
 			id: "0C28A286D6C5477B"
 			rewards: [{
 				id: "3E912E312244FE5C"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -418,8 +418,8 @@
 			optional: true
 			rewards: [{
 				id: "2F1AA0410F381851"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:slime_army"
@@ -435,8 +435,8 @@
 			id: "2205F7D5E5EF236F"
 			rewards: [{
 				id: "1BD4AAD52594AEA3"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:hear_me_direwolves"
@@ -452,8 +452,8 @@
 			id: "1FD5516BBB1F5AA1"
 			rewards: [{
 				id: "2B7BB33F4E41B127"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "tensura:good_boy"
@@ -469,8 +469,8 @@
 			id: "45FF3A0DF0322B29"
 			rewards: [{
 				id: "73EBEF1CF5AE03E3"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "tensura:killer_fish"
@@ -485,8 +485,8 @@
 			id: "164FA847DC8A6FF5"
 			rewards: [{
 				id: "651E1FA47D39F032"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -502,8 +502,8 @@
 			id: "50480FD503A09B40"
 			rewards: [{
 				id: "09935F3DC471C454"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "tensura:hella_cool"
@@ -520,8 +520,8 @@
 			optional: true
 			rewards: [{
 				id: "4ADEDB32D56B1EEF"
-				type: "xp_levels"
-				xp_levels: 10
+				type: "xp"
+				xp: 200
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -540,8 +540,8 @@
 			optional: true
 			rewards: [{
 				id: "619B414260FB0065"
-				type: "xp_levels"
-				xp_levels: 5
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "tensura:monstrous_diet"

@@ -19,8 +19,8 @@
 			rewards: [
 				{
 					id: "0C78CFED0B8C1EDD"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					count: 8
@@ -44,8 +44,8 @@
 			id: "66E83A9F48E4FE54"
 			rewards: [{
 				id: "7D7988CA70334933"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "minecraft:story/mine_stone"
@@ -61,8 +61,8 @@
 			rewards: [
 				{
 					id: "3DE5386B0B3B4F7A"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					count: 4
@@ -88,8 +88,8 @@
 			id: "19D07478B7136FC7"
 			rewards: [{
 				id: "3342162A9638A57F"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "minecraft:story/obtain_armor"
@@ -104,8 +104,8 @@
 			id: "7F361DDC77164F76"
 			rewards: [{
 				id: "0C3C0769120FA884"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "3D774C545CAB8BDE"
@@ -119,8 +119,8 @@
 			id: "0EDC28821D9A7774"
 			rewards: [{
 				id: "001B04E63CD7DD49"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "468A91C36AE1F51D"
@@ -134,8 +134,8 @@
 			id: "15B7ED168EEED2F3"
 			rewards: [{
 				id: "052B75A0E83FB8C4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "16ECEA1FEA8C51D6"
@@ -150,8 +150,8 @@
 			id: "147B4B103A5E1A5D"
 			rewards: [{
 				id: "46027EA6902CE3BD"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "0E158D44A192121D"
@@ -166,8 +166,8 @@
 			id: "55CEEE8201960D71"
 			rewards: [{
 				id: "5A89688FDBDF784B"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "2AACF7C531CF74FE"
@@ -181,8 +181,8 @@
 			id: "6FCF2732D22FFAC5"
 			rewards: [{
 				id: "41F3BF8B3EB50239"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "5711F7B597532B7F"
@@ -199,8 +199,8 @@
 			rewards: [
 				{
 					id: "34B40F907B5E17A5"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					count: 8
@@ -226,8 +226,8 @@
 			rewards: [
 				{
 					id: "4AE2E1CEC4F42CCA"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					count: 4
@@ -252,8 +252,8 @@
 			id: "78C1F246BA121A75"
 			rewards: [{
 				id: "32AB5C4A4532B519"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "5EE693E5663D3B76"
@@ -267,8 +267,8 @@
 			id: "29FAACF939FEFECB"
 			rewards: [{
 				id: "21DE340BCA6FF710"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "133045DD7186E2B8"
@@ -283,8 +283,8 @@
 			rewards: [
 				{
 					id: "53E2044B38F80425"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					count: 2

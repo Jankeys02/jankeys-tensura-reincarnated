@@ -18,8 +18,8 @@
 			id: "798C8C43078E749D"
 			rewards: [{
 				id: "6FF9289F63352206"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "gear"
 			tasks: [{
@@ -36,8 +36,8 @@
 			id: "537C803260DED43D"
 			rewards: [{
 				id: "39B7A6354F028657"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/lectern"
@@ -53,8 +53,8 @@
 			id: "1256BE7D799121CE"
 			rewards: [{
 				id: "1CB28A654D4FDB6B"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_egg"
@@ -69,8 +69,8 @@
 			id: "7CDABC8B37CAC9D8"
 			rewards: [{
 				id: "17E7A2E506C6FC63"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_meal"
@@ -85,8 +85,8 @@
 			id: "7700E2273E2B3C39"
 			rewards: [{
 				id: "3D18BE162DCB57B6"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_staff"
@@ -101,8 +101,8 @@
 			id: "41DEA4A660279B03"
 			rewards: [{
 				id: "34BD5A3B7F7D26D5"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_horn"
@@ -118,8 +118,8 @@
 			id: "3763BE464EFFBF11"
 			rewards: [{
 				id: "6383022E9B6835AB"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_flute"
@@ -135,8 +135,8 @@
 			id: "0808529BCFD0B275"
 			rewards: [{
 				id: "00ADB8F154C1FC15"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragonarmor"
@@ -152,8 +152,8 @@
 			id: "57F59FC5F94AD543"
 			rewards: [{
 				id: "4F24975B448E4384"
-				type: "xp_levels"
-				xp_levels: 5
+				type: "xp"
+				xp: 100
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -169,8 +169,8 @@
 			id: "47A254C5BAEA0733"
 			rewards: [{
 				id: "0AF4D76134985353"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragonbone_tool"
@@ -185,8 +185,8 @@
 			id: "3347B9ACAB9639FF"
 			rewards: [{
 				id: "315977C4AD8BC082"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -202,8 +202,8 @@
 			id: "6403C313333DEEE4"
 			rewards: [{
 				id: "4984EF57E5173AA8"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_forge_brick"
@@ -219,8 +219,8 @@
 			id: "437FD2DC1EBFCFAA"
 			rewards: [{
 				id: "55DBAFAE8332EA80"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/dragon_forge_core"
@@ -236,8 +236,8 @@
 			id: "0E78B805AA76B260"
 			rewards: [{
 				id: "238E8868A37F2E2D"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -253,8 +253,8 @@
 			id: "4F69F2DE1A885086"
 			rewards: [{
 				id: "44DFC66C35EADD3B"
-				type: "xp_levels"
-				xp_levels: 6
+				type: "xp"
+				xp: 120
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -271,8 +271,8 @@
 			id: "43A0774374FEEFE8"
 			rewards: [{
 				id: "10A79455BEA5BD21"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/tame_hippogryph"
@@ -287,8 +287,8 @@
 			id: "103745E3AC96B6B0"
 			rewards: [{
 				id: "60622F2875E499B1"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/tame_amphithere"
@@ -303,8 +303,8 @@
 			id: "580185BA339E184A"
 			rewards: [{
 				id: "04F9DCE9161932D7"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/tame_hippocampus"
@@ -319,8 +319,8 @@
 			id: "384CED9DEB6AA6B7"
 			rewards: [{
 				id: "74470753A70BB98A"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/tame_cockatrice"
@@ -336,8 +336,8 @@
 			id: "241B545DD9D57139"
 			rewards: [{
 				id: "373F297D324F0118"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/tame_pixie"
@@ -352,8 +352,8 @@
 			id: "3CC999DEE640FE31"
 			rewards: [{
 				id: "797C60D49BB6AE50"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/jar_pixie"
@@ -369,8 +369,8 @@
 			id: "107CEB05F0F2CA93"
 			rewards: [{
 				id: "6BDFD14132E0F412"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/pixie_wand"
@@ -385,8 +385,8 @@
 			id: "2359DC0627F66C69"
 			rewards: [{
 				id: "012A3FACF9018AE6"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_cyclops"
@@ -401,8 +401,8 @@
 			id: "140094805984D111"
 			rewards: [{
 				id: "649F9DB5B2EF566E"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_troll"
@@ -417,8 +417,8 @@
 			id: "5362EF3DF733A1E3"
 			rewards: [{
 				id: "295F74F189D18059"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_siren"
@@ -433,8 +433,8 @@
 			id: "000A426030D835B9"
 			rewards: [{
 				id: "656439B5EBA5DE63"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 80
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -450,8 +450,8 @@
 			id: "225D1F124DEDDB93"
 			rewards: [{
 				id: "0BE0D4E8407C9132"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/use_tide_trident"
@@ -467,8 +467,8 @@
 			id: "196B84A3D7697645"
 			rewards: [{
 				id: "1390B6FB6AFDBB6D"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
@@ -483,8 +483,8 @@
 			id: "7FEBFD4381D093C2"
 			rewards: [{
 				id: "01E30DA07AA83A23"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_deathworm"
@@ -499,8 +499,8 @@
 			id: "2ADD14964B264CF4"
 			rewards: [{
 				id: "60BED7BEE644D6FF"
-				type: "xp_levels"
-				xp_levels: 5
+				type: "xp"
+				xp: 100
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -519,8 +519,8 @@
 			rewards: [
 				{
 					id: "77F2FF4FBB3EDAF1"
-					type: "xp_levels"
-					xp_levels: 7
+					type: "xp"
+					xp: 140
 				}
 				{
 					id: "5C962C0FCBD3810C"
@@ -546,8 +546,8 @@
 			optional: true
 			rewards: [{
 				id: "22052B3DCE858079"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			tasks: [{
 				advancement: "iceandfire:iceandfire/kill_ghost"

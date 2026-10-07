@@ -18,8 +18,8 @@
 			id: "5482E2056F81C5B8"
 			rewards: [{
 				id: "4EB479E945D5058D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "gear"
 			tasks: [{
@@ -35,8 +35,8 @@
 			id: "31C325A4907C4233"
 			rewards: [{
 				id: "79E8FAE31831BC7D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				entity: "tensura:direwolf"
@@ -52,8 +52,8 @@
 			id: "40FE0A27BE1A2CDD"
 			rewards: [{
 				id: "046F740B3FBD1BCD"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "403BD9ADC1C1FA1B"
@@ -68,8 +68,8 @@
 			id: "09E0BC73402CCF95"
 			rewards: [{
 				id: "777735AAB18C6AF6"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "1872B58596C63472"
@@ -84,8 +84,8 @@
 			id: "6767789E829E8AC6"
 			rewards: [{
 				id: "24E54B847378CE23"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "31E3A44CF3FF97A1"
@@ -101,8 +101,8 @@
 			rewards: [
 				{
 					id: "67D18193B001F54C"
-					type: "xp_levels"
-					xp_levels: 3
+					type: "xp"
+					xp: 60
 				}
 				{
 					count: 3
@@ -130,8 +130,8 @@
 			rewards: [
 				{
 					id: "047FADA1EEF6E58D"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 100
 				}
 				{
 					id: "40472AC25A6FFE18"
@@ -157,8 +157,8 @@
 			id: "65B2B2B98AA63D46"
 			rewards: [{
 				id: "1456E78FED0ADA4F"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "296C660B7C0E127A"
@@ -173,8 +173,8 @@
 			id: "46392746B97DE30D"
 			rewards: [{
 				id: "37B9A162BCC88909"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "33AAB042B30FD4A0"
@@ -188,8 +188,8 @@
 			id: "6545076AD68472F3"
 			rewards: [{
 				id: "0CE8609EAEAF81B1"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -208,8 +208,8 @@
 			rewards: [
 				{
 					id: "4886FAFA0DE4BE34"
-					type: "xp_levels"
-					xp_levels: 6
+					type: "xp"
+					xp: 120
 				}
 				{
 					id: "0AF8180BF84E15AF"
@@ -234,8 +234,8 @@
 			id: "5D22783309CE8C54"
 			rewards: [{
 				id: "62FC1C2746B4ED95"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "408F60279A36C8C9"
@@ -249,8 +249,8 @@
 			id: "47A1D2433190FCA9"
 			rewards: [{
 				id: "7E51E897BE882125"
-				type: "xp_levels"
-				xp_levels: 3
+				type: "xp"
+				xp: 60
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -267,8 +267,8 @@
 			rewards: [
 				{
 					id: "4E075A868F2F6C2D"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					count: 4
@@ -294,8 +294,8 @@
 			rewards: [
 				{
 					id: "1D506FC7708BC83C"
-					type: "xp_levels"
-					xp_levels: 5
+					type: "xp"
+					xp: 100
 				}
 				{
 					id: "19EFB40CE963856F"
@@ -320,8 +320,8 @@
 			id: "32923A4C4099D9A7"
 			rewards: [{
 				id: "12D3D4E1B49D08B1"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "dungeons_arise:find_bandit_village"
@@ -337,8 +337,8 @@
 			id: "635329ED80A141E0"
 			rewards: [{
 				id: "64500786A01E76E9"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -355,8 +355,8 @@
 			id: "3E928DCA7FD75BC8"
 			rewards: [{
 				id: "09137B11F7F7ED3A"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "lootr:25loot"
@@ -372,8 +372,8 @@
 			id: "762E27F0D94326FF"
 			rewards: [{
 				id: "7F3E0150B9B384E4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "5EE5EF9C3BB76CFE"
@@ -398,8 +398,8 @@
 			id: "7689082AAA65C8E3"
 			rewards: [{
 				id: "2D3A4FAB59D4BA87"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "6FA4D1AA25A3064E"
@@ -414,8 +414,8 @@
 			id: "7B7A453C5DB15C11"
 			rewards: [{
 				id: "0257CEE881F4A968"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "11765AC2D144988F"
@@ -430,8 +430,8 @@
 			id: "2DFA680F102ADC7B"
 			rewards: [{
 				id: "389AD3CC1BC5ABB0"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "2F09E4B276EDE5E1"
@@ -446,8 +446,8 @@
 			id: "71FEDE5A759C9875"
 			rewards: [{
 				id: "72AB73428020ED93"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "2B1516349ADDBDEA"
@@ -462,8 +462,8 @@
 			id: "21E324B6AC2FD19A"
 			rewards: [{
 				id: "4511DED30050CEF4"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "7FB84915937ABF66"
@@ -478,8 +478,8 @@
 			id: "75CE0F12D1F2F41F"
 			rewards: [{
 				id: "200ECE8B6F1A52F4"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "7C4AF1C82F943E9E"

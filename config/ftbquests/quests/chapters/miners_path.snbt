@@ -25,8 +25,8 @@
 				}
 				{
 					id: "3471ADECDF836819"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -53,8 +53,8 @@
 				}
 				{
 					id: "2126F17930D17B7D"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -81,8 +81,8 @@
 				}
 				{
 					id: "035AFAF4AF6A4B81"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -109,8 +109,8 @@
 				}
 				{
 					id: "0BC1A7B18933A04B"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -137,8 +137,8 @@
 				}
 				{
 					id: "195B76DE237E09AC"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{

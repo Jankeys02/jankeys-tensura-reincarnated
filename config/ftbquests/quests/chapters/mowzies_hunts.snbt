@@ -16,8 +16,8 @@
 			id: "58960CF1713C9A15"
 			rewards: [{
 				id: "67D16C75E7664141"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_foliaath"
@@ -34,8 +34,8 @@
 			id: "6AEE6D02B469DC05"
 			rewards: [{
 				id: "34754E1B1EA00D84"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_bluff"
@@ -52,8 +52,8 @@
 			id: "236847EE4CCCF40D"
 			rewards: [{
 				id: "0581DE1F0D955006"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol"
@@ -70,8 +70,8 @@
 			id: "056A74451D5D9BEA"
 			rewards: [{
 				id: "1CE03B5AB2CF2FFC"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol_fortune"
@@ -88,8 +88,8 @@
 			id: "4EDABBFBC768DD3F"
 			rewards: [{
 				id: "16FC240C9893590E"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol_silk_touch"
@@ -106,8 +106,8 @@
 			id: "644F3D9E9F5E3346"
 			rewards: [{
 				id: "21941D2FB639667D"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "331A9D3A7341FB71"
@@ -123,8 +123,8 @@
 			id: "30A1704B7B48D98B"
 			rewards: [{
 				id: "0FD6F7B79EB84496"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthana_raptor"
@@ -141,8 +141,8 @@
 			id: "4CA238CB03B44F5F"
 			rewards: [{
 				id: "0D9E2466378C2D8C"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:sneak_grove"
@@ -159,8 +159,8 @@
 			id: "45A4873411B2D8F7"
 			rewards: [{
 				id: "5555BF7F18E015E8"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_naga"
@@ -177,8 +177,8 @@
 			id: "0F0EC1DA5D1496A1"
 			rewards: [{
 				id: "2559D8D1971A0C29"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_elokosa_howler"
@@ -195,8 +195,8 @@
 			id: "04A0740FFDED2ED7"
 			rewards: [{
 				id: "2C38DA5EB296A786"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -216,8 +216,8 @@
 			id: "0420AA4410E07A4B"
 			rewards: [{
 				id: "05D15D2F0B1BD2DB"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "7EF8D2C137F5F5DC"
@@ -233,8 +233,8 @@
 			id: "233BF7263CCE37EF"
 			rewards: [{
 				id: "708EC8AF8422DF77"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -251,8 +251,8 @@
 			id: "5C1924ABFEE3A6B4"
 			rewards: [{
 				id: "1BC0B38415A787B2"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "2AEEA30C19AAC8A8"
@@ -268,8 +268,8 @@
 			id: "728EB962F9AB8994"
 			rewards: [{
 				id: "38B82F2CFB11DE30"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "2644869A70AE3A07"
@@ -285,8 +285,8 @@
 			id: "529F7EA940F383EA"
 			rewards: [{
 				id: "08BF16E61E8DFA2F"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:steal_ice_crystal"
@@ -303,8 +303,8 @@
 			id: "4A81FE8675FB3460"
 			rewards: [{
 				id: "417D7879BB85F54E"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_frostmaw"
@@ -321,8 +321,8 @@
 			id: "35E77D067C972681"
 			rewards: [{
 				id: "67276EC646AA830B"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
@@ -339,8 +339,8 @@
 			id: "1195A584091E4A40"
 			rewards: [{
 				id: "2E7C49FFC5EB0231"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "5BDA9E506236B616"
@@ -356,8 +356,8 @@
 			id: "755AAE3B98903BBA"
 			rewards: [{
 				id: "3D5382B3ECADB649"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -385,8 +385,8 @@
 				}
 				{
 					id: "6C10FAFBD729953F"
-					type: "xp_levels"
-					xp_levels: 6
+					type: "xp"
+					xp: 200
 				}
 				{
 					existence: "MAX_EP"
@@ -413,8 +413,8 @@
 			optional: true
 			rewards: [{
 				id: "0E21E2B2F3BBB1DE"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			shape: "diamond"
 			tasks: [{

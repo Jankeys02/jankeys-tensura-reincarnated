@@ -16,8 +16,8 @@
 			id: "7FEE09EF200986AB"
 			rewards: [{
 				id: "1FDA74A217FDC704"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "71EADB9616A29AC4"
@@ -33,8 +33,8 @@
 			id: "2B61DB5DEFD4CD80"
 			rewards: [{
 				id: "3163C06DD22895A7"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "315008CDBA63D745"
@@ -50,8 +50,8 @@
 			id: "2DC0C825F02AC0B5"
 			rewards: [{
 				id: "65CA97801584040D"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				dimension: "the_afterdark:afterdark"
@@ -67,8 +67,8 @@
 			id: "5CABFF21AD353522"
 			rewards: [{
 				id: "2A2BA5C291B5E1E4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				biome: "the_afterdark:lush_gardens"
@@ -84,8 +84,8 @@
 			id: "2D58509DCA15C113"
 			rewards: [{
 				id: "7EF3A6EC80A0CAB9"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [
 				{
@@ -108,8 +108,8 @@
 			id: "3E01435D8BBE7404"
 			rewards: [{
 				id: "6C451CB8F4D4D5B2"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [
 				{
@@ -132,8 +132,8 @@
 			id: "01D763B7E4CFC7FB"
 			rewards: [{
 				id: "0E533EC417790C65"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [
 				{
@@ -166,8 +166,8 @@
 				}
 				{
 					id: "3C11035ACA8EF9D6"
-					type: "xp_levels"
-					xp_levels: 6
+					type: "xp"
+					xp: 200
 				}
 				{
 					existence: "MAX_EP"
@@ -191,8 +191,8 @@
 			id: "6B22D9025AEF2CD8"
 			rewards: [{
 				id: "2903DBEEB3CD9FF2"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "20FE275FBE661B13"
@@ -208,8 +208,8 @@
 			id: "79DDACA7BB675749"
 			rewards: [{
 				id: "3D9DE4EEF7073DE4"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				id: "7AB16EAC891EE769"
@@ -225,8 +225,8 @@
 			id: "54DC79943FEF7A67"
 			rewards: [{
 				id: "36999DE6D9529DCA"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			tasks: [{
 				entity: "iceandfire:dread_ghoul"
@@ -243,8 +243,8 @@
 			id: "35CE8CB6AD81AE94"
 			rewards: [{
 				id: "129F407A45C58389"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -264,8 +264,8 @@
 			optional: true
 			rewards: [{
 				id: "081E1D223FC4407F"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -284,8 +284,8 @@
 			optional: true
 			rewards: [{
 				id: "14007C420D392450"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "diamond"
 			tasks: [
@@ -311,8 +311,8 @@
 			optional: true
 			rewards: [{
 				id: "2CC80F7D82BB0066"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "diamond"
 			tasks: [
@@ -338,8 +338,8 @@
 			optional: true
 			rewards: [{
 				id: "0641E71B81C8532A"
-				type: "xp_levels"
-				xp_levels: 1
+				type: "xp"
+				xp: 20
 			}]
 			shape: "diamond"
 			tasks: [
@@ -370,8 +370,8 @@
 			optional: true
 			rewards: [{
 				id: "5A2A154326AF5228"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			shape: "diamond"
 			tasks: [

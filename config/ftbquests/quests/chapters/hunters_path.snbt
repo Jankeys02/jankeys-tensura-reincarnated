@@ -35,8 +35,8 @@
 				}
 				{
 					id: "0343663F6DB0834F"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					ability: "tensura:strength"
@@ -80,8 +80,8 @@
 				}
 				{
 					id: "499FC6443F9E86D7"
-					type: "xp_levels"
-					xp_levels: 1
+					type: "xp"
+					xp: 20
 				}
 				{
 					ability: "tensura:danger_sense"
@@ -125,8 +125,8 @@
 				}
 				{
 					id: "7D862624D39538F8"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					ability: "tensura:haki"
@@ -170,8 +170,8 @@
 				}
 				{
 					id: "53F426E3C7CDB27B"
-					type: "xp_levels"
-					xp_levels: 2
+					type: "xp"
+					xp: 40
 				}
 				{
 					ability: "tensura:steel_strength"
@@ -215,8 +215,8 @@
 				}
 				{
 					id: "0F9DED269514ADB0"
-					type: "xp_levels"
-					xp_levels: 6
+					type: "xp"
+					xp: 200
 				}
 				{
 					ability: "tensura:physical_attack_resistance"
@@ -243,8 +243,8 @@
 			optional: true
 			rewards: [{
 				id: "09CBD3343CBE2592"
-				type: "xp_levels"
-				xp_levels: 4
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/sniper_duel"
@@ -262,8 +262,8 @@
 			optional: true
 			rewards: [{
 				id: "4ACA5558EB0A1ECC"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/two_birds_one_arrow"
@@ -281,8 +281,8 @@
 			optional: true
 			rewards: [{
 				id: "4794E831E53EA36D"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/bullseye"
@@ -300,8 +300,8 @@
 			optional: true
 			rewards: [{
 				id: "4ED20C0A17AC79B2"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/very_very_frightening"
@@ -319,8 +319,8 @@
 			optional: true
 			rewards: [{
 				id: "703C15287CC714BB"
-				type: "xp_levels"
-				xp_levels: 2
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
