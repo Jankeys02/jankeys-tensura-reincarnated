@@ -92,6 +92,7 @@
 			tasks: [{
 				ability: "ascension:magicule_attunement"
 				id: "11E0CC0638794F0D"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -110,6 +111,7 @@
 			tasks: [{
 				ability: "ascension:magicule_resonance"
 				id: "3E32651B87D06788"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -129,6 +131,7 @@
 			tasks: [{
 				ability: "ascension:magicule_dominion"
 				id: "24553662D8702ED1"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -147,6 +150,7 @@
 			tasks: [{
 				ability: "ascension:magicule_nourishment"
 				id: "09D9EE4E80EB8B76"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -165,6 +169,7 @@
 			tasks: [{
 				ability: "ascension:magnetized_vacuum"
 				id: "2379FF1D26513D3A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -183,6 +188,7 @@
 			tasks: [{
 				ability: "ascension:energy_charge"
 				id: "2BB8F64EFBFA591A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -201,6 +207,7 @@
 			tasks: [{
 				ability: "ascension:maximum_charge"
 				id: "57A8145C15BFAD25"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -219,6 +226,7 @@
 			tasks: [{
 				ability: "ascension:great_mage"
 				id: "5E178547F9316816"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -237,6 +245,7 @@
 			tasks: [{
 				ability: "ascension:magic_scribe"
 				id: "6E7F66CE5B4654C2"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -255,6 +264,7 @@
 			tasks: [{
 				ability: "ascension:eye_of_mind"
 				id: "5D8FB5C201C3AA99"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -274,6 +284,7 @@
 			tasks: [{
 				ability: "ascension:angel_wings"
 				id: "1EB6E42108AFAB07"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -417,6 +428,7 @@
 			tasks: [{
 				ability: "ascension:timeless_mage"
 				id: "1F577A44BD894F15"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -436,6 +448,7 @@
 			tasks: [{
 				ability: "ascension:one_who_seals"
 				id: "61AB1E46B5BA0B7F"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -455,6 +468,7 @@
 			tasks: [{
 				ability: "ascension:slayer_of_dragons"
 				id: "43B46ADD0FC7F2CB"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -474,6 +488,7 @@
 			tasks: [{
 				ability: "ascension:evil_majin"
 				id: "02E368C032FC29E9"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -493,6 +508,7 @@
 			tasks: [{
 				ability: "ascension:unbound_jester"
 				id: "4418B1D0443F2626"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]

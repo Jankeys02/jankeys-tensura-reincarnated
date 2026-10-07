@@ -41,7 +41,7 @@
 				{
 					ability: "tensura:strength"
 					id: "675883C297AB7965"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -86,7 +86,7 @@
 				{
 					ability: "tensura:danger_sense"
 					id: "5BE0B74E9BF958ED"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -131,7 +131,7 @@
 				{
 					ability: "tensura:haki"
 					id: "297276B84EE8201B"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -176,7 +176,7 @@
 				{
 					ability: "tensura:steel_strength"
 					id: "2C5F3B6A90480EDF"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -221,7 +221,7 @@
 				{
 					ability: "tensura:physical_attack_resistance"
 					id: "1B07DAA603C87429"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}

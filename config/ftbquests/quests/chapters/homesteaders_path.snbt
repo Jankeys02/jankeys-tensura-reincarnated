@@ -31,7 +31,7 @@
 				{
 					ability: "tensura:poison_resistance"
 					id: "2224F47437E07630"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -67,7 +67,7 @@
 				{
 					ability: "tensura:thought_communication"
 					id: "66EDFC193639ED03"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -103,7 +103,7 @@
 				{
 					ability: "tensura:abnormal_condition_resistance"
 					id: "003AE536E9795D7B"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -139,7 +139,7 @@
 				{
 					ability: "tensura:self_regeneration"
 					id: "45B6B383BACF0A64"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -175,7 +175,7 @@
 				{
 					ability: "tensura:cook"
 					id: "7C21441804EED659"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}

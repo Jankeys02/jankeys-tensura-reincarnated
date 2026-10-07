@@ -31,7 +31,7 @@
 				{
 					ability: "tensura:sense_heat_source"
 					id: "56E3B794FF3DA38E"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -66,7 +66,7 @@
 				{
 					ability: "tensura:heat_resistance"
 					id: "678CF3A87C662A93"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -101,7 +101,7 @@
 				{
 					ability: "tensura:cold_resistance"
 					id: "30976635D63D9C6D"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -136,7 +136,7 @@
 				{
 					ability: "tensura:farsight"
 					id: "0760AF9CD6DFAD59"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -171,7 +171,7 @@
 				{
 					ability: "tensura:spatial_attack_resistance"
 					id: "4F7ECF33C08C670D"
-					removeTime: 0
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}

@@ -40,6 +40,7 @@
 			tasks: [{
 				ability: "trorigins:administrative_authority"
 				id: "0BE631AA2B8B6A52"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -58,6 +59,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_spirit_haki"
 				id: "3DE2D0B5671198AF"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -547,6 +549,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_factor_abyss"
 				id: "41426F1C00552CF9"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -566,6 +569,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_factor_earth"
 				id: "19F93F3155AF4C6E"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -585,6 +589,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_factor_frost"
 				id: "269D10BEA9529629"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -604,6 +609,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_factor_scorch"
 				id: "6579E2B162C9BEED"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -623,6 +629,7 @@
 			tasks: [{
 				ability: "trorigins:dragon_factor_storm"
 				id: "039BBC0B7AA2DA65"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]

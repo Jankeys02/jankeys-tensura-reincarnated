@@ -36,6 +36,7 @@
 			tasks: [{
 				ability: "elitetensura:scavenger"
 				id: "5945FBB263B9CD9C"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -54,6 +55,7 @@
 			tasks: [{
 				ability: "elitetensura:runesmiths_insight"
 				id: "165B9FE02F56AE66"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -72,6 +74,7 @@
 			tasks: [{
 				ability: "elitetensura:ancient_soul"
 				id: "352026787F96D02E"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -90,6 +93,7 @@
 			tasks: [{
 				ability: "elitetensura:gravity_well"
 				id: "4D7E0D48CC8DEE9A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -108,6 +112,7 @@
 			tasks: [{
 				ability: "elitetensura:meditation"
 				id: "3EA6A82D3F6C377F"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -126,6 +131,7 @@
 			tasks: [{
 				ability: "elitetensura:iron_resolve"
 				id: "7494B1C74AA9C26A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -146,12 +152,14 @@
 				{
 					ability: "elitetensura:mechanical_eyes"
 					id: "68624DB564538C02"
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
 				{
 					ability: "elitetensura:mechanical_hands"
 					id: "46517911D3F08EED"
+					removeTime: -1
 					status: "LEARNT"
 					type: "tensura_ftb:ability"
 				}
@@ -171,6 +179,7 @@
 			tasks: [{
 				ability: "elitetensura:hephaestus"
 				id: "2C9752010F247170"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -189,6 +198,7 @@
 			tasks: [{
 				ability: "elitetensura:gaia"
 				id: "1A26E583970EAB37"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -207,6 +217,7 @@
 			tasks: [{
 				ability: "elitetensura:ouroboros"
 				id: "0788AE31057F74AD"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -226,6 +237,7 @@
 			tasks: [{
 				ability: "elitetensura:raphealskill"
 				id: "7E3122201D9B9746"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -244,6 +256,7 @@
 			tasks: [{
 				ability: "elitetensura:voidsovereign"
 				id: "2709B1A97EE4DAA3"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]

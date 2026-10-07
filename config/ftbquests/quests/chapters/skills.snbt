@@ -25,6 +25,7 @@
 			tasks: [{
 				ability: "tensura:magic_sense"
 				id: "5D911F7FD7310789"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -42,6 +43,7 @@
 			tasks: [{
 				ability: "tensura:thought_acceleration"
 				id: "681549E75935437A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -59,6 +61,7 @@
 			tasks: [{
 				ability: "tensura:danger_sense"
 				id: "4CF8D9D497673B71"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -79,6 +82,7 @@
 			tasks: [{
 				ability: "tensura:analytical_appraisal"
 				id: "24E5E0E339FF5A73"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -96,6 +100,7 @@
 			tasks: [{
 				ability: "tensura:self_regeneration"
 				id: "16EEA847FFACFA5F"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -113,6 +118,7 @@
 			tasks: [{
 				ability: "tensura:ultraspeed_regeneration"
 				id: "7B665D1971C9DF33"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -133,6 +139,7 @@
 			tasks: [{
 				ability: "tensura:infinite_regeneration"
 				id: "10A70F3812C71A34"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -150,6 +157,7 @@
 			tasks: [{
 				ability: "tensura:pain_resistance"
 				id: "5C7DA4382E27C2D3"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -167,6 +175,7 @@
 			tasks: [{
 				ability: "tensura:physical_attack_resistance"
 				id: "7CE48AF418EEFF50"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -184,6 +193,7 @@
 			tasks: [{
 				ability: "tensura:magic_resistance"
 				id: "13CF66811F642EE9"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -203,6 +213,7 @@
 			tasks: [{
 				ability: "tensura:physical_attack_nullification"
 				id: "24C5FA6D539B7800"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -220,6 +231,7 @@
 			tasks: [{
 				ability: "tensura:haki"
 				id: "760AA4649BA5DB7A"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -238,6 +250,7 @@
 			tasks: [{
 				ability: "tensura:demon_lord_haki"
 				id: "7B13A7FE86C4A7CC"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -256,6 +269,7 @@
 			tasks: [{
 				ability: "tensura:hero_haki"
 				id: "2053EE5D3AA301DB"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -561,6 +575,7 @@
 			tasks: [{
 				ability: "tensura:pride"
 				id: "7B9A7EA0EABED37F"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -580,6 +595,7 @@
 			tasks: [{
 				ability: "tensura:greed"
 				id: "01AB3B972ECA079B"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -599,6 +615,7 @@
 			tasks: [{
 				ability: "tensura:envy"
 				id: "03B9E7D2ADEC9BD2"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -618,6 +635,7 @@
 			tasks: [{
 				ability: "tensura:wrath"
 				id: "3216B87C3EC6825F"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -637,6 +655,7 @@
 			tasks: [{
 				ability: "tensura:lust"
 				id: "61402933C673CF85"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -656,6 +675,7 @@
 			tasks: [{
 				ability: "tensura:gluttony"
 				id: "7D576A1662618735"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -675,6 +695,7 @@
 			tasks: [{
 				ability: "tensura:sloth"
 				id: "34B847DA6F8C9381"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -694,6 +715,7 @@
 			tasks: [{
 				ability: "tensura:great_sage"
 				id: "4A8CB2A1D3FCBA9E"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
@@ -713,6 +735,7 @@
 			tasks: [{
 				ability: "tensura:predator"
 				id: "6A203A74F087D808"
+				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
