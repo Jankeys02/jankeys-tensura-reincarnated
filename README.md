@@ -1,18 +1,20 @@
 # Jankeys' Tensura Reincarnated
 
-NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (Tensura) with 14 FTB Quests chapters.
+NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (Tensura) with a 31-chapter FTB Quests book (830 quests).
 
 > Download and install through the CurseForge app: [Jankeys' Tensura Reincarnated](https://www.curseforge.com/minecraft/modpacks/jankeys-tensura-reincarnated). This repo holds the pack's configs, KubeJS scripts, quests, changelog and the mod list (`packwiz/`); mod jars are not stored here.
 
 **What's inside**
-- Tensura core + addons (Ice and Fire, Nightmare, FTB quests, better subordinates, Guild, Enigmatic, Unique Monsters)
-- 14 FTB Quests chapters guiding you from Getting Started to Myths and Treasure
-- Leveling system: quests grant ranks as you progress. Ultimine starts small (8 blocks) and grows to 64 with the Miner's Path, with hunger cost and cooldown; more rank paths to come
-- Better structures (YUNG's suite), Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage
-- Performance: Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons
-- World: Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark)
-- Bosses and structures: L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures
-- Polished visuals: Fresh Animations, 3D trims, Complementary shaders (optional)
+- **Tensura core + addons:** Ice and Fire, Nightmare, FTB Quests, Better Subordinates, Guild, Enigmatic, Unique Monsters, Ascension, TensuraMoreSkills, Elite Tensura Addon and Origins.
+- **A 31-chapter quest book (830 quests)**, with a short tutorial ("Field note") in every quest. Chapters are grouped: a Field Guide to the controls, Tensura, the four extra dimensions, boss hunts, homestead life, ranked Paths, and a chapter for each Tensura addon.
+- **Ranked Paths:** quests grant ranks as you progress. The Miner's Path grows Ultimine from 8 to 64 blocks (with hunger cost and cooldown). The Explorer's, Homesteader's and Hunter's Paths add claimed chunks, homes and bonus health, and each rank grants a Tensura skill.
+- **Dimension gate:** in survival, three dimensions (Eternal Starlight, Chrono Dawn, The Afterdark) are locked until you have visited the Nether or summoned a Wither. Creative, spectator and operators are exempt.
+- **World:** Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark).
+- **Structures and loot:** the YUNG's suite, Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage.
+- **Bosses:** L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures (some boss structures are rare and may be far from spawn).
+- **Homestead:** Farmer's Delight, Comforts, Supplementaries, Waystones.
+- **Performance:** Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons.
+- **Visuals (optional):** Fresh Animations, 3D trims, Complementary shaders.
 
 **Requirements**
 - Minecraft 1.21.1, NeoForge 21.1.249
