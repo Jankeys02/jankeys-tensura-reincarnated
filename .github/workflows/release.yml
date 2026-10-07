@@ -20,9 +20,14 @@ jobs:
           curl -sSL -o srv/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
           sed -i "s#@PACK_URL@#${URL}#; s#@VERSION@#${GITHUB_REF_NAME}#" srv/install-mods.* srv/README.txt
           (cd srv && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-server.zip" .)
+      - name: Release notes from CHANGELOG.md
+        run: |
+          V="${GITHUB_REF_NAME#v}"
+          sed 's/\r$//' CHANGELOG.md | awk -v v="$V" 'index($0,"## [" v "]")==1{f=1;next} /^## \[/{f=0} f' > notes.md
+          [ -s notes.md ] || echo "See CHANGELOG.md for what changed." > notes.md
       - uses: softprops/action-gh-release@v2
         with:
-          generate_release_notes: true
+          body_path: notes.md
           prerelease: ${{ contains(github.ref_name, '-') }}
           files: |
             jankeys-tensura-*-curseforge.zip
