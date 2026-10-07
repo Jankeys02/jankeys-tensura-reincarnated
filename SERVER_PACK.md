@@ -17,7 +17,7 @@ Audio: `musicnotification`, `timm`, `extrasounds`, `battlemusic`*, `sound_physic
 Marked `*` above plus `distanthorizons` (optional server side; leave out unless wanted), `punchy`, `fragmentum`, `showcaseitem`, `eliteholograms`, `cosmeticarmorreworked`, `corpse_waypoints`. NeoForge fails loudly at boot on a client-only mod, so start the server, remove what it names, repeat.
 
 ## Steps
-1. Export the client pack from the CurseForge app (0.1.0).
+1. Export the client pack from the CurseForge app (0.1.1).
 2. Build the server zip with ServerPackCreator (downloads mods from CurseForge itself and writes start scripts) using the exclude list above.
 3. Boot it, remove any mod that crashes on server.
 4. Set `server.properties`, review `ftbessentials`/`ftbchunks`/`ftbteams` defaults for multiplayer.
