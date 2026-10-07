@@ -1,0 +1,13 @@
+name = "Text Animator"
+filename = "TextAnimator-1.21.1-NeoForge-3.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42abdf964b57f9cb08d16316bb997dbb8bba4d54"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8292303
+project-id = 881778

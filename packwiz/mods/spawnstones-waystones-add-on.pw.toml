@@ -1,0 +1,13 @@
+name = "Spawnstones: Waystones Add-On"
+filename = "spawnstones-neoforge-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9637433eef20dc742a1239cd34478c275b7e1933"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8865730
+project-id = 1690928

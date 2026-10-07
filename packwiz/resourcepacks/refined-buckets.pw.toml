@@ -1,0 +1,13 @@
+name = "Refined Buckets"
+filename = "Refined Buckets 2.4.1.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8c7f840b603430e5d33e0263f416a07142651270"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8084717
+project-id = 1419333

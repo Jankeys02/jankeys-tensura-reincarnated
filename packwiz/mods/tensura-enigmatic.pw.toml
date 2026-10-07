@@ -1,0 +1,13 @@
+name = "Tensura: Enigmatic"
+filename = "tensuraenigmatic-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1457e1057af861100da5057664b11ea85015d57c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8361578
+project-id = 1299711

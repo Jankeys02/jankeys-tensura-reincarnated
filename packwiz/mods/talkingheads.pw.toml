@@ -1,0 +1,13 @@
+name = "Talking Heads"
+filename = "talking-heads-1.1.4+1.21.1+neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3461d18f3d73878e1bcb44dd8a3b5e45ec1cff07"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9038912
+project-id = 1108100
