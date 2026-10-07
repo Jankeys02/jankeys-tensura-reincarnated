@@ -113,7 +113,9 @@ Every client release should come with a matching server update, so versions matc
 - `kubejs/` — scripts and resource overrides
 - `defaultconfigs/` — defaults applied to new worlds
 - `CHANGELOG.md` — what changed per release
-- `QUEST_EXPANSION.md`, `SERVER_PACK.md`, `SERVER_HOSTING.md` — design and server notes
+- `packwiz/` — the mod list (see "Mods and the server pack" above); `server/` — files for the server zip
+- `SERVER_HOSTING.md` — hosting guide for server owners; `SERVER_PACK.md` — old server build history
+- `RELEASE_GUIDE.md`, `PACK_DESCRIPTION.md` — how to release, and the CurseForge page text
 
 ## Tips and gotchas
 
