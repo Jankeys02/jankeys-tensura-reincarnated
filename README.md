@@ -20,7 +20,7 @@ NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (
 - Minecraft 1.21.1, NeoForge 21.1.249
 - 6-8 GB RAM allocated (8 GB recommended with shaders / Distant Horizons)
 
-**Credits** — see the mod list; all mods belong to their authors.
+**Credits** — the full mod list is in [`packwiz/mods`](packwiz/mods); all mods belong to their authors.
 
 **Server pack**
 The server pack (`jankeys-tensura-vX-server.zip`) is attached to each [GitHub release](https://github.com/Jankeys02/jankeys-tensura-reincarnated/releases) under **Assets**. It holds the configs, quests and KubeJS scripts plus an installer that downloads the server's mods (client-only mods are skipped; Chunky is included). Unzip it, install NeoForge 21.1.249, run `install-mods.bat` (or `sh install-mods.sh`), and follow the `README.txt` inside. Accept the Minecraft EULA yourself, give it 4-8 GB RAM, and open UDP 24454 for proximity voice chat; see `SERVER_HOSTING.md` for permissions (FTB Ranks). Six mods can't be downloaded automatically because their authors block it (Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters): the installer prints a link for each, and you save the file into `mods/`. Boot-tested 2026-10-07: 130 mods, starts in under a minute. Back up your world before updating, since worldgen mods only change newly generated chunks.

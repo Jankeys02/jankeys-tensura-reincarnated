@@ -24,4 +24,4 @@ A dedicated-server pack is attached to each release as an additional file, and o
 **Contributing and source**
 Configs, quests, scripts and the mod list live on [GitHub](https://github.com/Jankeys02/jankeys-tensura-reincarnated). Pull requests are welcome.
 
-**Credits** — see the mod list; all mods belong to their authors.
+**Credits** — the full mod list is in [`packwiz/mods`](https://github.com/Jankeys02/jankeys-tensura-reincarnated/tree/main/packwiz/mods); all mods belong to their authors.

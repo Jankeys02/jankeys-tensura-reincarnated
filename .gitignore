@@ -15,15 +15,10 @@
 !/README.md
 !/SERVER_PACK.md
 !/SERVER_HOSTING.md
-!/client-mods-to-exclude.txt
 !/RELEASE_GUIDE.md
 !/SECURITY.md
 !/package.json
 !/DEVELOPMENT.md
-!/MODS.md
-!/tools/
-/tools/*
-!/tools/modlist.js
 
 # personal / runtime data
 /config/jei/world/
