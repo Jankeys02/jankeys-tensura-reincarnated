@@ -20,6 +20,7 @@ The pack ships FTB Ranks. Out of the box it behaves like vanilla: everyone is a 
 - Rank file: `world/serverconfig/ftbranks/ranks.snbt` (created on first start). Run `/ftbranks reload` after editing.
 - A rank grants or denies a command with `command.<name>: true|false`, for example inside `member`:
   `command.home: true` and `command.chunky: false`. `README.txt` in the same folder lists every available node.
+- Note: the default ranks add no restrictions and were not tested with a non-op player. Test your own rules before relying on them.
 - Give someone a rank: `/ftbranks add <player> <rank>`. List a player's ranks: `/ftbranks list_ranks_of <player>`.
 
 ## Mods you can remove

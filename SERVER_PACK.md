@@ -29,3 +29,4 @@ Built with ServerPackCreator 9.0.0, then cleaned by hand (removed `*.jar.disable
 - Known harmless log noise: `trnightmare` tag typos and the two unfixable recipes (Ancient Grimoire, Galand Halberd), Ice and Fire x Farmer's Delight recipes (Farmer's Delight not installed), two Dungeons Arise advancements, `forge:entity_gravity` attribute warnings, first-start "can't keep up" while the labyrinth dimension and EMC map are built.
 - The EULA is not included in the zip; server owners accept it themselves.
 - Not yet done: a real client joining the server.
+- Not tested: FTB Ranks restrictions with a non-op player (needs a real client). The shipped default ranks add no restrictions, so behavior is vanilla; custom rules a host writes are untested.
