@@ -1,0 +1,58 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 50,
+    "salt": 1100550011,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    }
+  },
+  "structures": [
+    {
+      "structure": "mysticism:elemental_realm/dark_portal_big",
+      "weight": 1
+    },
+    {
+      "structure": "mysticism:elemental_realm/earth_portal",
+      "weight": 1
+    },
+    {
+      "structure": "mysticism:elemental_realm/wind_portal",
+      "weight": 1
+    },
+    {
+      "structure": "tensuramoreskills:paths_gate",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:beast_kingdom_of_eurazania",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:hinata_church",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:night_rose",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:orc_disaster_temple",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:rimuru_ogre_fight",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_boss_structure:shizhu_school",
+      "weight": 1
+    },
+    {
+      "structure": "tensura_guild:adventurer_guild",
+      "weight": 1
+    }
+  ]
+}
