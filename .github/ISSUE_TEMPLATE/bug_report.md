@@ -19,7 +19,12 @@ assignees: ''
 
 ## Environment
 
-- **Version:**
+- **Pack version:** <!-- e.g. 0.2.2 -->
+- **Client or server:**
+- **Launcher:** <!-- e.g. CurseForge app -->
 - **OS:** <!-- e.g. Windows 11 -->
+- **RAM allocated:**
 
 ## Screenshots or logs
+
+<!-- For crashes attach the crash report or logs/latest.log. Do not post anything with account tokens. -->
