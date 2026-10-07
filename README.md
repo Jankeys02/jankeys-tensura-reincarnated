@@ -21,7 +21,7 @@ NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (
 **Credits** — see the mod list; all mods belong to their authors.
 
 **Server pack**
-A tested dedicated-server pack (NeoForge 21.1.249, client-only mods removed) is attached to each release as an additional file. Accept the Minecraft EULA yourself, give it 4-8 GB RAM, and open UDP 24454 if you want proximity voice chat. It includes Chunky (pregeneration) and FTB Ranks (command permissions); see `SERVER_HOSTING.md` in the pack for setup. Back up your world before updating, since worldgen mods only change newly generated chunks.
+A tested dedicated-server pack (NeoForge 21.1.249, client-only mods removed) is attached to each release as an additional file. Accept the Minecraft EULA yourself, give it 4-8 GB RAM, and open UDP 24454 if you want proximity voice chat. It includes Chunky (pregeneration) and FTB Ranks (command permissions); see `SERVER_HOSTING.md` in the pack for setup. Three mods are not bundled because their authors do not allow redistribution (Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters); download them from their CurseForge pages, see `SERVER_HOSTING.md` in the pack. Back up your world before updating, since worldgen mods only change newly generated chunks.
 
 ## Repo layout
 - `config/`, `defaultconfigs/` — mod configs and FTB Quests

@@ -7,6 +7,9 @@ Versioning: [SemVer](https://semver.org/).
 ## [0.1.1] - 2026-10-07
 Fixes found while testing the 0.1.0 content; same mod list.
 
+### Changed
+- Server pack no longer bundles three mods whose authors disallow redistribution (Tensura: Better Subordinates, Enigmatic, Unique Monsters); `SERVER_HOSTING.md` links to them. Removed ServerPackCreator's `manifest.json` and Easy NPC's generated skin templates from the server zip. Credits added for the open-licensed bundled mods whose CurseForge distribution toggle is off (Easy NPC, Custom Chest Menus, FiltPick).
+
 ### Fixed
 - Quest IDs: FTB Quests replaces any ID whose first hex digit is 8-F and drops the dependencies that pointed at it. Remapped those IDs in `miners_path` and the boss-structure quests in `adventure` (and the lang keys), restoring the quest chains.
 - Players spawning on tree canopies (tall Terralith forests): new `kubejs/server_scripts/spawn_off_leaves.js` moves a player who logs in or respawns standing on leaves near the world spawn down to the nearest open ground. Verified in-game.

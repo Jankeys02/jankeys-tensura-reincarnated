@@ -1,7 +1,7 @@
 # Server pack plan
 
 NeoForge 21.1.249 / Minecraft 1.21.1. Built from the client pack, minus client-only mods.
-Mod ids below are `modId`s from each jar's `neoforge.mods.toml` (176 mods in `mods/`: 124 kept on the server, 52 excluded; the server pack has 125 jars: those 124 plus server-only Chunky; staged in `../../ServerPacks/jankeys-tensura-0.1.0-server`).
+Mod ids below are `modId`s from each jar's `neoforge.mods.toml` (176 mods in `mods/`: 124 kept on the server, 52 excluded; the server pack has 122 jars: 121 of those plus server-only Chunky; 3 more (`tensura_better_subs`, `tensuraenigmatic`, `tr_unique_monsters`) are All Rights Reserved with CurseForge distribution off, so hosts download them (see `SERVER_HOSTING.md`); staged in `../../ServerPacks/jankeys-tensura-0.1.0-server`).
 
 ## Exclude from the server (client-only)
 Rendering / performance (client): `sodium`, `sodium_extra`, `reeses_sodium_options`, `sodiumextrainformation`, `iris`, `immediatelyfast`, `entityculling`, `moreculling`, `entity_model_features`, `entity_texture_features`, `vanillin`, `badoptimizations`, `dynamic_fps`, `smoothchunk`, `chloride`
