@@ -8,8 +8,8 @@ packwiz curseforge add <curseforge-url>   # add a mod
 packwiz update --all                      # update mods
 packwiz remove <name>                     # remove a mod
 packwiz refresh                           # rebuild index.toml (run before committing)
-packwiz curseforge export                 # build the CurseForge zip
+
 ```
 
 To mark a mod client-only, change `side = "both"` to `side = "client"` in its `.pw.toml`.
-Pushing a `v*` tag builds the CurseForge zip and a Modrinth `.mrpack` and attaches them to the GitHub release.
+Pushing a `v*` tag builds the CurseForge zip and attaches them to the GitHub release.

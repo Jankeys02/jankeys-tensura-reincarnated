@@ -9,17 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-go@v5
-        with: { go-version: stable }
-      - run: go install github.com/packwiz/packwiz@latest
-      - name: Export packs
-        working-directory: packwiz
-        run: |
-          # configs, quests and KubeJS ride along in the zip as overrides
-          cp -r ../config ../defaultconfigs ../kubejs .
-          packwiz refresh
-          packwiz curseforge export -o "../jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip"
-          packwiz modrinth export -o "../jankeys-tensura-${GITHUB_REF_NAME}.mrpack"
+      - name: CurseForge zip
+        run: python .github/scripts/export-curseforge.py "${GITHUB_REF_NAME}" "jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip"
       - name: Server zip
         run: |
           URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/packwiz/pack.toml"
@@ -35,5 +26,4 @@ jobs:
           prerelease: ${{ contains(github.ref_name, '-') }}
           files: |
             jankeys-tensura-*-curseforge.zip
-            jankeys-tensura-*.mrpack
             jankeys-tensura-*-server.zip
