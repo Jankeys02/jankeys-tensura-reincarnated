@@ -4,7 +4,10 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-10-07
+
 ### Fixed
+- Quest skill rewards (Paths, Skills, Origins, Ascension, Blood and Avalon, Elite Forge) were removed a second after being granted. They are now permanent. Rewards you already claimed need to be granted again by an admin.
 - Great Sage menu and Elite Tensura Council screen both defaulted to `I`, so neither opened. The Council screen now defaults to `O` (Iris's shader-menu key is unbound; Video Settings still opens it) (only for new installs; existing players can rebind in Controls).
 
 ### Removed
