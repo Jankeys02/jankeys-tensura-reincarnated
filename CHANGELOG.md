@@ -38,6 +38,8 @@ Cataclysm, Mowzie's and the three Tensura addons also boot cleanly; all Cataclys
 - Adventure quests: hints on the Orc Disaster and Charybdis kill quests; new "Boss Maps" quest (buy maps from Cartographer villagers) plus six structure quests for the Tensura Boss Structure locations.
 
 ### Fixed
+- Quest IDs: FTB Quests replaces any ID whose first hex digit is 8-F and drops the dependencies that pointed at it. Remapped those IDs in `miners_path` and the boss-structure quests in `adventure` (and the lang keys), restoring the quest chains.
+- Players spawning on tree canopies (tall Terralith forests): new `kubejs/server_scripts/spawn_off_leaves.js` moves a player who logs in or respawns standing on leaves near the world spawn down to the nearest open ground. Verified in-game.
 - Server pack was missing `dummmmmmy` (a Moonlight-based entity mod), which would have stopped clients from joining; added. Server pack synced to client versions and rebuilt (125 jars).
 - Music toasts showed raw ids (e.g. `menu-02`) for TIMM tracks: TIMM's `musics.json` keys lacked the `music/` path segment that MusicNotification looks up. Merged override in `kubejs/assets/musicnotification/musics.json`.
 - 12 broken `trnightmare` recipes (Excalibur, Caliburn, Terrablade, The World, The Asura, Ark, Lostvayne, Reinhard Locked, Dragon Seal, Divine Axe Rhitta, Ancient History Book, Evil Attribute Stick): the mod uses Tensura 1.x ids (`tensura:smithing`, `block_of_*`, `demon_essence`). Corrected overrides in `kubejs/data/trnightmare/recipe/`.
