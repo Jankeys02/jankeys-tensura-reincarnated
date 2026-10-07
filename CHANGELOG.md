@@ -4,6 +4,12 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Removed
+- The pack no longer ships config files for the mods added since 0.2.1 (Cataclysm, Mowzie's Mobs, Twilight Forest, Eternal Starlight, Chrono Dawn, Farmer's Delight, Comforts, Supplementaries, the Tensura addons, Jade and others). Each mod creates its own default config on first launch.
+
+### Server pack
+- The server zip no longer includes those configs either; the mods generate their defaults on first start.
+
 ## [0.2.4] - 2026-10-07
 
 ### Fixed
