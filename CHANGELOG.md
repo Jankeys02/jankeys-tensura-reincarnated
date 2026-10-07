@@ -4,15 +4,20 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-03
+First public beta.
+
 ### Added
 - Terralith (with Lithostitched, its dependency). Biomes only change in newly generated chunks.
+- The Twilight Forest, Eternal Starlight, Chrono Dawn and The Afterdark: four own-dimension content mods; no overworld biome changes.
+- L_Ender's Cataclysm (with Lionfish API) and Mowzie's Mobs: overworld bosses and structures; Tensura addons Guild, Enigmatic and Unique Monsters.
+- `kubejs/data/cataclysm/tags/worldgen/biome/has_structure/`: Cataclysm hardcodes vanilla biomes for some structures; Frosted Prison / abandoned structures now also spawn in Terralith's snowy lowlands (about half the distance from spawn in testing), Cursed Pyramid / desert structures accept Terralith deserts.
 - `kubejs/data/forge/tags/worldgen/biome/has_structure/`: the six Tensura Boss Structure spawn-biome tags now also accept Terralith biomes (via `#c:is_*` tags). Without this the structures only spawn in vanilla biomes, which Terralith makes rare.
 - Server pack only: Chunky 1.4.23 (pregenerates chunks; `/chunky` commands for server owners). Not in the client pack.
 
 Tested on a 1.21.1 dedicated server: all six structures generate in Terralith worlds, none buried.
-
-## [0.1.0] - 2026-09-29
-First public beta.
+The four dimension mods boot and generate on the dedicated server with no errors; boss structures still found.
+Cataclysm, Mowzie's and the three Tensura addons also boot cleanly; all Cataclysm and Mowzie's structures were found in Terralith worlds.
 
 ### Removed
 - Essential and EssentialTweaks (multiplayer overlay/cosmetics; not needed), plus their leftover config and keybind entries.

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:wintry_lowlands",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_cherry_grove",
+    "terralith:wintry_forest"
+  ]
+}
