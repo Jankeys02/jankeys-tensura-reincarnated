@@ -1,0 +1,30 @@
+name: Changelog check
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, edited, labeled, unlabeled]
+jobs:
+  changelog:
+    name: Changelog check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: CHANGELOG.md is updated when player-facing folders change
+        env:
+          BODY: ${{ github.event.pull_request.body }}
+          LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+          BASE: ${{ github.base_ref }}
+        run: |
+          if echo "$BODY" | grep -qiF '[skip changelog]' || echo ",$LABELS," | grep -q ',skip-changelog,'; then
+            echo "Skipped (skip-changelog)."; exit 0
+          fi
+          files=$(git diff --name-only "origin/$BASE...HEAD")
+          watched=$(echo "$files" | grep -E '^(packwiz/|kubejs/|defaultconfigs/|config/ftbquests/)' || true)
+          if [ -n "$watched" ] && ! echo "$files" | grep -qx 'CHANGELOG.md'; then
+            echo "::error::These player-facing files changed but CHANGELOG.md did not:"
+            echo "$watched" | head -20
+            echo "Add a line under [Unreleased] in CHANGELOG.md, or put [skip changelog] in the PR description."
+            exit 1
+          fi
+          echo "OK"
