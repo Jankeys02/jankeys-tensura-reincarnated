@@ -1,0 +1,351 @@
+# Chrono Dawn configuration.
+#
+# This file is read once at mod startup. Changes require a server (or
+# single-player world) restart to take effect; /reload does NOT re-read
+# this file. Already-generated chunks are not retroactively updated;
+# new values apply only to chunks generated after the change.
+#
+# Invalid values fall back to defaults for that field. Unknown keys are
+# ignored (with a warning in the log). To restore defaults for any
+# field, delete the line; this file is overwritten only when missing.
+
+schema_version = 1
+
+[world.time_keeper_village]
+# Place one village near the first player's Chrono Dawn entry point.
+enabled = true
+
+# The preferred distance range in blocks. If no valid terrain is found, the
+# search expands in stages up to max_distance.
+preferred_min_distance = 32
+preferred_max_distance = 64
+max_distance = 256
+
+# Number of persistent Time Keepers created after the template is placed.
+# Zero keeps the building but creates no traders. Maximum: 16.
+time_keeper_count = 2
+
+# Resource IDs supplied by the mod or a data pack. The template is read from
+# data/<namespace>/structure/<path>.nbt.
+template_id = "chronodawn:time_keeper_village"
+loot_table_id = "chronodawn:chests/time_keeper_village"
+
+[world.structures.ancient_ruins]
+# Whether Ancient Ruins generate at all in the Overworld.
+enabled = true
+
+# Average distance (in chunks) between Ancient Ruins placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 56
+
+# Minimum guaranteed distance (in chunks) between two Ancient Ruins.
+# Must be < spacing.
+separation = 20
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 20005897
+
+[world.structures.forgotten_library]
+# Whether the Forgotten Library generates in Chrono Dawn.
+# Disabling it removes the Portal Stabilizer recipe from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 30
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 15
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 8735421890
+
+[world.structures.desert_clock_tower]
+# Whether the Desert Clock Tower generates in Chrono Dawn.
+# Disabling it removes access to the Time Guardian, the Master Clock Key and Enhanced Clockstone from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 30
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 10
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 1663542342
+
+[world.structures.guardian_vault]
+# Whether the Guardian Vault generates in Chrono Dawn.
+# Disabling it removes access to Chronos Warden and the Guardian Stone from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 48
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 24
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 928374651
+
+[world.structures.clockwork_depths]
+# Whether the Clockwork Depths generates in Chrono Dawn.
+# Disabling it removes access to Clockwork Colossus and the Colossus Gear from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 56
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 28
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 837465129
+
+[world.structures.phantom_catacombs]
+# Whether the Phantom Catacombs generates in Chrono Dawn.
+# Disabling it removes access to Temporal Phantom and the Phantom Essence from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 20
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 8
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 745182936
+
+[world.structures.entropy_crypt]
+# Whether the Entropy Crypt generates in Chrono Dawn.
+# Disabling it removes access to Entropy Keeper and the Entropy Core from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 50
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 25
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 738291456
+
+[world.structures.master_clock]
+# Whether the Master Clock generates in Chrono Dawn.
+# Disabling it removes access to Time Tyrant, the final boss from world generation.
+enabled = true
+
+# Average distance (in chunks) between placement attempts.
+# Lower = denser, higher = rarer. Must be > separation. Vanilla limit: 4096.
+spacing = 60
+
+# Minimum guaranteed distance (in chunks) between two placements.
+# Must be < spacing.
+separation = 20
+
+# Random seed offset for placement; usually no reason to change this.
+salt = 1234567890
+
+[world.ores.time_crystal]
+# Whether Time Crystal ore generates in the Chrono dimension.
+enabled = true
+
+# Number of placement attempts per chunk. Lower = rarer, higher = denser.
+# Each attempt generates one cluster (cluster size is fixed at the data-pack level).
+count = 3
+
+# Minimum and maximum Y level (absolute) where Time Crystal ore can spawn.
+# The distribution between min and max is biased toward the middle (trapezoid).
+y_min = 0
+y_max = 48
+
+[world.ores.entropy_crystal]
+# Whether Entropy Crystal ore generates.
+enabled = true
+
+count = 4
+y_min = 40
+y_max = 100
+
+[world.ores.temporal_amber]
+# Whether Temporal Amber ore generates.
+enabled = true
+
+# Temporal Amber uses a uniform distribution (flat probability across the Y range)
+# rather than trapezoid; tune y_min/y_max accordingly.
+count = 4
+y_min = -30
+y_max = 20
+
+[world.ores.clockstone]
+# Whether Clockstone Ore generates in the Chrono dimension.
+enabled = true
+
+# Number of placement attempts per chunk. Lower = rarer, higher = denser.
+# Each attempt generates one cluster (cluster size is fixed at the data-pack level).
+count = 8
+
+# Minimum and maximum Y level (absolute) where Clockstone Ore can spawn.
+# Distribution between min and max is biased toward the middle (trapezoid).
+y_min = -16
+y_max = 80
+
+[world.ores.chronite]
+# Whether Chronite Ore generates in the Overworld.
+enabled = true
+
+# Number of placement attempts per chunk. Lower = rarer, higher = denser.
+# Each attempt generates one cluster (cluster size is fixed at the data-pack level).
+count = 6
+
+# Minimum and maximum Y level (absolute) where Chronite Ore can spawn.
+# Distribution between min and max is biased toward the middle (trapezoid).
+y_min = -48
+y_max = 112
+
+[world.biomes.forest]
+# Whether the Chrono Forest biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_plains instead of being left empty.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.dark_forest]
+# Whether the Chrono Dark Forest biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_forest instead of being left empty.
+# Disabling it stops the Dark Time Wood trees from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.ancient_forest]
+# Whether the Chrono Ancient Forest biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_dark_forest instead of being left empty.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.swamp]
+# Whether the Chrono Swamp biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_forest instead of being left empty.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.faded_plains]
+# Whether the Chrono Faded Plains biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_plains instead of being left empty.
+# Disabling it stops the Parched Temporal Dirt, Faded Grass, and Temporal Dead Bush blocks
+# from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.desert]
+# Whether the Chrono Desert biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_faded_plains instead of being left empty.
+# Disabling it stops the Hourglass Monolith landmark from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.prairies]
+# Whether the Chrono Prairies biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_plains instead of being left empty.
+# Disabling it stops the Coarse Temporal Dirt and Tall Grass blocks from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.snowy]
+# Whether the Chrono Snowy biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_plains instead of being left empty.
+# Disabling it stops the Chrono Ursid and Frozen Time Ice from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[world.biomes.mountain]
+# Whether the Chrono Mountain biome generates in Chrono Dawn.
+# When disabled, its area of the biome distribution is taken over by
+# chronodawn:chronodawn_plains instead of being left empty.
+# Disabling it stops the Temporal Caprid from generating.
+# Only affects newly generated chunks; existing terrain is unchanged.
+enabled = true
+
+[gameplay.time_distortion]
+# Whether the Chrono Dawn dimension applies ambient Slowness to mobs.
+enabled = true
+
+# Slowness level before and after the Eye of Chronos enhancement. Range: 1 to 5.
+normal_slowness_level = 4
+enhanced_slowness_level = 5
+
+# "hostile_mobs" affects only hostile mobs. "all_mobs" also affects passive
+# and friendly mobs. Players and Chrono Dawn bosses are never affected.
+scope = "hostile_mobs"
+
+[gameplay.time_flow]
+# Whether the Chrono Dawn dimension's day/night cycle randomly speeds up and
+# slows down. When disabled, time always advances at normal (1.0x) speed.
+enabled = true
+
+# The day/night cycle speed randomly picks a new multiplier in this range.
+# Range: 0.05 to 20.0.
+min_speed = 0.67
+max_speed = 5.0
+
+# How long (in ticks, 20 ticks = 1 second) a chosen speed lasts before a new
+# one is picked. Range: 20 to 72000.
+min_duration_ticks = 1200
+max_duration_ticks = 6000
+
+[gameplay.portals]
+# Whether entering Chrono Dawn deactivates the departure portal and destroys
+# the arrival portal until the Portal Stabilizer has been used.
+one_way_until_stabilized = true
+
+# When one_way_until_stabilized is true, whether Time Hourglass may ignite a
+# portal in Chrono Dawn before the Portal Stabilizer is used.
+allow_reignition_before_stabilization = false
+
+[gameplay.bosses.time_guardian]
+# Scales the boss's maximum health. 2.0 = double health. Range: 0.1 to 10.0.
+health_multiplier = 1.0
+
+# Scales this boss's direct damage: melee, its area-of-effect attack,
+# and the Time Blast projectile it fires. Does NOT scale the Slowness /
+# Mining Fatigue debuffs it applies — a MobEffect amplifier is an
+# integer and cannot express a fractional multiplier. Range: 0.0 to 10.0.
+damage_multiplier = 1.0
+
+[gameplay.bosses.chronos_warden]
+health_multiplier = 1.0
+damage_multiplier = 1.0
+
+[gameplay.bosses.clockwork_colossus]
+health_multiplier = 1.0
+damage_multiplier = 1.0
+
+[gameplay.bosses.entropy_keeper]
+health_multiplier = 1.0
+damage_multiplier = 1.0
+
+[gameplay.bosses.temporal_phantom]
+health_multiplier = 1.0
+damage_multiplier = 1.0
+
+[gameplay.bosses.time_tyrant]
+health_multiplier = 1.0
+damage_multiplier = 1.0

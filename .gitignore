@@ -23,3 +23,17 @@
 # personal / runtime data
 /config/jei/world/
 /config/spark/
+
+# personal client settings (graphics/UI/minimap prefs), not pack content
+/config/DistantHorizons.toml
+/config/entity_model_features.json
+/config/ftbchunks-client.snbt
+/config/ftblibrary-client.snbt
+/config/iris.properties
+/config/jei/client
+/config/pingtomapxaeros-client.toml
+/config/sodium-options.json
+/config/yacl.json5
+/config/sound_physics_remastered/sound_rates.properties
+*.bak
+*.toml_backup*

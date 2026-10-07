@@ -1,0 +1,35 @@
+[Tts]
+	#Google Cloud TTS API key. Blank = Google disabled.
+	googleApiKey = ""
+	#ElevenLabs API key. Blank = ElevenLabs disabled.
+	elevenlabsApiKey = ""
+	#Reserved: when false, only server-side events may trigger TTS, never raw player actions. Enforced once player-triggered events route through TtsManager.
+	allowPlayerTriggers = false
+	#Speak ACHIEVEMENT-tier Voice messages.
+	ttsAchievement = true
+	#Log TTS routing decisions to the server console for debugging.
+	debug = false
+	#ElevenLabs voice id.
+	elevenlabsVoiceId = ""
+	#Speak WARNING-tier Voice messages.
+	ttsWarning = true
+	#Speak NOTICE-tier Voice messages.
+	ttsNotice = true
+	#Speak EVOLUTION-tier Voice messages.
+	ttsEvolution = true
+	#Max characters sent to a paid provider per call. Longer text is truncated. <= 0 disables the cap. (Does not limit LOCAL narration.)
+	maxCharsPerCall = 300
+	#Master TTS switch. When false, no speech is produced; the overlay + level-up sound still work.
+	enabled = false
+	#Minimum seconds between TTS calls for the same player. Throttles spam and paid-API cost.
+	perPlayerCooldownSeconds = 10
+	#Speak ERROR-tier Voice messages.
+	ttsError = true
+	#Playback volume for ELEVENLABS/GOOGLE audio, applied client-side. 0.0 - 1.0. (LOCAL narrator ignores this.)
+	volume = 1.0
+	#Speak ANNOUNCEMENT-tier Voice messages.
+	ttsAnnouncement = true
+	#TTS provider: ELEVENLABS | GOOGLE | LOCAL. LOCAL uses the client's Minecraft narrator (no key, no cost). Unknown values fall back to LOCAL.
+	provider = "LOCAL"
+	#Speak SYSTEM-tier Voice messages.
+	ttsSystem = true
