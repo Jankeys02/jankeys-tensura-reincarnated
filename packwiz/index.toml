@@ -101,6 +101,11 @@ hash = "3f1aae0bdcf011dd852686850e0551e897ebe207db7e9ab52def2ee071e2c37d"
 metafile = true
 
 [[files]]
+file = "mods/chunky-pregenerator-forge.pw.toml"
+hash = "6f3b2586044baf55d5b1cb07752c9def847208270480bf9d893c803277493c1f"
+metafile = true
+
+[[files]]
 file = "mods/cinematic-zoom.pw.toml"
 hash = "6b416bb8aadbac363cadff5c6cc0587198904b7afc7a4877f6739e9e9574bf44"
 metafile = true
