@@ -4,7 +4,7 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
-## [0.2.1] - 2026-10-07
+## [0.2.2] - 2026-10-07
 Release tooling only; the pack content is unchanged from 0.2.0.
 
 ### Added
@@ -12,6 +12,9 @@ Release tooling only; the pack content is unchanged from 0.2.0.
 - Release workflow: pushing a `v*` tag builds the CurseForge zip and a server zip (configs plus a mod installer) and attaches them to the GitHub release.
 - Chunky (NeoForge) as a server-only mod.
 - Server boot-tested with the current mod list (130 mods).
+
+## [0.2.1] - 2026-10-07
+Not released: the tag exists but the release build failed. Everything below shipped in 0.2.2.
 
 ## [0.2.0] - 2026-10-07
 The quest-book release: 17 new chapters narrated by the Voice of the World, four Tensura addons, a full audit of the book, and the dimension gate. Mods added since 0.1.1 are All Rights Reserved and are linked, not bundled, in the server pack.
