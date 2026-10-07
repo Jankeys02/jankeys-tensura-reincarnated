@@ -1,0 +1,13 @@
+name = "FiltPick"
+filename = "filtpick-neoforge-1.21.1-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b38abf9aacb119099ef27b3cf2bf104ba96a0f36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7449705
+project-id = 700141

@@ -1,0 +1,13 @@
+name = "Ragdollified"
+filename = "ragdollified-1.21.1-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "332e39800ecd3bf8f8f53703b8cb6902a943b216"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9022300
+project-id = 1417732

@@ -1,0 +1,13 @@
+name = "Manas Cosmetics"
+filename = "manas_cosmetics-neoforge-client-1.0.6.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "4da01da247086d19b9848eb1b8b907586365aaa8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8866794
+project-id = 1613750

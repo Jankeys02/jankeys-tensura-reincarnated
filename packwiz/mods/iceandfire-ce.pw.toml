@@ -1,0 +1,13 @@
+name = "IceAndFire Community Edition"
+filename = "IceAndFireCE-2.0-beta.15-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4d33745a8041465f2d12bb76fc048750288ce24"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7722420
+project-id = 1040076

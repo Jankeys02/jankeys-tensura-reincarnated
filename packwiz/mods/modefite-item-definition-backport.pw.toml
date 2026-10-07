@@ -1,0 +1,13 @@
+name = "Modefite - Item Definition Backport"
+filename = "modefite-neoforge-1.0.1+1.21.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "05deff142c1c9798c53a3339b6e47a66593479d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8480369
+project-id = 1382058

@@ -1,0 +1,13 @@
+name = "Ragdollified Player Corpses"
+filename = "ragdollifiedpc-1.21.1-0.2.0-BETA.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28ff6b15b0c315d62bde179d2684e2bf9fb41945"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9022350
+project-id = 1663157

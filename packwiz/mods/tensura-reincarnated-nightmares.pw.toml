@@ -1,0 +1,13 @@
+name = "Tensura Reincarnated Nightmares"
+filename = "trnightmare-1.0.5.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0475fde3e76c491905479a244fa706c0ab2eebe6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9003673
+project-id = 1253768

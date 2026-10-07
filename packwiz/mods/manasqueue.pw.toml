@@ -1,0 +1,13 @@
+name = "ManasQueue"
+filename = "manas_queue-neoforge-1.0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc80bb64ee8e028606f8565cd28f6eb4acdc7ebf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8525622
+project-id = 1514223

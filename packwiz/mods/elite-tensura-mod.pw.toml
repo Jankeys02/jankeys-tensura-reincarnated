@@ -1,0 +1,13 @@
+name = "Elite Tensura Addon"
+filename = "elitetensura-1.0.2.1-V2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b32ebe5aaac2b94139f3ddc938395b739ba36f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8563650
+project-id = 515631

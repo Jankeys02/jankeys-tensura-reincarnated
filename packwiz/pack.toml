@@ -1,0 +1,11 @@
+name = "Jankeys' Tensura Reincarnated"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2c31038b52c5201bcbd208c1169b3d5ce1cbd17309d117de72c404a434cabd31"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.249"

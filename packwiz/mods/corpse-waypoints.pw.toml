@@ -1,0 +1,13 @@
+name = "Corpse Waypoints"
+filename = "corpse-waypoints-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eb3d433d79156a372680b0de13027b2feba59b1a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8933820
+project-id = 1704960

@@ -1,0 +1,13 @@
+name = "Custom Chest Menus"
+filename = "customchestmenus-neoforge-1.21.1-2.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a836268ca436e144494f44ed7799957f300261a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8846120
+project-id = 1343005

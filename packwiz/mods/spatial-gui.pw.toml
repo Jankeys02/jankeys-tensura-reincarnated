@@ -1,0 +1,13 @@
+name = "Spatial GUI"
+filename = "spatial-gui-1.7+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "85e6b872a1ba59ca38caf46b42b7432293b71a63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9085092
+project-id = 1676741

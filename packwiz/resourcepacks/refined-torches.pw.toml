@@ -1,0 +1,13 @@
+name = "Refined Torches"
+filename = "refined torches 2.1.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "c54c37df63e0419ec2b834a67f256cd59ecbb2e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050358
+project-id = 1483746

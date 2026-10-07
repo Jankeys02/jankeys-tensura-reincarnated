@@ -1,0 +1,13 @@
+name = "ExtraSounds Next"
+filename = "extrasounds-1.5.6+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "fb22d8c7e6cdf37acaca69b505165ac70ee3d5b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8593118
+project-id = 946784

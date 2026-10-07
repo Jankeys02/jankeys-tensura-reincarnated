@@ -71,57 +71,39 @@ If Git refuses because you changed a file yourself, either commit your change (s
 
 Outside collaborators can't push to this repo directly. They **fork** it (GitHub's Fork button), push to their fork, and open the Pull Request from there. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Syncing mods while developing
+## Mods and the server pack (packwiz)
 
-Git can't carry mod jars, so the repo tracks a **mod list** instead: [MODS.md](MODS.md) (name, exact file, CurseForge download link for each mod). Because it's a text file, Git shows exactly which mods were added, removed or updated in every commit.
+The mod list lives in [packwiz/](packwiz/) as one small text file per mod (name, exact file, CurseForge project and file ID, and which side it belongs to: `client` or `both` or `server`). It is the single source of truth for the client pack **and** the server pack, and Git shows exactly which mods were added, removed or updated in every commit. [packwiz/README.md](packwiz/README.md) has the commands.
 
-**If you add, remove or update a mod** (anyone with the pack installed):
+**Adding, removing or updating a mod** (everyone, in a branch / Pull Request):
 
-1. Change the mod in the CurseForge app as normal and test in-game.
-2. Regenerate the list (needs [Node.js](https://nodejs.org)); run it in the instance folder:
-   ```bash
-   node tools/modlist.js
-   ```
-3. Commit `MODS.md` together with the configs/quests that need the mod, in the same commit and Pull Request. Add a line to `CHANGELOG.md`.
+1. Install [packwiz](https://packwiz.infra.link) once (`go install github.com/packwiz/packwiz@latest`, or download the Windows build from its GitHub).
+2. In the `packwiz/` folder run `packwiz curseforge add <CurseForge mod URL>`.
+3. Open the new `mods/<name>.pw.toml`. If the mod is visual/HUD/sound/minimap only, set `side = "client"`. Otherwise leave `both`. If unsure, leave `both` and test the server.
+4. Run `packwiz refresh`, then commit `packwiz/` together with that mod's `config/` files and a `CHANGELOG.md` line.
+5. Use the CurseForge app as normal to install the same mod in your own game and test it.
 
-**If you pulled and something is missing or broken** (everyone else):
+`packwiz curseforge add` also adds the mod's required libraries. Removing: `packwiz remove <name>`. Updating everything: `packwiz update --all`.
 
-```bash
-git pull origin main
-node tools/modlist.js --check
-```
+**After pulling** (everyone else): `git pull`, then look at what changed with `git diff --stat HEAD@{1} -- packwiz/mods`. New files there are new mods; install them in the CurseForge app. Removed files are mods to delete.
 
-It prints **MISSING** (mods to install or update, each with a download link) and **EXTRA** (mods you have that the pack doesn't list). Fix those in the CurseForge app, then launch.
+**Do not run the packwiz installer on your CurseForge instance.** The CurseForge app and the installer both manage `mods/` and will overwrite each other. The installer is for servers and for launchers other than CurseForge.
 
-**Rules that keep this working**
-
-- A PR that changes `MODS.md` is not done until the reviewer has also installed those mods.
-- Configs for a new mod (`config/<mod>*.toml`) go in the same commit as the `MODS.md` change. Mods write their config on first launch, so launch once before committing.
-- `MODS.md` is generated from `minecraftinstance.json` (CurseForge's record of installed mods), so a jar dropped into `mods/` by hand won't appear. Install through the CurseForge app.
-- Mods whose authors forbid redistribution are listed with their CurseForge link only; nothing is uploaded.
-- At release, the owner publishes the pack on CurseForge and the list in `MODS.md` should match it.
-
-**Later, if the manual step gets annoying:** a GitHub Action that fails a PR when `MODS.md` is out of date, or CurseForge's modpack manifest (`manifest.json`) as the source of truth. Not needed at two or three people.
+**Six mods can't be fetched automatically** (their authors block outside download): Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Enigmatic, Unique Monsters. The CurseForge app downloads them normally; for a server, see SERVER_HOSTING.md.
 
 ## Server pack
 
-The server pack is **not stored in this repo**. It is a zip built from the client pack and attached to each CurseForge release as an extra file. Players who just want to host download it from there; see [SERVER_HOSTING.md](SERVER_HOSTING.md). Build notes and boot-test results are in [SERVER_PACK.md](SERVER_PACK.md).
+The server is built from the same `packwiz/` list. Mods marked `client` are left out; Chunky (server-only) is marked `server`. Hosts: see [SERVER_HOSTING.md](SERVER_HOSTING.md).
 
-How it relates to the repo:
+On a server machine with the NeoForge 21.1.249 server installed:
 
-- **Same configs and quests.** The server uses the same `config/`, `kubejs/` and quests as the client. A change here reaches the server on the next server pack build, nothing extra to do.
-- **Fewer mods.** The server leaves out client-only mods (shaders, minimap, JEI and so on). [client-mods-to-exclude.txt](client-mods-to-exclude.txt) is that list, and the `Side` column in [MODS.md](MODS.md) shows it per mod: `client` means left out of the server, `client+server` means it goes on both.
-- **Three mods can't be bundled** (their authors forbid redistribution). Hosts download them themselves; see SERVER_HOSTING.md.
+```bash
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
+```
 
-**When you add a mod, also decide its side:**
+Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the six blocked jars by hand. `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
 
-1. If it's client-only (visuals, HUD, sounds, minimap), add its exact jar filename to `client-mods-to-exclude.txt`.
-2. Run `node tools/modlist.js` so `MODS.md` shows the right `Side`.
-3. If you're not sure, leave it off the exclude list and test: start the server, and NeoForge crashes loudly at boot naming any client-only mod. Add that one to the list and retry.
-
-**To self-host a test server from your own game folder:** don't copy your whole instance. Build the zip with ServerPackCreator as described in SERVER_PACK.md, so the exclude list is applied for you.
-
-**Releasing:** every client release should come with a rebuilt server pack, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
+Every client release should come with a matching server update, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
 
 ## Where things are
 

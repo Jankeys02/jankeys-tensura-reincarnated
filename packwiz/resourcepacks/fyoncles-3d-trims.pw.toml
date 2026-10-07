@@ -1,0 +1,13 @@
+name = "Fyoncle's 3D Trims"
+filename = "Fyoncle's 3D Trims.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "9efb696de520210a66b00da9e56cb42d0bf131d4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8285811
+project-id = 1577329
