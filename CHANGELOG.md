@@ -14,6 +14,7 @@ First public beta.
 - `kubejs/data/cataclysm/tags/worldgen/biome/has_structure/`: Cataclysm hardcodes vanilla biomes for some structures; Frosted Prison / abandoned structures now also spawn in Terralith's snowy lowlands (about half the distance from spawn in testing), Cursed Pyramid / desert structures accept Terralith deserts.
 - `kubejs/data/forge/tags/worldgen/biome/has_structure/`: the six Tensura Boss Structure spawn-biome tags now also accept Terralith biomes (via `#c:is_*` tags). Without this the structures only spawn in vanilla biomes, which Terralith makes rare.
 - Server pack only: Chunky 1.4.23 (pregenerates chunks; `/chunky` commands for server owners). Not in the client pack.
+- FTB Ranks 2101.1.5 (command permissions; default ranks behave like vanilla). `SERVER_HOSTING.md` documents hosting, Chunky and ranks.
 
 Tested on a 1.21.1 dedicated server: all six structures generate in Terralith worlds, none buried.
 The four dimension mods boot and generate on the dedicated server with no errors; boss structures still found.
