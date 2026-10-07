@@ -153,7 +153,7 @@ Side `client` = client-only, left out of the server pack. Run `node tools/modlis
 | SuperMartijn642's Config Lib | supermartijn642configlib-1.1.8-neoforge-mc1.21.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib/files/5546996 |
 | SuperMartijn642's Core Lib | supermartijn642corelib-1.1.25-neoforge-mc1.21.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib/files/9083552 |
 | Supplementaries | supplementaries-1.21.1-3.9.9-neoforge.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/8852720 |
-| Talking Heads | talking-heads-1.1.4+1.21.1+neoforge.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/talkingheads/files/9038912 |
+| Talking Heads | talking-heads-1.1.4+1.21.1+neoforge.jar | client | https://www.curseforge.com/minecraft/mc-mods/talkingheads/files/9038912 |
 | TenSura boss structure | tensura_boss_structure-1.0.3.3.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/tensura-boss-structure/files/8614357 |
 | Tensura Compat: FTB | tensura_ftb-neoforge-2.0.0.4.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/tensura-compat-ftb/files/8375576 |
 | Tensura Compat: Ice & Fire | tensura_iaf-neoforge-2.0.0.1.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/tensura-compat-ice-fire/files/7905387 |
@@ -186,7 +186,7 @@ Side `client` = client-only, left out of the server pack. Run `node tools/modlis
 | Xaero's Minimap & World Map - Waystones Compatibility [Forge & NeoForge] | xaeros_waystones_compatibility-NeoForge-1.21.1-2.1.0.jar | client | https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-world-map-waystones-compability/files/7976140 |
 | Xaero's World Map | xaeroworldmap-neoforge-1.21.1-1.47.0.jar | client | https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/files/9067277 |
 | XP Tome | xptome-1.21.1-2.4.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/xp-tome/files/5842036 |
-| YetAnotherConfigLib | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/yacl/files/7437845 |
+| YetAnotherConfigLib | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar | client | https://www.curseforge.com/minecraft/mc-mods/yacl/files/7437845 |
 | YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY] | YungsApi-1.21.1-NeoForge-5.1.9.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge/files/8894736 |
 | YUNG's Better Caves (Forge/NeoForge) | YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves/files/8806071 |
 | YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY] | YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar | client+server | https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge/files/6276955 |

@@ -50,3 +50,5 @@ vanillin-neoforge-1.21.1-1.1.3.jar
 xaerominimap-neoforge-1.21.1-26.6.0.jar
 xaeros_waystones_compatibility-NeoForge-1.21.1-2.1.0.jar
 xaeroworldmap-neoforge-1.21.1-1.47.0.jar
+talking-heads-1.1.4+1.21.1+neoforge.jar
+yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
