@@ -478,11 +478,9 @@
 			x: 4.0d
 			y: 13.0d
 		}
-
 		{
 			dependencies: ["5482E2056F81C5B8"]
-			id: "848D35E761F5CD59"
-			rewards: []
+			id: "5F3AD43FE0627FCB"
 			tasks: [{
 				id: "4A662DECBC588E90"
 				type: "checkmark"
@@ -491,10 +489,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
+			dependencies: ["5F3AD43FE0627FCB"]
 			id: "7689082AAA65C8E3"
 			rewards: [{
-				id: "998611C73C803596"
+				id: "2D3A4FAB59D4BA87"
 				type: "xp_levels"
 				xp_levels: 8
 			}]
@@ -507,7 +505,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
+			dependencies: ["5F3AD43FE0627FCB"]
 			id: "7B7A453C5DB15C11"
 			rewards: [{
 				id: "0257CEE881F4A968"
@@ -523,15 +521,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
-			id: "807EBB874FB3BA95"
+			dependencies: ["5F3AD43FE0627FCB"]
+			id: "2DFA680F102ADC7B"
 			rewards: [{
-				id: "E5273FA56C3BA84F"
+				id: "389AD3CC1BC5ABB0"
 				type: "xp_levels"
 				xp_levels: 8
 			}]
 			tasks: [{
-				id: "97A049269540BF12"
+				id: "2F09E4B276EDE5E1"
 				structure: "tensura_boss_structure:hinata_church"
 				type: "structure"
 			}]
@@ -539,7 +537,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
+			dependencies: ["5F3AD43FE0627FCB"]
 			id: "71FEDE5A759C9875"
 			rewards: [{
 				id: "72AB73428020ED93"
@@ -547,7 +545,7 @@
 				xp_levels: 8
 			}]
 			tasks: [{
-				id: "FC84768AFE59F72F"
+				id: "2B1516349ADDBDEA"
 				structure: "tensura_boss_structure:night_rose"
 				type: "structure"
 			}]
@@ -555,15 +553,15 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
+			dependencies: ["5F3AD43FE0627FCB"]
 			id: "21E324B6AC2FD19A"
 			rewards: [{
-				id: "C6C2A06FB2939204"
+				id: "4511DED30050CEF4"
 				type: "xp_levels"
 				xp_levels: 8
 			}]
 			tasks: [{
-				id: "CE1C779FED00C783"
+				id: "7FB84915937ABF66"
 				structure: "tensura_boss_structure:rimuru_ogre_fight"
 				type: "structure"
 			}]
@@ -571,8 +569,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["848D35E761F5CD59"]
-			id: "EC2F3EB90E2F451F"
+			dependencies: ["5F3AD43FE0627FCB"]
+			id: "75CE0F12D1F2F41F"
 			rewards: [{
 				id: "200ECE8B6F1A52F4"
 				type: "xp_levels"
