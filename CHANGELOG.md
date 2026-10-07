@@ -4,6 +4,11 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-10-07
+
+### Fixed
+- 0.2.3 shipped without the config files for the mods added since 0.2.1 (Cataclysm, Mowzie's Mobs, Twilight Forest, Eternal Starlight, Chrono Dawn, Farmer's Delight, Comforts, Supplementaries, the Tensura addons and others), so they ran on mod defaults. The pack's configs are now included. Your own graphics, shader and minimap settings are not touched.
+
 ## [0.2.3] - 2026-10-07
 
 ### Fixed
