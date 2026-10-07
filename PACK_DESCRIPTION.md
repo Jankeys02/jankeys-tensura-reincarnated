@@ -4,7 +4,8 @@ Reincarnate as a slime (or anything else) in a NeoForge 1.21.1 world built aroun
 
 **What's inside**
 - Tensura core + addons (Ice and Fire, Nightmare, FTB quests, better subordinates, Guild, Enigmatic, Unique Monsters)
-- 13 FTB Quests chapters guiding you from Getting Started to Myths and Treasure
+- 14 FTB Quests chapters guiding you from Getting Started to Myths and Treasure
+- Leveling system: quests grant ranks as you progress. Ultimine starts small (8 blocks) and grows to 64 with the Miner's Path, with hunger cost and cooldown; more rank paths to come
 - Better structures (YUNG's suite), Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage
 - Performance: Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons
 - World: Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark)

@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miners_path"
+	group: ""
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "000BB22D6BFA0C1D"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "84A5BD2E29448CEB"
+			rewards: [
+				{
+					command: "/ftbranks add {p} miner_1"
+					id: "35675959DBB83625"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "3471ADECDF836819"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "DA5585795FCD6724"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["84A5BD2E29448CEB"]
+			id: "9E19865523DC71F8"
+			rewards: [
+				{
+					command: "/ftbranks add {p} miner_2"
+					id: "1F84E2FD99659236"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "FF57199101172903"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "812BB40F28A247FD"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9E19865523DC71F8"]
+			id: "E7B97398CEBFD3CC"
+			rewards: [
+				{
+					command: "/ftbranks add {p} miner_3"
+					id: "3C2D8BFD1B284FAB"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "035AFAF4AF6A4B81"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "90EC0F94C742D483"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E7B97398CEBFD3CC"]
+			id: "DBB5E2BC22EE28F9"
+			rewards: [
+				{
+					command: "/ftbranks add {p} miner_4"
+					id: "A0F8775249C9718E"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "0BC1A7B18933A04B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "2BD6E1B313211202"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DBB5E2BC22EE28F9"]
+			id: "1B7D553666C4B095"
+			rewards: [
+				{
+					command: "/ftbranks add {p} miner_5"
+					id: "71C17CB21F13A236"
+					player_command: false
+					type: "command"
+				}
+				{
+					id: "CDF8929803A0F1B4"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "90AE8FF29E478622"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

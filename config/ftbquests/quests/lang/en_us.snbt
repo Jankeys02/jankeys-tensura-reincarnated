@@ -1132,4 +1132,30 @@
 	quest.21E324B6AC2FD19A.quest_desc: ["Find the Rimuru's Arena. A boss awaits.", "", "It generates in plains, forests, taigas, meadows, cherry groves and some jungles. A Cartographer villager sells a map to it."]
 	quest.EC2F3EB90E2F451F.title: "Shizu School"
 	quest.EC2F3EB90E2F451F.quest_desc: ["Find the Shizu School. A boss awaits.", "", "It generates in plains and forests. A Cartographer villager sells a map to it."]
+	chapter.000BB22D6BFA0C1D.title: "Miner's Path"
+	quest.84A5BD2E29448CEB.quest_desc: [
+		"Craft an iron pickaxe."
+		"&6Reward:&r Ultimine up to &e12&r blocks per use, cooldown &e1.5 s&r."
+	]
+	quest.84A5BD2E29448CEB.title: "Apprentice Miner"
+	quest.9E19865523DC71F8.quest_desc: [
+		"Mine a diamond."
+		"&6Reward:&r Ultimine up to &e20&r blocks per use, cooldown &e1.25 s&r."
+	]
+	quest.9E19865523DC71F8.title: "Journeyman Miner"
+	quest.E7B97398CEBFD3CC.quest_desc: [
+		"Enter the Nether."
+		"&6Reward:&r Ultimine up to &e32&r blocks per use, cooldown &e1 s&r."
+	]
+	quest.E7B97398CEBFD3CC.title: "Adept Miner"
+	quest.DBB5E2BC22EE28F9.quest_desc: [
+		"Summon the Wither."
+		"&6Reward:&r Ultimine up to &e48&r blocks per use, cooldown &e0.75 s&r."
+	]
+	quest.DBB5E2BC22EE28F9.title: "Expert Miner"
+	quest.1B7D553666C4B095.quest_desc: [
+		"Defeat the Ender Dragon."
+		"&6Reward:&r Ultimine up to &e64&r blocks per use, cooldown &e0.5 s&r."
+	]
+	quest.1B7D553666C4B095.title: "Master Miner"
 }

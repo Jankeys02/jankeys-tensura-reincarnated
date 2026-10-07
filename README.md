@@ -1,12 +1,13 @@
 # Jankeys' Tensura Reincarnated
 
-NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (Tensura) with 13 FTB Quests chapters.
+NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (Tensura) with 14 FTB Quests chapters.
 
 > Download and install through CurseForge (link added at release). This repo holds the pack's configs, KubeJS scripts, quests and changelog; mod jars are not stored here.
 
 **What's inside**
 - Tensura core + addons (Ice and Fire, Nightmare, FTB quests, better subordinates, Guild, Enigmatic, Unique Monsters)
-- 13 FTB Quests chapters guiding you from Getting Started to Myths and Treasure
+- 14 FTB Quests chapters guiding you from Getting Started to Myths and Treasure
+- Leveling system: quests grant ranks as you progress. Ultimine starts small (8 blocks) and grows to 64 with the Miner's Path, with hunger cost and cooldown; more rank paths to come
 - Better structures (YUNG's suite), Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage
 - Performance: Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons
 - World: Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark)

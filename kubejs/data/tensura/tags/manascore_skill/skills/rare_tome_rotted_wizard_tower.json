@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "tensura:curse_bind",
+    "tensura:flame_wall",
+    "tensura:confusion",
+    "tensura:invisible",
+    "tensura:mental_crush",
+    "tensura:demon_dominate",
+    "trnightmare:wedding_bell",
+    "trnightmare:rejuvenate",
+    "trnightmare:nuclear_flame",
+    "trnightmare:isolate",
+    "trnightmare:holy_lightning",
+    "trnightmare:zombie_breath"
+  ]
+}

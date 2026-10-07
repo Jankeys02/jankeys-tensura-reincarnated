@@ -9,7 +9,7 @@
 		# Hunger multiplier for each block ultimined (fractional values allowed)
 		# Default: 20.0
 		# Range: 0.0 ~ 10000.0
-		exhaustion_per_block: 20.0d
+		exhaustion_per_block: 50.0d
 		
 		# Amount of experience taken per block ultimined (fractional values allowed)
 		# Default: 0.0
@@ -21,22 +21,22 @@
 		# This value can also be modified with the 'ftbultimine:max_blocks_modifier' entity attribute
 		# Default: 64
 		# Range: 0 ~ 32768
-		max_blocks: 64
+		max_blocks: 8
 		
 		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
 		# Default: false
-		require_tool: false
+		require_tool: true
 		
 		# Require a valid tool for the block being ultimined, i.e. one that can properly harvest the block
 		# Default: false
-		require_valid_tool_for_block: false
+		require_valid_tool_for_block: true
 		
 		# Cooldown in ticks between successive uses of the ultimine feature
 		# If FTB Ranks is installed, the 'ftbultimine.ultimine_cooldown' ranks node can override this
 		# This value can also be modified with the 'ftbultimine:cooldown_modifier' entity attribute
 		# Default: 0
 		# Range: 0 ~ 9223372036854775807
-		ultimine_cooldown: 0L
+		ultimine_cooldown: 40L
 	}
 	features: {
 		# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
@@ -84,6 +84,6 @@
 		# This will stop mining if tool reaches X durability. It's possible this won't work with some modded tools if they use non-standard durability handling.
 		# Default: 0
 		# Range: 0 ~ 100
-		prevent_tool_break: 0
+		prevent_tool_break: 5
 	}
 }

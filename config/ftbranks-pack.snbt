@@ -1,0 +1,32 @@
+{
+	miner_1: {
+		name: "Apprentice Miner"
+		power: 11
+		ftbultimine.max_blocks: 12
+		ftbultimine.ultimine_cooldown: 30
+	}
+	miner_2: {
+		name: "Journeyman Miner"
+		power: 12
+		ftbultimine.max_blocks: 20
+		ftbultimine.ultimine_cooldown: 25
+	}
+	miner_3: {
+		name: "Adept Miner"
+		power: 13
+		ftbultimine.max_blocks: 32
+		ftbultimine.ultimine_cooldown: 20
+	}
+	miner_4: {
+		name: "Expert Miner"
+		power: 14
+		ftbultimine.max_blocks: 48
+		ftbultimine.ultimine_cooldown: 15
+	}
+	miner_5: {
+		name: "Master Miner"
+		power: 15
+		ftbultimine.max_blocks: 64
+		ftbultimine.ultimine_cooldown: 10
+	}
+}
