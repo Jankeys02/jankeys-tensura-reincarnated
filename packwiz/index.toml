@@ -561,16 +561,6 @@ hash = "0d2c6d0f235971eb129307543b849d534a273532a58e01381870163d835063b0"
 metafile = true
 
 [[files]]
-file = "mods/ragdollified-player-corpses.pw.toml"
-hash = "42df2d2ee8b6691af0d291f096a8713e0043d05b648782c4e91198b21e517622"
-metafile = true
-
-[[files]]
-file = "mods/ragdollified.pw.toml"
-hash = "8b17e48580224539e4fae18b4d67e42c2736ccdb5ee08b8b074835e86e7ed3b5"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "2fcf790ca5966fdf1353f5b49c5b8f288a572e036100e31d30f4d8da549c7ffa"
 metafile = true
@@ -828,11 +818,6 @@ metafile = true
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "666de5e89e4537b9b758d642952efbd67c25d9d3a88a6ebd481962508851d001"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap-world-map-waystones-compability.pw.toml"
-hash = "b71d8037ca73bb75bb169818a5b48b0125527119e9029407f34d30c0d9a946e9"
 metafile = true
 
 [[files]]

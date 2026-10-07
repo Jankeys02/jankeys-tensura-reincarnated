@@ -51,7 +51,7 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.f8
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
@@ -216,3 +216,4 @@ key_nightmareutils.keybinding.ability.deep_slot_a:key.keyboard.z:SHIFT
 key_nightmareutils.keybinding.ability.deep_slot_b:key.keyboard.x:SHIFT
 key_nightmareutils.keybinding.ability.deep_slot_c:key.keyboard.c:SHIFT
 key_key.corpse.death_history:key.keyboard.unknown
+key_key.elitetensura.open_council:key.keyboard.o

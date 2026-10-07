@@ -4,6 +4,13 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+- Great Sage menu and Elite Tensura Council screen both defaulted to `I`, so neither opened. The Council screen now defaults to `O` (Iris's shader-menu key is unbound; Video Settings still opens it) (only for new installs; existing players can rebind in Controls).
+
+### Removed
+- Ragdollified and Ragdollified Player Corpses.
+- Waystones2Waypoints2 (Xaero's Minimap already shows waystones itself, so every waystone had a duplicate marker).
+
 ## [0.2.2] - 2026-10-07
 Everything since 0.1.1 in player terms: the quest-book release. The book grows from 14 to 31 chapters (830 quests), told by the "Voice of the World", with a short tutorial ("Field note") in every quest. Release tooling also changed (packwiz mod list, automatic release builds); see DEVELOPMENT.md.
 
