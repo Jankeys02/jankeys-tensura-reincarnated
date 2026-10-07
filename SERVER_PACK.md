@@ -1,5 +1,7 @@
 # Server pack plan
 
+> **Superseded:** the server pack is now built from the `packwiz/` mod list; see DEVELOPMENT.md. The notes below are the original ServerPackCreator process and boot-test history.
+
 NeoForge 21.1.249 / Minecraft 1.21.1. Built from the client pack, minus client-only mods.
 Mod ids below are `modId`s from each jar's `neoforge.mods.toml` (176 mods in `mods/`: 124 kept on the server, 52 excluded; the server pack has 122 jars: 121 of those plus server-only Chunky; 3 more (`tensura_better_subs`, `tensuraenigmatic`, `tr_unique_monsters`) are All Rights Reserved with CurseForge distribution off, so hosts download them (see `SERVER_HOSTING.md`); staged in `../../ServerPacks/jankeys-tensura-0.1.0-server`).
 
