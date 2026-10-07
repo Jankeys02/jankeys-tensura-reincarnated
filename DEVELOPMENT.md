@@ -129,9 +129,10 @@ Versions follow [SemVer](https://semver.org/): `MAJOR.MINOR.PATCH`.
 
 1. Bump `version` in `package.json`.
 2. Move the `[Unreleased]` items in `CHANGELOG.md` into a dated version section.
+   Write it for players, and put the server notes under a `### Server pack` heading in that same section. Everything above that heading is the client changelog.
 3. Commit, then tag and push:
    ```bash
    git tag v1.2.0
    git push origin main --tags
    ```
-4. Upload the new pack version to CurseForge. See [RELEASE_GUIDE.md](RELEASE_GUIDE.md).
+4. GitHub builds the zips and puts the client and server changelogs in the release notes (also as `changelog-client.md` and `changelog-server.md` under Assets). Upload the client zip and the server zip to CurseForge and paste each changelog. See [RELEASE_GUIDE.md](RELEASE_GUIDE.md).

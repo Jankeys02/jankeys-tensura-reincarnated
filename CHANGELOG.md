@@ -5,16 +5,56 @@ Versioning: [SemVer](https://semver.org/).
 ## [Unreleased]
 
 ## [0.2.2] - 2026-10-07
-Release tooling only; the pack content is unchanged from 0.2.0.
+Everything since 0.1.1 in player terms: the quest-book release. The book grows from 14 to 31 chapters (830 quests), told by the "Voice of the World", with a short tutorial ("Field note") in every quest. Release tooling also changed (packwiz mod list, automatic release builds); see DEVELOPMENT.md.
 
 ### Added
-- `packwiz/`: the mod list as one file per mod, with client/server sides; source of truth for the client and server packs.
-- Release workflow: pushing a `v*` tag builds the CurseForge zip and a server zip (configs plus a mod installer) and attaches them to the GitHub release.
-- Chunky (NeoForge) as a server-only mod.
-- Server boot-tested with the current mod list (130 mods).
+- **Field Guide** chapter: a controls tutorial that shows your own key bindings (race ability, status menu, ability slots, dodge, naming, Great Sage, Ultimine, quest book and more).
+- **Dimensions** chapters: Twilight Forest, Eternal Starlight, Chrono Dawn, and Lesser Dimensions (The Afterdark, Ice and Fire graves and liches, secret Elemental Realm/Kamui quests).
+- **Boss Hunts** chapters: Cataclysm and Mowzie's Mobs.
+- **Paths** with 5 ranks plus bonus quests each: Explorer's Path (more claimed chunks, faster /back), Homesteader's Path (more homes, faster /home) and Hunter's Path (+10% max health per rank). Each rank also grants a Tensura skill.
+- **Homestead** chapters: Cooking and Farming (Farmer's Delight), Homestead and Travel (Comforts, Supplementaries, Waystones).
+- **Tensura Addons** chapters for the new mods: Ascension, Lineages of Ascension (all 69 races in 11 lineages), Origins, Blood and Avalon, and Elite Forge.
+- Four new Tensura addons: Tensura: Ascension, TensuraMoreSkills, Elite Tensura Addon, Tensura: Origins.
+- **Dimension gate:** in survival, entering Eternal Starlight or Chrono Dawn before visiting the Nether, or The Afterdark before summoning a Wither, sends you back to your bed or spawn with a message. Creative, spectator and (by default) operators are exempt. Twilight Forest stays open.
+
+### Changed
+- Chapters are grouped in the sidebar (Beginnings, Tensura, World, Dimensions, Boss Hunts, Homestead, Paths, Tensura Addons, Records).
+- Race catalogs show one row per lineage and reveal later forms as you reach them. Your Evolution Paths progress from 0.1.1 is kept.
+- Later acts and bosses stay hidden until earlier ones are done; side quests are secret until completed.
+- Rewards were rebalanced: boss quests pay 15 levels and chapter finals pay 25, plus existence points on chapter finals.
+- Removed five Adventure quests that repeated other chapters; "Hear Me, Direwolves" is now "Pack Hunters".
+
+### Fixed
+- Eight Skills and Spirits quests (Magicule Reserves, Sea of Magicules, Aura, Overwhelming Aura) could never complete. They work now.
+- Rank rewards (Miner's Path and the new paths) only worked for operators. They now work for everyone.
+- "Land of the Dead" needed a biome you can't reach in survival; it is now a secret optional quest.
+
+### Known issues
+- The Path skill rewards and the chapter-final EP rewards haven't been claimed in game yet.
+- The Hunter's Path health bonus hasn't been tested against Tensura's own health system.
+- The Afterdark teleport catalyst is only found in chests; it has no recipe.
+- The Ice and Fire Dread Lands dimension has no working entrance in survival.
+
+Back up your world before updating. World generation mods only affect newly generated chunks.
+
+### Server pack
+The server pack now installs its mods with an installer instead of shipping them inside the zip, so the mods always match the release.
+
+- The zip holds the configs, quests and KubeJS scripts, plus `install-mods.bat` / `install-mods.sh`, which download the server's 130 mods for this exact release. Client-only mods are skipped.
+- Chunky (pregeneration) is included.
+- Built from the same mod list as the client pack, so the two stay in step.
+- Includes the quest-book changes above, including the dimension gate.
+
+How to set up:
+1. Unzip, install NeoForge 21.1.249 (Minecraft 1.21.1, Java 21).
+2. Run the installer script.
+3. Six mods can't be downloaded automatically (their authors block it): Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters. The installer prints a link for each. Save the files into `mods/` and run the installer again.
+4. Accept the Minecraft EULA yourself, give it 4-8 GB of RAM, and open UDP 24454 for proximity voice chat.
+
+Boot-tested with the current mod list: starts without crashing and loads all quests. Not yet tested with a real player joining.
 
 ## [0.2.1] - 2026-10-07
-Not released: the tag exists but the release build failed. Everything below shipped in 0.2.2.
+Not released: the tag exists but the release build failed. See 0.2.2.
 
 ## [0.2.0] - 2026-10-07
 The quest-book release: 17 new chapters narrated by the Voice of the World, four Tensura addons, a full audit of the book, and the dimension gate. Mods added since 0.1.1 are All Rights Reserved and are linked, not bundled, in the server pack.

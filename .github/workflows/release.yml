@@ -21,10 +21,7 @@ jobs:
           sed -i "s#@PACK_URL@#${URL}#; s#@VERSION@#${GITHUB_REF_NAME}#" srv/install-mods.* srv/README.txt
           (cd srv && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-server.zip" .)
       - name: Release notes from CHANGELOG.md
-        run: |
-          V="${GITHUB_REF_NAME#v}"
-          sed 's/\r$//' CHANGELOG.md | awk -v v="$V" 'index($0,"## [" v "]")==1{f=1;next} /^## \[/{f=0} f' > notes.md
-          [ -s notes.md ] || echo "See CHANGELOG.md for what changed." > notes.md
+        run: python .github/scripts/release-notes.py "${GITHUB_REF_NAME}"
       - uses: softprops/action-gh-release@v2
         with:
           body_path: notes.md
@@ -32,3 +29,5 @@ jobs:
           files: |
             jankeys-tensura-*-curseforge.zip
             jankeys-tensura-*-server.zip
+            changelog-client.md
+            changelog-server.md
