@@ -2,7 +2,7 @@
 
 NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (Tensura) with 14 FTB Quests chapters.
 
-> Download and install through CurseForge (link added at release). This repo holds the pack's configs, KubeJS scripts, quests and changelog; mod jars are not stored here.
+> Download and install through the CurseForge app: [Jankeys' Tensura Reincarnated](https://www.curseforge.com/minecraft/modpacks/jankeys-tensura-reincarnated). This repo holds the pack's configs, KubeJS scripts, quests and changelog; mod jars are not stored here.
 
 **What's inside**
 - Tensura core + addons (Ice and Fire, Nightmare, FTB quests, better subordinates, Guild, Enigmatic, Unique Monsters)
