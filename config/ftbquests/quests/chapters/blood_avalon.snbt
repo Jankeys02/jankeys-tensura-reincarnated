@@ -1,0 +1,879 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_avalon"
+	group: "0F30C975BF218986"
+	icon: {
+		id: "tensuramoreskills:excalibur"
+	}
+	id: "4A77ECD140B0DA92"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1378014194B9A8BC"
+			rewards: [{
+				id: "3935F4F5D2AFD7B4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "41DC47878E14CDA5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_details_until_startable: true
+			id: "606A430048DADA8D"
+			rewards: [{
+				id: "7313ECD1C8D1BDC5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "tensuramoreskills:blood_arts"
+				id: "4420D6419C9F48A3"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_details_until_startable: true
+			id: "08169DB60A320D1C"
+			rewards: [{
+				id: "512E88A0B1B90267"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1E98D25DACCC30D6"
+				item: { count: 1, id: "tensuramoreskills:blood_altar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4515EE99DE316235"]
+			hide_until_deps_complete: true
+			id: "0638C24919B46782"
+			rewards: [{
+				id: "6B9423170295E423"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "tensuramoreskills:black_communion"
+				id: "76F4004172D77232"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "3C4EFD65F1264241"
+			optional: true
+			rewards: [{
+				id: "2BA89C361D31522A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "652B4F69F236B72C"
+				race: "tensuramoreskills:bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "441048ADC49647A5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7046C07ED7EA9FE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5F5E16AC7F30D6E2"
+				race: "tensuramoreskills:elder_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3910A0408ED3274D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7384830DA5BDE1B3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6E73A84A9C9903F3"
+				race: "tensuramoreskills:blood_noble"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "426237BB0C977B69"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6D667962F3E9C7C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "580470EFE3A8EB78"
+				race: "tensuramoreskills:blood_monarch"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C4EFD65F1264241"
+				"441048ADC49647A5"
+				"3910A0408ED3274D"
+				"426237BB0C977B69"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "4515EE99DE316235"
+			optional: true
+			rewards: [{
+				id: "4B2D1F53452AD6F4"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "038D6ECD5E61ABE2"
+				race: "tensuramoreskills:crimson_progenitor"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28F307535BA7E962"]
+			id: "5A0D3DC9723CB32D"
+			rewards: [{
+				id: "59976138CAD03CCA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1C136AD3EA5DF814"
+				item: { count: 1, id: "tensuramoreskills:genetic_syringe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28F307535BA7E962"]
+			hide_details_until_startable: true
+			id: "523C4CD791EA1928"
+			rewards: [{
+				id: "3FD076B77B39D173"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2B47752DDDF16ED7"
+				item: { count: 1, id: "tensuramoreskills:key_of_sealing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28F307535BA7E962"]
+			hide_details_until_startable: true
+			id: "525045A4048F8286"
+			rewards: [{
+				id: "20B6D388BDFAC1B0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "78DF95BFE083C92D"
+				item: { count: 1, id: "tensuramoreskills:feldway_angel_summoner" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28F307535BA7E962"]
+			hide_details_until_startable: true
+			id: "4D51B3BD8C8AC920"
+			rewards: [{
+				id: "69ED8FFEBAC32D82"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7A7A930729270D53"
+				item: { count: 1, id: "tensuramoreskills:extermination_blade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28F307535BA7E962"]
+			hide_details_until_startable: true
+			id: "16DE10A7421CB39F"
+			rewards: [{
+				id: "68BA8C932C01E11C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "16A703DA66286F99"
+				item: { count: 1, id: "tensuramoreskills:excalibur" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16DE10A7421CB39F"]
+			hide_until_deps_complete: true
+			id: "0F199245DBD8836A"
+			rewards: [{
+				id: "3F162770C26F6D4D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "6F293DF1F220E33B"
+				item: { count: 1, id: "tensuramoreskills:true_excalibur" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F199245DBD8836A"]
+			hide_until_deps_complete: true
+			id: "21878F6E5F81BA29"
+			rewards: [{
+				id: "193E6C998E84FFF9"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CC9032A2F38A472"
+				item: { count: 1, id: "tensuramoreskills:divine_excalibur" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["523C4CD791EA1928"]
+			hide_until_deps_complete: true
+			id: "175B20AA3EACA2B4"
+			rewards: [{
+				id: "259776C21BEAF0C8"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "45758217CAE1DEF3"
+				item: { count: 1, id: "tensuramoreskills:awakened_key_of_sealing" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "5718AC35A9785348"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "0176847F4CE0219A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "tensuramoreskills:avalon"
+				id: "548051CAE7E9ED14"
+				type: "dimension"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "39D087B3C6BED920"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "759FC282EF2DFCA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "tensuramoreskills:paths"
+				id: "7259971B6B56EF01"
+				type: "dimension"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "735726DE753FE7BE"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6BC203851FB1121B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "tensuramoreskills:asmoday_prison_realm"
+				id: "46BAFF3AA19762BF"
+				type: "dimension"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "5C72A5D779F5D164"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3B4CB49AFB8DBAA6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:domain_of_negation"
+				id: "31DB0618AE6A7449"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "0F42A7F12B24983A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "769344EAEB5CD75F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:adaptability"
+				id: "40689082E6643BE3"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "606ACCAA6F80FA38"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "78ABD46EC79039D7"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:cursed_menagerie"
+				id: "30C5701F07A8FE27"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "1A769614B20A1FD2"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1D5377B8DE42D1E2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:caedros_god_of_conquest"
+				id: "41C0264353CA082F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 26.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "6A78F9EF27A7B184"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7E426E956E0775E0"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:witch_of_vainglory"
+				id: "78ABF66A8E46D798"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 28.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "3C0FF0226145C283"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "63692FB9ED49D6B3"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:sovereign_of_the_great_tomb"
+				id: "02D5E9276870F8C1"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 30.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "5A9CEAD384B4A494"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6168E79DEFFAC76E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:netherveil_overmind"
+				id: "4A9C5C0B1CFB85DB"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 32.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "6B23CCAB970ED9F6"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "643B92D0392563DC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:samael_sovereign_of_wrathful_fate"
+				id: "236E1D11814C765D"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 34.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "48F53A167ECCB93D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "40F8056915D90322"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:divine_general_mahoraga"
+				id: "52A2A67A54F26DD7"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 36.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "6D66FACEBB3C7A76"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2A8DE77609290E3E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:kronairos_lord_of_the_endless"
+				id: "5A450AC919899794"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 38.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "08D87EF521352064"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "36F295B9EA2CD8B1"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:schwi_ex_machina"
+				id: "4AABD7BA94F861BB"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 40.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "60F465B2E031A59E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "42E4F32D29750442"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:axiom_lord_of_reflected_judgment"
+				id: "1E3F762B1126F4F6"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 42.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "1BEF7C0A4DF9D679"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6A0934F881E70AAE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:first_king_of_history"
+				id: "6E59D6BD1FE77D16"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 44.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "2F249B1B9A851CFA"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "79C62BDA37DC864E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:mammon_casino"
+				id: "44A8E841BF2C6958"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 46.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "2EEC6ED892A57763"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "315A10C75C627719"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:mori_equal_to_the_heavens"
+				id: "43A42FE49F9330D0"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 48.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "0B7993D882FFD782"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4ACF5BF6A62B28B2"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:naberius"
+				id: "4F04233FFD5D6D23"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 50.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "657B9F5942437048"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "312DA86A93557DCC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:ronova"
+				id: "256C4C07C708FE22"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 52.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "6D1CEEBFD870C669"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2D33AC9A2926E2E9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:istaroth"
+				id: "62ED18CB8F115119"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 54.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "593D69AF4D0AE4F1"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1CD4702DDECD10DF"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:asmoday"
+				id: "07C24E1ADABC1B65"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 56.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "7A9A2F335B581C31"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7EA0AC740FEAB2E9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:authority_of_greed"
+				id: "04DDF463BC530D5C"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 58.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "00D4845D7D822431"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3AB160106918B69B"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:true_authority_of_greed"
+				id: "4CC8329F51FED8A6"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 60.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "2A4320CF94ABCE30"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4344FA15CDDE8055"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:michael_angel_of_locks"
+				id: "4B36288CE4C1E8D7"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 62.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "0C228534BD0DAD58"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "503B113333D69130"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:gene_editor"
+				id: "1A50ACB3BB923B39"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 64.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "79499BE6B184EAFC"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7E76B393DF79FC9F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:nirvana"
+				id: "4FC538B77C008059"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 66.0d
+			y: 9.0d
+		}
+	]
+}

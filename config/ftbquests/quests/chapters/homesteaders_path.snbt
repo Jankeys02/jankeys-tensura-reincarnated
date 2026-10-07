@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homesteaders_path"
+	group: "3FB4C13A31874B92"
+	icon: {
+		id: "minecraft:campfire"
+	}
+	id: "2733028586FDD2F1"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7DE5FE1012AE1F03"
+			rewards: [
+				{
+					command: "/ftbranks add {p} homesteader_1"
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "69927B2B31D2BA01"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "36DD7615F9A86010"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					ability: "tensura:poison_resistance"
+					id: "2224F47437E07630"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+				id: "59FB6782CC7F1071"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_details_until_startable: true
+			id: "0060761A38C8D45D"
+			rewards: [
+				{
+					command: "/ftbranks add {p} homesteader_2"
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "7CA4A73848255000"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "18ACE652120A1A52"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					ability: "tensura:thought_communication"
+					id: "66EDFC193639ED03"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+				id: "0BAAA655945EAF61"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0060761A38C8D45D"]
+			hide_details_until_startable: true
+			id: "6E94D14A2F38539D"
+			rewards: [
+				{
+					command: "/ftbranks add {p} homesteader_3"
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "56A3C887BCF6AC19"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "470F93FAC6CE8623"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					ability: "tensura:abnormal_condition_resistance"
+					id: "003AE536E9795D7B"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/place_feast"
+				criterion: ""
+				id: "3854FC5F38ED29F3"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E94D14A2F38539D"]
+			hide_details_until_startable: true
+			id: "167A402A23BB1156"
+			rewards: [
+				{
+					command: "/ftbranks add {p} homesteader_4"
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "25713F746DA39928"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "7215E76CC49D4909"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					ability: "tensura:self_regeneration"
+					id: "45B6B383BACF0A64"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			tasks: [{
+				advancement: "farmersdelight:main/plant_all_crops"
+				criterion: ""
+				id: "51F2C776E4C6F6D4"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["167A402A23BB1156"]
+			hide_until_deps_complete: true
+			id: "53B4159C2CC709AA"
+			rewards: [
+				{
+					command: "/ftbranks add {p} homesteader_5"
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "267D80C9258776FE"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "3F27DFE33C1FA55C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					ability: "tensura:cook"
+					id: "7C21441804EED659"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "7E2423865039F0D9"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_dependency_lines: true
+			id: "5434C0836376290D"
+			optional: true
+			rewards: [{
+				id: "2CA64ABCF444AC44"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "3FDC60D350FFFCD3"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_dependency_lines: true
+			id: "4B0377CF2675DAC1"
+			optional: true
+			rewards: [{
+				id: "5944CD534F0FFF28"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "006D65EE3D8F986C"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_dependency_lines: true
+			id: "21C9265606D140BF"
+			optional: true
+			rewards: [{
+				id: "72643F06B8B74C5E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "6582BF983D67212D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_dependency_lines: true
+			id: "30F145686C6A57D7"
+			optional: true
+			rewards: [{
+				id: "02842C46947F0C47"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				id: "4148CE435CEC172C"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DE5FE1012AE1F03"]
+			hide_dependency_lines: true
+			id: "0DD5EED250D4BF78"
+			optional: true
+			rewards: [{
+				id: "5A18A16D008DCF46"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				id: "7F75522A1456C3E8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

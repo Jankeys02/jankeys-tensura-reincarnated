@@ -1,0 +1,771 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "5DDBE3D731CFC620"
+	icon: {
+		id: "twilightforest:twilight_portal_miniature_structure"
+	}
+	id: "3DD684A7ABA239F7"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B64083939BEE81D"]
+			id: "201949BD9423B063"
+			rewards: [{
+				id: "2BC0CEF3B2AE763D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "01155A02A981A9B0"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201949BD9423B063"]
+			hide_details_until_startable: true
+			id: "06B2E538A0867FBB"
+			rewards: [{
+				id: "00959A96E105B01F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "twilightforest:twilight_hunter"
+				criterion: ""
+				id: "31B0602D00865202"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B2E538A0867FBB"]
+			hide_details_until_startable: true
+			id: "2275D33CCDAA3746"
+			rewards: [{
+				id: "16ABADA59C41BCC1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "twilightforest:hedge"
+				criterion: ""
+				id: "7E8A9A12A4346B3B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2275D33CCDAA3746"]
+			hide_details_until_startable: true
+			id: "71413A2A01355CEF"
+			rewards: [{
+				id: "619DFB39095143F5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "twilightforest:hill1"
+					criterion: ""
+					id: "28A36DC76DA96035"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill2"
+					criterion: ""
+					id: "6A3ADCE8C4BA0C5F"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill3"
+					criterion: ""
+					id: "632F9D451F100979"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71413A2A01355CEF"]
+			hide_details_until_startable: true
+			id: "6047E120B7F6F7BA"
+			rewards: [{
+				id: "5709B7F72E2E384A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0797A26194422B46"
+				structure: "twilightforest:naga_courtyard"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6047E120B7F6F7BA"]
+			hide_until_deps_complete: true
+			id: "5C9D46EAD8245C4F"
+			rewards: [{
+				id: "355CE24E887E8B79"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "0FC1B1F7D164565F"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C9D46EAD8245C4F"]
+			hide_details_until_startable: true
+			id: "4252D9BA36BA38B1"
+			rewards: [{
+				id: "3D3D453191E830DB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "twilightforest:naga_armors"
+				criterion: ""
+				id: "0D321E2737D5F80D"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4252D9BA36BA38B1"]
+			hide_details_until_startable: true
+			id: "00C5AE37F784BB24"
+			rewards: [{
+				id: "470B027B3E310036"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2F3B059CC18F4AF8"
+				structure: "twilightforest:lich_tower"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00C5AE37F784BB24"]
+			hide_until_deps_complete: true
+			id: "69950D5CF42DD75B"
+			rewards: [{
+				id: "725E988FE97550CA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "6F02CD2DE6DB5DA1"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69950D5CF42DD75B"]
+			hide_details_until_startable: true
+			id: "01C114E38CB50A87"
+			rewards: [{
+				id: "3D1E72AB1E577064"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+				id: "3356507658A8CCAE"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01C114E38CB50A87"]
+			hide_details_until_startable: true
+			id: "55A305CB881C7ABA"
+			rewards: [{
+				id: "7186A1A53A532F42"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3C564E12A1D6A391"
+				structure: "twilightforest:labyrinth"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55A305CB881C7ABA"]
+			hide_until_deps_complete: true
+			id: "22D78FE5EC5C665B"
+			rewards: [{
+				id: "4DBC7D00F68A879F"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "62489BCF842059CD"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22D78FE5EC5C665B"]
+			hide_details_until_startable: true
+			id: "02AC4666EC7F57E2"
+			rewards: [{
+				id: "713FFC83D90ED6FE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					advancement: "twilightforest:mazebreaker"
+					criterion: ""
+					id: "1EBCFF7EFC8E1392"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:maze_map"
+					criterion: ""
+					id: "137EF8861B159C87"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02AC4666EC7F57E2"]
+			hide_details_until_startable: true
+			id: "214312143915EFE2"
+			rewards: [{
+				id: "4001AF7470DE16C6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "72E836E1B152A8A0"
+				structure: "twilightforest:hydra_lair"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["214312143915EFE2"]
+			hide_until_deps_complete: true
+			id: "7DAD51FD1C46702C"
+			rewards: [{
+				id: "4B12BA7E3517D832"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "415F107023BB5EA1"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DAD51FD1C46702C"]
+			hide_details_until_startable: true
+			id: "22D996715788846B"
+			rewards: [{
+				id: "7CDD4A72A6F16607"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "twilightforest:hydra_chop"
+				criterion: ""
+				id: "110540AD738C3C6B"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22D996715788846B"]
+			hide_details_until_startable: true
+			id: "393C26C1D9E65E9B"
+			rewards: [{
+				id: "4881EC600B903E63"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:magic_map"
+				criterion: ""
+				id: "435C7B1356253A27"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["393C26C1D9E65E9B"]
+			hide_details_until_startable: true
+			id: "76B2D7CE35027A17"
+			rewards: [{
+				id: "11F47601A1820098"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "20A93C303017D82C"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["76B2D7CE35027A17"]
+			hide_until_deps_complete: true
+			id: "66907162084B6BA1"
+			rewards: [{
+				id: "06FE036546BC872C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "19333B89B2710186"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66907162084B6BA1"]
+			hide_details_until_startable: true
+			id: "576CFFED8D67BF4F"
+			rewards: [{
+				id: "1DD2597D18B23C5C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3565CDC16EC942A9"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["576CFFED8D67BF4F"]
+			hide_details_until_startable: true
+			id: "6738D17DE2A2A72B"
+			rewards: [{
+				id: "0B4F4AAF28021C87"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "twilightforest:ghast_trap"
+				criterion: ""
+				id: "015901270B12C145"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6738D17DE2A2A72B"]
+			hide_until_deps_complete: true
+			id: "273C58821ECAB9FF"
+			rewards: [{
+				id: "309451E0CA2B5181"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "62BC0BDDB5212048"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["273C58821ECAB9FF"]
+			hide_details_until_startable: true
+			id: "30D345BE8C1E639D"
+			rewards: [{
+				id: "7829AB9F8990A3CA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "71AE40E48848AA14"
+				structure: "twilightforest:troll_cave"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["30D345BE8C1E639D"]
+			hide_details_until_startable: true
+			id: "095A8DB156BBC1A5"
+			rewards: [{
+				id: "56CFAAF9BFA12077"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "twilightforest:troll"
+				criterion: ""
+				id: "3D574AF3769A2C28"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["095A8DB156BBC1A5"]
+			hide_details_until_startable: true
+			id: "42B812A5FB83AE21"
+			rewards: [{
+				id: "10377E840E2F8F60"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "199644CA65A9E41D"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["42B812A5FB83AE21"]
+			hide_details_until_startable: true
+			id: "7A28C6DBC7E4CFA2"
+			rewards: [{
+				id: "3143FB195E1FFDBD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "twilightforest:beanstalk"
+					criterion: ""
+					id: "7188DF936FDE2D3F"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:giants"
+					criterion: ""
+					id: "6F16E246B28BA577"
+					type: "advancement"
+				}
+			]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7A28C6DBC7E4CFA2"]
+			hide_details_until_startable: true
+			id: "23AE4B01B0070C08"
+			rewards: [{
+				id: "046CD7127993ECAE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "twilightforest:glacier"
+				id: "602B24D28E876596"
+				type: "biome"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["23AE4B01B0070C08"]
+			hide_details_until_startable: true
+			id: "7581A6A5C4042834"
+			rewards: [{
+				id: "3680FBBA06A9B0AD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1B053A5C8D882F91"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7581A6A5C4042834"]
+			hide_until_deps_complete: true
+			id: "5467E1E5C41D2434"
+			rewards: [{
+				id: "62680123EDAB8315"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "2B71B71AF32B92D7"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5467E1E5C41D2434"]
+			hide_until_deps_complete: true
+			id: "73CE13D5C1482D9A"
+			rewards: [{
+				id: "253AE6B10C1A86D4"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "02CFF416BCDFD614"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["73CE13D5C1482D9A"]
+			hide_details_until_startable: true
+			id: "4571D776B0DC3561"
+			rewards: [{
+				id: "36DC4843BD35AB1E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:arctic_armor_dyed"
+				criterion: ""
+				id: "62C72B4BFD6B5DA1"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4571D776B0DC3561"]
+			hide_details_until_startable: true
+			id: "269D01C95FE52F8C"
+			rewards: [{
+				id: "6AB268F2F297120B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "twilightforest:fiery_set"
+				criterion: ""
+				id: "4065B0B358FC78DC"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["269D01C95FE52F8C"]
+			hide_until_deps_complete: true
+			id: "5352308759E2F82A"
+			rewards: [{
+				id: "28EC6E3E8BA80E3D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "6B0745C6CA8E72B0"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5352308759E2F82A"]
+			hide_details_until_startable: true
+			id: "7F8D579F290BBBB2"
+			rewards: [{
+				id: "15352F87DAED4349"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+				id: "72027E1434E0D066"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7F8D579F290BBBB2"]
+			hide_until_deps_complete: true
+			id: "4E26F89AF3C931C5"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 8"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "6A82A530A1234B1F"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6E33E733EC3BBFB2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "73A8FC999655748F"
+					type: "tensura_ftb:existence_value"
+					value: 3000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "0DF4CD5116199DD3"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["71413A2A01355CEF"]
+			hide_dependency_lines: true
+			id: "7B87F88AAB34D86A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "26DCE3F8C9F55E72"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "twilightforest:arborist"
+				criterion: ""
+				id: "517ED92962513E38"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["71413A2A01355CEF"]
+			hide_dependency_lines: true
+			id: "6D0C812813D804B5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2D91533478BA23B6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "6A753C12FF828120"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["71413A2A01355CEF"]
+			hide_dependency_lines: true
+			id: "5DA67B51C8F55D44"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "625E1EE2366406B7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "twilightforest:uncraft_uncrafting_table"
+				criterion: ""
+				id: "5C280CB0615239B0"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["71413A2A01355CEF"]
+			hide_dependency_lines: true
+			id: "5725F72D218AEA0A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "135F3691E06C0B38"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "twilightforest:kill_cicada"
+				criterion: ""
+				id: "4ADBBE88930F47B0"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 18.0d
+		}
+	]
+}

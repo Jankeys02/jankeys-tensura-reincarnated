@@ -27,7 +27,7 @@ _version = 5
 				# Note: this is a best effort number. 
 				# The actual render distance may be above or below this number 
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 125
 				#
 				# This indicates how far apart drops in LOD quality are. 
 				# 
@@ -84,7 +84,7 @@ _version = 5
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# DISABLED: LODs will be opaque.
-				transparency = "DISABLED"
+				transparency = "FAKE"
 				#
 				# How should LODs be shaded? 
 				# 
@@ -309,7 +309,7 @@ _version = 5
 				# Example: "minecraft:grass_block,nylium" 
 				# 
 				# Changes require a restart.
-				blocksDontRenderTextureCsv = "minecraft:bamboo"
+				blocksDontRenderTextureCsv = "minecraft:bamboo,minecraft:ladder"
 				#
 				# A comma separated list of block resource locations 
 				# that DH will render their sides using the bottom texture. 
@@ -384,7 +384,7 @@ _version = 5
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# At what Y value should cave culling start? 
 				# Lower this value if you get walls for areas with 0 light.
@@ -427,7 +427,7 @@ _version = 5
 				# 
 				# Defaults to an empty list since most cave blocks will be automatically ignored due to being: 
 				# transparent, non-solid, or liquids, but new blocks can be added here if needed.
-				ignoredRenderCaveBlockCsv = ""
+				ignoredRenderCaveBlockCsv = "minecraft:lava,minecraft:water,minecraft:bubble_column,minecraft:glow_lichen,minecraft:vine,minecraft:cave_vines,minecraft:cave_vines_plant,minecraft:sculk_vein,minecraft:rail"
 				#
 				# A comma separated list of block resource locations that will be replaced by water 
 				# if they're visible on the water's surface.
@@ -462,7 +462,7 @@ _version = 5
 				# Note: Due to current limitations, the min value is [50] 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
-				earthCurveRatio = 0
+				earthCurveRatio = 500
 				#
 				# A comma separated list of dimension resource locations where DH won't render. 
 				# 

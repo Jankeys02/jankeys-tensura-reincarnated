@@ -1,0 +1,414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homestead_travel"
+	group: "067D1EA3E221EC5E"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "164AF94B54EF1366"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AB33F65AF187335"
+			rewards: [{
+				id: "5A0ADF734C1E03A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "31EBAD3109C76A28"
+				item: { count: 1, id: "comforts:rope_and_nail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB33F65AF187335"]
+			id: "35FD138096BD01BE"
+			rewards: [{
+				id: "0658FC8337EE9E9E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A8B124063E9E41F"
+				item: { count: 1, id: "comforts:sleeping_bag_red" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FD138096BD01BE"]
+			id: "69F17123AF5925A9"
+			rewards: [{
+				id: "276FF9B36FB617E1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E47A858065EDFB6"
+				item: { count: 1, id: "comforts:hammock_red" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F17123AF5925A9"]
+			id: "22BCD51822160A86"
+			rewards: [{
+				id: "0B4EC4D4ABA2B9BE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3BDB464EDCBE8369"
+				item: { count: 1, id: "supplementaries:rope" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22BCD51822160A86"]
+			id: "2EC94C3C7C0F84F5"
+			rewards: [{
+				id: "34BF51950335F007"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "74B4629975580FC0"
+					item: { count: 1, id: "supplementaries:sack" }
+					type: "item"
+				}
+				{
+					id: "29DDD85FB3046344"
+					item: { count: 1, id: "supplementaries:safe" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EC94C3C7C0F84F5"]
+			id: "23EE6FA88B3FC773"
+			rewards: [{
+				id: "7095608A1074C512"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "1903D7E87ED00C5F"
+					item: { count: 1, id: "supplementaries:jar" }
+					type: "item"
+				}
+				{
+					id: "3F0A1D7766AB9CDB"
+					item: { count: 1, id: "supplementaries:cage" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23EE6FA88B3FC773"]
+			id: "2ACDE19717E4AD1A"
+			rewards: [{
+				id: "2591D02CB50DBA49"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "supplementaries:husbandry/wrench"
+				criterion: ""
+				id: "618A6365DEF203BB"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2ACDE19717E4AD1A"]
+			id: "6A219316C7D84A01"
+			rewards: [{
+				id: "5D1186B8D328E978"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "supplementaries:husbandry/turn_table"
+				criterion: ""
+				id: "79EB72EB068DDD4E"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A219316C7D84A01"]
+			id: "2230ED5EEBD042D4"
+			rewards: [{
+				id: "3C3B17205D40CD40"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0D268684FDE78A26"
+				item: { count: 1, id: "supplementaries:lunch_basket" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2230ED5EEBD042D4"]
+			id: "6EF0C5CB241C85A4"
+			rewards: [{
+				id: "61F469B587C7DA6B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "supplementaries:adventure/road_sign"
+				criterion: ""
+				id: "0FC9FB1CA1B581CA"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EF0C5CB241C85A4"]
+			id: "65BA6946818B7659"
+			rewards: [{
+				id: "02930EA1E55C7479"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E65CD42A41805AB"
+				structure: "supplementaries:galleon"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65BA6946818B7659"]
+			id: "6C8A357843B129C8"
+			rewards: [{
+				id: "4FCAE68A11F189D0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0A53242F3863BE9B"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C8A357843B129C8"]
+			id: "1664160FE3D4C05D"
+			rewards: [{
+				id: "6CBFC27F6DC2EA3A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1949F2D1EA6DD325"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1664160FE3D4C05D"]
+			id: "2A541F2330E520A4"
+			rewards: [{
+				id: "6F45D2F0D9758060"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "7DFB4BBE568A08ED"
+					item: { count: 1, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+				{
+					id: "7008400E4C01DA35"
+					item: { count: 1, id: "waystones:return_scroll" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A541F2330E520A4"]
+			id: "3563D1F3A2612475"
+			rewards: [{
+				id: "0808937CAB43BD42"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "01D6BAD0150A7925"
+				item: { count: 1, id: "waystones:red_sharestone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3563D1F3A2612475"]
+			id: "3C06D309A3953372"
+			rewards: [{
+				id: "3D538B0FEDA2AEF9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "57AB7B623C8CA3F4"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C06D309A3953372"]
+			id: "4CA2C66066B3A9BD"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 4"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "4DC15AA4A3852D90"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "0C155BF036EFF2B1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "1A5DF9F3DE1D8A31"
+					type: "tensura_ftb:existence_value"
+					value: 1000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "341C2C7814B7544C"
+				item: { count: 1, id: "waystones:red_portstone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22BCD51822160A86"]
+			hide_dependency_lines: true
+			id: "46DFDD79BAFC01B2"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1D2349707D3145D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "supplementaries:husbandry/soap"
+				criterion: ""
+				id: "4F0630AD1CAC4786"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22BCD51822160A86"]
+			hide_dependency_lines: true
+			id: "0E1C30F879545209"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "04D1A26AE95C2223"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "supplementaries:husbandry/sus_stew"
+				criterion: ""
+				id: "2315BC7A1DD4C20F"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22BCD51822160A86"]
+			hide_dependency_lines: true
+			id: "742FE5CFF5BCF939"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "285B95D1524D74AA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "supplementaries:husbandry/angry_birds"
+				criterion: ""
+				id: "3D09CEA9E3C9246A"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22BCD51822160A86"]
+			hide_dependency_lines: true
+			id: "634E61CA6C9BB8FF"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7DCB2CEB5FB33359"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "supplementaries:nether/goblet"
+				criterion: ""
+				id: "2D8194D03071B8D7"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+	]
+}

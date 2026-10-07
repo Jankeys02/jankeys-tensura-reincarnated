@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "treasure"
-	group: ""
+	group: "51C7157F1269A7DC"
 	icon: {
 		id: "minecraft:chest"
 	}
 	id: "6EE46664020D6E17"
 	images: [ ]
-	order_index: 8
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

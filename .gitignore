@@ -17,6 +17,11 @@
 !/RELEASE_GUIDE.md
 !/SECURITY.md
 !/package.json
+!/DEVELOPMENT.md
+!/MODS.md
+!/tools/
+/tools/*
+!/tools/modlist.js
 
 # personal / runtime data
 /config/jei/world/

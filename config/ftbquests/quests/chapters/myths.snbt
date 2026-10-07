@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "myths"
-	group: ""
+	group: "51C7157F1269A7DC"
 	icon: {
 		id: "iceandfire:dragon_horn"
 	}
 	id: "17C12CBBFD2EED9B"
 	images: [ ]
-	order_index: 7
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -11,7 +11,7 @@
 	emergency_items_cooldown: 300
 	fallback_locale: ""
 	grid_scale: 0.5d
-	hide_excluded_quests: false
+	hide_excluded_quests: true
 	icon: {
 		id: "tensura:race_reset_scroll"
 	}

@@ -2,1271 +2,1517 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "evolution"
-	group: ""
+	group: "6391CB57D8233305"
 	icon: {
 		id: "tensura:race_reset_scroll"
 	}
 	id: "624123C3BE351540"
 	images: [ ]
-	order_index: 9
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "tensura:race_reset_scroll"
-			}
 			id: "1498C58D46668368"
+			max_completable_dependents: 1
 			rewards: [{
-				id: "24E8B8157C1361C8"
+				id: "50DF373CAA765212"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			shape: "gear"
 			tasks: [{
-				advancement: "tensura:grow_spurt"
-				criterion: ""
-				id: "6E4F1E1E0AD1056D"
-				type: "advancement"
+				id: "16F97B326A6FC08A"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "46C7D03A7BCC4323"
 			optional: true
 			rewards: [{
-				id: "6B3D8E61DB3DDE2E"
+				id: "436F9BF162437079"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "1B9DB0C4A76E3092"
+				id: "4E9FCBB99804E3E5"
 				race: "tensura:slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -8.75d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "040ADA5AB0FB8B31"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "0BA563BDA156E71D"
+				id: "6EE947316431BEEC"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "668BF79B5BDC9D19"
+				id: "44A9739090A53F75"
 				race: "tensura:metal_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -8.75d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "36962A6BF5CC0937"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "035CA4CC225F6BA0"
+				id: "18C5CC1CB05F77F9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "6E704DAEE7AB3BAF"
+				id: "54639E6E7D171142"
 				race: "tensura:demon_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -8.75d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"46C7D03A7BCC4323"
+				"040ADA5AB0FB8B31"
+				"36962A6BF5CC0937"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "7BB702E748125DC5"
 			optional: true
 			rewards: [
 				{
-					id: "18B18402AE93C950"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "0D2CF3F9ED657888"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "12219AF53F4EBAE8"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "074ACB643C8A584E"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "7EC840E5C7C7E932"
+				id: "6AAE187C24265B1F"
 				race: "tensura:god_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -8.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "6172A474088AF38D"
 			optional: true
 			rewards: [{
-				id: "7BD64BF0AF9FD883"
+				id: "025191CEBA9A416A"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "40DD1CC41B70E9B1"
+				id: "08550E2EA354C420"
 				race: "tensura:goblin"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -7.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "7AAAD2D54CB1E6BD"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "4508E906B92EB4CE"
+				id: "00026E350E840AAF"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "531ABE8BD512A7BA"
+				id: "6387ACE2CC070C8C"
 				race: "tensura:hobgoblin"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -7.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "1089F2133BF02FFF"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7920A8C91CE2A6E7"
+				id: "5B3B0D0D9B18540A"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "42E4870099FAEEBC"
+				id: "2E6CA516E52251DD"
 				race: "tensura:enlightened_hobgoblin"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -7.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"6172A474088AF38D"
+				"7AAAD2D54CB1E6BD"
+				"1089F2133BF02FFF"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "6EEAE26AA1996D61"
 			optional: true
-			rewards: [{
-				id: "46A9E7A21231BCAD"
-				type: "xp_levels"
-				xp_levels: 20
-			}]
+			rewards: [
+				{
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
+						id: "minecraft:nether_star"
+					}
+					id: "646F14A5AEA76749"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6E02EBAD45DBCC39"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
-				id: "21B88C3156C60533"
+				id: "4CC428F9F1079D8F"
 				race: "tensura:hobgoblin_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -7.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "402A1B45EF47578F"
 			optional: true
 			rewards: [{
-				id: "1F6CB3A97B6A44B1"
+				id: "652AF3C82D8D4792"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "293F48DF79D515B4"
+				id: "0E91F8D4D698629B"
 				race: "tensura:ogre"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -6.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "201C5541F467CCAF"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "3FE118FD2F978F42"
+				id: "1F836A666BF00A8D"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "6EAEDA1D7368F6A9"
+				id: "7F83700583BBF8AE"
 				race: "tensura:kijin"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -6.25d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "776AE90066DAB17A"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "57E70435998F94C0"
+				id: "15FB0BA7A8641D92"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "417E5B4BCE5DCF3A"
+				id: "2823A45966ECFC74"
 				race: "tensura:mystic_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -6.25d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "05432BFB095F474D"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "3C69DD67006B0E55"
+				id: "3B26FDE7122CDC04"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "087CEF5548521FD4"
+				id: "0E71665C36817FC8"
 				race: "tensura:wicked_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -6.25d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "6D33202657254C72"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "2A98272EED4627CE"
+				id: "313876BE9687E1A5"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "7D743D444B579F29"
+				id: "09DD623D3592ABD1"
 				race: "tensura:death_oni"
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: -6.25d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "4B85546C8653ACAD"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "27488C5ECF518567"
+				id: "7EE2ECC7C84A458B"
 				type: "xp_levels"
-				xp_levels: 30
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "75891CDF98616674"
+				id: "5A04BE6E51984313"
 				race: "tensura:spirit_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 9.5d
-			y: -6.25d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"402A1B45EF47578F"
+				"201C5541F467CCAF"
+				"776AE90066DAB17A"
+				"05432BFB095F474D"
+				"6D33202657254C72"
+				"4B85546C8653ACAD"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "5A2C7A1DD7094ADC"
 			optional: true
 			rewards: [
 				{
-					id: "39997DC15D4CF5CD"
-					type: "xp_levels"
-					xp_levels: 35
-				}
-				{
-					id: "204EC200F8411C3C"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "7D1516F35A114E70"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "5EA766740685986F"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "60F822E6B1D5B9F9"
+				id: "7A7D3C7AF8D83271"
 				race: "tensura:divine_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 11.0d
-			y: -6.25d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"402A1B45EF47578F"
+				"201C5541F467CCAF"
+				"776AE90066DAB17A"
+				"05432BFB095F474D"
+				"6D33202657254C72"
+				"4B85546C8653ACAD"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "32DFA7526890F5D3"
 			optional: true
 			rewards: [
 				{
-					id: "56B336F04E6C2920"
-					type: "xp_levels"
-					xp_levels: 40
-				}
-				{
-					id: "273B065E92C706F6"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "24E89D52BDB57038"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "13A17093FBFF1DBF"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "588BA4AE21A6CFAC"
+				id: "52FDAA0425606B77"
 				race: "tensura:divine_fighter"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.5d
-			y: -6.25d
+			x: 14.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "30692FB040F69AF1"
 			optional: true
 			rewards: [{
-				id: "4B7A207A62BAE9D5"
+				id: "5907140C9069AA86"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "260BA70B9FE9E45D"
+				id: "3E36766789408B78"
 				race: "tensura:orc"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -5.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "7CCF58A86F17497B"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "02AC0863B5DE886A"
+				id: "5DC5C8F6CAD950D0"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "19AED0C0F41A4170"
+				id: "1BAE24F24265D6D9"
 				race: "tensura:high_orc"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "6F1ABA5B902C03E4"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7B69626E13A11AC0"
+				id: "03774AD34FCC3A08"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "4377C59DDB46DBEB"
+				id: "020E9A536E2F367D"
 				race: "tensura:orc_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "0FA84022F4B3FD73"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "6CF5B1869AAC5C40"
+				id: "446BE28E9629AFC4"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "7C7C7F316A98FBE0"
+				id: "10D4224B5F843425"
 				race: "tensura:orc_disaster"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "60436D566907215C"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7A202DC69E2472EC"
+				id: "3005F51386F6828D"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "02F2D127A37C0A46"
+				id: "00FBC0F2F8194432"
 				race: "tensura:spirit_boar"
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: -5.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"30692FB040F69AF1"
+				"7CCF58A86F17497B"
+				"6F1ABA5B902C03E4"
+				"0FA84022F4B3FD73"
+				"60436D566907215C"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "075530C464DCF1EA"
 			optional: true
 			rewards: [
 				{
-					id: "128BAA266D84C5A3"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-				{
-					id: "686877B1F350630D"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "26537D8F4FD53E59"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "43864BCEDD9EFA98"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "17D9686905207496"
+				id: "60364131B621DC40"
 				race: "tensura:divine_boar"
 				type: "tensura_ftb:race"
 			}]
-			x: 9.5d
-			y: -5.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "752D46BB107B9382"
 			optional: true
 			rewards: [{
-				id: "0844FB4FCA4635F7"
+				id: "0AF3DD27A5E3804B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "7C253F86A1F46C77"
+				id: "0DAD0ACCD298DC87"
 				race: "tensura:lizardman"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -3.75d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "16CA842ED82CD402"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "2D605C7D9D839554"
+				id: "1D33AB1BBED8FF4B"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "47A5F5E2BEC55D4A"
+				id: "062FAA1E6631EF79"
 				race: "tensura:dragonewt"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -3.75d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "5DFFE504E99862EF"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7F8000C3C63CAE90"
+				id: "2665A19C9211F7EF"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "03FBBD042E3C5CBF"
+				id: "47DB14E4717D82A3"
 				race: "tensura:true_dragonewt"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -3.75d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"752D46BB107B9382"
+				"16CA842ED82CD402"
+				"5DFFE504E99862EF"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "37B79C9A1164C37F"
 			optional: true
 			rewards: [
 				{
-					id: "4E96AABF82542C63"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "492E9E25E926F0FB"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "5C9EEBE66B52892E"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "25BE3966B8AA90C8"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "2A7571E3871A00D3"
+				id: "2AB3CEB9F2538DE1"
 				race: "tensura:divine_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -3.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "4D6D3DA033C69A50"
 			optional: true
 			rewards: [{
-				id: "532DC0D4325076BC"
+				id: "1A6DB05B7E5DAB01"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "3A33A53577E673B4"
+				id: "66ADB54CE724BB7C"
 				race: "tensura:human"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "5F31547423552138"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "1693A4D74CDE140F"
+				id: "46A709E878B64737"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "0E91EC09E4CE0A48"
+				id: "114ACA06A21FE34F"
 				race: "tensura:enlightened_human"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "50258871747D3261"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "4F069C01A9F44F9A"
+				id: "41A0DAFDBC3407E9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "46A028DEC175B414"
+				id: "684F8A0BF5E20D7D"
 				race: "tensura:human_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"4D6D3DA033C69A50"
+				"5F31547423552138"
+				"50258871747D3261"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "31DEDCCCBE3366B0"
 			optional: true
 			rewards: [
 				{
-					id: "54EA5BC5F0ED0232"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "0D8FCB9E8BD7BBA7"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "1AE1381D45620507"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "7AFF60DF9E422E9C"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "761934730A697B6A"
+				id: "4AC916A5A7BD2A4B"
 				race: "tensura:divine_human"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "0D325E5E0C068875"
 			optional: true
 			rewards: [{
-				id: "7400DFE83FA2FE06"
+				id: "73478670CA79F963"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "056A25E460BFF1D5"
+				id: "39D46B88140DF05D"
 				race: "tensura:elf"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: -1.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "6650FE83F68843E1"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "50EC8807F875FE16"
+				id: "32F23CEA07F3DC8E"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "540942AB4579A899"
+				id: "24D5A1D0366BF851"
 				race: "tensura:enlightened_elf"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: -1.25d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "6FB36EEF4DD86F32"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "3A72DA50FD8EA678"
+				id: "1E590461F65B765B"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "10C5D60B2A539078"
+				id: "10DED695B2CCB7B5"
 				race: "tensura:elf_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: -1.25d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"0D325E5E0C068875"
+				"6650FE83F68843E1"
+				"6FB36EEF4DD86F32"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "4528E715C7D45EB6"
 			optional: true
 			rewards: [
 				{
-					id: "354622A6A6F5944B"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "0780BA994E517E64"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "7845BEC797C537E8"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "4F3F7C99385962EB"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "74C28FA8FD15EB8F"
+				id: "612D87F68509984D"
 				race: "tensura:divine_elf"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: -1.25d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "74CA8207C057C40D"
 			optional: true
 			rewards: [{
-				id: "46D7C1B007551DEA"
+				id: "0895D0C8F96EEC75"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "7D3C0E2E005F77CE"
+				id: "7BE2B42DB7EDAA1F"
 				race: "tensura:dwarf"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "01FFF9ADC3D7F2DB"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7DF4357AFF96FE9D"
+				id: "5BC7F13915C30776"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "33A73327364BDEE7"
+				id: "224569EB8B82672E"
 				race: "tensura:enlightened_dwarf"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "1BC1502BE01870DA"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "59FA92014F4248F8"
+				id: "1731E44FC943A8F7"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "6692AC496D7B3301"
+				id: "3032A4D1CA3AFE49"
 				race: "tensura:dwarf_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"74CA8207C057C40D"
+				"01FFF9ADC3D7F2DB"
+				"1BC1502BE01870DA"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "1A59ACF7C280881D"
 			optional: true
 			rewards: [
 				{
-					id: "7E04B012F62A3AC9"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "21341CCCC9759D21"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "0A1B7F45C3A8D66F"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "28F362055482F4E0"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "0B843127E89863C1"
+				id: "302D31875BADFC15"
 				race: "tensura:divine_dwarf"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "564718864D61028A"
 			optional: true
 			rewards: [{
-				id: "591023E8843BBF15"
+				id: "2431E8C08B66159E"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "591218F94F2D3B8E"
+				id: "4BF549580E5ED0AA"
 				race: "tensura:merfolk"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 1.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "57BC6D775E9DFF54"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "097212C46DF546AF"
+				id: "06030A898DEDDD2C"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "4FA6E8AB82599681"
+				id: "6EF274D4ADF1308A"
 				race: "tensura:enlightened_merfolk"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 1.25d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "75D548ED87FF475F"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "4865D6653C4BF4FD"
+				id: "37001BDFE88A32DC"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "7C0AD738B93D97A9"
+				id: "6643A2A3F6A1EE93"
 				race: "tensura:merfolk_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 1.25d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"564718864D61028A"
+				"57BC6D775E9DFF54"
+				"75D548ED87FF475F"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "10B2213FE4B60EB3"
 			optional: true
 			rewards: [
 				{
-					id: "64A23EE7892C4103"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "34CA6EC3F27A4FD4"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "45B80B3A08DE892A"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6FC9684D50158559"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "216EAFA1892BEFAA"
+				id: "687E718DDF2B3844"
 				race: "tensura:divine_fish"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 1.25d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "51B3782F2DF608EB"
 			optional: true
 			rewards: [{
-				id: "3613BFADE021263E"
+				id: "43CFCA2391A0C1E8"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "48778F5266404D1B"
+				id: "14B617E39893823C"
 				race: "tensura:beastfolk"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "7C7F7553A38E06D4"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "5B4EB881BA6AAF39"
+				id: "2C43C95552423197"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "15F1DAD1F04A1A9C"
+				id: "5BFBC5E6F9977526"
 				race: "tensura:beast_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "0715D29BC26F32E3"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "7A6C4F97528F54DA"
+				id: "5CB8E5E07DF55565"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "60DFECD8B7E74AC4"
+				id: "2C4A0A4AF36EE2CD"
 				race: "tensura:spirit_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"51B3782F2DF608EB"
+				"7C7F7553A38E06D4"
+				"0715D29BC26F32E3"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "026E9BA18F34264E"
 			optional: true
 			rewards: [
 				{
-					id: "453A7D437628A0D1"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "0780E650333A9A0C"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "0EC206AF8B3F85B1"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6476FDEF6A140C57"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "0DB7126026FC9456"
+				id: "6073A3988F1DD14B"
 				race: "tensura:divine_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "521233726EB14E0F"
 			optional: true
 			rewards: [{
-				id: "1EC1EE374BA518AA"
+				id: "24B056CD0098E51B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "727AFBBF1269F5FC"
+				id: "4103F39FE97BB024"
 				race: "tensura:harpy"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.75d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "5A3B6687C922B135"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "495A3B0301573516"
+				id: "676EEC6AA8A83AE3"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "3118754B39B2F1D9"
+				id: "16F8F3904AEE04E8"
 				race: "tensura:harpy_queen"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 3.75d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "316B0AF8B93B1655"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "1DBD7DBCCD7B41EA"
+				id: "1AD6125075811307"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "43785CEE516E2E35"
+				id: "36A3CE0C14669525"
 				race: "tensura:spirit_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 3.75d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"521233726EB14E0F"
+				"5A3B6687C922B135"
+				"316B0AF8B93B1655"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "1F112D4F842897A1"
 			optional: true
 			rewards: [
 				{
-					id: "374CC64AF0E2FB54"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "24D3D1DF302A819D"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "3D9BD8DD25117680"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "443BFAAFF8CD3F68"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "7956C9511351FFE9"
+				id: "016BBAC238F0A472"
 				race: "tensura:divine_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 3.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "1F6B465C3E2DAC25"
 			optional: true
 			rewards: [{
-				id: "52DC5CE704F1F296"
+				id: "2D9F45FD1C6EA5F2"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "1467D63F3E30C35B"
+				id: "65A1F71F3B66698F"
 				race: "tensura:giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "2769B38E3593AAC4"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "1DDF6FF9D65856AE"
+				id: "3FFA3DDF49F63DAB"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "12AA9F053BA1277C"
+				id: "163AB14613C84465"
 				race: "tensura:ancient_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"1F6B465C3E2DAC25"
+				"2769B38E3593AAC4"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "5182A93FEB4CDC63"
 			optional: true
 			rewards: [
 				{
-					id: "26FEAB4ADE3B29CB"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					id: "7A2A06E3AA44034D"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "3355C6F8EDD6AA40"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "4670AB552F5E7ECC"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "2B0BDFB2E038DE84"
+				id: "46E232C9A60E3F05"
 				race: "tensura:divine_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "661972A82D8C9BD2"
 			optional: true
 			rewards: [{
-				id: "7F6246B7CCA1835E"
+				id: "11528216B9B7FC0F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "395A7BF3CC3F9DB2"
+				id: "2B0295A39D1CA90B"
 				race: "tensura:vampire"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 6.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "718691268139EACC"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "4ACC8545917F82BC"
+				id: "56609308BD99CAD4"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "6CFFE172C5189C01"
+				id: "2E8F89D106011E2B"
 				race: "tensura:ghoul"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 6.25d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "166CDBE335B34B78"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "54C78CCB9BEF3D8B"
+				id: "33887F1FA21916E9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "0921D839B0EE7F0C"
+				id: "4604BF111E5FA972"
 				race: "tensura:vampire_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 6.25d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "516CC7F14EFA8AEA"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "2959BDDBC516951D"
+				id: "201558487CE9920D"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "3E46F6C0143FDE86"
+				id: "1C1AE38924474D4B"
 				race: "tensura:vampire_overcomer"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 6.25d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"661972A82D8C9BD2"
+				"718691268139EACC"
+				"166CDBE335B34B78"
+				"516CC7F14EFA8AEA"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "3EDF96C710319F35"
 			optional: true
 			rewards: [
 				{
-					id: "362BF489B82315AD"
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
+						id: "minecraft:nether_star"
+					}
+					id: "24205796D0D264DC"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "562655C46EAA46FB"
 					type: "xp_levels"
 					xp_levels: 25
 				}
-				{
-					id: "02BEAF668BCBCD85"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "6EDD10AA222986B5"
+				id: "13DB3F47F9833BC6"
 				race: "tensura:divine_vampire"
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 6.25d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "2ED606F90DAC40FD"
 			optional: true
 			rewards: [{
-				id: "0C51E3CF91692F47"
+				id: "17B39B79EE976F1F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "1A3B3C7D177A71A8"
+				id: "5DE862A269E665D5"
 				race: "tensura:wight"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "188D23CC6434B1A1"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "5F7C975479CCC1B3"
+				id: "0DCE9D29D2BE43C4"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "63C87CCD058635FB"
+				id: "12AAA9FD270E94FD"
 				race: "tensura:wight_king"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "59C6CBEB4367810D"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "067B18458789DC92"
+				id: "4EE061DD62C09BE2"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "2D50223EA3A42169"
+				id: "17B86B8B58AFC520"
 				race: "tensura:spirit_skeleton"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"2ED606F90DAC40FD"
+				"188D23CC6434B1A1"
+				"59C6CBEB4367810D"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "7575E9B0B600803D"
 			optional: true
 			rewards: [
 				{
-					id: "5855F62158AA25F3"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "582182C8475AA125"
-					item: {
-						count: 1
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
 						id: "minecraft:nether_star"
 					}
-					type: "item"
+					id: "0860A46F22AC7BA8"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "15312843CCFDFE7E"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "1C153C66D07E9389"
+				id: "50F8E473D4DF3622"
 				race: "tensura:divine_skeleton"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 7.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["1498C58D46668368"]
+			hide_dependency_lines: true
 			id: "71F7F8672DB67878"
 			optional: true
 			rewards: [{
-				id: "770A5FD8C4EACB77"
+				id: "2D29F84A0179C824"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "287A18479067717C"
+				id: "3D523B0A6450E842"
 				race: "tensura:lesser_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 8.75d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "1F88480D77B5C1BA"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "5C7311FCB018ACCE"
+				id: "3025B4E6F8DC232E"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "1E7283A7F3BEA5CC"
+				id: "680EC02036B87E17"
 				race: "tensura:greater_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 3.5d
-			y: 8.75d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "7BC821E83E11D05F"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "17283749BC5996F2"
+				id: "4D7E1F212F8E1C11"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "76DD4A73E8C5BA02"
+				id: "44D7672C994950EB"
 				race: "tensura:arch_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 5.0d
-			y: 8.75d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "6BD369F17796E2F5"
+			invisible: true
 			optional: true
 			rewards: [{
-				id: "4D5E06815B4BC8F3"
+				id: "07ED6670DB596CC1"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 3
 			}]
 			tasks: [{
-				id: "6F087D1C95E7111F"
+				id: "73062FCDFAC922D7"
 				race: "tensura:daemon_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.5d
-			y: 8.75d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"71F7F8672DB67878"
+				"1F88480D77B5C1BA"
+				"7BC821E83E11D05F"
+				"6BD369F17796E2F5"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "670BE2271E3767C1"
 			optional: true
 			rewards: [
 				{
-					id: "170E61282A5DC749"
+					command: "/give {p} minecraft:nether_star 1"
+					icon: {
+						id: "minecraft:nether_star"
+					}
+					id: "45D6865A6231E416"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "3C128DB748B5E1EA"
 					type: "xp_levels"
 					xp_levels: 25
 				}
-				{
-					id: "7B171BCB1156354A"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
-					type: "item"
-				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			tasks: [{
-				id: "4DDD57FA79F25B96"
+				id: "728E1B29A979CFEF"
 				race: "tensura:devil_lord"
 				type: "tensura_ftb:race"
 			}]
 			x: 8.0d
-			y: 8.75d
+			y: 3.0d
 		}
 	]
 }

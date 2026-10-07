@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "monsters"
-	group: ""
+	group: "6391CB57D8233305"
 	icon: {
 		id: "tensura:training_dummy"
 	}
 	id: "1AC6B8236E80CE45"
 	images: [ ]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

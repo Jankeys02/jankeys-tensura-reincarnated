@@ -1,0 +1,738 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_starlight"
+	group: "5DDBE3D731CFC620"
+	icon: {
+		id: "eternal_starlight:orb_of_prophecy"
+	}
+	id: "7285813B5FC0F5DA"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28F307535BA7E962"]
+			id: "390CFA63DB48F70A"
+			rewards: [{
+				id: "7DB86DDE2B95C86D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_orb_of_prophecy"
+				criterion: ""
+				id: "14EF3EE6E219F687"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["390CFA63DB48F70A"]
+			hide_details_until_startable: true
+			id: "70DA6BB1A66C7C26"
+			rewards: [{
+				id: "766B598934B37F07"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "3255107C6C7957B8"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70DA6BB1A66C7C26"]
+			hide_details_until_startable: true
+			id: "4AF55801228F0107"
+			rewards: [{
+				id: "1507DA6F4AC0096C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_seeking_eye"
+				criterion: ""
+				id: "752453107A536F8A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AF55801228F0107"]
+			hide_details_until_startable: true
+			id: "3098180630BA7365"
+			rewards: [{
+				id: "578607A3B022E222"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:witness_meteor_shower"
+				criterion: ""
+				id: "42EA814D9239488E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3098180630BA7365"]
+			hide_details_until_startable: true
+			id: "63BD2FC33D76A55A"
+			rewards: [{
+				id: "26132B192B26724C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_aurora_deer_antler"
+				criterion: ""
+				id: "7D846E707B260753"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63BD2FC33D76A55A"]
+			hide_details_until_startable: true
+			id: "13B3E0BD61AB4D76"
+			rewards: [{
+				id: "077F3490D4E84FD7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:throw_gleech_egg"
+				criterion: ""
+				id: "5820D00BCEAABBDE"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13B3E0BD61AB4D76"]
+			hide_details_until_startable: true
+			id: "09F029A4668C4D5A"
+			rewards: [{
+				id: "737CA5D8B2C384CD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:hire_stranghoul"
+				criterion: ""
+				id: "77D2444E84D17004"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09F029A4668C4D5A"]
+			hide_details_until_startable: true
+			id: "39094F137549525E"
+			rewards: [{
+				id: "3BE2A8158962AE9E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:witness_stranghoul_hunt"
+				criterion: ""
+				id: "33B00C34FFA21DF9"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39094F137549525E"]
+			hide_details_until_startable: true
+			id: "04B5958BE5E1D90C"
+			rewards: [{
+				id: "3374AA76B52F4872"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:tame_crystallized_moth"
+				criterion: ""
+				id: "3D8912CB9C204AA0"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04B5958BE5E1D90C"]
+			hide_details_until_startable: true
+			id: "50A71C319DD54D0F"
+			rewards: [{
+				id: "37E775586A2514AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "eternal_starlight:put_seeds_into_starfire_bird_nest"
+					criterion: ""
+					id: "4D20CDBFF688D3AA"
+					type: "advancement"
+				}
+				{
+					advancement: "eternal_starlight:obtain_starfire"
+					criterion: ""
+					id: "00579A4E01271DFB"
+					type: "advancement"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50A71C319DD54D0F"]
+			hide_details_until_startable: true
+			id: "573B803BA2DAB5B3"
+			rewards: [{
+				id: "3E2FA683C247FFC1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:under_permafrost_forest"
+				criterion: ""
+				id: "780E31BC0CC1FE2B"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["573B803BA2DAB5B3"]
+			hide_details_until_startable: true
+			id: "79DBCB7C7E43FC71"
+			rewards: [{
+				id: "16DE068DB9956C31"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_glacite_shard"
+				criterion: ""
+				id: "0508D05F60A8CB4E"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79DBCB7C7E43FC71"]
+			hide_details_until_startable: true
+			id: "2ACF076FE50B063F"
+			rewards: [{
+				id: "51ACD538E62BEE08"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_thioquartz_shard"
+				criterion: ""
+				id: "12025C9C91452E29"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2ACF076FE50B063F"]
+			hide_details_until_startable: true
+			id: "4E86E4AB254A2B21"
+			rewards: [{
+				id: "20C6884FD9F36D3F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_raw_amaramber"
+				criterion: ""
+				id: "43DA91765BE112A5"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E86E4AB254A2B21"]
+			hide_details_until_startable: true
+			id: "35A02CEE1A1B57F3"
+			rewards: [{
+				id: "305A68553D0A3BC9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_deepsilver_ingot"
+				criterion: ""
+				id: "3CE803E6AE640B9A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35A02CEE1A1B57F3"]
+			hide_details_until_startable: true
+			id: "3454D37AA55CD09A"
+			rewards: [{
+				id: "01F6440AD50E748E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:obtain_starlit_diamond"
+				criterion: ""
+				id: "088882CF5A3DE118"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3454D37AA55CD09A"]
+			hide_details_until_startable: true
+			id: "0E19373703E2EE18"
+			rewards: [{
+				id: "6B74E3442C2C1AA7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					advancement: "eternal_starlight:obtain_tooth_of_hunger"
+					criterion: ""
+					id: "7493147639C0CB46"
+					type: "advancement"
+				}
+				{
+					advancement: "eternal_starlight:obtain_dagger_of_hunger"
+					criterion: ""
+					id: "6D8D4D9893799E6E"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0E19373703E2EE18"]
+			hide_details_until_startable: true
+			id: "33C6EDEBE21BF0E4"
+			rewards: [{
+				id: "3412D0E53D2BE28C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_scythe"
+				criterion: ""
+				id: "5198710D321174F2"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["33C6EDEBE21BF0E4"]
+			hide_details_until_startable: true
+			id: "44F64672D59BE71C"
+			rewards: [{
+				id: "46F2AA82EA016A3F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:obtain_bouldershroom_stew"
+				criterion: ""
+				id: "73BCF7D9C22895E9"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44F64672D59BE71C"]
+			hide_details_until_startable: true
+			id: "26A29F77D295B308"
+			rewards: [{
+				id: "11E8C7D506DB51BE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:hammer_critical_hit"
+				criterion: ""
+				id: "50F1434FE0887C82"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26A29F77D295B308"]
+			hide_details_until_startable: true
+			id: "1C030690B33795B0"
+			rewards: [{
+				id: "3AE2479E846C5D0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:obtain_alchemist_mask"
+				criterion: ""
+				id: "53FFCB5DEF46A955"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C030690B33795B0"]
+			hide_details_until_startable: true
+			id: "786609E020CE3DA1"
+			rewards: [{
+				id: "47973C9D900C25AD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:enter_golem_forge"
+				criterion: ""
+				id: "068AEB3D20F6C1EA"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["786609E020CE3DA1"]
+			hide_details_until_startable: true
+			id: "669FDC12161078F9"
+			rewards: [{
+				id: "762E50A5DCBA0D38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:summon_grimstone_golem"
+				criterion: ""
+				id: "121F03B88D80627E"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["669FDC12161078F9"]
+			hide_details_until_startable: true
+			id: "15D54BB2989642EE"
+			rewards: [{
+				id: "2B60AE616D0A9286"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					advancement: "eternal_starlight:freeze_starlight_golem"
+					criterion: ""
+					id: "42CC5947F30F4EC5"
+					type: "advancement"
+				}
+				{
+					advancement: "eternal_starlight:deactivate_energy_block"
+					criterion: ""
+					id: "6BEB5B3C16F8BCA2"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["15D54BB2989642EE"]
+			hide_until_deps_complete: true
+			id: "1D9E3EA8A230AE23"
+			rewards: [{
+				id: "59EECFA833EBAFAB"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_golem"
+				criterion: ""
+				id: "14E933F226F48201"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D9E3EA8A230AE23"]
+			hide_until_deps_complete: true
+			id: "50C1E7F5648404DD"
+			rewards: [{
+				id: "288F51C22BBC76CE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_permafrost"
+				criterion: ""
+				id: "0A0779742FE6DBBC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["50C1E7F5648404DD"]
+			hide_until_deps_complete: true
+			id: "505C6A557749939B"
+			rewards: [{
+				id: "18145A50647BD9F9"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:challenge_gatekeeper"
+				criterion: ""
+				id: "3D7A8909B36FB753"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["505C6A557749939B"]
+			hide_details_until_startable: true
+			id: "6392133EA3B5A719"
+			rewards: [{
+				id: "5FC30F9268E89833"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:summon_aethersent_golem"
+				criterion: ""
+				id: "5908EBD0F9D82107"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6392133EA3B5A719"]
+			hide_until_deps_complete: true
+			id: "2E2C0DA1DBC35F54"
+			rewards: [{
+				id: "6B958B3501DB0115"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:ignite_lunar_monstrosity"
+				criterion: ""
+				id: "3DC2F07569F4AE16"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2E2C0DA1DBC35F54"]
+			hide_until_deps_complete: true
+			id: "17DD4B5EB132E6F9"
+			rewards: [{
+				id: "6BD95D9BFF9C1B7D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_lunar_monstrosity"
+				criterion: ""
+				id: "749F27FAD4398016"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["17DD4B5EB132E6F9"]
+			hide_details_until_startable: true
+			id: "2221A7F91B6B4F4A"
+			rewards: [{
+				id: "4FAB90672394A858"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:full_unrealium_armor"
+				criterion: ""
+				id: "3C3E51264F01853D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2221A7F91B6B4F4A"]
+			hide_details_until_startable: true
+			id: "6AD9C7F1152CD17A"
+			rewards: [{
+				id: "373BB804F2AFEC2D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:enter_abyss"
+				criterion: ""
+				id: "5FA2BC9517ABCD47"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6AD9C7F1152CD17A"]
+			hide_until_deps_complete: true
+			id: "1F67D3A51542C939"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 8"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "6CBACE1E8E8AB53B"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "28AAEE15F67158CB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "1DB4B8D3177DF621"
+					type: "tensura_ftb:existence_value"
+					value: 5000
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:all_starlight_biomes"
+				criterion: ""
+				id: "52FF24F4CEC253BA"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["70DA6BB1A66C7C26"]
+			hide_dependency_lines: true
+			id: "08C0CB601FCB2803"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1289DBAC16A618BA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "eternal_starlight:ignite_tear_bomb"
+				criterion: ""
+				id: "5E1C64B96F191EB9"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["70DA6BB1A66C7C26"]
+			hide_dependency_lines: true
+			id: "738C58AB9519C49C"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3A24AB81625FED3D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "eternal_starlight:chain_tangled_skull_explosion"
+				criterion: ""
+				id: "5C477F536A899FDF"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["70DA6BB1A66C7C26"]
+			hide_dependency_lines: true
+			id: "358BB4D6CE43DEAC"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4A6DD7D3E594A0E6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "eternal_starlight:use_blossom_of_stars"
+				criterion: ""
+				id: "071E7E4C98F8B74E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["70DA6BB1A66C7C26"]
+			hide_dependency_lines: true
+			id: "2E7896563F9F3F4F"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2AAD60AA56A2D957"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "eternal_starlight:obtain_red_velvetumoss_flower"
+				criterion: ""
+				id: "70AB5FF3FC287035"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+	]
+}

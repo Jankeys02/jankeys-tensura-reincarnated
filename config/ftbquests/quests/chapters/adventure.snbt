@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "adventure"
-	group: ""
+	group: "51C7157F1269A7DC"
 	icon: {
 		id: "minecraft:filled_map"
 	}
 	id: "15E00D5E7B6F1FBE"
 	images: [ ]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -231,22 +231,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5482E2056F81C5B8"]
-			id: "71D3A3E364399F46"
-			rewards: [{
-				id: "0B34A5D03D609EAF"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "4A7ED6DB2FFBFF76"
-				type: "dimension"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
 			id: "5D22783309CE8C54"
 			rewards: [{
 				id: "62FC1C2746B4ED95"
@@ -333,39 +317,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["5482E2056F81C5B8"]
-			id: "113A0FF5189E0BF3"
-			rewards: [{
-				id: "4898AE98E0684F08"
-				type: "xp_levels"
-				xp_levels: 4
-			}]
-			tasks: [{
-				advancement: "betterdungeons:zombie_dungeon"
-				criterion: ""
-				id: "6183DAFC375034F7"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			id: "0DACE381437226AA"
-			rewards: [{
-				id: "1211374409EB5D5C"
-				type: "xp_levels"
-				xp_levels: 6
-			}]
-			tasks: [{
-				advancement: "betterdeserttemples:temple_clear"
-				criterion: ""
-				id: "0AB0DC48B5FE0AF8"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 11.0d
-		}
-		{
 			id: "32923A4C4099D9A7"
 			rewards: [{
 				id: "12D3D4E1B49D08B1"
@@ -430,52 +381,6 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["762E27F0D94326FF"]
-			id: "0303AC0731678D77"
-			rewards: [{
-				id: "52511F66C3E883B6"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "iceandfire:iceandfire/dragon_egg"
-				criterion: ""
-				id: "120BCE735B2DC2F5"
-				type: "advancement"
-			}]
-			x: 2.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["762E27F0D94326FF"]
-			id: "74AEF26B86B7BCA0"
-			rewards: [
-				{
-					id: "121CA33DFA58305E"
-					type: "xp_levels"
-					xp_levels: 25
-				}
-				{
-					id: "0FB6DA6BE3588090"
-					item: {
-						count: 1
-						id: "minecraft:totem_of_undying"
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				advancement: "iceandfire:iceandfire/kill_if_dragon"
-				criterion: ""
-				id: "426A0B864652FB47"
-				type: "advancement"
-			}]
-			x: 4.0d
 			y: 13.0d
 		}
 		{

@@ -1,0 +1,1398 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension_lineages"
+	group: "0F30C975BF218986"
+	icon: {
+		id: "ascension:skill_stone"
+	}
+	id: "5C7AF98491C81F15"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0BA52AEA5444C4D0"
+			max_completable_dependents: 1
+			rewards: [{
+				id: "4F99D7EDCCD75E34"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5259F3E08CD28876"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "0CB39D92574C9DDF"
+			optional: true
+			rewards: [{
+				id: "1628524E9BE19017"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "390580638828001B"
+				race: "ascension:angel"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7FDFC8356BCFF2F2"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3F1B64B6A2F09D73"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1BD07E77DE7B1566"
+				race: "ascension:archangel"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7F9428C5A9574035"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "65ED2D51E7B4B521"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5BC365AB064C25CD"
+				race: "ascension:seraphim"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5A72B294F4EA97D1"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2C5730A612C8B52D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5DAC9BB043C39958"
+				race: "ascension:divine_angel"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "703F552DC3CA265A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3105D0967DD179B4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "64DCFD144271FF92"
+				race: "ascension:fallen_angel"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0CB39D92574C9DDF"
+				"7FDFC8356BCFF2F2"
+				"7F9428C5A9574035"
+				"5A72B294F4EA97D1"
+				"703F552DC3CA265A"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "6799DD4D27D3005F"
+			optional: true
+			rewards: [{
+				id: "76815DBF47B571BC"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "47AF538503406E7D"
+				race: "ascension:cosmic_deity"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0CB39D92574C9DDF"
+				"7FDFC8356BCFF2F2"
+				"7F9428C5A9574035"
+				"5A72B294F4EA97D1"
+				"703F552DC3CA265A"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "215EE5F38F772251"
+			optional: true
+			rewards: [{
+				id: "39CD33E5C0A4C7D3"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B6D583BDF81BDA7"
+				race: "ascension:chaotic_deity"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "31CE7F801B4ADB34"
+			optional: true
+			rewards: [{
+				id: "0B139ACE7621DA80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0DF619DB52473D80"
+				race: "ascension:frog"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5DAFD8BA5978290E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7587FF52ACEAB096"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "364A84B6DAD5690F"
+				race: "ascension:giant_frog"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1CC8B9ED697C40E6"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "585AC34E793A6182"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "296C609967A64DB5"
+				race: "ascension:poison_toad"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0200EEC2D4CBA5F7"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3577D1BBDD240B1B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0D2B3A64EBEAC92B"
+				race: "ascension:swamp_sovereign"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31CE7F801B4ADB34"
+				"5DAFD8BA5978290E"
+				"1CC8B9ED697C40E6"
+				"0200EEC2D4CBA5F7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "0FBF45898D761615"
+			optional: true
+			rewards: [{
+				id: "21F4B7286C12A86A"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E15EB1948F466B5"
+				race: "ascension:bog_ancient"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31CE7F801B4ADB34"
+				"5DAFD8BA5978290E"
+				"1CC8B9ED697C40E6"
+				"0200EEC2D4CBA5F7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "210B0D85C1332563"
+			optional: true
+			rewards: [{
+				id: "4E4BB58782EAB35D"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "38C6EBF2DAC6C3AE"
+				race: "ascension:venom_lord"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31CE7F801B4ADB34"
+				"5DAFD8BA5978290E"
+				"1CC8B9ED697C40E6"
+				"0200EEC2D4CBA5F7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "454ECC621F07BB1F"
+			optional: true
+			rewards: [{
+				id: "6EFA89AA59BD31FC"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E50A50A9D3501A5"
+				race: "ascension:frog_monarch"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "7F82CF82C2FAF2EC"
+			optional: true
+			rewards: [{
+				id: "29D76599869DF1ED"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4ECFDA6A84EF81A8"
+				race: "ascension:kitsune"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0F88E55503E8C001"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "31902D4DB7369C82"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "00F56B8E3F3713A6"
+				race: "ascension:three_tail_fox"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7480E9D6F5DE0657"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "15FE179EAFF43B5D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0495D34D131D47F9"
+				race: "ascension:six_tail_fox"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "420523D9C47B11FD"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "5A2D27A0474F77F0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "59698A027163CEA0"
+				race: "ascension:nine_tail_fox"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7F82CF82C2FAF2EC"
+				"0F88E55503E8C001"
+				"7480E9D6F5DE0657"
+				"420523D9C47B11FD"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "4C397734D4F15848"
+			optional: true
+			rewards: [{
+				id: "17BA4090DCE5C0DD"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C3E435C59D0A8AF"
+				race: "ascension:divine_kitsune"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "71980EDC7C51361B"
+			optional: true
+			rewards: [{
+				id: "6F8F768B07742060"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "02803FB11B0D6362"
+				race: "ascension:fledgling_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "00EC3794D0408330"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4763A9FD2045C9F6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "49E2A5C2832FA8CB"
+				race: "ascension:kindred_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1FC7175F4678D53A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "193AD0F6F4F19759"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5EAD857730AAEF35"
+				race: "ascension:blood_noble"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6539C4536725B1F3"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "12267953601A34AB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5BED9CF3EB1F9DB1"
+				race: "ascension:elder_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"71980EDC7C51361B"
+				"00EC3794D0408330"
+				"1FC7175F4678D53A"
+				"6539C4536725B1F3"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "1908754AE23EFF06"
+			optional: true
+			rewards: [{
+				id: "35F01826133BE323"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FC4329C9F0DDE02"
+				race: "ascension:progenitor_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "0482B7407CA9BFA0"
+			optional: true
+			rewards: [{
+				id: "40013CA717871DBE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "04B638CAF0E32707"
+				race: "ascension:whisper_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "30A132487EC0944D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "57958FEA198A3D87"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6AE8170EF5FEF9EE"
+				race: "ascension:trickster_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "64B2BD9CF8FE4837"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1C886E12829B46CF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "62CB28203F8EEBF7"
+				race: "ascension:phantom_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5F77B2EC580043E6"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "36EE503E3E75CAE0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "05EE0BDD544F72B9"
+				race: "ascension:royal_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5A7E95C2BDD198BD"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "78AB37D40DFDE007"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "05655193C76918CC"
+				race: "ascension:wishbound_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6CED21E75E319E18"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6366389E58AA183A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3E408687A14BB4EC"
+				race: "ascension:primordial_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "196826719E603718"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "02C8CBBD63E184AC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4881F05B5C0362C7"
+				race: "ascension:ascended_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3DA5A1053B4F47D8"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7FEF1CA39988890D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "19BBB13A2D8FFFA3"
+				race: "ascension:sovereign_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "2AF59864964C31A7"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "00CC99E784329A22"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "10BFCF58B2BB6D32"
+				race: "ascension:infinite_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0482B7407CA9BFA0"
+				"30A132487EC0944D"
+				"64B2BD9CF8FE4837"
+				"5F77B2EC580043E6"
+				"5A7E95C2BDD198BD"
+				"6CED21E75E319E18"
+				"196826719E603718"
+				"3DA5A1053B4F47D8"
+				"2AF59864964C31A7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "172D13B69AA9AF13"
+			optional: true
+			rewards: [{
+				id: "1356031B7AF94DDF"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07CF5D93AAE72A1D"
+				race: "ascension:omniversal_djinn"
+				type: "tensura_ftb:race"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "012CBEC4F4F3CB06"
+			optional: true
+			rewards: [{
+				id: "7BEAB4877B5CDD61"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E4CE3A753994526"
+				race: "ascension:cursed_mariner"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "38AAD724AE4BAFAD"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "452F6EDEDBD4E1BB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "321C0BACD34FF1EC"
+				race: "ascension:cursed_dreadnaught"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "536C2D3342B7FB3E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "260E82B632E17D65"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "49218A71032AE539"
+				race: "ascension:phantom_corsair"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"012CBEC4F4F3CB06"
+				"38AAD724AE4BAFAD"
+				"536C2D3342B7FB3E"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "51EAB8BB07624BF2"
+			optional: true
+			rewards: [{
+				id: "3F07867CA1FDEBB5"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "19658920C14BBF1D"
+				race: "ascension:davy_jones"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "7BC978FD9DD26FA4"
+			optional: true
+			rewards: [{
+				id: "6D50C5BC32F71728"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "45FCC14DE3CE1D9D"
+				race: "ascension:gazer"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "35B80917B0686856"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3F711B20D3EFEC95"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0B6597E9F959952A"
+				race: "ascension:spectator_gazer"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7BC978FD9DD26FA4"
+				"35B80917B0686856"
+				"0109E5C96A626095"
+				"728E93FD83341E90"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "36F6120EFBFC7283"
+			optional: true
+			rewards: [{
+				id: "733C730171F0B6F9"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A1D014B5EDC9959"
+				race: "ascension:mindwitness"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0109E5C96A626095"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "28B388FC16DF2F7E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4EB3C26DC25FA191"
+				race: "ascension:gauth"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "728E93FD83341E90"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "172C40D2F7C92025"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6AD21B49D4179ADF"
+				race: "ascension:beholder"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7BC978FD9DD26FA4"
+				"35B80917B0686856"
+				"0109E5C96A626095"
+				"728E93FD83341E90"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "3C21631B0A7A22E8"
+			optional: true
+			rewards: [{
+				id: "605D95496E634EDC"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D73404827F466A8"
+				race: "ascension:death_tyrant"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "7D251A09378B3B3E"
+			optional: true
+			rewards: [{
+				id: "66A48B9F102A061E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5B21A2C87C4F9FAB"
+				race: "ascension:monkey"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3D04D3583550D8E2"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2A184120494C236C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5C5B0905FA18E416"
+				race: "ascension:monkey_warrior"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "24C6E1482C2DCCE5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "406C1D6E3EDC68D3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "65A128B3FA514E65"
+				race: "ascension:monkey_martial_artist"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7197EF4803AFEA3E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "22264967927F866F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3EA3EC1891FFAACD"
+				race: "ascension:monkey_king"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "423244A75A861487"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6E8D9E2EBB857689"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "14783377E8736CBD"
+				race: "ascension:divine_king"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7D251A09378B3B3E"
+				"3D04D3583550D8E2"
+				"24C6E1482C2DCCE5"
+				"7197EF4803AFEA3E"
+				"423244A75A861487"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "37DD417DE62F7139"
+			optional: true
+			rewards: [{
+				id: "7C93A8826DC34787"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "78FA4C6964589446"
+				race: "ascension:sun_wukong"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "55AFE0EF76826BE4"
+			optional: true
+			rewards: [{
+				id: "3A4F21E563452738"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4EB5754CA395F553"
+				race: "ascension:zombie"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "01E8CB809C1F84BC"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4252315A0CF07009"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "64F84CF6D7EC190B"
+				race: "ascension:undead_skeleton"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0742979BDC621095"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6152F76A3BA56743"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5A840EB965EF4F5D"
+				race: "ascension:skeleton_warrior"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3EBDFD83FACC79AB"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "4FAAC369C5FF9E3C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "003D9D46A9209613"
+				race: "ascension:death_knight"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1A684353790E121A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "16BE5B22BEDA8FA7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2936B1E42A581C2A"
+				race: "ascension:dullahan"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"55AFE0EF76826BE4"
+				"01E8CB809C1F84BC"
+				"0742979BDC621095"
+				"3EBDFD83FACC79AB"
+				"1A684353790E121A"
+				"0B5F316D9FC356D5"
+				"3D5393D0A53996A4"
+				"495D98A7CADE4F66"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "23CAE247E8490C20"
+			optional: true
+			rewards: [{
+				id: "113617C181CF9C3E"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F8A69DCA51FCF1B"
+				race: "ascension:dark_lord_dullahan"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0B5F316D9FC356D5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1D7564B906BB6C1A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1AD9A1F597C00F6D"
+				race: "ascension:mage_skeleton"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3D5393D0A53996A4"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1D52072970D148C0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7BDE4CEBBF0CAB1C"
+				race: "ascension:elder_lich"
+				type: "tensura_ftb:race"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "495D98A7CADE4F66"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "23E229F8DAD91AE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7474A11ED45DBB8B"
+				race: "ascension:lich"
+				type: "tensura_ftb:race"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"55AFE0EF76826BE4"
+				"01E8CB809C1F84BC"
+				"0742979BDC621095"
+				"3EBDFD83FACC79AB"
+				"1A684353790E121A"
+				"0B5F316D9FC356D5"
+				"3D5393D0A53996A4"
+				"495D98A7CADE4F66"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "055A8FFCE26B8561"
+			optional: true
+			rewards: [{
+				id: "5AB280C5E960B7D6"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B393F40EA0A71C8"
+				race: "ascension:lich_king"
+				type: "tensura_ftb:race"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "68274D0DEF60787E"
+			optional: true
+			rewards: [{
+				id: "203F17C8B34BE513"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5C62AFDE838CC3B0"
+				race: "ascension:ender_dragonewt"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6CDAB482930EDE33"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7A5E94A0E6EC4863"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3B571EE826831BB8"
+				race: "ascension:void_dragonewt"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "41470656C4792B24"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2280997DD4D6C9DC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2E0FF70BA0143864"
+				race: "ascension:abyssal_dragonewt"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"68274D0DEF60787E"
+				"6CDAB482930EDE33"
+				"41470656C4792B24"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "5F19FE806781DEB4"
+			optional: true
+			rewards: [{
+				id: "58F28803536562E0"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "609035993871EB5A"
+				race: "ascension:chaos_dragon"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BA52AEA5444C4D0"]
+			hide_dependency_lines: true
+			id: "44F6B5D35B3C49E8"
+			optional: true
+			rewards: [{
+				id: "5EE226905A93C5A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "37BC7BF05F3D1347"
+				race: "ascension:corrupted_dragonkin"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7A432357D4871A5C"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2B9AAC572CC68647"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6DBEE5DC1F43E1CB"
+				race: "ascension:corrupted_dragon"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0BE373EE882203E5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "759D6AD261D4786C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4EF58945E6CBB82D"
+				race: "ascension:cursed_dragon"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "27A660F24595C2B3"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2B56AE7F22396FCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "08197880DAD15EBB"
+				race: "ascension:demonic_dragon"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"44F6B5D35B3C49E8"
+				"7A432357D4871A5C"
+				"0BE373EE882203E5"
+				"27A660F24595C2B3"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "1F0A4526833CD7B1"
+			optional: true
+			rewards: [{
+				id: "202E66DCD1ED8AA3"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D38B0D9F46EA0EC"
+				race: "ascension:demon_dragon_god"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+	]
+}

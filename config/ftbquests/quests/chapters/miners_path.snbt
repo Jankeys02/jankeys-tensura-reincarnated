@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "miners_path"
-	group: ""
+	group: "3FB4C13A31874B92"
 	icon: {
 		id: "minecraft:iron_pickaxe"
 	}
 	id: "000BB22D6BFA0C1D"
 	images: [ ]
-	order_index: 13
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,7 +16,11 @@
 			rewards: [
 				{
 					command: "/ftbranks add {p} miner_1"
+					icon: {
+						id: "minecraft:iron_pickaxe"
+					}
 					id: "35675959DBB83625"
+					permission_level: 4
 					type: "command"
 				}
 				{
@@ -40,7 +44,11 @@
 			rewards: [
 				{
 					command: "/ftbranks add {p} miner_2"
+					icon: {
+						id: "minecraft:iron_pickaxe"
+					}
 					id: "1F84E2FD99659236"
+					permission_level: 4
 					type: "command"
 				}
 				{
@@ -64,7 +72,11 @@
 			rewards: [
 				{
 					command: "/ftbranks add {p} miner_3"
+					icon: {
+						id: "minecraft:iron_pickaxe"
+					}
 					id: "3C2D8BFD1B284FAB"
+					permission_level: 4
 					type: "command"
 				}
 				{
@@ -88,7 +100,11 @@
 			rewards: [
 				{
 					command: "/ftbranks add {p} miner_4"
+					icon: {
+						id: "minecraft:iron_pickaxe"
+					}
 					id: "356D476B7EA43C35"
+					permission_level: 4
 					type: "command"
 				}
 				{
@@ -112,7 +128,11 @@
 			rewards: [
 				{
 					command: "/ftbranks add {p} miner_5"
+					icon: {
+						id: "minecraft:iron_pickaxe"
+					}
 					id: "71C17CB21F13A236"
+					permission_level: 4
 					type: "command"
 				}
 				{

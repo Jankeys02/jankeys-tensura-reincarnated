@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "field_guide"
+	group: "1D0AEFB0AFCD128F"
+	icon: {
+		id: "tensura:race_reset_scroll"
+	}
+	id: "2568B3E983A6EB5A"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1A8E2FF4C7EA54D9"
+			rewards: [{
+				id: "7615DB674F03A515"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "31D119204113CE76"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A8E2FF4C7EA54D9"]
+			id: "7D149BD83386632E"
+			rewards: [{
+				id: "011C4EDDA97E273D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7C73EEB6068E5B9E"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D149BD83386632E"]
+			id: "695DB53BF65D640E"
+			rewards: [{
+				id: "3FD82D5ABA539B98"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4D8890FA5F956D12"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["695DB53BF65D640E"]
+			id: "5F86A364666229AB"
+			rewards: [{
+				id: "55C63A64D61D65D2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "66627AD47630EA31"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F86A364666229AB"]
+			id: "1D7AE11A41D8336F"
+			rewards: [{
+				id: "558096EFB92AD7CF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "261D3CE59750BA9B"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D7AE11A41D8336F"]
+			id: "043CB502A26789AA"
+			rewards: [{
+				id: "0906D5BF4BF6247B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "467A98246DE30FC9"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["043CB502A26789AA"]
+			id: "272ADC6FA03E327D"
+			rewards: [{
+				id: "40674505FC49C264"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E79BA6584A32BE3"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["272ADC6FA03E327D"]
+			id: "6267213B70B26E33"
+			rewards: [{
+				id: "48B0B6B6A4DBAAFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "407BDCA95CFE6749"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6267213B70B26E33"]
+			id: "10C654DFD5E1BB92"
+			rewards: [{
+				id: "5DDB5C39EC317650"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "65057833541B8C8A"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10C654DFD5E1BB92"]
+			id: "590A2645FC47A8E3"
+			rewards: [{
+				id: "64A0C1405C2F6811"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "27F856C2B8CD42C1"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["590A2645FC47A8E3"]
+			id: "27D67684A56842C5"
+			rewards: [{
+				id: "6CC518E2DD0E48D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "10F1F4CDA4063E1D"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27D67684A56842C5"]
+			id: "1FE93AD4E338D145"
+			rewards: [{
+				id: "0572D954C746294B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7AF93EE165A65344"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FE93AD4E338D145"]
+			id: "0061FC4FAC341B1B"
+			rewards: [{
+				id: "421EFE5EDAEFE7C5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A5633C482024F34"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0061FC4FAC341B1B"]
+			id: "26A1ACBCD6FF112D"
+			rewards: [{
+				id: "48C5FC69136E8A30"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "71887E24BF4652B6"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26A1ACBCD6FF112D"]
+			id: "58FC6FE93B250F71"
+			rewards: [{
+				id: "402329B69048F3F1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EB03DCB373E75A7"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+}

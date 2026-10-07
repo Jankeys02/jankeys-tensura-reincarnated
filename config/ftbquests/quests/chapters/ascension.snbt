@@ -1,0 +1,523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension"
+	group: "0F30C975BF218986"
+	icon: {
+		id: "ascension:awakening_altar"
+	}
+	id: "6370658D2DADB7B5"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["606087AD55A214CD"]
+			id: "7131ED4787B854CA"
+			rewards: [{
+				id: "74E117707C6A0A11"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2F357BDE35C1E97B"
+				item: { count: 1, id: "ascension:magicule_enhancer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "37C0EB83DE240AA3"
+			rewards: [{
+				id: "6BE9A58AED5D9745"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "76CAA5ACA04E81F5"
+					item: { count: 1, id: "ascension:basic_efficiency_rune" }
+					type: "item"
+				}
+				{
+					id: "4A53642C47EAA014"
+					item: { count: 1, id: "ascension:adept_efficiency_rune" }
+					type: "item"
+				}
+				{
+					id: "5A878B578EBE439F"
+					item: { count: 1, id: "ascension:enhanced_efficiency_rune" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C0EB83DE240AA3"]
+			hide_details_until_startable: true
+			id: "60543548BEB03AB5"
+			rewards: [{
+				id: "0508A878E8C56439"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "251E03C3562CC132"
+					item: { count: 1, id: "ascension:aura_rune" }
+					type: "item"
+				}
+				{
+					id: "58BA8E86E2546592"
+					item: { count: 1, id: "ascension:area_rune" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "74898F75C8F8C0CA"
+			rewards: [{
+				id: "69C657F090308539"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:magicule_attunement"
+				id: "11E0CC0638794F0D"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74898F75C8F8C0CA"]
+			hide_details_until_startable: true
+			id: "3D3B60D5A13FD40C"
+			rewards: [{
+				id: "07AD9DE1A3CAFB70"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:magicule_resonance"
+				id: "3E32651B87D06788"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D3B60D5A13FD40C"]
+			hide_details_until_startable: true
+			id: "0B3FCD34458A10BA"
+			rewards: [{
+				id: "118027AE37A4FDA8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				ability: "ascension:magicule_dominion"
+				id: "24553662D8702ED1"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "3853A27318EA783B"
+			rewards: [{
+				id: "2818363118167FC2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:magicule_nourishment"
+				id: "09D9EE4E80EB8B76"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "34CAD9AB0EBEB36D"
+			rewards: [{
+				id: "2055182923A78DD1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:magnetized_vacuum"
+				id: "2379FF1D26513D3A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "502CEAA8DFCC80EB"
+			rewards: [{
+				id: "6457AB3174CE7A86"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:energy_charge"
+				id: "2BB8F64EFBFA591A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["502CEAA8DFCC80EB"]
+			hide_details_until_startable: true
+			id: "7C3E93891147F6E1"
+			rewards: [{
+				id: "534F825E51E3B4C6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "ascension:maximum_charge"
+				id: "57A8145C15BFAD25"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "03D8BEA3C559791D"
+			rewards: [{
+				id: "30BDC92E6419F328"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "ascension:great_mage"
+				id: "5E178547F9316816"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03D8BEA3C559791D"]
+			hide_details_until_startable: true
+			id: "4663CB56DFAD1486"
+			rewards: [{
+				id: "324895C39CBF97F9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:magic_scribe"
+				id: "6E7F66CE5B4654C2"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "02334510CD2BF427"
+			rewards: [{
+				id: "7740C7D94AAE4B1E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "ascension:eye_of_mind"
+				id: "5D8FB5C201C3AA99"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "612AF6443730BF4C"
+			rewards: [{
+				id: "4EEABF5AFB84F810"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				ability: "ascension:angel_wings"
+				id: "1EB6E42108AFAB07"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_details_until_startable: true
+			id: "751EA452C578CC27"
+			rewards: [{
+				id: "105D9EB210645CB1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "179FE117D5FDD8BA"
+					item: { count: 1, id: "ascension:sealing_stone" }
+					type: "item"
+				}
+				{
+					id: "31ADCBD18F1D4D8C"
+					item: { count: 1, id: "ascension:suppression_stone" }
+					type: "item"
+				}
+				{
+					id: "4877A672D7BCD571"
+					item: { count: 1, id: "ascension:skill_stone" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["751EA452C578CC27"]
+			hide_details_until_startable: true
+			id: "4FA50DC4290EC853"
+			rewards: [{
+				id: "33CE798E9090AB67"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5470E88DC09A09F1"
+				item: { count: 1, id: "ascension:soul_echo" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FA50DC4290EC853"]
+			hide_details_until_startable: true
+			id: "563786E0E1767197"
+			rewards: [{
+				id: "68C5363936C37164"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "146C44E5F8867E87"
+				item: { count: 1, id: "ascension:ultimate_catalyst" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["563786E0E1767197"]
+			hide_until_deps_complete: true
+			id: "4943F1CC92D0943A"
+			rewards: [{
+				id: "07B3E19B219FEEE9"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "788AFADFD9117023"
+					item: { count: 1, id: "ascension:awakening_altar" }
+					type: "item"
+				}
+				{
+					id: "194E89C80AD9A457"
+					item: { count: 1, id: "ascension:deepslate_magic_block" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "2CBF3024ADCEC8B9"
+			optional: true
+			rewards: [{
+				id: "2D6FACBF97F44C83"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "47DF457DC8F1EA79"
+				status: "HERO"
+				type: "tensura_ftb:awakening"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "1A16855E62D4E015"
+			optional: true
+			rewards: [{
+				id: "737B751DC2F61885"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "012CC6F80092240B"
+				status: "DEMON_LORD"
+				type: "tensura_ftb:awakening"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "6FEA7EC441CDB3A1"
+			optional: true
+			rewards: [{
+				id: "41B28B64C836349A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "ascension:timeless_mage"
+				id: "1F577A44BD894F15"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "7D2CA5E1EBBFEC76"
+			optional: true
+			rewards: [{
+				id: "39454B1A1CE9FCEE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "ascension:one_who_seals"
+				id: "61AB1E46B5BA0B7F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "4F0BD898FA962B46"
+			optional: true
+			rewards: [{
+				id: "013448A63142484D"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "ascension:slayer_of_dragons"
+				id: "43B46ADD0FC7F2CB"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "3CE9E15935B78C31"
+			optional: true
+			rewards: [{
+				id: "2ACAF34E261C5DB6"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "ascension:evil_majin"
+				id: "02E368C032FC29E9"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4943F1CC92D0943A"]
+			hide_dependency_lines: true
+			id: "792FA05F6151117B"
+			optional: true
+			rewards: [{
+				id: "381FC9AE7C7559CE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				ability: "ascension:unbound_jester"
+				id: "4418B1D0443F2626"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7131ED4787B854CA"]
+			hide_dependency_lines: true
+			id: "2F622ABE5F20A036"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1C28E0CF54CBC8CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "ascension:hyperbolic_chamber"
+				id: "65597C8FA9D2CB91"
+				type: "dimension"
+			}]
+			x: 22.0d
+			y: 12.0d
+		}
+	]
+}
