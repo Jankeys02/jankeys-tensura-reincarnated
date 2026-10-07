@@ -26,7 +26,7 @@
 	quest.027C29AF84513BD6.quest_desc: ["Build a crate shop to sell your goods."]
 	quest.027C29AF84513BD6.title: "Crate Shop"
 	quest.036703521B73A4BD.quest_desc: [
-		"Use a &eschematic&r at the smithing bench. Each one unlocks new gear recipes."
+		"Hold a &eschematic&r and right-click to learn its recipes. Each one unlocks a set of gear you can then make at the smithing bench."
 		"Collect them all for &6The Master Smith&r."
 		""
 		"&6Metal path:&r silver/iron/gold + magic ore in a kiln →"
@@ -855,7 +855,7 @@
 	quest.786B1D748B0AA025.title: "Getcha Better Leathers!"
 	quest.78C1F246BA121A75.quest_desc: [
 		"The smithing bench is where Tensura gear is made."
-		"It works with &eschematics&r: each schematic unlocks a set of recipes."
+		"Its recipes come from &eschematics&r: right-click a schematic in your hand to learn the set it holds."
 	]
 	quest.78C1F246BA121A75.title: "Apprentice Smith"
 	quest.79281AF9F6F2CBBF.quest_desc: ["Kill &e100&r mobs."]
