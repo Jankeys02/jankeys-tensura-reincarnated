@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "7CBF54AB59D547A2"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "5D83D462025BF94D"
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "2153D8F42930876E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/time_keeper_trade"
@@ -88,7 +88,7 @@
 			rewards: [{
 				id: "639F34E5F371DCB1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -133,7 +133,7 @@
 			rewards: [{
 				id: "6CDDFF8C1576214B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/temporal_amber_obtained"
@@ -151,7 +151,7 @@
 			rewards: [{
 				id: "5DEE2A1C0172D968"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/temporal_amber_dust_obtained"
@@ -169,7 +169,7 @@
 			rewards: [{
 				id: "77CE56C2BD40766F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/entropy_crystal_obtained"
@@ -205,7 +205,7 @@
 			rewards: [{
 				id: "40A89DC260D24EF5"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:food/all_foods_consumed"
@@ -223,7 +223,7 @@
 			rewards: [{
 				id: "0CB860B5B2634AE4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -242,7 +242,7 @@
 			rewards: [{
 				id: "0A5BE91316EDB662"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/tier1_full_set"
@@ -260,7 +260,7 @@
 			rewards: [{
 				id: "0E161B9022379736"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us2/desert_clock_tower"
@@ -278,7 +278,7 @@
 			rewards: [{
 				id: "11014B8B4C329A49"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/tier2_full_set"
@@ -296,7 +296,7 @@
 			rewards: [{
 				id: "09411192BCF05CD8"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/clockwork_sentinel_defeated"
@@ -314,7 +314,7 @@
 			rewards: [{
 				id: "68F334ACE96AC472"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/temporal_wraith_defeated"
@@ -332,7 +332,7 @@
 			rewards: [{
 				id: "5BC061A20C82AE41"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/temporal_phantom_defeated"
@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "27DF7D21CFA930C7"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/clockwork_colossus_defeated"
@@ -368,7 +368,7 @@
 			rewards: [{
 				id: "0B537A0EB55A5130"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/entropy_keeper_defeated"
@@ -386,7 +386,7 @@
 			rewards: [{
 				id: "35DC18249D527D81"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/chronos_warden_defeated"
@@ -404,7 +404,7 @@
 			rewards: [{
 				id: "31D48CAB95893FFD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -423,7 +423,7 @@
 			rewards: [{
 				id: "119D32A3E8C1C715"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [
 				{
@@ -449,7 +449,7 @@
 			rewards: [{
 				id: "734DD36DAC6F7065"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "69BDCEB7C36520E4"
@@ -466,7 +466,7 @@
 			rewards: [{
 				id: "420EC551E86C5EF3"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/temporal_amber_full_set"
@@ -484,7 +484,7 @@
 			rewards: [{
 				id: "0123A850DBB35127"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us3/time_tyrant_defeat"
@@ -512,7 +512,7 @@
 				{
 					id: "6CA6623E73B018F3"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"
@@ -540,7 +540,7 @@
 			rewards: [{
 				id: "0F2547079C35F700"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -560,7 +560,7 @@
 			rewards: [{
 				id: "5962059D3CBC6BE5"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -580,7 +580,7 @@
 			rewards: [{
 				id: "42EBA557EB437171"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -600,7 +600,7 @@
 			rewards: [{
 				id: "4A4A92494121BAA6"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [

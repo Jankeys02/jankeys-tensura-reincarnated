@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "1033B252A9D4C6E1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "gear"
 			tasks: [{
@@ -36,7 +36,7 @@
 			rewards: [{
 				id: "6AE20D11C0A4B155"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "tensura:barren_land"
@@ -52,7 +52,7 @@
 			rewards: [{
 				id: "765E070E11EE78CD"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "tensura:miasmic_plains"
@@ -71,7 +71,7 @@
 			rewards: [{
 				id: "76CA89A923164047"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -104,7 +104,7 @@
 			rewards: [{
 				id: "0C188ECF148DAF76"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:mushroom_fields"
@@ -120,7 +120,7 @@
 			rewards: [{
 				id: "431588E12E8011E8"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:ice_spikes"
@@ -136,7 +136,7 @@
 			rewards: [{
 				id: "6B5771AA04053BD1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:badlands"
@@ -152,7 +152,7 @@
 			rewards: [{
 				id: "56C4853923D98404"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:lush_caves"
@@ -168,7 +168,7 @@
 			rewards: [{
 				id: "27C42C4EAF7212DF"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -187,7 +187,7 @@
 			rewards: [{
 				id: "0AD922211260093B"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				biome: "iceandfire:dread_forest"
@@ -203,7 +203,7 @@
 			rewards: [{
 				id: "5DDC02ECD1B929DC"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:crimson_forest"
@@ -219,7 +219,7 @@
 			rewards: [{
 				id: "5DDC27E61AD305AE"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:warped_forest"
@@ -235,7 +235,7 @@
 			rewards: [{
 				id: "3E48059BD0E3FF9D"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				biome: "minecraft:basalt_deltas"
@@ -251,7 +251,7 @@
 			rewards: [{
 				id: "0BD456D97D34D5DE"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -268,7 +268,7 @@
 			rewards: [{
 				id: "2556F8AB09D8206B"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				biome: "minecraft:end_highlands"
@@ -303,7 +303,7 @@
 			rewards: [{
 				id: "324BCC3C03424CEB"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "54EF58A0F8D1DB6A"
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "7FC6B68E25BD3472"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3CC7CEFB8A618678"
@@ -341,7 +341,7 @@
 			rewards: [{
 				id: "54752495583BA19C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "6B2E07C7A3C302EE"
@@ -363,7 +363,7 @@
 			rewards: [{
 				id: "2A3F922F9240B3C2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -383,7 +383,7 @@
 			rewards: [{
 				id: "13333DD5E9787498"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "459B45F50F45E85B"
@@ -402,7 +402,7 @@
 			rewards: [{
 				id: "1F239E5ADA8C331C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "11970A1547D362E4"
@@ -421,7 +421,7 @@
 			rewards: [{
 				id: "3FAC0D7ACA96AC5A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3AAC53A28DC580C7"
@@ -440,7 +440,7 @@
 			rewards: [{
 				id: "6546BAFEA567DC6C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "4C74FB16BCCE8E84"
@@ -459,7 +459,7 @@
 			rewards: [{
 				id: "395D627D7FFED1FB"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1BBDE1650A211FA7"
@@ -478,7 +478,7 @@
 			rewards: [{
 				id: "16D4EE6FC7AB27D7"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0597203FE7C1CD22"

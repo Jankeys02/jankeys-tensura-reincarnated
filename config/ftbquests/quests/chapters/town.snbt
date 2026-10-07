@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "53C153171E4F411C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "gear"
 			tasks: [
@@ -42,7 +42,7 @@
 			rewards: [{
 				id: "4CCC93FB3B1FAB3B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				count: 8L
@@ -58,7 +58,7 @@
 			rewards: [{
 				id: "389700F8C6934173"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				count: 16L
@@ -75,7 +75,7 @@
 			rewards: [{
 				id: "2339E7443345BA2D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				count: 16L
@@ -91,7 +91,7 @@
 			rewards: [{
 				id: "619611DDB7630491"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "4FEB82CB120E7305"
@@ -106,7 +106,7 @@
 			rewards: [{
 				id: "447B4546445BF659"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "4A79DB15DD5ECD7D"
@@ -121,7 +121,7 @@
 			rewards: [{
 				id: "7421DC2F1E6E5D85"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3431009149DEE728"
@@ -137,7 +137,7 @@
 			rewards: [{
 				id: "1B728586E728EA1E"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -154,7 +154,7 @@
 			rewards: [{
 				id: "01D685D354FDEF76"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "38EBB3B14828AE18"
@@ -169,7 +169,7 @@
 			rewards: [{
 				id: "71C2C1BAEBDC8758"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "29A85247B6B31163"
@@ -185,7 +185,7 @@
 			rewards: [{
 				id: "0CE1842ED23D4AEF"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "00A977E47618A4BC"
@@ -200,7 +200,7 @@
 			rewards: [{
 				id: "5125B47ADC833470"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:delightful_trade"
@@ -217,7 +217,7 @@
 			rewards: [{
 				id: "5601B5F4A3D535B5"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:my_precious"
@@ -234,7 +234,7 @@
 			rewards: [{
 				id: "3C10090D69C586DE"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 5
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -252,7 +252,7 @@
 			rewards: [{
 				id: "5946A08DF259C208"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0F1281F530DEE29F"

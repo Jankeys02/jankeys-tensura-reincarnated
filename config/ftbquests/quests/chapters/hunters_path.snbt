@@ -36,7 +36,7 @@
 				{
 					id: "0343663F6DB0834F"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 1
 				}
 				{
 					ability: "tensura:strength"
@@ -81,7 +81,7 @@
 				{
 					id: "499FC6443F9E86D7"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 1
 				}
 				{
 					ability: "tensura:danger_sense"
@@ -126,7 +126,7 @@
 				{
 					id: "7D862624D39538F8"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:haki"
@@ -171,7 +171,7 @@
 				{
 					id: "53F426E3C7CDB27B"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:steel_strength"
@@ -216,7 +216,7 @@
 				{
 					id: "0F9DED269514ADB0"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					ability: "tensura:physical_attack_resistance"
@@ -244,7 +244,7 @@
 			rewards: [{
 				id: "09CBD3343CBE2592"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/sniper_duel"
@@ -263,7 +263,7 @@
 			rewards: [{
 				id: "4ACA5558EB0A1ECC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/two_birds_one_arrow"
@@ -282,7 +282,7 @@
 			rewards: [{
 				id: "4794E831E53EA36D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/bullseye"
@@ -301,7 +301,7 @@
 			rewards: [{
 				id: "4ED20C0A17AC79B2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/very_very_frightening"
@@ -320,7 +320,7 @@
 			rewards: [{
 				id: "703C15287CC714BB"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"

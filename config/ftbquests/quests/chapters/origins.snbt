@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "1F1C2A7BBA2290D1"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "04639C81CF25ACB4"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:administrative_authority"
@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "08D742AC8269C467"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_spirit_haki"
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "5B2AD4BA6D973A13"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "40F17D5DB0A65C7D"
@@ -106,7 +106,7 @@
 			rewards: [{
 				id: "5445AE6AD8DAF46E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "78DF895BD7B11E17"
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "18BD8EFF139148F2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -167,7 +167,7 @@
 			rewards: [{
 				id: "468FB0FA06A49798"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -201,7 +201,7 @@
 			rewards: [{
 				id: "02EE469CE12E0759"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -230,7 +230,7 @@
 			rewards: [{
 				id: "06E41F042E0EC15B"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -300,7 +300,7 @@
 			rewards: [{
 				id: "11608B609C9A4AD5"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3B4C3C5D79E6B1D6"
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "6C4F91CC1FE347D5"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -359,7 +359,7 @@
 			rewards: [{
 				id: "6F8BA122BE1247A4"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "52161419F25F1B9C"
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: "6587246BB4DB06E6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "5B28CBB7FFD2C9B8"
@@ -395,7 +395,7 @@
 			rewards: [{
 				id: "464C6857156BFA03"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "1C05CEC65392FEDD"
@@ -413,7 +413,7 @@
 			rewards: [{
 				id: "14BDA959BD546081"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "547271824EAC9D1D"
@@ -438,7 +438,7 @@
 			rewards: [{
 				id: "260976DFB3A3FB20"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -464,7 +464,7 @@
 			rewards: [{
 				id: "377B7DDBC6B82D2C"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -501,7 +501,7 @@
 			rewards: [{
 				id: "3578142742B01F37"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3FEF7383F59E0EA2"
@@ -523,7 +523,7 @@
 			rewards: [{
 				id: "0FB826C949714EA8"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -542,7 +542,7 @@
 			rewards: [{
 				id: "47ABED5D1A3B9886"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_abyss"
@@ -561,7 +561,7 @@
 			rewards: [{
 				id: "526D30A96FD00CD9"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_earth"
@@ -580,7 +580,7 @@
 			rewards: [{
 				id: "6319B4C7ECF694F0"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_frost"
@@ -599,7 +599,7 @@
 			rewards: [{
 				id: "631571E0E188C665"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_scorch"
@@ -618,7 +618,7 @@
 			rewards: [{
 				id: "216603F268DFA01B"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_storm"
@@ -638,7 +638,7 @@
 			rewards: [{
 				id: "4DF172B955A77B6B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "03152F388CA17BF5"
@@ -657,7 +657,7 @@
 			rewards: [{
 				id: "5252DE3AD1D9DC02"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "162C08F8DE93883D"
@@ -676,7 +676,7 @@
 			rewards: [{
 				id: "4909D9CC268A398B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "7C5D688A979E4DC9"
@@ -695,7 +695,7 @@
 			rewards: [{
 				id: "6AB3E52218E818CD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3A82610BF4A1EF64"
@@ -714,7 +714,7 @@
 			rewards: [{
 				id: "5B5C8064C70D4BB3"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2D9C046B7B5E2A97"
@@ -733,7 +733,7 @@
 			rewards: [{
 				id: "5BCB437C28998F0E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "21169EB7745C89EA"
@@ -752,7 +752,7 @@
 			rewards: [{
 				id: "17A801F316EA1AD0"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "7E6CAE39A9683815"
@@ -771,7 +771,7 @@
 			rewards: [{
 				id: "1481151A1522AEF9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0A9382717AF8E5D0"
@@ -790,7 +790,7 @@
 			rewards: [{
 				id: "3AF7F0C7E14247B7"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "48246CDDF3B7A8E0"
@@ -809,7 +809,7 @@
 			rewards: [{
 				id: "3860D1DC46D94A68"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2148A0D1C21C3D35"
@@ -828,7 +828,7 @@
 			rewards: [{
 				id: "124ED7DA7994F383"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "76DF590E7CD06191"
@@ -847,7 +847,7 @@
 			rewards: [{
 				id: "762C46D2FB1E7B0E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "16329271139C4EC2"
@@ -866,7 +866,7 @@
 			rewards: [{
 				id: "58AA2A3698B9FAE6"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "792BE1DCF6813257"
@@ -885,7 +885,7 @@
 			rewards: [{
 				id: "33A5916FE6C0C00F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "53EEC12B4B70FB6E"
@@ -904,7 +904,7 @@
 			rewards: [{
 				id: "61B5BDF0820AA92C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "00D089CBD04DDCB8"
@@ -923,7 +923,7 @@
 			rewards: [{
 				id: "4D049DD3E3054F63"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "379F7BE043DEDF41"
@@ -942,7 +942,7 @@
 			rewards: [{
 				id: "76CF5168CB4E8F42"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "372BFBC1DA8BAAE7"
@@ -961,7 +961,7 @@
 			rewards: [{
 				id: "0011EC03FB0D39CD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "72F2A8826E31B977"

@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "67A6ED0FD5403D17"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "gear"
 			tasks: [{
@@ -37,7 +37,7 @@
 			rewards: [{
 				id: "1D8E7AFBC8C91549"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:forbidden_manual"
@@ -54,7 +54,7 @@
 			rewards: [{
 				id: "2908AD90AAE3AEC7"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -72,7 +72,7 @@
 			rewards: [{
 				id: "47FF8D231B2F2D41"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "7F3F3EEBE038E548"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:no_no_square"
@@ -106,7 +106,7 @@
 			rewards: [{
 				id: "55DE2B217292B16E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "tensura:hipokute_flower"
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "77687DDB09DF3A2C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "tensura:magic_seedy_place"
@@ -141,7 +141,7 @@
 				{
 					id: "3604FAB4EE2EB35F"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					id: "3C3E7ECF4746D501"
@@ -167,7 +167,7 @@
 			rewards: [{
 				id: "646C5AB10CA47D10"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:way_stone"
@@ -185,7 +185,7 @@
 			rewards: [{
 				id: "45913C327ECC458A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "tensura:rewind_time"
@@ -201,7 +201,7 @@
 			rewards: [{
 				id: "058336419A16F16E"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -220,7 +220,7 @@
 				{
 					id: "09B51A32A460E66A"
 					type: "xp_levels"
-					xp_levels: 16
+					xp_levels: 10
 				}
 				{
 					count: 2
@@ -247,7 +247,7 @@
 			rewards: [{
 				id: "5C12DF2F33B6CC83"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -264,7 +264,7 @@
 			rewards: [{
 				id: "3A25070C630F4720"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -281,7 +281,7 @@
 			rewards: [{
 				id: "70D8FD0056A49DEB"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 5
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -300,7 +300,7 @@
 			rewards: [{
 				id: "1AED7D9C0F9E86E0"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:nanoda"

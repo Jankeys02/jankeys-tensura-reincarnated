@@ -52,7 +52,7 @@
 			rewards: [{
 				id: "16ABADA59C41BCC1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "twilightforest:hedge"
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "619DFB39095143F5"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -103,7 +103,7 @@
 			rewards: [{
 				id: "5709B7F72E2E384A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0797A26194422B46"
@@ -120,7 +120,7 @@
 			rewards: [{
 				id: "355CE24E887E8B79"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_naga"
@@ -138,7 +138,7 @@
 			rewards: [{
 				id: "3D3D453191E830DB"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "twilightforest:naga_armors"
@@ -156,7 +156,7 @@
 			rewards: [{
 				id: "470B027B3E310036"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "2F3B059CC18F4AF8"
@@ -173,7 +173,7 @@
 			rewards: [{
 				id: "725E988FE97550CA"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_lich"
@@ -191,7 +191,7 @@
 			rewards: [{
 				id: "3D1E72AB1E577064"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -210,7 +210,7 @@
 			rewards: [{
 				id: "7186A1A53A532F42"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3C564E12A1D6A391"
@@ -227,7 +227,7 @@
 			rewards: [{
 				id: "4DBC7D00F68A879F"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_labyrinth"
@@ -245,7 +245,7 @@
 			rewards: [{
 				id: "713FFC83D90ED6FE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -271,7 +271,7 @@
 			rewards: [{
 				id: "4001AF7470DE16C6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "72E836E1B152A8A0"
@@ -288,7 +288,7 @@
 			rewards: [{
 				id: "4B12BA7E3517D832"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_hydra"
@@ -306,7 +306,7 @@
 			rewards: [{
 				id: "7CDD4A72A6F16607"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "twilightforest:hydra_chop"
@@ -324,7 +324,7 @@
 			rewards: [{
 				id: "4881EC600B903E63"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -343,7 +343,7 @@
 			rewards: [{
 				id: "11F47601A1820098"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "20A93C303017D82C"
@@ -360,7 +360,7 @@
 			rewards: [{
 				id: "06FE036546BC872C"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
@@ -378,7 +378,7 @@
 			rewards: [{
 				id: "1DD2597D18B23C5C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3565CDC16EC942A9"
@@ -395,7 +395,7 @@
 			rewards: [{
 				id: "0B4F4AAF28021C87"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "twilightforest:ghast_trap"
@@ -413,7 +413,7 @@
 			rewards: [{
 				id: "309451E0CA2B5181"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_ur_ghast"
@@ -431,7 +431,7 @@
 			rewards: [{
 				id: "7829AB9F8990A3CA"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "71AE40E48848AA14"
@@ -466,7 +466,7 @@
 			rewards: [{
 				id: "10377E840E2F8F60"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_troll"
@@ -484,7 +484,7 @@
 			rewards: [{
 				id: "3143FB195E1FFDBD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -528,7 +528,7 @@
 			rewards: [{
 				id: "3680FBBA06A9B0AD"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "1B053A5C8D882F91"
@@ -545,7 +545,7 @@
 			rewards: [{
 				id: "62680123EDAB8315"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_yeti"
@@ -563,7 +563,7 @@
 			rewards: [{
 				id: "253AE6B10C1A86D4"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_glacier"
@@ -581,7 +581,7 @@
 			rewards: [{
 				id: "36DC4843BD35AB1E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -600,7 +600,7 @@
 			rewards: [{
 				id: "6AB268F2F297120B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "twilightforest:fiery_set"
@@ -618,7 +618,7 @@
 			rewards: [{
 				id: "28EC6E3E8BA80E3D"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_merge"
@@ -636,7 +636,7 @@
 			rewards: [{
 				id: "15352F87DAED4349"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "twilightforest:progress_trophy_pedestal"
@@ -664,7 +664,7 @@
 				{
 					id: "6E33E733EC3BBFB2"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"
@@ -692,7 +692,7 @@
 			rewards: [{
 				id: "26DCE3F8C9F55E72"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -713,7 +713,7 @@
 			rewards: [{
 				id: "2D91533478BA23B6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -734,7 +734,7 @@
 			rewards: [{
 				id: "625E1EE2366406B7"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{

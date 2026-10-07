@@ -67,7 +67,7 @@
 			rewards: [{
 				id: "1DAEAE04E31D850A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -92,7 +92,7 @@
 			rewards: [{
 				id: "3BB1791F98D6506C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -127,7 +127,7 @@
 			rewards: [{
 				id: "2B0B26D8100B7D44"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/plant_rice"
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "5CF5F950E190A4CB"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/harvest_ropelogged_tomato"
@@ -178,7 +178,7 @@
 			rewards: [{
 				id: "1AE66EB69B28F542"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -203,7 +203,7 @@
 			rewards: [{
 				id: "5792E8FE6F1EB95B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/get_mushroom_colony"
@@ -220,7 +220,7 @@
 			rewards: [{
 				id: "129E1F698A77A642"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -257,7 +257,7 @@
 			rewards: [{
 				id: "61C923C6DCD1C96F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -275,7 +275,7 @@
 			rewards: [{
 				id: "4995E083DB37CC48"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/get_ham"
@@ -292,7 +292,7 @@
 			rewards: [{
 				id: "4BB01AAC12787CA5"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -315,7 +315,7 @@
 			rewards: [{
 				id: "0ED09632CCD4F621"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -343,7 +343,7 @@
 			rewards: [{
 				id: "6D31D85CE192B64A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/place_feast"
@@ -360,7 +360,7 @@
 			rewards: [{
 				id: "6082D6FCDC39AD0A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -378,7 +378,7 @@
 			rewards: [{
 				id: "1CAA06A3D94B7AC3"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "farmersdelight:main/obtain_netherite_knife"
@@ -405,7 +405,7 @@
 				{
 					id: "75ED2245B1D70BA3"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"
@@ -433,7 +433,7 @@
 			rewards: [{
 				id: "66A15F1573DF4D56"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{

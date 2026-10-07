@@ -26,7 +26,7 @@
 				{
 					id: "36DD7615F9A86010"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 1
 				}
 				{
 					ability: "tensura:poison_resistance"
@@ -62,7 +62,7 @@
 				{
 					id: "18ACE652120A1A52"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 1
 				}
 				{
 					ability: "tensura:thought_communication"
@@ -98,7 +98,7 @@
 				{
 					id: "470F93FAC6CE8623"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:abnormal_condition_resistance"
@@ -134,7 +134,7 @@
 				{
 					id: "7215E76CC49D4909"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:self_regeneration"
@@ -170,7 +170,7 @@
 				{
 					id: "3F27DFE33C1FA55C"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					ability: "tensura:cook"
@@ -198,7 +198,7 @@
 			rewards: [{
 				id: "2CA64ABCF444AC44"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/breed_an_animal"
@@ -217,7 +217,7 @@
 			rewards: [{
 				id: "5944CD534F0FFF28"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
@@ -236,7 +236,7 @@
 			rewards: [{
 				id: "72643F06B8B74C5E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/fishy_business"
@@ -255,7 +255,7 @@
 			rewards: [{
 				id: "02842C46947F0C47"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/balanced_diet"
@@ -274,7 +274,7 @@
 			rewards: [{
 				id: "5A18A16D008DCF46"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/silk_touch_nest"

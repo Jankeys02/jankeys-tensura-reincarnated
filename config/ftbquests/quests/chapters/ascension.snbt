@@ -34,7 +34,7 @@
 			rewards: [{
 				id: "6BE9A58AED5D9745"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -63,7 +63,7 @@
 			rewards: [{
 				id: "0508A878E8C56439"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -87,7 +87,7 @@
 			rewards: [{
 				id: "69C657F090308539"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:magicule_attunement"
@@ -105,7 +105,7 @@
 			rewards: [{
 				id: "07AD9DE1A3CAFB70"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:magicule_resonance"
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "118027AE37A4FDA8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -142,7 +142,7 @@
 			rewards: [{
 				id: "2818363118167FC2"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:magicule_nourishment"
@@ -160,7 +160,7 @@
 			rewards: [{
 				id: "2055182923A78DD1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:magnetized_vacuum"
@@ -178,7 +178,7 @@
 			rewards: [{
 				id: "6457AB3174CE7A86"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:energy_charge"
@@ -196,7 +196,7 @@
 			rewards: [{
 				id: "534F825E51E3B4C6"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:maximum_charge"
@@ -214,7 +214,7 @@
 			rewards: [{
 				id: "30BDC92E6419F328"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:great_mage"
@@ -232,7 +232,7 @@
 			rewards: [{
 				id: "324895C39CBF97F9"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:magic_scribe"
@@ -250,7 +250,7 @@
 			rewards: [{
 				id: "7740C7D94AAE4B1E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				ability: "ascension:eye_of_mind"
@@ -268,7 +268,7 @@
 			rewards: [{
 				id: "4EEABF5AFB84F810"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -287,7 +287,7 @@
 			rewards: [{
 				id: "105D9EB210645CB1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -316,7 +316,7 @@
 			rewards: [{
 				id: "33CE798E9090AB67"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5470E88DC09A09F1"
@@ -333,7 +333,7 @@
 			rewards: [{
 				id: "68C5363936C37164"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "146C44E5F8867E87"
@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "07B3E19B219FEEE9"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -376,7 +376,7 @@
 			rewards: [{
 				id: "2D6FACBF97F44C83"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				id: "47DF457DC8F1EA79"
@@ -394,7 +394,7 @@
 			rewards: [{
 				id: "737B751DC2F61885"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				id: "012CC6F80092240B"
@@ -412,7 +412,7 @@
 			rewards: [{
 				id: "41B28B64C836349A"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "ascension:timeless_mage"
@@ -431,7 +431,7 @@
 			rewards: [{
 				id: "39454B1A1CE9FCEE"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "ascension:one_who_seals"
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "013448A63142484D"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "ascension:slayer_of_dragons"
@@ -469,7 +469,7 @@
 			rewards: [{
 				id: "2ACAF34E261C5DB6"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "ascension:evil_majin"
@@ -488,7 +488,7 @@
 			rewards: [{
 				id: "381FC9AE7C7559CE"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				ability: "ascension:unbound_jester"
@@ -508,7 +508,7 @@
 			rewards: [{
 				id: "1C28E0CF54CBC8CF"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{

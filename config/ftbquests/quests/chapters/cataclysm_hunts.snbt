@@ -46,7 +46,7 @@
 			rewards: [{
 				id: "4EC78C48D022134B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -75,7 +75,7 @@
 			rewards: [{
 				id: "1B27CB39828B731B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -93,7 +93,7 @@
 			rewards: [{
 				id: "64AB7CC15C8AEC51"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_ruined_citadel"
@@ -111,7 +111,7 @@
 			rewards: [{
 				id: "6935913EB4A21E56"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_soul_black_smith"
@@ -129,7 +129,7 @@
 			rewards: [{
 				id: "7F3CCFC9CD6F40AE"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_burning_arena"
@@ -147,7 +147,7 @@
 			rewards: [{
 				id: "7735BA1A66AD76BF"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_ancient_factory"
@@ -165,7 +165,7 @@
 			rewards: [{
 				id: "3DC539B2094731C6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_sunken_city"
@@ -183,7 +183,7 @@
 			rewards: [{
 				id: "5832D43D1354C9FF"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_cursed_pyramid"
@@ -201,7 +201,7 @@
 			rewards: [{
 				id: "15E885129C5D0C5A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:find_frosted_prison"
@@ -219,7 +219,7 @@
 			rewards: [{
 				id: "668CFDB9D1FE9729"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -238,7 +238,7 @@
 			rewards: [{
 				id: "5E07D41025F97A4F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_ender_golem"
@@ -256,7 +256,7 @@
 			rewards: [{
 				id: "5BA8905D4EC647B1"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
@@ -274,7 +274,7 @@
 			rewards: [{
 				id: "1115A986EFC9DB32"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_revenant"
@@ -292,7 +292,7 @@
 			rewards: [{
 				id: "2714BFC92BCA9C3A"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
@@ -310,7 +310,7 @@
 			rewards: [{
 				id: "188FE8BB48039826"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
@@ -328,7 +328,7 @@
 			rewards: [{
 				id: "46133676AA13678C"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_remnant"
@@ -346,7 +346,7 @@
 			rewards: [{
 				id: "63BE96DA54626D8D"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
@@ -364,7 +364,7 @@
 			rewards: [{
 				id: "65783499E133C82B"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
@@ -382,7 +382,7 @@
 			rewards: [{
 				id: "5D2ECDFB0E4B0580"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_clawdian"
@@ -400,7 +400,7 @@
 			rewards: [{
 				id: "179F9CA6DA24D103"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_leviathan"
@@ -418,7 +418,7 @@
 			rewards: [{
 				id: "1EEB16403CB7CC36"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_scylla"
@@ -446,7 +446,7 @@
 				{
 					id: "1BB5234238B88DE2"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"

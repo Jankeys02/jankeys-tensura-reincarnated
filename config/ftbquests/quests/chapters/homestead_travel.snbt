@@ -48,7 +48,7 @@
 			rewards: [{
 				id: "276FF9B36FB617E1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -81,7 +81,7 @@
 			rewards: [{
 				id: "34BF51950335F007"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -104,7 +104,7 @@
 			rewards: [{
 				id: "7095608A1074C512"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -127,7 +127,7 @@
 			rewards: [{
 				id: "2591D02CB50DBA49"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "supplementaries:husbandry/wrench"
@@ -144,7 +144,7 @@
 			rewards: [{
 				id: "5D1186B8D328E978"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "supplementaries:husbandry/turn_table"
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "3C3B17205D40CD40"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0D268684FDE78A26"
@@ -177,7 +177,7 @@
 			rewards: [{
 				id: "61F469B587C7DA6B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "supplementaries:adventure/road_sign"
@@ -194,7 +194,7 @@
 			rewards: [{
 				id: "02930EA1E55C7479"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -227,7 +227,7 @@
 			rewards: [{
 				id: "6CBFC27F6DC2EA3A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "1949F2D1EA6DD325"
@@ -243,7 +243,7 @@
 			rewards: [{
 				id: "6F45D2F0D9758060"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -266,7 +266,7 @@
 			rewards: [{
 				id: "0808937CAB43BD42"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "01D6BAD0150A7925"
@@ -282,7 +282,7 @@
 			rewards: [{
 				id: "3D538B0FEDA2AEF9"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "57AB7B623C8CA3F4"
@@ -308,7 +308,7 @@
 				{
 					id: "0C155BF036EFF2B1"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: "285B95D1524D74AA"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -398,7 +398,7 @@
 			rewards: [{
 				id: "7DCB2CEB5FB33359"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{

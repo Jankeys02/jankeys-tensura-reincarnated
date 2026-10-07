@@ -52,7 +52,7 @@
 			rewards: [{
 				id: "1507DA6F4AC0096C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_seeking_eye"
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "578607A3B022E222"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "26132B192B26724C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_aurora_deer_antler"
@@ -125,7 +125,7 @@
 			rewards: [{
 				id: "737CA5D8B2C384CD"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:hire_stranghoul"
@@ -143,7 +143,7 @@
 			rewards: [{
 				id: "3BE2A8158962AE9E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:witness_stranghoul_hunt"
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "3374AA76B52F4872"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:tame_crystallized_moth"
@@ -179,7 +179,7 @@
 			rewards: [{
 				id: "37E775586A2514AC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -206,7 +206,7 @@
 			rewards: [{
 				id: "3E2FA683C247FFC1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:under_permafrost_forest"
@@ -224,7 +224,7 @@
 			rewards: [{
 				id: "16DE068DB9956C31"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_glacite_shard"
@@ -242,7 +242,7 @@
 			rewards: [{
 				id: "51ACD538E62BEE08"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_thioquartz_shard"
@@ -260,7 +260,7 @@
 			rewards: [{
 				id: "20C6884FD9F36D3F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_raw_amaramber"
@@ -278,7 +278,7 @@
 			rewards: [{
 				id: "305A68553D0A3BC9"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_deepsilver_ingot"
@@ -296,7 +296,7 @@
 			rewards: [{
 				id: "01F6440AD50E748E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -315,7 +315,7 @@
 			rewards: [{
 				id: "6B74E3442C2C1AA7"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -341,7 +341,7 @@
 			rewards: [{
 				id: "3412D0E53D2BE28C"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_scythe"
@@ -359,7 +359,7 @@
 			rewards: [{
 				id: "46F2AA82EA016A3F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_bouldershroom_stew"
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: "11E8C7D506DB51BE"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:hammer_critical_hit"
@@ -395,7 +395,7 @@
 			rewards: [{
 				id: "3AE2479E846C5D0F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -414,7 +414,7 @@
 			rewards: [{
 				id: "47973C9D900C25AD"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:enter_golem_forge"
@@ -432,7 +432,7 @@
 			rewards: [{
 				id: "762E50A5DCBA0D38"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:summon_grimstone_golem"
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "2B60AE616D0A9286"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -476,7 +476,7 @@
 			rewards: [{
 				id: "59EECFA833EBAFAB"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_golem"
@@ -494,7 +494,7 @@
 			rewards: [{
 				id: "288F51C22BBC76CE"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_permafrost"
@@ -512,7 +512,7 @@
 			rewards: [{
 				id: "18145A50647BD9F9"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:challenge_gatekeeper"
@@ -530,7 +530,7 @@
 			rewards: [{
 				id: "5FC30F9268E89833"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -549,7 +549,7 @@
 			rewards: [{
 				id: "6B958B3501DB0115"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:ignite_lunar_monstrosity"
@@ -567,7 +567,7 @@
 			rewards: [{
 				id: "6BD95D9BFF9C1B7D"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_lunar_monstrosity"
@@ -585,7 +585,7 @@
 			rewards: [{
 				id: "4FAB90672394A858"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:full_unrealium_armor"
@@ -603,7 +603,7 @@
 			rewards: [{
 				id: "373BB804F2AFEC2D"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:enter_abyss"
@@ -631,7 +631,7 @@
 				{
 					id: "28AAEE15F67158CB"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 6
 				}
 				{
 					existence: "MAX_EP"
@@ -659,7 +659,7 @@
 			rewards: [{
 				id: "1289DBAC16A618BA"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -680,7 +680,7 @@
 			rewards: [{
 				id: "3A24AB81625FED3D"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -701,7 +701,7 @@
 			rewards: [{
 				id: "4A6DD7D3E594A0E6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -722,7 +722,7 @@
 			rewards: [{
 				id: "2AAD60AA56A2D957"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
