@@ -256,7 +256,7 @@
 			rewards: [{
 				id: "5BA8905D4EC647B1"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_ender_guardian"
@@ -292,7 +292,7 @@
 			rewards: [{
 				id: "2714BFC92BCA9C3A"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_ignis"
@@ -310,7 +310,7 @@
 			rewards: [{
 				id: "188FE8BB48039826"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_monstrosity"
@@ -328,7 +328,7 @@
 			rewards: [{
 				id: "46133676AA13678C"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_remnant"
@@ -346,7 +346,7 @@
 			rewards: [{
 				id: "63BE96DA54626D8D"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_harbinger"
@@ -364,7 +364,7 @@
 			rewards: [{
 				id: "65783499E133C82B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_maledictus"
@@ -400,7 +400,7 @@
 			rewards: [{
 				id: "179F9CA6DA24D103"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_leviathan"
@@ -418,7 +418,7 @@
 			rewards: [{
 				id: "1EEB16403CB7CC36"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "cataclysm:kill_scylla"
@@ -446,7 +446,13 @@
 				{
 					id: "1BB5234238B88DE2"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "4ED592E3563B8C4D"
+					type: "tensura_ftb:existence_value"
+					value: 10000
 				}
 			]
 			shape: "hexagon"

@@ -8,7 +8,7 @@
 	}
 	id: "762061B95D980973"
 	images: [ ]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,6 +27,13 @@
 					id: "78B111D658EB0484"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					ability: "tensura:sense_heat_source"
+					id: "56E3B794FF3DA38E"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -56,6 +63,13 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					ability: "tensura:heat_resistance"
+					id: "678CF3A87C662A93"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -83,6 +97,13 @@
 					id: "26A427951C61780C"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					ability: "tensura:cold_resistance"
+					id: "30976635D63D9C6D"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -112,6 +133,13 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					ability: "tensura:farsight"
+					id: "0760AF9CD6DFAD59"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				dimension: "chronodawn:chronodawn"
@@ -138,7 +166,14 @@
 				{
 					id: "024CEB545DDA9EDB"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					ability: "tensura:spatial_attack_resistance"
+					id: "4F7ECF33C08C670D"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			shape: "hexagon"
@@ -197,7 +232,7 @@
 			rewards: [{
 				id: "3F18F7F9E2579BC6"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/adventuring_time"

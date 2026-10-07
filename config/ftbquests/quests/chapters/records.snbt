@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "records"
-	group: ""
+	group: "23917EF9497228DD"
 	icon: {
 		id: "minecraft:clock"
 	}
 	id: "166EA8169D15B1F2"
 	images: [ ]
-	order_index: 12
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

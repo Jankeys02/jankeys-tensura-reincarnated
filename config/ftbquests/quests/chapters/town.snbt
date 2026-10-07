@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "town"
-	group: ""
+	group: "51C7157F1269A7DC"
 	icon: {
 		id: "spudaciousshops:shop_oak"
 	}
 	id: "10DCBFBA4AEE7FBC"
 	images: [ ]
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

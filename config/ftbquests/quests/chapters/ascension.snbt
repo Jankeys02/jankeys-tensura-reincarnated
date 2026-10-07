@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "07B3E19B219FEEE9"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -376,7 +376,7 @@
 			rewards: [{
 				id: "2D6FACBF97F44C83"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				id: "47DF457DC8F1EA79"
@@ -394,7 +394,7 @@
 			rewards: [{
 				id: "737B751DC2F61885"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				id: "012CC6F80092240B"
@@ -412,7 +412,7 @@
 			rewards: [{
 				id: "41B28B64C836349A"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "ascension:timeless_mage"
@@ -431,7 +431,7 @@
 			rewards: [{
 				id: "39454B1A1CE9FCEE"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "ascension:one_who_seals"
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "013448A63142484D"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "ascension:slayer_of_dragons"
@@ -469,7 +469,7 @@
 			rewards: [{
 				id: "2ACAF34E261C5DB6"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "ascension:evil_majin"
@@ -488,7 +488,7 @@
 			rewards: [{
 				id: "381FC9AE7C7559CE"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "ascension:unbound_jester"

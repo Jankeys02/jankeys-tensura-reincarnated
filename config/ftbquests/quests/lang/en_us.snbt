@@ -19,20 +19,12 @@
 		"&7Legendary: most players never find one.&r"
 	]
 	quest.0088A002A3BE7CE1.title: "Lust"
-	quest.01FFF9ADC3D7F2DB.quest_desc: [
-		"&6Dwarf lineage&r · Evolution"
-		"Become a Enlightened Dwarf."
-	]
+	quest.01FFF9ADC3D7F2DB.quest_desc: ["&7&oEvery hammer blow is a sentence in a very long book.&r"]
 	quest.01FFF9ADC3D7F2DB.title: "Enlightened Dwarf"
-	quest.026E9BA18F34264E.quest_desc: [
-		"&6Beastfolk lineage&r · Divine / final form"
-		"Become a Divine Beast."
-	]
+	quest.026E9BA18F34264E.quest_desc: ["&7&oThe wild chose a sovereign.&r"]
 	quest.026E9BA18F34264E.title: "Divine Beast"
 	quest.027C29AF84513BD6.quest_desc: ["Build a crate shop to sell your goods."]
 	quest.027C29AF84513BD6.title: "Crate Shop"
-	quest.0303AC0731678D77.quest_desc: ["Steal a dragon egg from a roost."]
-	quest.0303AC0731678D77.title: "Dragon Egg"
 	quest.036703521B73A4BD.quest_desc: [
 		"Use a &eschematic&r at the smithing bench. Each one unlocks new gear recipes."
 		"Collect them all for &6The Master Smith&r."
@@ -42,10 +34,7 @@
 	]
 	quest.036703521B73A4BD.quest_subtitle: "Schematics unlock recipes"
 	quest.036703521B73A4BD.title: "Start Smithing"
-	quest.040ADA5AB0FB8B31.quest_desc: [
-		"&6Slime lineage&r · Evolution"
-		"Become a Metal Slime."
-	]
+	quest.040ADA5AB0FB8B31.quest_desc: ["&7&oThe slime remembers every shape it has eaten.&r"]
 	quest.040ADA5AB0FB8B31.title: "Metal Slime"
 	quest.0446C2B07C0732BC.quest_desc: ["Enter a Fortress of the Undead."]
 	quest.0446C2B07C0732BC.title: "A Bone to Pick"
@@ -53,26 +42,17 @@
 	quest.0494CC9F8A9C32B2.title: "Become a Real Ninja"
 	quest.051021AF617A0D65.quest_desc: ["Spot a pixie."]
 	quest.051021AF617A0D65.title: "Pixie Sighting"
-	quest.05432BFB095F474D.quest_desc: [
-		"&6Ogre lineage&r · Evolution"
-		"Become a Wicked Oni."
-	]
+	quest.05432BFB095F474D.quest_desc: ["&7&oThe ogre has learned a quieter kind of strength.&r"]
 	quest.05432BFB095F474D.title: "Wicked Oni"
 	quest.0657F1EFD5250DA3.quest_desc: ["Open one of every Lootr container type."]
 	quest.0657F1EFD5250DA3.title: "Socialised Loot"
 	quest.06FE00D920E35319.quest_desc: ["Survive the basalt deltas."]
 	quest.06FE00D920E35319.title: "Basalt Deltas"
-	quest.0715D29BC26F32E3.quest_desc: [
-		"&6Beastfolk lineage&r · Evolution"
-		"Become a Spirit Beast."
-	]
+	quest.0715D29BC26F32E3.quest_desc: ["&7&oThe pack follows the strongest. Prove it.&r"]
 	quest.0715D29BC26F32E3.title: "Spirit Beast"
 	quest.073FA249347D2BCE.quest_desc: ["Learn Analytical Appraisal."]
 	quest.073FA249347D2BCE.title: "Analytical Appraisal"
-	quest.075530C464DCF1EA.quest_desc: [
-		"&6Orc lineage&r · Divine / final form"
-		"Become a Divine Boar."
-	]
+	quest.075530C464DCF1EA.quest_desc: ["&7&oWhat ate everything now feeds the land.&r"]
 	quest.075530C464DCF1EA.title: "Divine Boar"
 	quest.07D18CF47277E0D4.quest_desc: ["Reach &e1,000 EP&r. Just an average human... for now."]
 	quest.07D18CF47277E0D4.title: "D Rank"
@@ -107,13 +87,8 @@
 	quest.0C28A286D6C5477B.title: "The King Has Arrived"
 	quest.0C888EC35914F1FF.quest_desc: ["Explore every Overworld biome added by Tensura."]
 	quest.0C888EC35914F1FF.title: "Otherworldly Biomes"
-	quest.0D325E5E0C068875.quest_desc: [
-		"&6Elf lineage&r · Base race"
-		"Become a Elf."
-	]
+	quest.0D325E5E0C068875.quest_desc: ["&7&oLong ears, long memory, long patience.&r"]
 	quest.0D325E5E0C068875.title: "Elf"
-	quest.0DACE381437226AA.quest_desc: ["Clear a Better Desert Temple."]
-	quest.0DACE381437226AA.title: "Temple Run"
 	quest.0DCC2DD6573F86A4.quest_desc: ["Reach &e6,000 EP&r."]
 	quest.0DCC2DD6573F86A4.title: "B Rank"
 	quest.0E78B805AA76B260.quest_desc: ["Create dragonsteel from dragon blood and iron."]
@@ -137,10 +112,7 @@
 	quest.0EDC28821D9A7774.title: "Organised Chaos"
 	quest.0F02224B909262C4.quest_desc: ["Defeat Carrion, the Beast Master."]
 	quest.0F02224B909262C4.title: "The Lion King"
-	quest.0FA84022F4B3FD73.quest_desc: [
-		"&6Orc lineage&r · Evolution"
-		"Become a Orc Disaster."
-	]
+	quest.0FA84022F4B3FD73.quest_desc: ["&7&oThe hunger has found a purpose.&r"]
 	quest.0FA84022F4B3FD73.title: "Orc Disaster"
 	quest.0FC1BEAC49FCA86D.quest_desc: [
 		"Reach &e1,000&r maximum magicules."
@@ -155,15 +127,9 @@
 	quest.103745E3AC96B6B0.title: "Jungle Fliers"
 	quest.107CEB05F0F2CA93.quest_desc: ["Create the legendary pixie weapon."]
 	quest.107CEB05F0F2CA93.title: "Where Is My Mind?"
-	quest.1089F2133BF02FFF.quest_desc: [
-		"&6Goblin lineage&r · Evolution"
-		"Become a Enlightened Hobgoblin."
-	]
+	quest.1089F2133BF02FFF.quest_desc: ["&7&oA name changes what a goblin can be.&r"]
 	quest.1089F2133BF02FFF.title: "Enlightened Hobgoblin"
-	quest.10B2213FE4B60EB3.quest_desc: [
-		"&6Merfolk lineage&r · Divine / final form"
-		"Become a Divine Fish."
-	]
+	quest.10B2213FE4B60EB3.quest_desc: ["&7&oThe tide answers to one voice.&r"]
 	quest.10B2213FE4B60EB3.title: "Divine Fish"
 	quest.1120EF8D27385175.quest_desc: [
 		"{\"text\": \"\", \"extra\": [\"Open the Tensura menu with \", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}, \" and pick your race.\"]}"
@@ -174,8 +140,6 @@
 	]
 	quest.1120EF8D27385175.quest_subtitle: "Choose who you become"
 	quest.1120EF8D27385175.title: "Reborn"
-	quest.113A0FF5189E0BF3.quest_desc: ["Clear a YUNG's zombie dungeon."]
-	quest.113A0FF5189E0BF3.title: "Down in the Dark"
 	quest.11A9B205C6C788EE.quest_desc: ["Obtain a warp pad. Warp pads teleport you for a &emagicule cost per block&r travelled."]
 	quest.11A9B205C6C788EE.title: "It's a Way Stone?"
 	quest.11FBA5BE9C5D74E5.quest_desc: ["Have a subordinate of each race: &eDirewolf, Goblin, Lizardman, Orc and Slime&r."]
@@ -214,13 +178,11 @@
 	quest.147B4B103A5E1A5D.quest_desc: ["A thatch bed: rustic, cheap, and it skips the night."]
 	quest.147B4B103A5E1A5D.title: "Tatami Dreams"
 	quest.1498C58D46668368.quest_desc: [
-		"Each row is one lineage. The quests here are optional and complete"
-		"whenever you ARE that race, so your route doesn't matter."
-		"{\"text\": \"\", \"extra\": [\"Check requirements in the Tensura menu's evolution screen (\", {\"keybind\": \"tensura.keybinding.main_gui\", \"color\": \"yellow\"}, \").\"]}"
-		"&7Divine forms reward a nether star.&r"
+		"&7&oThe World writes down what you are, not what you were.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" Each row is one lineage. Until your race is recorded, the first race of every row is shown; afterwards only your own lineage stays, and its final forms appear. A race is recorded when you log in as it, or when you open its quest and click the race task while you hold it. Divine forms reward a nether star. Requirements for each evolution are in the Tensura menu (\"},{\"keybind\":\"tensura.keybinding.main_gui\",\"color\":\"yellow\",\"bold\":true},{\"text\":\"). If you change lineage with a race reset scroll, an operator can reopen the rows: /ftbquests change_progress <you> reset <quest id of your old first race>.\"}]}"
 	]
 	quest.1498C58D46668368.quest_subtitle: "Every race, every form"
-	quest.1498C58D46668368.title: "Growth Spurt"
+	quest.1498C58D46668368.title: "Paths of Evolution"
 	quest.14C1ABA7CFBDB626.quest_desc: ["Complete a trade and get coins."]
 	quest.14C1ABA7CFBDB626.title: "A Deal-ightful Trade"
 	quest.157A94DC1DB1406C.quest_desc: [
@@ -236,19 +198,13 @@
 	quest.15E0A0CC8B26A397.title: "Miasmic Plains"
 	quest.164FA847DC8A6FF5.quest_desc: ["Ride an Evil Centipede or a Tempest Serpent."]
 	quest.164FA847DC8A6FF5.title: "Choo Choo!"
-	quest.166CDBE335B34B78.quest_desc: [
-		"&6Vampire lineage&r · Evolution"
-		"Become a Vampire Lord."
-	]
+	quest.166CDBE335B34B78.quest_desc: ["&7&oThe thirst learns manners.&r"]
 	quest.166CDBE335B34B78.title: "Vampire Lord"
 	quest.169236E11AB90303.quest_desc: ["Consume a bucketed slime with skills."]
 	quest.169236E11AB90303.title: "Traitor!"
 	quest.16BA2F145C472041.quest_desc: ["Acquire the Unique Skill &bGreat Sage&r. \"Answer: ...\""]
 	quest.16BA2F145C472041.title: "Great Sage"
-	quest.16CA842ED82CD402.quest_desc: [
-		"&6Lizardman lineage&r · Evolution"
-		"Become a Dragonewt."
-	]
+	quest.16CA842ED82CD402.quest_desc: ["&7&oScales learn to remember fire.&r"]
 	quest.16CA842ED82CD402.title: "Dragonewt"
 	quest.17F325079CC1FC5B.quest_desc: ["Open 10 Lootr containers."]
 	quest.17F325079CC1FC5B.title: "Delightful Decade"
@@ -256,10 +212,7 @@
 	quest.1806CCA9857CAD6A.title: "Orc Disaster"
 	quest.185902F88B2681FF.quest_desc: ["Upgrade to a Mithril Kiln."]
 	quest.185902F88B2681FF.title: "The Even Better Smelter"
-	quest.188D23CC6434B1A1.quest_desc: [
-		"&6Wight lineage&r · Evolution"
-		"Become a Wight King."
-	]
+	quest.188D23CC6434B1A1.quest_desc: ["&7&oBone remembers. Muscle does not.&r"]
 	quest.188D23CC6434B1A1.title: "Wight King"
 	quest.19110656114D52A1.quest_desc: ["Obtain a Bone Golem to fight for you."]
 	quest.19110656114D52A1.title: "Build a Body"
@@ -273,19 +226,13 @@
 	quest.19CFF34234029D40.title: "Unholy Tourism"
 	quest.19D07478B7136FC7.quest_desc: ["Monsters here hit harder than vanilla. Wear something."]
 	quest.19D07478B7136FC7.title: "Suit Up"
-	quest.1A59ACF7C280881D.quest_desc: [
-		"&6Dwarf lineage&r · Divine / final form"
-		"Become a Divine Dwarf."
-	]
+	quest.1A59ACF7C280881D.quest_desc: ["&7&oThe mountain has a name for you now.&r"]
 	quest.1A59ACF7C280881D.title: "Divine Dwarf"
 	quest.1B1648A69B5F84F0.quest_desc: ["Visit the badlands."]
 	quest.1B1648A69B5F84F0.title: "Red Rock Country"
 	quest.1B8CA89E0206CFFB.quest_desc: ["Trade with villagers &e100&r times."]
 	quest.1B8CA89E0206CFFB.title: "Merchant Prince"
-	quest.1BC1502BE01870DA.quest_desc: [
-		"&6Dwarf lineage&r · Evolution"
-		"Become a Dwarf Saint."
-	]
+	quest.1BC1502BE01870DA.quest_desc: ["&7&oEvery hammer blow is a sentence in a very long book.&r"]
 	quest.1BC1502BE01870DA.title: "Dwarf Saint"
 	quest.1C66EE20AA9669CE.quest_desc: [
 		"Smelt or find a &fsilver ingot&r."
@@ -299,24 +246,15 @@
 	quest.1DBBB06CD1D22730.title: "Professional Dungeoneer"
 	quest.1E2A45DEC21E500A.quest_desc: ["Visit a cherry grove."]
 	quest.1E2A45DEC21E500A.title: "Pink Paradise"
-	quest.1F112D4F842897A1.quest_desc: [
-		"&6Harpy lineage&r · Divine / final form"
-		"Become a Divine Bird."
-	]
+	quest.1F112D4F842897A1.quest_desc: ["&7&oA bird the sky itself steps aside for.&r"]
 	quest.1F112D4F842897A1.title: "Divine Bird"
 	quest.1F2107E945734BB0.quest_desc: ["Obtain a &eMagic Grimoire&r."]
 	quest.1F2107E945734BB0.title: "Booked on Magic"
-	quest.1F6B465C3E2DAC25.quest_desc: [
-		"&6Giant lineage&r · Base race"
-		"Become a Giant."
-	]
+	quest.1F6B465C3E2DAC25.quest_desc: ["&7&oLarge, slow, and impossible to ignore.&r"]
 	quest.1F6B465C3E2DAC25.title: "Giant"
 	quest.1F70B8E6BA084E53.quest_desc: ["Achieve Mass Naming by finishing raids or killing human mobs without dying."]
 	quest.1F70B8E6BA084E53.title: "Infamy and Fame"
-	quest.1F88480D77B5C1BA.quest_desc: [
-		"&6Daemon lineage&r · Evolution"
-		"Become a Greater Daemon."
-	]
+	quest.1F88480D77B5C1BA.quest_desc: ["&7&oEvery daemon is a bargain waiting to happen.&r"]
 	quest.1F88480D77B5C1BA.title: "Greater Daemon"
 	quest.1FAE78D6EDB2F04C.quest_desc: ["Magic crystal bricks: the fanciest block in Tempest."]
 	quest.1FAE78D6EDB2F04C.title: "Crystal Palace"
@@ -324,10 +262,7 @@
 	quest.1FD5516BBB1F5AA1.title: "Who's a Good Boy?"
 	quest.1FE180C4596E92D0.quest_desc: ["Spot a sylphide, a wind spirit."]
 	quest.1FE180C4596E92D0.title: "Sylphide Sighting"
-	quest.201C5541F467CCAF.quest_desc: [
-		"&6Ogre lineage&r · Evolution"
-		"Become a Kijin."
-	]
+	quest.201C5541F467CCAF.quest_desc: ["&7&oThe ogre has learned a quieter kind of strength.&r"]
 	quest.201C5541F467CCAF.title: "Kijin"
 	quest.2039B232340D9A30.quest_desc: [
 		"Acquire the Unique Skill &cSloth&r, one of the seven deadly sins."
@@ -376,10 +311,7 @@
 	quest.2570AD68C4BA6112.title: "Aura II"
 	quest.25F383B5D71150BD.quest_desc: ["Discover the Frosted Caves."]
 	quest.25F383B5D71150BD.title: "Cool, Cool Cave"
-	quest.2769B38E3593AAC4.quest_desc: [
-		"&6Giant lineage&r · Evolution"
-		"Become a Ancient Giant."
-	]
+	quest.2769B38E3593AAC4.quest_desc: ["&7&oThe old giants remember holding up the sky.&r"]
 	quest.2769B38E3593AAC4.title: "Ancient Giant"
 	quest.27950EF264385970.quest_desc: ["Reach the End highlands."]
 	quest.27950EF264385970.title: "The Outer End"
@@ -429,44 +361,29 @@
 	quest.2E3114917EC6B975.quest_desc: ["Become a &bHero's Egg&r. The first step to awakening as a True Hero."]
 	quest.2E3114917EC6B975.quest_subtitle: "The path of the Hero"
 	quest.2E3114917EC6B975.title: "Hero's Egg"
-	quest.2ED606F90DAC40FD.quest_desc: [
-		"&6Wight lineage&r · Base race"
-		"Become a Wight."
-	]
+	quest.2ED606F90DAC40FD.quest_desc: ["&7&oWhat stood up should have stayed down.&r"]
 	quest.2ED606F90DAC40FD.title: "Wight"
 	quest.2EDB01CDE3E3A5FA.quest_desc: ["Cast a max-level Explosion."]
 	quest.2EDB01CDE3E3A5FA.title: "Explosions, La La La!"
-	quest.30692FB040F69AF1.quest_desc: [
-		"&6Orc lineage&r · Base race"
-		"Become a Orc."
-	]
+	quest.30692FB040F69AF1.quest_desc: ["&7&oHunger, with tusks.&r"]
 	quest.30692FB040F69AF1.title: "Orc"
 	quest.30D9E1E13DA185A7.quest_desc: ["Eat an Artifact. Yes, really."]
 	quest.30D9E1E13DA185A7.title: "Adventurous Eater"
 	quest.3131CD6B040303A8.quest_desc: ["Craft a Dragon Knuckle."]
 	quest.3131CD6B040303A8.title: "Bad to Be Strong"
-	quest.316B0AF8B93B1655.quest_desc: [
-		"&6Harpy lineage&r · Evolution"
-		"Become a Spirit Bird."
-	]
+	quest.316B0AF8B93B1655.quest_desc: ["&7&oThe sky has rules, and you are learning them.&r"]
 	quest.316B0AF8B93B1655.title: "Spirit Bird"
 	quest.31A1C5FC4AAD42FA.quest_desc: ["Mine enchanted ice."]
 	quest.31A1C5FC4AAD42FA.title: "Breaking the Ice"
 	quest.31C325A4907C4233.quest_desc: ["Direwolves hunt goblins. Hunt them first."]
-	quest.31C325A4907C4233.title: "Hear Me, Direwolves"
+	quest.31C325A4907C4233.title: "Pack Hunters"
 	quest.31DB705917346CC8.quest_desc: ["Learn Ultraspeed Regeneration."]
 	quest.31DB705917346CC8.title: "Ultraspeed Regeneration"
-	quest.31DEDCCCBE3366B0.quest_desc: [
-		"&6Human lineage&r · Divine / final form"
-		"Become a Divine Human."
-	]
+	quest.31DEDCCCBE3366B0.quest_desc: ["&7&oThe most ordinary thing in the world, made holy.&r"]
 	quest.31DEDCCCBE3366B0.title: "Divine Human"
 	quest.32923A4C4099D9A7.quest_desc: ["When Dungeons Arise: find a bandit village."]
 	quest.32923A4C4099D9A7.title: "Bandit Territory"
-	quest.32DFA7526890F5D3.quest_desc: [
-		"&6Ogre lineage&r · Divine / final form"
-		"Become a Divine Fighter."
-	]
+	quest.32DFA7526890F5D3.quest_desc: ["&7&oThe oni has stopped needing the sword.&r"]
 	quest.32DFA7526890F5D3.title: "Divine Fighter"
 	quest.32EC48451B2F0C08.quest_desc: [
 		"Tame any monster. Subordinates can be set to &eAggressive&r, &eNeutral&r,"
@@ -483,10 +400,7 @@
 	quest.33587B2363C7D082.title: "Living Legend"
 	quest.35277EAF70F70E39.quest_desc: ["Smelt or find a gold ingot."]
 	quest.35277EAF70F70E39.title: "Gold Rush"
-	quest.36962A6BF5CC0937.quest_desc: [
-		"&6Slime lineage&r · Evolution"
-		"Become a Demon Slime."
-	]
+	quest.36962A6BF5CC0937.quest_desc: ["&7&oThe slime remembers every shape it has eaten.&r"]
 	quest.36962A6BF5CC0937.title: "Demon Slime"
 	quest.370064E1242B3682.quest_desc: ["Upgrade a Sophisticated chest in place, without emptying it."]
 	quest.370064E1242B3682.title: "Bigger Chests"
@@ -494,10 +408,7 @@
 	quest.3763BE464EFFBF11.title: "The Song of the Dragons"
 	quest.379FD8D623B1B3CF.quest_desc: ["Smelt your first iron ingot."]
 	quest.379FD8D623B1B3CF.title: "Iron Will"
-	quest.37B79C9A1164C37F.quest_desc: [
-		"&6Lizardman lineage&r · Divine / final form"
-		"Become a Divine Dragon."
-	]
+	quest.37B79C9A1164C37F.quest_desc: ["&7&oThe marsh dreamed of dragons. One of them woke.&r"]
 	quest.37B79C9A1164C37F.title: "Divine Dragon"
 	quest.3840F39A09748D92.quest_desc: ["Find a small Nether dungeon."]
 	quest.3840F39A09748D92.title: "A Special Addition"
@@ -556,17 +467,11 @@
 	quest.3EA817C089B16C32.title: "Dedicated"
 	quest.3ED037AA91AEDCA2.quest_desc: ["Obtain a Hipokute flower."]
 	quest.3ED037AA91AEDCA2.title: "Hiccup-te"
-	quest.3EDF96C710319F35.quest_desc: [
-		"&6Vampire lineage&r · Divine / final form"
-		"Become a Divine Vampire."
-	]
+	quest.3EDF96C710319F35.quest_desc: ["&7&oBeyond thirst, beyond night, beyond the need to hide.&r"]
 	quest.3EDF96C710319F35.title: "Divine Vampire"
 	quest.3EFAE8C117455633.quest_desc: ["Form a contract with a lesser &eSpace&r spirit."]
 	quest.3EFAE8C117455633.title: "Space Spirit"
-	quest.402A1B45EF47578F.quest_desc: [
-		"&6Ogre lineage&r · Base race"
-		"Become a Ogre."
-	]
+	quest.402A1B45EF47578F.quest_desc: ["&7&oHorns, a grudge, and a very good sword arm.&r"]
 	quest.402A1B45EF47578F.title: "Ogre"
 	quest.403FFB9B050D2430.quest_desc: ["Master a Unique skill."]
 	quest.403FFB9B050D2430.title: "Unique Mastery"
@@ -596,10 +501,7 @@
 	quest.440388226A5795E5.title: "Overwhelming Aura"
 	quest.44FBF65092FB01A8.quest_desc: ["Use a weapon with 3 elemental cores slotted."]
 	quest.44FBF65092FB01A8.title: "Infinity Cores"
-	quest.4528E715C7D45EB6.quest_desc: [
-		"&6Elf lineage&r · Divine / final form"
-		"Become a Divine Elf."
-	]
+	quest.4528E715C7D45EB6.quest_desc: ["&7&oOlder than the forest, and kinder than it looks.&r"]
 	quest.4528E715C7D45EB6.title: "Divine Elf"
 	quest.455E041A4AA954D0.quest_desc: ["Defeat Hinata Sakaguchi."]
 	quest.455E041A4AA954D0.title: "The Great Saint of the West"
@@ -613,10 +515,7 @@
 	quest.46967FB979ECDEB7.title: "Biological Steel?"
 	quest.46AE059C076DE53B.quest_desc: ["Learn Pain Resistance."]
 	quest.46AE059C076DE53B.title: "Pain Resistance"
-	quest.46C7D03A7BCC4323.quest_desc: [
-		"&6Slime lineage&r · Base race"
-		"Become a Slime."
-	]
+	quest.46C7D03A7BCC4323.quest_desc: ["&7&oSoft, round, and underestimated.&r"]
 	quest.46C7D03A7BCC4323.title: "Slime"
 	quest.4735E3D704BF2DC7.quest_desc: ["Set foot in a catacomb."]
 	quest.4735E3D704BF2DC7.title: "When in Rome"
@@ -635,10 +534,7 @@
 	quest.4AA0CBB0E8A58C39.title: "Mastery"
 	quest.4B66239F2D3C49E8.quest_desc: ["Find a stronghold."]
 	quest.4B66239F2D3C49E8.title: "Seek the Eye"
-	quest.4B85546C8653ACAD.quest_desc: [
-		"&6Ogre lineage&r · Evolution"
-		"Become a Spirit Oni."
-	]
+	quest.4B85546C8653ACAD.quest_desc: ["&7&oThe ogre has learned a quieter kind of strength.&r"]
 	quest.4B85546C8653ACAD.title: "Spirit Oni"
 	quest.4BF10FCB026D963A.quest_desc: [
 		"Name a mob to make it your subordinate. Naming can evolve it."
@@ -660,10 +556,7 @@
 	quest.4CC24E104101893D.title: "Why..?"
 	quest.4D328D69C7EF1D3F.quest_desc: ["Jump &e10,000&r times."]
 	quest.4D328D69C7EF1D3F.title: "Bunny Hop"
-	quest.4D6D3DA033C69A50.quest_desc: [
-		"&6Human lineage&r · Base race"
-		"Become a Human."
-	]
+	quest.4D6D3DA033C69A50.quest_desc: ["&7&oOrdinary, which is a kind of freedom.&r"]
 	quest.4D6D3DA033C69A50.title: "Human"
 	quest.4DA35C916A223439.quest_desc: ["Reach &e1,000,000&r maximum magicules. Divine-race territory."]
 	quest.4DA35C916A223439.title: "Sea of Magicules"
@@ -675,10 +568,7 @@
 	quest.4ECB92C3A88C7679.title: "Aura I"
 	quest.4F69F2DE1A885086.quest_desc: ["Forge a dragonsteel weapon."]
 	quest.4F69F2DE1A885086.title: "Draconic Evolution"
-	quest.50258871747D3261.quest_desc: [
-		"&6Human lineage&r · Evolution"
-		"Become a Human Saint."
-	]
+	quest.50258871747D3261.quest_desc: ["&7&oAn ordinary life, lived unusually well.&r"]
 	quest.50258871747D3261.title: "Human Saint"
 	quest.503DBFB104566626.quest_desc: ["Slay a ghost."]
 	quest.503DBFB104566626.title: "Who You Gonna Call?"
@@ -694,27 +584,15 @@
 	quest.50E01DA55A2FB81C.title: "Demon Lord Seed"
 	quest.50F6171FDAB689C2.quest_desc: ["Craft a mining station."]
 	quest.50F6171FDAB689C2.title: "Industrial Revolution"
-	quest.516CC7F14EFA8AEA.quest_desc: [
-		"&6Vampire lineage&r · Evolution"
-		"Become a Vampire Overcomer."
-	]
+	quest.516CC7F14EFA8AEA.quest_desc: ["&7&oThe thirst learns manners.&r"]
 	quest.516CC7F14EFA8AEA.title: "Vampire Overcomer"
 	quest.517A90A591E2DB21.quest_desc: ["Thatch roofs, goblin-village style."]
 	quest.517A90A591E2DB21.title: "Village Roofs"
-	quest.5182A93FEB4CDC63.quest_desc: [
-		"&6Giant lineage&r · Divine / final form"
-		"Become a Divine Giant."
-	]
+	quest.5182A93FEB4CDC63.quest_desc: ["&7&oMountains stand because something taught them how.&r"]
 	quest.5182A93FEB4CDC63.title: "Divine Giant"
-	quest.51B3782F2DF608EB.quest_desc: [
-		"&6Beastfolk lineage&r · Base race"
-		"Become a Beastfolk."
-	]
+	quest.51B3782F2DF608EB.quest_desc: ["&7&oClaws, fur, and an opinion about hierarchy.&r"]
 	quest.51B3782F2DF608EB.title: "Beastfolk"
-	quest.521233726EB14E0F.quest_desc: [
-		"&6Harpy lineage&r · Base race"
-		"Become a Harpy."
-	]
+	quest.521233726EB14E0F.quest_desc: ["&7&oFeathers first, questions later.&r"]
 	quest.521233726EB14E0F.title: "Harpy"
 	quest.52B6743654E4695F.quest_desc: ["Find the lush caves."]
 	quest.52B6743654E4695F.title: "Underground Garden"
@@ -753,10 +631,7 @@
 	quest.5620DDEF33310C4B.title: "The Master Smith"
 	quest.563A79B4738256A6.quest_desc: ["Reach &e10,000&r maximum magicules."]
 	quest.563A79B4738256A6.title: "Magicule Reserves II"
-	quest.564718864D61028A.quest_desc: [
-		"&6Merfolk lineage&r · Base race"
-		"Become a Merfolk."
-	]
+	quest.564718864D61028A.quest_desc: ["&7&oThe sea has its own cities.&r"]
 	quest.564718864D61028A.title: "Merfolk"
 	quest.56F093C77C60DC76.quest_desc: ["Get the Nanoda disc by having a Charybdis kill an Orc Disaster. Good luck."]
 	quest.56F093C77C60DC76.title: "Nanoda!!!"
@@ -768,10 +643,7 @@
 	quest.57136F93D7DC87DB.title: "Explorer's Journal"
 	quest.575D949A6E1C4F7E.quest_desc: ["Reach &e100,000&r maximum aura."]
 	quest.575D949A6E1C4F7E.title: "Aura III"
-	quest.57BC6D775E9DFF54.quest_desc: [
-		"&6Merfolk lineage&r · Evolution"
-		"Become a Enlightened Merfolk."
-	]
+	quest.57BC6D775E9DFF54.quest_desc: ["&7&oDeep water, deeper songs.&r"]
 	quest.57BC6D775E9DFF54.title: "Enlightened Merfolk"
 	quest.57F59FC5F94AD543.quest_desc: ["Kill a fire, ice or lightning dragon."]
 	quest.57F59FC5F94AD543.title: "Dragonslayer"
@@ -783,22 +655,13 @@
 	quest.58A1D041D9AA26C5.title: "Magic Resistance"
 	quest.58FA2FF88CC7F1BD.quest_desc: ["Reach &e100,000&r maximum magicules."]
 	quest.58FA2FF88CC7F1BD.title: "Magicule Reserves III"
-	quest.59C6CBEB4367810D.quest_desc: [
-		"&6Wight lineage&r · Evolution"
-		"Become a Spirit Skeleton."
-	]
+	quest.59C6CBEB4367810D.quest_desc: ["&7&oBone remembers. Muscle does not.&r"]
 	quest.59C6CBEB4367810D.title: "Spirit Skeleton"
 	quest.5A2629810492E443.quest_desc: ["Visit the Barren Land."]
 	quest.5A2629810492E443.title: "Barren Land"
-	quest.5A2C7A1DD7094ADC.quest_desc: [
-		"&6Ogre lineage&r · Divine / final form"
-		"Become a Divine Oni."
-	]
+	quest.5A2C7A1DD7094ADC.quest_desc: ["&7&oThe oni has stopped needing the sword.&r"]
 	quest.5A2C7A1DD7094ADC.title: "Divine Oni"
-	quest.5A3B6687C922B135.quest_desc: [
-		"&6Harpy lineage&r · Evolution"
-		"Become a Harpy Queen."
-	]
+	quest.5A3B6687C922B135.quest_desc: ["&7&oThe sky has rules, and you are learning them.&r"]
 	quest.5A3B6687C922B135.title: "Harpy Queen"
 	quest.5B668D40B56A792F.quest_desc: ["Craft a &eMonster Saddle&r and ride your subordinates."]
 	quest.5B668D40B56A792F.title: "Monster Rider"
@@ -812,10 +675,7 @@
 	quest.5D22783309CE8C54.title: "Better Fortress"
 	quest.5D5FFE73E1D51420.quest_desc: ["Sprint &e50 km&r."]
 	quest.5D5FFE73E1D51420.title: "Marathon"
-	quest.5DFFE504E99862EF.quest_desc: [
-		"&6Lizardman lineage&r · Evolution"
-		"Become a True Dragonewt."
-	]
+	quest.5DFFE504E99862EF.quest_desc: ["&7&oScales learn to remember fire.&r"]
 	quest.5DFFE504E99862EF.title: "True Dragonewt"
 	quest.5E47EC47958D466E.quest_desc: ["Brew a Potion of Frost."]
 	quest.5E47EC47958D466E.title: "Brain Freeze"
@@ -825,10 +685,7 @@
 	quest.5E94391E40AE9F8F.title: "No Life"
 	quest.5EA1258B81F06949.quest_desc: ["Learn Danger Sense."]
 	quest.5EA1258B81F06949.title: "Danger Sense"
-	quest.5F31547423552138.quest_desc: [
-		"&6Human lineage&r · Evolution"
-		"Become a Enlightened Human."
-	]
+	quest.5F31547423552138.quest_desc: ["&7&oAn ordinary life, lived unusually well.&r"]
 	quest.5F31547423552138.title: "Enlightened Human"
 	quest.5F9315AA83604871.quest_desc: [
 		"Acquire the Unique Skill &cGluttony&r, one of the seven deadly sins."
@@ -840,17 +697,11 @@
 		"&7Special-A (100,000 EP) and Special-S (800,000 EP) are in Arcana and Wonders.&r"
 	]
 	quest.5FDDA47B4C63F66D.title: "S Rank"
-	quest.60436D566907215C.quest_desc: [
-		"&6Orc lineage&r · Evolution"
-		"Become a Spirit Boar."
-	]
+	quest.60436D566907215C.quest_desc: ["&7&oThe hunger has found a purpose.&r"]
 	quest.60436D566907215C.title: "Spirit Boar"
 	quest.615C752ED4A2D0A5.quest_desc: ["Spot a fire dragon. From a safe distance."]
 	quest.615C752ED4A2D0A5.title: "Here Be Dragons"
-	quest.6172A474088AF38D.quest_desc: [
-		"&6Goblin lineage&r · Base race"
-		"Become a Goblin."
-	]
+	quest.6172A474088AF38D.quest_desc: ["&7&oSmall, many, and waiting for a name.&r"]
 	quest.6172A474088AF38D.title: "Goblin"
 	quest.62B7289DD49F6952.quest_desc: ["Spot an undine, a water spirit."]
 	quest.62B7289DD49F6952.title: "Undine Sighting"
@@ -870,15 +721,9 @@
 	quest.657BECF97A2FAAFA.title: "Calamity Monster"
 	quest.65B2B2B98AA63D46.quest_desc: ["Old wizards left spellbooks behind."]
 	quest.65B2B2B98AA63D46.title: "Ruined Wizard Tower"
-	quest.661972A82D8C9BD2.quest_desc: [
-		"&6Vampire lineage&r · Base race"
-		"Become a Vampire."
-	]
+	quest.661972A82D8C9BD2.quest_desc: ["&7&oNight is a diet as much as a time.&r"]
 	quest.661972A82D8C9BD2.title: "Vampire"
-	quest.6650FE83F68843E1.quest_desc: [
-		"&6Elf lineage&r · Evolution"
-		"Become a Enlightened Elf."
-	]
+	quest.6650FE83F68843E1.quest_desc: ["&7&oThe forest keeps count of its favourites.&r"]
 	quest.6650FE83F68843E1.title: "Enlightened Elf"
 	quest.66AAF48E079BC5CD.quest_desc: [
 		"Open your first Lootr chest. Loot is &eper player&r, so friends never steal your share."
@@ -893,10 +738,7 @@
 	quest.66E83A9F48E4FE54.title: "Stone Age"
 	quest.66F0BB90184361B7.quest_desc: ["Defeat Rimuru himself."]
 	quest.66F0BB90184361B7.title: "The Monster Ruler"
-	quest.670BE2271E3767C1.quest_desc: [
-		"&6Daemon lineage&r · Divine / final form"
-		"Become a Devil Lord."
-	]
+	quest.670BE2271E3767C1.quest_desc: ["&7&oThe abyss has a lord, and it is you.&r"]
 	quest.670BE2271E3767C1.title: "Devil Lord"
 	quest.674B79271673826E.quest_desc: ["Slay a hydra."]
 	quest.674B79271673826E.title: "The Twelve Labors of Hercules"
@@ -916,17 +758,11 @@
 	quest.69DC9F0CB3EE001B.title: "Something in the Water"
 	quest.6A439E3DF277615E.quest_desc: ["Find a mushroom island. No hostile mobs spawn there."]
 	quest.6A439E3DF277615E.title: "Fungal Island"
-	quest.6BD369F17796E2F5.quest_desc: [
-		"&6Daemon lineage&r · Evolution"
-		"Become a Daemon Lord."
-	]
+	quest.6BD369F17796E2F5.quest_desc: ["&7&oEvery daemon is a bargain waiting to happen.&r"]
 	quest.6BD369F17796E2F5.title: "Daemon Lord"
 	quest.6C3794E0955EC803.quest_desc: ["Slay an Armorsaurus for scales and shell."]
 	quest.6C3794E0955EC803.title: "Shell Lizard"
-	quest.6D33202657254C72.quest_desc: [
-		"&6Ogre lineage&r · Evolution"
-		"Become a Death Oni."
-	]
+	quest.6D33202657254C72.quest_desc: ["&7&oThe ogre has learned a quieter kind of strength.&r"]
 	quest.6D33202657254C72.title: "Death Oni"
 	quest.6D92CC332EAFB996.quest_desc: [
 		"Acquire the Unique Skill &cPride&r, one of the seven deadly sins."
@@ -940,10 +776,7 @@
 	quest.6DAAB5EF51DF8DB6.title: "100 Slimes vs 1 Gorilla"
 	quest.6EC2DA6F1C1E5F41.quest_desc: ["Eat everything edible in Tensura, even the dangerous stuff."]
 	quest.6EC2DA6F1C1E5F41.title: "A Monstrous Diet"
-	quest.6EEAE26AA1996D61.quest_desc: [
-		"&6Goblin lineage&r · Evolution"
-		"Become a Hobgoblin Saint."
-	]
+	quest.6EEAE26AA1996D61.quest_desc: ["&7&oThe village remembers who stood up first.&r"]
 	quest.6EEAE26AA1996D61.title: "Hobgoblin Saint"
 	quest.6EF8D8DDAC1F892C.quest_desc: [
 		"Form a contract with any elemental spirit."
@@ -951,17 +784,11 @@
 	]
 	quest.6EF8D8DDAC1F892C.quest_subtitle: "Spirit contracts"
 	quest.6EF8D8DDAC1F892C.title: "Elementalist"
-	quest.6F1ABA5B902C03E4.quest_desc: [
-		"&6Orc lineage&r · Evolution"
-		"Become a Orc Lord."
-	]
+	quest.6F1ABA5B902C03E4.quest_desc: ["&7&oThe hunger has found a purpose.&r"]
 	quest.6F1ABA5B902C03E4.title: "Orc Lord"
 	quest.6F7109ECAA50655C.quest_desc: ["A storage controller links nearby Sophisticated chests into one inventory."]
 	quest.6F7109ECAA50655C.title: "Storage Network"
-	quest.6FB36EEF4DD86F32.quest_desc: [
-		"&6Elf lineage&r · Evolution"
-		"Become a Elf Saint."
-	]
+	quest.6FB36EEF4DD86F32.quest_desc: ["&7&oThe forest keeps count of its favourites.&r"]
 	quest.6FB36EEF4DD86F32.title: "Elf Saint"
 	quest.6FCF2732D22FFAC5.quest_desc: [
 		"Nature's Compass searches for any biome, including Tensura's own."
@@ -972,19 +799,11 @@
 	quest.7132BFB5A70A2845.title: "Winged Cat Sighting"
 	quest.713D283998F36E79.quest_desc: ["Form a contract with a lesser &eWind&r spirit."]
 	quest.713D283998F36E79.title: "Sylphide"
-	quest.718691268139EACC.quest_desc: [
-		"&6Vampire lineage&r · Evolution"
-		"Become a Ghoul."
-	]
+	quest.718691268139EACC.quest_desc: ["&7&oThe thirst learns manners.&r"]
 	quest.718691268139EACC.title: "Ghoul"
-	quest.71D3A3E364399F46.quest_desc: ["Enter the Nether."]
-	quest.71D3A3E364399F46.title: "Hot Feet"
 	quest.71D706EB15A3A2F6.quest_desc: ["Learn Demon Lord Haki."]
 	quest.71D706EB15A3A2F6.title: "Demon Lord Haki"
-	quest.71F7F8672DB67878.quest_desc: [
-		"&6Daemon lineage&r · Base race"
-		"Become a Lesser Daemon."
-	]
+	quest.71F7F8672DB67878.quest_desc: ["&7&oA spirit of the abyss, small for now.&r"]
 	quest.71F7F8672DB67878.title: "Lesser Daemon"
 	quest.72370A4DC6EE72B6.quest_desc: ["Obtain a Bat Glider. Good enough?"]
 	quest.72370A4DC6EE72B6.title: "Ripoff Elytra"
@@ -995,33 +814,19 @@
 	quest.728BCBE23A4970AB.title: "Greed"
 	quest.7484F7166A2CDEFE.quest_desc: ["Survive a sandstorm."]
 	quest.7484F7166A2CDEFE.title: "Sandblasted Corridors"
-	quest.74AEF26B86B7BCA0.quest_desc: ["Slay a fire, ice or lightning dragon."]
-	quest.74AEF26B86B7BCA0.title: "Dragonslayer"
-	quest.74CA8207C057C40D.quest_desc: [
-		"&6Dwarf lineage&r · Base race"
-		"Become a Dwarf."
-	]
+	quest.74CA8207C057C40D.quest_desc: ["&7&oStone-stubborn and proud of it.&r"]
 	quest.74CA8207C057C40D.title: "Dwarf"
-	quest.752D46BB107B9382.quest_desc: [
-		"&6Lizardman lineage&r · Base race"
-		"Become a Lizardman."
-	]
+	quest.752D46BB107B9382.quest_desc: ["&7&oCold blood, warm marsh, sharp spear.&r"]
 	quest.752D46BB107B9382.title: "Lizardman"
 	quest.752DF7456B73E494.quest_desc: ["Walk &e10 km&r."]
 	quest.752DF7456B73E494.title: "Wanderer"
 	quest.756458E82FEE37E6.quest_desc: ["Obtain a Stellar Gold coin."]
 	quest.756458E82FEE37E6.title: "Over 1 Million Dollars"
-	quest.7575E9B0B600803D.quest_desc: [
-		"&6Wight lineage&r · Divine / final form"
-		"Become a Divine Skeleton."
-	]
+	quest.7575E9B0B600803D.quest_desc: ["&7&oDeath, promoted.&r"]
 	quest.7575E9B0B600803D.title: "Divine Skeleton"
 	quest.75B72F33497EDC5C.quest_desc: ["Upgrade a resistance to a nullification."]
 	quest.75B72F33497EDC5C.title: "Physical Attack Nullification"
-	quest.75D548ED87FF475F.quest_desc: [
-		"&6Merfolk lineage&r · Evolution"
-		"Become a Merfolk Saint."
-	]
+	quest.75D548ED87FF475F.quest_desc: ["&7&oDeep water, deeper songs.&r"]
 	quest.75D548ED87FF475F.title: "Merfolk Saint"
 	quest.762D5B357637C729.quest_desc: ["Pick up a slime with a bucket."]
 	quest.762D5B357637C729.title: "Get Bucketed!"
@@ -1038,10 +843,7 @@
 	quest.76D0AB3B24FB78B0.title: "Crimson Forest"
 	quest.7700E2273E2B3C39.quest_desc: ["Craft a dragon command staff."]
 	quest.7700E2273E2B3C39.title: "Dragon Commander"
-	quest.776AE90066DAB17A.quest_desc: [
-		"&6Ogre lineage&r · Evolution"
-		"Become a Mystic Oni."
-	]
+	quest.776AE90066DAB17A.quest_desc: ["&7&oThe ogre has learned a quieter kind of strength.&r"]
 	quest.776AE90066DAB17A.title: "Mystic Oni"
 	quest.7776696B306D8902.quest_desc: ["Form a contract with a lesser &eFlame&r spirit."]
 	quest.7776696B306D8902.title: "Salamander"
@@ -1066,34 +868,19 @@
 	quest.798C8C43078E749D.title: "Book of Monsters"
 	quest.7A0F311882E4E6C0.quest_desc: ["Awaken as a &bTrue Hero&r."]
 	quest.7A0F311882E4E6C0.title: "True Hero"
-	quest.7AAAD2D54CB1E6BD.quest_desc: [
-		"&6Goblin lineage&r · Evolution"
-		"Become a Hobgoblin."
-	]
+	quest.7AAAD2D54CB1E6BD.quest_desc: ["&7&oA name changes what a goblin can be.&r"]
 	quest.7AAAD2D54CB1E6BD.title: "Hobgoblin"
 	quest.7AEEBBB5D0DD9154.quest_desc: ["Spot a unicorn."]
 	quest.7AEEBBB5D0DD9154.title: "Unicorn Sighting"
-	quest.7BB702E748125DC5.quest_desc: [
-		"&6Slime lineage&r · Divine / final form"
-		"Become a God Slime."
-	]
+	quest.7BB702E748125DC5.quest_desc: ["&7&oA god, still soft, still round, no longer underestimated.&r"]
 	quest.7BB702E748125DC5.title: "God Slime"
-	quest.7BC821E83E11D05F.quest_desc: [
-		"&6Daemon lineage&r · Evolution"
-		"Become a Arch Daemon."
-	]
+	quest.7BC821E83E11D05F.quest_desc: ["&7&oEvery daemon is a bargain waiting to happen.&r"]
 	quest.7BC821E83E11D05F.title: "Arch Daemon"
-	quest.7C7F7553A38E06D4.quest_desc: [
-		"&6Beastfolk lineage&r · Evolution"
-		"Become a Beast Lord."
-	]
+	quest.7C7F7553A38E06D4.quest_desc: ["&7&oThe pack follows the strongest. Prove it.&r"]
 	quest.7C7F7553A38E06D4.title: "Beast Lord"
 	quest.7CA7034A2CA3E150.quest_desc: ["Set foot in the Lost Caves."]
 	quest.7CA7034A2CA3E150.title: "A Howling Discovery"
-	quest.7CCF58A86F17497B.quest_desc: [
-		"&6Orc lineage&r · Evolution"
-		"Become a High Orc."
-	]
+	quest.7CCF58A86F17497B.quest_desc: ["&7&oThe hunger has found a purpose.&r"]
 	quest.7CCF58A86F17497B.title: "High Orc"
 	quest.7CDABC8B37CAC9D8.quest_desc: ["Dragon Meal rapidly grows baby dragons."]
 	quest.7CDABC8B37CAC9D8.title: "Dragon Growth Hormone"
@@ -1113,14 +900,14 @@
 	quest.7F361DDC77164F76.title: "Pack Mule"
 	quest.7FEBFD4381D093C2.quest_desc: ["Kill a death worm. Pro tip: they love to eat TNT."]
 	quest.7FEBFD4381D093C2.title: "The Desert Swimmers"
-	task.0BFAC9B85EFEF9C8.title: "Unknown type: tensura_ftb:existence"
-	task.1F37DDAA7A5C4F28.title: "Unknown type: tensura_ftb:existence"
-	task.235568EB0C91DB3B.title: "Unknown type: tensura_ftb:existence"
-	task.45FD197BAC107A9B.title: "Unknown type: tensura_ftb:existence"
-	task.5CE7E939EC24D377.title: "Unknown type: tensura_ftb:existence"
-	task.6070E15D5C26926B.title: "Unknown type: tensura_ftb:existence"
-	task.6CB150EE18D3C321.title: "Unknown type: tensura_ftb:existence"
-	task.7DAB649DCFF84DE9.title: "Unknown type: tensura_ftb:existence"
+	task.0BFAC9B85EFEF9C8.title: "Reach 100,000 max aura"
+	task.1F37DDAA7A5C4F28.title: "Reach 1,000,000 max aura"
+	task.235568EB0C91DB3B.title: "Reach 100,000 max magicules"
+	task.45FD197BAC107A9B.title: "Reach 10,000 max aura"
+	task.5CE7E939EC24D377.title: "Reach 1,000 max aura"
+	task.6070E15D5C26926B.title: "Reach 10,000 max magicules"
+	task.6CB150EE18D3C321.title: "Reach 1,000,000 max magicules"
+	task.7DAB649DCFF84DE9.title: "Reach 1,000 max magicules"
 	quest.5F3AD43FE0627FCB.title: "Boss Maps"
 	quest.5F3AD43FE0627FCB.quest_desc: ["Some boss structures can be located with maps.", "", "Trade with Cartographer villagers: they sell a map for each boss structure in exchange for emeralds. You may need to level the villager up first.", "", "Open the map to see where the structure is, then tick this off."]
 	quest.7689082AAA65C8E3.title: "Orc Disaster Temple"
@@ -2134,17 +1921,17 @@
 	chapter.762061B95D980973.title: "Explorer's Path"
 	quest.152CDDD79B386829.quest_desc: [
 		"&7&oThe World notes that you have left the first door behind.&r"
-		"&6Field note:&r Perk: 600 claimable chunks, 30 force-loaded, /back cooldown 25 s."
+		"&6Field note:&r Perk: 600 claimable chunks, 30 force-loaded, /back cooldown 25 s, and the skill Sense Heat Source."
 	]
 	quest.152CDDD79B386829.title: "Wayfarer"
 	quest.1BFEDD39F1856BD0.quest_desc: [
 		"&7&oThe World finds you in a place where time keeps its own counsel.&r"
-		"&6Field note:&r Perk: 1100 claimable chunks, 50 force-loaded, /back cooldown 10 s."
+		"&6Field note:&r Perk: 1100 claimable chunks, 50 force-loaded, /back cooldown 10 s, and the skill Farsight."
 	]
 	quest.1BFEDD39F1856BD0.title: "Wanderer of Ages"
 	quest.38C133B7697D224A.quest_desc: [
 		"&7&oThere is a deepest place in every world. The World has noted that you have gone there.&r"
-		"&6Field note:&r Perk: 1400 claimable chunks, 60 force-loaded, /back cooldown 5 s."
+		"&6Field note:&r Perk: 1400 claimable chunks, 60 force-loaded, /back cooldown 5 s, and Spatial Attack Resistance."
 	]
 	quest.38C133B7697D224A.title: "World Walker"
 	quest.4304753007281757.quest_desc: ["&7&oTravel the long way, the short way.&r"]
@@ -2155,14 +1942,14 @@
 	quest.4B31678B901839B3.title: "Adventuring Time"
 	quest.65DF398FA298D531.quest_desc: [
 		"&7&oA forest between worlds has learned your name.&r"
-		"&6Field note:&r Perk: 750 claimable chunks, 35 force-loaded, /back cooldown 20 s."
+		"&6Field note:&r Perk: 750 claimable chunks, 35 force-loaded, /back cooldown 20 s, and Heat Resistance."
 	]
 	quest.65DF398FA298D531.title: "Pathfinder"
 	quest.6FB1984671830986.quest_desc: ["&7&oSome ground is only ground if you step lightly.&r"]
 	quest.6FB1984671830986.title: "Light as a Rabbit"
 	quest.73DC79C10D4B4EB8.quest_desc: [
 		"&7&oThe sky overhead has changed to something you cannot yet name.&r"
-		"&6Field note:&r Perk: 900 claimable chunks, 40 force-loaded, /back cooldown 15 s."
+		"&6Field note:&r Perk: 900 claimable chunks, 40 force-loaded, /back cooldown 15 s, and Cold Resistance."
 	]
 	quest.73DC79C10D4B4EB8.title: "Trailblazer"
 	quest.75CBE2ED91D89435.quest_desc: ["&7&oYou have seen every kind of hot there is.&r"]
@@ -2180,24 +1967,24 @@
 	chapter.1194D01643BF7B81.title: "Hunter's Path"
 	quest.0FB1ACADEF10902E.quest_desc: [
 		"&7&oA thing of iron and old grudges has fallen to you.&r"
-		"&6Field note:&r Perk: +10% maximum health (stacks to +20%)."
+		"&6Field note:&r Perk: +10% maximum health (stacks to +20%), and the skill Danger Sense."
 	]
 	quest.0FB1ACADEF10902E.title: "Stalker"
 	quest.34D4605E99F65F5F.quest_desc: ["&7&oSomething grows when something dies here.&r"]
 	quest.34D4605E99F65F5F.title: "It Spreads"
 	quest.407186C76C70DEA0.quest_desc: [
 		"&7&oSomething from beneath the sea has left the sea.&r"
-		"&6Field note:&r Perk: +10% maximum health (stacks to +40%)."
+		"&6Field note:&r Perk: +10% maximum health (stacks to +40%), and the skill Steel Strength."
 	]
 	quest.407186C76C70DEA0.title: "Dread Hunter"
 	quest.45050C32E0DEE300.quest_desc: [
 		"&7&oThe many-headed has stopped arguing with itself.&r"
-		"&6Field note:&r Perk: +10% maximum health (stacks to +30%)."
+		"&6Field note:&r Perk: +10% maximum health (stacks to +30%), and the skill Haki."
 	]
 	quest.45050C32E0DEE300.title: "Slayer"
 	quest.4A288F84E0AE9D62.quest_desc: [
 		"&7&oNothing in this world is left that was waiting for you.&r"
-		"&6Field note:&r Perk: +10% maximum health (stacks to +50%)."
+		"&6Field note:&r Perk: +10% maximum health (stacks to +50%), and Physical Attack Resistance."
 	]
 	quest.4A288F84E0AE9D62.title: "Apex Hunter"
 	quest.4AE888FC4E3F53B5.quest_desc: ["&7&oA very long way, and a very small target.&r"]
@@ -2210,7 +1997,7 @@
 	quest.615444BE1D167286.title: "Two Birds, One Arrow"
 	quest.6D812CFB14E7328A.quest_desc: [
 		"&7&oThe World has watched you do your first killing. It does not judge.&r"
-		"&6Field note:&r Perk: +10% maximum health."
+		"&6Field note:&r Perk: +10% maximum health, and the skill Strength."
 	]
 	quest.6D812CFB14E7328A.title: "Initiate Hunter"
 	task.01AE8C879C2D9EC3.title: "Hit the centre of a target from a distance"
@@ -2226,14 +2013,14 @@
 	chapter.2733028586FDD2F1.title: "Homesteader's Path"
 	quest.0060761A38C8D45D.quest_desc: [
 		"&7&oSomething green is growing in standing water.&r"
-		"&6Field note:&r Perk: 3 homes, /home cooldown 6 s."
+		"&6Field note:&r Perk: 3 homes, /home cooldown 6 s, and the skill Thought Communication."
 	]
 	quest.0060761A38C8D45D.title: "Hearthkeeper"
 	quest.0DD5EED250D4BF78.quest_desc: ["&7&oSome homes are better carried than built.&r"]
 	quest.0DD5EED250D4BF78.title: "Total Beelocation"
 	quest.167A402A23BB1156.quest_desc: [
 		"&7&oEvery green thing a household could want, grown by your own hand.&r"
-		"&6Field note:&r Perk: 6 homes, /home cooldown 2 s."
+		"&6Field note:&r Perk: 6 homes, /home cooldown 2 s, and the skill Self-Regeneration."
 	]
 	quest.167A402A23BB1156.title: "Provider"
 	quest.21C9265606D140BF.quest_desc: ["&7&oPatience, a line, and a good reason.&r"]
@@ -2244,19 +2031,19 @@
 	quest.4B0377CF2675DAC1.title: "Best Friends Forever"
 	quest.53B4159C2CC709AA.quest_desc: [
 		"&7&oThe World has eaten at your table and has nothing left to ask.&r"
-		"&6Field note:&r Perk: 8 homes, /home cooldown 1 s."
+		"&6Field note:&r Perk: 8 homes, /home cooldown 1 s, and the Unique Skill Cook."
 	]
 	quest.53B4159C2CC709AA.title: "Master of the House"
 	quest.5434C0836376290D.quest_desc: ["&7&oA farm needs more than crops.&r"]
 	quest.5434C0836376290D.title: "The Parrots and the Bees"
 	quest.6E94D14A2F38539D.quest_desc: [
 		"&7&oThere is enough here for more than one mouth.&r"
-		"&6Field note:&r Perk: 4 homes, /home cooldown 4 s."
+		"&6Field note:&r Perk: 4 homes, /home cooldown 4 s, and Abnormal Condition Resistance."
 	]
 	quest.6E94D14A2F38539D.title: "Steward"
 	quest.7DE5FE1012AE1F03.quest_desc: [
 		"&7&oThe World has noticed a pot on a fire, and a person who means to stay.&r"
-		"&6Field note:&r Perk: 2 homes, /home cooldown 8 s."
+		"&6Field note:&r Perk: 2 homes, /home cooldown 8 s, and Poison Resistance."
 	]
 	quest.7DE5FE1012AE1F03.title: "Settler"
 	task.006D65EE3D8F986C.title: "Tame an animal"
@@ -2453,7 +2240,7 @@
 	task.788AFADFD9117023.title: "Build the awakening altar"
 	chapter.5C7AF98491C81F15.title: "Lineages of Ascension"
 	quest.00EC3794D0408330.quest_desc: [
-		"&7&oThe old ones remember being warm.&r"
+		"&7&oThe dark has etiquette.&r"
 		"&6Field note:&r A bloodfiend who has come into their kin and their craft."
 	]
 	quest.00EC3794D0408330.title: "Kindred Bloodfiend"
@@ -2468,7 +2255,7 @@
 	]
 	quest.012CBEC4F4F3CB06.title: "Cursed Mariner"
 	quest.01E8CB809C1F84BC.quest_desc: [
-		"&7&oWar and study both keep you here.&r"
+		"&7&oBone remembers. Muscle does not.&r"
 		"&6Field note:&r Bones bound by death. Faster, immune to pain/poison/pierce/paralysis. No need for food. Still burns in sunlight; splits next into Warrior or Mage."
 	]
 	quest.01E8CB809C1F84BC.title: "Skeleton"
@@ -2498,7 +2285,7 @@
 	]
 	quest.0B5F316D9FC356D5.title: "Mage Skeleton"
 	quest.0BE373EE882203E5.quest_desc: [
-		"&7&oCorruption grows into the shape it was always going to have.&r"
+		"&7&oBlack flame has its own weight.&r"
 		"&6Field note:&r A Named Corrupted Dragon — its breath is black flame that scorches flesh and soul."
 	]
 	quest.0BE373EE882203E5.title: "Cursed Dragon"
@@ -2508,7 +2295,7 @@
 	]
 	quest.0CB39D92574C9DDF.title: "Angel"
 	quest.0F88E55503E8C001.quest_desc: [
-		"&7&oTails are counted, until they are not.&r"
+		"&7&oEach tail is a promise kept.&r"
 		"&6Field note:&r A Kitsune whose power has bloomed into three tails."
 	]
 	quest.0F88E55503E8C001.title: "3 Tailed Fox"
@@ -2538,7 +2325,7 @@
 	]
 	quest.1A684353790E121A.title: "Dullahan"
 	quest.1CC8B9ED697C40E6.quest_desc: [
-		"&7&oThe pond is larger than it looks.&r"
+		"&7&oPoison is a kind of patience.&r"
 		"&6Field note:&r A toad whose body secretes lethal venom."
 	]
 	quest.1CC8B9ED697C40E6.title: "Poison Toad"
@@ -2583,7 +2370,7 @@
 	]
 	quest.2AF59864964C31A7.title: "Infinite Djinn"
 	quest.30A132487EC0944D.quest_desc: [
-		"&7&oSome of them stopped counting the ages.&r"
+		"&7&oA wish is a debt with better manners.&r"
 		"&6Field note:&r A djinn who has mastered misdirection and trickery."
 	]
 	quest.30A132487EC0944D.title: "Trickster Djinn"
@@ -2618,22 +2405,22 @@
 	]
 	quest.3C21631B0A7A22E8.title: "Death Tyrant"
 	quest.3D04D3583550D8E2.quest_desc: [
-		"&7&oA throne is a kind of trick.&r"
+		"&7&oA body can be a tool, if you practise.&r"
 		"&6Field note:&r A monkey hardened through battle into raw physical strength."
 	]
 	quest.3D04D3583550D8E2.title: "Monkey Warrior"
 	quest.3D5393D0A53996A4.quest_desc: [
-		"&7&oWar and study both keep you here.&r"
+		"&7&oBone remembers. Muscle does not.&r"
 		"&6Field note:&r A skeletal sage of long centuries. Sage skill at Lich-tier mastery."
 	]
 	quest.3D5393D0A53996A4.title: "Elder Lich"
 	quest.3DA5A1053B4F47D8.quest_desc: [
-		"&7&oSome of them stopped counting the ages.&r"
+		"&7&oA wish is a debt with better manners.&r"
 		"&6Field note:&r Sovereign of all djinnkind, wreathed in dread majesty."
 	]
 	quest.3DA5A1053B4F47D8.title: "Sovereign Djinn"
 	quest.3EBDFD83FACC79AB.quest_desc: [
-		"&7&oWar and study both keep you here.&r"
+		"&7&oBone remembers. Muscle does not.&r"
 		"&6Field note:&r Armored death given purpose. Magic Resistance and command of Lesser Undead."
 	]
 	quest.3EBDFD83FACC79AB.title: "Death Knight"
@@ -2643,7 +2430,7 @@
 	]
 	quest.41470656C4792B24.title: "Abyssal Dragonewt"
 	quest.420523D9C47B11FD.quest_desc: [
-		"&7&oTails are counted, until they are not.&r"
+		"&7&oEach tail is a promise kept.&r"
 		"&6Field note:&r The legendary nine-tailed fox — a true hero of fox-kind."
 	]
 	quest.420523D9C47B11FD.title: "9 Tailed Fox"
@@ -2678,7 +2465,7 @@
 	]
 	quest.51EAB8BB07624BF2.title: "Davy Jones"
 	quest.536C2D3342B7FB3E.quest_desc: [
-		"&7&oStorms answer to the right captain.&r"
+		"&7&oSalt does not rust what is already dead.&r"
 		"&6Field note:&r A dread pirate dissolved into spectral darkness — slips through walls and commands the deep."
 	]
 	quest.536C2D3342B7FB3E.title: "Phantom Corsair"
@@ -2708,7 +2495,7 @@
 	]
 	quest.5F19FE806781DEB4.title: "Chaos Dragon"
 	quest.5F77B2EC580043E6.quest_desc: [
-		"&7&oSome of them stopped counting the ages.&r"
+		"&7&oA wish is a debt with better manners.&r"
 		"&6Field note:&r A noble djinn blessed with divine ki."
 	]
 	quest.5F77B2EC580043E6.title: "Royal Djinn"
@@ -2718,7 +2505,7 @@
 	]
 	quest.64B2BD9CF8FE4837.title: "Phantom Djinn"
 	quest.6539C4536725B1F3.quest_desc: [
-		"&7&oThe old ones remember being warm.&r"
+		"&7&oThe dark has etiquette.&r"
 		"&6Field note:&r An ancient predator who moves between shadows like a wraith."
 	]
 	quest.6539C4536725B1F3.title: "Elder Bloodfiend"
@@ -2733,22 +2520,22 @@
 	]
 	quest.68274D0DEF60787E.title: "Ender Dragonewt"
 	quest.6CDAB482930EDE33.quest_desc: [
-		"&7&oA frame too large for a single place.&r"
+		"&7&oSpace is just another thing you can fold.&r"
 		"&6Field note:&r A dragonewt flickering between presence and void. Bends space and gravity."
 	]
 	quest.6CDAB482930EDE33.title: "Void Dragonewt"
 	quest.6CED21E75E319E18.quest_desc: [
-		"&7&oSome of them stopped counting the ages.&r"
+		"&7&oA wish is a debt with better manners.&r"
 		"&6Field note:&r An original djinn from before civilization. Their presence alone breaks lesser wills."
 	]
 	quest.6CED21E75E319E18.title: "Primordial Djinn"
 	quest.703F552DC3CA265A.quest_desc: [
-		"&7&oLight has a weight.&r"
+		"&7&oEvery step up is a step away from something.&r"
 		"&6Field note:&r A Seraphim who consumed daemonic remains and fell into corruption. Alignment shifts to Majin."
 	]
 	quest.703F552DC3CA265A.title: "Fallen Angel"
 	quest.7197EF4803AFEA3E.quest_desc: [
-		"&7&oA throne is a kind of trick.&r"
+		"&7&oA body can be a tool, if you practise.&r"
 		"&6Field note:&r A sovereign of beasts, claimed via Royal Blood."
 	]
 	quest.7197EF4803AFEA3E.title: "Monkey King"
@@ -2758,7 +2545,7 @@
 	]
 	quest.71980EDC7C51361B.title: "Fledgling Bloodfiend"
 	quest.728E93FD83341E90.quest_desc: [
-		"&7&oSight is a weapon with a long reach.&r"
+		"&7&oEach eye has its own opinion.&r"
 		"&6Field note:&r Apex of the aberrant lineage. Central eye negates magic; stalks rain devastation."
 	]
 	quest.728E93FD83341E90.title: "Beholder"
@@ -2788,7 +2575,7 @@
 	]
 	quest.7F82CF82C2FAF2EC.title: "Kitsune"
 	quest.7F9428C5A9574035.quest_desc: [
-		"&7&oLight has a weight.&r"
+		"&7&oEvery step up is a step away from something.&r"
 		"&6Field note:&r The peak of angelic existence. Branches into Divine Angel (true hero) or Fallen Angel (consume 10 daemon essences)."
 	]
 	quest.7F9428C5A9574035.title: "Seraphim"
@@ -2804,27 +2591,27 @@
 	task.04B638CAF0E32707.title: "Become a Whisper Djinn"
 	task.05655193C76918CC.title: "Become a Wishbound Djinn"
 	task.05EE0BDD544F72B9.title: "Become a Royal Djinn"
-	task.07CF5D93AAE72A1D.title: "Become a Omniversal Djinn"
+	task.07CF5D93AAE72A1D.title: "Become an Omniversal Djinn"
 	task.08197880DAD15EBB.title: "Become a Demonic Dragon"
 	task.0B6597E9F959952A.title: "Become a Spectator"
 	task.0D2B3A64EBEAC92B.title: "Become a Swamp Sovereign"
 	task.0DF619DB52473D80.title: "Become a Frog"
 	task.0FC4329C9F0DDE02.title: "Become a Progenitor Bloodfiend"
-	task.10BFCF58B2BB6D32.title: "Become a Infinite Djinn"
+	task.10BFCF58B2BB6D32.title: "Become an Infinite Djinn"
 	task.14783377E8736CBD.title: "Become a Divine King"
 	task.19658920C14BBF1D.title: "Become a Davy Jones"
 	task.19BBB13A2D8FFFA3.title: "Become a Sovereign Djinn"
 	task.1AD9A1F597C00F6D.title: "Become a Mage Skeleton"
-	task.1BD07E77DE7B1566.title: "Become a Archangel"
+	task.1BD07E77DE7B1566.title: "Become an Archangel"
 	task.1E4CE3A753994526.title: "Become a Cursed Mariner"
 	task.2936B1E42A581C2A.title: "Become a Dullahan"
 	task.296C609967A64DB5.title: "Become a Poison Toad"
-	task.2E0FF70BA0143864.title: "Become a Abyssal Dragonewt"
+	task.2E0FF70BA0143864.title: "Become an Abyssal Dragonewt"
 	task.321C0BACD34FF1EC.title: "Become a Cursed Dreadnaught"
 	task.364A84B6DAD5690F.title: "Become a Giant Frog"
 	task.37BC7BF05F3D1347.title: "Become a Corrupted Dragonkin"
 	task.38C6EBF2DAC6C3AE.title: "Become a Venom Lord"
-	task.390580638828001B.title: "Become a Angel"
+	task.390580638828001B.title: "Become an Angel"
 	task.3B571EE826831BB8.title: "Become a Void Dragonewt"
 	task.3E15EB1948F466B5.title: "Become a Bog Ancient"
 	task.3E408687A14BB4EC.title: "Become a Primordial Djinn"
@@ -2833,7 +2620,7 @@
 	task.3F8A69DCA51FCF1B.title: "Become a Dark Lord Dullahan"
 	task.45FCC14DE3CE1D9D.title: "Become a Gazer"
 	task.47AF538503406E7D.title: "Become a Cosmic Deity"
-	task.4881F05B5C0362C7.title: "Become a Ascended Djinn"
+	task.4881F05B5C0362C7.title: "Become an Ascended Djinn"
 	task.49218A71032AE539.title: "Become a Phantom Corsair"
 	task.49E2A5C2832FA8CB.title: "Become a Kindred Bloodfiend"
 	task.4C3E435C59D0A8AF.title: "Become a Divine Kitsune"
@@ -2846,9 +2633,9 @@
 	task.5A840EB965EF4F5D.title: "Become a Skeleton Warrior"
 	task.5B21A2C87C4F9FAB.title: "Become a Monkey"
 	task.5BC365AB064C25CD.title: "Become a Seraphim"
-	task.5BED9CF3EB1F9DB1.title: "Become a Elder Bloodfiend"
+	task.5BED9CF3EB1F9DB1.title: "Become an Elder Bloodfiend"
 	task.5C5B0905FA18E416.title: "Become a Monkey Warrior"
-	task.5C62AFDE838CC3B0.title: "Become a Ender Dragonewt"
+	task.5C62AFDE838CC3B0.title: "Become an Ender Dragonewt"
 	task.5DAC9BB043C39958.title: "Become a Divine Angel"
 	task.5EAD857730AAEF35.title: "Become a Blood Noble"
 	task.609035993871EB5A.title: "Become a Chaos Dragon"
@@ -2864,11 +2651,11 @@
 	task.6DBEE5DC1F43E1CB.title: "Become a Corrupted Dragon"
 	task.7474A11ED45DBB8B.title: "Become a Lich"
 	task.78FA4C6964589446.title: "Become a Sun Wukong"
-	task.7BDE4CEBBF0CAB1C.title: "Become a Elder Lich"
+	task.7BDE4CEBBF0CAB1C.title: "Become an Elder Lich"
 	task.7D73404827F466A8.title: "Become a Death Tyrant"
 	chapter.2D6E64988EA0E00B.title: "Origins"
 	quest.0378D519C27FCB5E.quest_desc: [
-		"&7&oWings, then a name, then a place at the table.&r"
+		"&7&oBefore there were angels, there were the ones who taught them.&r"
 		"&6Field note:&r One of the progenitor of the angel race."
 	]
 	quest.0378D519C27FCB5E.title: "Origin Arch Angel"
@@ -2897,7 +2684,7 @@
 	quest.17D0A82F071F9F61.quest_desc: ["&7&oIt is warmer than it should be.&r"]
 	quest.17D0A82F071F9F61.title: "An Ingot of Dragotite"
 	quest.19B610EDC4BCDC53.quest_desc: [
-		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&7&oWhat falls far enough stops falling and starts ruling.&r"
 		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by the magicules of the World Destroying Dragon."
 	]
 	quest.19B610EDC4BCDC53.title: "Mystic Angel of Origin"
@@ -2909,7 +2696,7 @@
 	]
 	quest.1FB7473AB07B7D7D.title: "Ultimate Slime"
 	quest.299C0B7662B32102.quest_desc: [
-		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&7&oWhat falls far enough stops falling and starts ruling.&r"
 		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules, and lost their Holy attribute."
 	]
 	quest.299C0B7662B32102.title: "Fallen Lord of Origin"
@@ -3065,7 +2852,7 @@
 	]
 	quest.741A13AFD9F2CA05.title: "Fallen Cherub of Origin"
 	quest.7788D3A2EFD6ECC4.quest_desc: [
-		"&7&oBefore there were angels, there were the ones who taught them.&r"
+		"&7&oWings, then a name, then a place at the table.&r"
 		"&6Field note:&r One of the progenitor of the angel race, having now acquired a material body and a name."
 	]
 	quest.7788D3A2EFD6ECC4.title: "Cherub of Origin"
@@ -3080,7 +2867,7 @@
 	]
 	quest.7C5C633E1153834B.title: "Fallen Seraph of Origin"
 	task.00D089CBD04DDCB8.title: "Become a Insect Dragon"
-	task.01F87045D392C236.title: "Become a Origin Arch Angel"
+	task.01F87045D392C236.title: "Become an Origin Arch Angel"
 	task.030E7A7D2D0255E8.title: "Forge a abyss dragotite ingot"
 	task.03152F388CA17BF5.title: "Become a Angel Dragon"
 	task.039BBC0B7AA2DA65.title: "Hold the storm dragon factor"
@@ -3097,7 +2884,7 @@
 	task.1763D80F797A628E.title: "Forge a frost dragotite ingot"
 	task.19F93F3155AF4C6E.title: "Hold the earth dragon factor"
 	task.1A463C29735DADF8.title: "Make a dragotite pickaxe"
-	task.1C05CEC65392FEDD.title: "Become a Arch Fallen of Origin"
+	task.1C05CEC65392FEDD.title: "Become an Arch Fallen of Origin"
 	task.1D4F0CD113F14BF0.title: "Forge a storm dragotite ingot"
 	task.1F4DED545957FE13.title: "Become a Mystic Angel of Origin"
 	task.2091A3B0AEAC0CE9.title: "Forge a earth dragotite ingot"
@@ -3140,7 +2927,7 @@
 	task.7E6CAE39A9683815.title: "Become a Dragon Boar"
 	chapter.4A77ECD140B0DA92.title: "Blood and Avalon"
 	quest.00D4845D7D822431.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oSome power arrives without a door.&r"
 		"&6Field note:&r A heart once claimed cannot escape desire. The true king hoards his own fate, and greed denies even death its payment."
 	]
 	quest.00D4845D7D822431.title: "True Authority of Greed"
@@ -3152,30 +2939,30 @@
 	quest.08169DB60A320D1C.quest_desc: ["&7&oSome rites need a surface.&r"]
 	quest.08169DB60A320D1C.title: "An Altar for Offerings"
 	quest.08D87EF521352064.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThere is no lesson here, only the fact of it.&r"
 		"&6Field note:&r Builds Calculation Stacks in combat to optimize damage and cooldown cycles."
 	]
 	quest.08D87EF521352064.title: "Schwi, Lord of True Computation"
 	quest.0B7993D882FFD782.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oIt has no source the World will admit to.&r"
 		"&6Field note:&r Life abides no reason— For none are born by their own consent."
 	]
 	quest.0B7993D882FFD782.title: "Naberius"
 	quest.0C228534BD0DAD58.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThere is no lesson here, only the fact of it.&r"
 		"&6Field note:&r Copies genes into syringes, stores extracted skills and stats, and injects mobs with artificial combat data."
 	]
 	quest.0C228534BD0DAD58.title: "Gene Editor"
 	quest.0F199245DBD8836A.quest_desc: ["&7&oThe legend, finished.&r"]
 	quest.0F199245DBD8836A.title: "True Excalibur"
 	quest.0F42A7F12B24983A.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThe World did not grant this. It only noticed.&r"
 		"&6Field note:&r A unique skill that evolves through punishment."
 	]
 	quest.0F42A7F12B24983A.title: "Adaptability"
 	quest.1378014194B9A8BC.quest_desc: [
 		"&7&oSome lineages are inherited. Others are chosen, and then inherited anyway.&r"
-		"&6Field note:&r This chapter follows the Bloodfiend line and the relics of Avalon. Entries that appear only after you find them are unexplained gifts from the World."
+		"&6Field note:&r This chapter follows the Bloodfiend line and the relics of Avalon. The bloodline row shows its first race; its final form appears once you have been recorded as any stage of it. Entries that appear only after you find them are unexplained gifts from the World."
 	]
 	quest.1378014194B9A8BC.title: "Blood and Avalon"
 	quest.16DE10A7421CB39F.quest_desc: ["&7&oThe legend, made to order.&r"]
@@ -3183,7 +2970,7 @@
 	quest.175B20AA3EACA2B4.quest_desc: ["&7&oA key, remembered into being something else.&r"]
 	quest.175B20AA3EACA2B4.title: "The Awakened Key"
 	quest.1A769614B20A1FD2.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oIt has no source the World will admit to.&r"
 		"&6Field note:&r The god of conquest, guilt and ruin. Wields an ashen halberd and twists the world into a blood-red realm."
 	]
 	quest.1A769614B20A1FD2.title: "Caedros, God of Conquest"
@@ -3195,29 +2982,29 @@
 	quest.21878F6E5F81BA29.quest_desc: ["&7&oThere is a version no one has been allowed to see.&r"]
 	quest.21878F6E5F81BA29.title: "Divine Excalibur"
 	quest.2A4320CF94ABCE30.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oIt has no source the World will admit to.&r"
 		"&6Field note:&r An ultimate angelic key that devours prisons and suppressors, crowning space itself with divine locks."
 	]
 	quest.2A4320CF94ABCE30.title: "Michael, Angel of Locks"
 	quest.2EEC6ED892A57763.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oSome power arrives without a door.&r"
 		"&6Field note:&r Re: Taekwondo perfected. Fight unarmed to inflict brain damage, recoilless knockback, projectile denial, and heaven-rending shockwaves."
 	]
 	quest.2EEC6ED892A57763.title: "Mori, Equal to the Heavens"
 	quest.2F249B1B9A851CFA.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThe World did not grant this. It only noticed.&r"
 		"&6Field note:&r Earn Greed Chips on kills and gamble them for forbidden loot, power, and an extremely tiny chance at a new Ultimate Skill."
 	]
 	quest.2F249B1B9A851CFA.title: "Mammon: Sovereign Casino"
 	quest.3910A0408ED3274D.quest_desc: [
-		"&7&oTaste is a kind of rank.&r"
+		"&7&oAge stabilises what hunger began.&r"
 		"&6Field note:&r A highborn Bloodfiend capable of ruling lesser kindred. Blood Nobles possess a larger blood reserve, stronger regeneration, sharper Blood Arts, and a greater talent for binding weakened mobs into blood thralls."
 	]
 	quest.3910A0408ED3274D.title: "Blood Noble"
 	quest.39D087B3C6BED920.quest_desc: ["&7&oRoads that go somewhere other than where they say.&r"]
 	quest.39D087B3C6BED920.title: "The Paths"
 	quest.3C0FF0226145C283.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oWhatever gave you this is not telling.&r"
 		"&6Field note:&r The pinnacle of sorcery and control over the undead. With this god class ultimate you shall dominate the souls"
 	]
 	quest.3C0FF0226145C283.title: "Sovereign of the Great Tomb"
@@ -3227,7 +3014,7 @@
 	]
 	quest.3C4EFD65F1264241.title: "Bloodfiend"
 	quest.426237BB0C977B69.quest_desc: [
-		"&7&oA throne made of everything it has drained.&r"
+		"&7&oAge stabilises what hunger began.&r"
 		"&6Field note:&r A sovereign monster of cursed blood. Blood Monarchs bend stolen Blood into overwhelming power, turning blood reserves into brutal damage amplification, durable crimson guards, and superior recovery."
 	]
 	quest.426237BB0C977B69.title: "Blood Monarch"
@@ -3242,7 +3029,7 @@
 	]
 	quest.4515EE99DE316235.title: "Crimson Progenitor"
 	quest.48F53A167ECCB93D.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oSome power arrives without a door.&r"
 		"&6Field note:&r A King-Class Ultimate that adapts to everything it survives."
 	]
 	quest.48F53A167ECCB93D.title: "Divine General Mahoraga"
@@ -3277,49 +3064,49 @@
 	]
 	quest.606A430048DADA8D.title: "The Arts of Blood"
 	quest.606ACCAA6F80FA38.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oSome power arrives without a door.&r"
 		"&6Field note:&r Records slain beings into your shadows. Browse the catalog, summon a parade, fuse curses into a single apex, or unleash a domain that floods the area with shadow clones."
 	]
 	quest.606ACCAA6F80FA38.title: "Cursed Menagerie"
 	quest.60F465B2E031A59E.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oWhatever gave you this is not telling.&r"
 		"&6Field note:&r The perfected evolution of Reflector."
 	]
 	quest.60F465B2E031A59E.title: "Axiom, Lord of Reflected Judgment"
 	quest.657B9F5942437048.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThere is no lesson here, only the fact of it.&r"
 		"&6Field note:&r Death abides no reason— For it cannot be defied. Even by those who see it coming."
 	]
 	quest.657B9F5942437048.title: "Ronova"
 	quest.6A78F9EF27A7B184.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThere is no lesson here, only the fact of it.&r"
 		"&6Field note:&r I always come back."
 	]
 	quest.6A78F9EF27A7B184.title: "Witch of Vainglory"
 	quest.6B23CCAB970ED9F6.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThe World did not grant this. It only noticed.&r"
 		"&6Field note:&r A King-Class fusion Ultimate born from Satanael and Susanoo. A reactor of wrath, a counter of dread, a stampede of ruin, and a fate that steals life itself."
 	]
 	quest.6B23CCAB970ED9F6.title: "Samael, Sovereign of Wrathful Fate"
 	quest.6D1CEEBFD870C669.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oWhatever gave you this is not telling.&r"
 		"&6Field note:&r Time abides no reason— For it deprives us all equally. Yet brooks not a second to be reclaimed."
 	]
 	quest.6D1CEEBFD870C669.title: "Istaroth"
 	quest.6D66FACEBB3C7A76.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oIt has no source the World will admit to.&r"
 		"&6Field note:&r An endless sovereign that devours strength. Doubles EP gain, steals MP, weakens nearby foes, and enforces Infinite Imprisonment."
 	]
 	quest.6D66FACEBB3C7A76.title: "Kronairos, Lord of the Endless"
 	quest.735726DE753FE7BE.quest_desc: ["&7&oA room built to contain a rumour.&r"]
 	quest.735726DE753FE7BE.title: "A Realm of Asmoday"
 	quest.79499BE6B184EAFC.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oWhatever gave you this is not telling.&r"
 		"&6Field note:&r Within the endless wheel of Saṃsāra, each fallen life becomes a karmic echo, waiting to awaken under Nirvana’s violet grace."
 	]
 	quest.79499BE6B184EAFC.title: "Nirvana"
 	quest.7A9A2F335B581C31.quest_desc: [
-		"&7&oA name that was not meant to be written down.&r"
+		"&7&oThe World did not grant this. It only noticed.&r"
 		"&6Field note:&r A heart once claimed cannot escape desire. The king hoards his own fate, and greed denies even death its payment."
 	]
 	quest.7A9A2F335B581C31.title: "Authority of Greed"
@@ -3356,7 +3143,7 @@
 	task.580470EFE3A8EB78.title: "Become a Blood Monarch"
 	task.5A450AC919899794.title: "Hold Kronairos, Lord of the Endless"
 	task.5CC9032A2F38A472.title: "Raise Excalibur to the divine"
-	task.5F5E16AC7F30D6E2.title: "Become a Elder Bloodfiend"
+	task.5F5E16AC7F30D6E2.title: "Become an Elder Bloodfiend"
 	task.62ED18CB8F115119.title: "Hold Istaroth"
 	task.652B4F69F236B72C.title: "Become a Bloodfiend"
 	task.6E59D6BD1FE77D16.title: "Hold First King of History"
@@ -3368,9 +3155,7 @@
 	task.78DF95BFE083C92D.title: "Make an angel summoner"
 	task.7A7A930729270D53.title: "Forge an extermination blade"
 	chapter.467A5D611C6C6D5B.title: "Elite Forge"
-	quest.0017844C3945CF6E.quest_desc: ["&7&oArmour for someone who sings at the wrong moment.&r"]
-	quest.0017844C3945CF6E.title: "The Nightingale Set"
-	quest.035A32A0822B279C.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.035A32A0822B279C.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
 	quest.035A32A0822B279C.title: "Demi God Saiyan"
 	quest.0ABF1E9AD3453555.quest_desc: [
 		"&7&oThe Create mod would approve.&r"
@@ -3393,7 +3178,7 @@
 		"&6Field note:&r The land itself answers. Raise the earth to impale and to bind, reshape the ground your people hold, coax ore from bare stone, and draw the world's own magicule into yourself. Strongest where your nation's banner flies."
 	]
 	quest.3048A532F1975813.title: "Gaia, Lord of Earth"
-	quest.368B3F7CC657391A.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.368B3F7CC657391A.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
 	quest.368B3F7CC657391A.title: "Intermediate Deity Saiyan"
 	quest.39F248E0A0220896.quest_desc: ["&7&oA banquet hall, for the ones who are invited and the ones who are not.&r"]
 	quest.39F248E0A0220896.title: "The Walpurgis Hall"
@@ -3416,7 +3201,7 @@
 	quest.3C5418627EE57E67.title: "Raphael, Lord of Wisdom"
 	quest.43398A64260CD205.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
 	quest.43398A64260CD205.title: "Divine Saiyan"
-	quest.4496F4FDDDC6028E.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.4496F4FDDDC6028E.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
 	quest.4496F4FDDDC6028E.title: "High Class Saiyan"
 	quest.44A40AA0BB7A6B50.quest_desc: [
 		"&7&oA serpent finishing a sentence it started a long time ago.&r"
@@ -3442,8 +3227,6 @@
 		"&6Field note:&r Helps regenerate Aura, Magic, and SHP faster when toggled"
 	]
 	quest.60EE515BD59E7BD6.title: "Mediation"
-	quest.66D0FA1A7F2E0C2D.quest_desc: ["&7&oIt has been worn by someone who did not want to be remembered.&r"]
-	quest.66D0FA1A7F2E0C2D.title: "The Ancient Nordic Set"
 	quest.66DD071C463DE1C4.quest_desc: [
 		"&7&oYou are older than you were told.&r"
 		"&6Field note:&r A primordial soul that resonates with nearby life. While toggled on, grants the holder and nearby allies Strength III, Regeneration III, and Resistance I, while Soul Sight outlines surrounding creatures by alignment — red for..."
@@ -3474,10 +3257,8 @@
 	task.19CA710476CF94E0.title: "Collect a fox plushie"
 	task.1A26E583970EAB37.title: "Hold the earth-lord's power"
 	task.1AE4A5979DCBB11D.title: "Become a Greater Deity Saiyan"
-	task.1AFF05E8BEAA7032.title: "Obtain the ancient nordic cuirass"
-	task.1DAD455A1D1FD7BD.title: "Become a Intermediate Deity Saiyan"
+	task.1DAD455A1D1FD7BD.title: "Become an Intermediate Deity Saiyan"
 	task.1FA8132C27145277.title: "Become a Transcendent Saiyan"
-	task.1FDDFE307CA5AEFD.title: "Obtain the nightingale helmet"
 	task.2040A6A19E721628.title: "Collect a panda plushie"
 	task.20EB4AD35812E489.title: "Collect a bee plushie"
 	task.2709B1A97EE4DAA3.title: "Hold the void sovereign"
@@ -3489,24 +3270,18 @@
 	task.352026787F96D02E.title: "Awaken an ancient soul"
 	task.3A83281A3E456EB4.title: "Become a Lesser Saiyan"
 	task.3EA6A82D3F6C377F.title: "Learn to meditate"
-	task.40A3A71701951F8A.title: "Obtain the ancient nordic helm"
 	task.416A4053BC606424.title: "Obtain an ancient runic sword"
 	task.46517911D3F08EED.title: "Gain mechanical hands"
-	task.4C62A2836DF013EF.title: "Obtain the nightingale boots"
 	task.4D7E0D48CC8DEE9A.title: "Learn to bend gravity"
 	task.4D943903673957DD.title: "Collect a allay plushie"
 	task.50329C47EF1AD5D9.title: "Obtain a Walpurgis orb"
 	task.5270C0E8BE14952A.title: "Obtain a renewed runic sword"
 	task.534BF918047D628B.title: "Become a Demi God Saiyan"
-	task.542D94744F99B3B2.title: "Obtain the ancient nordic greaves"
 	task.5945FBB263B9CD9C.title: "Learn to scavenge"
 	task.5CACE04D02F05B36.title: "Collect a cat plushie"
 	task.5DCCCA22ADDBC61A.title: "Become a High Class Saiyan"
-	task.64710BECBFDCED89.title: "Obtain the nightingale chestplate"
 	task.64BAB64E1A6108DF.title: "Collect a axolotl plushie"
 	task.68624DB564538C02.title: "Gain mechanical eyes"
-	task.6E75D51944AFE59C.title: "Obtain the nightingale leggings"
-	task.721047F39B806DAB.title: "Obtain the ancient nordic sabatons"
 	task.7494B1C74AA9C26A.title: "Harden your resolve"
 	task.7784CC5F98035C4E.title: "Obtain a Walpurgis seal"
 	task.7C4E32EB16D5FD73.title: "Obtain the astral edge"
@@ -3520,8 +3295,120 @@
 	task.407BDCA95CFE6749.title: "Understood"
 	quest.0BA52AEA5444C4D0.quest_desc: [
 		"&7&oThe World writes down what you are, not what you were.&r"
-		"&6Field note:&r A race is recorded when you log in as it, or when you open its quest and click the race task while you hold that race. If you evolve quickly, open the quest before moving on: a stage you have already left cannot be recorded afterwards."
+		"&6Field note:&r Each row is one lineage. Until your race is recorded, the first race of every row is shown; afterwards only your own lineage stays, and its final forms appear. A race is recorded when you log in as it, or when you open its quest and click the race task while you hold that race. If you change lineage with a race reset scroll, an operator can reopen the rows: /ftbquests change_progress <you> reset <quest id of your old first race>."
 	]
 	quest.0BA52AEA5444C4D0.title: "How Lineages Are Recorded"
 	task.5259F3E08CD28876.title: "Understood"
+	chapter_group.1D0AEFB0AFCD128F.title: "Beginnings"
+	chapter_group.23917EF9497228DD.title: "Records"
+	chapter_group.51C7157F1269A7DC.title: "World"
+	chapter_group.6391CB57D8233305.title: "Tensura"
+	chapter.2568B3E983A6EB5A.chapter_subtitle: ["Controls, and how this book records things. Open from the start."]
+	chapter.624123C3BE351540.chapter_subtitle: ["The races of Tensura. Open from the start; your own lineage reveals its final forms."]
+	reward.0860A46F22AC7BA8.title: "1 Nether Star"
+	reward.0A1B7F45C3A8D66F.title: "1 Nether Star"
+	reward.0EC206AF8B3F85B1.title: "1 Nether Star"
+	reward.12219AF53F4EBAE8.title: "1 Nether Star"
+	reward.1AE1381D45620507.title: "1 Nether Star"
+	reward.24205796D0D264DC.title: "1 Nether Star"
+	reward.24E89D52BDB57038.title: "1 Nether Star"
+	reward.26537D8F4FD53E59.title: "1 Nether Star"
+	reward.3355C6F8EDD6AA40.title: "1 Nether Star"
+	reward.3D9BD8DD25117680.title: "1 Nether Star"
+	reward.45B80B3A08DE892A.title: "1 Nether Star"
+	reward.45D6865A6231E416.title: "1 Nether Star"
+	reward.5C9EEBE66B52892E.title: "1 Nether Star"
+	reward.646F14A5AEA76749.title: "1 Nether Star"
+	reward.7845BEC797C537E8.title: "1 Nether Star"
+	reward.7D1516F35A114E70.title: "1 Nether Star"
+	task.00FBC0F2F8194432.title: "Become a Spirit Boar"
+	task.016BBAC238F0A472.title: "Become a Divine Bird"
+	task.020E9A536E2F367D.title: "Become an Orc Lord"
+	task.062FAA1E6631EF79.title: "Become a Dragonewt"
+	task.08550E2EA354C420.title: "Become a Goblin"
+	task.09DD623D3592ABD1.title: "Become a Death Oni"
+	task.0DAD0ACCD298DC87.title: "Become a Lizardman"
+	task.0E71665C36817FC8.title: "Become a Wicked Oni"
+	task.0E91F8D4D698629B.title: "Become an Ogre"
+	task.10D4224B5F843425.title: "Become an Orc Disaster"
+	task.10DED695B2CCB7B5.title: "Become an Elf Saint"
+	task.114ACA06A21FE34F.title: "Become an Enlightened Human"
+	task.12AAA9FD270E94FD.title: "Become a Wight King"
+	task.13DB3F47F9833BC6.title: "Become a Divine Vampire"
+	task.14B617E39893823C.title: "Become a Beastfolk"
+	task.163AB14613C84465.title: "Become an Ancient Giant"
+	task.16F8F3904AEE04E8.title: "Become a Harpy Queen"
+	task.16F97B326A6FC08A.title: "Understood"
+	task.17B86B8B58AFC520.title: "Become a Spirit Skeleton"
+	task.1BAE24F24265D6D9.title: "Become a High Orc"
+	task.1C1AE38924474D4B.title: "Become a Vampire Overcomer"
+	task.224569EB8B82672E.title: "Become an Enlightened Dwarf"
+	task.24D5A1D0366BF851.title: "Become an Enlightened Elf"
+	task.2823A45966ECFC74.title: "Become a Mystic Oni"
+	task.2AB3CEB9F2538DE1.title: "Become a Divine Dragon"
+	task.2B0295A39D1CA90B.title: "Become a Vampire"
+	task.2C4A0A4AF36EE2CD.title: "Become a Spirit Beast"
+	task.2E6CA516E52251DD.title: "Become an Enlightened Hobgoblin"
+	task.2E8F89D106011E2B.title: "Become a Ghoul"
+	task.302D31875BADFC15.title: "Become a Divine Dwarf"
+	task.3032A4D1CA3AFE49.title: "Become a Dwarf Saint"
+	task.36A3CE0C14669525.title: "Become a Spirit Bird"
+	task.39D46B88140DF05D.title: "Become an Elf"
+	task.3D523B0A6450E842.title: "Become a Lesser Daemon"
+	task.3E36766789408B78.title: "Become an Orc"
+	task.4103F39FE97BB024.title: "Become a Harpy"
+	task.44A9739090A53F75.title: "Become a Metal Slime"
+	task.44D7672C994950EB.title: "Become an Arch Daemon"
+	task.4604BF111E5FA972.title: "Become a Vampire Lord"
+	task.46E232C9A60E3F05.title: "Become a Divine Giant"
+	task.47DB14E4717D82A3.title: "Become a True Dragonewt"
+	task.4AC916A5A7BD2A4B.title: "Become a Divine Human"
+	task.4BF549580E5ED0AA.title: "Become a Merfolk"
+	task.4CC428F9F1079D8F.title: "Become a Hobgoblin Saint"
+	task.4E9FCBB99804E3E5.title: "Become a Slime"
+	task.50F8E473D4DF3622.title: "Become a Divine Skeleton"
+	task.52FDAA0425606B77.title: "Become a Divine Fighter"
+	task.54639E6E7D171142.title: "Become a Demon Slime"
+	task.5A04BE6E51984313.title: "Become a Spirit Oni"
+	task.5BFBC5E6F9977526.title: "Become a Beast Lord"
+	task.5DE862A269E665D5.title: "Become a Wight"
+	task.60364131B621DC40.title: "Become a Divine Boar"
+	task.6073A3988F1DD14B.title: "Become a Divine Beast"
+	task.612D87F68509984D.title: "Become a Divine Elf"
+	task.6387ACE2CC070C8C.title: "Become a Hobgoblin"
+	task.65A1F71F3B66698F.title: "Become a Giant"
+	task.6643A2A3F6A1EE93.title: "Become a Merfolk Saint"
+	task.66ADB54CE724BB7C.title: "Become a Human"
+	task.680EC02036B87E17.title: "Become a Greater Daemon"
+	task.684F8A0BF5E20D7D.title: "Become a Human Saint"
+	task.687E718DDF2B3844.title: "Become a Divine Fish"
+	task.6AAE187C24265B1F.title: "Become a God Slime"
+	task.6EF274D4ADF1308A.title: "Become an Enlightened Merfolk"
+	task.728E1B29A979CFEF.title: "Become a Devil Lord"
+	task.73062FCDFAC922D7.title: "Become a Daemon Lord"
+	task.7A7D3C7AF8D83271.title: "Become a Divine Oni"
+	task.7BE2B42DB7EDAA1F.title: "Become a Dwarf"
+	task.7F83700583BBF8AE.title: "Become a Kijin"
+	chapter.3DD684A7ABA239F7.chapter_subtitle: ["Twilight Forest. Opens after Journeyman Miner (mine a diamond)."]
+	chapter.7285813B5FC0F5DA.chapter_subtitle: ["Eternal Starlight. Opens after Adept Miner (enter the Nether)."]
+	chapter.4FCA00F7666AD6C9.chapter_subtitle: ["Chrono Dawn. Opens after Adept Miner (enter the Nether)."]
+	chapter.0CC8C43CA9262C5E.chapter_subtitle: ["The Afterdark and other small realms. Opens after Expert Miner (summon the Wither)."]
+	chapter.0A61B389E8817D99.chapter_subtitle: ["L_Ender's Cataclysm. Opens after Expert Miner (summon the Wither)."]
+	chapter.64D7F0515F034C32.chapter_subtitle: ["Mowzie's Mobs. Opens after Iron Will (smelt iron); the later acts after Journeyman Miner (mine a diamond)."]
+	chapter.36CF90A4CB7F3E74.chapter_subtitle: ["Farmer's Delight. Open from the start."]
+	chapter.164AF94B54EF1366.chapter_subtitle: ["Comforts, Supplementaries and Waystones. Open from the start."]
+	chapter.762061B95D980973.chapter_subtitle: ["Ranks for travellers: more claimed chunks, a shorter /back cooldown. Open from the start."]
+	chapter.1194D01643BF7B81.chapter_subtitle: ["Ranks for slayers. Opens after Iron Will (smelt iron)."]
+	chapter.2733028586FDD2F1.chapter_subtitle: ["Ranks for settlers: more /home slots. Open from the start."]
+	chapter.6370658D2DADB7B5.chapter_subtitle: ["Tensura: Ascension. Opens after Expert Miner (summon the Wither)."]
+	chapter.5C7AF98491C81F15.chapter_subtitle: ["The races of Tensura: Ascension. Open from the start; your own lineage reveals its final forms."]
+	chapter.2D6E64988EA0E00B.chapter_subtitle: ["Tensura: Origins. Opens after Expert Miner (summon the Wither)."]
+	chapter.4A77ECD140B0DA92.chapter_subtitle: ["TensuraMoreSkills. The bloodline is open from the start; the relics open after Adept Miner (enter the Nether)."]
+	chapter.467A5D611C6C6D5B.chapter_subtitle: ["Elite Tensura Addon. Open from the start."]
+	quest.543298CE006931C0.quest_desc: [
+		"&7&oBefore the races, there were the ones the races came from.&r"
+		"&6Field note:&r Three lines of progenitors follow, one per row. Until one is recorded, each row shows its first race; afterwards only your own line stays and its final forms appear. A race is recorded when you log in as it, or when you open its quest and click the race task while you hold it."
+	]
+	quest.543298CE006931C0.title: "The Progenitors"
+	task.40DC825E89CF50E6.title: "Understood"
 }

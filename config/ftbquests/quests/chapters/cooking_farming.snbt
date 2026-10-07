@@ -405,7 +405,13 @@
 				{
 					id: "75ED2245B1D70BA3"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "06B1CA256317A665"
+					type: "tensura_ftb:existence_value"
+					value: 1000
 				}
 			]
 			shape: "hexagon"

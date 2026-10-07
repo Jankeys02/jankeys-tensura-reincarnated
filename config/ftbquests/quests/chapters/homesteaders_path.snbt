@@ -8,7 +8,7 @@
 	}
 	id: "2733028586FDD2F1"
 	images: [ ]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,6 +27,13 @@
 					id: "36DD7615F9A86010"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					ability: "tensura:poison_resistance"
+					id: "2224F47437E07630"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -57,6 +64,13 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					ability: "tensura:thought_communication"
+					id: "66EDFC193639ED03"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				advancement: "farmersdelight:main/plant_rice"
@@ -85,6 +99,13 @@
 					id: "470F93FAC6CE8623"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					ability: "tensura:abnormal_condition_resistance"
+					id: "003AE536E9795D7B"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -115,6 +136,13 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					ability: "tensura:self_regeneration"
+					id: "45B6B383BACF0A64"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				advancement: "farmersdelight:main/plant_all_crops"
@@ -142,7 +170,14 @@
 				{
 					id: "3F27DFE33C1FA55C"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					ability: "tensura:cook"
+					id: "7C21441804EED659"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			shape: "hexagon"
@@ -220,7 +255,7 @@
 			rewards: [{
 				id: "02842C46947F0C47"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/balanced_diet"

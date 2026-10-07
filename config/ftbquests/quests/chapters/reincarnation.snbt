@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "reincarnation"
-	group: ""
+	group: "1D0AEFB0AFCD128F"
 	icon: {
 		id: "tensura:race_reset_scroll"
 	}
 	id: "4BBCC113B81BF1A5"
 	images: [ ]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

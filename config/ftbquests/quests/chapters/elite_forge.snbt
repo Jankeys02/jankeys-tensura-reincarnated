@@ -166,7 +166,7 @@
 			rewards: [{
 				id: "44615327DD983052"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "elitetensura:hephaestus"
@@ -184,7 +184,7 @@
 			rewards: [{
 				id: "45A1800E5DDB06E4"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "elitetensura:gaia"
@@ -202,7 +202,7 @@
 			rewards: [{
 				id: "41651D5DDE05ACA9"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "elitetensura:ouroboros"
@@ -220,7 +220,7 @@
 			rewards: [{
 				id: "32AE6C46033B5F22"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -239,7 +239,7 @@
 			rewards: [{
 				id: "3319A70B9BB5FD8A"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "elitetensura:voidsovereign"
@@ -252,7 +252,9 @@
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
 			id: "5BD661A832F5AC47"
+			optional: true
 			rewards: [{
 				id: "2C377BFE12CC403E"
 				type: "xp_levels"
@@ -263,13 +265,14 @@
 				race: "elitetensura:lesser_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "2DB557FC3444B05C"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "1D23957B12E66AE8"
 				type: "xp_levels"
@@ -280,13 +283,14 @@
 				race: "elitetensura:medium_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "4496F4FDDDC6028E"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "71D944FBFB6D2FC1"
 				type: "xp_levels"
@@ -297,13 +301,14 @@
 				race: "elitetensura:high_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "43398A64260CD205"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "28C07A8B630B6728"
 				type: "xp_levels"
@@ -314,85 +319,100 @@
 				race: "elitetensura:divine_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "035A32A0822B279C"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "609F0021B84DB521"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "534BF918047D628B"
 				race: "elitetensura:demi_god_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "6877925F24DECAEF"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "16D98D0D6098815D"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "310A192F54446B9C"
 				race: "elitetensura:lesser_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 16.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "368B3F7CC657391A"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "2F055A5B62271F10"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "1DAD455A1D1FD7BD"
 				race: "elitetensura:intermediate_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 18.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "7943576188A9E79C"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "0D221BD9FE0F7657"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "1AE4A5979DCBB11D"
 				race: "elitetensura:greater_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 20.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_details_until_startable: true
+			dependencies: [
+				"5BD661A832F5AC47"
+				"2DB557FC3444B05C"
+				"4496F4FDDDC6028E"
+				"43398A64260CD205"
+				"035A32A0822B279C"
+				"6877925F24DECAEF"
+				"368B3F7CC657391A"
+				"7943576188A9E79C"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "2EA652562751F419"
+			optional: true
 			rewards: [{
 				id: "2410AA982EE6E423"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -400,78 +420,8 @@
 				race: "elitetensura:transcendent_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 22.0d
+			x: 16.0d
 			y: 6.0d
-		}
-		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_dependency_lines: true
-			id: "0017844C3945CF6E"
-			optional: true
-			rewards: [{
-				id: "2731F79FBDC8988F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [
-				{
-					id: "1FDDFE307CA5AEFD"
-					item: { count: 1, id: "elitetensura:nightingale_helmet" }
-					type: "item"
-				}
-				{
-					id: "64710BECBFDCED89"
-					item: { count: 1, id: "elitetensura:nightingale_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6E75D51944AFE59C"
-					item: { count: 1, id: "elitetensura:nightingale_leggings" }
-					type: "item"
-				}
-				{
-					id: "4C62A2836DF013EF"
-					item: { count: 1, id: "elitetensura:nightingale_boots" }
-					type: "item"
-				}
-			]
-			x: 22.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["3C0306238D9540B2"]
-			hide_dependency_lines: true
-			id: "66D0FA1A7F2E0C2D"
-			optional: true
-			rewards: [{
-				id: "6D5A99DC66E6C80F"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [
-				{
-					id: "40A3A71701951F8A"
-					item: { count: 1, id: "elitetensura:ancient_nordic_helmet" }
-					type: "item"
-				}
-				{
-					id: "1AFF05E8BEAA7032"
-					item: { count: 1, id: "elitetensura:ancient_nordic_chestplate" }
-					type: "item"
-				}
-				{
-					id: "542D94744F99B3B2"
-					item: { count: 1, id: "elitetensura:ancient_nordic_leggings" }
-					type: "item"
-				}
-				{
-					id: "721047F39B806DAB"
-					item: { count: 1, id: "elitetensura:ancient_nordic_boots" }
-					type: "item"
-				}
-			]
-			x: 20.0d
-			y: 9.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -481,7 +431,7 @@
 			rewards: [{
 				id: "6D4DFEF0415FAC9F"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [
 				{
@@ -500,7 +450,7 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -511,7 +461,7 @@
 			rewards: [{
 				id: "61B1C66C76A7964F"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [
 				{
@@ -525,7 +475,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -536,7 +486,7 @@
 			rewards: [{
 				id: "13A08E0878B66BE6"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [
 				{
@@ -550,7 +500,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -605,7 +555,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 4.0d
 			y: 12.0d
 		}
 		{
@@ -625,7 +575,7 @@
 				id: "0DA2A4BF6EE5FD6A"
 				type: "dimension"
 			}]
-			x: 14.0d
+			x: 4.0d
 			y: 15.0d
 		}
 	]

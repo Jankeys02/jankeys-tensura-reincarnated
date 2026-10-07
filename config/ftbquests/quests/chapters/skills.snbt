@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "skills"
-	group: ""
+	group: "6391CB57D8233305"
 	icon: {
 		id: "minecraft:enchanted_book"
 	}
 	id: "5CE71D4ABE9301CC"
 	images: [ ]
-	order_index: 11
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -271,8 +271,10 @@
 				xp_levels: 4
 			}]
 			tasks: [{
+				existence: "MAX_MAGICULE"
 				id: "7DAB649DCFF84DE9"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 1000L
 			}]
 			x: 0.0d
 			y: 8.0d
@@ -286,8 +288,10 @@
 				xp_levels: 8
 			}]
 			tasks: [{
+				existence: "MAX_MAGICULE"
 				id: "6070E15D5C26926B"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 10000L
 			}]
 			x: 2.0d
 			y: 8.0d
@@ -302,8 +306,10 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				existence: "MAX_MAGICULE"
 				id: "235568EB0C91DB3B"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 100000L
 			}]
 			x: 4.0d
 			y: 8.0d
@@ -328,8 +334,10 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				existence: "MAX_MAGICULE"
 				id: "6CB150EE18D3C321"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 1000000L
 			}]
 			x: 6.0d
 			y: 8.0d
@@ -343,8 +351,10 @@
 				xp_levels: 4
 			}]
 			tasks: [{
+				existence: "MAX_AURA"
 				id: "5CE7E939EC24D377"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 1000L
 			}]
 			x: 0.0d
 			y: 10.0d
@@ -358,8 +368,10 @@
 				xp_levels: 8
 			}]
 			tasks: [{
+				existence: "MAX_AURA"
 				id: "45FD197BAC107A9B"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 10000L
 			}]
 			x: 2.0d
 			y: 10.0d
@@ -374,8 +386,10 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				existence: "MAX_AURA"
 				id: "0BFAC9B85EFEF9C8"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 100000L
 			}]
 			x: 4.0d
 			y: 10.0d
@@ -400,8 +414,10 @@
 			]
 			shape: "diamond"
 			tasks: [{
+				existence: "MAX_AURA"
 				id: "1F37DDAA7A5C4F28"
-				type: "custom"
+				type: "tensura_ftb:existence_value"
+				value: 1000000L
 			}]
 			x: 6.0d
 			y: 10.0d

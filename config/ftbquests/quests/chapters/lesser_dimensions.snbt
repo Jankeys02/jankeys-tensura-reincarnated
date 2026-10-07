@@ -167,7 +167,13 @@
 				{
 					id: "3C11035ACA8EF9D6"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "6228494490CF358E"
+					type: "tensura_ftb:existence_value"
+					value: 3000
 				}
 			]
 			shape: "hexagon"
@@ -238,7 +244,7 @@
 			rewards: [{
 				id: "129F407A45C58389"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "hexagon"
 			tasks: [{

@@ -8,7 +8,7 @@
 	}
 	id: "1194D01643BF7B81"
 	images: [ ]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,6 +37,13 @@
 					id: "0343663F6DB0834F"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					ability: "tensura:strength"
+					id: "675883C297AB7965"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -76,6 +83,13 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					ability: "tensura:danger_sense"
+					id: "5BE0B74E9BF958ED"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -113,6 +127,13 @@
 					id: "7D862624D39538F8"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					ability: "tensura:haki"
+					id: "297276B84EE8201B"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			tasks: [{
@@ -152,6 +173,13 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					ability: "tensura:steel_strength"
+					id: "2C5F3B6A90480EDF"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
 			]
 			tasks: [{
 				advancement: "cataclysm:kill_leviathan"
@@ -188,7 +216,14 @@
 				{
 					id: "0F9DED269514ADB0"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					ability: "tensura:physical_attack_resistance"
+					id: "1B07DAA603C87429"
+					removeTime: 0
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
 				}
 			]
 			shape: "hexagon"
@@ -209,7 +244,7 @@
 			rewards: [{
 				id: "09CBD3343CBE2592"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/sniper_duel"

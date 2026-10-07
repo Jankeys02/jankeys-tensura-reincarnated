@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "field_guide"
-	group: ""
+	group: "1D0AEFB0AFCD128F"
 	icon: {
 		id: "tensura:race_reset_scroll"
 	}
 	id: "2568B3E983A6EB5A"
 	images: [ ]
-	order_index: 14
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

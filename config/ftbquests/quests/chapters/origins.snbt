@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "1F1C2A7BBA2290D1"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "04639C81CF25ACB4"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:administrative_authority"
@@ -230,7 +230,7 @@
 			rewards: [{
 				id: "06E41F042E0EC15B"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -260,45 +260,69 @@
 		}
 		{
 			dependencies: ["606087AD55A214CD"]
-			id: "7788D3A2EFD6ECC4"
+			id: "543298CE006931C0"
+			max_completable_dependents: 1
 			rewards: [{
-				id: "11608B609C9A4AD5"
+				id: "54F24402E6ABF151"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
-				id: "3B4C3C5D79E6B1D6"
-				race: "trorigins:cherub_of_origin"
-				type: "tensura_ftb:race"
+				id: "40DC825E89CF50E6"
+				type: "checkmark"
 			}]
 			x: 16.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			dependencies: ["543298CE006931C0"]
+			hide_dependency_lines: true
 			id: "0378D519C27FCB5E"
+			optional: true
 			rewards: [{
 				id: "74ECD9D59CBD7E36"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "01F87045D392C236"
 				race: "trorigins:origin_arch_angel"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
+			id: "7788D3A2EFD6ECC4"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "11608B609C9A4AD5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3B4C3C5D79E6B1D6"
+				race: "trorigins:cherub_of_origin"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0378D519C27FCB5E"
+				"7788D3A2EFD6ECC4"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "4647BFCCD6DE9E25"
+			optional: true
 			rewards: [{
 				id: "6C4F91CC1FE347D5"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -306,168 +330,200 @@
 				race: "trorigins:seraph_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["543298CE006931C0"]
+			hide_dependency_lines: true
 			id: "73E269CAFF82BB2C"
+			optional: true
 			rewards: [{
 				id: "171323EC31BC7417"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "46FD5C0B775A0284"
 				race: "trorigins:fallen_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "741A13AFD9F2CA05"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "6F8BA122BE1247A4"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "52161419F25F1B9C"
 				race: "trorigins:fallen_cherub_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "667C41AF930DBB3E"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "6587246BB4DB06E6"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "5B28CBB7FFD2C9B8"
 				race: "trorigins:fallen_origin_arch_angel"
 				type: "tensura_ftb:race"
 			}]
-			x: 16.0d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "2A57EA3C486B9AB4"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "464C6857156BFA03"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "1C05CEC65392FEDD"
 				race: "trorigins:arch_fallen_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 18.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "7C5C633E1153834B"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "14BDA959BD546081"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "547271824EAC9D1D"
 				race: "trorigins:fallen_seraph_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 20.0d
+			x: 8.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			dependencies: [
+				"73E269CAFF82BB2C"
+				"741A13AFD9F2CA05"
+				"667C41AF930DBB3E"
+				"2A57EA3C486B9AB4"
+				"7C5C633E1153834B"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "299C0B7662B32102"
+			optional: true
 			rewards: [{
 				id: "260976DFB3A3FB20"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 25
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "11A502923D296B53"
 				race: "trorigins:fallen_lord_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 22.0d
+			x: 10.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			dependencies: [
+				"73E269CAFF82BB2C"
+				"741A13AFD9F2CA05"
+				"667C41AF930DBB3E"
+				"2A57EA3C486B9AB4"
+				"7C5C633E1153834B"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "19B610EDC4BCDC53"
+			optional: true
 			rewards: [{
 				id: "377B7DDBC6B82D2C"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 25
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "1F4DED545957FE13"
 				race: "trorigins:mystic_angel_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 24.0d
+			x: 12.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["543298CE006931C0"]
+			hide_dependency_lines: true
 			id: "5BB21069D65CC2DC"
+			optional: true
 			rewards: [{
 				id: "69058D7B5131EA40"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "476CC1B3A108A2A7"
 				race: "trorigins:primordial_arch_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 24.0d
-			y: 12.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			hide_dependency_lines: true
 			id: "369D06724E6968A9"
+			invisible: true
+			optional: true
 			rewards: [{
 				id: "3578142742B01F37"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "3FEF7383F59E0EA2"
 				race: "trorigins:primordial_daemon_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 22.0d
-			y: 12.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
-			hide_details_until_startable: true
+			dependencies: [
+				"5BB21069D65CC2DC"
+				"369D06724E6968A9"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "4F324BADAAEAD376"
+			optional: true
 			rewards: [{
 				id: "0FB826C949714EA8"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -475,8 +531,8 @@
 				race: "trorigins:primordial_devil_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 20.0d
-			y: 12.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -486,7 +542,7 @@
 			rewards: [{
 				id: "47ABED5D1A3B9886"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_abyss"
@@ -494,8 +550,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 20.0d
-			y: 15.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -505,7 +561,7 @@
 			rewards: [{
 				id: "526D30A96FD00CD9"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_earth"
@@ -513,8 +569,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 22.0d
-			y: 15.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -524,7 +580,7 @@
 			rewards: [{
 				id: "6319B4C7ECF694F0"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_frost"
@@ -532,8 +588,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 24.0d
-			y: 15.0d
+			x: 4.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -543,7 +599,7 @@
 			rewards: [{
 				id: "631571E0E188C665"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_scorch"
@@ -551,8 +607,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 26.0d
-			y: 15.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -562,7 +618,7 @@
 			rewards: [{
 				id: "216603F268DFA01B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_storm"
@@ -570,13 +626,14 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 28.0d
-			y: 15.0d
+			x: 8.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "59B783526E3C730D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "4DF172B955A77B6B"
@@ -588,13 +645,14 @@
 				race: "trorigins:angel_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 28.0d
-			y: 18.0d
+			x: 8.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "6129582B29811F28"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "5252DE3AD1D9DC02"
@@ -606,13 +664,14 @@
 				race: "trorigins:blood_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 30.0d
-			y: 18.0d
+			x: 10.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "364D473A66230B7A"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "4909D9CC268A398B"
@@ -624,13 +683,14 @@
 				race: "trorigins:daemon_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 32.0d
-			y: 18.0d
+			x: 12.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "52170581B741DCF9"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "6AB3E52218E818CD"
@@ -642,13 +702,14 @@
 				race: "trorigins:death_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 34.0d
-			y: 18.0d
+			x: 14.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "3EB4793FF853A54D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "5B5C8064C70D4BB3"
@@ -660,13 +721,14 @@
 				race: "trorigins:dragon_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 36.0d
-			y: 18.0d
+			x: 16.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "53A3926933F0BE31"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "5BCB437C28998F0E"
@@ -678,13 +740,14 @@
 				race: "trorigins:dragon_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 38.0d
-			y: 18.0d
+			x: 18.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "53086D6069FB09BA"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "17A801F316EA1AD0"
@@ -696,13 +759,14 @@
 				race: "trorigins:dragon_boar"
 				type: "tensura_ftb:race"
 			}]
-			x: 40.0d
-			y: 18.0d
+			x: 20.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "666EC753EC16CF01"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "1481151A1522AEF9"
@@ -714,13 +778,14 @@
 				race: "trorigins:dragon_fish"
 				type: "tensura_ftb:race"
 			}]
-			x: 42.0d
-			y: 18.0d
+			x: 22.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "6A33F6C658080D94"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "3AF7F0C7E14247B7"
@@ -732,13 +797,14 @@
 				race: "trorigins:dragon_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 44.0d
-			y: 18.0d
+			x: 24.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "4FD5B19D502D1829"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "3860D1DC46D94A68"
@@ -750,13 +816,14 @@
 				race: "trorigins:dragon_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 46.0d
-			y: 18.0d
+			x: 26.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "5FE4D9C71EEE1896"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "124ED7DA7994F383"
@@ -768,13 +835,14 @@
 				race: "trorigins:dragon_wolf"
 				type: "tensura_ftb:race"
 			}]
-			x: 48.0d
-			y: 18.0d
+			x: 28.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "334BD3241E6CAEF3"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "762C46D2FB1E7B0E"
@@ -786,13 +854,14 @@
 				race: "trorigins:dragonoid"
 				type: "tensura_ftb:race"
 			}]
-			x: 50.0d
-			y: 18.0d
+			x: 30.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "16A8C0AB22F8CC17"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "58AA2A3698B9FAE6"
@@ -804,13 +873,14 @@
 				race: "trorigins:elemental_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 52.0d
-			y: 18.0d
+			x: 32.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "6D7E84DA8C57192D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "33A5916FE6C0C00F"
@@ -822,13 +892,14 @@
 				race: "trorigins:fallen_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 54.0d
-			y: 18.0d
+			x: 34.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "5FC9572F362BBAD0"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "61B5BDF0820AA92C"
@@ -840,13 +911,14 @@
 				race: "trorigins:insect_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 56.0d
-			y: 18.0d
+			x: 36.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "4C1181A886B10F14"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "4D049DD3E3054F63"
@@ -858,13 +930,14 @@
 				race: "trorigins:mystic_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 58.0d
-			y: 18.0d
+			x: 38.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "12C47866A200EF18"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "76CF5168CB4E8F42"
@@ -876,13 +949,14 @@
 				race: "trorigins:pure_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 60.0d
-			y: 18.0d
+			x: 40.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["606087AD55A214CD"]
+			dependencies: ["77CD178FB8BDFD0B"]
 			hide_dependency_lines: true
 			id: "1FB7473AB07B7D7D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "0011EC03FB0D39CD"
@@ -894,8 +968,8 @@
 				race: "trorigins:ultimate_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 62.0d
-			y: 18.0d
+			x: 42.0d
+			y: 15.0d
 		}
 	]
 }

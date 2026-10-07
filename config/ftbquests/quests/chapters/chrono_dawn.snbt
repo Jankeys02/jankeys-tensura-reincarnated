@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "27DF7D21CFA930C7"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/clockwork_colossus_defeated"
@@ -368,7 +368,7 @@
 			rewards: [{
 				id: "0B537A0EB55A5130"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/entropy_keeper_defeated"
@@ -386,7 +386,7 @@
 			rewards: [{
 				id: "35DC18249D527D81"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/chronos_warden_defeated"
@@ -423,7 +423,7 @@
 			rewards: [{
 				id: "119D32A3E8C1C715"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [
 				{
@@ -484,7 +484,7 @@
 			rewards: [{
 				id: "0123A850DBB35127"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us3/time_tyrant_defeat"
@@ -512,7 +512,13 @@
 				{
 					id: "6CA6623E73B018F3"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "4907DF408BADF665"
+					type: "tensura_ftb:existence_value"
+					value: 5000
 				}
 			]
 			shape: "hexagon"

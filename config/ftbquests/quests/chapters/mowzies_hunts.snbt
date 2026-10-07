@@ -234,7 +234,7 @@
 			rewards: [{
 				id: "708EC8AF8422DF77"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -304,7 +304,7 @@
 			rewards: [{
 				id: "417D7879BB85F54E"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_frostmaw"
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "67276EC646AA830B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
@@ -386,7 +386,13 @@
 				{
 					id: "6C10FAFBD729953F"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 25
+				}
+				{
+					existence: "MAX_EP"
+					id: "7EAC1CE55BAD9A05"
+					type: "tensura_ftb:existence_value"
+					value: 2000
 				}
 			]
 			shape: "hexagon"

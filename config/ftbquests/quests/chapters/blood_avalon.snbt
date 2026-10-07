@@ -27,91 +27,6 @@
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
-			id: "3C4EFD65F1264241"
-			rewards: [{
-				id: "2BA89C361D31522A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "652B4F69F236B72C"
-				race: "tensuramoreskills:bloodfiend"
-				type: "tensura_ftb:race"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1378014194B9A8BC"]
-			hide_details_until_startable: true
-			id: "441048ADC49647A5"
-			rewards: [{
-				id: "7046C07ED7EA9FE8"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "5F5E16AC7F30D6E2"
-				race: "tensuramoreskills:elder_bloodfiend"
-				type: "tensura_ftb:race"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1378014194B9A8BC"]
-			hide_details_until_startable: true
-			id: "3910A0408ED3274D"
-			rewards: [{
-				id: "7384830DA5BDE1B3"
-				type: "xp_levels"
-				xp_levels: 8
-			}]
-			tasks: [{
-				id: "6E73A84A9C9903F3"
-				race: "tensuramoreskills:blood_noble"
-				type: "tensura_ftb:race"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1378014194B9A8BC"]
-			hide_details_until_startable: true
-			id: "426237BB0C977B69"
-			rewards: [{
-				id: "6D667962F3E9C7C3"
-				type: "xp_levels"
-				xp_levels: 8
-			}]
-			tasks: [{
-				id: "580470EFE3A8EB78"
-				race: "tensuramoreskills:blood_monarch"
-				type: "tensura_ftb:race"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1378014194B9A8BC"]
-			hide_details_until_startable: true
-			id: "4515EE99DE316235"
-			rewards: [{
-				id: "4B2D1F53452AD6F4"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "038D6ECD5E61ABE2"
-				race: "tensuramoreskills:crimson_progenitor"
-				type: "tensura_ftb:race"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1378014194B9A8BC"]
 			hide_details_until_startable: true
 			id: "606A430048DADA8D"
 			rewards: [{
@@ -125,7 +40,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -142,17 +57,17 @@
 				item: { count: 1, id: "tensuramoreskills:blood_altar" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1378014194B9A8BC"]
+			dependencies: ["4515EE99DE316235"]
 			hide_until_deps_complete: true
 			id: "0638C24919B46782"
 			rewards: [{
 				id: "6B9423170295E423"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				ability: "tensuramoreskills:black_communion"
@@ -160,8 +75,105 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 16.0d
+			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "3C4EFD65F1264241"
+			optional: true
+			rewards: [{
+				id: "2BA89C361D31522A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "652B4F69F236B72C"
+				race: "tensuramoreskills:bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "441048ADC49647A5"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7046C07ED7EA9FE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5F5E16AC7F30D6E2"
+				race: "tensuramoreskills:elder_bloodfiend"
+				type: "tensura_ftb:race"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3910A0408ED3274D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "7384830DA5BDE1B3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6E73A84A9C9903F3"
+				race: "tensuramoreskills:blood_noble"
+				type: "tensura_ftb:race"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "426237BB0C977B69"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "6D667962F3E9C7C3"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "580470EFE3A8EB78"
+				race: "tensuramoreskills:blood_monarch"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C4EFD65F1264241"
+				"441048ADC49647A5"
+				"3910A0408ED3274D"
+				"426237BB0C977B69"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "4515EE99DE316235"
+			optional: true
+			rewards: [{
+				id: "4B2D1F53452AD6F4"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "038D6ECD5E61ABE2"
+				race: "tensuramoreskills:crimson_progenitor"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["28F307535BA7E962"]
@@ -176,8 +188,8 @@
 				item: { count: 1, id: "tensuramoreskills:genetic_syringe" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["28F307535BA7E962"]
@@ -193,8 +205,8 @@
 				item: { count: 1, id: "tensuramoreskills:key_of_sealing" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["28F307535BA7E962"]
@@ -210,8 +222,8 @@
 				item: { count: 1, id: "tensuramoreskills:feldway_angel_summoner" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["28F307535BA7E962"]
@@ -227,8 +239,8 @@
 				item: { count: 1, id: "tensuramoreskills:extermination_blade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["28F307535BA7E962"]
@@ -237,7 +249,7 @@
 			rewards: [{
 				id: "68BA8C932C01E11C"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				id: "16A703DA66286F99"
@@ -245,7 +257,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["16DE10A7421CB39F"]
@@ -254,15 +266,15 @@
 			rewards: [{
 				id: "3F162770C26F6D4D"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				id: "6F293DF1F220E33B"
 				item: { count: 1, id: "tensuramoreskills:true_excalibur" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0F199245DBD8836A"]
@@ -271,7 +283,7 @@
 			rewards: [{
 				id: "193E6C998E84FFF9"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 25
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -279,8 +291,8 @@
 				item: { count: 1, id: "tensuramoreskills:divine_excalibur" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["523C4CD791EA1928"]
@@ -289,15 +301,15 @@
 			rewards: [{
 				id: "259776C21BEAF0C8"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			tasks: [{
 				id: "45758217CAE1DEF3"
 				item: { count: 1, id: "tensuramoreskills:awakened_key_of_sealing" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -316,8 +328,8 @@
 				id: "548051CAE7E9ED14"
 				type: "dimension"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 14.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -336,8 +348,8 @@
 				id: "7259971B6B56EF01"
 				type: "dimension"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 16.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -356,8 +368,8 @@
 				id: "46BAFF3AA19762BF"
 				type: "dimension"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 18.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -368,7 +380,7 @@
 			rewards: [{
 				id: "3B4CB49AFB8DBAA6"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -377,8 +389,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 20.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -389,7 +401,7 @@
 			rewards: [{
 				id: "769344EAEB5CD75F"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -398,8 +410,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 22.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -410,7 +422,7 @@
 			rewards: [{
 				id: "78ABD46EC79039D7"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -419,8 +431,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 24.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -431,7 +443,7 @@
 			rewards: [{
 				id: "1D5377B8DE42D1E2"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -440,8 +452,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 26.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -452,7 +464,7 @@
 			rewards: [{
 				id: "7E426E956E0775E0"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -461,8 +473,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 28.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -473,7 +485,7 @@
 			rewards: [{
 				id: "63692FB9ED49D6B3"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -482,8 +494,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 30.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -494,7 +506,7 @@
 			rewards: [{
 				id: "6168E79DEFFAC76E"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -503,8 +515,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 32.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -515,7 +527,7 @@
 			rewards: [{
 				id: "643B92D0392563DC"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -524,8 +536,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 22.0d
-			y: 6.0d
+			x: 34.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -536,7 +548,7 @@
 			rewards: [{
 				id: "40F8056915D90322"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -545,8 +557,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 24.0d
-			y: 6.0d
+			x: 36.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -557,7 +569,7 @@
 			rewards: [{
 				id: "2A8DE77609290E3E"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -566,8 +578,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 26.0d
-			y: 6.0d
+			x: 38.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -578,7 +590,7 @@
 			rewards: [{
 				id: "36F295B9EA2CD8B1"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -587,8 +599,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 28.0d
-			y: 6.0d
+			x: 40.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -599,7 +611,7 @@
 			rewards: [{
 				id: "42E4F32D29750442"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -608,8 +620,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 30.0d
-			y: 6.0d
+			x: 42.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -620,7 +632,7 @@
 			rewards: [{
 				id: "6A0934F881E70AAE"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -629,8 +641,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 32.0d
-			y: 6.0d
+			x: 44.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -641,7 +653,7 @@
 			rewards: [{
 				id: "79C62BDA37DC864E"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -650,8 +662,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 34.0d
-			y: 6.0d
+			x: 46.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -662,7 +674,7 @@
 			rewards: [{
 				id: "315A10C75C627719"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -671,8 +683,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 36.0d
-			y: 6.0d
+			x: 48.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -683,7 +695,7 @@
 			rewards: [{
 				id: "4ACF5BF6A62B28B2"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -692,8 +704,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 38.0d
-			y: 6.0d
+			x: 50.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -704,7 +716,7 @@
 			rewards: [{
 				id: "312DA86A93557DCC"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -713,8 +725,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 40.0d
-			y: 6.0d
+			x: 52.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -725,7 +737,7 @@
 			rewards: [{
 				id: "2D33AC9A2926E2E9"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -734,8 +746,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 42.0d
-			y: 6.0d
+			x: 54.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -746,7 +758,7 @@
 			rewards: [{
 				id: "1CD4702DDECD10DF"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -755,8 +767,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 44.0d
-			y: 6.0d
+			x: 56.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -767,7 +779,7 @@
 			rewards: [{
 				id: "7EA0AC740FEAB2E9"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -776,8 +788,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 46.0d
-			y: 6.0d
+			x: 58.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -788,7 +800,7 @@
 			rewards: [{
 				id: "3AB160106918B69B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -797,8 +809,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 48.0d
-			y: 6.0d
+			x: 60.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -809,7 +821,7 @@
 			rewards: [{
 				id: "4344FA15CDDE8055"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -818,8 +830,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 50.0d
-			y: 6.0d
+			x: 62.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -830,7 +842,7 @@
 			rewards: [{
 				id: "503B113333D69130"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -839,8 +851,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 52.0d
-			y: 6.0d
+			x: 64.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1378014194B9A8BC"]
@@ -851,7 +863,7 @@
 			rewards: [{
 				id: "7E76B393DF79FC9F"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 15
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -860,8 +872,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 54.0d
-			y: 6.0d
+			x: 66.0d
+			y: 9.0d
 		}
 	]
 }

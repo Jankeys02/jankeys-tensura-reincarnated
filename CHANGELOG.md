@@ -17,7 +17,15 @@ Quest book expansion (planned as 0.2.0). Not yet released or tagged.
 - `kubejs/server_scripts/dimension_gate.js`: survival players who enter Eternal Starlight or Chrono Dawn before visiting the Nether, or The Afterdark before summoning a Wither, are sent back to their bed or spawn with a message. Creative, spectator and (by default) operators are exempt. Twilight Forest stays open.
 - Mods: Tensura: Ascension, TensuraMoreSkills, Elite Tensura Addon, Tensura: Origins. All four are All Rights Reserved: the server pack must not bundle them. `SERVER_HOSTING.md` links them, and they should be added as Required Dependencies on the server-pack file on CurseForge (ids 1505110, 1399788, 515631, 1230188).
 
+### Changed (quest-book audit, 2026-10-07)
+- Sidebar: every chapter now sits in a group (Beginnings, Tensura, World, Dimensions, Boss Hunts, Homestead, Paths, Tensura Addons, Records); Miner's Path moved into Paths. Each new chapter has a subtitle tooltip saying which mod it covers and what unlocks it.
+- Race catalogs (Evolution Paths, Lineages of Ascension, the Origins progenitors, the Bloodfiend and Saiyan lines) show one row per lineage: only the first race is visible, the final form(s) appear once you have been recorded as any stage of that lineage, and the stages in between appear as you reach them. Quest ids of the 0.1.1 Evolution Paths chapter are unchanged, so progress on them survives.
+- Reward scale unified: boss quests in the new chapters pay 15 levels (was 8), chapter finals 25 (was 10). Chapter finals also grant existence points (1,000 to 10,000 EP) through the Tensura quest reward.
+- Paths: each Explorer, Hunter and Homesteader rank now also grants a Tensura skill (senses, resistances, Strength, Haki, Farsight, Self-Regeneration; the Homesteader's final rank grants the Unique Skill Cook).
+- Removed five Adventure quests that only repeated tasks from Caves and Treasure, Dragons and Myths or the Paths (Hot Feet, Down in the Dark, Temple Run, Dragon Egg, Dragonslayer); "Hear Me, Direwolves" (Adventure) is now "Pack Hunters". Repeated narrator lines in the addon catalogs were varied. The Nightingale armour quest (Elite Forge) was removed: the set is not a registered item. Book: 31 chapters, 830 quests.
+
 ### Fixed
+- Eight Skills and Spirits quests (Magicule Reserves I to III, Sea of Magicules, Aura I to III, Overwhelming Aura) could never complete: their task type did not exist and FTB Quests had replaced it with an empty custom task. They now use the Tensura existence-value task (max magicules / max aura).
 - Quest command rewards ran at permission level 0, so rank rewards (Miner's Path and all new paths) only worked for operators. All command rewards now run at level 4 and show a readable name and icon (for example "Rank: Apprentice Miner") instead of the raw command.
 - "Land of the Dead" (Explorer's Journal) needs a biome that only exists in the unreachable Dread Lands dimension; it is now a secret optional quest with a mysterious description.
 
