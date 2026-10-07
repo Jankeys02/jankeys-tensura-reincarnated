@@ -26,7 +26,7 @@
 				{
 					id: "36DD7615F9A86010"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:poison_resistance"
@@ -62,7 +62,7 @@
 				{
 					id: "18ACE652120A1A52"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:thought_communication"
@@ -78,7 +78,7 @@
 				id: "0BAAA655945EAF61"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -98,7 +98,7 @@
 				{
 					id: "470F93FAC6CE8623"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:abnormal_condition_resistance"
@@ -114,7 +114,7 @@
 				id: "3854FC5F38ED29F3"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -134,7 +134,7 @@
 				{
 					id: "7215E76CC49D4909"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:self_regeneration"
@@ -150,7 +150,7 @@
 				id: "51F2C776E4C6F6D4"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -170,7 +170,7 @@
 				{
 					id: "3F27DFE33C1FA55C"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					ability: "tensura:cook"
@@ -187,7 +187,7 @@
 				id: "7E2423865039F0D9"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -198,7 +198,7 @@
 			rewards: [{
 				id: "2CA64ABCF444AC44"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/breed_an_animal"
@@ -206,8 +206,8 @@
 				id: "3FDC60D350FFFCD3"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7DE5FE1012AE1F03"]
@@ -217,7 +217,7 @@
 			rewards: [{
 				id: "5944CD534F0FFF28"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/tame_an_animal"
@@ -225,8 +225,8 @@
 				id: "006D65EE3D8F986C"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7DE5FE1012AE1F03"]
@@ -236,7 +236,7 @@
 			rewards: [{
 				id: "72643F06B8B74C5E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/fishy_business"
@@ -244,8 +244,8 @@
 				id: "6582BF983D67212D"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7DE5FE1012AE1F03"]
@@ -255,7 +255,7 @@
 			rewards: [{
 				id: "02842C46947F0C47"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/balanced_diet"
@@ -263,8 +263,8 @@
 				id: "4148CE435CEC172C"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7DE5FE1012AE1F03"]
@@ -274,7 +274,7 @@
 			rewards: [{
 				id: "5A18A16D008DCF46"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:husbandry/silk_touch_nest"
@@ -283,7 +283,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 	]
 }

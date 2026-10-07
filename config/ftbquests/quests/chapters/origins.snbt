@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "1F1C2A7BBA2290D1"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "04639C81CF25ACB4"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:administrative_authority"
@@ -43,7 +43,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "08D742AC8269C467"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_spirit_haki"
@@ -61,7 +61,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -71,7 +71,7 @@
 			rewards: [{
 				id: "3A1C771E22E3A66A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "trorigins:dragotite"
@@ -79,8 +79,8 @@
 				id: "548813A8F60DB9F0"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59DA37925E8F9D03"]
@@ -89,15 +89,15 @@
 			rewards: [{
 				id: "5B2AD4BA6D973A13"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "40F17D5DB0A65C7D"
 				item: { count: 1, id: "trorigins:dragotite_gear_schematic" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07F9E6A0C51D7EE9"]
@@ -106,15 +106,15 @@
 			rewards: [{
 				id: "5445AE6AD8DAF46E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "78DF895BD7B11E17"
 				item: { count: 1, id: "trorigins:dragotite_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["17D0A82F071F9F61"]
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "18BD8EFF139148F2"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [
 				{
@@ -157,8 +157,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["53285F5E3D95D19B"]
@@ -167,7 +167,7 @@
 			rewards: [{
 				id: "468FB0FA06A49798"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -191,8 +191,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["33F71C75C8BF1FA1"]
@@ -201,7 +201,7 @@
 			rewards: [{
 				id: "02EE469CE12E0759"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [
 				{
@@ -220,8 +220,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["395E6BA86481E948"]
@@ -230,7 +230,7 @@
 			rewards: [{
 				id: "06E41F042E0EC15B"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -255,8 +255,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["606087AD55A214CD"]
@@ -265,14 +265,14 @@
 			rewards: [{
 				id: "54F24402E6ABF151"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "40DC825E89CF50E6"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["543298CE006931C0"]
@@ -282,7 +282,7 @@
 			rewards: [{
 				id: "74ECD9D59CBD7E36"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "01F87045D392C236"
@@ -290,7 +290,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -300,15 +300,15 @@
 			rewards: [{
 				id: "11608B609C9A4AD5"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3B4C3C5D79E6B1D6"
 				race: "trorigins:cherub_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "6C4F91CC1FE347D5"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -330,8 +330,8 @@
 				race: "trorigins:seraph_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["543298CE006931C0"]
@@ -341,7 +341,7 @@
 			rewards: [{
 				id: "171323EC31BC7417"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "46FD5C0B775A0284"
@@ -349,7 +349,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -359,15 +359,15 @@
 			rewards: [{
 				id: "6F8BA122BE1247A4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "52161419F25F1B9C"
 				race: "trorigins:fallen_cherub_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -377,15 +377,15 @@
 			rewards: [{
 				id: "6587246BB4DB06E6"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5B28CBB7FFD2C9B8"
 				race: "trorigins:fallen_origin_arch_angel"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -395,15 +395,15 @@
 			rewards: [{
 				id: "464C6857156BFA03"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1C05CEC65392FEDD"
 				race: "trorigins:arch_fallen_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -413,15 +413,15 @@
 			rewards: [{
 				id: "14BDA959BD546081"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "547271824EAC9D1D"
 				race: "trorigins:fallen_seraph_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -438,7 +438,7 @@
 			rewards: [{
 				id: "260976DFB3A3FB20"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -446,8 +446,8 @@
 				race: "trorigins:fallen_lord_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -464,7 +464,7 @@
 			rewards: [{
 				id: "377B7DDBC6B82D2C"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -472,8 +472,8 @@
 				race: "trorigins:mystic_angel_of_origin"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["543298CE006931C0"]
@@ -483,7 +483,7 @@
 			rewards: [{
 				id: "69058D7B5131EA40"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "476CC1B3A108A2A7"
@@ -491,7 +491,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -501,15 +501,15 @@
 			rewards: [{
 				id: "3578142742B01F37"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3FEF7383F59E0EA2"
 				race: "trorigins:primordial_daemon_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -523,7 +523,7 @@
 			rewards: [{
 				id: "0FB826C949714EA8"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -531,8 +531,8 @@
 				race: "trorigins:primordial_devil_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -542,7 +542,7 @@
 			rewards: [{
 				id: "47ABED5D1A3B9886"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_abyss"
@@ -551,7 +551,7 @@
 				type: "tensura_ftb:ability"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -561,7 +561,7 @@
 			rewards: [{
 				id: "526D30A96FD00CD9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_earth"
@@ -569,8 +569,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -580,7 +580,7 @@
 			rewards: [{
 				id: "6319B4C7ECF694F0"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_frost"
@@ -588,8 +588,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -599,7 +599,7 @@
 			rewards: [{
 				id: "631571E0E188C665"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_scorch"
@@ -607,8 +607,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -618,7 +618,7 @@
 			rewards: [{
 				id: "216603F268DFA01B"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "trorigins:dragon_factor_storm"
@@ -626,8 +626,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -638,15 +638,15 @@
 			rewards: [{
 				id: "4DF172B955A77B6B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "03152F388CA17BF5"
 				race: "trorigins:angel_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -657,15 +657,15 @@
 			rewards: [{
 				id: "5252DE3AD1D9DC02"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "162C08F8DE93883D"
 				race: "trorigins:blood_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -676,15 +676,15 @@
 			rewards: [{
 				id: "4909D9CC268A398B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "7C5D688A979E4DC9"
 				race: "trorigins:daemon_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
-			y: 15.0d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -695,15 +695,15 @@
 			rewards: [{
 				id: "6AB3E52218E818CD"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "3A82610BF4A1EF64"
 				race: "trorigins:death_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
-			y: 15.0d
+			x: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -714,15 +714,15 @@
 			rewards: [{
 				id: "5B5C8064C70D4BB3"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "2D9C046B7B5E2A97"
 				race: "trorigins:dragon_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 16.0d
-			y: 15.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -733,15 +733,15 @@
 			rewards: [{
 				id: "5BCB437C28998F0E"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "21169EB7745C89EA"
 				race: "trorigins:dragon_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 18.0d
-			y: 15.0d
+			x: 13.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -752,15 +752,15 @@
 			rewards: [{
 				id: "17A801F316EA1AD0"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "7E6CAE39A9683815"
 				race: "trorigins:dragon_boar"
 				type: "tensura_ftb:race"
 			}]
-			x: 20.0d
-			y: 15.0d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -771,15 +771,15 @@
 			rewards: [{
 				id: "1481151A1522AEF9"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "0A9382717AF8E5D0"
 				race: "trorigins:dragon_fish"
 				type: "tensura_ftb:race"
 			}]
-			x: 22.0d
-			y: 15.0d
+			x: 16.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -790,15 +790,15 @@
 			rewards: [{
 				id: "3AF7F0C7E14247B7"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "48246CDDF3B7A8E0"
 				race: "trorigins:dragon_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 24.0d
-			y: 15.0d
+			x: 18.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -809,15 +809,15 @@
 			rewards: [{
 				id: "3860D1DC46D94A68"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "2148A0D1C21C3D35"
 				race: "trorigins:dragon_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 26.0d
-			y: 15.0d
+			x: 19.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -828,15 +828,15 @@
 			rewards: [{
 				id: "124ED7DA7994F383"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "76DF590E7CD06191"
 				race: "trorigins:dragon_wolf"
 				type: "tensura_ftb:race"
 			}]
-			x: 28.0d
-			y: 15.0d
+			x: 21.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -847,15 +847,15 @@
 			rewards: [{
 				id: "762C46D2FB1E7B0E"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "16329271139C4EC2"
 				race: "trorigins:dragonoid"
 				type: "tensura_ftb:race"
 			}]
-			x: 30.0d
-			y: 15.0d
+			x: 22.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -866,15 +866,15 @@
 			rewards: [{
 				id: "58AA2A3698B9FAE6"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "792BE1DCF6813257"
 				race: "trorigins:elemental_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 32.0d
-			y: 15.0d
+			x: 24.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -885,15 +885,15 @@
 			rewards: [{
 				id: "33A5916FE6C0C00F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "53EEC12B4B70FB6E"
 				race: "trorigins:fallen_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 34.0d
-			y: 15.0d
+			x: 25.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -904,15 +904,15 @@
 			rewards: [{
 				id: "61B5BDF0820AA92C"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "00D089CBD04DDCB8"
 				race: "trorigins:insect_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 36.0d
-			y: 15.0d
+			x: 27.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -923,15 +923,15 @@
 			rewards: [{
 				id: "4D049DD3E3054F63"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "379F7BE043DEDF41"
 				race: "trorigins:mystic_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 38.0d
-			y: 15.0d
+			x: 28.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -942,15 +942,15 @@
 			rewards: [{
 				id: "76CF5168CB4E8F42"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "372BFBC1DA8BAAE7"
 				race: "trorigins:pure_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 40.0d
-			y: 15.0d
+			x: 30.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["77CD178FB8BDFD0B"]
@@ -961,15 +961,15 @@
 			rewards: [{
 				id: "0011EC03FB0D39CD"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "72F2A8826E31B977"
 				race: "trorigins:ultimate_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 42.0d
-			y: 15.0d
+			x: 31.5d
+			y: 10.0d
 		}
 	]
 }

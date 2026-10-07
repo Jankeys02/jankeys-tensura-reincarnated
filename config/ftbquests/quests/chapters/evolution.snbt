@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "50DF373CAA765212"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "gear"
 			tasks: [{
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "436F9BF162437079"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "4E9FCBB99804E3E5"
@@ -43,7 +43,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -53,15 +53,15 @@
 			rewards: [{
 				id: "6EE947316431BEEC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "44A9739090A53F75"
 				race: "tensura:metal_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -71,15 +71,15 @@
 			rewards: [{
 				id: "18C5CC1CB05F77F9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "54639E6E7D171142"
 				race: "tensura:demon_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -104,7 +104,7 @@
 				{
 					id: "074ACB643C8A584E"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -113,8 +113,8 @@
 				race: "tensura:god_slime"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -124,7 +124,7 @@
 			rewards: [{
 				id: "025191CEBA9A416A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "08550E2EA354C420"
@@ -132,7 +132,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -142,15 +142,15 @@
 			rewards: [{
 				id: "00026E350E840AAF"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "6387ACE2CC070C8C"
 				race: "tensura:hobgoblin"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -160,15 +160,15 @@
 			rewards: [{
 				id: "5B3B0D0D9B18540A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2E6CA516E52251DD"
 				race: "tensura:enlightened_hobgoblin"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -193,7 +193,7 @@
 				{
 					id: "6E02EBAD45DBCC39"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -202,8 +202,8 @@
 				race: "tensura:hobgoblin_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -213,7 +213,7 @@
 			rewards: [{
 				id: "652AF3C82D8D4792"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0E91F8D4D698629B"
@@ -221,7 +221,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -231,15 +231,15 @@
 			rewards: [{
 				id: "1F836A666BF00A8D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "7F83700583BBF8AE"
 				race: "tensura:kijin"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -249,15 +249,15 @@
 			rewards: [{
 				id: "15FB0BA7A8641D92"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2823A45966ECFC74"
 				race: "tensura:mystic_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -267,15 +267,15 @@
 			rewards: [{
 				id: "3B26FDE7122CDC04"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0E71665C36817FC8"
 				race: "tensura:wicked_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -285,15 +285,15 @@
 			rewards: [{
 				id: "313876BE9687E1A5"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "09DD623D3592ABD1"
 				race: "tensura:death_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -303,15 +303,15 @@
 			rewards: [{
 				id: "7EE2ECC7C84A458B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5A04BE6E51984313"
 				race: "tensura:spirit_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -339,7 +339,7 @@
 				{
 					id: "5EA766740685986F"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -348,8 +348,8 @@
 				race: "tensura:divine_oni"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -377,7 +377,7 @@
 				{
 					id: "13A17093FBFF1DBF"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -386,8 +386,8 @@
 				race: "tensura:divine_fighter"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -397,7 +397,7 @@
 			rewards: [{
 				id: "5907140C9069AA86"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3E36766789408B78"
@@ -405,7 +405,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -415,15 +415,15 @@
 			rewards: [{
 				id: "5DC5C8F6CAD950D0"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1BAE24F24265D6D9"
 				race: "tensura:high_orc"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -433,15 +433,15 @@
 			rewards: [{
 				id: "03774AD34FCC3A08"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "020E9A536E2F367D"
 				race: "tensura:orc_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -451,15 +451,15 @@
 			rewards: [{
 				id: "446BE28E9629AFC4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "10D4224B5F843425"
 				race: "tensura:orc_disaster"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -469,15 +469,15 @@
 			rewards: [{
 				id: "3005F51386F6828D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "00FBC0F2F8194432"
 				race: "tensura:spirit_boar"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -504,7 +504,7 @@
 				{
 					id: "43864BCEDD9EFA98"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -513,8 +513,8 @@
 				race: "tensura:divine_boar"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -524,7 +524,7 @@
 			rewards: [{
 				id: "0AF3DD27A5E3804B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0DAD0ACCD298DC87"
@@ -532,7 +532,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -542,15 +542,15 @@
 			rewards: [{
 				id: "1D33AB1BBED8FF4B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "062FAA1E6631EF79"
 				race: "tensura:dragonewt"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -560,15 +560,15 @@
 			rewards: [{
 				id: "2665A19C9211F7EF"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "47DB14E4717D82A3"
 				race: "tensura:true_dragonewt"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -593,7 +593,7 @@
 				{
 					id: "25BE3966B8AA90C8"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -602,8 +602,8 @@
 				race: "tensura:divine_dragon"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -613,7 +613,7 @@
 			rewards: [{
 				id: "1A6DB05B7E5DAB01"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "66ADB54CE724BB7C"
@@ -621,7 +621,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -631,15 +631,15 @@
 			rewards: [{
 				id: "46A709E878B64737"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "114ACA06A21FE34F"
 				race: "tensura:enlightened_human"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -649,15 +649,15 @@
 			rewards: [{
 				id: "41A0DAFDBC3407E9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "684F8A0BF5E20D7D"
 				race: "tensura:human_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -682,7 +682,7 @@
 				{
 					id: "7AFF60DF9E422E9C"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -691,8 +691,8 @@
 				race: "tensura:divine_human"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -702,7 +702,7 @@
 			rewards: [{
 				id: "73478670CA79F963"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "39D46B88140DF05D"
@@ -710,7 +710,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -720,15 +720,15 @@
 			rewards: [{
 				id: "32F23CEA07F3DC8E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "24D5A1D0366BF851"
 				race: "tensura:enlightened_elf"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -738,15 +738,15 @@
 			rewards: [{
 				id: "1E590461F65B765B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "10DED695B2CCB7B5"
 				race: "tensura:elf_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -771,7 +771,7 @@
 				{
 					id: "4F3F7C99385962EB"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -780,8 +780,8 @@
 				race: "tensura:divine_elf"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -791,7 +791,7 @@
 			rewards: [{
 				id: "0895D0C8F96EEC75"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "7BE2B42DB7EDAA1F"
@@ -799,7 +799,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -809,15 +809,15 @@
 			rewards: [{
 				id: "5BC7F13915C30776"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "224569EB8B82672E"
 				race: "tensura:enlightened_dwarf"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -827,15 +827,15 @@
 			rewards: [{
 				id: "1731E44FC943A8F7"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3032A4D1CA3AFE49"
 				race: "tensura:dwarf_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -860,7 +860,7 @@
 				{
 					id: "28F362055482F4E0"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -869,8 +869,8 @@
 				race: "tensura:divine_dwarf"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -880,7 +880,7 @@
 			rewards: [{
 				id: "2431E8C08B66159E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "4BF549580E5ED0AA"
@@ -888,7 +888,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -898,15 +898,15 @@
 			rewards: [{
 				id: "06030A898DEDDD2C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "6EF274D4ADF1308A"
 				race: "tensura:enlightened_merfolk"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -916,15 +916,15 @@
 			rewards: [{
 				id: "37001BDFE88A32DC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "6643A2A3F6A1EE93"
 				race: "tensura:merfolk_saint"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -949,7 +949,7 @@
 				{
 					id: "6FC9684D50158559"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -958,8 +958,8 @@
 				race: "tensura:divine_fish"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -969,7 +969,7 @@
 			rewards: [{
 				id: "43CFCA2391A0C1E8"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "14B617E39893823C"
@@ -977,7 +977,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -987,15 +987,15 @@
 			rewards: [{
 				id: "2C43C95552423197"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5BFBC5E6F9977526"
 				race: "tensura:beast_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1005,15 +1005,15 @@
 			rewards: [{
 				id: "5CB8E5E07DF55565"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2C4A0A4AF36EE2CD"
 				race: "tensura:spirit_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1038,7 +1038,7 @@
 				{
 					id: "6476FDEF6A140C57"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1047,8 +1047,8 @@
 				race: "tensura:divine_beast"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -1058,7 +1058,7 @@
 			rewards: [{
 				id: "24B056CD0098E51B"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "4103F39FE97BB024"
@@ -1066,7 +1066,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1076,15 +1076,15 @@
 			rewards: [{
 				id: "676EEC6AA8A83AE3"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "16F8F3904AEE04E8"
 				race: "tensura:harpy_queen"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1094,15 +1094,15 @@
 			rewards: [{
 				id: "1AD6125075811307"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "36A3CE0C14669525"
 				race: "tensura:spirit_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1127,7 +1127,7 @@
 				{
 					id: "443BFAAFF8CD3F68"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1136,8 +1136,8 @@
 				race: "tensura:divine_bird"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -1147,7 +1147,7 @@
 			rewards: [{
 				id: "2D9F45FD1C6EA5F2"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "65A1F71F3B66698F"
@@ -1155,7 +1155,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1165,15 +1165,15 @@
 			rewards: [{
 				id: "3FFA3DDF49F63DAB"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "163AB14613C84465"
 				race: "tensura:ancient_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1197,7 +1197,7 @@
 				{
 					id: "4670AB552F5E7ECC"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1206,8 +1206,8 @@
 				race: "tensura:divine_giant"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -1217,7 +1217,7 @@
 			rewards: [{
 				id: "11528216B9B7FC0F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "2B0295A39D1CA90B"
@@ -1225,7 +1225,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1235,15 +1235,15 @@
 			rewards: [{
 				id: "56609308BD99CAD4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2E8F89D106011E2B"
 				race: "tensura:ghoul"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1253,15 +1253,15 @@
 			rewards: [{
 				id: "33887F1FA21916E9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "4604BF111E5FA972"
 				race: "tensura:vampire_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1271,15 +1271,15 @@
 			rewards: [{
 				id: "201558487CE9920D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1C1AE38924474D4B"
 				race: "tensura:vampire_overcomer"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1305,7 +1305,7 @@
 				{
 					id: "562655C46EAA46FB"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1314,8 +1314,8 @@
 				race: "tensura:divine_vampire"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -1325,7 +1325,7 @@
 			rewards: [{
 				id: "17B39B79EE976F1F"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "5DE862A269E665D5"
@@ -1333,7 +1333,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1343,15 +1343,15 @@
 			rewards: [{
 				id: "0DCE9D29D2BE43C4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "12AAA9FD270E94FD"
 				race: "tensura:wight_king"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1361,15 +1361,15 @@
 			rewards: [{
 				id: "4EE061DD62C09BE2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "17B86B8B58AFC520"
 				race: "tensura:spirit_skeleton"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1394,7 +1394,7 @@
 				{
 					id: "15312843CCFDFE7E"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1403,8 +1403,8 @@
 				race: "tensura:divine_skeleton"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1498C58D46668368"]
@@ -1414,7 +1414,7 @@
 			rewards: [{
 				id: "2D29F84A0179C824"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3D523B0A6450E842"
@@ -1422,7 +1422,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1432,15 +1432,15 @@
 			rewards: [{
 				id: "3025B4E6F8DC232E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "680EC02036B87E17"
 				race: "tensura:greater_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1450,15 +1450,15 @@
 			rewards: [{
 				id: "4D7E1F212F8E1C11"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "44D7672C994950EB"
 				race: "tensura:arch_daemon"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1468,15 +1468,15 @@
 			rewards: [{
 				id: "07ED6670DB596CC1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "73062FCDFAC922D7"
 				race: "tensura:daemon_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1502,7 +1502,7 @@
 				{
 					id: "3C128DB748B5E1EA"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 			]
 			shape: "hexagon"
@@ -1511,8 +1511,8 @@
 				race: "tensura:devil_lord"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 }

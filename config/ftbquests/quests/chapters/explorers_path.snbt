@@ -26,7 +26,7 @@
 				{
 					id: "78B111D658EB0484"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:sense_heat_source"
@@ -61,7 +61,7 @@
 				{
 					id: "202888D9DC8DE9F8"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:heat_resistance"
@@ -76,7 +76,7 @@
 				id: "4A57D2AD2ACEB9AC"
 				type: "dimension"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -96,7 +96,7 @@
 				{
 					id: "26A427951C61780C"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:cold_resistance"
@@ -111,7 +111,7 @@
 				id: "07BDFF55C58B04E9"
 				type: "dimension"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -131,7 +131,7 @@
 				{
 					id: "72981BC4AB467E07"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:farsight"
@@ -146,7 +146,7 @@
 				id: "54E7B42EF7C9F734"
 				type: "dimension"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -166,7 +166,7 @@
 				{
 					id: "024CEB545DDA9EDB"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					ability: "tensura:spatial_attack_resistance"
@@ -183,7 +183,7 @@
 				id: "4CDB814593B1487F"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -194,7 +194,7 @@
 			rewards: [{
 				id: "7E97B32413889742"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
@@ -202,8 +202,8 @@
 				id: "09C3AF0CF17F1808"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["152CDDD79B386829"]
@@ -213,7 +213,7 @@
 			rewards: [{
 				id: "14E9BC052AA670EA"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
@@ -221,8 +221,8 @@
 				id: "71BCC70DB58DDACD"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["152CDDD79B386829"]
@@ -232,7 +232,7 @@
 			rewards: [{
 				id: "3F18F7F9E2579BC6"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/adventuring_time"
@@ -240,8 +240,8 @@
 				id: "6CE4CCA84F8DB1A5"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["152CDDD79B386829"]
@@ -251,7 +251,7 @@
 			rewards: [{
 				id: "11C59E01EE9A25EF"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:nether/fast_travel"
@@ -259,8 +259,8 @@
 				id: "1B1CAA7338DB7B5F"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["152CDDD79B386829"]
@@ -270,7 +270,7 @@
 			rewards: [{
 				id: "2C93067248A5EF25"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
@@ -279,7 +279,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 	]
 }

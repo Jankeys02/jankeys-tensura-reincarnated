@@ -16,7 +16,7 @@
 			rewards: [{
 				id: "002025C7B6EB3FD6"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "2A81DDCA905EB148"
@@ -31,7 +31,7 @@
 			rewards: [{
 				id: "65C8988F789B40EE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "elitetensura:scavenger"
@@ -39,7 +39,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -49,7 +49,7 @@
 			rewards: [{
 				id: "31114192FD5DE90D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "elitetensura:runesmiths_insight"
@@ -57,7 +57,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -67,7 +67,7 @@
 			rewards: [{
 				id: "45F00E00F7A056D2"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				ability: "elitetensura:ancient_soul"
@@ -75,7 +75,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -85,7 +85,7 @@
 			rewards: [{
 				id: "7C2FA3D73B31F610"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				ability: "elitetensura:gravity_well"
@@ -93,7 +93,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -103,7 +103,7 @@
 			rewards: [{
 				id: "1CD6B71558AC165E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "elitetensura:meditation"
@@ -111,7 +111,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -121,7 +121,7 @@
 			rewards: [{
 				id: "701E49DF82938B26"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "elitetensura:iron_resolve"
@@ -129,7 +129,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -139,7 +139,7 @@
 			rewards: [{
 				id: "48EAFB2084150026"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -156,7 +156,7 @@
 					type: "tensura_ftb:ability"
 				}
 			]
-			x: 14.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -166,7 +166,7 @@
 			rewards: [{
 				id: "44615327DD983052"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "elitetensura:hephaestus"
@@ -174,8 +174,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -184,7 +184,7 @@
 			rewards: [{
 				id: "45A1800E5DDB06E4"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "elitetensura:gaia"
@@ -192,8 +192,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -202,7 +202,7 @@
 			rewards: [{
 				id: "41651D5DDE05ACA9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "elitetensura:ouroboros"
@@ -210,8 +210,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -220,7 +220,7 @@
 			rewards: [{
 				id: "32AE6C46033B5F22"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -229,8 +229,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -239,7 +239,7 @@
 			rewards: [{
 				id: "3319A70B9BB5FD8A"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "elitetensura:voidsovereign"
@@ -247,8 +247,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -258,7 +258,7 @@
 			rewards: [{
 				id: "2C377BFE12CC403E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3A83281A3E456EB4"
@@ -266,7 +266,7 @@
 				type: "tensura_ftb:race"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -276,15 +276,15 @@
 			rewards: [{
 				id: "1D23957B12E66AE8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "33AAB07304251F59"
 				race: "elitetensura:medium_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -294,15 +294,15 @@
 			rewards: [{
 				id: "71D944FBFB6D2FC1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5DCCCA22ADDBC61A"
 				race: "elitetensura:high_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -312,15 +312,15 @@
 			rewards: [{
 				id: "28C07A8B630B6728"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "126CA29EE81B6B62"
 				race: "elitetensura:divine_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -330,15 +330,15 @@
 			rewards: [{
 				id: "609F0021B84DB521"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "534BF918047D628B"
 				race: "elitetensura:demi_god_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -348,15 +348,15 @@
 			rewards: [{
 				id: "16D98D0D6098815D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "310A192F54446B9C"
 				race: "elitetensura:lesser_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -366,15 +366,15 @@
 			rewards: [{
 				id: "2F055A5B62271F10"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1DAD455A1D1FD7BD"
 				race: "elitetensura:intermediate_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -384,15 +384,15 @@
 			rewards: [{
 				id: "0D221BD9FE0F7657"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1AE4A5979DCBB11D"
 				race: "elitetensura:greater_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -412,7 +412,7 @@
 			rewards: [{
 				id: "2410AA982EE6E423"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -420,8 +420,8 @@
 				race: "elitetensura:transcendent_deity_saiyan"
 				type: "tensura_ftb:race"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -431,7 +431,7 @@
 			rewards: [{
 				id: "6D4DFEF0415FAC9F"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [
 				{
@@ -451,7 +451,7 @@
 				}
 			]
 			x: 0.0d
-			y: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -461,7 +461,7 @@
 			rewards: [{
 				id: "61B1C66C76A7964F"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [
 				{
@@ -475,8 +475,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -486,7 +486,7 @@
 			rewards: [{
 				id: "13A08E0878B66BE6"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [
 				{
@@ -500,8 +500,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -511,7 +511,7 @@
 			rewards: [{
 				id: "13A43AFCD5A0B2CC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -555,8 +555,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 12.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3C0306238D9540B2"]
@@ -567,7 +567,7 @@
 			rewards: [{
 				id: "0067AD1F29E3D59B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -575,8 +575,8 @@
 				id: "0DA2A4BF6EE5FD6A"
 				type: "dimension"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: 3.0d
+			y: 10.0d
 		}
 	]
 }

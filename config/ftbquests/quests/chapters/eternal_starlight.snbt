@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "7DB86DDE2B95C86D"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_orb_of_prophecy"
@@ -35,14 +35,14 @@
 			rewards: [{
 				id: "766B598934B37F07"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				dimension: "eternal_starlight:starlight"
 				id: "3255107C6C7957B8"
 				type: "dimension"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -52,7 +52,7 @@
 			rewards: [{
 				id: "1507DA6F4AC0096C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_seeking_eye"
@@ -60,7 +60,7 @@
 				id: "752453107A536F8A"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "578607A3B022E222"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -79,7 +79,7 @@
 				id: "42EA814D9239488E"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "26132B192B26724C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_aurora_deer_antler"
@@ -97,8 +97,8 @@
 				id: "7D846E707B260753"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["63BD2FC33D76A55A"]
@@ -107,7 +107,7 @@
 			rewards: [{
 				id: "077F3490D4E84FD7"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:throw_gleech_egg"
@@ -115,8 +115,8 @@
 				id: "5820D00BCEAABBDE"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13B3E0BD61AB4D76"]
@@ -125,7 +125,7 @@
 			rewards: [{
 				id: "737CA5D8B2C384CD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:hire_stranghoul"
@@ -133,8 +133,8 @@
 				id: "77D2444E84D17004"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["09F029A4668C4D5A"]
@@ -143,7 +143,7 @@
 			rewards: [{
 				id: "3BE2A8158962AE9E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:witness_stranghoul_hunt"
@@ -151,8 +151,8 @@
 				id: "33B00C34FFA21DF9"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["39094F137549525E"]
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "3374AA76B52F4872"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:tame_crystallized_moth"
@@ -169,8 +169,8 @@
 				id: "3D8912CB9C204AA0"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04B5958BE5E1D90C"]
@@ -179,7 +179,7 @@
 			rewards: [{
 				id: "37E775586A2514AC"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -196,8 +196,8 @@
 					type: "advancement"
 				}
 			]
-			x: 16.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["50A71C319DD54D0F"]
@@ -206,7 +206,7 @@
 			rewards: [{
 				id: "3E2FA683C247FFC1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:under_permafrost_forest"
@@ -214,8 +214,8 @@
 				id: "780E31BC0CC1FE2B"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["573B803BA2DAB5B3"]
@@ -224,7 +224,7 @@
 			rewards: [{
 				id: "16DE068DB9956C31"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_glacite_shard"
@@ -232,8 +232,8 @@
 				id: "0508D05F60A8CB4E"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79DBCB7C7E43FC71"]
@@ -242,7 +242,7 @@
 			rewards: [{
 				id: "51ACD538E62BEE08"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_thioquartz_shard"
@@ -250,8 +250,8 @@
 				id: "12025C9C91452E29"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2ACF076FE50B063F"]
@@ -260,7 +260,7 @@
 			rewards: [{
 				id: "20C6884FD9F36D3F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_raw_amaramber"
@@ -268,8 +268,8 @@
 				id: "43DA91765BE112A5"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4E86E4AB254A2B21"]
@@ -278,7 +278,7 @@
 			rewards: [{
 				id: "305A68553D0A3BC9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_deepsilver_ingot"
@@ -286,8 +286,8 @@
 				id: "3CE803E6AE640B9A"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35A02CEE1A1B57F3"]
@@ -296,7 +296,7 @@
 			rewards: [{
 				id: "01F6440AD50E748E"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -305,8 +305,8 @@
 				id: "088882CF5A3DE118"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3454D37AA55CD09A"]
@@ -315,7 +315,7 @@
 			rewards: [{
 				id: "6B74E3442C2C1AA7"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -331,8 +331,8 @@
 					type: "advancement"
 				}
 			]
-			x: 6.0d
-			y: 9.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0E19373703E2EE18"]
@@ -341,7 +341,7 @@
 			rewards: [{
 				id: "3412D0E53D2BE28C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_scythe"
@@ -349,8 +349,8 @@
 				id: "5198710D321174F2"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["33C6EDEBE21BF0E4"]
@@ -359,7 +359,7 @@
 			rewards: [{
 				id: "46F2AA82EA016A3F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:obtain_bouldershroom_stew"
@@ -367,8 +367,8 @@
 				id: "73BCF7D9C22895E9"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["44F64672D59BE71C"]
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: "11E8C7D506DB51BE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:hammer_critical_hit"
@@ -385,8 +385,8 @@
 				id: "50F1434FE0887C82"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["26A29F77D295B308"]
@@ -395,7 +395,7 @@
 			rewards: [{
 				id: "3AE2479E846C5D0F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -404,8 +404,8 @@
 				id: "53FFCB5DEF46A955"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1C030690B33795B0"]
@@ -414,7 +414,7 @@
 			rewards: [{
 				id: "47973C9D900C25AD"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:enter_golem_forge"
@@ -422,8 +422,8 @@
 				id: "068AEB3D20F6C1EA"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 12.0d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["786609E020CE3DA1"]
@@ -432,7 +432,7 @@
 			rewards: [{
 				id: "762E50A5DCBA0D38"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:summon_grimstone_golem"
@@ -440,8 +440,8 @@
 				id: "121F03B88D80627E"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 12.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["669FDC12161078F9"]
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "2B60AE616D0A9286"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -466,8 +466,8 @@
 					type: "advancement"
 				}
 			]
-			x: 10.0d
-			y: 12.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["15D54BB2989642EE"]
@@ -476,7 +476,7 @@
 			rewards: [{
 				id: "59EECFA833EBAFAB"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_golem"
@@ -484,8 +484,8 @@
 				id: "14E933F226F48201"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1D9E3EA8A230AE23"]
@@ -494,7 +494,7 @@
 			rewards: [{
 				id: "288F51C22BBC76CE"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_permafrost"
@@ -502,8 +502,8 @@
 				id: "0A0779742FE6DBBC"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50C1E7F5648404DD"]
@@ -512,7 +512,7 @@
 			rewards: [{
 				id: "18145A50647BD9F9"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:challenge_gatekeeper"
@@ -520,8 +520,8 @@
 				id: "3D7A8909B36FB753"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["505C6A557749939B"]
@@ -530,7 +530,7 @@
 			rewards: [{
 				id: "5FC30F9268E89833"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -539,8 +539,8 @@
 				id: "5908EBD0F9D82107"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6392133EA3B5A719"]
@@ -549,7 +549,7 @@
 			rewards: [{
 				id: "6B958B3501DB0115"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:ignite_lunar_monstrosity"
@@ -557,8 +557,8 @@
 				id: "3DC2F07569F4AE16"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2E2C0DA1DBC35F54"]
@@ -567,7 +567,7 @@
 			rewards: [{
 				id: "6BD95D9BFF9C1B7D"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:kill_lunar_monstrosity"
@@ -575,8 +575,8 @@
 				id: "749F27FAD4398016"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 15.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17DD4B5EB132E6F9"]
@@ -585,7 +585,7 @@
 			rewards: [{
 				id: "4FAB90672394A858"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:full_unrealium_armor"
@@ -593,8 +593,8 @@
 				id: "3C3E51264F01853D"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 15.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2221A7F91B6B4F4A"]
@@ -603,7 +603,7 @@
 			rewards: [{
 				id: "373BB804F2AFEC2D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "eternal_starlight:enter_abyss"
@@ -611,8 +611,8 @@
 				id: "5FA2BC9517ABCD47"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6AD9C7F1152CD17A"]
@@ -631,7 +631,7 @@
 				{
 					id: "28AAEE15F67158CB"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					existence: "MAX_EP"
@@ -647,8 +647,8 @@
 				id: "52FF24F4CEC253BA"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["70DA6BB1A66C7C26"]
@@ -659,7 +659,7 @@
 			rewards: [{
 				id: "1289DBAC16A618BA"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -668,8 +668,8 @@
 				id: "5E1C64B96F191EB9"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 18.0d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["70DA6BB1A66C7C26"]
@@ -680,7 +680,7 @@
 			rewards: [{
 				id: "3A24AB81625FED3D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -689,8 +689,8 @@
 				id: "5C477F536A899FDF"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 18.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["70DA6BB1A66C7C26"]
@@ -701,7 +701,7 @@
 			rewards: [{
 				id: "4A6DD7D3E594A0E6"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -710,8 +710,8 @@
 				id: "071E7E4C98F8B74E"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 18.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["70DA6BB1A66C7C26"]
@@ -722,7 +722,7 @@
 			rewards: [{
 				id: "2AAD60AA56A2D957"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -731,8 +731,8 @@
 				id: "70AB5FF3FC287035"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 18.0d
+			x: 3.0d
+			y: 12.0d
 		}
 	]
 }

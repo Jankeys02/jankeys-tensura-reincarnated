@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "0C1B7D374FD8B658"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "gear"
 			tasks: [{
@@ -37,7 +37,7 @@
 			rewards: [{
 				id: "0F05EF94F8E84EEC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "3D906CE1187E4AE2"
@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "38F950EA0B39DCA0"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:empowerment"
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "6D84FA870A8D536E"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:d_rank"
@@ -88,7 +88,7 @@
 				{
 					id: "6B3174D969FBE7F5"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					count: 2
@@ -114,7 +114,7 @@
 			rewards: [{
 				id: "2ED9DA3804D37A96"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:b_rank"
@@ -131,7 +131,7 @@
 				{
 					id: "70A8D92CA9CD1AF9"
 					type: "xp_levels"
-					xp_levels: 8
+					xp_levels: 4
 				}
 				{
 					count: 2
@@ -159,7 +159,7 @@
 				{
 					id: "59CA452BAF143243"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 5
 				}
 				{
 					id: "5AFF70B0E7B08C02"
@@ -186,7 +186,7 @@
 			rewards: [{
 				id: "7DD9FF60910F714E"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:youre_a_wizard"
@@ -203,7 +203,7 @@
 			rewards: [{
 				id: "44378FAA5F6BDAF9"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:booked_on_magic"
@@ -219,7 +219,7 @@
 			rewards: [{
 				id: "08AFA1CBAEEF3246"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:elementalist"
@@ -236,7 +236,7 @@
 			rewards: [{
 				id: "3AC6E8CFD142F993"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:fast_learner"
@@ -253,7 +253,7 @@
 			rewards: [{
 				id: "7F17AC64645F0FF6"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:master_skill"
@@ -269,7 +269,7 @@
 			rewards: [{
 				id: "6303D2D2EA8ABF4B"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -287,7 +287,7 @@
 			rewards: [{
 				id: "1C8F12E93BE6463D"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:name_a_mob"
@@ -304,7 +304,7 @@
 			rewards: [{
 				id: "7A59E93257224A97"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:monster_tamer"
@@ -321,7 +321,7 @@
 			rewards: [{
 				id: "1622FE0BE2E98F17"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:monster_rider"
@@ -338,7 +338,7 @@
 			rewards: [{
 				id: "36982AFA97825759"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -355,7 +355,7 @@
 			rewards: [{
 				id: "3CC38C1E0710BE8B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -374,7 +374,7 @@
 			rewards: [{
 				id: "2D6AC4762F6707F3"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			tasks: [{
 				id: "5F4493D03F105B62"
@@ -391,7 +391,7 @@
 			rewards: [{
 				id: "4F06018FC4F905DB"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			tasks: [{
 				id: "12029FD28949D0D5"
@@ -409,7 +409,7 @@
 				{
 					id: "2A3A441AB247480F"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 8
 				}
 				{
 					id: "7FD309312020C2A2"
@@ -437,7 +437,7 @@
 				{
 					id: "339393BA5AAC5F5D"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 8
 				}
 				{
 					id: "6CD55CF42E19FF20"

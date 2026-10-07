@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "74E117707C6A0A11"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "2F357BDE35C1E97B"
@@ -34,7 +34,7 @@
 			rewards: [{
 				id: "6BE9A58AED5D9745"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [
 				{
@@ -53,7 +53,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -63,7 +63,7 @@
 			rewards: [{
 				id: "0508A878E8C56439"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -77,7 +77,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -87,7 +87,7 @@
 			rewards: [{
 				id: "69C657F090308539"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:magicule_attunement"
@@ -95,7 +95,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -105,7 +105,7 @@
 			rewards: [{
 				id: "07AD9DE1A3CAFB70"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:magicule_resonance"
@@ -113,7 +113,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "118027AE37A4FDA8"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -132,7 +132,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -142,7 +142,7 @@
 			rewards: [{
 				id: "2818363118167FC2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:magicule_nourishment"
@@ -150,7 +150,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -160,7 +160,7 @@
 			rewards: [{
 				id: "2055182923A78DD1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:magnetized_vacuum"
@@ -168,7 +168,7 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 14.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -178,7 +178,7 @@
 			rewards: [{
 				id: "6457AB3174CE7A86"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:energy_charge"
@@ -186,8 +186,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["502CEAA8DFCC80EB"]
@@ -196,7 +196,7 @@
 			rewards: [{
 				id: "534F825E51E3B4C6"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				ability: "ascension:maximum_charge"
@@ -204,8 +204,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7131ED4787B854CA"]
@@ -214,7 +214,7 @@
 			rewards: [{
 				id: "30BDC92E6419F328"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				ability: "ascension:great_mage"
@@ -222,8 +222,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03D8BEA3C559791D"]
@@ -232,7 +232,7 @@
 			rewards: [{
 				id: "324895C39CBF97F9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:magic_scribe"
@@ -240,8 +240,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7131ED4787B854CA"]
@@ -250,7 +250,7 @@
 			rewards: [{
 				id: "7740C7D94AAE4B1E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				ability: "ascension:eye_of_mind"
@@ -258,8 +258,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7131ED4787B854CA"]
@@ -268,7 +268,7 @@
 			rewards: [{
 				id: "4EEABF5AFB84F810"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -277,8 +277,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7131ED4787B854CA"]
@@ -287,7 +287,7 @@
 			rewards: [{
 				id: "105D9EB210645CB1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -306,8 +306,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["751EA452C578CC27"]
@@ -316,15 +316,15 @@
 			rewards: [{
 				id: "33CE798E9090AB67"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "5470E88DC09A09F1"
 				item: { count: 1, id: "ascension:soul_echo" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4FA50DC4290EC853"]
@@ -333,15 +333,15 @@
 			rewards: [{
 				id: "68C5363936C37164"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				id: "146C44E5F8867E87"
 				item: { count: 1, id: "ascension:ultimate_catalyst" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["563786E0E1767197"]
@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "07B3E19B219FEEE9"
 				type: "xp_levels"
-				xp_levels: 25
+				xp_levels: 10
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -365,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -376,15 +376,15 @@
 			rewards: [{
 				id: "2D6FACBF97F44C83"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				id: "47DF457DC8F1EA79"
 				status: "HERO"
 				type: "tensura_ftb:awakening"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -394,15 +394,15 @@
 			rewards: [{
 				id: "737B751DC2F61885"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				id: "012CC6F80092240B"
 				status: "DEMON_LORD"
 				type: "tensura_ftb:awakening"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -412,7 +412,7 @@
 			rewards: [{
 				id: "41B28B64C836349A"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "ascension:timeless_mage"
@@ -420,8 +420,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -431,7 +431,7 @@
 			rewards: [{
 				id: "39454B1A1CE9FCEE"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "ascension:one_who_seals"
@@ -439,8 +439,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 16.0d
-			y: 9.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "013448A63142484D"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "ascension:slayer_of_dragons"
@@ -458,8 +458,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 18.0d
-			y: 9.0d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -469,7 +469,7 @@
 			rewards: [{
 				id: "2ACAF34E261C5DB6"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "ascension:evil_majin"
@@ -477,8 +477,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 20.0d
-			y: 9.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4943F1CC92D0943A"]
@@ -488,7 +488,7 @@
 			rewards: [{
 				id: "381FC9AE7C7559CE"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				ability: "ascension:unbound_jester"
@@ -496,8 +496,8 @@
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
 			}]
-			x: 22.0d
-			y: 9.0d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7131ED4787B854CA"]
@@ -508,7 +508,7 @@
 			rewards: [{
 				id: "1C28E0CF54CBC8CF"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -516,8 +516,8 @@
 				id: "65597C8FA9D2CB91"
 				type: "dimension"
 			}]
-			x: 22.0d
-			y: 12.0d
+			x: 16.5d
+			y: 8.0d
 		}
 	]
 }

@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "1FDA74A217FDC704"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "71EADB9616A29AC4"
@@ -34,14 +34,14 @@
 			rewards: [{
 				id: "3163C06DD22895A7"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "315008CDBA63D745"
 				item: { count: 1, id: "the_afterdark:teleport_catalyst" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -51,14 +51,14 @@
 			rewards: [{
 				id: "65CA97801584040D"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				dimension: "the_afterdark:afterdark"
 				id: "6CA1A2D3855D9E03"
 				type: "dimension"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -68,15 +68,15 @@
 			rewards: [{
 				id: "2A2BA5C291B5E1E4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				biome: "the_afterdark:lush_gardens"
 				id: "71B148D6212208A7"
 				type: "biome"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5CABFF21AD353522"]
@@ -85,7 +85,7 @@
 			rewards: [{
 				id: "7EF3A6EC80A0CAB9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -99,8 +99,8 @@
 					type: "biome"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2D58509DCA15C113"]
@@ -109,7 +109,7 @@
 			rewards: [{
 				id: "6C451CB8F4D4D5B2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -123,8 +123,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3E01435D8BBE7404"]
@@ -133,7 +133,7 @@
 			rewards: [{
 				id: "0E533EC417790C65"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -147,8 +147,8 @@
 					type: "biome"
 				}
 			]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["01D763B7E4CFC7FB"]
@@ -167,7 +167,7 @@
 				{
 					id: "3C11035ACA8EF9D6"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					existence: "MAX_EP"
@@ -182,8 +182,8 @@
 				id: "5C14D89C2DF99C1D"
 				type: "biome"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -192,15 +192,15 @@
 			rewards: [{
 				id: "2903DBEEB3CD9FF2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "20FE275FBE661B13"
 				structure: "iceandfire:graveyard"
 				type: "structure"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B22D9025AEF2CD8"]
@@ -209,15 +209,15 @@
 			rewards: [{
 				id: "3D9DE4EEF7073DE4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "7AB16EAC891EE769"
 				structure: "iceandfire:mausoleum"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79DDACA7BB675749"]
@@ -226,7 +226,7 @@
 			rewards: [{
 				id: "36999DE6D9529DCA"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				entity: "iceandfire:dread_ghoul"
@@ -234,8 +234,8 @@
 				type: "kill"
 				value: 3L
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54DC79943FEF7A67"]
@@ -244,7 +244,7 @@
 			rewards: [{
 				id: "129F407A45C58389"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -253,8 +253,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -265,7 +265,7 @@
 			rewards: [{
 				id: "081E1D223FC4407F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -273,8 +273,8 @@
 				id: "5075B3F8D8594F5F"
 				type: "dimension"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -285,7 +285,7 @@
 			rewards: [{
 				id: "14007C420D392450"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [
@@ -300,8 +300,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -312,7 +312,7 @@
 			rewards: [{
 				id: "2CC80F7D82BB0066"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [
@@ -327,8 +327,8 @@
 					type: "biome"
 				}
 			]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -339,7 +339,7 @@
 			rewards: [{
 				id: "0641E71B81C8532A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [
@@ -359,8 +359,8 @@
 					type: "biome"
 				}
 			]
-			x: 12.0d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7FEE09EF200986AB"]
@@ -371,7 +371,7 @@
 			rewards: [{
 				id: "5A2A154326AF5228"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [
@@ -386,8 +386,8 @@
 					type: "biome"
 				}
 			]
-			x: 14.0d
-			y: 9.0d
+			x: 10.5d
+			y: 6.0d
 		}
 	]
 }

@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "67D16C75E7664141"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_foliaath"
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "34754E1B1EA00D84"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_bluff"
@@ -43,7 +43,7 @@
 				id: "5BE3787AEDFB09EC"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "0581DE1F0D955006"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol"
@@ -61,7 +61,7 @@
 				id: "275C78E468CC93E8"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -71,7 +71,7 @@
 			rewards: [{
 				id: "1CE03B5AB2CF2FFC"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol_fortune"
@@ -79,7 +79,7 @@
 				id: "573BEF81DA920A06"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -89,7 +89,7 @@
 			rewards: [{
 				id: "16FC240C9893590E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_grottol_silk_touch"
@@ -97,7 +97,7 @@
 				id: "339EB25066E40754"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -107,15 +107,15 @@
 			rewards: [{
 				id: "21941D2FB639667D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "331A9D3A7341FB71"
 				structure: "mowziesmobs:umvuthana_grove"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["644F3D9E9F5E3346"]
@@ -124,7 +124,7 @@
 			rewards: [{
 				id: "0FD6F7B79EB84496"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthana_raptor"
@@ -132,8 +132,8 @@
 				id: "42BC36AE930F278C"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["30A1704B7B48D98B"]
@@ -142,7 +142,7 @@
 			rewards: [{
 				id: "0D9E2466378C2D8C"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:sneak_grove"
@@ -150,8 +150,8 @@
 				id: "7C1FFA8B519EA5A7"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CA238CB03B44F5F"]
@@ -160,7 +160,7 @@
 			rewards: [{
 				id: "5555BF7F18E015E8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_naga"
@@ -168,8 +168,8 @@
 				id: "397AC36CAB3AB564"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["45A4873411B2D8F7"]
@@ -178,7 +178,7 @@
 			rewards: [{
 				id: "2559D8D1971A0C29"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_elokosa_howler"
@@ -186,8 +186,8 @@
 				id: "1F4C47F9B3010AAF"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F0EC1DA5D1496A1"]
@@ -196,7 +196,7 @@
 			rewards: [{
 				id: "2C38DA5EB296A786"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -204,8 +204,8 @@
 				structure: "mowziesmobs:monastery"
 				type: "structure"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -217,15 +217,15 @@
 			rewards: [{
 				id: "05D15D2F0B1BD2DB"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "7EF8D2C137F5F5DC"
 				structure: "mowziesmobs:wrought_chamber"
 				type: "structure"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0420AA4410E07A4B"]
@@ -234,7 +234,7 @@
 			rewards: [{
 				id: "708EC8AF8422DF77"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
@@ -242,8 +242,8 @@
 				id: "418898B315A9B2CC"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["233BF7263CCE37EF"]
@@ -252,15 +252,15 @@
 			rewards: [{
 				id: "1BC0B38415A787B2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2AEEA30C19AAC8A8"
 				item: { count: 1, id: "mowziesmobs:wrought_axe" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C1924ABFEE3A6B4"]
@@ -269,15 +269,15 @@
 			rewards: [{
 				id: "38B82F2CFB11DE30"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2644869A70AE3A07"
 				structure: "mowziesmobs:frostmaw_spawn"
 				type: "structure"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["728EB962F9AB8994"]
@@ -286,7 +286,7 @@
 			rewards: [{
 				id: "08BF16E61E8DFA2F"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:steal_ice_crystal"
@@ -294,8 +294,8 @@
 				id: "53102103713D5CEF"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["529F7EA940F383EA"]
@@ -304,7 +304,7 @@
 			rewards: [{
 				id: "417D7879BB85F54E"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_frostmaw"
@@ -312,8 +312,8 @@
 				id: "4BBAB7F15B02197A"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4A81FE8675FB3460"]
@@ -322,7 +322,7 @@
 			rewards: [{
 				id: "67276EC646AA830B"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "mowziesmobs:kill_umvuthi"
@@ -330,8 +330,8 @@
 				id: "73845753AD572370"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35E77D067C972681"]
@@ -340,15 +340,15 @@
 			rewards: [{
 				id: "2E7C49FFC5EB0231"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5BDA9E506236B616"
 				item: { count: 1, id: "mowziesmobs:sol_visage" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1195A584091E4A40"]
@@ -357,7 +357,7 @@
 			rewards: [{
 				id: "3D5382B3ECADB649"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -366,8 +366,8 @@
 				id: "517060184B177F4F"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["755AAE3B98903BBA"]
@@ -386,7 +386,7 @@
 				{
 					id: "6C10FAFBD729953F"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					existence: "MAX_EP"
@@ -402,8 +402,8 @@
 				id: "53300A61EFDD60F3"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6C45C4F4711D65EF"]
@@ -414,7 +414,7 @@
 			rewards: [{
 				id: "0E21E2B2F3BBB1DE"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -423,8 +423,8 @@
 				id: "40109CF78C45CA86"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 1.5d
+			y: 8.0d
 		}
 	]
 }

@@ -17,7 +17,7 @@
 			rewards: [{
 				id: "1D74E426F70FA065"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us1/portal_creation"
@@ -35,7 +35,7 @@
 			rewards: [{
 				id: "4DA1E5C6129B0BF9"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us1/dimension_entry"
@@ -43,7 +43,7 @@
 				id: "35F751859B151952"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -53,14 +53,14 @@
 			rewards: [{
 				id: "7CBF54AB59D547A2"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5D83D462025BF94D"
 				structure: "chronodawn:forgotten_library"
 				type: "structure"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -70,7 +70,7 @@
 			rewards: [{
 				id: "2153D8F42930876E"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/time_keeper_trade"
@@ -78,7 +78,7 @@
 				id: "3A41997DC5DC93EF"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -88,7 +88,7 @@
 			rewards: [{
 				id: "639F34E5F371DCB1"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -105,7 +105,7 @@
 					type: "advancement"
 				}
 			]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -115,7 +115,7 @@
 			rewards: [{
 				id: "1358E7728213FE10"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/first_time_crystal_ore"
@@ -123,8 +123,8 @@
 				id: "4AA57E169B824FCF"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["17A85CAD7C3D88A8"]
@@ -133,7 +133,7 @@
 			rewards: [{
 				id: "6CDDFF8C1576214B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/temporal_amber_obtained"
@@ -141,8 +141,8 @@
 				id: "4FCB53D5944A13CF"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4F04AD1D8E30A067"]
@@ -151,7 +151,7 @@
 			rewards: [{
 				id: "5DEE2A1C0172D968"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/temporal_amber_dust_obtained"
@@ -159,8 +159,8 @@
 				id: "29387489AD274311"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D24374831ADB55E"]
@@ -169,7 +169,7 @@
 			rewards: [{
 				id: "77CE56C2BD40766F"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:exploration/entropy_crystal_obtained"
@@ -177,8 +177,8 @@
 				id: "292D00EFA2D4BF0B"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6204C87E8D78BAB0"]
@@ -187,7 +187,7 @@
 			rewards: [{
 				id: "7CA2EC0983F18019"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "chronodawn:food/first_time_fruit"
@@ -195,8 +195,8 @@
 				id: "4C061330F778D5C1"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6802A04EA8163483"]
@@ -205,7 +205,7 @@
 			rewards: [{
 				id: "40A89DC260D24EF5"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "chronodawn:food/all_foods_consumed"
@@ -213,8 +213,8 @@
 				id: "6EC3C73B16FC8766"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6F6675719C5254B2"]
@@ -223,7 +223,7 @@
 			rewards: [{
 				id: "0CB860B5B2634AE4"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -232,8 +232,8 @@
 				id: "1C7A9773FBF1C857"
 				type: "advancement"
 			}]
-			x: 20.0d
-			y: 3.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D17B2A3314FC697"]
@@ -242,7 +242,7 @@
 			rewards: [{
 				id: "0A5BE91316EDB662"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/tier1_full_set"
@@ -250,8 +250,8 @@
 				id: "703FA1AAA7023038"
 				type: "advancement"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51AE765F20102DBB"]
@@ -260,7 +260,7 @@
 			rewards: [{
 				id: "0E161B9022379736"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us2/desert_clock_tower"
@@ -268,8 +268,8 @@
 				id: "7BB3C1E77542D552"
 				type: "advancement"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["34F0254EE89F60C7"]
@@ -278,7 +278,7 @@
 			rewards: [{
 				id: "11014B8B4C329A49"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/tier2_full_set"
@@ -286,8 +286,8 @@
 				id: "5AD0BC73E468B72F"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["60038337C4D7FE44"]
@@ -296,7 +296,7 @@
 			rewards: [{
 				id: "09411192BCF05CD8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/clockwork_sentinel_defeated"
@@ -304,8 +304,8 @@
 				id: "0B3248764CFC41AB"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7D083C72866DC955"]
@@ -314,7 +314,7 @@
 			rewards: [{
 				id: "68F334ACE96AC472"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/temporal_wraith_defeated"
@@ -322,8 +322,8 @@
 				id: "2D5F757E654B2137"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C692C92661D593F"]
@@ -332,7 +332,7 @@
 			rewards: [{
 				id: "5BC061A20C82AE41"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/temporal_phantom_defeated"
@@ -340,8 +340,8 @@
 				id: "40FBDA8966D3C039"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["344B299B2D7CD2A9"]
@@ -350,7 +350,7 @@
 			rewards: [{
 				id: "27DF7D21CFA930C7"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/clockwork_colossus_defeated"
@@ -358,8 +358,8 @@
 				id: "23A773A9A3C4D9D9"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["10EBACBA2010C728"]
@@ -368,7 +368,7 @@
 			rewards: [{
 				id: "0B537A0EB55A5130"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/entropy_keeper_defeated"
@@ -376,8 +376,8 @@
 				id: "4FB487F1420B082E"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["023EDD8E15E20B9D"]
@@ -386,7 +386,7 @@
 			rewards: [{
 				id: "35DC18249D527D81"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "chronodawn:mobs/chronos_warden_defeated"
@@ -394,8 +394,8 @@
 				id: "1337313A19F40F1B"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C192E6032FA5513"]
@@ -404,7 +404,7 @@
 			rewards: [{
 				id: "31D48CAB95893FFD"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -413,8 +413,8 @@
 				id: "633B7158644FABAC"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A8D17DAF85EB156"]
@@ -423,7 +423,7 @@
 			rewards: [{
 				id: "119D32A3E8C1C715"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [
 				{
@@ -439,8 +439,8 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
-			y: 9.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["098F3FCE6AC7B264"]
@@ -449,15 +449,15 @@
 			rewards: [{
 				id: "734DD36DAC6F7065"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "69BDCEB7C36520E4"
 				structure: "chronodawn:master_clock"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["062F428F96FE8871"]
@@ -466,7 +466,7 @@
 			rewards: [{
 				id: "420EC551E86C5EF3"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "chronodawn:equipment/temporal_amber_full_set"
@@ -474,8 +474,8 @@
 				id: "15DFD097CDB94A28"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["32B6B7B8D7A66AF7"]
@@ -484,7 +484,7 @@
 			rewards: [{
 				id: "0123A850DBB35127"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "chronodawn:story/us3/time_tyrant_defeat"
@@ -492,8 +492,8 @@
 				id: "4E4E2A068AABB9D2"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["13C046BE873121A2"]
@@ -512,7 +512,7 @@
 				{
 					id: "6CA6623E73B018F3"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					existence: "MAX_EP"
@@ -528,8 +528,8 @@
 				id: "4942E5607AA6007D"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["15059AAE9703C15C"]
@@ -540,7 +540,7 @@
 			rewards: [{
 				id: "0F2547079C35F700"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -548,8 +548,8 @@
 				structure: "chronodawn:ancient_ruins"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: 12.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["15059AAE9703C15C"]
@@ -560,7 +560,7 @@
 			rewards: [{
 				id: "5962059D3CBC6BE5"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -568,8 +568,8 @@
 				structure: "chronodawn:entropy_crypt"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["15059AAE9703C15C"]
@@ -580,7 +580,7 @@
 			rewards: [{
 				id: "42EBA557EB437171"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -588,8 +588,8 @@
 				structure: "chronodawn:phantom_catacombs"
 				type: "structure"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["15059AAE9703C15C"]
@@ -600,7 +600,7 @@
 			rewards: [{
 				id: "4A4A92494121BAA6"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "diamond"
 			tasks: [
@@ -615,8 +615,8 @@
 					type: "structure"
 				}
 			]
-			x: 4.0d
-			y: 12.0d
+			x: 3.0d
+			y: 8.0d
 		}
 	]
 }

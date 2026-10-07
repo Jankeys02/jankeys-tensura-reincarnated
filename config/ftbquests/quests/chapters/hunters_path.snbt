@@ -36,7 +36,7 @@
 				{
 					id: "0343663F6DB0834F"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:strength"
@@ -81,7 +81,7 @@
 				{
 					id: "499FC6443F9E86D7"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 2
 				}
 				{
 					ability: "tensura:danger_sense"
@@ -97,7 +97,7 @@
 				id: "3E5A78485B4DF123"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -126,7 +126,7 @@
 				{
 					id: "7D862624D39538F8"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:haki"
@@ -142,7 +142,7 @@
 				id: "6F6970935B11145D"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				{
 					id: "53F426E3C7CDB27B"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 3
 				}
 				{
 					ability: "tensura:steel_strength"
@@ -187,7 +187,7 @@
 				id: "23C6A59588FC517A"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -216,7 +216,7 @@
 				{
 					id: "0F9DED269514ADB0"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					ability: "tensura:physical_attack_resistance"
@@ -233,7 +233,7 @@
 				id: "3459A8D43D2399D8"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -244,7 +244,7 @@
 			rewards: [{
 				id: "09CBD3343CBE2592"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/sniper_duel"
@@ -252,8 +252,8 @@
 				id: "41883017500D9DF7"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D812CFB14E7328A"]
@@ -263,7 +263,7 @@
 			rewards: [{
 				id: "4ACA5558EB0A1ECC"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/two_birds_one_arrow"
@@ -271,8 +271,8 @@
 				id: "2F04D1D55F5E6B97"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D812CFB14E7328A"]
@@ -282,7 +282,7 @@
 			rewards: [{
 				id: "4794E831E53EA36D"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/bullseye"
@@ -290,8 +290,8 @@
 				id: "01AE8C879C2D9EC3"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D812CFB14E7328A"]
@@ -301,7 +301,7 @@
 			rewards: [{
 				id: "4ED20C0A17AC79B2"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/very_very_frightening"
@@ -309,8 +309,8 @@
 				id: "23C23B181E7338CD"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D812CFB14E7328A"]
@@ -320,7 +320,7 @@
 			rewards: [{
 				id: "703C15287CC714BB"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
@@ -329,7 +329,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 	]
 }

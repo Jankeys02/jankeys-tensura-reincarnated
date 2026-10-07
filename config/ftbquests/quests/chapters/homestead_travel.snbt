@@ -16,7 +16,7 @@
 			rewards: [{
 				id: "5A0ADF734C1E03A4"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "31EBAD3109C76A28"
@@ -32,14 +32,14 @@
 			rewards: [{
 				id: "0658FC8337EE9E9E"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3A8B124063E9E41F"
 				item: { count: 1, id: "comforts:sleeping_bag_red" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -48,7 +48,7 @@
 			rewards: [{
 				id: "276FF9B36FB617E1"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -56,7 +56,7 @@
 				item: { count: 1, id: "comforts:hammock_red" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -65,15 +65,15 @@
 			rewards: [{
 				id: "0B4EC4D4ABA2B9BE"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3BDB464EDCBE8369"
 				item: { count: 1, id: "supplementaries:rope" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22BCD51822160A86"]
@@ -81,7 +81,7 @@
 			rewards: [{
 				id: "34BF51950335F007"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 3.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2EC94C3C7C0F84F5"]
@@ -104,7 +104,7 @@
 			rewards: [{
 				id: "7095608A1074C512"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -118,8 +118,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["23EE6FA88B3FC773"]
@@ -127,7 +127,7 @@
 			rewards: [{
 				id: "2591D02CB50DBA49"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "supplementaries:husbandry/wrench"
@@ -135,8 +135,8 @@
 				id: "618A6365DEF203BB"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2ACDE19717E4AD1A"]
@@ -144,7 +144,7 @@
 			rewards: [{
 				id: "5D1186B8D328E978"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "supplementaries:husbandry/turn_table"
@@ -152,8 +152,8 @@
 				id: "79EB72EB068DDD4E"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A219316C7D84A01"]
@@ -161,15 +161,15 @@
 			rewards: [{
 				id: "3C3B17205D40CD40"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0D268684FDE78A26"
 				item: { count: 1, id: "supplementaries:lunch_basket" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2230ED5EEBD042D4"]
@@ -177,7 +177,7 @@
 			rewards: [{
 				id: "61F469B587C7DA6B"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "supplementaries:adventure/road_sign"
@@ -185,8 +185,8 @@
 				id: "0FC9FB1CA1B581CA"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6EF0C5CB241C85A4"]
@@ -194,7 +194,7 @@
 			rewards: [{
 				id: "02930EA1E55C7479"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -202,8 +202,8 @@
 				structure: "supplementaries:galleon"
 				type: "structure"
 			}]
-			x: 18.0d
-			y: 3.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["65BA6946818B7659"]
@@ -211,15 +211,15 @@
 			rewards: [{
 				id: "4FCAE68A11F189D0"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "0A53242F3863BE9B"
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6C8A357843B129C8"]
@@ -227,15 +227,15 @@
 			rewards: [{
 				id: "6CBFC27F6DC2EA3A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "1949F2D1EA6DD325"
 				item: { count: 1, id: "waystones:warp_stone" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1664160FE3D4C05D"]
@@ -243,7 +243,7 @@
 			rewards: [{
 				id: "6F45D2F0D9758060"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [
 				{
@@ -257,8 +257,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 6.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2A541F2330E520A4"]
@@ -266,15 +266,15 @@
 			rewards: [{
 				id: "0808937CAB43BD42"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "01D6BAD0150A7925"
 				item: { count: 1, id: "waystones:red_sharestone" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3563D1F3A2612475"]
@@ -282,15 +282,15 @@
 			rewards: [{
 				id: "3D538B0FEDA2AEF9"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "57AB7B623C8CA3F4"
 				item: { count: 1, id: "waystones:warp_plate" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3C06D309A3953372"]
@@ -308,7 +308,7 @@
 				{
 					id: "0C155BF036EFF2B1"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 10
 				}
 				{
 					existence: "MAX_EP"
@@ -323,8 +323,8 @@
 				item: { count: 1, id: "waystones:red_portstone" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["22BCD51822160A86"]
@@ -335,7 +335,7 @@
 			rewards: [{
 				id: "1D2349707D3145D1"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -344,8 +344,8 @@
 				id: "4F0630AD1CAC4786"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22BCD51822160A86"]
@@ -356,7 +356,7 @@
 			rewards: [{
 				id: "04D1A26AE95C2223"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -365,8 +365,8 @@
 				id: "2315BC7A1DD4C20F"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 9.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22BCD51822160A86"]
@@ -377,7 +377,7 @@
 			rewards: [{
 				id: "285B95D1524D74AA"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -386,8 +386,8 @@
 				id: "3D09CEA9E3C9246A"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["22BCD51822160A86"]
@@ -398,7 +398,7 @@
 			rewards: [{
 				id: "7DCB2CEB5FB33359"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -407,8 +407,8 @@
 				id: "2D8194D03071B8D7"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 9.0d
+			x: 10.5d
+			y: 6.0d
 		}
 	]
 }

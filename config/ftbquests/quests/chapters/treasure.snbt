@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "20D10D5C87BEA36A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			shape: "gear"
 			tasks: [{
@@ -36,7 +36,7 @@
 			rewards: [{
 				id: "23C08EAB4632B4B6"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "lootr:10loot"
@@ -53,7 +53,7 @@
 			rewards: [{
 				id: "740F4068A895C5C1"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "lootr:50loot"
@@ -69,7 +69,7 @@
 			rewards: [{
 				id: "136AACB3EE34C783"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -87,7 +87,7 @@
 			rewards: [{
 				id: "337158157EF127A6"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 8
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -104,7 +104,7 @@
 			rewards: [{
 				id: "13D5887F0F2215E8"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "artifacts:amateur_archaeologist"
@@ -120,7 +120,7 @@
 			rewards: [{
 				id: "136EA9FD7E2798AE"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "artifacts:chest_slayer"
@@ -137,7 +137,7 @@
 			rewards: [{
 				id: "40E56A5B9067402C"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "artifacts:adventurous_eater"
@@ -153,7 +153,7 @@
 			rewards: [{
 				id: "528805C8C718C715"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "betterdungeons:zombie_dungeon"
@@ -169,7 +169,7 @@
 			rewards: [{
 				id: "06106AF38D726DFF"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "betterdungeons:spider_dungeon"
@@ -185,7 +185,7 @@
 			rewards: [{
 				id: "36FA7681BF615650"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "betterdungeons:skeleton_dungeon"
@@ -202,7 +202,7 @@
 			rewards: [{
 				id: "5FE8A04E5B979727"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "betterdungeons:small_nether_dungeon"
@@ -219,7 +219,7 @@
 			rewards: [{
 				id: "0D0DFA122B143DCE"
 				type: "xp_levels"
-				xp_levels: 15
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -236,7 +236,7 @@
 			rewards: [{
 				id: "60B796F557C4C5BC"
 				type: "xp_levels"
-				xp_levels: 12
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -253,7 +253,7 @@
 			rewards: [{
 				id: "23B1A76515A6F080"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:frosted_caves"
@@ -269,7 +269,7 @@
 			rewards: [{
 				id: "5B863A4C5F9FBE0C"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:mine_enchanted_ice"
@@ -285,7 +285,7 @@
 			rewards: [{
 				id: "18FAF03980E8543B"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:frost_potion"
@@ -301,7 +301,7 @@
 			rewards: [{
 				id: "0EDE6ED06E0E8184"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:lost_caves"
@@ -318,7 +318,7 @@
 			rewards: [{
 				id: "716E860BBA292BF0"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:sandstorm_end"
@@ -335,7 +335,7 @@
 			rewards: [{
 				id: "0D3E69D9027EDFB4"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "yungscavebiomes:the_snack_that_bites_back"

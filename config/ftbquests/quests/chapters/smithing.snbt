@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "4A0371F6D8772F4A"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "gear"
 			tasks: [{
@@ -37,7 +37,7 @@
 			rewards: [{
 				id: "7697EB7A248A3A21"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "tensura:gold_rush"
@@ -54,7 +54,7 @@
 			rewards: [{
 				id: "333913350A87D928"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:better_smelter"
@@ -72,7 +72,7 @@
 				{
 					id: "2456C507426213F9"
 					type: "xp_levels"
-					xp_levels: 4
+					xp_levels: 2
 				}
 				{
 					count: 4
@@ -99,7 +99,7 @@
 			rewards: [{
 				id: "2E7C11D8A2F94D50"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:high_magisteel"
@@ -116,7 +116,7 @@
 				{
 					id: "6FEC28EDCB99EAA6"
 					type: "xp_levels"
-					xp_levels: 8
+					xp_levels: 4
 				}
 				{
 					count: 2
@@ -144,7 +144,7 @@
 			rewards: [{
 				id: "26AE25A8F8EF445D"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:mithril"
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "3C3C3312245826BD"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:even_better_smelter"
@@ -181,7 +181,7 @@
 			rewards: [{
 				id: "5314714CAF77BC2D"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "tensura:orichalcum"
@@ -198,7 +198,7 @@
 			rewards: [{
 				id: "67AE92A6DBEFFD8B"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -216,7 +216,7 @@
 			rewards: [{
 				id: "77CD618383C1E097"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -235,7 +235,7 @@
 				{
 					id: "3459F80FD8552123"
 					type: "xp_levels"
-					xp_levels: 15
+					xp_levels: 6
 				}
 				{
 					count: 2
@@ -281,7 +281,7 @@
 				{
 					id: "77FE33FBFE5AC75D"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 8
 				}
 				{
 					id: "352C2A0D065F51D8"
@@ -308,7 +308,7 @@
 			rewards: [{
 				id: "2F6EBB70B834A60A"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				advancement: "tensura:getcha_leathers"
@@ -324,7 +324,7 @@
 			rewards: [{
 				id: "64BEBFDF763CB8A9"
 				type: "xp_levels"
-				xp_levels: 4
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:getcha_better_leathers"
@@ -341,7 +341,7 @@
 			rewards: [{
 				id: "2540F1D520235657"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:light_as_horned_rabbit"
@@ -358,7 +358,7 @@
 			rewards: [{
 				id: "0849DB47A40E58B7"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "tensura:believe_to_fly"
@@ -375,7 +375,7 @@
 			rewards: [{
 				id: "155F515D50000EE1"
 				type: "xp_levels"
-				xp_levels: 6
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:ripoff_elytra"
@@ -392,7 +392,7 @@
 			rewards: [{
 				id: "7AFD51D927D9E5FE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				advancement: "tensura:become_ninja"
@@ -409,7 +409,7 @@
 			rewards: [{
 				id: "7EBFA9B4CAD73C78"
 				type: "xp_levels"
-				xp_levels: 5
+				xp_levels: 3
 			}]
 			tasks: [{
 				advancement: "tensura:a_bit_cold"
@@ -425,7 +425,7 @@
 			rewards: [{
 				id: "734CE7D68D28108A"
 				type: "xp_levels"
-				xp_levels: 12
+				xp_levels: 6
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -442,7 +442,7 @@
 			rewards: [{
 				id: "5B124D78F7C93A99"
 				type: "xp_levels"
-				xp_levels: 10
+				xp_levels: 5
 			}]
 			tasks: [{
 				advancement: "tensura:unhealable_wound"
@@ -460,7 +460,7 @@
 			rewards: [{
 				id: "6B809DB5AFA86F75"
 				type: "xp_levels"
-				xp_levels: 12
+				xp_levels: 6
 			}]
 			tasks: [{
 				advancement: "tensura:too_strong"
@@ -477,7 +477,7 @@
 			rewards: [{
 				id: "4396A0C6719DBB18"
 				type: "xp_levels"
-				xp_levels: 8
+				xp_levels: 4
 			}]
 			tasks: [{
 				advancement: "tensura:build_body"
