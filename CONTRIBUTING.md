@@ -17,6 +17,10 @@ You need the pack installed (from [CurseForge](https://www.curseforge.com/minecr
 
 Mods are tracked in [`packwiz/`](packwiz/) (one small file per mod), not as jars. Add a mod with `packwiz curseforge add <CurseForge link>`, set whether it's client-only, run `packwiz refresh`, and commit `packwiz/` together with the mod's `config/` files and a line in `CHANGELOG.md`. The commands and rules are in [DEVELOPMENT.md](DEVELOPMENT.md) and [packwiz/README.md](packwiz/README.md). A PR that changes a mod isn't done until the reviewer has installed it.
 
+## Changelog check
+
+A Pull Request that changes `packwiz/`, `kubejs/`, `defaultconfigs/` or `config/ftbquests/` must also change `CHANGELOG.md` (a line under `[Unreleased]`, written for players), or the "Changelog check" fails and the PR can't be merged. For changes players won't notice, such as a typo, put `[skip changelog]` in the PR description or add the `skip-changelog` label.
+
 ## What not to commit
 
 Worlds (`saves/`), logs, crash reports, screenshots, and anything with your username or account tokens. If `git status` lists them, leave them out of `git add`. Mods often rewrite their own config on launch, so only commit config files you changed on purpose.
