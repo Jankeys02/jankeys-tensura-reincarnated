@@ -29,4 +29,89 @@
 		ftbultimine.max_blocks: 64
 		ftbultimine.ultimine_cooldown: 10
 	}
+	explorer_1: {
+		name: "Wayfarer"
+		power: 21
+		ftbchunks.max_claimed: 600
+		ftbchunks.max_force_loaded: 30
+		ftbessentials.back.cooldown: 25
+	}
+	explorer_2: {
+		name: "Pathfinder"
+		power: 22
+		ftbchunks.max_claimed: 750
+		ftbchunks.max_force_loaded: 35
+		ftbessentials.back.cooldown: 20
+	}
+	explorer_3: {
+		name: "Trailblazer"
+		power: 23
+		ftbchunks.max_claimed: 900
+		ftbchunks.max_force_loaded: 40
+		ftbessentials.back.cooldown: 15
+	}
+	explorer_4: {
+		name: "Wanderer of Ages"
+		power: 24
+		ftbchunks.max_claimed: 1100
+		ftbchunks.max_force_loaded: 50
+		ftbessentials.back.cooldown: 10
+	}
+	explorer_5: {
+		name: "World Walker"
+		power: 25
+		ftbchunks.max_claimed: 1400
+		ftbchunks.max_force_loaded: 60
+		ftbessentials.back.cooldown: 5
+	}
+	homesteader_1: {
+		name: "Settler"
+		power: 31
+		ftbessentials.home.max: 2
+		ftbessentials.home.cooldown: 8
+	}
+	homesteader_2: {
+		name: "Hearthkeeper"
+		power: 32
+		ftbessentials.home.max: 3
+		ftbessentials.home.cooldown: 6
+	}
+	homesteader_3: {
+		name: "Steward"
+		power: 33
+		ftbessentials.home.max: 4
+		ftbessentials.home.cooldown: 4
+	}
+	homesteader_4: {
+		name: "Provider"
+		power: 34
+		ftbessentials.home.max: 6
+		ftbessentials.home.cooldown: 2
+	}
+	homesteader_5: {
+		name: "Master of the House"
+		power: 35
+		ftbessentials.home.max: 8
+		ftbessentials.home.cooldown: 1
+	}
+	hunter_1: {
+		name: "Initiate Hunter"
+		power: 41
+	}
+	hunter_2: {
+		name: "Stalker"
+		power: 42
+	}
+	hunter_3: {
+		name: "Slayer"
+		power: 43
+	}
+	hunter_4: {
+		name: "Dread Hunter"
+		power: 44
+	}
+	hunter_5: {
+		name: "Apex Hunter"
+		power: 45
+	}
 }

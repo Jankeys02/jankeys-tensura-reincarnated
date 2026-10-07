@@ -1,0 +1,463 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm_hunts"
+	group: "1F6D6583331909B9"
+	icon: {
+		id: "cataclysm:abyss_eye"
+	}
+	id: "0A61B389E8817D99"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["606087AD55A214CD"]
+			id: "585E3AA7CB13EB4E"
+			rewards: [{
+				id: "5588DC6CF09F474E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "070D876E4F44CE97"
+					structure: "cataclysm:abandoned_village"
+					type: "structure"
+				}
+				{
+					id: "6078781D126BD363"
+					structure: "cataclysm:abandoned_temple"
+					type: "structure"
+				}
+				{
+					id: "15E141C913FE96A4"
+					structure: "cataclysm:abandoned_spire"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["585E3AA7CB13EB4E"]
+			hide_details_until_startable: true
+			id: "3E7AEEBFB393FBF9"
+			rewards: [{
+				id: "4EC78C48D022134B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "3681F774BE87FFEB"
+					structure: "cataclysm:desert_site"
+					type: "structure"
+				}
+				{
+					id: "7F7DAFFF258093A1"
+					structure: "cataclysm:desert_temple"
+					type: "structure"
+				}
+				{
+					id: "01626063791CED3C"
+					structure: "cataclysm:desert_occupied_village"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E7AEEBFB393FBF9"]
+			hide_details_until_startable: true
+			id: "61CAE340FC277D82"
+			rewards: [{
+				id: "1B27CB39828B731B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "21079FF38938B349"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61CAE340FC277D82"]
+			hide_details_until_startable: true
+			id: "22AE4E1C1D676267"
+			rewards: [{
+				id: "64AB7CC15C8AEC51"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "40D3ABC6000C1576"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22AE4E1C1D676267"]
+			hide_details_until_startable: true
+			id: "155E13F7E0DFB1E8"
+			rewards: [{
+				id: "6935913EB4A21E56"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "4E0DF75A2AD29FB1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["155E13F7E0DFB1E8"]
+			hide_details_until_startable: true
+			id: "14A90A725D236AE5"
+			rewards: [{
+				id: "7F3CCFC9CD6F40AE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "66DBA814C87BB866"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14A90A725D236AE5"]
+			hide_details_until_startable: true
+			id: "3650531B8E3ABBF7"
+			rewards: [{
+				id: "7735BA1A66AD76BF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "4BDEE88B2419A9DC"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3650531B8E3ABBF7"]
+			hide_details_until_startable: true
+			id: "3EF2F63BC607DACD"
+			rewards: [{
+				id: "3DC539B2094731C6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "015BA0DAC4D4D2DD"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EF2F63BC607DACD"]
+			hide_details_until_startable: true
+			id: "10C24271EC9780BE"
+			rewards: [{
+				id: "5832D43D1354C9FF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "4EBDC14A897F0DF8"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10C24271EC9780BE"]
+			hide_details_until_startable: true
+			id: "7235F1ECB34F2D18"
+			rewards: [{
+				id: "15E885129C5D0C5A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "504D8636979D2383"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7235F1ECB34F2D18"]
+			hide_details_until_startable: true
+			id: "4F1999F7E5E7810F"
+			rewards: [{
+				id: "668CFDB9D1FE9729"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "79567C633774AB17"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F1999F7E5E7810F"]
+			hide_until_deps_complete: true
+			id: "7600D79236435969"
+			rewards: [{
+				id: "5E07D41025F97A4F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "1E42A532ED7C10EC"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "05958DECD5301907"
+			rewards: [{
+				id: "5BA8905D4EC647B1"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "6D97EF76899DCC5B"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "0D9A5398FDB2A2F1"
+			rewards: [{
+				id: "1115A986EFC9DB32"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_revenant"
+				criterion: ""
+				id: "5274B0E1A226932D"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "5B730E53CB98ED39"
+			rewards: [{
+				id: "2714BFC92BCA9C3A"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "58F9613297775DED"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "06FE42BB7522628E"
+			rewards: [{
+				id: "188FE8BB48039826"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "468FAB918C82ED7F"
+				type: "advancement"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "655C58CE98ECA774"
+			rewards: [{
+				id: "46133676AA13678C"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "3BBB58DB213F75D1"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "12A0C0DD952B6A5E"
+			rewards: [{
+				id: "63BE96DA54626D8D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "50D3D3CA3B202725"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "6176AA88177FE152"
+			rewards: [{
+				id: "65783499E133C82B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "1AB71C842A1402A4"
+				type: "advancement"
+			}]
+			x: 32.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "1E78BC758DCDC541"
+			rewards: [{
+				id: "5D2ECDFB0E4B0580"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_clawdian"
+				criterion: ""
+				id: "593C121DAC482CD4"
+				type: "advancement"
+			}]
+			x: 34.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "15320084450FE8D3"
+			rewards: [{
+				id: "179F9CA6DA24D103"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "1A10F9897C8EB7BC"
+				type: "advancement"
+			}]
+			x: 36.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7600D79236435969"]
+			hide_until_deps_complete: true
+			id: "2A7A35CF1F21EB67"
+			rewards: [{
+				id: "1EEB16403CB7CC36"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "cataclysm:kill_scylla"
+				criterion: ""
+				id: "3BB0DEFFE34777B4"
+				type: "advancement"
+			}]
+			x: 38.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A7A35CF1F21EB67"]
+			hide_until_deps_complete: true
+			id: "2637C6DC6DC8104C"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 8"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "028A4B6FFBEBCA59"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "1BB5234238B88DE2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "173169DF4CBA1304"
+				type: "advancement"
+			}]
+			x: 40.0d
+			y: 6.0d
+		}
+	]
+}

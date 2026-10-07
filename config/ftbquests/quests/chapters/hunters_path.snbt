@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hunters_path"
+	group: "3FB4C13A31874B92"
+	icon: {
+		id: "minecraft:bow"
+	}
+	id: "1194D01643BF7B81"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["379FD8D623B1B3CF"]
+			id: "6D812CFB14E7328A"
+			rewards: [
+				{
+					command: "/ftbranks add {p} hunter_1"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "53141C5BF6814DD5"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					command: "/attribute {p} minecraft:generic.max_health modifier add jankeys:hunter_1 0.1 add_multiplied_base"
+					icon: {
+						id: "minecraft:golden_apple"
+					}
+					id: "39AE93AB3397D23B"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "0343663F6DB0834F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "6E71A8DF632023F5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_details_until_startable: true
+			id: "0FB1ACADEF10902E"
+			rewards: [
+				{
+					command: "/ftbranks add {p} hunter_2"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "2272F3EB3147F68D"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					command: "/attribute {p} minecraft:generic.max_health modifier add jankeys:hunter_2 0.1 add_multiplied_base"
+					icon: {
+						id: "minecraft:golden_apple"
+					}
+					id: "5669D369B27D959A"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "499FC6443F9E86D7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "3E5A78485B4DF123"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FB1ACADEF10902E"]
+			hide_details_until_startable: true
+			id: "45050C32E0DEE300"
+			rewards: [
+				{
+					command: "/ftbranks add {p} hunter_3"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "7338A92FD5D1B735"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					command: "/attribute {p} minecraft:generic.max_health modifier add jankeys:hunter_3 0.1 add_multiplied_base"
+					icon: {
+						id: "minecraft:golden_apple"
+					}
+					id: "169C93E02811746C"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "7D862624D39538F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "6F6970935B11145D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45050C32E0DEE300"]
+			hide_details_until_startable: true
+			id: "407186C76C70DEA0"
+			rewards: [
+				{
+					command: "/ftbranks add {p} hunter_4"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "69C3D44A4B06314E"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					command: "/attribute {p} minecraft:generic.max_health modifier add jankeys:hunter_4 0.1 add_multiplied_base"
+					icon: {
+						id: "minecraft:golden_apple"
+					}
+					id: "500094C83465DE15"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "53F426E3C7CDB27B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "23C6A59588FC517A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["407186C76C70DEA0"]
+			hide_until_deps_complete: true
+			id: "4A288F84E0AE9D62"
+			rewards: [
+				{
+					command: "/ftbranks add {p} hunter_5"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "5B25ED48E11AC1D3"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					command: "/attribute {p} minecraft:generic.max_health modifier add jankeys:hunter_5 0.1 add_multiplied_base"
+					icon: {
+						id: "minecraft:golden_apple"
+					}
+					id: "6FF4870EE1F8A186"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "0F9DED269514ADB0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "3459A8D43D2399D8"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_dependency_lines: true
+			id: "4AE888FC4E3F53B5"
+			optional: true
+			rewards: [{
+				id: "09CBD3343CBE2592"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "41883017500D9DF7"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_dependency_lines: true
+			id: "615444BE1D167286"
+			optional: true
+			rewards: [{
+				id: "4ACA5558EB0A1ECC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+				id: "2F04D1D55F5E6B97"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_dependency_lines: true
+			id: "5FBDD8637790F14D"
+			optional: true
+			rewards: [{
+				id: "4794E831E53EA36D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+				id: "01AE8C879C2D9EC3"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_dependency_lines: true
+			id: "5F04E440540817F6"
+			optional: true
+			rewards: [{
+				id: "4ED20C0A17AC79B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/very_very_frightening"
+				criterion: ""
+				id: "23C23B181E7338CD"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D812CFB14E7328A"]
+			hide_dependency_lines: true
+			id: "34D4605E99F65F5F"
+			optional: true
+			rewards: [{
+				id: "703C15287CC714BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+				id: "585DC25CE4338FB6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

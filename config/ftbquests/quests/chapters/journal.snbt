@@ -182,6 +182,7 @@
 		{
 			dependencies: ["27D893ACB4D8552B"]
 			id: "3E5A739BD3149B0A"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "0AD922211260093B"

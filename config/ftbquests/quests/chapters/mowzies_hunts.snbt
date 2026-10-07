@@ -1,0 +1,424 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_hunts"
+	group: "1F6D6583331909B9"
+	icon: {
+		id: "mowziesmobs:sol_visage"
+	}
+	id: "64D7F0515F034C32"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["379FD8D623B1B3CF"]
+			id: "58960CF1713C9A15"
+			rewards: [{
+				id: "67D16C75E7664141"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_foliaath"
+				criterion: ""
+				id: "37D7770B503A5BC9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58960CF1713C9A15"]
+			hide_details_until_startable: true
+			id: "6AEE6D02B469DC05"
+			rewards: [{
+				id: "34754E1B1EA00D84"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_bluff"
+				criterion: ""
+				id: "5BE3787AEDFB09EC"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AEE6D02B469DC05"]
+			hide_details_until_startable: true
+			id: "236847EE4CCCF40D"
+			rewards: [{
+				id: "0581DE1F0D955006"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_grottol"
+				criterion: ""
+				id: "275C78E468CC93E8"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["236847EE4CCCF40D"]
+			hide_details_until_startable: true
+			id: "056A74451D5D9BEA"
+			rewards: [{
+				id: "1CE03B5AB2CF2FFC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_grottol_fortune"
+				criterion: ""
+				id: "573BEF81DA920A06"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["056A74451D5D9BEA"]
+			hide_details_until_startable: true
+			id: "4EDABBFBC768DD3F"
+			rewards: [{
+				id: "16FC240C9893590E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_grottol_silk_touch"
+				criterion: ""
+				id: "339EB25066E40754"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EDABBFBC768DD3F"]
+			hide_details_until_startable: true
+			id: "644F3D9E9F5E3346"
+			rewards: [{
+				id: "21941D2FB639667D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "331A9D3A7341FB71"
+				structure: "mowziesmobs:umvuthana_grove"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["644F3D9E9F5E3346"]
+			hide_details_until_startable: true
+			id: "30A1704B7B48D98B"
+			rewards: [{
+				id: "0FD6F7B79EB84496"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthana_raptor"
+				criterion: ""
+				id: "42BC36AE930F278C"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A1704B7B48D98B"]
+			hide_details_until_startable: true
+			id: "4CA238CB03B44F5F"
+			rewards: [{
+				id: "0D9E2466378C2D8C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:sneak_grove"
+				criterion: ""
+				id: "7C1FFA8B519EA5A7"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CA238CB03B44F5F"]
+			hide_details_until_startable: true
+			id: "45A4873411B2D8F7"
+			rewards: [{
+				id: "5555BF7F18E015E8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_naga"
+				criterion: ""
+				id: "397AC36CAB3AB564"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45A4873411B2D8F7"]
+			hide_details_until_startable: true
+			id: "0F0EC1DA5D1496A1"
+			rewards: [{
+				id: "2559D8D1971A0C29"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_elokosa_howler"
+				criterion: ""
+				id: "1F4C47F9B3010AAF"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F0EC1DA5D1496A1"]
+			hide_details_until_startable: true
+			id: "04A0740FFDED2ED7"
+			rewards: [{
+				id: "2C38DA5EB296A786"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B72F2EA6C6EA600"
+				structure: "mowziesmobs:monastery"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"04A0740FFDED2ED7"
+				"1B64083939BEE81D"
+			]
+			hide_details_until_startable: true
+			id: "0420AA4410E07A4B"
+			rewards: [{
+				id: "05D15D2F0B1BD2DB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7EF8D2C137F5F5DC"
+				structure: "mowziesmobs:wrought_chamber"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0420AA4410E07A4B"]
+			hide_until_deps_complete: true
+			id: "233BF7263CCE37EF"
+			rewards: [{
+				id: "708EC8AF8422DF77"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "418898B315A9B2CC"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["233BF7263CCE37EF"]
+			hide_details_until_startable: true
+			id: "5C1924ABFEE3A6B4"
+			rewards: [{
+				id: "1BC0B38415A787B2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2AEEA30C19AAC8A8"
+				item: { count: 1, id: "mowziesmobs:wrought_axe" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C1924ABFEE3A6B4"]
+			hide_details_until_startable: true
+			id: "728EB962F9AB8994"
+			rewards: [{
+				id: "38B82F2CFB11DE30"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2644869A70AE3A07"
+				structure: "mowziesmobs:frostmaw_spawn"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["728EB962F9AB8994"]
+			hide_details_until_startable: true
+			id: "529F7EA940F383EA"
+			rewards: [{
+				id: "08BF16E61E8DFA2F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:steal_ice_crystal"
+				criterion: ""
+				id: "53102103713D5CEF"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["529F7EA940F383EA"]
+			hide_until_deps_complete: true
+			id: "4A81FE8675FB3460"
+			rewards: [{
+				id: "417D7879BB85F54E"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "4BBAB7F15B02197A"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A81FE8675FB3460"]
+			hide_until_deps_complete: true
+			id: "35E77D067C972681"
+			rewards: [{
+				id: "67276EC646AA830B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "73845753AD572370"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35E77D067C972681"]
+			hide_details_until_startable: true
+			id: "1195A584091E4A40"
+			rewards: [{
+				id: "2E7C49FFC5EB0231"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5BDA9E506236B616"
+				item: { count: 1, id: "mowziesmobs:sol_visage" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1195A584091E4A40"]
+			hide_details_until_startable: true
+			id: "755AAE3B98903BBA"
+			rewards: [{
+				id: "3D5382B3ECADB649"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "517060184B177F4F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["755AAE3B98903BBA"]
+			hide_until_deps_complete: true
+			id: "6C45C4F4711D65EF"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 8"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "3A3E84A485824037"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "6C10FAFBD729953F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "53300A61EFDD60F3"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C45C4F4711D65EF"]
+			hide_dependency_lines: true
+			id: "3B96D7C3D489E699"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "0E21E2B2F3BBB1DE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_failure"
+				criterion: ""
+				id: "40109CF78C45CA86"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+	]
+}

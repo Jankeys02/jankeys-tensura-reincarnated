@@ -1,0 +1,387 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lesser_dimensions"
+	group: "5DDBE3D731CFC620"
+	icon: {
+		id: "the_afterdark:teleport_catalyst"
+	}
+	id: "0CC8C43CA9262C5E"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["606087AD55A214CD"]
+			id: "7FEE09EF200986AB"
+			rewards: [{
+				id: "1FDA74A217FDC704"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "71EADB9616A29AC4"
+				structure: "the_afterdark:teleport_altar"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_details_until_startable: true
+			id: "2B61DB5DEFD4CD80"
+			rewards: [{
+				id: "3163C06DD22895A7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "315008CDBA63D745"
+				item: { count: 1, id: "the_afterdark:teleport_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B61DB5DEFD4CD80"]
+			hide_details_until_startable: true
+			id: "2DC0C825F02AC0B5"
+			rewards: [{
+				id: "65CA97801584040D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "the_afterdark:afterdark"
+				id: "6CA1A2D3855D9E03"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC0C825F02AC0B5"]
+			hide_details_until_startable: true
+			id: "5CABFF21AD353522"
+			rewards: [{
+				id: "2A2BA5C291B5E1E4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				biome: "the_afterdark:lush_gardens"
+				id: "71B148D6212208A7"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CABFF21AD353522"]
+			hide_details_until_startable: true
+			id: "2D58509DCA15C113"
+			rewards: [{
+				id: "7EF3A6EC80A0CAB9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					biome: "the_afterdark:calcite_fields"
+					id: "36FAB5AE6D618CFB"
+					type: "biome"
+				}
+				{
+					biome: "the_afterdark:dripstone_deltas"
+					id: "7121A0205305121C"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D58509DCA15C113"]
+			hide_details_until_startable: true
+			id: "3E01435D8BBE7404"
+			rewards: [{
+				id: "6C451CB8F4D4D5B2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					biome: "the_afterdark:creepy_snowfields"
+					id: "33D53D27507C0473"
+					type: "biome"
+				}
+				{
+					biome: "the_afterdark:dying_drylands"
+					id: "4403C72A083FD5B2"
+					type: "biome"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E01435D8BBE7404"]
+			hide_details_until_startable: true
+			id: "01D763B7E4CFC7FB"
+			rewards: [{
+				id: "0E533EC417790C65"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					biome: "the_afterdark:prismarine_peaks"
+					id: "1E54641FC9331AD5"
+					type: "biome"
+				}
+				{
+					biome: "the_afterdark:prismarine_ponds"
+					id: "2CFCAE3801561DB2"
+					type: "biome"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01D763B7E4CFC7FB"]
+			hide_until_deps_complete: true
+			id: "27ABDE5791F19FD1"
+			rewards: [
+				{
+					command: "/give {p} minecraft:diamond 4"
+					icon: {
+						id: "minecraft:diamond"
+					}
+					id: "4AD73D63DA5B94C7"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "3C11035ACA8EF9D6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				biome: "the_afterdark:deep_afterdark"
+				id: "5C14D89C2DF99C1D"
+				type: "biome"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_details_until_startable: true
+			id: "6B22D9025AEF2CD8"
+			rewards: [{
+				id: "2903DBEEB3CD9FF2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "20FE275FBE661B13"
+				structure: "iceandfire:graveyard"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B22D9025AEF2CD8"]
+			hide_details_until_startable: true
+			id: "79DDACA7BB675749"
+			rewards: [{
+				id: "3D9DE4EEF7073DE4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7AB16EAC891EE769"
+				structure: "iceandfire:mausoleum"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79DDACA7BB675749"]
+			hide_details_until_startable: true
+			id: "54DC79943FEF7A67"
+			rewards: [{
+				id: "36999DE6D9529DCA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_ghoul"
+				id: "22AAD892D252DD25"
+				type: "kill"
+				value: 3L
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54DC79943FEF7A67"]
+			hide_until_deps_complete: true
+			id: "35CE8CB6AD81AE94"
+			rewards: [{
+				id: "129F407A45C58389"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				id: "0EDCB911A82E6CF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_dependency_lines: true
+			id: "33FFB174A93E4409"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "081E1D223FC4407F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "mysticism:elemental_realm"
+				id: "5075B3F8D8594F5F"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_dependency_lines: true
+			id: "708CF88EDA671658"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "14007C420D392450"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					biome: "mysticism:fire_biome"
+					id: "4516AC0E8D1BDAA9"
+					type: "biome"
+				}
+				{
+					biome: "mysticism:water_biome"
+					id: "72763FC92A410C52"
+					type: "biome"
+				}
+			]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_dependency_lines: true
+			id: "1BF2DADA5BC6BF96"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "2CC80F7D82BB0066"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					biome: "mysticism:earth_biome"
+					id: "2378A13519F64039"
+					type: "biome"
+				}
+				{
+					biome: "mysticism:wind_biome"
+					id: "60A4C6589C6553FA"
+					type: "biome"
+				}
+			]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_dependency_lines: true
+			id: "15FF48EB80FFC23A"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "0641E71B81C8532A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					biome: "mysticism:light_biome"
+					id: "2E0F316EE8C8E6A6"
+					type: "biome"
+				}
+				{
+					biome: "mysticism:darkness_biome"
+					id: "67C9ABD7664CDC2A"
+					type: "biome"
+				}
+				{
+					biome: "mysticism:space_biome"
+					id: "287A45EAD719C040"
+					type: "biome"
+				}
+			]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7FEE09EF200986AB"]
+			hide_dependency_lines: true
+			id: "344C1B2385391B6D"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "5A2A154326AF5228"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					dimension: "mysticism:kamui_dimension"
+					id: "4738D34CDDBCF22A"
+					type: "dimension"
+				}
+				{
+					biome: "mysticism:kamui_biome"
+					id: "6A1DF769E88C2C7D"
+					type: "biome"
+				}
+			]
+			x: 14.0d
+			y: 9.0d
+		}
+	]
+}

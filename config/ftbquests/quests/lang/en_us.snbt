@@ -542,7 +542,10 @@
 	quest.3CC999DEE640FE31.title: "Surfer Rosa"
 	quest.3E2CBE6F4A3ED137.quest_desc: ["Fight the Elemental Colossus and \"die\"."]
 	quest.3E2CBE6F4A3ED137.title: "Chill! It's Just a Test"
-	quest.3E5A739BD3149B0A.quest_desc: ["Visit Ice and Fire's Dread Forest."]
+	quest.3E5A739BD3149B0A.quest_desc: [
+		"&7A dead wood lies somewhere beyond the world you know.&r"
+		"&7No road leads there yet... but the dead are patient.&r"
+	]
 	quest.3E5A739BD3149B0A.title: "Land of the Dead"
 	quest.3E928DCA7FD75BC8.quest_desc: [
 		"Open 25 Lootr containers."
@@ -1158,4 +1161,2355 @@
 		"&6Reward:&r Ultimine up to &e64&r blocks per use, cooldown &e0.5 s&r."
 	]
 	quest.1B7D553666C4B095.title: "Master Miner"
+	chapter.3DD684A7ABA239F7.title: "Twilight Forest"
+	quest.00C5AE37F784BB24.quest_desc: [
+		"&7&oA tower rises from the canopy, and it is not empty.&r"
+		"&6Field note:&r The tower is guarded. Bring gear for the dark and plenty of healing."
+	]
+	quest.00C5AE37F784BB24.title: "A Tower Among the Trees"
+	quest.01C114E38CB50A87.quest_desc: [
+		"&7&oFour staffs, four kinds of will. They want to be held together.&r"
+		"&6Field note:&r Gather all four scepters of power."
+	]
+	quest.01C114E38CB50A87.title: "Four Voices"
+	quest.02AC4666EC7F57E2.quest_desc: [
+		"&7&oThe maze keeps one more secret: a vault, and a map that draws its walls.&r"
+		"&6Field note:&r Open the labyrinth's hidden vault for a pickaxe that eats through stone, and craft a maze map from the focus."
+	]
+	quest.02AC4666EC7F57E2.title: "The Way Out"
+	quest.06B2E538A0867FBB.quest_desc: [
+		"&7&oThe woods are watching. Learn what lives here before it learns you.&r"
+		"&6Field note:&r Hunt some of the local wildlife. Deer and boar are the easy ones."
+	]
+	quest.06B2E538A0867FBB.title: "What the Wild Offers"
+	quest.095A8DB156BBC1A5.quest_desc: [
+		"&7&oSome lessons are best taught with a club.&r"
+		"&6Field note:&r Find and defeat a troll."
+	]
+	quest.095A8DB156BBC1A5.title: "Some Lessons Need a Club"
+	quest.201949BD9423B063.quest_desc: [
+		"&7&oSome doors do not look like doors. Water, held still. Green things gathered round it. Something bright, offered.&r"
+		"&6Field note:&r Dig a small pool in a clearing, ring it with natural plants, and toss a diamond in."
+	]
+	quest.201949BD9423B063.title: "Water Held Still"
+	quest.214312143915EFE2.quest_desc: [
+		"&7&oSomething lives here that has too many ideas about how to kill you.&r"
+		"&6Field note:&r Find the lair. Fire and a way to fight on the move help."
+	]
+	quest.214312143915EFE2.title: "A Lair of Many Mouths"
+	quest.2275D33CCDAA3746.quest_desc: [
+		"&7&oHedges no gardener planted. Walk the green walls and keep your feet quick.&r"
+		"&6Field note:&r Hedge mazes hide spiders. Defeat one inside the maze."
+	]
+	quest.2275D33CCDAA3746.title: "Walls of Green"
+	quest.22D78FE5EC5C665B.quest_desc: ["&7&oHorns, hunger, and a hot meal. Be ready for all three.&r"]
+	quest.22D78FE5EC5C665B.title: "Horns and Hunger"
+	quest.22D996715788846B.quest_desc: [
+		"&7&oEven monsters make good meals, if you are hungry enough.&r"
+		"&6Field note:&r Eat a cooked chop from the beast when your hunger bar is low."
+	]
+	quest.22D996715788846B.title: "Even Monsters Make Meals"
+	quest.23AE4B01B0070C08.quest_desc: [
+		"&7&oThe forest ends in white.&r"
+		"&6Field note:&r Find the glacier. It is cold enough to hurt, and arctic armour helps."
+	]
+	quest.23AE4B01B0070C08.title: "The Forest Ends in White"
+	quest.269D01C95FE52F8C.quest_desc: [
+		"&7&oGear that burns without a fire.&r"
+		"&6Field note:&r Carry a fiery tool or weapon together with at least one piece of fiery armour."
+	]
+	quest.269D01C95FE52F8C.title: "Gear That Burns Without a Fire"
+	quest.273C58821ECAB9FF.quest_desc: ["&7&oWhat it weeps does not burn those who deserve it.&r"]
+	quest.273C58821ECAB9FF.title: "Tears of Fire"
+	quest.30D345BE8C1E639D.quest_desc: [
+		"&7&oUnder the highlands, something large keeps house.&r"
+		"&6Field note:&r Find a troll cave in the mountains."
+	]
+	quest.30D345BE8C1E639D.title: "Beneath the Highland Roots"
+	quest.393C26C1D9E65E9B.quest_desc: [
+		"&7&oA map that knows the forest, even where you have never walked.&r"
+		"&6Field note:&r Craft the magic map."
+	]
+	quest.393C26C1D9E65E9B.title: "A Map That Knows"
+	quest.4252D9BA36BA38B1.quest_desc: [
+		"&7&oScales shed in the fight are good for more than trophies.&r"
+		"&6Field note:&r Craft armour from the scales: a chestplate and leggings."
+	]
+	quest.4252D9BA36BA38B1.title: "What the Fight Left Behind"
+	quest.42B812A5FB83AE21.quest_desc: [
+		"&7&oThorns grow where nothing should. Something in the caves burns them away.&r"
+		"&6Field note:&r Find the prize in the troll caves that burns thorn barriers."
+	]
+	quest.42B812A5FB83AE21.title: "Where Thorns Grow"
+	quest.4571D776B0DC3561.quest_desc: [
+		"&7&oWarm things can be pretty too.&r"
+		"&6Field note:&r Dye a piece of arctic armour."
+	]
+	quest.4571D776B0DC3561.title: "Warm Things Can Be Pretty"
+	quest.4E26F89AF3C931C5.quest_desc: [
+		"&7&oBeyond here, the roads are unfinished. The world is still being written.&r"
+		"&6Field note:&r This version of the forest ends here. More will come."
+	]
+	quest.4E26F89AF3C931C5.title: "Where the Road Ends"
+	quest.5352308759E2F82A.quest_desc: ["&7&oOld foes, called back all at once.&r"]
+	quest.5352308759E2F82A.title: "Old Foes, Called Back"
+	quest.5467E1E5C41D2434.quest_desc: ["&7&oFur softer than any wool, and the beast that wears it.&r"]
+	quest.5467E1E5C41D2434.title: "Softer Than Wool"
+	quest.55A305CB881C7ABA.quest_desc: [
+		"&7&oUnder a green hill, a maze made by something that did not want to be found.&r"
+		"&6Field note:&r Find the labyrinth, a stone ruin sunk into the ground, and bring light."
+	]
+	quest.55A305CB881C7ABA.title: "The Maze Beneath"
+	quest.5725F72D218AEA0A.quest_desc: ["&7&oA very small noise, abruptly ended.&r"]
+	quest.5725F72D218AEA0A.title: "Shut"
+	quest.576CFFED8D67BF4F.quest_desc: [
+		"&7&oA tower of pale wood and glowing red stone. It hums when you are near.&r"
+		"&6Field note:&r Find a tower growing from the forest floor."
+	]
+	quest.576CFFED8D67BF4F.title: "A Tower That Hums"
+	quest.5C9D46EAD8245C4F.quest_desc: ["&7&oIt is long. It is patient. It has not eaten in a very long time.&r"]
+	quest.5C9D46EAD8245C4F.title: "Long and Patient"
+	quest.5DA67B51C8F55D44.quest_desc: ["&7&oSome things should not be taken apart. You tried anyway.&r"]
+	quest.5DA67B51C8F55D44.title: "A Step Too Far"
+	quest.6047E120B7F6F7BA.quest_desc: [
+		"&7&oWhere the paving breaks, something old has made a home.&r"
+		"&6Field note:&r Look for a ruined, paved courtyard in the forest. Bring a bow and room to run."
+	]
+	quest.6047E120B7F6F7BA.title: "Where the Stones Lie Broken"
+	quest.66907162084B6BA1.quest_desc: ["&7&oQuiet them, and the cold towers will finally listen.&r"]
+	quest.66907162084B6BA1.title: "Quiet the Dead"
+	quest.6738D17DE2A2A72B.quest_desc: [
+		"&7&oSomething weeps fire above the tower. Pull it down.&r"
+		"&6Field note:&r Slay the small ones around a trap, then activate it to wrench the keeper from the sky."
+	]
+	quest.6738D17DE2A2A72B.title: "A Trap for the Sky"
+	quest.69950D5CF42DD75B.quest_desc: ["&7&oA crown that remembers being a king, and does not intend to forget.&r"]
+	quest.69950D5CF42DD75B.title: "A Crown That Remembers"
+	quest.6D0C812813D804B5.quest_desc: ["&7&oA sheep with a grievance, and a very good memory.&r"]
+	quest.6D0C812813D804B5.title: "Consummate Baaahs"
+	quest.71413A2A01355CEF.quest_desc: [
+		"&7&oThree mounds, three sizes of dark. Each keeps something that does not like being found.&r"
+		"&6Field note:&r Clear a guardian from a small, a medium and a large hollow hill. Bigger hills hold more and hit harder."
+	]
+	quest.71413A2A01355CEF.title: "Three Sizes of Dark"
+	quest.73CE13D5C1482D9A.quest_desc: ["&7&oA queen of ice, at the top of the world, who does not like visitors.&r"]
+	quest.73CE13D5C1482D9A.title: "A Queen at the Top of the World"
+	quest.7581A6A5C4042834.quest_desc: ["&7&oA palace of light, frozen mid-gesture.&r"]
+	quest.7581A6A5C4042834.title: "Light, Frozen Mid-Gesture"
+	quest.76B2D7CE35027A17.quest_desc: [
+		"&7&oUnder a sinking hill, a company of knights waits for the dead to stop moving.&r"
+		"&6Field note:&r Find the stronghold. Bring plenty of food and healing."
+	]
+	quest.76B2D7CE35027A17.title: "A Company of Knights"
+	quest.7A28C6DBC7E4CFA2.quest_desc: [
+		"&7&oAbove the clouds, something with very large hands is waiting.&r"
+		"&6Field note:&r Grow a beanstalk on the glowing soil, defeat the giant above, and bring its tool back to the troll caves."
+	]
+	quest.7A28C6DBC7E4CFA2.title: "Above the Clouds"
+	quest.7B87F88AAB34D86A.quest_desc: ["&7&oSomeone is very, very interested in trees.&r"]
+	quest.7B87F88AAB34D86A.title: "Maniacal Dendrologist"
+	quest.7DAD51FD1C46702C.quest_desc: ["&7&oCut one, and the others remember.&r"]
+	quest.7DAD51FD1C46702C.title: "Cut One, and the Others Remember"
+	quest.7F8D579F290BBBB2.quest_desc: [
+		"&7&oRulers are named by what they leave on pedestals.&r"
+		"&6Field note:&r Place a boss trophy on the pedestal in the ruins of the dark forest."
+	]
+	quest.7F8D579F290BBBB2.title: "Rulers Are Named by Their Trophies"
+	task.01155A02A981A9B0.title: "Step through the door"
+	task.015901270B12C145.title: "Pull the keeper down with a trap"
+	task.02CFF416BCDFD614.title: "Defeat the ruler of the palace"
+	task.0797A26194422B46.title: "Find the broken courtyard"
+	task.0D321E2737D5F80D.title: "Craft armour from the serpent's scales"
+	task.0DF4CD5116199DD3.title: "Reach the end of what is written"
+	task.0FC1B1F7D164565F.title: "Put an end to what coils in the courtyard"
+	task.110540AD738C3C6B.title: "Eat a monster's meat while starving"
+	task.137EF8861B159C87.title: "Craft a map of the maze"
+	task.19333B89B2710186.title: "Settle the restless phantoms"
+	task.199644CA65A9E41D.title: "Find what burns the thorns"
+	task.1B053A5C8D882F91.title: "Find the palace of light"
+	task.1EBCFF7EFC8E1392.title: "Take the vault's pickaxe"
+	task.20A93C303017D82C.title: "Find the knights' tomb"
+	task.28A36DC76DA96035.title: "Clear a small hollow hill"
+	task.2B71B71AF32B92D7.title: "Take the fur from the beast of the glacier"
+	task.2F3B059CC18F4AF8.title: "Find the tower in the canopy"
+	task.31B0602D00865202.title: "Take what the wild offers"
+	task.3356507658A8CCAE.title: "Hold all four scepters of power"
+	task.3565CDC16EC942A9.title: "Find the humming tower"
+	task.3C564E12A1D6A391.title: "Find the sunken maze"
+	task.3D574AF3769A2C28.title: "Defeat a troll"
+	task.4065B0B358FC78DC.title: "Wield fiery gear in fiery armour"
+	task.415F107023BB5EA1.title: "End the many-headed thing"
+	task.435C7B1356253A27.title: "Craft the magic map"
+	task.4ADBBE88930F47B0.title: "End a very small noise"
+	task.517ED92962513E38.title: "Collect everything that comes from trees"
+	task.5C280CB0615239B0.title: "Uncraft an uncrafting table"
+	task.602B24D28E876596.title: "Reach the glacier"
+	task.62489BCF842059CD.title: "Eat what the maze's master leaves behind"
+	task.62BC0BDDB5212048.title: "Touch the tears"
+	task.62C72B4BFD6B5DA1.title: "Dye a piece of arctic armour"
+	task.632F9D451F100979.title: "Clear a large hollow hill"
+	task.6A3ADCE8C4BA0C5F.title: "Clear a medium hollow hill"
+	task.6A753C12FF828120.title: "Give the ram what it is missing"
+	task.6B0745C6CA8E72B0.title: "Face the three together"
+	task.6F02CD2DE6DB5DA1.title: "Silence the keeper of the tower"
+	task.6F16E246B28BA577.title: "Defeat the giant in the clouds"
+	task.7188DF936FDE2D3F.title: "Grow the beanstalk"
+	task.71AE40E48848AA14.title: "Find the cave"
+	task.72027E1434E0D066.title: "Claim your title at the pedestal"
+	task.72E836E1B152A8A0.title: "Find the lair"
+	task.7E8A9A12A4346B3B.title: "Clear a spider from the hedge maze"
+	chapter.7285813B5FC0F5DA.title: "Eternal Starlight"
+	quest.04B5958BE5E1D90C.quest_desc: [
+		"&7&oA small thing that sings with its whole body. Feed it, and it will stay.&r"
+		"&6Field note:&r Tame a crystallized moth with enough meat."
+	]
+	quest.04B5958BE5E1D90C.title: "Lost in the Echo"
+	quest.08C0CB601FCB2803.quest_desc: ["&7&oSome bombs are made of grief.&r"]
+	quest.08C0CB601FCB2803.title: "Whoever May Cry"
+	quest.09F029A4668C4D5A.quest_desc: [
+		"&7&oSomething hungry, something loyal for a day, for the right bowl.&r"
+		"&6Field note:&r A bowl of pungency stew buys you one day of service."
+	]
+	quest.09F029A4668C4D5A.title: "A Hired Hand"
+	quest.0E19373703E2EE18.quest_desc: [
+		"&7&oA tooth that does not stop wanting, and a blade made to match.&r"
+		"&6Field note:&r A thirst walker drops the tooth when it dies or when you block its attack."
+	]
+	quest.0E19373703E2EE18.title: "Insatiable"
+	quest.13B3E0BD61AB4D76.quest_desc: ["&7&oNot every egg is meant to hatch.&r"]
+	quest.13B3E0BD61AB4D76.title: "A Bad Egg"
+	quest.15D54BB2989642EE.quest_desc: [
+		"&7&oEverything that was built has a place it was never meant to be hit.&r"
+		"&6Field note:&r A frozen tube thrown at the guardian speeds up its charge. Deactivate the energy block to make it vulnerable."
+	]
+	quest.15D54BB2989642EE.title: "Weak Points"
+	quest.17DD4B5EB132E6F9.quest_desc: ["&7&oSomething lunar and hungry and very, very old.&r"]
+	quest.17DD4B5EB132E6F9.title: "Through the Thorns"
+	quest.1C030690B33795B0.quest_desc: ["&7&oA face for a dangerous trade.&r"]
+	quest.1C030690B33795B0.title: "Final Masquerade"
+	quest.1D9E3EA8A230AE23.quest_desc: ["&7&oIt has stood since before the stars were named.&r"]
+	quest.1D9E3EA8A230AE23.title: "Ancient Wisdom"
+	quest.1F67D3A51542C939.quest_desc: ["&7&oYou have walked every sky this world has.&r"]
+	quest.1F67D3A51542C939.title: "Starlight Explorer"
+	quest.2221A7F91B6B4F4A.quest_desc: ["&7&oArmour woven from what cannot be seen.&r"]
+	quest.2221A7F91B6B4F4A.title: "Stepping into the Unseen"
+	quest.26A29F77D295B308.quest_desc: [
+		"&7&oSome tools reward a perfectly timed blow.&r"
+		"&6Field note:&r Wait for full attack strength and land a critical hit to trigger the hammer special."
+	]
+	quest.26A29F77D295B308.title: "The Hammer of Justice"
+	quest.2ACF076FE50B063F.quest_desc: [
+		"&7&oSome crystals only form where the water is not water.&r"
+		"&6Field note:&r Thioquartz grows in the ether."
+	]
+	quest.2ACF076FE50B063F.title: "Poorly Ether-Soluble"
+	quest.2E2C0DA1DBC35F54.quest_desc: ["&7&oA thing of thorns, and thorns burn.&r"]
+	quest.2E2C0DA1DBC35F54.title: "Burn It to the Ground"
+	quest.2E7896563F9F3F4F.quest_desc: ["&7&oA red flower at the bottom of the sea.&r"]
+	quest.2E7896563F9F3F4F.title: "Abyssal Romance"
+	quest.3098180630BA7365.quest_desc: ["&7&oSome nights, the sky lets go.&r"]
+	quest.3098180630BA7365.title: "Wish upon a Star"
+	quest.33C6EDEBE21BF0E4.quest_desc: ["&7&oA harvest tool for a stranger kind of harvest.&r"]
+	quest.33C6EDEBE21BF0E4.title: "Chaos, Chaos"
+	quest.3454D37AA55CD09A.quest_desc: ["&7&oThe sky leaves its own jewels.&r"]
+	quest.3454D37AA55CD09A.title: "Ooo! Shiny!"
+	quest.358BB4D6CE43DEAC.quest_desc: ["&7&oTo a thinker.&r"]
+	quest.358BB4D6CE43DEAC.title: "Swinging in the Boundless Milky Way"
+	quest.35A02CEE1A1B57F3.quest_desc: ["&7&oA bright thing, kept where nothing bright should be.&r"]
+	quest.35A02CEE1A1B57F3.title: "Unstained in the Mud"
+	quest.39094F137549525E.quest_desc: ["&7&oWatch the hunters from a respectful distance.&r"]
+	quest.39094F137549525E.title: "Even Death May Die"
+	quest.390CFA63DB48F70A.quest_desc: [
+		"&7&oA ruined frame waits in the old places, for something that remembers the way.&r"
+		"&6Field note:&r Look for portal ruins in the overworld. The Orb of Prophecy opens the frame."
+	]
+	quest.390CFA63DB48F70A.title: "The Deep Magic"
+	quest.44F64672D59BE71C.quest_desc: [
+		"&7&oThere are mushrooms that let you go where walls are a suggestion.&r"
+		"&6Field note:&r Bouldershroom stew lets you climb anywhere."
+	]
+	quest.44F64672D59BE71C.title: "Nimble as a Squirrel"
+	quest.4AF55801228F0107.quest_desc: [
+		"&7&oThe light here has opinions about where you should go.&r"
+		"&6Field note:&r A Seeking Eye helps you find places in this world."
+	]
+	quest.4AF55801228F0107.title: "Guided by Starlight"
+	quest.4E86E4AB254A2B21.quest_desc: [
+		"&7&oEven trees keep their jewels under the skin.&r"
+		"&6Field note:&r Strip torreya logs."
+	]
+	quest.4E86E4AB254A2B21.title: "Fastidious"
+	quest.505C6A557749939B.quest_desc: ["&7&oDoors can have their own opinions about who passes.&r"]
+	quest.505C6A557749939B.title: "Duke It Out"
+	quest.50A71C319DD54D0F.quest_desc: [
+		"&7&oEven fire-birds need help raising their young.&r"
+		"&6Field note:&r Put seeds into starfire bird nests until the birds breed."
+	]
+	quest.50A71C319DD54D0F.title: "Nurturing Roots"
+	quest.50C1E7F5648404DD.quest_desc: ["&7&oThe cold has a heart, and it is not kind.&r"]
+	quest.50C1E7F5648404DD.title: "Winter Is Leaving"
+	quest.573B803BA2DAB5B3.quest_desc: [
+		"&7&oBeneath the white, there is a darker white.&r"
+		"&6Field note:&r Enter the Ashen Snow layer of the permafrost forest."
+	]
+	quest.573B803BA2DAB5B3.title: "Under the Permafrost"
+	quest.6392133EA3B5A719.quest_desc: [
+		"&7&oSomething from above, summoned on purpose.&r"
+		"&6Field note:&r Put a carved lunaris cactus fruit on an aethersent block."
+	]
+	quest.6392133EA3B5A719.title: "Planetary Protection Policy"
+	quest.63BD2FC33D76A55A.quest_desc: [
+		"&7&oAntlers like frozen branches. Persuade them to come loose.&r"
+		"&6Field note:&r Anger an aurora deer and make it charge into hard blocks; its antlers fall off."
+	]
+	quest.63BD2FC33D76A55A.title: "Asking for Trouble"
+	quest.669FDC12161078F9.quest_desc: [
+		"&7&oStone wakes when it is given a reason.&r"
+		"&6Field note:&r Put a carved lunaris cactus fruit on a grimstone brick."
+	]
+	quest.669FDC12161078F9.title: "Item Slate"
+	quest.6AD9C7F1152CD17A.quest_desc: ["&7&oAt the bottom of the sea there is a second night.&r"]
+	quest.6AD9C7F1152CD17A.title: "The Mariana Trench"
+	quest.70DA6BB1A66C7C26.quest_desc: ["&7&oStep through, and the ceiling of the world is gone.&r"]
+	quest.70DA6BB1A66C7C26.title: "Sky of a Million Stars"
+	quest.738C58AB9519C49C.quest_desc: ["&7&oOne explosion, two ends.&r"]
+	quest.738C58AB9519C49C.title: "It's Just Friendly Fire"
+	quest.786609E020CE3DA1.quest_desc: ["&7&oWhere the stone things are made, the air hums.&r"]
+	quest.786609E020CE3DA1.title: "Cradle of Legion"
+	quest.79DBCB7C7E43FC71.quest_desc: ["&7&oCold, kept in a stone.&r"]
+	quest.79DBCB7C7E43FC71.title: "My December"
+	task.00579A4E01271DFB.title: "Obtain a spark of starfire"
+	task.0508D05F60A8CB4E.title: "Obtain a shard of glacite"
+	task.068AEB3D20F6C1EA.title: "Enter the forge of the stone ones"
+	task.071E7E4C98F8B74E.title: "Use the blossom of stars"
+	task.088882CF5A3DE118.title: "Obtain a starlit diamond"
+	task.0A0779742FE6DBBC.title: "End the long winter"
+	task.12025C9C91452E29.title: "Obtain a thioquartz shard"
+	task.121F03B88D80627E.title: "Wake a stone guardian"
+	task.14E933F226F48201.title: "Bring down the old guardian"
+	task.14EF3EE6E219F687.title: "Take up the orb that knows the way"
+	task.3255107C6C7957B8.title: "Step into the starlit world"
+	task.33B00C34FFA21DF9.title: "Watch a hunt"
+	task.3C3E51264F01853D.title: "Wear the unseen from head to foot"
+	task.3CE803E6AE640B9A.title: "Obtain a deepsilver ingot"
+	task.3D7A8909B36FB753.title: "Pass the gatekeeper's trial"
+	task.3D8912CB9C204AA0.title: "Tame the singing thing"
+	task.3DC2F07569F4AE16.title: "Set the thorned one alight"
+	task.42CC5947F30F4EC5.title: "Chill the guardian"
+	task.42EA814D9239488E.title: "Watch the sky fall"
+	task.43DA91765BE112A5.title: "Obtain raw amaramber"
+	task.4D20CDBFF688D3AA.title: "Help the birds nest"
+	task.50F1434FE0887C82.title: "Land a perfect hammer blow"
+	task.5198710D321174F2.title: "Craft a scythe"
+	task.52FF24F4CEC253BA.title: "See every corner of the starlit world"
+	task.53FFCB5DEF46A955.title: "Craft an alchemist mask"
+	task.5820D00BCEAABBDE.title: "Throw an egg at something living"
+	task.5908EBD0F9D82107.title: "Summon the sky's own guardian"
+	task.5C477F536A899FDF.title: "Let one skull silence another"
+	task.5E1C64B96F191EB9.title: "Light a bomb of tears"
+	task.5FA2BC9517ABCD47.title: "Reach the abyss"
+	task.6BEB5B3C16F8BCA2.title: "Silence its heart"
+	task.6D8D4D9893799E6E.title: "Craft the hungering dagger"
+	task.70AB5FF3FC287035.title: "Pick the red flower of the deep"
+	task.73BCF7D9C22895E9.title: "Craft a stew that clings"
+	task.7493147639C0CB46.title: "Take a tooth of hunger"
+	task.749F27FAD4398016.title: "Bring down the thorned moon"
+	task.752453107A536F8A.title: "Obtain an eye that seeks"
+	task.77D2444E84D17004.title: "Hire a creature for a day"
+	task.780E31BC0CC1FE2B.title: "Descend beneath the permafrost"
+	task.7D846E707B260753.title: "Collect an antler"
+	chapter.4FCA00F7666AD6C9.title: "Chrono Dawn"
+	quest.00E2A1213B98A25A.quest_desc: ["&7&oNot everything here was built by the same hands.&r"]
+	quest.00E2A1213B98A25A.title: "Older Than the Frost"
+	quest.023EDD8E15E20B9D.quest_desc: ["&7&oThe last thing time will ever take.&r"]
+	quest.023EDD8E15E20B9D.title: "Entropy's End"
+	quest.05B6B01414F6527C.quest_desc: ["&7&oEven ghosts keep a house.&r"]
+	quest.05B6B01414F6527C.title: "Where the Phantoms Sleep"
+	quest.062F428F96FE8871.quest_desc: ["&7&oA vast mechanism, patient and quiet, and wrong.&r"]
+	quest.062F428F96FE8871.title: "The Heart of Time"
+	quest.098F3FCE6AC7B264.quest_desc: ["&7&oThe key to the heart of time is held by the one who guards it.&r"]
+	quest.098F3FCE6AC7B264.title: "Vanquisher of the Guardian"
+	quest.10EBACBA2010C728.quest_desc: ["&7&oIt is very large, and it does not get tired.&r"]
+	quest.10EBACBA2010C728.title: "Colossus Conqueror"
+	quest.110C9C18356E1379.quest_desc: ["&7&oWhat is left of a stopped clock, remade.&r"]
+	quest.110C9C18356E1379.title: "Master of Time"
+	quest.13C046BE873121A2.quest_desc: ["&7&oIt has been holding the world still. Let go.&r"]
+	quest.13C046BE873121A2.title: "Liberator of Chrono Dawn"
+	quest.15059AAE9703C15C.quest_desc: [
+		"&7&oOn the other side, the world is holding its breath.&r"
+		"&6Field note:&r The first trip is one-way. A place called the Forgotten Library explains the way home."
+	]
+	quest.15059AAE9703C15C.title: "Entering the Frozen World"
+	quest.17A85CAD7C3D88A8.quest_desc: ["&7&oEven hours can be mined, if you are patient and strike true.&r"]
+	quest.17A85CAD7C3D88A8.title: "Crystallized Time"
+	quest.1D17B2A3314FC697.quest_desc: ["&7&oTo bend a moment, you need the right grip.&r"]
+	quest.1D17B2A3314FC697.title: "Tools of Temporal Control"
+	quest.26F2CB69B4099FF8.quest_desc: [
+		"&7&oTime can be held, if you have the right glass and the patience to build a frame for it.&r"
+		"&6Field note:&r Obtain a Time Hourglass, build a frame of Clockstone Blocks, and ignite it."
+	]
+	quest.26F2CB69B4099FF8.title: "A Gateway Through Time"
+	quest.32B6B7B8D7A66AF7.quest_desc: ["&7&oArmour made of kept moments.&r"]
+	quest.32B6B7B8D7A66AF7.title: "Preserved in Amber"
+	quest.344B299B2D7CD2A9.quest_desc: ["&7&oThe ones who were never quite here.&r"]
+	quest.344B299B2D7CD2A9.title: "Phantom Banisher"
+	quest.34F0254EE89F60C7.quest_desc: ["&7&oA tower of gears in the desert. Something inside is still counting.&r"]
+	quest.34F0254EE89F60C7.title: "The Clockwork Spire"
+	quest.390C8D234D50C817.quest_desc: ["&7&oThe works under the works.&r"]
+	quest.390C8D234D50C817.title: "Below the Gears"
+	quest.3FCECB362E3ACC16.quest_desc: ["&7&oEven here, there is trade. Everything is priced in what you cannot get back.&r"]
+	quest.3FCECB362E3ACC16.title: "Temporal Merchant"
+	quest.4F04AD1D8E30A067.quest_desc: ["&7&oA moment, kept whole, in resin.&r"]
+	quest.4F04AD1D8E30A067.title: "Sealed in Time"
+	quest.51AE765F20102DBB.quest_desc: ["&7&oArmour that ticks when you breathe.&r"]
+	quest.51AE765F20102DBB.title: "Clockwork Warrior"
+	quest.5A8D17DAF85EB156.quest_desc: [
+		"&7&oFour hard-won pieces of four hard-won things. Together, they are a question.&r"
+		"&6Field note:&r Prepare for the battle that ends the second act."
+	]
+	quest.5A8D17DAF85EB156.title: "Temporal Armament"
+	quest.5C692C92661D593F.quest_desc: ["&7&oSomething thin and cold between one second and the next.&r"]
+	quest.5C692C92661D593F.title: "Wraith Hunter"
+	quest.60038337C4D7FE44.quest_desc: ["&7&oBetter metal, better armour, the same quiet menace.&r"]
+	quest.60038337C4D7FE44.title: "Enhanced Temporal Armor"
+	quest.6204C87E8D78BAB0.quest_desc: ["&7&oWhere time wears away, something sharp remains.&r"]
+	quest.6204C87E8D78BAB0.title: "The Eroder of Time"
+	quest.625001FFCEFE67CB.quest_desc: ["&7&oWhere things go when they are forgotten.&r"]
+	quest.625001FFCEFE67CB.title: "A Crypt of Quiet Loss"
+	quest.6802A04EA8163483.quest_desc: ["&7&oThe fruit here tastes like a Tuesday you forgot.&r"]
+	quest.6802A04EA8163483.title: "Taste of Time"
+	quest.6C192E6032FA5513.quest_desc: ["&7&oWarden of a place that has no reason to be guarded.&r"]
+	quest.6C192E6032FA5513.title: "Guardian Slayer"
+	quest.6F6675719C5254B2.quest_desc: [
+		"&7&oA kitchen at the edge of everything.&r"
+		"&6Field note:&r Time Fruit, Time Fruit Pie, Time Jam and Time Bread."
+	]
+	quest.6F6675719C5254B2.title: "Gourmet of Time"
+	quest.7276C895F40D043A.quest_desc: [
+		"&7&oA door that only opens one way is a trap. Make it honest.&r"
+		"&6Field note:&r Use the Portal Stabilizer on the frame to travel both ways."
+	]
+	quest.7276C895F40D043A.title: "Anchoring Time"
+	quest.750B1FFAE6E61CC1.quest_desc: ["&7&oSomeone wrote down how to leave. Find where they left the pages.&r"]
+	quest.750B1FFAE6E61CC1.title: "What the Library Remembers"
+	quest.7D083C72866DC955.quest_desc: ["&7&oBrass and patience. Find the weak joint.&r"]
+	quest.7D083C72866DC955.title: "Mechanism Breaker"
+	quest.7D24374831ADB55E.quest_desc: ["&7&oBroken moments are still moments.&r"]
+	quest.7D24374831ADB55E.title: "Fractured Time"
+	task.0B3248764CFC41AB.title: "Break a sentinel"
+	task.0C128AD35DF1A247.title: "Defeat the guardian"
+	task.0D1345CD3CBBF47E.title: "Build a doorway and wake it"
+	task.0ECD6BDB55E33F3B.title: "Anchor the doorway"
+	task.1337313A19F40F1B.title: "Defeat a warden"
+	task.15DFD097CDB94A28.title: "Wear amber from head to foot"
+	task.1C7A9773FBF1C857.title: "Obtain a tool of time"
+	task.23A773A9A3C4D9D9.title: "Bring down a colossus"
+	task.23AC67E863C39ADD.title: "Find the guardian's vault"
+	task.2622B141E80D4E8D.title: "Find the ancient ruins"
+	task.292D00EFA2D4BF0B.title: "Obtain an entropy crystal"
+	task.29387489AD274311.title: "Obtain temporal amber dust"
+	task.2D5F757E654B2137.title: "Banish a wraith"
+	task.35F751859B151952.title: "Enter the frozen world"
+	task.39D129303D499BCC.title: "Find the clockwork depths"
+	task.3A41997DC5DC93EF.title: "Trade with a keeper of time"
+	task.40FBDA8966D3C039.title: "Banish a phantom"
+	task.474BEEE65CCACABB.title: "Take the key to the heart"
+	task.4942E5607AA6007D.title: "Craft a masterwork from the broken core"
+	task.4AA57E169B824FCF.title: "Mine a vein of time"
+	task.4C061330F778D5C1.title: "Eat a fruit of time"
+	task.4E4E2A068AABB9D2.title: "Shatter the thing that stills the world"
+	task.4FB487F1420B082E.title: "Defeat a keeper of entropy"
+	task.4FCB53D5944A13CF.title: "Obtain raw temporal amber"
+	task.5AD0BC73E468B72F.title: "Wear enhanced clockstone from head to foot"
+	task.5CA7810D6E75B325.title: "Find the catacombs"
+	task.5D83D462025BF94D.title: "Find the forgotten library"
+	task.633B7158644FABAC.title: "Gather all four boss materials"
+	task.636592D8C6FE48EF.title: "Find the crypt"
+	task.69BDCEB7C36520E4.title: "Find the great clock"
+	task.6EC3C73B16FC8766.title: "Eat every dish this world offers"
+	task.703FA1AAA7023038.title: "Wear clockstone from head to foot"
+	task.78186D1873459095.title: "Obtain the stabilizer's plans"
+	task.7BB3C1E77542D552.title: "Climb the spire and take what it keeps"
+	chapter.0A61B389E8817D99.title: "Cataclysm Hunts"
+	quest.05958DECD5301907.quest_desc: ["&7&oIt looks like something small. It is not.&r"]
+	quest.05958DECD5301907.title: "Not a Shulker"
+	quest.06FE42BB7522628E.quest_desc: ["&7&oForged in a place that had run out of reasons.&r"]
+	quest.06FE42BB7522628E.title: "The Broken Nether's Warmachine"
+	quest.0D9A5398FDB2A2F1.quest_desc: ["&7&oA body that could not decide whether to burn or to stay.&r"]
+	quest.0D9A5398FDB2A2F1.title: "Imperfect Thing"
+	quest.10C24271EC9780BE.quest_desc: [
+		"&7&oSand hides what the sun cannot.&r"
+		"&6Field note:&r Suspicious sand inside is worth excavating."
+	]
+	quest.10C24271EC9780BE.title: "A Pyramid with Ideas"
+	quest.12A0C0DD952B6A5E.quest_desc: ["&7&oIt was asleep. Someone should have left it that way.&r"]
+	quest.12A0C0DD952B6A5E.title: "The Thing of an Ancient Civilization"
+	quest.14A90A725D236AE5.quest_desc: ["&7&oSomeone built a stage for a very large audience.&r"]
+	quest.14A90A725D236AE5.title: "A Massive Arena"
+	quest.15320084450FE8D3.quest_desc: ["&7&oThe sea is the shallowest thing it has been in.&r"]
+	quest.15320084450FE8D3.title: "A Multidimensional Predator"
+	quest.155E13F7E0DFB1E8.quest_desc: ["&7&oA forge. Not for swords.&r"]
+	quest.155E13F7E0DFB1E8.title: "Where the Monstrous Are Forged"
+	quest.1E78BC758DCDC541.quest_desc: ["&7&oSmall claws are for ankles. These are not small.&r"]
+	quest.1E78BC758DCDC541.title: "Not So Shrimple Now"
+	quest.22AE4E1C1D676267.quest_desc: ["&7&oA fortress of black stone where one fortress was enough.&r"]
+	quest.22AE4E1C1D676267.title: "Another Stronghold?!"
+	quest.2637C6DC6DC8104C.quest_desc: ["&7&oYou have walked through every ending this world was saving.&r"]
+	quest.2637C6DC6DC8104C.title: "The Cataclysmfarer"
+	quest.2A7A35CF1F21EB67.quest_desc: ["&7&oA queen of storms, and a long way from home.&r"]
+	quest.2A7A35CF1F21EB67.title: "The Calm After the Storm"
+	quest.3650531B8E3ABBF7.quest_desc: ["&7&oMetal and gears, where only stone and trees belong.&r"]
+	quest.3650531B8E3ABBF7.title: "Out-of-Place"
+	quest.3E7AEEBFB393FBF9.quest_desc: ["&7&oThe desert keeps its own accounts.&r"]
+	quest.3E7AEEBFB393FBF9.title: "Sands and Deserters"
+	quest.3EF2F63BC607DACD.quest_desc: ["&7&oUnder the waves, a city that kept its streets.&r"]
+	quest.3EF2F63BC607DACD.title: "Sunken in the Sea"
+	quest.4F1999F7E5E7810F.quest_desc: ["&7&oSomeone thought the clouds needed a temple.&r"]
+	quest.4F1999F7E5E7810F.title: "Why in the Sky?"
+	quest.585E3AA7CB13EB4E.quest_desc: [
+		"&7&oBefore the great things woke, small things fell. Their ruins remember.&r"
+		"&6Field note:&r Ruins like these hold chests and hints. Explore carefully, they are not empty."
+	]
+	quest.585E3AA7CB13EB4E.title: "Whispers of Ruin"
+	quest.5B730E53CB98ED39.quest_desc: ["&7&oIt is easier to wake a fire than to put it out.&r"]
+	quest.5B730E53CB98ED39.title: "The Extinguished Fire"
+	quest.6176AA88177FE152.quest_desc: ["&7&oA priest of something that did not deserve one.&r"]
+	quest.6176AA88177FE152.title: "Crusade Against Curse"
+	quest.61CAE340FC277D82.quest_desc: ["&7&oSomething bright is growing where something bright should not.&r"]
+	quest.61CAE340FC277D82.title: "A Nest of Crystal"
+	quest.655C58CE98ECA774.quest_desc: ["&7&oDig where the sand is wrong.&r"]
+	quest.655C58CE98ECA774.title: "Death Finds a Way"
+	quest.7235F1ECB34F2D18.quest_desc: ["&7&oA prison in the ice, and no one to blame for it.&r"]
+	quest.7235F1ECB34F2D18.title: "Jail of Cold"
+	quest.7600D79236435969.quest_desc: ["&7&oA stone guardian, wearing the wrong colours.&r"]
+	quest.7600D79236435969.title: "Palette Swap"
+	task.015BA0DAC4D4D2DD.title: "Find the city beneath the sea"
+	task.01626063791CED3C.title: "Find a village that is not what it seems"
+	task.070D876E4F44CE97.title: "Find a forgotten village"
+	task.15E141C913FE96A4.title: "Find a forgotten spire"
+	task.173169DF4CBA1304.title: "Reach the summit of ruin"
+	task.1A10F9897C8EB7BC.title: "Call the leviathan and face it"
+	task.1AB71C842A1402A4.title: "Bring down the one who cursed"
+	task.1E42A532ED7C10EC.title: "Break an echo of stone"
+	task.21079FF38938B349.title: "Find the nest"
+	task.3681F774BE87FFEB.title: "Find a site in the sand"
+	task.3BB0DEFFE34777B4.title: "End the empress of the storm"
+	task.3BBB58DB213F75D1.title: "Wake the thing under the sand and put it down"
+	task.40D3ABC6000C1576.title: "Find the ruined citadel"
+	task.468FAB918C82ED7F.title: "End the machine of the nether"
+	task.4BDEE88B2419A9DC.title: "Find the factory that should not be here"
+	task.4E0DF75A2AD29FB1.title: "Find the soul forge"
+	task.4EBDC14A897F0DF8.title: "Find the pyramid that remembers"
+	task.504D8636979D2383.title: "Find the prison in the ice"
+	task.50D3D3CA3B202725.title: "Wake the old machine and end it"
+	task.5274B0E1A226932D.title: "Put down what the flames left behind"
+	task.58F9613297775DED.title: "Wake the fire and end it"
+	task.593C121DAC482CD4.title: "Break a claw"
+	task.6078781D126BD363.title: "Find a forgotten temple"
+	task.66DBA814C87BB866.title: "Find the burning arena"
+	task.6D97EF76899DCC5B.title: "Defeat the guardian of the void"
+	task.79567C633774AB17.title: "Find the city above the clouds"
+	task.7F7DAFFF258093A1.title: "Find a temple in the dunes"
+	chapter.64D7F0515F034C32.title: "Mowzie's Hunts"
+	quest.0420AA4410E07A4B.quest_desc: ["&7&oA room built around one very patient problem.&r"]
+	quest.0420AA4410E07A4B.title: "A Chamber of Iron"
+	quest.04A0740FFDED2ED7.quest_desc: ["&7&oA place built for quiet. It no longer is.&r"]
+	quest.04A0740FFDED2ED7.title: "Stone and Silence"
+	quest.056A74451D5D9BEA.quest_desc: [
+		"&7&oSome creatures pay out in what you mine them with.&r"
+		"&6Field note:&r Kill a grottol with a fortune pickaxe."
+	]
+	quest.056A74451D5D9BEA.title: "Double or Nothing"
+	quest.0F0EC1DA5D1496A1.quest_desc: ["&7&oSomething howls at the moon, and the moon answers.&r"]
+	quest.0F0EC1DA5D1496A1.title: "Gibbous Gibbons"
+	quest.1195A584091E4A40.quest_desc: ["&7&oA mask that glows when you do not.&r"]
+	quest.1195A584091E4A40.title: "A Face of the Sun"
+	quest.233BF7263CCE37EF.quest_desc: ["&7&oIt has lost bits before. It will lose more.&r"]
+	quest.233BF7263CCE37EF.title: "Just a Flesh Wound"
+	quest.236847EE4CCCF40D.quest_desc: ["&7&oSmall, round, and made of rock. It does not deserve what you are about to do.&r"]
+	quest.236847EE4CCCF40D.title: "A Quiet Thing in the Stone"
+	quest.30A1704B7B48D98B.quest_desc: ["&7&oUnder every mask there is something that was happy once.&r"]
+	quest.30A1704B7B48D98B.title: "Masquerade"
+	quest.35E77D067C972681.quest_desc: ["&7&oA bird of the sun, with a high opinion of itself.&r"]
+	quest.35E77D067C972681.title: "Praise the Sun"
+	quest.3B96D7C3D489E699.quest_desc: ["&7&oSome lessons are learned on the way down.&r"]
+	quest.3B96D7C3D489E699.title: "No One Jumps for the Beef"
+	quest.45A4873411B2D8F7.quest_desc: ["&7&oA long thing that flies. Not gracefully.&r"]
+	quest.45A4873411B2D8F7.title: "Wingin' It"
+	quest.4A81FE8675FB3460.quest_desc: ["&7&oIt was asleep, and now it is not.&r"]
+	quest.4A81FE8675FB3460.title: "Rude Awakening"
+	quest.4CA238CB03B44F5F.quest_desc: ["&7&oNot every door needs a key if you wear the right face.&r"]
+	quest.4CA238CB03B44F5F.title: "Sneaking In"
+	quest.4EDABBFBC768DD3F.quest_desc: [
+		"&7&oSome of them are worth more whole.&r"
+		"&6Field note:&r Kill a grottol with a silk touch pickaxe."
+	]
+	quest.4EDABBFBC768DD3F.title: "You're Coming With Me"
+	quest.529F7EA940F383EA.quest_desc: ["&7&oThe brave fight it. The clever take something it will not miss.&r"]
+	quest.529F7EA940F383EA.title: "Big Brain Time"
+	quest.58960CF1713C9A15.quest_desc: [
+		"&7&oGreen things have opinions. This one has teeth.&r"
+		"&6Field note:&r Vine-things like this guard dense jungle. Keep your distance until it lunges."
+	]
+	quest.58960CF1713C9A15.title: "A Plant with a Temper"
+	quest.5C1924ABFEE3A6B4.quest_desc: ["&7&oHeavy, honest, and made for one job.&r"]
+	quest.5C1924ABFEE3A6B4.title: "What It Left Behind"
+	quest.644F3D9E9F5E3346.quest_desc: [
+		"&7&oA grove of masks, and a place for you if you wear one.&r"
+		"&6Field note:&r Disguise yourself to walk among them."
+	]
+	quest.644F3D9E9F5E3346.title: "Birds of a Feather"
+	quest.6AEE6D02B469DC05.quest_desc: ["&7&oSomething small and loud and not as brave as it looks.&r"]
+	quest.6AEE6D02B469DC05.title: "Called Your Bluff"
+	quest.6C45C4F4711D65EF.quest_desc: ["&7&oA maker of things offers a test. The test is a jump. The jump is not metaphorical.&r"]
+	quest.6C45C4F4711D65EF.title: "You Must Believe"
+	quest.728EB962F9AB8994.quest_desc: ["&7&oSome dens should stay warm. This one will not.&r"]
+	quest.728EB962F9AB8994.title: "Where the Cold Sleeps"
+	quest.755AAE3B98903BBA.quest_desc: ["&7&oThe sun, having judged, chooses to look at you.&r"]
+	quest.755AAE3B98903BBA.title: "Heliomancer"
+	task.1F4C47F9B3010AAF.title: "Silence the howler"
+	task.2644869A70AE3A07.title: "Find the den in the snow"
+	task.275C78E468CC93E8.title: "Hunt a grottol"
+	task.2AEEA30C19AAC8A8.title: "Take up the iron guardian's axe"
+	task.331A9D3A7341FB71.title: "Find the grove of masks"
+	task.339EB25066E40754.title: "Take it with a gentle touch"
+	task.37D7770B503A5BC9.title: "Fell a biting plant"
+	task.397AC36CAB3AB564.title: "Bring down a winged serpent"
+	task.40109CF78C45CA86.title: "Fall during the sculptor's test"
+	task.418898B315A9B2CC.title: "Fell the iron guardian"
+	task.42BC36AE930F278C.title: "Unmask a raptor"
+	task.4BBAB7F15B02197A.title: "Put the frozen beast back to sleep"
+	task.517060184B177F4F.title: "Receive the sun's blessing"
+	task.53102103713D5CEF.title: "Steal a crystal of ice"
+	task.53300A61EFDD60F3.title: "Pass the sculptor's test"
+	task.573BEF81DA920A06.title: "Take its prize with fortune"
+	task.5B72F2EA6C6EA600.title: "Find the monastery"
+	task.5BDA9E506236B616.title: "Take the sunbird's mask"
+	task.5BE3787AEDFB09EC.title: "Call a bluff"
+	task.73845753AD572370.title: "Bring down the sunbird"
+	task.7C1FFA8B519EA5A7.title: "Slip into the grove in disguise"
+	task.7EF8D2C137F5F5DC.title: "Find the chamber"
+	chapter.36CF90A4CB7F3E74.title: "Cooking and Farming"
+	quest.00C7BCB88E9B6C64.quest_desc: ["&7&oSome grains like wet feet.&r"]
+	quest.00C7BCB88E9B6C64.title: "Dipping Your Roots"
+	quest.021AC20AD6585FA8.quest_desc: ["&7&oA rotten tomato, well aimed, at the right audience.&r"]
+	quest.021AC20AD6585FA8.title: "Boo! Hiss!"
+	quest.064B46E5BD7C512F.quest_desc: ["&7&oA knife, upgraded with something that survived fire.&r"]
+	quest.064B46E5BD7C512F.title: "If You Can't Take the Heat..."
+	quest.06BD0F47597C506B.quest_desc: ["&7&oA knife through the stalks, and something useful falls.&r"]
+	quest.06BD0F47597C506B.title: "Grasping at Straws"
+	quest.07683FEE6B18647B.quest_desc: [
+		"&7&oA rope, a little help, and the tomatoes remember how to climb.&r"
+		"&6Field note:&r Hang rope above a tomato crop to make it grow taller."
+	]
+	quest.07683FEE6B18647B.title: "Tall-mato"
+	quest.0A4713769F9CB6AB.quest_desc: [
+		"&7&oA knife does more than cut bread.&r"
+		"&6Field note:&r Use a knife on pigs or hoglins."
+	]
+	quest.0A4713769F9CB6AB.title: "Wild Butcher"
+	quest.12FD497FB2FB3BCC.quest_desc: ["&7&oNot everything good comes in a single bite.&r"]
+	quest.12FD497FB2FB3BCC.title: "A Proper Meal"
+	quest.1F2B240C4A000535.quest_desc: ["&7&oA pot on the fire, and the house begins to smell like a home.&r"]
+	quest.1F2B240C4A000535.title: "Dinner's Served"
+	quest.2C6389090D92A12E.quest_desc: [
+		"&7&oA pan travels better than a stove.&r"
+		"&6Field note:&r Sneak to place the skillet as a block. Or stand near heat and hold food in your other hand."
+	]
+	quest.2C6389090D92A12E.title: "Sizzling Hot"
+	quest.3B86851E3DC0E92A.quest_desc: [
+		"&7&oMushrooms are patient and fussy. Give them the best.&r"
+		"&6Field note:&r Shear a fully mature colony. They need very rich soil to grow this large."
+	]
+	quest.3B86851E3DC0E92A.title: "Fungus Among Us"
+	quest.430E4E88E9BD2C64.quest_desc: ["&7&oA day in the fields, a basket to show for it.&r"]
+	quest.430E4E88E9BD2C64.title: "A Full Basket"
+	quest.51CF6F13E709AF6D.quest_desc: ["&7&oEvery green thing that can be eaten, grown by your own hand.&r"]
+	quest.51CF6F13E709AF6D.title: "Crop Rotation"
+	quest.5228B58600DA7C43.quest_desc: [
+		"&7&oSome dishes are too big for one plate, and too good for one person.&r"
+		"&6Field note:&r Some meals can be placed down and shared."
+	]
+	quest.5228B58600DA7C43.title: "A Glorious Feast"
+	quest.52C6F953DD3A2AAC.quest_desc: ["&7&oNow we are getting somewhere.&r"]
+	quest.52C6F953DD3A2AAC.title: "Hearty Dishes"
+	quest.5BF21AB4DA53B8AC.quest_desc: ["&7&oA well-fed hero is a long-lived hero.&r"]
+	quest.5BF21AB4DA53B8AC.title: "Nourishing!"
+	quest.61C0E3D08C7FCD33.quest_desc: [
+		"&7&oGood food grows wild, if you know where to look.&r"
+		"&6Field note:&r Four new crops grow in the wild across many climates, or sit in chests."
+	]
+	quest.61C0E3D08C7FCD33.title: "Crops of the Wild"
+	quest.64662BFC3669BEE0.quest_desc: [
+		"&7&oA board, a blade, and a little patience.&r"
+		"&6Field note:&r Hold a tool and use the cutting board on an item."
+	]
+	quest.64662BFC3669BEE0.title: "Watch Your Fingers"
+	quest.65B67D9BF0E005AC.quest_desc: ["&7&oFire is the oldest recipe.&r"]
+	quest.65B67D9BF0E005AC.title: "Bonfire Lit"
+	quest.70579FA5622D01A7.quest_desc: ["&7&oEvery course. Every dish. Every kind of fed.&r"]
+	quest.70579FA5622D01A7.title: "Master Chef"
+	quest.74320A2D430FF576.quest_desc: [
+		"&7&oEvery kitchen starts with a sharp edge.&r"
+		"&6Field note:&r A knife scavenges extra goods from plants and animals."
+	]
+	quest.74320A2D430FF576.title: "Hunt and Gather"
+	quest.7FFDE734B9777187.quest_desc: [
+		"&7&oSomething that was waste is about to become wealth.&r"
+		"&6Field note:&r Compost breaks down faster with sun, water and mushrooms, and slowly becomes rich soil."
+	]
+	quest.7FFDE734B9777187.title: "Advanced Composting"
+	task.0103DE295C77EC28.title: "Cook with a skillet"
+	task.0352B51C531CFA87.title: "Cook a pot of vegetable soup"
+	task.06D799531BC26EF5.title: "Grow a tomato on a rope"
+	task.0739F4AB6260FA83.title: "Eat a balanced, diverse meal"
+	task.124420B83CBBA9C7.title: "Set a cooking pot down"
+	task.1A8A9AF7866A41E6.title: "Harvest a mushroom colony"
+	task.21594B20DD658CBB.title: "Roast a chicken"
+	task.22D5E24AF5FED7F5.title: "Cook a bowl of fried rice"
+	task.3165AFD8BB48F78A.title: "Cook steak and potatoes"
+	task.3A89AA69F196731C.title: "Grow every food plant you can find"
+	task.3D69BE2FE93255DC.title: "Let it become rich soil"
+	task.449872A2A02E212C.title: "Harvest grass, wheat or rice with a knife"
+	task.4599EFEDB7A7CA1C.title: "Craft a knife"
+	task.5B16C707FFF478CF.title: "Plant rice in a shallow puddle"
+	task.5B6AB86D1CE2F2A3.title: "Gather tomatoes"
+	task.6288F315D9A71BF3.title: "Upgrade your knife with netherite"
+	task.63F0459918036E29.title: "Find a seed that grows food"
+	task.6410E07AD9D8DA00.title: "Take ham from a pig or hoglin"
+	task.64B79926742EABDA.title: "Light a campfire to cook on"
+	task.68614714CCC6A2B5.title: "Cook bacon and eggs"
+	task.696ABA3F6D7B046A.title: "Break an item down on a cutting board"
+	task.6F64F8900A21E518.title: "Lay down organic compost"
+	task.6F682F91FF95B2B3.title: "Set a skillet down"
+	task.7157D0EF5BD350AA.title: "Gather cabbages"
+	task.740A69966E18AA52.title: "Gather rice"
+	task.75841CB01862F0BE.title: "Set a feast down for friends"
+	task.776F9255A0AF85DE.title: "Eat every meal there is"
+	task.77C37C4FE8171DA4.title: "Throw a rotten tomato at a raider"
+	task.7BB7C3CF130756CD.title: "Gather onions"
+	chapter.164AF94B54EF1366.title: "Homestead and Travel"
+	quest.0E1C30F879545209.quest_desc: ["&7&oSomething is off about this soup.&r"]
+	quest.0E1C30F879545209.title: "When the Stew Is Sus"
+	quest.1664160FE3D4C05D.quest_desc: ["&7&oA small stone with a very large idea.&r"]
+	quest.1664160FE3D4C05D.title: "A Stone for the Road"
+	quest.2230ED5EEBD042D4.quest_desc: ["&7&oThe most important piece of kit on any expedition.&r"]
+	quest.2230ED5EEBD042D4.title: "Packed Lunch"
+	quest.22BCD51822160A86.quest_desc: ["&7&oA rope is a promise: you can come back down.&r"]
+	quest.22BCD51822160A86.title: "Hanging by a Thread"
+	quest.23EE6FA88B3FC773.quest_desc: ["&7&oFireflies and fish and small things that glow.&r"]
+	quest.23EE6FA88B3FC773.title: "Small Prisons"
+	quest.2A541F2330E520A4.quest_desc: ["&7&oA promise, written down, that you will be elsewhere.&r"]
+	quest.2A541F2330E520A4.title: "Scrolls and Promises"
+	quest.2ACDE19717E4AD1A.quest_desc: [
+		"&7&oA turn here, a turn there. Nothing is permanent.&r"
+		"&6Field note:&r A wrench rotates blocks in place."
+	]
+	quest.2ACDE19717E4AD1A.title: "Engineer Gaming"
+	quest.2EC94C3C7C0F84F5.quest_desc: ["&7&oSoft things in a sack, and valuable things in a safe.&r"]
+	quest.2EC94C3C7C0F84F5.title: "Somewhere to Keep Things"
+	quest.3563D1F3A2612475.quest_desc: ["&7&oSome stones are meant to be shared.&r"]
+	quest.3563D1F3A2612475.title: "Shared Roads"
+	quest.35FD138096BD01BE.quest_desc: [
+		"&7&oWherever you fall asleep, it is a bed.&r"
+		"&6Field note:&r Sleeping bags let you rest almost anywhere."
+	]
+	quest.35FD138096BD01BE.title: "A Bag for the Road"
+	quest.3AB33F65AF187335.quest_desc: [
+		"&7&oA home starts with something to hang a rest on.&r"
+		"&6Field note:&r Rope and nails are the base for hammocks."
+	]
+	quest.3AB33F65AF187335.title: "Rope and Nail"
+	quest.3C06D309A3953372.quest_desc: ["&7&oStand on it, and you are somewhere else.&r"]
+	quest.3C06D309A3953372.title: "A Plate That Waits"
+	quest.46DFDD79BAFC01B2.quest_desc: ["&7&oSome things are not food.&r"]
+	quest.46DFDD79BAFC01B2.title: "Tide Pod Challenge"
+	quest.4CA2C66066B3A9BD.quest_desc: ["&7&oA door that does not need a frame.&r"]
+	quest.4CA2C66066B3A9BD.title: "A Door in a Stone"
+	quest.634E61CA6C9BB8FF.quest_desc: ["&7&oA cup of something in the dark place.&r"]
+	quest.634E61CA6C9BB8FF.title: "Consume the Concoction Chalice"
+	quest.65BA6946818B7659.quest_desc: ["&7&oA wreck with a flag still flying.&r"]
+	quest.65BA6946818B7659.title: "Ships Adrift"
+	quest.69F17123AF5925A9.quest_desc: [
+		"&7&oThere is no problem a hammock cannot postpone.&r"
+		"&6Field note:&r Hang it with rope and nail where there is room for the sling."
+	]
+	quest.69F17123AF5925A9.title: "Swing Low"
+	quest.6A219316C7D84A01.quest_desc: ["&7&oSometimes you are the thing that rotates.&r"]
+	quest.6A219316C7D84A01.title: "How the Turn Tables"
+	quest.6C8A357843B129C8.quest_desc: [
+		"&7&oStand beside one, and it learns your name.&r"
+		"&6Field note:&r Activate a waystone by right-clicking it, and it joins your network."
+	]
+	quest.6C8A357843B129C8.title: "A Stone That Remembers"
+	quest.6EF0C5CB241C85A4.quest_desc: ["&7&oSomeone left directions. They look reliable.&r"]
+	quest.6EF0C5CB241C85A4.title: "This Must Be a Sign!"
+	quest.742FE5CFF5BCF939.quest_desc: ["&7&oThe parrot does not consent.&r"]
+	quest.742FE5CFF5BCF939.title: "Angry Birds"
+	task.01D6BAD0150A7925.title: "Craft a red sharestone"
+	task.0A53242F3863BE9B.title: "Craft a waystone"
+	task.0D268684FDE78A26.title: "Make a lunch basket"
+	task.0E47A858065EDFB6.title: "Make a hammock"
+	task.0FC9FB1CA1B581CA.title: "Follow a signpost"
+	task.1903D7E87ED00C5F.title: "Make a jar"
+	task.1949F2D1EA6DD325.title: "Craft a warp stone"
+	task.2315BC7A1DD4C20F.title: "Drink a suspicious stew"
+	task.29DDD85FB3046344.title: "Make a safe"
+	task.2D8194D03071B8D7.title: "Drink from a goblet"
+	task.31EBAD3109C76A28.title: "Make a rope and nail"
+	task.341C2C7814B7544C.title: "Craft a red portstone"
+	task.3A8B124063E9E41F.title: "Make a sleeping bag"
+	task.3BDB464EDCBE8369.title: "Make a rope"
+	task.3D09CEA9E3C9246A.title: "Fling a parrot with a slingshot"
+	task.3F0A1D7766AB9CDB.title: "Make a cage"
+	task.4F0630AD1CAC4786.title: "Eat a bar of soap"
+	task.57AB7B623C8CA3F4.title: "Craft a warp plate"
+	task.5E65CD42A41805AB.title: "Find a galleon"
+	task.618A6365DEF203BB.title: "Rotate a block with a wrench"
+	task.7008400E4C01DA35.title: "Make a return scroll"
+	task.74B4629975580FC0.title: "Make a sack"
+	task.79EB72EB068DDD4E.title: "Rotate yourself on a turn table"
+	task.7DFB4BBE568A08ED.title: "Make a warp scroll"
+	chapter.0CC8C43CA9262C5E.title: "Lesser Dimensions"
+	quest.01D763B7E4CFC7FB.quest_desc: ["&7&oCold light on dark water, stacked toward a ceiling you cannot see.&r"]
+	quest.01D763B7E4CFC7FB.title: "Under the Prismarine"
+	quest.15FF48EB80FFC23A.quest_desc: ["&7&oThere are three more.&r"]
+	quest.15FF48EB80FFC23A.title: "Light, Dark, and the Gaps Between"
+	quest.1BF2DADA5BC6BF96.quest_desc: ["&7&oHeavy and light, side by side.&r"]
+	quest.1BF2DADA5BC6BF96.title: "Stone and Breath"
+	quest.27ABDE5791F19FD1.quest_desc: ["&7&oThere is a darker dark, and it is still here.&r"]
+	quest.27ABDE5791F19FD1.title: "The Deep Afterdark"
+	quest.2B61DB5DEFD4CD80.quest_desc: [
+		"&7&oThe magicians left their keys in strange places.&r"
+		"&6Field note:&r Catalysts turn up in chests: mineshafts, ancient cities, buried treasure, end cities, ruined portals and nether bridges."
+	]
+	quest.2B61DB5DEFD4CD80.title: "Something to Offer"
+	quest.2D58509DCA15C113.quest_desc: ["&7&oThe ground has opinions about being walked on.&r"]
+	quest.2D58509DCA15C113.title: "White Stone, Dripping Stone"
+	quest.2DC0C825F02AC0B5.quest_desc: [
+		"&7&oYou were told there was nothing below the deep dark. You were told wrong.&r"
+		"&6Field note:&r One catalyst charges the shrine for several trips, and the way back needs none."
+	]
+	quest.2DC0C825F02AC0B5.title: "Into the Afterdark"
+	quest.33FFB174A93E4409.quest_desc: ["&7&oSome worlds are not reached by walking.&r"]
+	quest.33FFB174A93E4409.title: "A World Made of Elements"
+	quest.344C1B2385391B6D.quest_desc: ["&7&oIt is folded, and you are on the inside.&r"]
+	quest.344C1B2385391B6D.title: "The World Behind the World"
+	quest.35CE8CB6AD81AE94.quest_desc: ["&7&oThe keeper of the mausoleum does not like visitors who stay.&r"]
+	quest.35CE8CB6AD81AE94.title: "A Crown of Bone"
+	quest.3E01435D8BBE7404.quest_desc: ["&7&oTwo ways to be forgotten.&r"]
+	quest.3E01435D8BBE7404.title: "Cold and Dry"
+	quest.54DC79943FEF7A67.quest_desc: ["&7&oThey are not hungry. They just do not stop.&r"]
+	quest.54DC79943FEF7A67.title: "The Restless Dead"
+	quest.5CABFF21AD353522.quest_desc: ["&7&oGreen things, glowing, in a place that has never known day.&r"]
+	quest.5CABFF21AD353522.title: "A Garden Where No Sun Reaches"
+	quest.6B22D9025AEF2CD8.quest_desc: [
+		"&7&oSome buildings are only for the dead. They remain quiet only if you are.&r"
+		"&6Field note:&r Graveyards and mausoleums appear in snowy lands and are guarded."
+	]
+	quest.6B22D9025AEF2CD8.title: "Where the Dead Sleep"
+	quest.708CF88EDA671658.quest_desc: ["&7&oOpposites, kept apart.&r"]
+	quest.708CF88EDA671658.title: "Fire and Tide"
+	quest.79DDACA7BB675749.quest_desc: ["&7&oMarble and silence, and something that does not stay buried.&r"]
+	quest.79DDACA7BB675749.title: "A House Among the Snow"
+	quest.7FEE09EF200986AB.quest_desc: [
+		"&7&oIn the deepest dark of the world, something waits for an offering.&r"
+		"&6Field note:&r Look in the deep dark. The shrine's block rejects you unless you hold a catalyst."
+	]
+	quest.7FEE09EF200986AB.title: "A Shrine That Turns Away Empty Hands"
+	task.0EDCB911A82E6CF3.title: "End the keeper of the dead"
+	task.1E54641FC9331AD5.title: "Climb the prismarine peaks"
+	task.20FE275FBE661B13.title: "Find a graveyard"
+	task.22AAD892D252DD25.title: "Put restless dead to rest"
+	task.2378A13519F64039.title: "Walk the land of earth"
+	task.287A45EAD719C040.title: "Walk the land of space"
+	task.2CFCAE3801561DB2.title: "Wade the prismarine ponds"
+	task.2E0F316EE8C8E6A6.title: "Walk the land of light"
+	task.315008CDBA63D745.title: "Obtain a teleport catalyst"
+	task.33D53D27507C0473.title: "Walk the creepy snowfields"
+	task.36FAB5AE6D618CFB.title: "Cross the calcite fields"
+	task.4403C72A083FD5B2.title: "Cross the dying drylands"
+	task.4516AC0E8D1BDAA9.title: "Walk the land of fire"
+	task.4738D34CDDBCF22A.title: "Enter the folded world"
+	task.5075B3F8D8594F5F.title: "Stand in a world of pure element"
+	task.5C14D89C2DF99C1D.title: "Reach the deep afterdark"
+	task.60A4C6589C6553FA.title: "Walk the land of wind"
+	task.67C9ABD7664CDC2A.title: "Walk the land of darkness"
+	task.6A1DF769E88C2C7D.title: "Stand in the folded world"
+	task.6CA1A2D3855D9E03.title: "Step into the afterdark"
+	task.7121A0205305121C.title: "Cross the dripstone deltas"
+	task.71B148D6212208A7.title: "Walk the lush gardens"
+	task.71EADB9616A29AC4.title: "Find the shrine in the deep dark"
+	task.72763FC92A410C52.title: "Walk the land of water"
+	task.7AB16EAC891EE769.title: "Find a mausoleum"
+	chapter_group.067D1EA3E221EC5E.title: "Homestead"
+	chapter_group.1F6D6583331909B9.title: "Boss Hunts"
+	chapter_group.3FB4C13A31874B92.title: "Paths"
+	chapter_group.5DDBE3D731CFC620.title: "Dimensions"
+	chapter.2568B3E983A6EB5A.title: "Field Guide"
+	quest.0061FC4FAC341B1B.quest_desc: [
+		"&7&oThe small things you will do a thousand times.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"key.backpacked.open_backpack\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens your backpack, \"},{\"keybind\":\"key.curios.open.desc\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" the accessory (Curios) inventory and \"},{\"keybind\":\"key.manas_cosmetics.open_wardrobe\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" the cosmetics wardrobe. \"},{\"keybind\":\"gui.xaero_open_map\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens the world map and \"},{\"keybind\":\"gui.xaero_new_waypoint\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" drops a waypoint. In a recipe viewer, hover an item and press \"},{\"keybind\":\"key.jei.showRecipe\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" for how to make it or \"},{\"keybind\":\"key.jei.showUses\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" for what it is used in.\"}]}"
+	]
+	quest.0061FC4FAC341B1B.title: "Everyday Keys"
+	quest.043CB502A26789AA.quest_desc: [
+		"&7&oNot every fight needs to be won where you are standing.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.dodge\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" dodges (marked experimental). While riding, the same key is how you climb down.\"}]}"
+	]
+	quest.043CB502A26789AA.title: "Step Aside"
+	quest.10C654DFD5E1BB92.quest_desc: [
+		"&7&oThere is something inside you that has opinions, and it is usually right.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"key.greatsage.menu\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens the Great Sage. \"},{\"keybind\":\"key.greatsage.assess\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" toggles Assess mode, \"},{\"keybind\":\"key.greatsage.scan\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" locks onto and scans a target, \"},{\"keybind\":\"key.greatsage.voice\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" speaks to it, and \"},{\"keybind\":\"key.greatsage.panic\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" stops it if it misbehaves. If two mods share a key, neither fires: rebind one in Controls.\"}]}"
+	]
+	quest.10C654DFD5E1BB92.title: "A Voice That Answers"
+	quest.1A8E2FF4C7EA54D9.quest_desc: [
+		"&7&oThe World speaks in short sentences. You are expected to listen.&r"
+		"&6Field note:&r The keys shown in yellow below are YOUR current bindings. Change any of them in Options > Controls (look for the Tensura:Reincarnated group) and this guide follows."
+	]
+	quest.1A8E2FF4C7EA54D9.title: "The World Speaks"
+	quest.1D7AE11A41D8336F.quest_desc: [
+		"&7&oThe same skill can be held in more than one way.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.next_mode\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" switches to the next ability mode. \\\"Previous Ability Mode\\\" (\"},{\"keybind\":\"tensura.keybinding.previous_mode\",\"color\":\"yellow\",\"bold\":true},{\"text\":\") is unbound by default, so set a key for it in Controls if you want it.\"}]}"
+	]
+	quest.1D7AE11A41D8336F.title: "Change Your Grip"
+	quest.1FE93AD4E338D145.quest_desc: [
+		"&7&oSome armour is not content to stand there.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" Cataclysm gear has its own keys: \"},{\"keybind\":\"key.cataclysm.ability\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" (weapon), \"},{\"keybind\":\"key.cataclysm.boots_ability\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" (boots), \"},{\"keybind\":\"key.cataclysm.helmet_ability\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" (helmet) and \"},{\"keybind\":\"key.cataclysm.chestplate_ability\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" (chestplate). Hold or wear the item first.\"}]}"
+	]
+	quest.1FE93AD4E338D145.title: "Gear That Answers"
+	quest.26A1ACBCD6FF112D.quest_desc: [
+		"&7&oA tool, a tree, and a very good idea.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" Hold \"},{\"keybind\":\"key.ftbultimine\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" and break a block to mine the whole vein. Hold Shift and scroll to change the shape. Your Miner's Path ranks raise how many blocks you can take at once.\"}]}"
+	]
+	quest.26A1ACBCD6FF112D.title: "Many Blocks, One Swing"
+	quest.272ADC6FA03E327D.quest_desc: [
+		"&7&oA name is a very large thing to give.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.name\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" is Naming. It costs magicules, so check your reserves in the Status Menu first.\"}]}"
+	]
+	quest.272ADC6FA03E327D.title: "Give It a Name"
+	quest.27D67684A56842C5.quest_desc: [
+		"&7&oOthers are watching. Some of them have names that mean something.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"manas_ascendance.keybinding.main_gui\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens the Manas:Ascendance menu: Demon Lords, Heroes, challenges, factions and reputation. \"},{\"keybind\":\"key.elitetensura.open_council\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens the Council screen (Elite Tensura).\"}]}"
+	]
+	quest.27D67684A56842C5.title: "The Council"
+	quest.58FC6FE93B250F71.quest_desc: [
+		"&7&oThis book can be read faster than it looks.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" Open it with \"},{\"keybind\":\"key.ftbquests.quests\",\"color\":\"yellow\",\"bold\":true},{\"text\":\". \"},{\"keybind\":\"key.ftbquests.gui.next_chapter\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" and \"},{\"keybind\":\"key.ftbquests.gui.prev_chapter\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" switch chapters, \"},{\"keybind\":\"key.ftbquests.gui.search\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" searches, \"},{\"keybind\":\"key.ftbquests.gui.recenter\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" recentres the page, \"},{\"keybind\":\"key.ftbquests.gui.zoom_in\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" and \"},{\"keybind\":\"key.ftbquests.gui.zoom_out\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" zoom, and \"},{\"keybind\":\"key.ftbquests.gui.extended_info\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" shows extra detail.\"}]}"
+	]
+	quest.58FC6FE93B250F71.title: "Reading the Book"
+	quest.590A2645FC47A8E3.quest_desc: [
+		"&7&oSome weapons have a second voice.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" Weapon Deep Slots F, G and H (Tensura Nightmares) are \"},{\"keybind\":\"nightmareutils.keybinding.ability.deep_slot_a\",\"color\":\"yellow\",\"bold\":true},{\"text\":\", \"},{\"keybind\":\"nightmareutils.keybinding.ability.deep_slot_b\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" and \"},{\"keybind\":\"nightmareutils.keybinding.ability.deep_slot_c\",\"color\":\"yellow\",\"bold\":true},{\"text\":\".\"}]}"
+	]
+	quest.590A2645FC47A8E3.title: "Deeper Slots"
+	quest.5F86A364666229AB.quest_desc: [
+		"&7&oSkills are only useful if you can reach them.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.ability.slot_1\",\"color\":\"yellow\",\"bold\":true},{\"text\":\", \"},{\"keybind\":\"tensura.keybinding.ability.slot_2\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" and \"},{\"keybind\":\"tensura.keybinding.ability.slot_3\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" fire the skills in ability slots 1, 2 and 3. Set which skill sits in which slot from the Status Menu.\"}]}"
+	]
+	quest.5F86A364666229AB.title: "Three Hands"
+	quest.695DB53BF65D640E.quest_desc: [
+		"&7&oEvery species carries one thing the others forgot.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.race_ability\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" uses your Race ability, the special power of your species. If you are riding something, the same key uses the mount's ability instead.\"}]}"
+	]
+	quest.695DB53BF65D640E.title: "What Your Blood Remembers"
+	quest.7D149BD83386632E.quest_desc: [
+		"&7&oBefore anything else, ask what you are.&r"
+		"{\"text\":\"\",\"extra\":[{\"text\":\"Field note:\",\"color\":\"gold\"},{\"text\":\" \"},{\"keybind\":\"tensura.keybinding.main_gui\",\"color\":\"yellow\",\"bold\":true},{\"text\":\" opens the Status Menu: your race, skills, stats and resistances.\"}]}"
+	]
+	quest.7D149BD83386632E.title: "Know Yourself"
+	task.0E79BA6584A32BE3.title: "Understood"
+	task.10F1F4CDA4063E1D.title: "Understood"
+	task.1EB03DCB373E75A7.title: "Understood"
+	task.261D3CE59750BA9B.title: "Understood"
+	task.27F856C2B8CD42C1.title: "Understood"
+	task.31D119204113CE76.title: "Understood"
+	task.3A5633C482024F34.title: "Understood"
+	task.467A98246DE30FC9.title: "Understood"
+	task.4D8890FA5F956D12.title: "Understood"
+	task.65057833541B8C8A.title: "Understood"
+	task.66627AD47630EA31.title: "Understood"
+	task.71887E24BF4652B6.title: "Understood"
+	task.7AF93EE165A65344.title: "Understood"
+	task.7C73EEB6068E5B9E.title: "Understood"
+	chapter.762061B95D980973.title: "Explorer's Path"
+	quest.152CDDD79B386829.quest_desc: [
+		"&7&oThe World notes that you have left the first door behind.&r"
+		"&6Field note:&r Perk: 600 claimable chunks, 30 force-loaded, /back cooldown 25 s."
+	]
+	quest.152CDDD79B386829.title: "Wayfarer"
+	quest.1BFEDD39F1856BD0.quest_desc: [
+		"&7&oThe World finds you in a place where time keeps its own counsel.&r"
+		"&6Field note:&r Perk: 1100 claimable chunks, 50 force-loaded, /back cooldown 10 s."
+	]
+	quest.1BFEDD39F1856BD0.title: "Wanderer of Ages"
+	quest.38C133B7697D224A.quest_desc: [
+		"&7&oThere is a deepest place in every world. The World has noted that you have gone there.&r"
+		"&6Field note:&r Perk: 1400 claimable chunks, 60 force-loaded, /back cooldown 5 s."
+	]
+	quest.38C133B7697D224A.title: "World Walker"
+	quest.4304753007281757.quest_desc: ["&7&oTravel the long way, the short way.&r"]
+	quest.4304753007281757.title: "Subspace Bubble"
+	quest.4848E611462C25F5.quest_desc: ["&7&oThere is a map in the sky, if you know how to throw.&r"]
+	quest.4848E611462C25F5.title: "Eye Spy"
+	quest.4B31678B901839B3.quest_desc: ["&7&oThe world is bigger than you think. Prove it.&r"]
+	quest.4B31678B901839B3.title: "Adventuring Time"
+	quest.65DF398FA298D531.quest_desc: [
+		"&7&oA forest between worlds has learned your name.&r"
+		"&6Field note:&r Perk: 750 claimable chunks, 35 force-loaded, /back cooldown 20 s."
+	]
+	quest.65DF398FA298D531.title: "Pathfinder"
+	quest.6FB1984671830986.quest_desc: ["&7&oSome ground is only ground if you step lightly.&r"]
+	quest.6FB1984671830986.title: "Light as a Rabbit"
+	quest.73DC79C10D4B4EB8.quest_desc: [
+		"&7&oThe sky overhead has changed to something you cannot yet name.&r"
+		"&6Field note:&r Perk: 900 claimable chunks, 40 force-loaded, /back cooldown 15 s."
+	]
+	quest.73DC79C10D4B4EB8.title: "Trailblazer"
+	quest.75CBE2ED91D89435.quest_desc: ["&7&oYou have seen every kind of hot there is.&r"]
+	quest.75CBE2ED91D89435.title: "Hot Tourist Destinations"
+	task.07BDFF55C58B04E9.title: "Walk beneath a different sky"
+	task.09C3AF0CF17F1808.title: "Follow an eye of ender"
+	task.1628FAC9BF030B4E.title: "Walk on powder snow in leather boots"
+	task.1B1CAA7338DB7B5F.title: "Travel far in the overworld by way of the nether"
+	task.3DA76C9AD9F4838B.title: "Step into the nether"
+	task.4A57D2AD2ACEB9AC.title: "Step into the twilight"
+	task.4CDB814593B1487F.title: "Reach the deepest water of the starlit world"
+	task.54E7B42EF7C9F734.title: "Cross into a world held still"
+	task.6CE4CCA84F8DB1A5.title: "Discover every biome"
+	task.71BCC70DB58DDACD.title: "Explore every biome of the nether"
+	chapter.1194D01643BF7B81.title: "Hunter's Path"
+	quest.0FB1ACADEF10902E.quest_desc: [
+		"&7&oA thing of iron and old grudges has fallen to you.&r"
+		"&6Field note:&r Perk: +10% maximum health (stacks to +20%)."
+	]
+	quest.0FB1ACADEF10902E.title: "Stalker"
+	quest.34D4605E99F65F5F.quest_desc: ["&7&oSomething grows when something dies here.&r"]
+	quest.34D4605E99F65F5F.title: "It Spreads"
+	quest.407186C76C70DEA0.quest_desc: [
+		"&7&oSomething from beneath the sea has left the sea.&r"
+		"&6Field note:&r Perk: +10% maximum health (stacks to +40%)."
+	]
+	quest.407186C76C70DEA0.title: "Dread Hunter"
+	quest.45050C32E0DEE300.quest_desc: [
+		"&7&oThe many-headed has stopped arguing with itself.&r"
+		"&6Field note:&r Perk: +10% maximum health (stacks to +30%)."
+	]
+	quest.45050C32E0DEE300.title: "Slayer"
+	quest.4A288F84E0AE9D62.quest_desc: [
+		"&7&oNothing in this world is left that was waiting for you.&r"
+		"&6Field note:&r Perk: +10% maximum health (stacks to +50%)."
+	]
+	quest.4A288F84E0AE9D62.title: "Apex Hunter"
+	quest.4AE888FC4E3F53B5.quest_desc: ["&7&oA very long way, and a very small target.&r"]
+	quest.4AE888FC4E3F53B5.title: "Sniper Duel"
+	quest.5F04E440540817F6.quest_desc: ["&7&oSome deaths have a flair for the dramatic.&r"]
+	quest.5F04E440540817F6.title: "Very Very Frightening"
+	quest.5FBDD8637790F14D.quest_desc: ["&7&oA small circle, from a long way off.&r"]
+	quest.5FBDD8637790F14D.title: "Bullseye"
+	quest.615444BE1D167286.quest_desc: ["&7&oEfficiency is its own reward.&r"]
+	quest.615444BE1D167286.title: "Two Birds, One Arrow"
+	quest.6D812CFB14E7328A.quest_desc: [
+		"&7&oThe World has watched you do your first killing. It does not judge.&r"
+		"&6Field note:&r Perk: +10% maximum health."
+	]
+	quest.6D812CFB14E7328A.title: "Initiate Hunter"
+	task.01AE8C879C2D9EC3.title: "Hit the centre of a target from a distance"
+	task.23C23B181E7338CD.title: "Strike a villager with lightning"
+	task.23C6A59588FC517A.title: "Call the leviathan and face it"
+	task.2F04D1D55F5E6B97.title: "Pierce two phantoms with one arrow"
+	task.3459A8D43D2399D8.title: "Reach the summit of ruin"
+	task.3E5A78485B4DF123.title: "Fell the iron guardian"
+	task.41883017500D9DF7.title: "Land a very long shot on a skeleton"
+	task.585DC25CE4338FB6.title: "Kill a mob near a sculk catalyst"
+	task.6E71A8DF632023F5.title: "Slay a hostile creature"
+	task.6F6970935B11145D.title: "End the many-headed thing"
+	chapter.2733028586FDD2F1.title: "Homesteader's Path"
+	quest.0060761A38C8D45D.quest_desc: [
+		"&7&oSomething green is growing in standing water.&r"
+		"&6Field note:&r Perk: 3 homes, /home cooldown 6 s."
+	]
+	quest.0060761A38C8D45D.title: "Hearthkeeper"
+	quest.0DD5EED250D4BF78.quest_desc: ["&7&oSome homes are better carried than built.&r"]
+	quest.0DD5EED250D4BF78.title: "Total Beelocation"
+	quest.167A402A23BB1156.quest_desc: [
+		"&7&oEvery green thing a household could want, grown by your own hand.&r"
+		"&6Field note:&r Perk: 6 homes, /home cooldown 2 s."
+	]
+	quest.167A402A23BB1156.title: "Provider"
+	quest.21C9265606D140BF.quest_desc: ["&7&oPatience, a line, and a good reason.&r"]
+	quest.21C9265606D140BF.title: "Fishy Business"
+	quest.30F145686C6A57D7.quest_desc: ["&7&oEverything edible, once, to be fair.&r"]
+	quest.30F145686C6A57D7.title: "A Balanced Diet"
+	quest.4B0377CF2675DAC1.quest_desc: ["&7&oEvery home is better with a heartbeat.&r"]
+	quest.4B0377CF2675DAC1.title: "Best Friends Forever"
+	quest.53B4159C2CC709AA.quest_desc: [
+		"&7&oThe World has eaten at your table and has nothing left to ask.&r"
+		"&6Field note:&r Perk: 8 homes, /home cooldown 1 s."
+	]
+	quest.53B4159C2CC709AA.title: "Master of the House"
+	quest.5434C0836376290D.quest_desc: ["&7&oA farm needs more than crops.&r"]
+	quest.5434C0836376290D.title: "The Parrots and the Bees"
+	quest.6E94D14A2F38539D.quest_desc: [
+		"&7&oThere is enough here for more than one mouth.&r"
+		"&6Field note:&r Perk: 4 homes, /home cooldown 4 s."
+	]
+	quest.6E94D14A2F38539D.title: "Steward"
+	quest.7DE5FE1012AE1F03.quest_desc: [
+		"&7&oThe World has noticed a pot on a fire, and a person who means to stay.&r"
+		"&6Field note:&r Perk: 2 homes, /home cooldown 8 s."
+	]
+	quest.7DE5FE1012AE1F03.title: "Settler"
+	task.006D65EE3D8F986C.title: "Tame an animal"
+	task.0BAAA655945EAF61.title: "Plant rice in shallow water"
+	task.3854FC5F38ED29F3.title: "Set a feast down for others"
+	task.3FDC60D350FFFCD3.title: "Breed two animals"
+	task.4148CE435CEC172C.title: "Eat every food item"
+	task.51F2C776E4C6F6D4.title: "Grow every food plant"
+	task.59FB6782CC7F1071.title: "Set down a cooking pot"
+	task.6582BF983D67212D.title: "Catch a fish"
+	task.7E2423865039F0D9.title: "Eat every course there is"
+	task.7F75522A1456C3E8.title: "Move a bee nest with silk touch"
+	reward.6A82A530A1234B1F.title: "8 Diamond"
+	reward.6CBACE1E8E8AB53B.title: "8 Diamond"
+	reward.1C85ECD2E8EE1E02.title: "8 Diamond"
+	reward.4AD73D63DA5B94C7.title: "4 Diamond"
+	reward.028A4B6FFBEBCA59.title: "8 Diamond"
+	reward.3A3E84A485824037.title: "8 Diamond"
+	reward.0EBE2E0E38D4E504.title: "Rank: Pathfinder"
+	reward.2009C334A43C15FF.title: "Rank: Wanderer of Ages"
+	reward.29412121CF91FD56.title: "Rank: Wayfarer"
+	reward.29C810B0A6CB050B.title: "Rank: World Walker"
+	reward.6CA858920695D244.title: "Rank: Trailblazer"
+	reward.169C93E02811746C.title: "Hunter's Vigour: +10% maximum health"
+	reward.2272F3EB3147F68D.title: "Rank: Stalker"
+	reward.39AE93AB3397D23B.title: "Hunter's Vigour: +10% maximum health"
+	reward.500094C83465DE15.title: "Hunter's Vigour: +10% maximum health"
+	reward.53141C5BF6814DD5.title: "Rank: Initiate Hunter"
+	reward.5669D369B27D959A.title: "Hunter's Vigour: +10% maximum health"
+	reward.5B25ED48E11AC1D3.title: "Rank: Apex Hunter"
+	reward.69C3D44A4B06314E.title: "Rank: Dread Hunter"
+	reward.6FF4870EE1F8A186.title: "Hunter's Vigour: +10% maximum health"
+	reward.7338A92FD5D1B735.title: "Rank: Slayer"
+	reward.25713F746DA39928.title: "Rank: Provider"
+	reward.267D80C9258776FE.title: "Rank: Master of the House"
+	reward.56A3C887BCF6AC19.title: "Rank: Steward"
+	reward.69927B2B31D2BA01.title: "Rank: Settler"
+	reward.7CA4A73848255000.title: "Rank: Hearthkeeper"
+	reward.3AA2854FE6B1EEB2.title: "4 Golden Apple"
+	reward.4DC15AA4A3852D90.title: "4 Diamond"
+	reward.1F84E2FD99659236.title: "Rank: Journeyman Miner"
+	reward.35675959DBB83625.title: "Rank: Apprentice Miner"
+	reward.356D476B7EA43C35.title: "Rank: Expert Miner"
+	reward.3C2D8BFD1B284FAB.title: "Rank: Adept Miner"
+	reward.71C17CB21F13A236.title: "Rank: Master Miner"
+	chapter_group.0F30C975BF218986.title: "Tensura Addons"
+	chapter.6370658D2DADB7B5.title: "Ascension"
+	quest.02334510CD2BF427.quest_desc: [
+		"&7&oThe eye that sees what the others cannot.&r"
+		"&6Field note:&r Toggle: 10x learning/mastery rate. Modes: Analytical Appraisal (read the battlefield), Analysis (steal a skill from an enemy), Detrimental Gaze (inflict crippling status), Ray of Death (black beam draining a fraction of target..."
+	]
+	quest.02334510CD2BF427.title: "Eye of Mind"
+	quest.03D8BEA3C559791D.quest_desc: [
+		"&7&oSome knowledge is not read. It is chanted into being.&r"
+		"&6Field note:&r Toggle: +19% learning/mastery rate for all skills, plus Chant Annulment for mastered magic. Modes: Magic Chant (learn new magic for XP), Study (steal a skill from a target's mind), Create Tome (turn a learned magic into a tome..."
+	]
+	quest.03D8BEA3C559791D.title: "The Great Mage"
+	quest.0B3FCD34458A10BA.quest_desc: [
+		"&7&oAn echo that answers back.&r"
+		"&6Field note:&r Toggle: +25% magicule regen (+50% mastered). Auto-learned once Magicule Resonance is mastered."
+	]
+	quest.0B3FCD34458A10BA.title: "Magicule Dominion"
+	quest.1A16855E62D4E015.quest_desc: ["&7&oThe World has weighed you and found a sovereign of the dark.&r"]
+	quest.1A16855E62D4E015.title: "A True Demon Lord"
+	quest.2CBF3024ADCEC8B9.quest_desc: ["&7&oThe World has weighed you and found a hero.&r"]
+	quest.2CBF3024ADCEC8B9.title: "A True Hero"
+	quest.2F622ABE5F20A036.quest_desc: ["&7&oSome rooms are only reached by being sent.&r"]
+	quest.2F622ABE5F20A036.title: "The Hyperbolic Chamber"
+	quest.34CAD9AB0EBEB36D.quest_desc: [
+		"&7&oThings fall toward you. This is not luck.&r"
+		"&6Field note:&r Active: pull nearby items and XP orbs to you within 8 blocks for 5s (12 blocks / 10s mastered). Costs 2000 magicule (1000 mastered). 20s cooldown (10s mastered). Obtained by using a plunderer skill on an Iron Golem."
+	]
+	quest.34CAD9AB0EBEB36D.title: "Magnetized Vacuum"
+	quest.37C0EB83DE240AA3.quest_desc: [
+		"&7&oThree marks, each louder than the last.&r"
+		"&6Field note:&r The runes boost magicule by 50%, 100% and 200% (1.5x, 2x, 3x in total)."
+	]
+	quest.37C0EB83DE240AA3.title: "Runes of Efficiency"
+	quest.3853A27318EA783B.quest_desc: [
+		"&7&oA meal with no table.&r"
+		"&6Field note:&r Press: refill hunger and grant saturation for 15% of max magicule (7.5% mastered). 10s cooldown (5s mastered)."
+	]
+	quest.3853A27318EA783B.title: "Magicule Nourishment"
+	quest.3CE9E15935B78C31.quest_desc: [
+		"&7&oFifty sweetnesses, and what they cost.&r"
+		"&6Field note:&r Ultimate awakening of Bubble Majin. Toggle: full HP heal every 10s, cleanse all negative effects every 5s, reflect basic projectiles. Modes: Storage, Candy for me! (12-block AOE — turns every entity you're 2x stronger than (5x..."
+	]
+	quest.3CE9E15935B78C31.title: "The Evil Majin"
+	quest.3D3B60D5A13FD40C.quest_desc: [
+		"&7&oListening, repeated, becomes an echo.&r"
+		"&6Field note:&r Toggle: +10% magicule regen (+20% mastered). Auto-learned once Magicule Attunement is mastered."
+	]
+	quest.3D3B60D5A13FD40C.title: "Magicule Resonance"
+	quest.4663CB56DFAD1486.quest_desc: [
+		"&7&oA spell you cannot write down is a spell you will lose.&r"
+		"&6Field note:&r Press: inscribe a random spell scroll. Level 1 on a 5min cooldown (random level / 2min mastered)."
+	]
+	quest.4663CB56DFAD1486.title: "Magic Scribe"
+	quest.4943F1CC92D0943A.quest_desc: [
+		"&7&oPillars of crystal-veined stone, and a space in the middle.&r"
+		"&6Field note:&r Only a True Demon Lord or True Hero with 5,000,000 maximum EP can awaken an Ultimate."
+	]
+	quest.4943F1CC92D0943A.title: "An Altar That Waits"
+	quest.4F0BD898FA962B46.quest_desc: [
+		"&7&oThirty offerings, one very large silence.&r"
+		"&6Field note:&r Ultimate awakening of Dragon Slayer. Toggle on for: peace with all dragons; ice/fire/thunder breath bypass resistances; +30 Max HP per dragon essence or Ice&Fire flesh eaten (no cap, removed on death); each dragon kill..."
+	]
+	quest.4F0BD898FA962B46.title: "The Slayer of Dragons"
+	quest.4FA50DC4290EC853.quest_desc: [
+		"&7&oThe very strong leave echoes. Gather one.&r"
+		"&6Field note:&r A soul echo drops from slain bosses or named creatures with at least 200,000 maximum EP."
+	]
+	quest.4FA50DC4290EC853.title: "What Remains of Giants"
+	quest.502CEAA8DFCC80EB.quest_desc: [
+		"&7&oPower that waits is still power.&r"
+		"&6Field note:&r Hold: regen 5% max magicule/s (7% mastered) at the cost of 1% max aura/s. Auto-learned at 25,000 EP."
+	]
+	quest.502CEAA8DFCC80EB.title: "Energy Charge"
+	quest.563786E0E1767197.quest_desc: [
+		"&7&oEchoes, gathered, wish to become a single thing.&r"
+		"&6Field note:&r Throw it onto an Awakening Altar and right-click. Which Ultimate you get depends on the Unique you have mastered."
+	]
+	quest.563786E0E1767197.title: "The Ultimate Catalyst"
+	quest.60543548BEB03AB5.quest_desc: ["&7&oNot every mark is about strength. Some are about where it falls.&r"]
+	quest.60543548BEB03AB5.title: "Runes of Reach"
+	quest.612AF6443730BF4C.quest_desc: [
+		"&7&oNot every flight needs a sky.&r"
+		"&6Field note:&r Toggle: glide through the air like an elytra without wings equipped."
+	]
+	quest.612AF6443730BF4C.title: "Angel Wings"
+	quest.6FEA7EC441CDB3A1.quest_desc: [
+		"&7&oThe Great Mage, finished.&r"
+		"&6Field note:&r Ultimate awakening of Great Mage. Auto-learns and masters every aspectual and spirit magic; passive chant annulment. Toggle: +29 mastery gain, perfect Analytical Appraisal, magic bypasses resistances, and grants creative..."
+	]
+	quest.6FEA7EC441CDB3A1.title: "Timeless Mage"
+	quest.7131ED4787B854CA.quest_desc: [
+		"&7&oThe air here will run thicker, if you give it somewhere to gather.&r"
+		"&6Field note:&r It boosts the magicule pool and regeneration across a 3x3 chunk area, and burns magic crystals as fuel."
+	]
+	quest.7131ED4787B854CA.title: "A Hearth for Magicules"
+	quest.74898F75C8F8C0CA.quest_desc: [
+		"&7&oThe first step is only to listen.&r"
+		"&6Field note:&r Toggle: +5% magicule regen (+10% mastered). Masters slowly while toggled on. Auto-learned once Energy Charge is mastered and Haki is acquired."
+	]
+	quest.74898F75C8F8C0CA.title: "Magicule Attunement"
+	quest.751EA452C578CC27.quest_desc: ["&7&oA thing can be kept, if the stone is willing.&r"]
+	quest.751EA452C578CC27.title: "Stones That Hold"
+	quest.792FA05F6151117B.quest_desc: [
+		"&7&oA joke too large to tell, and a chain that finally breaks.&r"
+		"&6Field note:&r Ultimate awakening of Imprisoned Jester. In-slot: +50%% physical/magic damage, +30%% crit chance for +100%% crit. Toggle: 25%% reflect on all incoming damage; The Bit Goes On — fatal hits become 5s of invulnerable invisibility..."
+	]
+	quest.792FA05F6151117B.title: "The Unbound Jester"
+	quest.7C3E93891147F6E1.quest_desc: [
+		"&7&oThe end of waiting.&r"
+		"&6Field note:&r Hold: regen 10% max magicule/s (15% mastered) at the cost of 2% max aura/s. Auto-learned at 100,000 EP once Energy Charge is mastered."
+	]
+	quest.7C3E93891147F6E1.title: "Maximum Charge"
+	quest.7D2CA5E1EBBFEC76.quest_desc: [
+		"&7&oWhat was kept in stones now keeps you.&r"
+		"&6Field note:&r Ultimate awakening of Sealer. Passive: every kill grants +0.5 Max Spiritual HP, capped at +20,000. Modes: Seal (capture mob into stone if 1.5x stronger), Suppress (seal 20% of self or sneak-target's Max EP into a stone),..."
+	]
+	quest.7D2CA5E1EBBFEC76.title: "The One Who Seals"
+	task.012CC6F80092240B.title: "Be recognised as a True Demon Lord"
+	task.02E368C032FC29E9.title: "Awaken as an evil majin"
+	task.09D9EE4E80EB8B76.title: "Learn to feed on magicule"
+	task.11E0CC0638794F0D.title: "Learn to tune yourself"
+	task.146C44E5F8867E87.title: "Make an ultimate catalyst"
+	task.179FE117D5FDD8BA.title: "Obtain a sealing stone"
+	task.194E89C80AD9A457.title: "Gather deepslate magic blocks"
+	task.1EB6E42108AFAB07.title: "Learn to fly on holy wings"
+	task.1F577A44BD894F15.title: "Awaken as a timeless mage"
+	task.2379FF1D26513D3A.title: "Learn to draw things in"
+	task.24553662D8702ED1.title: "Learn to command what you carry"
+	task.251E03C3562CC132.title: "Make an aura rune"
+	task.2BB8F64EFBFA591A.title: "Learn to charge"
+	task.2F357BDE35C1E97B.title: "Craft a magicule enhancer"
+	task.31ADCBD18F1D4D8C.title: "Obtain a suppression stone"
+	task.3E32651B87D06788.title: "Learn to resonate"
+	task.43B46ADD0FC7F2CB.title: "Awaken as a dragon slayer"
+	task.4418B1D0443F2626.title: "Awaken as an unbound jester"
+	task.47DF457DC8F1EA79.title: "Be recognised as a True Hero"
+	task.4877A672D7BCD571.title: "Obtain a skill stone"
+	task.4A53642C47EAA014.title: "Make an adept efficiency rune"
+	task.5470E88DC09A09F1.title: "Take up a soul echo"
+	task.57A8145C15BFAD25.title: "Learn to charge fully"
+	task.58BA8E86E2546592.title: "Make an area rune"
+	task.5A878B578EBE439F.title: "Make an enhanced efficiency rune"
+	task.5D8FB5C201C3AA99.title: "Open the eye of mind"
+	task.5E178547F9316816.title: "Become a great mage"
+	task.61AB1E46B5BA0B7F.title: "Awaken as the one who seals"
+	task.65597C8FA9D2CB91.title: "Stand in the hyperbolic chamber"
+	task.6E7F66CE5B4654C2.title: "Learn to scribe magic"
+	task.76CAA5ACA04E81F5.title: "Make a basic efficiency rune"
+	task.788AFADFD9117023.title: "Build the awakening altar"
+	chapter.5C7AF98491C81F15.title: "Lineages of Ascension"
+	quest.00EC3794D0408330.quest_desc: [
+		"&7&oThe old ones remember being warm.&r"
+		"&6Field note:&r A bloodfiend who has come into their kin and their craft."
+	]
+	quest.00EC3794D0408330.title: "Kindred Bloodfiend"
+	quest.0109E5C96A626095.quest_desc: [
+		"&7&oEach eye has its own opinion.&r"
+		"&6Field note:&r A lesser beholder of armored body and unraveling eyestalks."
+	]
+	quest.0109E5C96A626095.title: "Gauth"
+	quest.012CBEC4F4F3CB06.quest_desc: [
+		"&7&oA soul given to the sea, and the sea accepted.&r"
+		"&6Field note:&r A Wight who gave their soul to the cursed sea. Deathless and waterborne."
+	]
+	quest.012CBEC4F4F3CB06.title: "Cursed Mariner"
+	quest.01E8CB809C1F84BC.quest_desc: [
+		"&7&oWar and study both keep you here.&r"
+		"&6Field note:&r Bones bound by death. Faster, immune to pain/poison/pierce/paralysis. No need for food. Still burns in sunlight; splits next into Warrior or Mage."
+	]
+	quest.01E8CB809C1F84BC.title: "Skeleton"
+	quest.0200EEC2D4CBA5F7.quest_desc: [
+		"&7&oPoison is a kind of patience.&r"
+		"&6Field note:&r Ruler of the wetlands, master of water and miasma."
+	]
+	quest.0200EEC2D4CBA5F7.title: "Swamp Sovereign"
+	quest.0482B7407CA9BFA0.quest_desc: [
+		"&7&oSmall, bright, and very good at being overlooked.&r"
+		"&6Field note:&r A newborn djinn of small stature and great magical potential."
+	]
+	quest.0482B7407CA9BFA0.title: "Whisper Djinn"
+	quest.055A8FFCE26B8561.quest_desc: [
+		"&7&oA throne without a kingdom, or a library without a visitor. Either way, the end.&r"
+		"&6Field note:&r Apex of the mage path. Spatial Domination, All-Seeing Eye, Mortal Fear and Majesty."
+	]
+	quest.055A8FFCE26B8561.title: "Lich King"
+	quest.0742979BDC621095.quest_desc: [
+		"&7&oBone remembers. Muscle does not.&r"
+		"&6Field note:&r A skeleton tempered for war. Strengthen Body, Corrosion, Self Regen. No longer burns in sunlight."
+	]
+	quest.0742979BDC621095.title: "Skeleton Warrior"
+	quest.0B5F316D9FC356D5.quest_desc: [
+		"&7&oBone remembers. Muscle does not.&r"
+		"&6Field note:&r A skeleton schooled in arcane sciences. Magic Resistance, Thought Acceleration, Magic Sense, all four elemental Manipulations."
+	]
+	quest.0B5F316D9FC356D5.title: "Mage Skeleton"
+	quest.0BE373EE882203E5.quest_desc: [
+		"&7&oCorruption grows into the shape it was always going to have.&r"
+		"&6Field note:&r A Named Corrupted Dragon — its breath is black flame that scorches flesh and soul."
+	]
+	quest.0BE373EE882203E5.title: "Cursed Dragon"
+	quest.0CB39D92574C9DDF.quest_desc: [
+		"&7&oA first feather, and a heavy question.&r"
+		"&6Field note:&r A winged being of holy light. The first step on the angelic path."
+	]
+	quest.0CB39D92574C9DDF.title: "Angel"
+	quest.0F88E55503E8C001.quest_desc: [
+		"&7&oTails are counted, until they are not.&r"
+		"&6Field note:&r A Kitsune whose power has bloomed into three tails."
+	]
+	quest.0F88E55503E8C001.title: "3 Tailed Fox"
+	quest.0FBF45898D761615.quest_desc: [
+		"&7&oEvery marsh has a monarch. The marsh has yet to learn it.&r"
+		"&6Field note:&r A Named Swamp Sovereign of immense age, in tune with the earth itself."
+	]
+	quest.0FBF45898D761615.title: "Bog Ancient"
+	quest.172D13B69AA9AF13.quest_desc: [
+		"&7&oThere is a kind of power that stops being measured and starts being weather.&r"
+		"&6Field note:&r The pinnacle of djinn existence — authority that permeates every layer of reality."
+	]
+	quest.172D13B69AA9AF13.title: "Omniversal Djinn"
+	quest.1908754AE23EFF06.quest_desc: [
+		"&7&oThe first of them, and the last that anyone wants to meet.&r"
+		"&6Field note:&r The first and most terrible of all bloodfiends — its will rewrites the laws of death."
+	]
+	quest.1908754AE23EFF06.title: "Progenitor Bloodfiend"
+	quest.196826719E603718.quest_desc: [
+		"&7&oA wish is a debt with better manners.&r"
+		"&6Field note:&r A djinn crossed into divinity, commanding the laws of the world."
+	]
+	quest.196826719E603718.title: "Ascended Djinn"
+	quest.1A684353790E121A.quest_desc: [
+		"&7&oBone remembers. Muscle does not.&r"
+		"&6Field note:&r The headless rider. Physical Attack Nullification and a spectral Skeleton Horse."
+	]
+	quest.1A684353790E121A.title: "Dullahan"
+	quest.1CC8B9ED697C40E6.quest_desc: [
+		"&7&oThe pond is larger than it looks.&r"
+		"&6Field note:&r A toad whose body secretes lethal venom."
+	]
+	quest.1CC8B9ED697C40E6.title: "Poison Toad"
+	quest.1F0A4526833CD7B1.quest_desc: [
+		"&7&oA god of shadow, which is a kind of apology.&r"
+		"&6Field note:&r Apex of draconic corruption — a god of shadow and flame."
+	]
+	quest.1F0A4526833CD7B1.title: "Demon Dragon God"
+	quest.1FC7175F4678D53A.quest_desc: [
+		"&7&oThe dark has etiquette.&r"
+		"&6Field note:&r An aristocrat of blood and shadow — charming, near-impervious, master of the night."
+	]
+	quest.1FC7175F4678D53A.title: "Blood Noble"
+	quest.210B0D85C1332563.quest_desc: [
+		"&7&oEvery marsh has a monarch. The marsh has yet to learn it.&r"
+		"&6Field note:&r A Swamp Sovereign awakened as a True Demon Lord — corruption made flesh."
+	]
+	quest.210B0D85C1332563.title: "Venom Lord"
+	quest.215EE5F38F772251.quest_desc: [
+		"&7&oPast divinity, or past mercy. Either way, past you.&r"
+		"&6Field note:&r A Fallen Angel ascended into a force of primordial chaos."
+	]
+	quest.215EE5F38F772251.title: "Chaotic Deity"
+	quest.23CAE247E8490C20.quest_desc: [
+		"&7&oA throne without a kingdom, or a library without a visitor. Either way, the end.&r"
+		"&6Field note:&r Apex of the warrior path. Mortal Fear, Majesty, and a Multilayer Barrier wreathe the throneless king."
+	]
+	quest.23CAE247E8490C20.title: "Dark Lord Dullahan"
+	quest.24C6E1482C2DCCE5.quest_desc: [
+		"&7&oA body can be a tool, if you practise.&r"
+		"&6Field note:&r A master of unarmed combat, body forged into a weapon."
+	]
+	quest.24C6E1482C2DCCE5.title: "Monkey Martial Artist"
+	quest.27A660F24595C2B3.quest_desc: [
+		"&7&oBlack flame has its own weight.&r"
+		"&6Field note:&r A Cursed Dragon awakened as a True Demon Lord. Wields darkness absolutely."
+	]
+	quest.27A660F24595C2B3.title: "Demonic Dragon"
+	quest.2AF59864964C31A7.quest_desc: [
+		"&7&oA wish is a debt with better manners.&r"
+		"&6Field note:&r A djinn fused with element, daemon, and dragon essences. Power without ceiling."
+	]
+	quest.2AF59864964C31A7.title: "Infinite Djinn"
+	quest.30A132487EC0944D.quest_desc: [
+		"&7&oSome of them stopped counting the ages.&r"
+		"&6Field note:&r A djinn who has mastered misdirection and trickery."
+	]
+	quest.30A132487EC0944D.title: "Trickster Djinn"
+	quest.31CE7F801B4ADB34.quest_desc: [
+		"&7&oSomething small, in water, with opinions.&r"
+		"&6Field note:&r A small amphibian with a knack for water and poison. The first step."
+	]
+	quest.31CE7F801B4ADB34.title: "Frog"
+	quest.35B80917B0686856.quest_desc: [
+		"&7&oEach eye has its own opinion.&r"
+		"&6Field note:&r A Gazer with sharper sight — pierces all falsehood."
+	]
+	quest.35B80917B0686856.title: "Spectator"
+	quest.36F6120EFBFC7283.quest_desc: [
+		"&7&oAt the end of seeing, something that looks back.&r"
+		"&6Field note:&r A Spectator that fuses perception with domination."
+	]
+	quest.36F6120EFBFC7283.title: "Mindwitness"
+	quest.37DD417DE62F7139.quest_desc: [
+		"&7&oThere is a name that heaven could not hold.&r"
+		"&6Field note:&r The Great Sage Equal to Heaven. Reshapes the laws of the world."
+	]
+	quest.37DD417DE62F7139.title: "Sun Wukong"
+	quest.38AAD724AE4BAFAD.quest_desc: [
+		"&7&oSalt does not rust what is already dead.&r"
+		"&6Field note:&r A Cursed Mariner hardened by battle. Commands the storm and fractures into shadow."
+	]
+	quest.38AAD724AE4BAFAD.title: "Cursed Dreadnaught"
+	quest.3C21631B0A7A22E8.quest_desc: [
+		"&7&oAt the end of seeing, something that looks back.&r"
+		"&6Field note:&r A Beholder who transcended death itself — sovereign of life and void."
+	]
+	quest.3C21631B0A7A22E8.title: "Death Tyrant"
+	quest.3D04D3583550D8E2.quest_desc: [
+		"&7&oA throne is a kind of trick.&r"
+		"&6Field note:&r A monkey hardened through battle into raw physical strength."
+	]
+	quest.3D04D3583550D8E2.title: "Monkey Warrior"
+	quest.3D5393D0A53996A4.quest_desc: [
+		"&7&oWar and study both keep you here.&r"
+		"&6Field note:&r A skeletal sage of long centuries. Sage skill at Lich-tier mastery."
+	]
+	quest.3D5393D0A53996A4.title: "Elder Lich"
+	quest.3DA5A1053B4F47D8.quest_desc: [
+		"&7&oSome of them stopped counting the ages.&r"
+		"&6Field note:&r Sovereign of all djinnkind, wreathed in dread majesty."
+	]
+	quest.3DA5A1053B4F47D8.title: "Sovereign Djinn"
+	quest.3EBDFD83FACC79AB.quest_desc: [
+		"&7&oWar and study both keep you here.&r"
+		"&6Field note:&r Armored death given purpose. Magic Resistance and command of Lesser Undead."
+	]
+	quest.3EBDFD83FACC79AB.title: "Death Knight"
+	quest.41470656C4792B24.quest_desc: [
+		"&7&oSpace is just another thing you can fold.&r"
+		"&6Field note:&r Half dragon, half dimensional horror. Their colossal frame tears space."
+	]
+	quest.41470656C4792B24.title: "Abyssal Dragonewt"
+	quest.420523D9C47B11FD.quest_desc: [
+		"&7&oTails are counted, until they are not.&r"
+		"&6Field note:&r The legendary nine-tailed fox — a true hero of fox-kind."
+	]
+	quest.420523D9C47B11FD.title: "9 Tailed Fox"
+	quest.423244A75A861487.quest_desc: [
+		"&7&oA body can be a tool, if you practise.&r"
+		"&6Field note:&r A Monkey King who crossed into divinity."
+	]
+	quest.423244A75A861487.title: "Divine King"
+	quest.44F6B5D35B3C49E8.quest_desc: [
+		"&7&oThe first whisper of something that wants more.&r"
+		"&6Field note:&r A Dragonewt touched by the first whisper of demonic corruption."
+	]
+	quest.44F6B5D35B3C49E8.title: "Corrupted Dragonkin"
+	quest.454ECC621F07BB1F.quest_desc: [
+		"&7&oEvery marsh has a monarch. The marsh has yet to learn it.&r"
+		"&6Field note:&r The pinnacle of frogkind. Combines the wisdom of the bog with the corruption of venom."
+	]
+	quest.454ECC621F07BB1F.title: "Frog Monarch"
+	quest.495D98A7CADE4F66.quest_desc: [
+		"&7&oBone remembers. Muscle does not.&r"
+		"&6Field note:&r A true necromancer. Spatial Manipulation and Magic Darkness Transform unlock."
+	]
+	quest.495D98A7CADE4F66.title: "Lich"
+	quest.4C397734D4F15848.quest_desc: [
+		"&7&oBeyond the count of tails, only the name remains.&r"
+		"&6Field note:&r An Inari-tier celestial fox transcending the count of tails. Gains Mana Manipulation."
+	]
+	quest.4C397734D4F15848.title: "Divine Kitsune"
+	quest.51EAB8BB07624BF2.quest_desc: [
+		"&7&oThe deep keeps a throne. It has been empty a long time.&r"
+		"&6Field note:&r Lord of the deep. A True Demon Lord whose will reshapes the ocean."
+	]
+	quest.51EAB8BB07624BF2.title: "Davy Jones"
+	quest.536C2D3342B7FB3E.quest_desc: [
+		"&7&oStorms answer to the right captain.&r"
+		"&6Field note:&r A dread pirate dissolved into spectral darkness — slips through walls and commands the deep."
+	]
+	quest.536C2D3342B7FB3E.title: "Phantom Corsair"
+	quest.55AFE0EF76826BE4.quest_desc: [
+		"&7&oWhat stood up should have stayed down.&r"
+		"&6Field note:&r A risen corpse — entry to the Undead chain, branching off the Wight race. Pain Resistance and Majin alignment, but burns and weakens in sunlight."
+	]
+	quest.55AFE0EF76826BE4.title: "Zombie"
+	quest.5A72B294F4EA97D1.quest_desc: [
+		"&7&oEvery step up is a step away from something.&r"
+		"&6Field note:&r A Seraphim who walked the hero's path and ascended to true divinity."
+	]
+	quest.5A72B294F4EA97D1.title: "Divine Angel"
+	quest.5A7E95C2BDD198BD.quest_desc: [
+		"&7&oA wish is a debt with better manners.&r"
+		"&6Field note:&r A djinn whose power rivals myth, bound only by the wishes they grant."
+	]
+	quest.5A7E95C2BDD198BD.title: "Wishbound Djinn"
+	quest.5DAFD8BA5978290E.quest_desc: [
+		"&7&oPoison is a kind of patience.&r"
+		"&6Field note:&r A frog grown massive — pure physical force."
+	]
+	quest.5DAFD8BA5978290E.title: "Giant Frog"
+	quest.5F19FE806781DEB4.quest_desc: [
+		"&7&oSovereign of the void, with nothing left to rule.&r"
+		"&6Field note:&r Sovereign of the void. Reality bends around their presence."
+	]
+	quest.5F19FE806781DEB4.title: "Chaos Dragon"
+	quest.5F77B2EC580043E6.quest_desc: [
+		"&7&oSome of them stopped counting the ages.&r"
+		"&6Field note:&r A noble djinn blessed with divine ki."
+	]
+	quest.5F77B2EC580043E6.title: "Royal Djinn"
+	quest.64B2BD9CF8FE4837.quest_desc: [
+		"&7&oA wish is a debt with better manners.&r"
+		"&6Field note:&r A djinn shed of corporeal limits — a phantom of flickering presence."
+	]
+	quest.64B2BD9CF8FE4837.title: "Phantom Djinn"
+	quest.6539C4536725B1F3.quest_desc: [
+		"&7&oThe old ones remember being warm.&r"
+		"&6Field note:&r An ancient predator who moves between shadows like a wraith."
+	]
+	quest.6539C4536725B1F3.title: "Elder Bloodfiend"
+	quest.6799DD4D27D3005F.quest_desc: [
+		"&7&oPast divinity, or past mercy. Either way, past you.&r"
+		"&6Field note:&r A Divine Angel ascended past divinity itself, governing the fabric of the cosmos."
+	]
+	quest.6799DD4D27D3005F.title: "Cosmic Deity"
+	quest.68274D0DEF60787E.quest_desc: [
+		"&7&oThe End leaves its mark on whatever stays long enough.&r"
+		"&6Field note:&r A Dragonewt forever altered by the End — scales drink darkness, eyes burn ender flame."
+	]
+	quest.68274D0DEF60787E.title: "Ender Dragonewt"
+	quest.6CDAB482930EDE33.quest_desc: [
+		"&7&oA frame too large for a single place.&r"
+		"&6Field note:&r A dragonewt flickering between presence and void. Bends space and gravity."
+	]
+	quest.6CDAB482930EDE33.title: "Void Dragonewt"
+	quest.6CED21E75E319E18.quest_desc: [
+		"&7&oSome of them stopped counting the ages.&r"
+		"&6Field note:&r An original djinn from before civilization. Their presence alone breaks lesser wills."
+	]
+	quest.6CED21E75E319E18.title: "Primordial Djinn"
+	quest.703F552DC3CA265A.quest_desc: [
+		"&7&oLight has a weight.&r"
+		"&6Field note:&r A Seraphim who consumed daemonic remains and fell into corruption. Alignment shifts to Majin."
+	]
+	quest.703F552DC3CA265A.title: "Fallen Angel"
+	quest.7197EF4803AFEA3E.quest_desc: [
+		"&7&oA throne is a kind of trick.&r"
+		"&6Field note:&r A sovereign of beasts, claimed via Royal Blood."
+	]
+	quest.7197EF4803AFEA3E.title: "Monkey King"
+	quest.71980EDC7C51361B.quest_desc: [
+		"&7&oNewly turned, and already hungry.&r"
+		"&6Field note:&r A newly turned bloodfiend, still raw and hungry."
+	]
+	quest.71980EDC7C51361B.title: "Fledgling Bloodfiend"
+	quest.728E93FD83341E90.quest_desc: [
+		"&7&oSight is a weapon with a long reach.&r"
+		"&6Field note:&r Apex of the aberrant lineage. Central eye negates magic; stalks rain devastation."
+	]
+	quest.728E93FD83341E90.title: "Beholder"
+	quest.7480E9D6F5DE0657.quest_desc: [
+		"&7&oEach tail is a promise kept.&r"
+		"&6Field note:&r A fox spirit of six tails, brimming with spiritual force."
+	]
+	quest.7480E9D6F5DE0657.title: "6 Tailed Fox"
+	quest.7A432357D4871A5C.quest_desc: [
+		"&7&oBlack flame has its own weight.&r"
+		"&6Field note:&r Corruption blossomed into full draconic form. Shadow magic flows in its veins."
+	]
+	quest.7A432357D4871A5C.title: "Corrupted Dragon"
+	quest.7BC978FD9DD26FA4.quest_desc: [
+		"&7&oIt floats, and it watches, and it has already noticed you.&r"
+		"&6Field note:&r A floating majin of countless eyes, born from the void."
+	]
+	quest.7BC978FD9DD26FA4.title: "Gazer"
+	quest.7D251A09378B3B3E.quest_desc: [
+		"&7&oQuick, clever, and always one step ahead of a lesson.&r"
+		"&6Field note:&r A clever, nimble beast brimming with potential."
+	]
+	quest.7D251A09378B3B3E.title: "Monkey"
+	quest.7F82CF82C2FAF2EC.quest_desc: [
+		"&7&oA spirit, named, and curious.&r"
+		"&6Field note:&r A Named beastfolk fox spirit awakened to mystical potential."
+	]
+	quest.7F82CF82C2FAF2EC.title: "Kitsune"
+	quest.7F9428C5A9574035.quest_desc: [
+		"&7&oLight has a weight.&r"
+		"&6Field note:&r The peak of angelic existence. Branches into Divine Angel (true hero) or Fallen Angel (consume 10 daemon essences)."
+	]
+	quest.7F9428C5A9574035.title: "Seraphim"
+	quest.7FDFC8356BCFF2F2.quest_desc: [
+		"&7&oEvery step up is a step away from something.&r"
+		"&6Field note:&r A higher angel commanding sacred aura and divine ki."
+	]
+	quest.7FDFC8356BCFF2F2.title: "Archangel"
+	task.003D9D46A9209613.title: "Become a Death Knight"
+	task.00F56B8E3F3713A6.title: "Become a 3 Tailed Fox"
+	task.02803FB11B0D6362.title: "Become a Fledgling Bloodfiend"
+	task.0495D34D131D47F9.title: "Become a 6 Tailed Fox"
+	task.04B638CAF0E32707.title: "Become a Whisper Djinn"
+	task.05655193C76918CC.title: "Become a Wishbound Djinn"
+	task.05EE0BDD544F72B9.title: "Become a Royal Djinn"
+	task.07CF5D93AAE72A1D.title: "Become a Omniversal Djinn"
+	task.08197880DAD15EBB.title: "Become a Demonic Dragon"
+	task.0B6597E9F959952A.title: "Become a Spectator"
+	task.0D2B3A64EBEAC92B.title: "Become a Swamp Sovereign"
+	task.0DF619DB52473D80.title: "Become a Frog"
+	task.0FC4329C9F0DDE02.title: "Become a Progenitor Bloodfiend"
+	task.10BFCF58B2BB6D32.title: "Become a Infinite Djinn"
+	task.14783377E8736CBD.title: "Become a Divine King"
+	task.19658920C14BBF1D.title: "Become a Davy Jones"
+	task.19BBB13A2D8FFFA3.title: "Become a Sovereign Djinn"
+	task.1AD9A1F597C00F6D.title: "Become a Mage Skeleton"
+	task.1BD07E77DE7B1566.title: "Become a Archangel"
+	task.1E4CE3A753994526.title: "Become a Cursed Mariner"
+	task.2936B1E42A581C2A.title: "Become a Dullahan"
+	task.296C609967A64DB5.title: "Become a Poison Toad"
+	task.2E0FF70BA0143864.title: "Become a Abyssal Dragonewt"
+	task.321C0BACD34FF1EC.title: "Become a Cursed Dreadnaught"
+	task.364A84B6DAD5690F.title: "Become a Giant Frog"
+	task.37BC7BF05F3D1347.title: "Become a Corrupted Dragonkin"
+	task.38C6EBF2DAC6C3AE.title: "Become a Venom Lord"
+	task.390580638828001B.title: "Become a Angel"
+	task.3B571EE826831BB8.title: "Become a Void Dragonewt"
+	task.3E15EB1948F466B5.title: "Become a Bog Ancient"
+	task.3E408687A14BB4EC.title: "Become a Primordial Djinn"
+	task.3E50A50A9D3501A5.title: "Become a Frog Monarch"
+	task.3EA3EC1891FFAACD.title: "Become a Monkey King"
+	task.3F8A69DCA51FCF1B.title: "Become a Dark Lord Dullahan"
+	task.45FCC14DE3CE1D9D.title: "Become a Gazer"
+	task.47AF538503406E7D.title: "Become a Cosmic Deity"
+	task.4881F05B5C0362C7.title: "Become a Ascended Djinn"
+	task.49218A71032AE539.title: "Become a Phantom Corsair"
+	task.49E2A5C2832FA8CB.title: "Become a Kindred Bloodfiend"
+	task.4C3E435C59D0A8AF.title: "Become a Divine Kitsune"
+	task.4D38B0D9F46EA0EC.title: "Become a Demon Dragon God"
+	task.4EB3C26DC25FA191.title: "Become a Gauth"
+	task.4EB5754CA395F553.title: "Become a Zombie"
+	task.4ECFDA6A84EF81A8.title: "Become a Kitsune"
+	task.4EF58945E6CBB82D.title: "Become a Cursed Dragon"
+	task.59698A027163CEA0.title: "Become a 9 Tailed Fox"
+	task.5A840EB965EF4F5D.title: "Become a Skeleton Warrior"
+	task.5B21A2C87C4F9FAB.title: "Become a Monkey"
+	task.5BC365AB064C25CD.title: "Become a Seraphim"
+	task.5BED9CF3EB1F9DB1.title: "Become a Elder Bloodfiend"
+	task.5C5B0905FA18E416.title: "Become a Monkey Warrior"
+	task.5C62AFDE838CC3B0.title: "Become a Ender Dragonewt"
+	task.5DAC9BB043C39958.title: "Become a Divine Angel"
+	task.5EAD857730AAEF35.title: "Become a Blood Noble"
+	task.609035993871EB5A.title: "Become a Chaos Dragon"
+	task.62CB28203F8EEBF7.title: "Become a Phantom Djinn"
+	task.64DCFD144271FF92.title: "Become a Fallen Angel"
+	task.64F84CF6D7EC190B.title: "Become a Skeleton"
+	task.65A128B3FA514E65.title: "Become a Monkey Martial Artist"
+	task.6A1D014B5EDC9959.title: "Become a Mindwitness"
+	task.6AD21B49D4179ADF.title: "Become a Beholder"
+	task.6AE8170EF5FEF9EE.title: "Become a Trickster Djinn"
+	task.6B393F40EA0A71C8.title: "Become a Lich King"
+	task.6B6D583BDF81BDA7.title: "Become a Chaotic Deity"
+	task.6DBEE5DC1F43E1CB.title: "Become a Corrupted Dragon"
+	task.7474A11ED45DBB8B.title: "Become a Lich"
+	task.78FA4C6964589446.title: "Become a Sun Wukong"
+	task.7BDE4CEBBF0CAB1C.title: "Become a Elder Lich"
+	task.7D73404827F466A8.title: "Become a Death Tyrant"
+	chapter.2D6E64988EA0E00B.title: "Origins"
+	quest.0378D519C27FCB5E.quest_desc: [
+		"&7&oWings, then a name, then a place at the table.&r"
+		"&6Field note:&r One of the progenitor of the angel race."
+	]
+	quest.0378D519C27FCB5E.title: "Origin Arch Angel"
+	quest.07F9E6A0C51D7EE9.quest_desc: ["&7&oSome things can only be made by following instructions someone else wrote.&r"]
+	quest.07F9E6A0C51D7EE9.title: "Plans for the Impossible"
+	quest.12C47866A200EF18.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A dragon adjacent being reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.12C47866A200EF18.title: "Pure Dragon"
+	quest.13B139FAF76C4A25.quest_desc: [
+		"&7&oOne element, held as a birthright.&r"
+		"&6Field note:&r Your powerful authority over the element of Earth as the True Earth Dragon."
+	]
+	quest.13B139FAF76C4A25.title: "Dragon Factor: Earth"
+	quest.154EAB159190D4E2.quest_desc: [
+		"&7&oOne element, held as a birthright.&r"
+		"&6Field note:&r Your powerful authority over the elements of Flame and Light as the True Scorch Dragon."
+	]
+	quest.154EAB159190D4E2.title: "Dragon Factor: Scorch"
+	quest.16A8C0AB22F8CC17.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An elemental spirit reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.16A8C0AB22F8CC17.title: "Elemental Dragon"
+	quest.17D0A82F071F9F61.quest_desc: ["&7&oIt is warmer than it should be.&r"]
+	quest.17D0A82F071F9F61.title: "An Ingot of Dragotite"
+	quest.19B610EDC4BCDC53.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by the magicules of the World Destroying Dragon."
+	]
+	quest.19B610EDC4BCDC53.title: "Mystic Angel of Origin"
+	quest.1EF5C19C70FE4CFF.quest_desc: ["&7&oThe only armour that has opinions about the one wearing it.&r"]
+	quest.1EF5C19C70FE4CFF.title: "Scales, Worn"
+	quest.1FB7473AB07B7D7D.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A slime reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.1FB7473AB07B7D7D.title: "Ultimate Slime"
+	quest.299C0B7662B32102.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules, and lost their Holy attribute."
+	]
+	quest.299C0B7662B32102.title: "Fallen Lord of Origin"
+	quest.2A57EA3C486B9AB4.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules, and lost their Holy attribute."
+	]
+	quest.2A57EA3C486B9AB4.title: "Arch Fallen of Origin"
+	quest.334BD3241E6CAEF3.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A member of the human species reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.334BD3241E6CAEF3.title: "Dragonoid"
+	quest.33F71C75C8BF1FA1.quest_desc: ["&7&oWork, done with something that remembers flying.&r"]
+	quest.33F71C75C8BF1FA1.title: "Hands for a Dragon"
+	quest.364D473A66230B7A.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A daemon reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.364D473A66230B7A.title: "Daemon Dragon"
+	quest.369D06724E6968A9.quest_desc: [
+		"&7&oA body, a name, and a very long list of grievances.&r"
+		"&6Field note:&r One of the progenitor of the daemon race, having now acquired a material body and a name."
+	]
+	quest.369D06724E6968A9.title: "Primordial Daemon Lord"
+	quest.395E6BA86481E948.quest_desc: ["&7&oEach is a different argument, made the same way.&r"]
+	quest.395E6BA86481E948.title: "Blades of a Dragon"
+	quest.3A3A44A5D24C73B3.quest_desc: [
+		"&7&oOne element, held as a birthright.&r"
+		"&6Field note:&r Your powerful authority over the elements of Darkness and Space as the True Abyss Dragon."
+	]
+	quest.3A3A44A5D24C73B3.title: "Dragon Factor: Abyss"
+	quest.3EB4793FF853A54D.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A beastfolk reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.3EB4793FF853A54D.title: "Dragon Beast"
+	quest.42DA7BBF36640626.quest_desc: [
+		"&7&oOne element, held as a birthright.&r"
+		"&6Field note:&r Your powerful authority over the element of Water as the True Frost Dragon."
+	]
+	quest.42DA7BBF36640626.title: "Dragon Factor: Frost"
+	quest.43D35AEBE27CE0B0.quest_desc: [
+		"&7&oThe Creator left one door unlocked, for one kind of being.&r"
+		"&6Field note:&r The intrinsic power given by the Creator God to manipulate the laws of the world as you see fit."
+	]
+	quest.43D35AEBE27CE0B0.title: "The Authority to Rewrite"
+	quest.4647BFCCD6DE9E25.quest_desc: [
+		"&7&oThe first to be called holy.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having now acquired a material body, a name, and having achieved Divinity."
+	]
+	quest.4647BFCCD6DE9E25.title: "Seraph of Origin"
+	quest.4C1181A886B10F14.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A phantom reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.4C1181A886B10F14.title: "Mystic Dragon"
+	quest.4F324BADAAEAD376.quest_desc: [
+		"&7&oDivinity, claimed by someone who did not ask first.&r"
+		"&6Field note:&r One of the progenitor of the daemon race, having now acquired a material body, a name, and having achieved Divinity."
+	]
+	quest.4F324BADAAEAD376.title: "Primordial Devil Lord"
+	quest.4FD5B19D502D1829.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An ogre reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.4FD5B19D502D1829.title: "Dragon Oni"
+	quest.52170581B741DCF9.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An undead reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.52170581B741DCF9.title: "Death Dragon"
+	quest.53086D6069FB09BA.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An orc reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.53086D6069FB09BA.title: "Dragon Boar"
+	quest.53285F5E3D95D19B.quest_desc: [
+		"&7&oThe same metal, shaped by six different moods.&r"
+		"&6Field note:&r Each element is a different kind of True Dragon's authority: abyss, earth, frost, scorch, star and storm."
+	]
+	quest.53285F5E3D95D19B.title: "Six Temperaments"
+	quest.538428BFBF78F500.quest_desc: [
+		"&7&oA pressure that is not a threat, only a fact.&r"
+		"&6Field note:&r Your Draconic Haki allowing you to exert an immense spiritual pressure on your enemies and to shred physical matter."
+	]
+	quest.538428BFBF78F500.title: "The Weight of a Dragon"
+	quest.53A3926933F0BE31.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An harpy reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.53A3926933F0BE31.title: "Dragon Bird"
+	quest.59B783526E3C730D.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An angel reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.59B783526E3C730D.title: "Angel Dragon"
+	quest.59DA37925E8F9D03.quest_desc: ["&7&oSomething that was a dragon, once, and is now a very good idea for a sword.&r"]
+	quest.59DA37925E8F9D03.title: "A Metal With a Pulse"
+	quest.5BB21069D65CC2DC.quest_desc: [
+		"&7&oBefore daemons had faces, they had colours.&r"
+		"&6Field note:&r One of the progenitor of the daemon race."
+	]
+	quest.5BB21069D65CC2DC.title: "Primordial Arch Daemon"
+	quest.5CE77A1E53338647.quest_desc: [
+		"&7&oOne element, held as a birthright.&r"
+		"&6Field note:&r Your powerful authority over the elements of Wind, Water and Space as the True Storm Dragon."
+	]
+	quest.5CE77A1E53338647.title: "Dragon Factor: Storm"
+	quest.5FC9572F362BBAD0.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r An insectar reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.5FC9572F362BBAD0.title: "Insect Dragon"
+	quest.5FE4D9C71EEE1896.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A direwolf reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.5FE4D9C71EEE1896.title: "Dragon Wolf"
+	quest.6129582B29811F28.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A vampire reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.6129582B29811F28.title: "Blood Dragon"
+	quest.666EC753EC16CF01.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A merfolk reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.666EC753EC16CF01.title: "Dragon Fish"
+	quest.667C41AF930DBB3E.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules."
+	]
+	quest.667C41AF930DBB3E.title: "Fallen Arch Angel of Origin"
+	quest.6A33F6C658080D94.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A giant reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.6A33F6C658080D94.title: "Dragon Giant"
+	quest.6D7E84DA8C57192D.quest_desc: [
+		"&7&oYour own kind, with a dragon folded into it.&r"
+		"&6Field note:&r A fallen reborn has a sub-True Dragon after analyzing and integrating into themselves the essence of a True Dragon."
+	]
+	quest.6D7E84DA8C57192D.title: "Fallen Dragon"
+	quest.73E269CAFF82BB2C.quest_desc: [
+		"&7&oThe first of them to look down, and keep looking.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules, and lost their Holy attribute."
+	]
+	quest.73E269CAFF82BB2C.title: "Fallen of Origin"
+	quest.741A13AFD9F2CA05.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules."
+	]
+	quest.741A13AFD9F2CA05.title: "Fallen Cherub of Origin"
+	quest.7788D3A2EFD6ECC4.quest_desc: [
+		"&7&oBefore there were angels, there were the ones who taught them.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having now acquired a material body and a name."
+	]
+	quest.7788D3A2EFD6ECC4.title: "Cherub of Origin"
+	quest.77CD178FB8BDFD0B.quest_desc: [
+		"&7&oBefore the first law, there were a few things that did not need one.&r"
+		"&6Field note:&r The greatest creation of the Creator God, and the Pillar of Creation."
+	]
+	quest.77CD178FB8BDFD0B.title: "The Pillar of Creation"
+	quest.7C5C633E1153834B.quest_desc: [
+		"&7&oCorruption is only a direction, held for long enough.&r"
+		"&6Field note:&r One of the progenitor of the angel race, having been corrupted by magicules."
+	]
+	quest.7C5C633E1153834B.title: "Fallen Seraph of Origin"
+	task.00D089CBD04DDCB8.title: "Become a Insect Dragon"
+	task.01F87045D392C236.title: "Become a Origin Arch Angel"
+	task.030E7A7D2D0255E8.title: "Forge a abyss dragotite ingot"
+	task.03152F388CA17BF5.title: "Become a Angel Dragon"
+	task.039BBC0B7AA2DA65.title: "Hold the storm dragon factor"
+	task.0A9382717AF8E5D0.title: "Become a Dragon Fish"
+	task.0BE631AA2B8B6A52.title: "Hold the authority to rewrite the world"
+	task.0F30CF794E4A64F7.title: "Make a dragotite great sword"
+	task.0F56C20A889EA80D.title: "Become a Seraph of Origin"
+	task.11A502923D296B53.title: "Become a Fallen Lord of Origin"
+	task.11B3DB83BC25E0CC.title: "Forge a star dragotite ingot"
+	task.15B37CBF19FB0792.title: "Become a Primordial Devil Lord"
+	task.15D0E3835F41AC38.title: "Make dragotite leggings"
+	task.162C08F8DE93883D.title: "Become a Blood Dragon"
+	task.16329271139C4EC2.title: "Become a Dragonoid"
+	task.1763D80F797A628E.title: "Forge a frost dragotite ingot"
+	task.19F93F3155AF4C6E.title: "Hold the earth dragon factor"
+	task.1A463C29735DADF8.title: "Make a dragotite pickaxe"
+	task.1C05CEC65392FEDD.title: "Become a Arch Fallen of Origin"
+	task.1D4F0CD113F14BF0.title: "Forge a storm dragotite ingot"
+	task.1F4DED545957FE13.title: "Become a Mystic Angel of Origin"
+	task.2091A3B0AEAC0CE9.title: "Forge a earth dragotite ingot"
+	task.21169EB7745C89EA.title: "Become a Dragon Bird"
+	task.2148A0D1C21C3D35.title: "Become a Dragon Oni"
+	task.269D10BEA9529629.title: "Hold the frost dragon factor"
+	task.27953C0FF3FF6D70.title: "Make dragotite boots"
+	task.2D9C046B7B5E2A97.title: "Become a Dragon Beast"
+	task.3686B8B8FDFEA2DD.title: "Make a dragotite sword"
+	task.372BFBC1DA8BAAE7.title: "Become a Pure Dragon"
+	task.379F7BE043DEDF41.title: "Become a Mystic Dragon"
+	task.3A82610BF4A1EF64.title: "Become a Death Dragon"
+	task.3B4C3C5D79E6B1D6.title: "Become a Cherub of Origin"
+	task.3DE2D0B5671198AF.title: "Hold a dragon's spirit haki"
+	task.3FEF7383F59E0EA2.title: "Become a Primordial Daemon Lord"
+	task.40F17D5DB0A65C7D.title: "Obtain the dragotite gear schematic"
+	task.41426F1C00552CF9.title: "Hold the abyss dragon factor"
+	task.46FD5C0B775A0284.title: "Become a Fallen of Origin"
+	task.476CC1B3A108A2A7.title: "Become a Primordial Arch Daemon"
+	task.48246CDDF3B7A8E0.title: "Become a Dragon Giant"
+	task.4BE57D17B61F51D6.title: "Make a dragotite axe"
+	task.4D1CCD1675ED933B.title: "Make a dragotite hoe"
+	task.4F7874D77E82C689.title: "Make a dragotite helmet"
+	task.52161419F25F1B9C.title: "Become a Fallen Cherub of Origin"
+	task.53EEC12B4B70FB6E.title: "Become a Fallen Dragon"
+	task.547271824EAC9D1D.title: "Become a Fallen Seraph of Origin"
+	task.548813A8F60DB9F0.title: "Obtain dragotite"
+	task.5B28CBB7FFD2C9B8.title: "Become a Fallen Arch Angel of Origin"
+	task.5C563469D4BEB038.title: "Forge a scorch dragotite ingot"
+	task.642C11A6C5C5C755.title: "Make a dragotite katana"
+	task.64CA0C5DFC041E7F.title: "Make a dragotite chestplate"
+	task.6579E2B162C9BEED.title: "Hold the scorch dragon factor"
+	task.6CC070DFC24A157B.title: "Become a True Dragon"
+	task.72F2A8826E31B977.title: "Become a Ultimate Slime"
+	task.76DF590E7CD06191.title: "Become a Dragon Wolf"
+	task.78DF895BD7B11E17.title: "Forge a dragotite ingot"
+	task.792BE1DCF6813257.title: "Become a Elemental Dragon"
+	task.79D14E6BE88954F3.title: "Make a dragotite shovel"
+	task.7C5D688A979E4DC9.title: "Become a Daemon Dragon"
+	task.7E6CAE39A9683815.title: "Become a Dragon Boar"
+	chapter.4A77ECD140B0DA92.title: "Blood and Avalon"
+	quest.00D4845D7D822431.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A heart once claimed cannot escape desire. The true king hoards his own fate, and greed denies even death its payment."
+	]
+	quest.00D4845D7D822431.title: "True Authority of Greed"
+	quest.0638C24919B46782.quest_desc: [
+		"&7&oWhen the line is one, the line speaks as one.&r"
+		"&6Field note:&r A forbidden final Bloodfiend intrinsic reserved for the Crimson Progenitor."
+	]
+	quest.0638C24919B46782.title: "Black Communion"
+	quest.08169DB60A320D1C.quest_desc: ["&7&oSome rites need a surface.&r"]
+	quest.08169DB60A320D1C.title: "An Altar for Offerings"
+	quest.08D87EF521352064.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Builds Calculation Stacks in combat to optimize damage and cooldown cycles."
+	]
+	quest.08D87EF521352064.title: "Schwi, Lord of True Computation"
+	quest.0B7993D882FFD782.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Life abides no reason— For none are born by their own consent."
+	]
+	quest.0B7993D882FFD782.title: "Naberius"
+	quest.0C228534BD0DAD58.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Copies genes into syringes, stores extracted skills and stats, and injects mobs with artificial combat data."
+	]
+	quest.0C228534BD0DAD58.title: "Gene Editor"
+	quest.0F199245DBD8836A.quest_desc: ["&7&oThe legend, finished.&r"]
+	quest.0F199245DBD8836A.title: "True Excalibur"
+	quest.0F42A7F12B24983A.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A unique skill that evolves through punishment."
+	]
+	quest.0F42A7F12B24983A.title: "Adaptability"
+	quest.1378014194B9A8BC.quest_desc: [
+		"&7&oSome lineages are inherited. Others are chosen, and then inherited anyway.&r"
+		"&6Field note:&r This chapter follows the Bloodfiend line and the relics of Avalon. Entries that appear only after you find them are unexplained gifts from the World."
+	]
+	quest.1378014194B9A8BC.title: "Blood and Avalon"
+	quest.16DE10A7421CB39F.quest_desc: ["&7&oThe legend, made to order.&r"]
+	quest.16DE10A7421CB39F.title: "Excalibur"
+	quest.175B20AA3EACA2B4.quest_desc: ["&7&oA key, remembered into being something else.&r"]
+	quest.175B20AA3EACA2B4.title: "The Awakened Key"
+	quest.1A769614B20A1FD2.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r The god of conquest, guilt and ruin. Wields an ashen halberd and twists the world into a blood-red realm."
+	]
+	quest.1A769614B20A1FD2.title: "Caedros, God of Conquest"
+	quest.1BEF7C0A4DF9D679.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r The origin of kingship. All treasures bow, all weapons remember. Before gods ruled, the First King reigned."
+	]
+	quest.1BEF7C0A4DF9D679.title: "First King of History"
+	quest.21878F6E5F81BA29.quest_desc: ["&7&oThere is a version no one has been allowed to see.&r"]
+	quest.21878F6E5F81BA29.title: "Divine Excalibur"
+	quest.2A4320CF94ABCE30.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r An ultimate angelic key that devours prisons and suppressors, crowning space itself with divine locks."
+	]
+	quest.2A4320CF94ABCE30.title: "Michael, Angel of Locks"
+	quest.2EEC6ED892A57763.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Re: Taekwondo perfected. Fight unarmed to inflict brain damage, recoilless knockback, projectile denial, and heaven-rending shockwaves."
+	]
+	quest.2EEC6ED892A57763.title: "Mori, Equal to the Heavens"
+	quest.2F249B1B9A851CFA.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Earn Greed Chips on kills and gamble them for forbidden loot, power, and an extremely tiny chance at a new Ultimate Skill."
+	]
+	quest.2F249B1B9A851CFA.title: "Mammon: Sovereign Casino"
+	quest.3910A0408ED3274D.quest_desc: [
+		"&7&oTaste is a kind of rank.&r"
+		"&6Field note:&r A highborn Bloodfiend capable of ruling lesser kindred. Blood Nobles possess a larger blood reserve, stronger regeneration, sharper Blood Arts, and a greater talent for binding weakened mobs into blood thralls."
+	]
+	quest.3910A0408ED3274D.title: "Blood Noble"
+	quest.39D087B3C6BED920.quest_desc: ["&7&oRoads that go somewhere other than where they say.&r"]
+	quest.39D087B3C6BED920.title: "The Paths"
+	quest.3C0FF0226145C283.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r The pinnacle of sorcery and control over the undead. With this god class ultimate you shall dominate the souls"
+	]
+	quest.3C0FF0226145C283.title: "Sovereign of the Great Tomb"
+	quest.3C4EFD65F1264241.quest_desc: [
+		"&7&oA thirst with a bloodline attached.&r"
+		"&6Field note:&r A cursed bloodline race that survives by stealing blood from living prey. Bloodfiends store Blood as a special resource, using it to regenerate, empower attacks, guard their body, brand victims, and create lesser kindred. Rain..."
+	]
+	quest.3C4EFD65F1264241.title: "Bloodfiend"
+	quest.426237BB0C977B69.quest_desc: [
+		"&7&oA throne made of everything it has drained.&r"
+		"&6Field note:&r A sovereign monster of cursed blood. Blood Monarchs bend stolen Blood into overwhelming power, turning blood reserves into brutal damage amplification, durable crimson guards, and superior recovery."
+	]
+	quest.426237BB0C977B69.title: "Blood Monarch"
+	quest.441048ADC49647A5.quest_desc: [
+		"&7&oAge stabilises what hunger began.&r"
+		"&6Field note:&r A matured Bloodfiend whose cursed blood has stabilized into a stronger spiritual body. Elder Bloodfiends hold more Blood, suffer less from water, and wield refined Blood Arts with greater control."
+	]
+	quest.441048ADC49647A5.title: "Elder Bloodfiend"
+	quest.4515EE99DE316235.quest_desc: [
+		"&7&oWhere the line began, and where it ends.&r"
+		"&6Field note:&r The origin point of a Bloodfiend lineage. A Crimson Progenitor carries the purest cursed blood, commanding immense blood capacity, terrifying Blood Arts, and the least vulnerability to water among its bloodline."
+	]
+	quest.4515EE99DE316235.title: "Crimson Progenitor"
+	quest.48F53A167ECCB93D.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A King-Class Ultimate that adapts to everything it survives."
+	]
+	quest.48F53A167ECCB93D.title: "Divine General Mahoraga"
+	quest.4D51B3BD8C8AC920.quest_desc: ["&7&oIt is a very honest blade.&r"]
+	quest.4D51B3BD8C8AC920.title: "A Blade for Extermination"
+	quest.523C4CD791EA1928.quest_desc: ["&7&oWhatever was shut can, in principle, be shut again.&r"]
+	quest.523C4CD791EA1928.title: "A Key for Sealing"
+	quest.525045A4048F8286.quest_desc: ["&7&oSome voices come with a halo.&r"]
+	quest.525045A4048F8286.title: "A Call Answered"
+	quest.5718AC35A9785348.quest_desc: ["&7&oA kingdom held in reserve.&r"]
+	quest.5718AC35A9785348.title: "The Kingdom of Avalon"
+	quest.593D69AF4D0AE4F1.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Space abides no reason— For the ████ disregards all boundaries. And yields to no law but its own."
+	]
+	quest.593D69AF4D0AE4F1.title: "Asmoday"
+	quest.5A0D3DC9723CB32D.quest_desc: ["&7&oBiology, convinced it can do better.&r"]
+	quest.5A0D3DC9723CB32D.title: "A Needle with Ideas"
+	quest.5A9CEAD384B4A494.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Opens the Gate and births a living infection. Place the Heart once, spread Sculk across the world, empower it by feeding ores, and appoint controllers to expand the Netherveil."
+	]
+	quest.5A9CEAD384B4A494.title: "Netherveil Overmind"
+	quest.5C72A5D779F5D164.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A negation sphere that seals hostile abilities."
+	]
+	quest.5C72A5D779F5D164.title: "Domain of Negation"
+	quest.606A430048DADA8D.quest_desc: [
+		"&7&oA craft learned the way it is taught: by doing it to someone.&r"
+		"&6Field note:&r An intrinsic Bloodfiend art that manipulates stolen Blood. Drain blood from enemies, awaken Blood Surge to amplify damage, guard yourself with Crimson Guard, brand prey, or perform the Kindred Rite on weakened mobs."
+	]
+	quest.606A430048DADA8D.title: "The Arts of Blood"
+	quest.606ACCAA6F80FA38.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Records slain beings into your shadows. Browse the catalog, summon a parade, fuse curses into a single apex, or unleash a domain that floods the area with shadow clones."
+	]
+	quest.606ACCAA6F80FA38.title: "Cursed Menagerie"
+	quest.60F465B2E031A59E.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r The perfected evolution of Reflector."
+	]
+	quest.60F465B2E031A59E.title: "Axiom, Lord of Reflected Judgment"
+	quest.657B9F5942437048.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Death abides no reason— For it cannot be defied. Even by those who see it coming."
+	]
+	quest.657B9F5942437048.title: "Ronova"
+	quest.6A78F9EF27A7B184.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r I always come back."
+	]
+	quest.6A78F9EF27A7B184.title: "Witch of Vainglory"
+	quest.6B23CCAB970ED9F6.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A King-Class fusion Ultimate born from Satanael and Susanoo. A reactor of wrath, a counter of dread, a stampede of ruin, and a fate that steals life itself."
+	]
+	quest.6B23CCAB970ED9F6.title: "Samael, Sovereign of Wrathful Fate"
+	quest.6D1CEEBFD870C669.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Time abides no reason— For it deprives us all equally. Yet brooks not a second to be reclaimed."
+	]
+	quest.6D1CEEBFD870C669.title: "Istaroth"
+	quest.6D66FACEBB3C7A76.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r An endless sovereign that devours strength. Doubles EP gain, steals MP, weakens nearby foes, and enforces Infinite Imprisonment."
+	]
+	quest.6D66FACEBB3C7A76.title: "Kronairos, Lord of the Endless"
+	quest.735726DE753FE7BE.quest_desc: ["&7&oA room built to contain a rumour.&r"]
+	quest.735726DE753FE7BE.title: "A Realm of Asmoday"
+	quest.79499BE6B184EAFC.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r Within the endless wheel of Saṃsāra, each fallen life becomes a karmic echo, waiting to awaken under Nirvana’s violet grace."
+	]
+	quest.79499BE6B184EAFC.title: "Nirvana"
+	quest.7A9A2F335B581C31.quest_desc: [
+		"&7&oA name that was not meant to be written down.&r"
+		"&6Field note:&r A heart once claimed cannot escape desire. The king hoards his own fate, and greed denies even death its payment."
+	]
+	quest.7A9A2F335B581C31.title: "Authority of Greed"
+	task.02D5E9276870F8C1.title: "Hold Sovereign of the Great Tomb"
+	task.038D6ECD5E61ABE2.title: "Become a Crimson Progenitor"
+	task.04DDF463BC530D5C.title: "Hold Authority of Greed"
+	task.07C24E1ADABC1B65.title: "Hold Asmoday"
+	task.16A703DA66286F99.title: "Forge Excalibur"
+	task.1A50ACB3BB923B39.title: "Hold Gene Editor"
+	task.1C136AD3EA5DF814.title: "Craft a genetic syringe"
+	task.1E3F762B1126F4F6.title: "Hold Axiom, Lord of Reflected Judgment"
+	task.1E98D25DACCC30D6.title: "Craft a blood altar"
+	task.236E1D11814C765D.title: "Hold Samael, Sovereign of Wrathful Fate"
+	task.256C4C07C708FE22.title: "Hold Ronova"
+	task.2B47752DDDF16ED7.title: "Make a key of sealing"
+	task.30C5701F07A8FE27.title: "Hold Cursed Menagerie"
+	task.31DB0618AE6A7449.title: "Hold Domain of Negation"
+	task.40689082E6643BE3.title: "Hold Adaptability"
+	task.41C0264353CA082F.title: "Hold Caedros, God of Conquest"
+	task.41DC47878E14CDA5.title: "Understood"
+	task.43A42FE49F9330D0.title: "Hold Mori, Equal to the Heavens"
+	task.4420D6419C9F48A3.title: "Learn the blood arts"
+	task.44A8E841BF2C6958.title: "Hold Mammon: Sovereign Casino"
+	task.45758217CAE1DEF3.title: "Awaken the key of sealing"
+	task.46BAFF3AA19762BF.title: "Stand in the prison realm"
+	task.4A9C5C0B1CFB85DB.title: "Hold Netherveil Overmind"
+	task.4AABD7BA94F861BB.title: "Hold Schwi, Lord of True Computation"
+	task.4B36288CE4C1E8D7.title: "Hold Michael, Angel of Locks"
+	task.4CC8329F51FED8A6.title: "Hold True Authority of Greed"
+	task.4F04233FFD5D6D23.title: "Hold Naberius"
+	task.4FC538B77C008059.title: "Hold Nirvana"
+	task.52A2A67A54F26DD7.title: "Hold Divine General Mahoraga"
+	task.548051CAE7E9ED14.title: "Stand in Avalon"
+	task.580470EFE3A8EB78.title: "Become a Blood Monarch"
+	task.5A450AC919899794.title: "Hold Kronairos, Lord of the Endless"
+	task.5CC9032A2F38A472.title: "Raise Excalibur to the divine"
+	task.5F5E16AC7F30D6E2.title: "Become a Elder Bloodfiend"
+	task.62ED18CB8F115119.title: "Hold Istaroth"
+	task.652B4F69F236B72C.title: "Become a Bloodfiend"
+	task.6E59D6BD1FE77D16.title: "Hold First King of History"
+	task.6E73A84A9C9903F3.title: "Become a Blood Noble"
+	task.6F293DF1F220E33B.title: "Make Excalibur true"
+	task.7259971B6B56EF01.title: "Walk the paths"
+	task.76F4004172D77232.title: "Open the black communion"
+	task.78ABF66A8E46D798.title: "Hold Witch of Vainglory"
+	task.78DF95BFE083C92D.title: "Make an angel summoner"
+	task.7A7A930729270D53.title: "Forge an extermination blade"
+	chapter.467A5D611C6C6D5B.title: "Elite Forge"
+	quest.0017844C3945CF6E.quest_desc: ["&7&oArmour for someone who sings at the wrong moment.&r"]
+	quest.0017844C3945CF6E.title: "The Nightingale Set"
+	quest.035A32A0822B279C.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.035A32A0822B279C.title: "Demi God Saiyan"
+	quest.0ABF1E9AD3453555.quest_desc: [
+		"&7&oThe Create mod would approve.&r"
+		"&6Field note:&r These two Intrinsic skills need the Create mod, which is in this pack."
+	]
+	quest.0ABF1E9AD3453555.title: "Machinery in the Body"
+	quest.0F0B4B121C960B61.quest_desc: [
+		"&7&oCreation has a patron, and he is fussy about the details.&r"
+		"&6Field note:&r The forge answers its lord. Repair and reforge what exists, engrave it, conjure arms from nothing, sense the ore beneath stone, and turn a smith's mastery into a weapon."
+	]
+	quest.0F0B4B121C960B61.title: "Hephaestus, Lord of Creation"
+	quest.2C28551B3FDAE6E1.quest_desc: ["&7&oInvitations, from a feast no one asked for.&r"]
+	quest.2C28551B3FDAE6E1.title: "The Walpurgis Relics"
+	quest.2DB557FC3444B05C.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
+	quest.2DB557FC3444B05C.title: "Medium Class Saiyan"
+	quest.2EA652562751F419.quest_desc: ["&7&oAt the top, the numbers stop meaning anything.&r"]
+	quest.2EA652562751F419.title: "Transcendent Saiyan"
+	quest.3048A532F1975813.quest_desc: [
+		"&7&oThe ground has opinions about who owns it.&r"
+		"&6Field note:&r The land itself answers. Raise the earth to impale and to bind, reshape the ground your people hold, coax ore from bare stone, and draw the world's own magicule into yourself. Strongest where your nation's banner flies."
+	]
+	quest.3048A532F1975813.title: "Gaia, Lord of Earth"
+	quest.368B3F7CC657391A.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.368B3F7CC657391A.title: "Intermediate Deity Saiyan"
+	quest.39F248E0A0220896.quest_desc: ["&7&oA banquet hall, for the ones who are invited and the ones who are not.&r"]
+	quest.39F248E0A0220896.title: "The Walpurgis Hall"
+	quest.3ABE1626F9C0E690.quest_desc: [
+		"&7&oMarks have grammar. Learn it.&r"
+		"&6Field note:&r Hard-won intuition at the forge. Passively widens the hammer sweet spot and slows temperature drift during forge minigames. When mastered, each forged item has a chance to gain an extra enhancement slot. Learned automatically..."
+	]
+	quest.3ABE1626F9C0E690.title: "Runesmith's Insight"
+	quest.3B32B823243C8A67.quest_desc: ["&7&oThree ages of the same sentence.&r"]
+	quest.3B32B823243C8A67.title: "Runic Swords"
+	quest.3C0306238D9540B2.quest_desc: [
+		"&7&oThe World keeps a codex. It has not decided what to put in it.&r"
+		"&6Field note:&r This chapter collects the Elite Tensura addon: its skills, the Saiyan line, its armoury and a plushie collection. Most skills here have no fixed source, so quests complete when you simply hold the skill."
+	]
+	quest.3C0306238D9540B2.title: "The Elite World"
+	quest.3C5418627EE57E67.quest_desc: [
+		"&7&oWisdom, with a name and a very low tolerance for guesses.&r"
+		"&6Field note:&r The Voice of the World given form — a battlefield-computation entity. Analysis unlocks everything: prediction, barriers, reverse-engineering, and Raphael's own counsel."
+	]
+	quest.3C5418627EE57E67.title: "Raphael, Lord of Wisdom"
+	quest.43398A64260CD205.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
+	quest.43398A64260CD205.title: "Divine Saiyan"
+	quest.4496F4FDDDC6028E.quest_desc: ["&7&oBattle is a language.&r"]
+	quest.4496F4FDDDC6028E.title: "High Class Saiyan"
+	quest.44A40AA0BB7A6B50.quest_desc: [
+		"&7&oA serpent finishing a sentence it started a long time ago.&r"
+		"&6Field note:&r The serpent that devours its own tail. Feed on the fight, strike across seconds, shed what wounds you, rewind your missteps, complete death rather than avoid it, and devour what stands before you."
+	]
+	quest.44A40AA0BB7A6B50.title: "Ouroboros, Lord of Eternity"
+	quest.48E66704EA9C2557.quest_desc: [
+		"&7&oA keen eye for what other people left lying around.&r"
+		"&6Field note:&r A keen eye for treasure. Passively grants Luck II, improving loot from chests, mob drops, and mining. Mastery unlocks a toggle that upgrades the buff to Luck III."
+	]
+	quest.48E66704EA9C2557.title: "Scavenger"
+	quest.594B788EED9CEC14.quest_desc: [
+		"&7&oWeight, redirected.&r"
+		"&6Field note:&r Gravity magic. Hold to warp space at the point you are aiming at, then release to collapse it into a crushing sphere that drags everything inside toward its centre, deals a fraction of each victim's max health every second,..."
+	]
+	quest.594B788EED9CEC14.title: "Gravity Well"
+	quest.5BD661A832F5AC47.quest_desc: ["&7&oA fighter, born to fight.&r"]
+	quest.5BD661A832F5AC47.title: "Lesser Saiyan"
+	quest.5CADB8E5218D4208.quest_desc: ["&7&oOne for the void, one for the stars, neither for you to lend.&r"]
+	quest.5CADB8E5218D4208.title: "Edges Beyond Steel"
+	quest.60EE515BD59E7BD6.quest_desc: [
+		"&7&oStillness, practised until it is a skill.&r"
+		"&6Field note:&r Helps regenerate Aura, Magic, and SHP faster when toggled"
+	]
+	quest.60EE515BD59E7BD6.title: "Mediation"
+	quest.66D0FA1A7F2E0C2D.quest_desc: ["&7&oIt has been worn by someone who did not want to be remembered.&r"]
+	quest.66D0FA1A7F2E0C2D.title: "The Ancient Nordic Set"
+	quest.66DD071C463DE1C4.quest_desc: [
+		"&7&oYou are older than you were told.&r"
+		"&6Field note:&r A primordial soul that resonates with nearby life. While toggled on, grants the holder and nearby allies Strength III, Regeneration III, and Resistance I, while Soul Sight outlines surrounding creatures by alignment — red for..."
+	]
+	quest.66DD071C463DE1C4.title: "Ancient Soul"
+	quest.6877925F24DECAEF.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
+	quest.6877925F24DECAEF.title: "Lesser Deity Saiyan"
+	quest.700090D36AAAF2AD.quest_desc: [
+		"&7&oA will that does not bend is, eventually, a wall.&r"
+		"&6Field note:&r A unique skill born from an unbreakable will to endure. The holder bends hardship into strength, refusing to be undone by the world around them."
+	]
+	quest.700090D36AAAF2AD.title: "Iron Resolve"
+	quest.7943576188A9E79C.quest_desc: ["&7&oRank is only a way of keeping score.&r"]
+	quest.7943576188A9E79C.title: "Greater Deity Saiyan"
+	quest.7C648142A2213BCA.quest_desc: ["&7&oNot all treasure is dangerous.&r"]
+	quest.7C648142A2213BCA.title: "A Soft Collection"
+	quest.7C9B8910780A1252.quest_desc: [
+		"&7&oNothing is also a kind of throne.&r"
+		"&6Field note:&r An ultimate skill granting absolute dominion over existence, space, and life-force. Those who wield it become sovereign over the void itself."
+	]
+	quest.7C9B8910780A1252.title: "Void Sovereign"
+	task.0788AE31057F74AD.title: "Hold the serpent of eternity"
+	task.0DA2A4BF6EE5FD6A.title: "Stand in the Walpurgis hall"
+	task.122FC4D953DBABEF.title: "Collect a frog plushie"
+	task.126CA29EE81B6B62.title: "Become a Divine Saiyan"
+	task.157863DD2CD318A8.title: "Obtain a mythical runic sword"
+	task.165B9FE02F56AE66.title: "Learn the runesmith's insight"
+	task.19CA710476CF94E0.title: "Collect a fox plushie"
+	task.1A26E583970EAB37.title: "Hold the earth-lord's power"
+	task.1AE4A5979DCBB11D.title: "Become a Greater Deity Saiyan"
+	task.1AFF05E8BEAA7032.title: "Obtain the ancient nordic cuirass"
+	task.1DAD455A1D1FD7BD.title: "Become a Intermediate Deity Saiyan"
+	task.1FA8132C27145277.title: "Become a Transcendent Saiyan"
+	task.1FDDFE307CA5AEFD.title: "Obtain the nightingale helmet"
+	task.2040A6A19E721628.title: "Collect a panda plushie"
+	task.20EB4AD35812E489.title: "Collect a bee plushie"
+	task.2709B1A97EE4DAA3.title: "Hold the void sovereign"
+	task.2A81DDCA905EB148.title: "Understood"
+	task.2C9752010F247170.title: "Hold the forge-lord's power"
+	task.2F36B76DCAFD202A.title: "Collect a wolf plushie"
+	task.310A192F54446B9C.title: "Become a Lesser Deity Saiyan"
+	task.33AAB07304251F59.title: "Become a Medium Class Saiyan"
+	task.352026787F96D02E.title: "Awaken an ancient soul"
+	task.3A83281A3E456EB4.title: "Become a Lesser Saiyan"
+	task.3EA6A82D3F6C377F.title: "Learn to meditate"
+	task.40A3A71701951F8A.title: "Obtain the ancient nordic helm"
+	task.416A4053BC606424.title: "Obtain an ancient runic sword"
+	task.46517911D3F08EED.title: "Gain mechanical hands"
+	task.4C62A2836DF013EF.title: "Obtain the nightingale boots"
+	task.4D7E0D48CC8DEE9A.title: "Learn to bend gravity"
+	task.4D943903673957DD.title: "Collect a allay plushie"
+	task.50329C47EF1AD5D9.title: "Obtain a Walpurgis orb"
+	task.5270C0E8BE14952A.title: "Obtain a renewed runic sword"
+	task.534BF918047D628B.title: "Become a Demi God Saiyan"
+	task.542D94744F99B3B2.title: "Obtain the ancient nordic greaves"
+	task.5945FBB263B9CD9C.title: "Learn to scavenge"
+	task.5CACE04D02F05B36.title: "Collect a cat plushie"
+	task.5DCCCA22ADDBC61A.title: "Become a High Class Saiyan"
+	task.64710BECBFDCED89.title: "Obtain the nightingale chestplate"
+	task.64BAB64E1A6108DF.title: "Collect a axolotl plushie"
+	task.68624DB564538C02.title: "Gain mechanical eyes"
+	task.6E75D51944AFE59C.title: "Obtain the nightingale leggings"
+	task.721047F39B806DAB.title: "Obtain the ancient nordic sabatons"
+	task.7494B1C74AA9C26A.title: "Harden your resolve"
+	task.7784CC5F98035C4E.title: "Obtain a Walpurgis seal"
+	task.7C4E32EB16D5FD73.title: "Obtain the astral edge"
+	task.7E3122201D9B9746.title: "Hold the lord of wisdom"
+	task.7E58836078676AE4.title: "Obtain the void edge"
 }

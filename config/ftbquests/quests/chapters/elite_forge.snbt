@@ -1,0 +1,631 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elite_forge"
+	group: "0F30C975BF218986"
+	icon: {
+		id: "elitetensura:walpurgis_orb"
+	}
+	id: "467A5D611C6C6D5B"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3C0306238D9540B2"
+			rewards: [{
+				id: "002025C7B6EB3FD6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2A81DDCA905EB148"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			id: "48E66704EA9C2557"
+			rewards: [{
+				id: "65C8988F789B40EE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "elitetensura:scavenger"
+				id: "5945FBB263B9CD9C"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "3ABE1626F9C0E690"
+			rewards: [{
+				id: "31114192FD5DE90D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "elitetensura:runesmiths_insight"
+				id: "165B9FE02F56AE66"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "66DD071C463DE1C4"
+			rewards: [{
+				id: "45F00E00F7A056D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "elitetensura:ancient_soul"
+				id: "352026787F96D02E"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "594B788EED9CEC14"
+			rewards: [{
+				id: "7C2FA3D73B31F610"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				ability: "elitetensura:gravity_well"
+				id: "4D7E0D48CC8DEE9A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "60EE515BD59E7BD6"
+			rewards: [{
+				id: "1CD6B71558AC165E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "elitetensura:meditation"
+				id: "3EA6A82D3F6C377F"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "700090D36AAAF2AD"
+			rewards: [{
+				id: "701E49DF82938B26"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				ability: "elitetensura:iron_resolve"
+				id: "7494B1C74AA9C26A"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_details_until_startable: true
+			id: "0ABF1E9AD3453555"
+			rewards: [{
+				id: "48EAFB2084150026"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					ability: "elitetensura:mechanical_eyes"
+					id: "68624DB564538C02"
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+				{
+					ability: "elitetensura:mechanical_hands"
+					id: "46517911D3F08EED"
+					status: "LEARNT"
+					type: "tensura_ftb:ability"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_until_deps_complete: true
+			id: "0F0B4B121C960B61"
+			rewards: [{
+				id: "44615327DD983052"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "elitetensura:hephaestus"
+				id: "2C9752010F247170"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_until_deps_complete: true
+			id: "3048A532F1975813"
+			rewards: [{
+				id: "45A1800E5DDB06E4"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "elitetensura:gaia"
+				id: "1A26E583970EAB37"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_until_deps_complete: true
+			id: "44A40AA0BB7A6B50"
+			rewards: [{
+				id: "41651D5DDE05ACA9"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "elitetensura:ouroboros"
+				id: "0788AE31057F74AD"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_until_deps_complete: true
+			id: "3C5418627EE57E67"
+			rewards: [{
+				id: "32AE6C46033B5F22"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				ability: "elitetensura:raphealskill"
+				id: "7E3122201D9B9746"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_until_deps_complete: true
+			id: "7C9B8910780A1252"
+			rewards: [{
+				id: "3319A70B9BB5FD8A"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				ability: "elitetensura:voidsovereign"
+				id: "2709B1A97EE4DAA3"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "5BD661A832F5AC47"
+			rewards: [{
+				id: "2C377BFE12CC403E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3A83281A3E456EB4"
+				race: "elitetensura:lesser_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BD661A832F5AC47"]
+			hide_details_until_startable: true
+			id: "2DB557FC3444B05C"
+			rewards: [{
+				id: "1D23957B12E66AE8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "33AAB07304251F59"
+				race: "elitetensura:medium_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DB557FC3444B05C"]
+			hide_details_until_startable: true
+			id: "4496F4FDDDC6028E"
+			rewards: [{
+				id: "71D944FBFB6D2FC1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5DCCCA22ADDBC61A"
+				race: "elitetensura:high_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4496F4FDDDC6028E"]
+			hide_details_until_startable: true
+			id: "43398A64260CD205"
+			rewards: [{
+				id: "28C07A8B630B6728"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "126CA29EE81B6B62"
+				race: "elitetensura:divine_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43398A64260CD205"]
+			hide_details_until_startable: true
+			id: "035A32A0822B279C"
+			rewards: [{
+				id: "609F0021B84DB521"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "534BF918047D628B"
+				race: "elitetensura:demi_god_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["035A32A0822B279C"]
+			hide_details_until_startable: true
+			id: "6877925F24DECAEF"
+			rewards: [{
+				id: "16D98D0D6098815D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "310A192F54446B9C"
+				race: "elitetensura:lesser_deity_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6877925F24DECAEF"]
+			hide_details_until_startable: true
+			id: "368B3F7CC657391A"
+			rewards: [{
+				id: "2F055A5B62271F10"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "1DAD455A1D1FD7BD"
+				race: "elitetensura:intermediate_deity_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["368B3F7CC657391A"]
+			hide_details_until_startable: true
+			id: "7943576188A9E79C"
+			rewards: [{
+				id: "0D221BD9FE0F7657"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "1AE4A5979DCBB11D"
+				race: "elitetensura:greater_deity_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7943576188A9E79C"]
+			hide_until_deps_complete: true
+			id: "2EA652562751F419"
+			rewards: [{
+				id: "2410AA982EE6E423"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FA8132C27145277"
+				race: "elitetensura:transcendent_deity_saiyan"
+				type: "tensura_ftb:race"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "0017844C3945CF6E"
+			optional: true
+			rewards: [{
+				id: "2731F79FBDC8988F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "1FDDFE307CA5AEFD"
+					item: { count: 1, id: "elitetensura:nightingale_helmet" }
+					type: "item"
+				}
+				{
+					id: "64710BECBFDCED89"
+					item: { count: 1, id: "elitetensura:nightingale_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6E75D51944AFE59C"
+					item: { count: 1, id: "elitetensura:nightingale_leggings" }
+					type: "item"
+				}
+				{
+					id: "4C62A2836DF013EF"
+					item: { count: 1, id: "elitetensura:nightingale_boots" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "66D0FA1A7F2E0C2D"
+			optional: true
+			rewards: [{
+				id: "6D5A99DC66E6C80F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "40A3A71701951F8A"
+					item: { count: 1, id: "elitetensura:ancient_nordic_helmet" }
+					type: "item"
+				}
+				{
+					id: "1AFF05E8BEAA7032"
+					item: { count: 1, id: "elitetensura:ancient_nordic_chestplate" }
+					type: "item"
+				}
+				{
+					id: "542D94744F99B3B2"
+					item: { count: 1, id: "elitetensura:ancient_nordic_leggings" }
+					type: "item"
+				}
+				{
+					id: "721047F39B806DAB"
+					item: { count: 1, id: "elitetensura:ancient_nordic_boots" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "3B32B823243C8A67"
+			optional: true
+			rewards: [{
+				id: "6D4DFEF0415FAC9F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "416A4053BC606424"
+					item: { count: 1, id: "elitetensura:ancient_runic_sword" }
+					type: "item"
+				}
+				{
+					id: "5270C0E8BE14952A"
+					item: { count: 1, id: "elitetensura:renewed_runic_sword" }
+					type: "item"
+				}
+				{
+					id: "157863DD2CD318A8"
+					item: { count: 1, id: "elitetensura:mythical_runic_sword" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "5CADB8E5218D4208"
+			optional: true
+			rewards: [{
+				id: "61B1C66C76A7964F"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "7E58836078676AE4"
+					item: { count: 1, id: "elitetensura:void_edge" }
+					type: "item"
+				}
+				{
+					id: "7C4E32EB16D5FD73"
+					item: { count: 1, id: "elitetensura:astral_edge" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "2C28551B3FDAE6E1"
+			optional: true
+			rewards: [{
+				id: "13A08E0878B66BE6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [
+				{
+					id: "50329C47EF1AD5D9"
+					item: { count: 1, id: "elitetensura:walpurgis_orb" }
+					type: "item"
+				}
+				{
+					id: "7784CC5F98035C4E"
+					item: { count: 1, id: "elitetensura:walpurgis_seal" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "7C648142A2213BCA"
+			optional: true
+			rewards: [{
+				id: "13A43AFCD5A0B2CC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [
+				{
+					id: "4D943903673957DD"
+					item: { count: 1, id: "elitetensura:plushie_allay" }
+					type: "item"
+				}
+				{
+					id: "64BAB64E1A6108DF"
+					item: { count: 1, id: "elitetensura:plushie_axolotl" }
+					type: "item"
+				}
+				{
+					id: "20EB4AD35812E489"
+					item: { count: 1, id: "elitetensura:plushie_bee" }
+					type: "item"
+				}
+				{
+					id: "5CACE04D02F05B36"
+					item: { count: 1, id: "elitetensura:plushie_cat" }
+					type: "item"
+				}
+				{
+					id: "19CA710476CF94E0"
+					item: { count: 1, id: "elitetensura:plushie_fox" }
+					type: "item"
+				}
+				{
+					id: "122FC4D953DBABEF"
+					item: { count: 1, id: "elitetensura:plushie_frog" }
+					type: "item"
+				}
+				{
+					id: "2040A6A19E721628"
+					item: { count: 1, id: "elitetensura:plushie_panda" }
+					type: "item"
+				}
+				{
+					id: "2F36B76DCAFD202A"
+					item: { count: 1, id: "elitetensura:plushie_wolf" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C0306238D9540B2"]
+			hide_dependency_lines: true
+			id: "39F248E0A0220896"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "0067AD1F29E3D59B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "elitetensura:walpurgis_hall"
+				id: "0DA2A4BF6EE5FD6A"
+				type: "dimension"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+	]
+}

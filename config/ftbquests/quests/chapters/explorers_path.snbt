@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explorers_path"
+	group: "3FB4C13A31874B92"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "762061B95D980973"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "152CDDD79B386829"
+			rewards: [
+				{
+					command: "/ftbranks add {p} explorer_1"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "29412121CF91FD56"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "78B111D658EB0484"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3DA76C9AD9F4838B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_details_until_startable: true
+			id: "65DF398FA298D531"
+			rewards: [
+				{
+					command: "/ftbranks add {p} explorer_2"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "0EBE2E0E38D4E504"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "202888D9DC8DE9F8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "4A57D2AD2ACEB9AC"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65DF398FA298D531"]
+			hide_details_until_startable: true
+			id: "73DC79C10D4B4EB8"
+			rewards: [
+				{
+					command: "/ftbranks add {p} explorer_3"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "6CA858920695D244"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "26A427951C61780C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				dimension: "eternal_starlight:starlight"
+				id: "07BDFF55C58B04E9"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73DC79C10D4B4EB8"]
+			hide_details_until_startable: true
+			id: "1BFEDD39F1856BD0"
+			rewards: [
+				{
+					command: "/ftbranks add {p} explorer_4"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "2009C334A43C15FF"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "72981BC4AB467E07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				dimension: "chronodawn:chronodawn"
+				id: "54E7B42EF7C9F734"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFEDD39F1856BD0"]
+			hide_details_until_startable: true
+			id: "38C133B7697D224A"
+			rewards: [
+				{
+					command: "/ftbranks add {p} explorer_5"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "29C810B0A6CB050B"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					id: "024CEB545DDA9EDB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "eternal_starlight:enter_abyss"
+				criterion: ""
+				id: "4CDB814593B1487F"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_dependency_lines: true
+			id: "4848E611462C25F5"
+			optional: true
+			rewards: [{
+				id: "7E97B32413889742"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "09C3AF0CF17F1808"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_dependency_lines: true
+			id: "75CBE2ED91D89435"
+			optional: true
+			rewards: [{
+				id: "14E9BC052AA670EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "71BCC70DB58DDACD"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_dependency_lines: true
+			id: "4B31678B901839B3"
+			optional: true
+			rewards: [{
+				id: "3F18F7F9E2579BC6"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "6CE4CCA84F8DB1A5"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_dependency_lines: true
+			id: "4304753007281757"
+			optional: true
+			rewards: [{
+				id: "11C59E01EE9A25EF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "1B1CAA7338DB7B5F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152CDDD79B386829"]
+			hide_dependency_lines: true
+			id: "6FB1984671830986"
+			optional: true
+			rewards: [{
+				id: "2C93067248A5EF25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+				criterion: ""
+				id: "1628FAC9BF030B4E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}
