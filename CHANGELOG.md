@@ -9,6 +9,10 @@ Versioning: [SemVer](https://semver.org/).
 ### Fixed
 - 0.2.3 shipped without the config files for the mods added since 0.2.1 (Cataclysm, Mowzie's Mobs, Twilight Forest, Eternal Starlight, Chrono Dawn, Farmer's Delight, Comforts, Supplementaries, the Tensura addons and others), so they ran on mod defaults. The pack's configs are now included. Your own graphics, shader and minimap settings are not touched.
 
+### Server pack
+- The server zip now includes the configs for the mods added since 0.2.1, which 0.2.3 left out.
+- The server's config files are overwritten by the zip, so re-apply any local edits (for example `ftb_config.toml` or `neb_config.toml` in `config/tensura/`).
+
 ## [0.2.3] - 2026-10-07
 
 ### Fixed
@@ -18,6 +22,10 @@ Versioning: [SemVer](https://semver.org/).
 ### Removed
 - Ragdollified and Ragdollified Player Corpses.
 - Waystones2Waypoints2 (Xaero's Minimap already shows waystones itself, so every waystone had a duplicate marker).
+
+### Server pack
+- Quest skill rewards are fixed in the zip's quest files. A server with already-claimed rewards must re-grant those skills (or reset the quest rewards for the affected players).
+- Ragdollified, Ragdollified Player Corpses and Waystones2Waypoints2 are no longer in the mod list. Run `install-mods` again and delete their old jars from the server's `mods/` folder.
 
 ## [0.2.2] - 2026-10-07
 Everything since 0.1.1 in player terms: the quest-book release. The book grows from 14 to 31 chapters (830 quests), told by the "Voice of the World", with a short tutorial ("Field note") in every quest. Release tooling also changed (packwiz mod list, automatic release builds); see DEVELOPMENT.md.
