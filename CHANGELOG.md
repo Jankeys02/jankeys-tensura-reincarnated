@@ -4,6 +4,9 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- AttributeFix (lifts vanilla attribute caps, useful with Tensura's very high stats), No Chat Reports, FastSuite (faster crafting and recipe lookups), Connectivity (fixes packet-size disconnects in big modpacks), Faster Ladder Climbing, Overflowing Bars (with its library Puzzles Lib), Obscura's Simple Storage and Mod Name Tooltip. Suggested by a tester.
+
 ### Changed
 - Structure clutter: Mowzie's Wrought Chambers and Supplementaries road signs generate half as often (twice the spacing), Yung's small dungeons half as often (twice the spacing), and Ice and Fire pixie villages about a third as often (triple the spacing). Only newly generated chunks are affected.
 

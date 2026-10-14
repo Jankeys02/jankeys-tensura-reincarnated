@@ -1,0 +1,13 @@
+name = "Obscura's Simple Storage"
+filename = "obscuras_simple_storage-neoforge-mc1.21.1-v5.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5078d346884c4dd68777f45d3aef4d4f331f48d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9148643
+project-id = 1475987

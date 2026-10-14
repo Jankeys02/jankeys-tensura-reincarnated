@@ -31,6 +31,11 @@ hash = "df0b0f316ef6a5c3225f8ee00e53085b404b4388bcf8f118b0be1835d4daa271"
 metafile = true
 
 [[files]]
+file = "mods/attributefix.pw.toml"
+hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
+metafile = true
+
+[[files]]
 file = "mods/backpacked.pw.toml"
 hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
 metafile = true
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/configuration.pw.toml"
 hash = "6d8bb466bac6b7615c9e28aca1032e2b101e573b1d07a6a3b4ccc62cedcfb37e"
+metafile = true
+
+[[files]]
+file = "mods/connectivity.pw.toml"
+hash = "89340330d49ebf646a46af0da4cd457c98e0dca4337490981421d86bfcd2fd94"
 metafile = true
 
 [[files]]
@@ -253,6 +263,16 @@ metafile = true
 [[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "e5c471aaab9047178ad25e91d28240fefd7b6e48d52af4274bc53239eb1da8c6"
+metafile = true
+
+[[files]]
+file = "mods/faster-ladder-climbing.pw.toml"
+hash = "f906d0438c29d51f97fabaeeebf483ee16dc84c7438b1ad419f9a8091e95d55a"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
 metafile = true
 
 [[files]]
@@ -471,6 +491,11 @@ hash = "9f49c7407a38c6d066c22d315754378e3d1babb4673d62c1531a1453d74090e9"
 metafile = true
 
 [[files]]
+file = "mods/mod-name-tooltip.pw.toml"
+hash = "d6ca7b3004960803a2d8144ecaddcf993b83af01dd5f8e9c31dbba5bfb80e76a"
+metafile = true
+
+[[files]]
 file = "mods/modefite-item-definition-backport.pw.toml"
 hash = "e2da0196b63ac1199fac30560b1fa984989a5154f9792fe2dd230569ec20083e"
 metafile = true
@@ -511,13 +536,28 @@ hash = "1ec11d15c94ab3eea9362dd660856923f1361b03e89b2827d1064bdb4e62a26c"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "a3f6da0a0185d1f5725d57ea0fde61fc33922a3b42408e491ba407a98e0e2f68"
 metafile = true
 
 [[files]]
+file = "mods/obscuras-simple-storage.pw.toml"
+hash = "1a0336700d43c1eaf4a10b461afb962bd02d823c52e02a88234a2d2a34ae84a8"
+metafile = true
+
+[[files]]
 file = "mods/obscure-tooltips.pw.toml"
 hash = "c1c6fbf717207989d624fba17c7e2d4609f310c511c4e778c7014c8f87f7b87c"
+metafile = true
+
+[[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "5f217056eed94ecf5037f7bfb1555b26a76815cb8930fe5b4207799a1c6a69fa"
 metafile = true
 
 [[files]]
@@ -553,6 +593,11 @@ metafile = true
 [[files]]
 file = "mods/punchy.pw.toml"
 hash = "0d2c6d0f235971eb129307543b849d534a273532a58e01381870163d835063b0"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "0335498e48374aa1873257c37658a53555c4e603ce7c5244b2061d6e49d4201e"
 metafile = true
 
 [[files]]

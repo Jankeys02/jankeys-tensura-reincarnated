@@ -8,7 +8,7 @@ Mod ids below are `modId`s from each jar's `neoforge.mods.toml` (176 mods in `mo
 ## Exclude from the server (client-only)
 Rendering / performance (client): `sodium`, `sodium_extra`, `reeses_sodium_options`, `sodiumextrainformation`, `iris`, `immediatelyfast`, `entityculling`, `moreculling`, `entity_model_features`, `entity_texture_features`, `vanillin`, `badoptimizations`, `dynamic_fps`, `smoothchunk`, `chloride`
 Animation / visuals: `firstperson`, `notenoughanimations`, `skinlayers3d`, `modefite`, `manas_cosmetics`, `advancementplaques`, `ragdollified`*
-UI / HUD / QoL: `chat_heads`, `cinematiczoom`, `betteradvancements`, `controlling`, `mousetweaks`, `extremesoundmuffler`, `trashslot`, `obscure_tooltips`, `betteradvancedtooltips`, `enchdesc`, `jei`, `jeresources`, `ftbjeiextras`, `searchables`, `defaultoptions`, `ftbqopt`
+UI / HUD / QoL: `chat_heads`, `cinematiczoom`, `betteradvancements`, `controlling`, `mousetweaks`, `extremesoundmuffler`, `trashslot`, `obscure_tooltips`, `betteradvancedtooltips`, `enchdesc`, `jei`, `jeresources`, `ftbjeiextras`, `searchables`, `defaultoptions`, `ftbqopt`, `fasterladderclimbing`, `overflowingbars`, `puzzleslib`, `modnametooltip`
 Map: `xaerominimap`, `xaeroworldmap`, `ftbxaerocompat`, `pingtomapxaeros`, `w2w2` (Waystones2Waypoints2)
 Audio: `musicnotification`, `timm`, `extrasounds`, `sound_physics_remastered`
 
