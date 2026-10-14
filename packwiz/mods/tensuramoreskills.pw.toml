@@ -1,13 +1,13 @@
 name = "TensuraMoreSkills"
-filename = "tensuramoreskills-0.0.4.9.2.jar"
+filename = "tensuramoreskills-0.0.4.9.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "422d0f22d303f40aa85390fd7dbe1ae3ccbf0ca7"
+hash = "5bbeb8664a2eb895a7ef642877c75113e8c8eb91"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8974348
+file-id = 9097835
 project-id = 1399788

@@ -246,6 +246,11 @@ hash = "2c30e4316a5ae988b31f83db6f83d3b4b824758ca9e6a2dd8e1f131de418bfed"
 metafile = true
 
 [[files]]
+file = "mods/entropy-lib.pw.toml"
+hash = "bf2c97d2739f7446cd5e843d414e148d194458e3ebe892af3e3f44859bb4268e"
+metafile = true
+
+[[files]]
 file = "mods/eternal-starlight.pw.toml"
 hash = "b30bd5d8702c19e0a4b55ae895de4a7bfadccaec60608a79cd0997a5c5f30270"
 metafile = true
@@ -792,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/tensuramoreskills.pw.toml"
-hash = "c191ed9b2825626a6ef9dc27e4366e131543191ec32c8e8e8ddba1aa6f665701"
+hash = "eb76eed72a2ec5bf9a66f633dde6415ab0c09053a0295ce51757d331995e20f9"
 metafile = true
 
 [[files]]
