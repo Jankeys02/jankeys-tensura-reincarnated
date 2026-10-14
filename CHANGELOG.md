@@ -5,7 +5,6 @@ Versioning: [SemVer](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- Boss Music, replacing Battle Music: boss-fight music without the sound-engine crash.
 - Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
 ### Removed

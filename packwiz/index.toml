@@ -41,11 +41,6 @@ hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
 metafile = true
 
 [[files]]
-file = "mods/baguette-music.pw.toml"
-hash = "d7a25f96b8a21ecb8968415b662bec66a80ccd2ee2ed1eb84b3845eac2a1c17a"
-metafile = true
-
-[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "1b05fef3e281c8c9bdaa86a4e1b21ced7b363424df48c34a9494ec723c618d1f"
 metafile = true
