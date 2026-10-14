@@ -4,7 +4,11 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- Boss Music, replacing Battle Music: boss-fight music without the sound-engine crash.
+
 ### Removed
+- Battle Music: it crashed the game when a boss fight started (e.g. the Elemental Colossus).
 - The pack no longer ships config files for the mods added since 0.2.1 (Cataclysm, Mowzie's Mobs, Twilight Forest, Eternal Starlight, Chrono Dawn, Farmer's Delight, Comforts, Supplementaries, the Tensura addons, Jade and others). Each mod creates its own default config on first launch.
 
 ### Server pack
