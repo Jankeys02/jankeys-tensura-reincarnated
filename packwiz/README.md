@@ -23,8 +23,8 @@ Pushing a `v*` tag builds the CurseForge zip and attaches them to the GitHub rel
 | Ice and Fire (`iceandfire-ce`) | 2.0-beta.15 | 2.1.4 | `tensura_iaf` needs classes removed in 2.1.x |
 | Uranus (`uranus`) | 2.4.1-bugfix | 3.0-beta.1 | pre-release; a tester reported crashes after updating |
 | Corpse x Curios Compat (`corpse-x-curios-api-compat`) | 3.1.3 | 4.2.0 | major version |
-| The Afterdark (`the-afterdark`) | 1.0.3.1 | 1.1.0 | quests and the dimension gate use its advancements and structure ids |
-| TensuraMoreSkills (`tensuramoreskills`) | 0.0.4.9.2 | 0.0.4.9.3 | quests grant its skills; check first |
+| The Afterdark (`the-afterdark`) | 1.0.3.1 | 1.1.0 | 1.1.0 moves the altar structure file to `data/.../structures/` (1.21.1 reads `structure/`), so the altar may stop generating and the way into the dimension is lost; the dimension type also changed (checked 2026-10-14, not booted) |
+| TensuraMoreSkills (`tensuramoreskills`) | 0.0.4.9.2 | 0.0.4.9.3 | quest skill ids all still exist (44 checked), but 0.0.4.9.3 adds a required dependency, CosmicEntropy (not in the pack), and is an alpha (checked 2026-10-14) |
 | Tensura Reincarnated Nightmares (`tensura-reincarnated-nightmares`) | 1.0.5.1 | 1.0.5.2.2.5 | Tensura addon; check first |
 | Polymorph (`polymorph`) | 1.1.0 | 1.2.0 | newer build is a beta |
 | Simple Voice Chat (`simple-voice-chat`) | 2.6.22 | 2.6.24 | newer build is a beta |
