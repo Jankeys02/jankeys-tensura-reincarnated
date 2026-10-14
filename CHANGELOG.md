@@ -6,12 +6,11 @@ Versioning: [SemVer](https://semver.org/).
 
 ### Added
 - AttributeFix (lifts vanilla attribute caps, useful with Tensura's very high stats), No Chat Reports, FastSuite (faster crafting and recipe lookups), Connectivity (fixes packet-size disconnects in big modpacks), Faster Ladder Climbing, Overflowing Bars (with its library Puzzles Lib), Obscura's Simple Storage and Mod Name Tooltip. Suggested by a tester.
+- Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
 ### Changed
+- Patch updates: JEI 19.64, Placebo 9.9.4, Lithostitched 1.8.1, Moonlight Lib 3.7.2, ModernFix 5.27.26, ImmediatelyFast 1.6.15, Entity Culling 1.11.3, Cinematic Zoom 1.3.8, Spatial GUI 1.7.2, Fragmentum 5.3.0, Sophisticated Core 1.5.12, Sophisticated Storage 1.6.6, Easy NPC 7.15.0 (all three jars), Corpse Waypoints 1.2.0, Chrono Dawn 0.12.0, Supplementaries 4.0.1 (quest advancements and structures re-checked against both), Voice Physics 2.11.1. Update them in the CurseForge app. Tensura addons, Ice and Fire, Uranus, Polymorph and Simple Voice Chat (newer builds are betas) were deliberately left on their current versions.
 - Structure clutter: Mowzie's Wrought Chambers and Supplementaries road signs generate half as often (twice the spacing), Yung's small dungeons half as often (twice the spacing), and Ice and Fire pixie villages about a third as often (triple the spacing). Only newly generated chunks are affected.
-
-### Added
-- Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
 ### Removed
 - Battle Music: it crashed the game when a boss fight started (e.g. the Elemental Colossus).

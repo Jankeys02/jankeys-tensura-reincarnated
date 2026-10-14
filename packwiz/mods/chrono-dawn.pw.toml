@@ -1,13 +1,13 @@
 name = "Chrono Dawn"
-filename = "chronodawn-0.11.0+1.21.1-neoforge.jar"
+filename = "chronodawn-0.12.0+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "da53f73a3d633012853a0d5bd0998bf05703dae9"
+hash = "c59b4beafd1fb7282e1a5dbfc54fc95784c33a65"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9054711
+file-id = 9145332
 project-id = 1414198

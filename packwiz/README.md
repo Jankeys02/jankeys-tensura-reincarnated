@@ -13,3 +13,23 @@ packwiz refresh                           # rebuild index.toml (run before commi
 
 To mark a mod client-only, change `side = "both"` to `side = "client"` in its `.pw.toml`.
 Pushing a `v*` tag builds the CurseForge zip and attaches them to the GitHub release.
+
+## Held-back versions
+
+`packwiz update --all` is not safe to run blindly: it has proposed downgrades, pre-releases and a file named for the wrong Minecraft version. Update mods one at a time (`packwiz update <name>`). Mods deliberately kept on their current version (last checked 2026-10-14):
+
+| Mod (`mods/` file) | Pinned version | Newer seen | Why it is held |
+|---|---|---|---|
+| Ice and Fire (`iceandfire-ce`) | 2.0-beta.15 | 2.1.4 | `tensura_iaf` needs classes removed in 2.1.x |
+| Uranus (`uranus`) | 2.4.1-bugfix | 3.0-beta.1 | pre-release; a tester reported crashes after updating |
+| Corpse x Curios Compat (`corpse-x-curios-api-compat`) | 3.1.3 | 4.2.0 | major version |
+| The Afterdark (`the-afterdark`) | 1.0.3.1 | 1.1.0 | quests and the dimension gate use its advancements and structure ids |
+| TensuraMoreSkills (`tensuramoreskills`) | 0.0.4.9.2 | 0.0.4.9.3 | quests grant its skills; check first |
+| Tensura Reincarnated Nightmares (`tensura-reincarnated-nightmares`) | 1.0.5.1 | 1.0.5.2.2.5 | Tensura addon; check first |
+| Polymorph (`polymorph`) | 1.1.0 | 1.2.0 | newer build is a beta |
+| Simple Voice Chat (`simple-voice-chat`) | 2.6.22 | 2.6.24 | newer build is a beta |
+| Music Notification (`music-notification`) | 3.3.1 | 3.4.0-alpha.1 | alpha |
+| Tensura: Reincarnated Bosses (`tensura-reincarnated-bosses`) | 3.0.0 | 1.0.0 | would be a downgrade |
+| Nightmare's Tensura Utils (`nightmares-tensura-utils`) | 0.1.2 | 0.1.0 | would be a downgrade |
+
+Release channel: packwiz does not record it and `update` can pick betas, so check a file's type on its CurseForge/Modrinth page before updating. JEI builds are all marked beta by its author and are fine.
