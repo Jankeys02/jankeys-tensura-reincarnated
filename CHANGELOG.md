@@ -9,6 +9,7 @@ Versioning: [SemVer](https://semver.org/).
 - Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
 ### Changed
+- Tensura Reincarnated Nightmares 1.0.5.2.2.5 (adds weapon data and tag fixes; the pack's recipe overrides still apply). Unlock the file in the CurseForge app before updating.
 - TensuraMoreSkills 0.0.4.9.3 (quest skill ids re-checked: all 44 still exist). It now needs the new mod Entropy Lib / Cosmic Entropy 0.0.1, which is added; install both in the CurseForge app.
 - Silenced 11 harmless startup errors from Elite Tensura's Create recipes (Create is not part of the pack). If Create is ever added, delete `kubejs/data/create/`.
 - Patch updates: JEI 19.64, Placebo 9.9.4, Lithostitched 1.8.1, Moonlight Lib 3.7.2, ModernFix 5.27.26, ImmediatelyFast 1.6.15, Entity Culling 1.11.3, Cinematic Zoom 1.3.8, Spatial GUI 1.7.2, Fragmentum 5.3.0, Sophisticated Core 1.5.12, Sophisticated Storage 1.6.6, Easy NPC 7.15.0 (all three jars), Corpse Waypoints 1.2.0, Chrono Dawn 0.12.0, Supplementaries 4.0.1 (quest advancements and structures re-checked against both), Voice Physics 2.11.1. Update them in the CurseForge app. Tensura addons, Ice and Fire, Uranus, Polymorph and Simple Voice Chat (newer builds are betas) were deliberately left on their current versions.
