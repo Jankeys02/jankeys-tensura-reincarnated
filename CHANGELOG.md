@@ -4,6 +4,9 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+- Mowzie's Wrought Chambers and Supplementaries road signs now generate half as often (twice the spacing), to cut structure clutter around spawn. Only newly generated chunks are affected.
+
 ### Added
 - Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
