@@ -5,7 +5,7 @@ Versioning: [SemVer](https://semver.org/).
 ## [Unreleased]
 
 ### Changed
-- Mowzie's Wrought Chambers and Supplementaries road signs now generate half as often (twice the spacing), to cut structure clutter around spawn. Only newly generated chunks are affected.
+- Structure clutter: Mowzie's Wrought Chambers and Supplementaries road signs generate half as often (twice the spacing), Yung's small dungeons half as often (twice the spacing), and Ice and Fire pixie villages about a third as often (triple the spacing). Only newly generated chunks are affected.
 
 ### Added
 - Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
