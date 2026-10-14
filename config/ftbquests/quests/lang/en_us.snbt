@@ -3411,4 +3411,14 @@
 	]
 	quest.543298CE006931C0.title: "The Progenitors"
 	task.40DC825E89CF50E6.title: "Understood"
+	quest.0ADDCE62D1ADEB09.quest_desc: [
+		"&7&oThe World gave you a hunger, and made you small enough to hide it.&r"
+		"&6Field note:&r The Parasite skill makes you a &fParasite&r race: 5 health, no racial skills, no evolutions, a tiny body, and fire and sound hurt you double. Your EP, magicule and aura are untouched. It is reapplied every time you log in, as long as you hold the skill and are not bonded to a host."
+		"&6Bonding:&r Cycle the skill to a bond mode and use it on a mob or player within 5 blocks. You ride inside the host as a spectator. The host gains &fSymbiote&r. A target is refused if it has &fAnti-Symbiote&r, is a host you already left, or (Hostile Bond only) has more than twice your max EP."
+		"&6Merger Bond:&r Cooperative. Relationship grows by 5 a day and by 3 per use of the symbiosis, up to 200. At 100 the host can expel you (you gain 2000 EP per point and one of their unique skills, they gain Anti-Symbiote). Or use &fLeave Host&r (1000 EP per point); that host is then closed to you."
+		"&6Hostile Bond:&r A takeover. It needs 100 takeover points (10 a day, 6 per symbiosis use), or is instant if the host's max EP is under a quarter of yours. You permanently take the host's race, body stats and skills, and the host is forced to respawn (a player) or killed (a mob)."
+		"&6Getting out of the Parasite race:&r Only a takeover ends it, and you become the host's race, not your old one. Operators can instead revoke the skill and set the race back with commands."
+	]
+	quest.0ADDCE62D1ADEB09.title: "A Body That Is Not Yours"
+	task.320DF8494E39BD4D.title: "Hold the Parasite skill"
 }

@@ -875,6 +875,27 @@
 				removeTime: -1
 				status: "LEARNT"
 				type: "tensura_ftb:ability"
+		{
+			dependencies: ["1378014194B9A8BC"]
+			hide_dependency_lines: true
+			id: "0ADDCE62D1ADEB09"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "0EDC80F9690FB330"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				ability: "tensuramoreskills:parasite"
+				id: "320DF8494E39BD4D"
+				status: "LEARNT"
+				type: "tensura_ftb:ability"
+			}]
+			x: 54.0d
+			y: 4.0d
+		}
 			}]
 			x: 48.0d
 			y: 6.0d
