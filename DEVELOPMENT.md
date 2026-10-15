@@ -103,18 +103,29 @@ The mod list lives in [packwiz/](packwiz/) as one small text file per mod (name,
 
 Use a separate Prism instance, never the CurseForge one. Mods then follow `packwiz/` without any manual install. Tested on 2026-10-15: after the blocked files are in place, the instance installs and starts. If a step differs on your machine, fix this section in your Pull Request.
 
-1. In Prism create an instance: Minecraft 1.21.1, NeoForge 21.1.249.
-2. Download `packwiz-installer-bootstrap.jar` from the [packwiz-installer-bootstrap releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and put it in the instance's game folder (right-click the instance, **Folder**, open `minecraft` or `.minecraft`).
-3. Right-click the instance, **Edit**, **Settings**, **Custom commands**, tick **Custom commands**, and set **Pre-launch command** to:
+1. In Prism click **Add Instance**, choose **Custom**, set a name (for example `Tensura Dev`), Minecraft `1.21.1` and NeoForge `21.1.249`, then **OK**.
+
+   ![Prism "New Instance" window: Custom tab, 1.21.1, NeoForge 21.1.249](docs/images/prism-add-instance.png)
+
+2. Download `packwiz-installer-bootstrap.jar` from the [packwiz-installer-bootstrap releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and put it in the instance's game folder: right-click the instance, **Folder**, then open `minecraft` (or `.minecraft`).
+
+   ![Right-click menu of the instance with Edit and Folder marked](docs/images/prism-instance-menu.png)
+
+3. Right-click the instance, **Edit...**, **Settings**, tab **Custom Commands**. Tick **Override Global Settings** and set **Pre-launch Command** to:
    ```
    "$INST_JAVA" -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
    ```
+
+   ![Instance settings, Custom Commands tab, with the pre-launch command filled in](docs/images/prism-pre-launch-command.png)
+
 4. Set up the repo in that same game folder as in "One-time setup" above, so `git pull` brings configs and quests.
 
 Every launch now adds, removes and updates the mods to match `main`. Details:
 
 - **Your own mod changes:** after `packwiz curseforge add` and `packwiz refresh`, push your branch. To test it before the merge, change `main` in the Pre-launch URL to your branch name (change it back afterwards). The URL only sees what is pushed to GitHub.
 - **Blocked mods:** 20 files (see the list below) can't be downloaded by the installer, so on the first launch it shows a "Failed file downloads" window and installs nothing until they are in place. Easiest: copy them from a CurseForge instance of the pack (same folder names: `mods` and `resourcepacks`), or click **Open missing mods** and download them yourself. Then launch again; the installer leaves them alone afterwards. Never click **Ignore update**, it skips the whole sync.
+
+  ![The installer's "Failed file downloads" window](docs/images/packwiz-failed-downloads.png)
 - **Client-only mods** (`side = "client"`) are installed because of `-s client`. Mods marked `server` are skipped.
 - **Worlds:** copy a world from the CurseForge instance's `saves/` folder if you want to keep it.
 - **Releases:** player-facing releases still go through CurseForge (see "Releasing"). Before a release, install the zip in a CurseForge instance once and check it starts.

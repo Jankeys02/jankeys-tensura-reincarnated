@@ -3,6 +3,7 @@
 !/.gitignore
 !/.github/
 !/config/
+!/docs/
 !/defaultconfigs/
 !/kubejs/
 !/server/
