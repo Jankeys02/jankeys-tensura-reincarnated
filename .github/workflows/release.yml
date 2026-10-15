@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - name: CurseForge zip
         run: python .github/scripts/export-curseforge.py "${GITHUB_REF_NAME}" "jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip"
       - name: Server zip
@@ -29,6 +30,8 @@ jobs:
           (cd prism-zip && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-prism-dev.zip" .)
       - name: Release notes from CHANGELOG.md
         run: python .github/scripts/release-notes.py "${GITHUB_REF_NAME}"
+      - name: Pack description (only if it changed)
+        run: python .github/scripts/pack-description.py "${GITHUB_REF_NAME}"
       - uses: softprops/action-gh-release@v2
         with:
           body_path: notes.md
@@ -39,3 +42,4 @@ jobs:
             jankeys-tensura-*-prism-dev.zip
             changelog-client.md
             changelog-server.md
+            pack-description.md

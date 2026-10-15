@@ -65,4 +65,4 @@ Check the **Actions** tab on GitHub; when it's green, the files are on the **Rel
 1. From the release page, download the `-curseforge.zip` and `-server.zip`. The `-prism-dev.zip` is for developers (Prism instance with the pre-launch script, see DEVELOPMENT.md) and is not uploaded to CurseForge.
 2. In the CurseForge author console, upload the client zip as a new file of the modpack, and paste the client changelog into its changelog box.
 3. Upload the server zip as the server pack file for that version, paste the server changelog, and list the six manual-download mods as Required Dependencies (see [SERVER_HOSTING.md](SERVER_HOSTING.md)).
-4. If the pack description changed, update it from [PACK_DESCRIPTION.md](PACK_DESCRIPTION.md).
+4. If the release notes have a **Pack description** section, the description changed since the last release: paste `pack-description.md` (under Assets, same text as [PACK_DESCRIPTION.md](PACK_DESCRIPTION.md)) into the CurseForge page. The section lists the changed lines.

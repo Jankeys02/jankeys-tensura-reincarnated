@@ -72,12 +72,12 @@ function groundPlayer(event, checkStructures) {
   }
   const name = player.getGameProfile().getName()
   event.server.runCommandSilent('tp ' + name + ' ' + (g[0] + 0.5) + ' ' + g[1] + ' ' + (g[2] + 0.5))
-  console.info('spawn_off_leaves: moved ' + name + (inStructure ? ' from a structure at ' : ' from the canopy at ') + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ() + ' to ' + g[0] + ' ' + g[1] + ' ' + g[2])
+  console.info('safe_spawn: moved ' + name + (inStructure ? ' from a structure at ' : ' from the canopy at ') + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ() + ' to ' + g[0] + ' ' + g[1] + ' ' + g[2])
 }
 
 // Structures are only checked on a player's first login and on respawns, so a base built inside a structure near
 // the world spawn is not left behind at every login. Leaves are checked at every login, as before.
-const CHECKED_FLAG = 'spawn_off_leaves_checked'
+const CHECKED_FLAG = 'safe_spawn_checked'
 
 PlayerEvents.loggedIn(function (event) {
   const data = event.player.persistentData
