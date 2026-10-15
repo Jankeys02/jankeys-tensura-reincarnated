@@ -16,6 +16,26 @@ hash = "0b8a3da59e39efe469e5f061a7fd9c3029b805188c2541a6cab4a33435f49255"
 metafile = true
 
 [[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "b2e1d98c6778c0c4fcbff4afad1a5c944478d56b24326c8c549b0e484f89a803"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "39c77ded3382f9ccd9c93e3953f7426c27cd9f16e93224125f061ea7b519e087"
+metafile = true
+
+[[files]]
+file = "mods/apothic-enchanting.pw.toml"
+hash = "47573d3f6e2392e8a720aacfd9b48f4a7be9c5e24f3200eff25de021aac75cc3"
+metafile = true
+
+[[files]]
+file = "mods/apothic-spawners.pw.toml"
+hash = "781fe924f8038f4b54d326b6d90104e56b4639e6d7439ea361165c8d22c97113"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
 metafile = true
