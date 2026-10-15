@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "e2edf339c98dbdcf04f46a15276e9b1b5bbdeee0f1ac8b7d9bddb1ee8e54b9a1"
+hash = "0bc8958d55b8ff8a6ec3be278fbaf8a960ce72777cf742c6bd2cd0550952c336"
 metafile = true
 
 [[files]]
@@ -252,12 +252,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "78c53099de314830071d1e0eab738ce06f91737242cd14cde01f854b153430ca"
+hash = "22185ae1ecd5e0540b49c1ce5cabd8011b0296e8fb4024b18a13ea1308fe6d75"
 metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "a0978016b187522f3fe6cf78bff5352e0a46787d8fa1cd35fe37652b3a6d0c17"
+hash = "1ec6f76905ad9e6556dbecf95d8abe16df79815bcad97aa823362af2335a07ad"
 metafile = true
 
 [[files]]
@@ -432,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a36cbb2cdb8ed512545f82d61265f8fd21043a3970adb015bcf84041128d979d"
+hash = "9c9fad38d07eb8cfe44b3ab9ecb1c411ef1e4995a2afbd2c5b78639349ffbd51"
 metafile = true
 
 [[files]]
@@ -622,7 +622,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy.pw.toml"
-hash = "0d2c6d0f235971eb129307543b849d534a273532a58e01381870163d835063b0"
+hash = "d31e053a4dfb37b17825f3eed5619f601bccea5592c0fa5e94dcab9c972e6412"
 metafile = true
 
 [[files]]
