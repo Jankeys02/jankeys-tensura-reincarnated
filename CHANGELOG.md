@@ -4,6 +4,9 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0-rc.1] - 2026-10-15
+Release candidate: changes since 0.2.4, mostly spawn balance and developer tooling. Not yet play-tested in full.
+
 ### Added
 - Difficulty-scaled spawns: the strongest mobs now only spawn naturally on higher difficulties. Ogre from Normal; Benimaru, Primordial Noir, Arch Daemon, Salamander, Feathered Serpent and Sissie on Hard; Greater Daemon, Kyoya Tachibana, Laplace and the Dread Lich from Normal. The Reincarnated Bosses test mob no longer spawns. Spawn eggs and commands still work.
 - Apotheosis 8.9.0 (gear affixes, gems, new enchanting and loot rarities) with its libraries Apothic Attributes 2.11.0, Apothic Enchanting 1.6.4 and Apothic Spawners 1.4.0. Install all four in the CurseForge app. Quest rewards and Tensura balance not yet checked against it.
@@ -28,6 +31,7 @@ Versioning: [SemVer](https://semver.org/).
 
 ### Server pack
 - The server zip no longer includes those configs either; the mods generate their defaults on first start.
+- The difficulty-scaled spawns and the safe-spawn script are in the zip's `kubejs/` folder, and the Benimaru/Ogre spawn overrides are in `kubejs/data/`. They follow the server's difficulty setting.
 
 ## [0.2.4] - 2026-10-07
 

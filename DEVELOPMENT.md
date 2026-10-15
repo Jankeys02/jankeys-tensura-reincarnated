@@ -9,9 +9,9 @@ There are two separate things, and they travel by different routes:
 | What | Where it lives | How it reaches you |
 |------|----------------|--------------------|
 | **Configs, quests, KubeJS scripts, docs** | This Git repo | `git pull` |
-| **Mod jars** (the `.jar` files in `mods/`) | CurseForge | The CurseForge app installs and updates them |
+| **Mod jars** (the `.jar` files in `mods/`) | CurseForge, listed in `packwiz/` | Players: the CurseForge app. Developers: the packwiz installer on a Prism instance (recommended, see below) installs and updates them at every launch |
 
-**Mod jars are not in the repo.** `git pull` never adds, removes or updates a mod. If a change needs a new mod, the person who made it must say so (in the commit message, the CHANGELOG, or a message), and everyone installs it themselves.
+**Mod jars are not in the repo.** `git pull` alone never adds, removes or updates a mod; the mod list in `packwiz/` does, but only through the packwiz installer. On a Prism dev instance the installer runs at every launch. On a CurseForge instance, whoever adds a mod must say so (commit message, CHANGELOG), and everyone installs it by hand.
 
 ## Which setup to use
 
@@ -91,7 +91,7 @@ The mod list lives in [packwiz/](packwiz/) as one small text file per mod (name,
 2. In the `packwiz/` folder run `packwiz curseforge add <CurseForge mod URL>`.
 3. Open the new `mods/<name>.pw.toml`. If the mod is visual/HUD/sound/minimap only, set `side = "client"`. Otherwise leave `both`. If unsure, leave `both` and test the server.
 4. Run `packwiz refresh`, then commit `packwiz/` together with that mod's `config/` files and a `CHANGELOG.md` line.
-5. Use the CurseForge app as normal to install the same mod in your own game and test it.
+5. Test it. On a Prism dev instance (recommended): push your branch, put the branch name in the URL inside your local `pre-launch.bat` (see "Your own mod changes" below, do not commit that edit) and launch; the installer fetches the mod. On a CurseForge instance: install the same mod in the CurseForge app by hand.
 
 `packwiz curseforge add` also adds the mod's required libraries. Removing: `packwiz remove <name>`. Updating everything: `packwiz update --all`.
 
@@ -173,7 +173,7 @@ Every client release should come with a matching server update, so versions matc
 - **Two people editing the same quest chapter** will cause a *merge conflict* (Git can't combine both edits). Keep one person per chapter at a time, and pull before you start.
 - **Don't commit** worlds (`saves/`), `logs/`, `crash-reports/`, screenshots, or anything with your username or account tokens. These are meant to stay local; if `git status` lists them, leave them out of `git add`.
 - **Config files rewrite themselves.** Mods often rewrite their own config when the game starts, so `git status` can show changes you didn't make (for example `DistantHorizons.toml`). Only commit the ones you changed on purpose.
-- **Adding or removing a mod?** Say so clearly in your commit/PR and in `CHANGELOG.md`, since Git can't carry the jar. The release maintainer updates the CurseForge pack.
+- **Adding or removing a mod?** Say so clearly in your commit/PR and in `CHANGELOG.md`. The mod list (`packwiz/`) is what the Prism installer, the server pack and the CurseForge release zip are built from, so there is nothing else to update.
 
 ## Releasing (owner)
 
