@@ -20,6 +20,14 @@ jobs:
           curl -sSL -o srv/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
           sed -i "s#@PACK_URL@#${URL}#; s#@VERSION@#${GITHUB_REF_NAME}#" srv/install-mods.* srv/README.txt
           (cd srv && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-server.zip" .)
+      - name: Prism dev instance zip
+        run: |
+          mkdir -p prism-zip/minecraft
+          sed 's/\r$//; s/$/\r/' prism/instance.cfg > prism-zip/instance.cfg
+          cp prism/mmc-pack.json prism-zip/
+          sed 's/\r$//; s/$/\r/' pre-launch.bat > prism-zip/minecraft/pre-launch.bat
+          curl -sSL -o prism-zip/minecraft/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+          (cd prism-zip && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-prism-dev.zip" .)
       - name: Release notes from CHANGELOG.md
         run: python .github/scripts/release-notes.py "${GITHUB_REF_NAME}"
       - uses: softprops/action-gh-release@v2
@@ -29,5 +37,6 @@ jobs:
           files: |
             jankeys-tensura-*-curseforge.zip
             jankeys-tensura-*-server.zip
+            jankeys-tensura-*-prism-dev.zip
             changelog-client.md
             changelog-server.md

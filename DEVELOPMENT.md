@@ -101,6 +101,8 @@ The mod list lives in [packwiz/](packwiz/) as one small text file per mod (name,
 
 ### Automatic mod sync (Prism Launcher / MultiMC)
 
+**Shortcut:** download `jankeys-tensura-vX.Y.Z-prism-dev.zip` from the latest [GitHub release](https://github.com/Jankeys02/jankeys-tensura-reincarnated/releases) (under **Assets**) and import it in Prism (**Add Instance**, **Import**). It holds the instance settings (Minecraft 1.21.1, NeoForge 21.1.249, 8 GB RAM, the pre-launch command), `pre-launch.bat` and the installer jar, so you can skip steps 1 to 4 below. The first launch sets up the repo and installs the mods. GitHub builds the zip at every release from `prism/` (`instance.cfg`, `mmc-pack.json`) plus `pre-launch.bat` and the installer jar. To change the instance defaults (RAM, Minecraft or NeoForge version), edit the files in `prism/`.
+
 Use a separate Prism instance, never the CurseForge one. Mods then follow `packwiz/` without any manual install. Tested on 2026-10-15: after the blocked files are in place, the instance installs and starts. If a step differs on your machine, fix this section in your Pull Request.
 
 1. In Prism click **Add Instance**, choose **Custom**, set a name (for example `Tensura Dev`), Minecraft `1.21.1` and NeoForge `21.1.249`, then **OK**.
@@ -111,13 +113,13 @@ Use a separate Prism instance, never the CurseForge one. Mods then follow `packw
 
    ![Right-click menu of the instance with Edit and Folder marked](docs/images/prism-instance-menu.png)
 
-3. Set up the repo in that same game folder as in "One-time setup" above, so `git pull` brings configs and quests. This also puts `pre-launch.bat` there.
+3. Get `pre-launch.bat` into that game folder: set the repo up there as in "One-time setup" above (this also brings configs and quests), or copy the file from the repo by hand.
 
 4. Right-click the instance, **Edit...**, **Settings**, tab **Custom Commands**. Tick **Override Global Settings** and set **Pre-launch Command** to:
    ```
-   cmd /c pre-launch.bat
+   cmd /c .\pre-launch.bat
    ```
-   The script runs `git pull --ff-only --autostash` (a failed pull, for example because of local edits, does not stop the launch) and then the packwiz installer with `-s client`. Prism runs the command without a shell, so `&&` or `;` in the field do not work; that is why the two steps live in the script.
+   The script sets the repo up on its first run, pulls on every later run (`git pull --ff-only --autostash`; a failed pull, for example because of local edits, does not stop the launch) and then runs the packwiz installer with `-s client`. The `.\` matters: on some Windows setups `cmd` does not look in the current folder. Prism runs the command without a shell, so `&&` or `;` in the field do not work; that is why the two steps live in the script.
 
    ![Instance settings, Custom Commands tab, with the pre-launch command filled in](docs/images/prism-pre-launch-command.png)
 
@@ -185,4 +187,4 @@ Versions follow [SemVer](https://semver.org/): `MAJOR.MINOR.PATCH`.
    git tag v1.2.0
    git push origin main --tags
    ```
-4. GitHub builds the zips and puts the client and server changelogs in the release notes (also as `changelog-client.md` and `changelog-server.md` under Assets). Upload the client zip and the server zip to CurseForge and paste each changelog. See [RELEASE_GUIDE.md](RELEASE_GUIDE.md).
+4. GitHub builds the zips and puts the client and server changelogs in the release notes (also as `changelog-client.md` and `changelog-server.md` under Assets). Upload the client zip and the server zip to CurseForge and paste each changelog. The `-prism-dev.zip` stays on GitHub only. See [RELEASE_GUIDE.md](RELEASE_GUIDE.md).
