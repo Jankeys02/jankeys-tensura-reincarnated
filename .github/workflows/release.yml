@@ -26,7 +26,6 @@ jobs:
           sed 's/\r$//; s/$/\r/' prism/instance.cfg > prism-zip/instance.cfg
           cp prism/mmc-pack.json prism-zip/
           sed 's/\r$//; s/$/\r/' pre-launch.bat > prism-zip/minecraft/pre-launch.bat
-          curl -sSL -o prism-zip/minecraft/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
           (cd prism-zip && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-prism-dev.zip" .)
       - name: Release notes from CHANGELOG.md
         run: python .github/scripts/release-notes.py "${GITHUB_REF_NAME}"

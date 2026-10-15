@@ -10,8 +10,12 @@ NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (
 - **Ranked Paths:** quests grant ranks as you progress. The Miner's Path grows Ultimine from 8 to 64 blocks (with hunger cost and cooldown). The Explorer's, Homesteader's and Hunter's Paths add claimed chunks, homes and bonus health, and each rank grants a Tensura skill.
 - **Dimension gate:** in survival, three dimensions (Eternal Starlight, Chrono Dawn, The Afterdark) are locked until you have visited the Nether or summoned a Wither. Creative, spectator and operators are exempt.
 - **Difficulty-scaled spawns:** the strongest mobs only spawn naturally on higher difficulties. Ogres appear from Normal; Benimaru, Primordial Noir, Arch Daemon, Salamander, Feathered Serpent and Sissie only on Hard; Greater Daemon, Kyoya Tachibana, Laplace and the Dread Lich from Normal. Spawn eggs and commands still work, and the table is easy to edit (`kubejs/server_scripts/spawn_by_difficulty.js`).
+- **Safe spawn:** if the world spawn puts you on top of a tall tree canopy or a structure (for example the Thornborn Towers), you are moved to open ground on your first login and on respawns near spawn. A base you build inside a structure is left alone at later logins.
+- **Spread-out landmarks:** the Tensura boss structures, the adventurer guild, the Paths Gate and the Mysticism portals share one placement rule, so they lie at least about 800 blocks apart. They also generate in Terralith biomes.
+- **Sensible defaults:** new installs start with tuned video, sound and key-binding defaults and mod client configs (through Default Options); your own settings are not overwritten.
+- **Quality of life:** AttributeFix (lifts vanilla attribute caps for Tensura's high stats), No Chat Reports, FastSuite, Connectivity, Faster Ladder Climbing, Overflowing Bars, Obscura's Simple Storage and Mod Name Tooltip.
 - **World:** Terralith biomes plus four extra dimensions (The Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark).
-- **Structures and loot:** the YUNG's suite, Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage.
+- **Structures and loot:** the YUNG's suite, Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage, and Apotheosis (gear affixes, gems and new enchanting).
 - **Bosses:** L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures (some boss structures are rare and may be far from spawn).
 - **Homestead:** Farmer's Delight, Comforts, Supplementaries, Waystones.
 - **Performance:** Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons.
@@ -20,6 +24,7 @@ NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (
 **Requirements**
 - Minecraft 1.21.1, NeoForge 21.1.249
 - 6-8 GB RAM allocated (8 GB recommended with shaders / Distant Horizons)
+- Recommended Java arguments: `-XX:+UseZGC -XX:+ZGenerational` (Java 21). Distant Horizons warns about stuttering with the default garbage collector (G1); ZGC avoids it, at the cost of some extra RAM. Put them in the launcher's Java arguments for the instance. The Prism dev instance (see DEVELOPMENT.md) has them set already.
 
 **Credits** — the full mod list is in [`packwiz/mods`](packwiz/mods); all mods belong to their authors.
 

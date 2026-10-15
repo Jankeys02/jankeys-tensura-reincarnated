@@ -23,6 +23,9 @@ Versioning: [SemVer](https://semver.org/).
 - Battle Music: it crashed the game when a boss fight started (e.g. the Elemental Colossus).
 - The pack no longer ships config files for the mods added since 0.2.1 (Cataclysm, Mowzie's Mobs, Twilight Forest, Eternal Starlight, Chrono Dawn, Farmer's Delight, Comforts, Supplementaries, the Tensura addons, Jade and others). Each mod creates its own default config on first launch.
 
+### Fixed
+- You no longer spawn on top of a tall structure (such as the Thornborn Towers) near the world spawn: on your first login and on respawns near spawn you are moved to open ground outside it. A base you built inside a structure is not touched at later logins.
+
 ### Server pack
 - The server zip no longer includes those configs either; the mods generate their defaults on first start.
 
