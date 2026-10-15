@@ -1,5 +1,15 @@
 # packwiz pack
 
+[packwiz](https://packwiz.infra.link) keeps the mod list as plain text: `pack.toml` (Minecraft and NeoForge version), `index.toml` (every file with a hash) and one `mods/<name>.pw.toml` per mod (name, exact file, CurseForge project and file ID, side). No jars are stored. Git therefore shows every added, removed or updated mod in a commit, and several people can change the list through Pull Requests.
+
+Three things read this folder:
+
+- **Developers** on Prism sync their mods from it at each launch (packwiz installer, `-s client`).
+- **Servers** do the same with `-s server`.
+- **Releases:** pushing a `v*` tag builds the CurseForge zip from it.
+
+Setup steps for each are in [DEVELOPMENT.md](../DEVELOPMENT.md). Keep `index.toml` in step with the mod files: run `packwiz refresh` before every commit, or the installer reports a hash mismatch.
+
 The mod list, as small text files (one per mod) instead of jars. `side` in each file says where it belongs: `client` or `both`.
 Edit with [packwiz](https://packwiz.infra.link) from this folder.
 

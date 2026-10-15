@@ -13,6 +13,16 @@ There are two separate things, and they travel by different routes:
 
 **Mod jars are not in the repo.** `git pull` never adds, removes or updates a mod. If a change needs a new mod, the person who made it must say so (in the commit message, the CHANGELOG, or a message), and everyone installs it themselves.
 
+## Which setup to use
+
+| Who | Setup | Mods come from |
+|-----|-------|----------------|
+| **Players** | CurseForge app, install the published pack | The CurseForge pack (built from `packwiz/` on every release) |
+| **Developers** (anyone who changes the pack) | A separate **Prism Launcher** instance, see "Automatic mod sync" below | `packwiz/` on `main`, installed automatically at every launch |
+| **Server** | packwiz installer, see "Server pack" below | `packwiz/`, with `-s server` |
+
+Why developers use Prism: the packwiz installer and the CurseForge app both manage `mods/`, so they must not share a folder. With Prism every developer gets exactly the mods listed on `main` (or on a branch under test) without installing anything by hand. CurseForge stays the way players get the pack; developers keep a CurseForge instance only to test the finished release zip the way a player would.
+
 The repo is laid out like a Minecraft *instance folder* (the folder holding `mods`, `config`, `saves`). So the repo root and the instance folder are the same place.
 
 ## One-time setup
@@ -85,11 +95,37 @@ The mod list lives in [packwiz/](packwiz/) as one small text file per mod (name,
 
 `packwiz curseforge add` also adds the mod's required libraries. Removing: `packwiz remove <name>`. Updating everything: `packwiz update --all`.
 
-**After pulling** (everyone else): `git pull`, then look at what changed with `git diff --stat HEAD@{1} -- packwiz/mods`. New files there are new mods; install them in the CurseForge app. Removed files are mods to delete.
+**After pulling** (everyone else): `git pull`. On Prism the mods update by themselves at the next launch. On a CurseForge instance, look at what changed with `git diff --stat HEAD@{1} -- packwiz/mods`: new files there are new mods to install in the CurseForge app, removed files are mods to delete.
 
-**Do not run the packwiz installer on your CurseForge instance.** The CurseForge app and the installer both manage `mods/` and will overwrite each other. The installer is for servers and for launchers other than CurseForge.
+**Do not run the packwiz installer on a CurseForge instance.** The CurseForge app and the installer both manage `mods/` and will overwrite each other, which leaves duplicate or missing mods. The installer is for Prism/MultiMC instances and servers.
 
-**Six mods can't be fetched automatically** (their authors block outside download): Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Enigmatic, Unique Monsters. The CurseForge app downloads them normally; for a server, see SERVER_HOSTING.md.
+### Automatic mod sync (Prism Launcher / MultiMC)
+
+Use a separate Prism instance, never the CurseForge one. Mods then follow `packwiz/` without any manual install. Tested on 2026-10-15: after the blocked files are in place, the instance installs and starts. If a step differs on your machine, fix this section in your Pull Request.
+
+1. In Prism create an instance: Minecraft 1.21.1, NeoForge 21.1.249.
+2. Download `packwiz-installer-bootstrap.jar` from the [packwiz-installer-bootstrap releases](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and put it in the instance's game folder (right-click the instance, **Folder**, open `minecraft` or `.minecraft`).
+3. Right-click the instance, **Edit**, **Settings**, **Custom commands**, tick **Custom commands**, and set **Pre-launch command** to:
+   ```
+   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
+   ```
+4. Set up the repo in that same game folder as in "One-time setup" above, so `git pull` brings configs and quests.
+
+Every launch now adds, removes and updates the mods to match `main`. Details:
+
+- **Your own mod changes:** after `packwiz curseforge add` and `packwiz refresh`, push your branch. To test it before the merge, change `main` in the Pre-launch URL to your branch name (change it back afterwards). The URL only sees what is pushed to GitHub.
+- **Blocked mods:** 20 files (see the list below) can't be downloaded by the installer, so on the first launch it shows a "Failed file downloads" window and installs nothing until they are in place. Easiest: copy them from a CurseForge instance of the pack (same folder names: `mods` and `resourcepacks`), or click **Open missing mods** and download them yourself. Then launch again; the installer leaves them alone afterwards. Never click **Ignore update**, it skips the whole sync.
+- **Client-only mods** (`side = "client"`) are installed because of `-s client`. Mods marked `server` are skipped.
+- **Worlds:** copy a world from the CurseForge instance's `saves/` folder if you want to keep it.
+- **Releases:** player-facing releases still go through CurseForge (see "Releasing"). Before a release, install the zip in a CurseForge instance once and check it starts.
+
+**Blocked files** (their authors block downloads outside CurseForge; the CurseForge app downloads them normally):
+
+- Client and server need these **6 mods**: Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters. For a server, see SERVER_HOSTING.md.
+- Client only, **8 more mods**: Entity Culling, First-person Model, Manas Cosmetics, Modefite, Not Enough Animations, Skin Layers 3D, Talking Heads, The Immersive Music Mod.
+- Client only, **6 resource packs** (go in `resourcepacks`): Drigo 3D Lantern's x Punchy, Fresh Animations, Fresh Animations: Extensions, Fyoncle's 3D Trims, Refined Buckets, Refined Torches.
+
+The list was read from the installer's error window on 2026-10-15. When you add a mod, the installer tells you if it is blocked; add it here.
 
 ## Server pack
 
@@ -101,7 +137,7 @@ On a server machine with the NeoForge 21.1.249 server installed:
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
 ```
 
-Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the six blocked jars by hand. `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
+Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the six blocked server mods by hand (list above; the client-only ones are not needed). `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
 
 Every client release should come with a matching server update, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
 

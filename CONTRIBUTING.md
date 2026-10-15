@@ -15,7 +15,7 @@ You need the pack installed (from [CurseForge](https://www.curseforge.com/minecr
 
 ## Adding, removing or updating a mod
 
-Mods are tracked in [`packwiz/`](packwiz/) (one small file per mod), not as jars. Add a mod with `packwiz curseforge add <CurseForge link>`, set whether it's client-only, run `packwiz refresh`, and commit `packwiz/` together with the mod's `config/` files and a line in `CHANGELOG.md`. The commands and rules are in [DEVELOPMENT.md](DEVELOPMENT.md) and [packwiz/README.md](packwiz/README.md). A PR that changes a mod isn't done until the reviewer has installed it.
+Mods are tracked in [`packwiz/`](packwiz/) (one small file per mod), not as jars. Add a mod with `packwiz curseforge add <CurseForge link>`, set whether it's client-only, run `packwiz refresh`, and commit `packwiz/` together with the mod's `config/` files and a line in `CHANGELOG.md`. The commands and rules are in [DEVELOPMENT.md](DEVELOPMENT.md) and [packwiz/README.md](packwiz/README.md). Developers sync mods automatically through a Prism instance (see DEVELOPMENT.md, "Which setup to use"). A PR that changes a mod isn't done until the reviewer has installed it.
 
 ## Changelog check
 
