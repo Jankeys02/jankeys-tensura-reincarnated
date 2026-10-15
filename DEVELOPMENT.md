@@ -111,18 +111,19 @@ Use a separate Prism instance, never the CurseForge one. Mods then follow `packw
 
    ![Right-click menu of the instance with Edit and Folder marked](docs/images/prism-instance-menu.png)
 
-3. Right-click the instance, **Edit...**, **Settings**, tab **Custom Commands**. Tick **Override Global Settings** and set **Pre-launch Command** to:
+3. Set up the repo in that same game folder as in "One-time setup" above, so `git pull` brings configs and quests. This also puts `pre-launch.bat` there.
+
+4. Right-click the instance, **Edit...**, **Settings**, tab **Custom Commands**. Tick **Override Global Settings** and set **Pre-launch Command** to:
    ```
-   "$INST_JAVA" -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
+   cmd /c pre-launch.bat
    ```
+   The script runs `git pull --ff-only --autostash` (a failed pull, for example because of local edits, does not stop the launch) and then the packwiz installer with `-s client`. Prism runs the command without a shell, so `&&` or `;` in the field do not work; that is why the two steps live in the script.
 
    ![Instance settings, Custom Commands tab, with the pre-launch command filled in](docs/images/prism-pre-launch-command.png)
 
-4. Set up the repo in that same game folder as in "One-time setup" above, so `git pull` brings configs and quests.
+Every launch now pulls the repo and adds, removes and updates the mods to match `main`. Details:
 
-Every launch now adds, removes and updates the mods to match `main`. Details:
-
-- **Your own mod changes:** after `packwiz curseforge add` and `packwiz refresh`, push your branch. To test it before the merge, change `main` in the Pre-launch URL to your branch name (change it back afterwards). The URL only sees what is pushed to GitHub.
+- **Your own mod changes:** after `packwiz curseforge add` and `packwiz refresh`, push your branch. To test it before the merge, change `main` in the URL inside `pre-launch.bat` to your branch name (do not commit that change). The URL only sees what is pushed to GitHub. A pull of your own branch needs `git checkout <branch>` first.
 - **Blocked mods:** 20 files (see the list below) can't be downloaded by the installer, so on the first launch it shows a "Failed file downloads" window and installs nothing until they are in place. Easiest: copy them from a CurseForge instance of the pack (same folder names: `mods` and `resourcepacks`), or click **Open missing mods** and download them yourself. Then launch again; the installer leaves them alone afterwards. Never click **Ignore update**, it skips the whole sync.
 
   ![The installer's "Failed file downloads" window](docs/images/packwiz-failed-downloads.png)
