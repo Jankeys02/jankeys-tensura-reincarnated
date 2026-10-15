@@ -6,7 +6,7 @@ Versioning: [SemVer](https://semver.org/).
 
 ### Added
 - Difficulty-scaled spawns: the strongest mobs now only spawn naturally on higher difficulties. Ogre from Normal; Benimaru, Primordial Noir, Arch Daemon, Salamander, Feathered Serpent and Sissie on Hard; Greater Daemon, Kyoya Tachibana, Laplace and the Dread Lich from Normal. The Reincarnated Bosses test mob no longer spawns. Spawn eggs and commands still work.
-- Apotheosis 8.9.0 (gear affixes, gems, new enchanting and loot rarities) with its libraries Apothic Attributes 2.11.0, Apothic Enchanting 1.6.4 and Apothic Spawners 1.4.0. Requested by a friend. Install all four in the CurseForge app. Quest rewards and Tensura balance not yet checked against it.
+- Apotheosis 8.9.0 (gear affixes, gems, new enchanting and loot rarities) with its libraries Apothic Attributes 2.11.0, Apothic Enchanting 1.6.4 and Apothic Spawners 1.4.0. Install all four in the CurseForge app. Quest rewards and Tensura balance not yet checked against it.
 - AttributeFix (lifts vanilla attribute caps, useful with Tensura's very high stats), No Chat Reports, FastSuite (faster crafting and recipe lookups), Connectivity (fixes packet-size disconnects in big modpacks), Faster Ladder Climbing, Overflowing Bars (with its library Puzzles Lib), Obscura's Simple Storage and Mod Name Tooltip. Suggested by a tester.
 - Quest book: a hidden quest in Blood and Avalon that explains the Parasite skill (race swap on every login, Merger and Hostile bonds, how to leave) once you hold it.
 
