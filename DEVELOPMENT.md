@@ -27,7 +27,20 @@ The repo is laid out like a Minecraft *instance folder* (the folder holding `mod
 
 ## One-time setup
 
-You need the pack installed first, so you have the right mods.
+### Recommended: a Prism dev instance
+
+The mods install and update themselves at every launch, and you never touch the CurseForge folder.
+
+1. Install [Git](https://git-scm.com) and [Prism Launcher](https://prismlauncher.org) if you don't have them.
+2. On the latest [GitHub release](https://github.com/Jankeys02/jankeys-tensura-reincarnated/releases), under **Assets**, download `jankeys-tensura-vX.Y.Z-prism-dev.zip`.
+3. In Prism click **Add Instance**, then **Import**, and choose that zip.
+4. Launch the instance. The first launch sets up the repo (configs, scripts) and installs the mods. If a "Failed file downloads" window appears, see "Blocked files" below.
+
+Details, and how to build the instance by hand, are in "Automatic mod sync (Prism Launcher / MultiMC)" below.
+
+### Alternative: use your CurseForge instance
+
+Only if you don't want Prism. Mods are then installed by hand in the CurseForge app, and you must never run the packwiz installer there. You need the pack installed first, so you have the right mods.
 
 1. Install the pack from CurseForge (or ask for the mod list if it isn't published yet).
 2. Install [Git](https://git-scm.com) if you don't have it.
@@ -126,7 +139,7 @@ Use a separate Prism instance, never the CurseForge one. Mods then follow `packw
 Every launch now pulls the repo and adds, removes and updates the mods to match `main`. Details:
 
 - **Your own mod changes:** after `packwiz curseforge add` and `packwiz refresh`, push your branch. To test it before the merge, change `main` in the URL inside `pre-launch.bat` to your branch name (do not commit that change). The URL only sees what is pushed to GitHub. A pull of your own branch needs `git checkout <branch>` first.
-- **Blocked mods:** 20 files (see the list below) can't be downloaded by the installer, so on the first launch it shows a "Failed file downloads" window and installs nothing until they are in place. Easiest: copy them from a CurseForge instance of the pack (same folder names: `mods` and `resourcepacks`), or click **Open missing mods** and download them yourself. Then launch again; the installer leaves them alone afterwards. Never click **Ignore update**, it skips the whole sync.
+- **Blocked mods:** some files (see the list below) can't be downloaded by the installer, so on the first launch it shows a "Failed file downloads" window and installs nothing until they are in place. Easiest: copy them from a CurseForge instance of the pack (same folder names: `mods` and `resourcepacks`), or click **Open missing mods** and download them yourself. Then launch again; the installer leaves them alone afterwards. Never click **Ignore update**, it skips the whole sync.
 
   ![The installer's "Failed file downloads" window](docs/images/packwiz-failed-downloads.png)
 - **Client-only mods** (`side = "client"`) are installed because of `-s client`. Mods marked `server` are skipped.
@@ -135,7 +148,7 @@ Every launch now pulls the repo and adds, removes and updates the mods to match 
 
 **Blocked files** (their authors block downloads outside CurseForge; the CurseForge app downloads them normally):
 
-- Client and server need these **6 mods**: Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters. For a server, see SERVER_HOSTING.md.
+- Client and server need these **6 mods** (8 files: Easy NPC is three jars, Easy NPC, Core and Config UI): Custom Chest Menus, Easy NPC, FiltPick, Tensura: Better Subordinates, Tensura: Enigmatic, Tensura: Unique Monsters. For a server, see SERVER_HOSTING.md.
 - Client only, **8 more mods**: Entity Culling, First-person Model, Manas Cosmetics, Modefite, Not Enough Animations, Skin Layers 3D, Talking Heads, The Immersive Music Mod.
 - Client only, **6 resource packs** (go in `resourcepacks`): Drigo 3D Lantern's x Punchy, Fresh Animations, Fresh Animations: Extensions, Fyoncle's 3D Trims, Refined Buckets, Refined Torches.
 
@@ -153,7 +166,7 @@ On a server machine with the NeoForge 21.1.249 server installed:
 java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/Jankeys02/jankeys-tensura-reincarnated/main/packwiz/pack.toml
 ```
 
-Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the six blocked server mods by hand (list above; the client-only ones are not needed). `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
+Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the blocked server mods by hand (list above; the client-only ones are not needed). `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
 
 Every client release should come with a matching server update, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
 
@@ -165,7 +178,7 @@ Every client release should come with a matching server update, so versions matc
 | Packwiz index check | `.github/workflows/packwiz-check.yml` | A pull request touching `packwiz/` fails if `packwiz refresh` would change `index.toml` |
 | Weekly mod updates | `.github/workflows/mod-updates.yml` | Mondays (or run it by hand): runs `packwiz update --all` and opens a pull request. Needs Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests". Check it for betas and downgrades and add a changelog line before merging |
 | Release build | `.github/workflows/release.yml` | Pushing a `v*` tag. Fails if the tag differs from the `package.json` version |
-| Server zip test build | `.github/workflows/server-bundle.yml` | By hand: builds the finished server zip without a release |
+| Server zip test build | `.github/workflows/server-bundle.yml` | By hand: builds the finished server zip without a release; with `accept_eula` = yes it also starts the server once on the runner as a smoke test |
 | Publish to CurseForge | `.github/workflows/curseforge-publish.yml` | By hand only, with a confirmation (see RELEASE_GUIDE.md) |
 | `python .github/scripts/release.py X.Y.Z [--push]` | your PC | Bumps `package.json`, dates the changelog section, commits and tags |
 | `python .github/scripts/doctor.py` | your PC | Lists top-level folders hidden by the whitelist `.gitignore` (release.py runs it) |

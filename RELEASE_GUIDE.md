@@ -60,7 +60,7 @@ Pushing the tag starts [`.github/workflows/release.yml`](.github/workflows/relea
 - `jankeys-tensura-v0.3.0-prism-dev.zip`: the developer instance for Prism (not for players).
 - `changelog-client.md`, `changelog-server.md` and, when it changed, `pack-description.md`.
 
-Check the **Actions** tab on GitHub; when it's green, the files are on the **Releases** page under **Assets**. If the build fails, fix the cause and release the next patch version. Don't reuse the tag. To try the server zip without releasing, run **Actions > Server zip (test build) > Run workflow**; it keeps the zip as a downloadable artifact for 3 days.
+Check the **Actions** tab on GitHub; when it's green, the files are on the **Releases** page under **Assets**. If the build fails, fix the cause and release the next patch version. Don't reuse the tag. To try the server zip without releasing, run **Actions > Server zip (test build) > Run workflow**; it keeps the zip as a downloadable artifact for 3 days. Type `yes` in the **accept_eula** box to also run a smoke test: the zip is unzipped on the runner, started once (you accept the Minecraft EULA by typing yes) and stopped as soon as the server prints "Done"; the console log is kept as an artifact. The mods that can't be bundled are missing in that test, so a pass means the server boots without them.
 
 ## Publish on CurseForge
 

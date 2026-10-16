@@ -4,7 +4,7 @@ Thanks for taking a look. This is a small project, and issues and Pull Requests 
 
 ## Get set up
 
-You need the pack installed (from [CurseForge](https://www.curseforge.com/minecraft/modpacks/jankeys-tensura-reincarnated)) and Git. [DEVELOPMENT.md](DEVELOPMENT.md) has the click-by-click setup, how to stay in sync, and how the repo is laid out. Read it first.
+You need Git and Prism Launcher (a separate dev instance that installs the mods for you). [DEVELOPMENT.md](DEVELOPMENT.md) has the click-by-click setup, how to stay in sync, and how the repo is laid out. Read it first.
 
 ## Making a change
 
