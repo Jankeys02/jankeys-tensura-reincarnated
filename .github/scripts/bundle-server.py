@@ -65,9 +65,10 @@ if r.returncode:
              "add its CurseForge project id to .github/curseforge-required-deps.txt.")
 (srv / "packwiz-installer-bootstrap.jar").unlink(missing_ok=True)
 (srv / "packwiz.json").unlink(missing_ok=True)
+(srv / "packwiz-installer.jar").unlink(missing_ok=True)
 
 have = {p.name for p in (srv / "mods").glob("*")} if (srv / "mods").is_dir() else set()
-missing = []
+missing, required = [], []
 for p in sorted(Path("packwiz").rglob("*.pw.toml")):
     m = tomllib.loads(lf(p))
     if m.get("side") == "client" or p.parent.name != "mods":
@@ -77,6 +78,8 @@ for p in sorted(Path("packwiz").rglob("*.pw.toml")):
         if pid not in blocked:
             sys.exit(f"{m.get('name', p.stem)} was not installed and is not in curseforge-required-deps.txt")
         missing.append(f"{m.get('name', p.stem)}: https://www.curseforge.com/projects/{pid}")
+        required.append(f"{m.get('filename')}|{m.get('name', p.stem)}|https://www.curseforge.com/projects/{pid}")
+(srv / "required-mods.txt").write_text("".join(r + "\n" for r in required), encoding="utf-8")  # read by start.sh / start.bat
 (srv / "MISSING-MODS.txt").write_text(
     "Mods that could not be bundled (their authors block downloads outside CurseForge).\n"
     "Download each file from its link and put it in the mods folder before the first start.\n\n"
