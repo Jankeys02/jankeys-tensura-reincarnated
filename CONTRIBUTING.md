@@ -31,6 +31,30 @@ Use the [issue templates](.github/ISSUE_TEMPLATE); they ask for what's needed to
 
 **Big topics get an umbrella issue with sub-issues.** A large change (for example "add the tier 2 mods") is one umbrella issue that holds the decisions. Each step (for example one mod group) gets its own normal issue with a checklist of mods, tests and quest chapter, linked to the umbrella as a GitHub *sub-issue* (open the umbrella, **Create sub-issue** or **Add existing issue**). The umbrella then shows how many sub-issues are done. Close a sub-issue when its checklist is finished. Use labels for the kind of issue (`bug`, `enhancement`, `question`).
 
+## Working together on one change
+
+One issue, one branch, one Pull Request. Example: issue #7 (farming mods) and its draft PR on the branch `farming-mods`.
+
+1. **Open the PR early as a draft**, and put `Refs #<issue>` in its description. That puts the PR in the issue's timeline. Use `Refs`, not `Closes`, so merging does not close the issue before its checklist is done.
+2. **Say what you are working on** in a comment on the issue, or assign yourself to it. Two people changing the same file at once causes merge conflicts.
+3. **Everyone works on the same branch.** People the maintainer has invited as collaborators (below) can push to it; everyone else forks the repo and sends a PR to that branch.
+4. **Tick the issue's checklist** as parts are finished. A sub-issue is closed by hand once the whole checklist is done.
+5. **Take the PR out of draft** when it is ready. `main` is protected by a ruleset (**Settings > Rules > Rulesets > Protect main**): changes need a PR, one approval and a passing "Changelog check", and force-pushes and deletion are blocked. Only the owner role can bypass it.
+
+**Editing without Git.** On GitHub, switch to the branch (top left), open a file, click the pencil icon, change it and click **Commit changes**. This is enough for texts, `CHANGELOG.md`, quests and scripts. Adding a mod needs the `packwiz` command (see above).
+
+**Inviting a collaborator (owner).** Repo **Settings > Collaborators > Add people**, enter the GitHub name, role **Write**. They accept by e-mail. Write access lets them push branches, edit and assign issues and open PRs; it does not let them change `main` directly.
+
+## Trying a change before it is merged
+
+Players who only play can check a change in three ways, from simplest to most work:
+
+1. **Add the mods by hand** (best for one new mod group): open the pack in the CurseForge app, **Add More Content**, install the mods listed in the issue (NeoForge 1.21.1), play, and report in the issue or on Discord. Use a copy of the instance so the real world is safe.
+2. **Pre-release:** the maintainer tags `vX.Y.Z-rc.N`, which builds a pre-release zip, and publishes it to CurseForge as a beta ([RELEASE_GUIDE.md](RELEASE_GUIDE.md)). Players update the pack in the app.
+3. **Prism dev instance on the branch:** push the branch, then change `main` to the branch name in the installer URL inside `pre-launch.bat` (do not commit that change) and launch. See DEVELOPMENT.md, "Your own mod changes".
+
+Report what you found in the issue: what you did, what worked, what broke, and the crash report or `latest.log` if the game crashed.
+
 ## Releasing
 
 See [RELEASE_GUIDE.md](RELEASE_GUIDE.md). Only the maintainer cuts releases.
