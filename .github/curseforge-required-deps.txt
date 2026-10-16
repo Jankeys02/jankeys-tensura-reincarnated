@@ -5,5 +5,7 @@
 1299711  # Tensura: Enigmatic
 1489273  # Tensura: Unique Monsters
 1308987  # Easy NPC: Core
+559312   # Easy NPC
+1214728  # Easy NPC: Config UI
 1343005  # Custom Chest Menus
 700141   # FiltPick
