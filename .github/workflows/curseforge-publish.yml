@@ -1,0 +1,36 @@
+name: Publish to CurseForge
+# Manual only: nothing uploads when you push a tag. After a release is built, go to Actions >
+# "Publish to CurseForge" > Run workflow, enter the tag twice (the second time confirms), and it uploads the
+# release's client and server zips with their changelogs. Needs the CURSEFORGE_TOKEN secret and the
+# CURSEFORGE_PROJECT_ID variable (Settings > Secrets and variables > Actions).
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to publish, for example v0.3.0'
+        required: true
+      confirm:
+        description: 'Type the tag again to confirm. This publishes to CurseForge.'
+        required: true
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag }}
+      CONFIRM: ${{ inputs.confirm }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+      CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check confirmation and credentials
+        run: |
+          [ "$TAG" = "$CONFIRM" ] || { echo "::error::The two tag fields differ; nothing was uploaded."; exit 1; }
+          [ -n "$CURSEFORGE_TOKEN" ] && [ -n "$CURSEFORGE_PROJECT_ID" ] || { echo "::error::Set the CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable first."; exit 1; }
+      - uses: actions/checkout@v4
+        with: { ref: '${{ inputs.tag }}' }
+      - name: Download the release files
+        run: gh release download "$TAG" --pattern '*-curseforge.zip' --pattern '*-server.zip' --pattern 'changelog-*.md'
+      - name: Upload
+        run: python .github/scripts/curseforge-upload.py "$TAG" *-curseforge.zip *-server.zip

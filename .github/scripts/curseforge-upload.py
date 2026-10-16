@@ -1,5 +1,5 @@
-"""Upload the client and server zips to CurseForge. Optional: the release workflow runs this only when the
-CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable are set.
+"""Upload the client and server zips to CurseForge. Run only by the manual "Publish to CurseForge" workflow
+(never on a tag push). Needs the CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable.
 Usage: curseforge-upload.py <tag> <client.zip> <server.zip>   (reads changelog-client.md / changelog-server.md)
 Env: CURSEFORGE_TOKEN (API token from curseforge.com/account/api-tokens), CURSEFORGE_PROJECT_ID.
 The token is only sent as a header and never printed."""

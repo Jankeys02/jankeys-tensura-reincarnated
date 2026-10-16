@@ -47,9 +47,3 @@ jobs:
             changelog-client.md
             changelog-server.md
             pack-description.md
-      - name: Upload to CurseForge (only if CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable are set)
-        if: env.CURSEFORGE_TOKEN != '' && env.CURSEFORGE_PROJECT_ID != ''
-        env:
-          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-          CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
-        run: python .github/scripts/curseforge-upload.py "${GITHUB_REF_NAME}" jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip jankeys-tensura-${GITHUB_REF_NAME}-server.zip
