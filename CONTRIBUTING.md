@@ -29,6 +29,8 @@ Worlds (`saves/`), logs, crash reports, screenshots, and anything with your user
 
 Use the [issue templates](.github/ISSUE_TEMPLATE); they ask for what's needed to reproduce the problem. For crashes, include the crash report or `latest.log`.
 
+**Big topics get an umbrella issue with sub-issues.** A large change (for example "add the tier 2 mods") is one umbrella issue that holds the decisions. Each step (for example one mod group) gets its own normal issue with a checklist of mods, tests and quest chapter, linked to the umbrella as a GitHub *sub-issue* (open the umbrella, **Create sub-issue** or **Add existing issue**). The umbrella then shows how many sub-issues are done. Close a sub-issue when its checklist is finished. Use labels for the kind of issue (`bug`, `enhancement`, `question`).
+
 ## Releasing
 
 See [RELEASE_GUIDE.md](RELEASE_GUIDE.md). Only the maintainer cuts releases.
