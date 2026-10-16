@@ -36,7 +36,8 @@ ids = [v["id"] for v in versions if v["name"] == mc]
 if not ids:
     sys.exit(f"CurseForge has no game version named {mc}")
 game_version = ids[0]
-rtype = "beta" if "-" in tag else "release"
+# v1.0.0-alpha.1 -> alpha, any other suffix (-beta.1, -rc.1) -> beta, no suffix -> release
+rtype = "alpha" if "-alpha" in tag else "beta" if "-" in tag else "release"
 main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), tag, rtype)
 print("client file id", main_id)
 print("server file id", upload(server, Path("changelog-server.md").read_text(encoding="utf-8"), f"{tag} server", rtype, main_id))
