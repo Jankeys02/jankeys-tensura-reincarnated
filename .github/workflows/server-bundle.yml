@@ -1,0 +1,20 @@
+name: Server zip (test build)
+# Builds the finished server zip from the current main branch and keeps it as a downloadable artifact (no release).
+# Use it to test the zip before tagging: Actions > "Server zip (test build)" > Run workflow.
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21' }
+      - name: Build
+        run: python .github/scripts/bundle-server.py "test" server-test.zip "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/packwiz/pack.toml"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: server-test
+          path: server-test.zip
+          retention-days: 3
