@@ -172,7 +172,7 @@ Every client release should come with a matching server update, so versions matc
 | `python .github/scripts/install-packwiz.py` | your PC | Downloads the packwiz command into `packwiz-bin/` |
 
 ### Blocked mods (distribution off)
-Some authors forbid downloads outside CurseForge. The packwiz installer then aborts with "must be downloaded manually", and such mods can't go in the server zip. List their CurseForge project ids (one per line, with a comment) in `.github/curseforge-required-deps.txt`. The server zip build then leaves them out, lists them in `MISSING-MODS.txt` and `required-mods.txt` (the start scripts warn about them at every start), and the publish workflow attaches them to the server file as Required Dependencies. If you add a blocked server mod and forget the list, the server zip build fails and names the mod. One mod can have several jars (for example three Easy NPC jars): list each project.
+Some authors forbid downloads outside CurseForge. The packwiz installer then aborts with "must be downloaded manually", and such mods can't go in the server zip. List their CurseForge project ids (one per line, with a comment) in `.github/curseforge-required-deps.txt`. (The name is historical: CurseForge does not let you set dependency types on a modpack file, so the list only drives the server zip build.) The server zip build then leaves them out, lists them in `MISSING-MODS.txt` and `required-mods.txt` (the start scripts warn about them at every start). If you add a blocked server mod and forget the list, the server zip build fails and names the mod. One mod can have several jars (for example three Easy NPC jars): list each project.
 
 ## Where things are
 
