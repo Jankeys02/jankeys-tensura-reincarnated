@@ -92,7 +92,7 @@ If Git refuses because you changed a file yourself, either commit your change (s
    ```
 7. **Open a Pull Request** on GitHub (the "Compare & pull request" button). The owner reviews it and merges it into `main`.
 
-Outside collaborators can't push to this repo directly. They **fork** it (GitHub's Fork button), push to their fork, and open the Pull Request from there. See [CONTRIBUTING.md](CONTRIBUTING.md).
+People the owner has invited as collaborators (role Write) can push their branch to this repo; everyone else **forks** it (GitHub's Fork button), pushes to their fork, and opens the Pull Request from there. Nobody can push to `main` directly. If you prefer a window to typing the Git commands above, [CONTRIBUTING.md](CONTRIBUTING.md) explains how to do the same with GitHub Desktop, and which file to change for quests, scripts, configs and mods.
 
 ## Mods and the server pack (packwiz)
 
