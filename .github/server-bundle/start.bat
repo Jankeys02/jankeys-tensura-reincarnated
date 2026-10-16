@@ -9,9 +9,11 @@ if exist required-mods.txt for /f "usebackq tokens=1,2,3 delims=|" %%a in ("requ
   set MISSING=1
 )
 if defined MISSING (
-  echo [start] The server will probably fail to start or reject players until these are added. Press Ctrl+C to stop, or
-  timeout /t 10
+  echo [start] The server will probably fail to start or reject players until these are added.
+  echo [start] Press Ctrl+C to stop, or wait 10 seconds to continue anyway.
+  timeout /t 10 /nobreak
 )
 
 if not exist libraries java -jar neoforge-installer.jar --installServer
-call .un.bat nogui
+rem The .\ matters: some Windows setups do not search the current folder.
+call .\run.bat nogui
