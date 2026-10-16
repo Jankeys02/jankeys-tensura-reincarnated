@@ -16,7 +16,11 @@ jobs:
           [ "v$V" = "${GITHUB_REF_NAME}" ] || { echo "::error::package.json says $V but the tag is ${GITHUB_REF_NAME}"; exit 1; }
       - name: CurseForge zip
         run: python .github/scripts/export-curseforge.py "${GITHUB_REF_NAME}" "jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip"
-      - name: Server zip
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21' }
+      - name: Server zip (mods bundled; the finished pack for CurseForge)
+        run: python .github/scripts/bundle-server.py "${GITHUB_REF_NAME}" "jankeys-tensura-${GITHUB_REF_NAME}-server.zip"
+      - name: Server installer zip (small; downloads mods when run)
         run: |
           URL="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/packwiz/pack.toml"
           mkdir -p srv
@@ -24,7 +28,7 @@ jobs:
           cp server/* srv/
           curl -sSL -o srv/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
           sed -i "s#@PACK_URL@#${URL}#; s#@VERSION@#${GITHUB_REF_NAME}#" srv/install-mods.* srv/README.txt
-          (cd srv && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-server.zip" .)
+          (cd srv && zip -qr "../jankeys-tensura-${GITHUB_REF_NAME}-server-installer.zip" .)
       - name: Prism dev instance zip
         run: |
           mkdir -p prism-zip/minecraft
@@ -43,6 +47,7 @@ jobs:
           files: |
             jankeys-tensura-*-curseforge.zip
             jankeys-tensura-*-server.zip
+            jankeys-tensura-*-server-installer.zip
             jankeys-tensura-*-prism-dev.zip
             changelog-client.md
             changelog-server.md

@@ -9,25 +9,15 @@ Short notes for people running the server pack. Developers: the server is built 
 - You must accept the Minecraft EULA yourself (`eula.txt`).
 
 ## Setup
-The server pack (`jankeys-tensura-vX.Y.Z-server.zip`) is on each [GitHub release](https://github.com/Jankeys02/jankeys-tensura-reincarnated/releases) under **Assets**. It holds the configs, quests and scripts plus an installer that downloads the mods. It contains no mod jars.
+Download the server file of the version you want from the CurseForge page (the file marked "Server Pack", under the pack's additional files) or from the [GitHub release](https://github.com/Jankeys02/jankeys-tensura-reincarnated/releases) under **Assets** (`jankeys-tensura-reincarnated-vX.Y.Z-server.zip`). It holds the mods, configs, scripts, the NeoForge installer and start scripts. The `-server-installer.zip` next to it is a small alternative that downloads the mods when you run it.
 
 1. Unzip it into an empty folder.
-2. Install the NeoForge 21.1.249 server into that folder: get the installer from [neoforged.net](https://neoforged.net), run it and choose **Install server**. This creates `run.bat` / `run.sh`.
-3. Run `install-mods.bat` (Windows) or `sh install-mods.sh` (Linux). It downloads the server's mods (about 130) into `mods/`. It stops and prints a link for each mod it can't download (next section).
-4. Download those files from the printed links, put them in `mods/`, and run the installer again until it says it finished.
-5. Start the server once (`run.bat` / `run.sh`) so it creates `eula.txt`, set `eula=true`, and start it again.
+2. Open `MISSING-MODS.txt`. It lists the few mods that can't be bundled because their authors block downloads outside CurseForge. Download each from its link and put the jars in `mods/`. (Hosts that install CurseForge dependencies may do this for you.)
+3. Run `start.bat` (Windows) or `sh start.sh` (Linux). The first run installs the NeoForge server, then stops because the EULA isn't accepted yet.
+4. Open `eula.txt`, set `eula=true`, and run the start script again.
 
 ## Mods you must add yourself
-Six mods can't be downloaded automatically, because their authors block downloads from outside CurseForge. The installer prints a link for each. Download the same versions as the pack and put the jars in `mods/`. Clients that have these mods can't join a server that lacks them.
-
-- **Tensura: Better Subordinates**: https://www.curseforge.com/projects/1489224
-- **Tensura: Enigmatic**: https://www.curseforge.com/projects/1299711
-- **Tensura: Unique Monsters**: https://www.curseforge.com/projects/1489273
-- **Easy NPC**: https://www.curseforge.com/projects/1308987
-- **Custom Chest Menus**: https://www.curseforge.com/projects/1343005
-- **FiltPick**: https://www.curseforge.com/projects/700141
-
-Every other mod (including Tensura: Ascension, TensuraMoreSkills, Elite Tensura Addon and Tensura: Origins) is downloaded for you.
+`MISSING-MODS.txt` in the zip is the list. Clients that have these mods can't join a server that lacks them, so use the same versions as the pack.
 
 ## First start
 - The first start is slow: Tensura builds its labyrinth dimension and EMC map, and loading the mods takes about a minute. Expect a "Can't keep up" warning once.
@@ -37,8 +27,8 @@ Every other mod (including Tensura: Ascension, TensuraMoreSkills, Elite Tensura 
 
 ## Updating
 1. **Back up your world.**
-2. Download the new server zip and copy its `config`, `defaultconfigs` and `kubejs` folders over yours (keep your own changes, such as ranks, if you made any).
-3. Run the installer script again. It adds, updates and removes mods to match the release.
+2. Download the new server zip and unzip it over your server folder (keep your world, `eula.txt` and any changes of your own to configs).
+3. Delete mods from `mods/` that are no longer in the new zip's `mods/` folder, and check `MISSING-MODS.txt` again.
 4. Players need the matching client pack version, or they get a mod-mismatch error when joining.
 
 ## Permissions (FTB Ranks)
