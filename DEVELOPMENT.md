@@ -143,6 +143,8 @@ The list was read from the installer's error window on 2026-10-15. When you add 
 
 ## Server pack
 
+Players and hosts get the **finished server zip** (mods, configs, NeoForge installer, start scripts and a readme inside) from the release or from CurseForge; how it is built and published is in [RELEASE_GUIDE.md](RELEASE_GUIDE.md), and the mods that can't be bundled are explained under "Blocked mods" below. The rest of this section is for running the packwiz installer directly (the small `-server-installer.zip` does the same thing).
+
 The server is built from the same `packwiz/` list. Mods marked `client` are left out; Chunky (server-only) is marked `server`. Hosts: see [SERVER_HOSTING.md](SERVER_HOSTING.md).
 
 On a server machine with the NeoForge 21.1.249 server installed:
@@ -154,6 +156,23 @@ java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercon
 Run it again after every pack update; it adds, removes and updates the server's mods to match. Then add the six blocked server mods by hand (list above; the client-only ones are not needed). `config/`, `kubejs/` and `defaultconfigs/` still come from this repo, as before.
 
 Every client release should come with a matching server update, so versions match. Players on a different version than the server get a mod-mismatch error when joining.
+
+## Automation: what runs by itself and what you run
+
+| What | Where | When |
+|---|---|---|
+| Changelog check | `.github/workflows/changelog-check.yml` | A pull request that changes `packwiz/`, `kubejs/`, `defaultconfigs/` or `config/ftbquests/` without a `CHANGELOG.md` line fails (`[skip changelog]` in the description skips it) |
+| Packwiz index check | `.github/workflows/packwiz-check.yml` | A pull request touching `packwiz/` fails if `packwiz refresh` would change `index.toml` |
+| Weekly mod updates | `.github/workflows/mod-updates.yml` | Mondays (or run it by hand): runs `packwiz update --all` and opens a pull request. Needs Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests". Check it for betas and downgrades and add a changelog line before merging |
+| Release build | `.github/workflows/release.yml` | Pushing a `v*` tag. Fails if the tag differs from the `package.json` version |
+| Server zip test build | `.github/workflows/server-bundle.yml` | By hand: builds the finished server zip without a release |
+| Publish to CurseForge | `.github/workflows/curseforge-publish.yml` | By hand only, with a confirmation (see RELEASE_GUIDE.md) |
+| `python .github/scripts/release.py X.Y.Z [--push]` | your PC | Bumps `package.json`, dates the changelog section, commits and tags |
+| `python .github/scripts/doctor.py` | your PC | Lists top-level folders hidden by the whitelist `.gitignore` (release.py runs it) |
+| `python .github/scripts/install-packwiz.py` | your PC | Downloads the packwiz command into `packwiz-bin/` |
+
+### Blocked mods (distribution off)
+Some authors forbid downloads outside CurseForge. The packwiz installer then aborts with "must be downloaded manually", and such mods can't go in the server zip. List their CurseForge project ids (one per line, with a comment) in `.github/curseforge-required-deps.txt`. The server zip build then leaves them out, lists them in `MISSING-MODS.txt` and `required-mods.txt` (the start scripts warn about them at every start), and the publish workflow attaches them to the server file as Required Dependencies. If you add a blocked server mod and forget the list, the server zip build fails and names the mod. One mod can have several jars (for example three Easy NPC jars): list each project.
 
 ## Where things are
 

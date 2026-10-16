@@ -52,17 +52,30 @@ git push origin v0.3.0
 
 ## What happens next
 
-Pushing the tag starts [`.github/workflows/release.yml`](.github/workflows/release.yml). It takes a few minutes and builds:
+Pushing the tag starts [`.github/workflows/release.yml`](.github/workflows/release.yml). It takes several minutes and builds:
 
 - `jankeys-tensura-v0.3.0-curseforge.zip`: the client pack (a mod list plus the configs, `defaultconfigs` and `kubejs` as overrides).
-- `jankeys-tensura-v0.3.0-server.zip`: the server pack (configs plus an installer that downloads the server's mods).
-- `changelog-client.md` and `changelog-server.md`, also shown in the release description.
+- `jankeys-tensura-v0.3.0-server.zip`: the **finished server pack**: the mods, configs, scripts, the NeoForge installer, `start.bat` / `start.sh` and a readme in one zip (a few hundred MB). Mods whose authors block downloads outside CurseForge can't be bundled; they are listed in `MISSING-MODS.txt` inside the zip, and `start.bat` / `start.sh` warn about them at every start. Which mods those are is decided by `.github/curseforge-required-deps.txt` (see "Blocked mods" in [DEVELOPMENT.md](DEVELOPMENT.md)).
+- `jankeys-tensura-v0.3.0-server-installer.zip`: a small alternative server pack that downloads the mods when you run it.
+- `jankeys-tensura-v0.3.0-prism-dev.zip`: the developer instance for Prism (not for players).
+- `changelog-client.md`, `changelog-server.md` and, when it changed, `pack-description.md`.
 
-Check the **Actions** tab on GitHub; when it's green, the files are on the **Releases** page under **Assets**. If the build fails, fix the cause and release the next patch version. Don't reuse the tag.
+Check the **Actions** tab on GitHub; when it's green, the files are on the **Releases** page under **Assets**. If the build fails, fix the cause and release the next patch version. Don't reuse the tag. To try the server zip without releasing, run **Actions > Server zip (test build) > Run workflow**; it keeps the zip as a downloadable artifact for 3 days.
 
-## Publish on CurseForge (manual)
+## Publish on CurseForge
+
+Uploading is a separate, deliberate step. A tag push never publishes anything.
+
+**With one click (optional):**
+1. One-time setup: create an API token at curseforge.com/account/api-tokens (from the account that may upload to the project). In the GitHub repo go to Settings, Secrets and variables, Actions, and add a secret `CURSEFORGE_TOKEN` and a variable `CURSEFORGE_PROJECT_ID` (the project number in the author console). Never paste the token anywhere else.
+2. After the release workflow is green: Actions > **Publish to CurseForge** > Run workflow. Enter the tag in both boxes (the second box is the confirmation), pick the **release type** (`auto` = `-alpha` in the tag gives alpha, any other suffix such as `-beta.1` or `-rc.1` gives beta, no suffix gives release) and leave `client_file_id` empty. It works for older tags too.
+3. It uploads the client zip, then the server zip as an additional file attached to it. File names are `<pack name> <version>` and `<pack name> <version> Server Pack`; the changelogs come from `changelog-client.md` and `changelog-server.md`; game versions are Minecraft plus NeoForge. The ids in `.github/curseforge-required-deps.txt` are attached to the server file as Required Dependencies (CurseForge's own tools may use them; third-party hosts can't download such mods anyway, which is why the zip has `MISSING-MODS.txt`).
+4. If the client file uploaded but the server file failed, do not run it again from scratch (that uploads a second client file). Wait a few minutes, then run it again with the client file's id in `client_file_id`; it then only adds the server zip to that file. CurseForge only accepts the attach once the client file is processed, and the error "parentFileID ... not editable" means it isn't yet (or the file was deleted). The fallback is **Add Additional File** under the client file in the console.
+5. Failed uploads print CurseForge's error message in the log. Tested against the live API: the client upload, the server attach and the file names. Not yet tested: the Required Dependencies on the server file.
+
+**Manual:**
 
 1. From the release page, download the `-curseforge.zip` and `-server.zip`. The `-prism-dev.zip` is for developers (Prism instance with the pre-launch script, see DEVELOPMENT.md) and is not uploaded to CurseForge.
 2. In the CurseForge author console, upload the client zip as a new file of the modpack, and paste the client changelog into its changelog box.
-3. Upload the server zip as the server pack file for that version, paste the server changelog, and list the six manual-download mods as Required Dependencies (see [SERVER_HOSTING.md](SERVER_HOSTING.md)).
-4. If the release notes have a **Pack description** section, the description changed since the last release: paste `pack-description.md` (under Assets, same text as [PACK_DESCRIPTION.md](PACK_DESCRIPTION.md)) into the CurseForge page. The section lists the changed lines.
+3. Upload the server zip as an additional file of that client file, paste the server changelog, and add the mods listed in `.github/curseforge-required-deps.txt` as Required Dependencies.
+4. The project description cannot be changed through the upload. If the release notes have a **Pack description** section, the description changed since the last release: paste `pack-description.md` (under Assets, same text as [PACK_DESCRIPTION.md](PACK_DESCRIPTION.md)) into the CurseForge page. The section lists the changed lines.

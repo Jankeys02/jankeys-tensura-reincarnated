@@ -4,6 +4,9 @@ Versioning: [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
+### Server pack
+- The server pack is now a ready-to-run zip: the mods are inside, with `start.bat` / `start.sh` and a readme, so you no longer run an installer or visit GitHub. A few mods can't be bundled because their authors block downloads outside CurseForge: `MISSING-MODS.txt` in the zip lists them, and the start scripts warn at every start if they are missing from `mods/`. The old installer-based pack is still attached as `-server-installer.zip`.
+
 ## [0.3.0-rc.1] - 2026-10-15
 Release candidate: changes since 0.2.4, mostly spawn balance and developer tooling. Not yet play-tested in full.
 
