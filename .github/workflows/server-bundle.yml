@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: '21' }
       - name: Build
-        run: python .github/scripts/bundle-server.py "test" server-test.zip "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/packwiz/pack.toml"
+        run: python .github/scripts/bundle-server.py "test" server-test.zip
       - uses: actions/upload-artifact@v4
         with:
           name: server-test
