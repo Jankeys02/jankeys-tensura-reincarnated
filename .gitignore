@@ -40,3 +40,6 @@
 /config/sound_physics_remastered/sound_rates.properties
 *.bak
 *.toml_backup*
+
+# KubeJS web server auth token
+/kubejs/config/web_server.json
