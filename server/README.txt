@@ -1,4 +1,5 @@
 Jankeys' Tensura Reincarnated - server pack (@VERSION@)
+(This is the small installer variant: it downloads the mods when you run it. The finished server pack, with the mods already inside, is the file ending in -server.zip. Use that one unless you want to manage the mods yourself.)
 Minecraft 1.21.1, NeoForge 21.1.249, Java 21.
 
 1. Install the NeoForge 21.1.249 server (installer: https://neoforged.net, choose "Install server" in this folder).
