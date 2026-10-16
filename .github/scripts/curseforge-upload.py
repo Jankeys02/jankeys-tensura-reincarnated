@@ -35,7 +35,7 @@ def required_deps():
                     if str(tomllib.loads(p.read_text(encoding="utf-8")).get("update", {}).get("curseforge", {}).get("project-id")) == pid), None)
         if not hit:
             sys.exit(f"Project id {pid} in curseforge-required-deps.txt is not in packwiz/")
-        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": pid, "type": "requiredDependency"})
+        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": int(pid), "type": "requiredDependency"})
     return out
 
 
@@ -49,7 +49,7 @@ def required_deps():
                     if str(tomllib.loads(p.read_text(encoding="utf-8")).get("update", {}).get("curseforge", {}).get("project-id")) == pid), None)
         if not hit:
             sys.exit(f"Project id {pid} in curseforge-required-deps.txt is not in packwiz/")
-        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": pid, "type": "requiredDependency"})
+        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": int(pid), "type": "requiredDependency"})
     return out
 
 
