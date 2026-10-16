@@ -10,6 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
+      - name: Tag matches package.json version
+        run: |
+          V=$(python -c "import json;print(json.load(open('package.json'))['version'])")
+          [ "v$V" = "${GITHUB_REF_NAME}" ] || { echo "::error::package.json says $V but the tag is ${GITHUB_REF_NAME}"; exit 1; }
       - name: CurseForge zip
         run: python .github/scripts/export-curseforge.py "${GITHUB_REF_NAME}" "jankeys-tensura-${GITHUB_REF_NAME}-curseforge.zip"
       - name: Server zip

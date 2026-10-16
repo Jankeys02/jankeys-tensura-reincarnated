@@ -1,0 +1,19 @@
+name: Packwiz check
+on:
+  pull_request:
+    branches: [main]
+    paths: ['packwiz/**']
+jobs:
+  index:
+    name: index.toml is in sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: stable }
+      - name: packwiz refresh leaves no diff
+        working-directory: packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          "$(go env GOPATH)/bin/packwiz" refresh
+          git diff --exit-code . || { echo "::error::index.toml is stale. Run 'packwiz refresh' in packwiz/ and commit."; exit 1; }
