@@ -11,6 +11,9 @@ token, project = os.environ["CURSEFORGE_TOKEN"], os.environ["CURSEFORGE_PROJECT_
 API = "https://minecraft.curseforge.com/api"
 versions_toml = tomllib.loads(Path(os.environ.get("PACK_TOML", "packwiz/pack.toml")).read_text(encoding="utf-8"))["versions"]
 mc = versions_toml["minecraft"]
+pack_name = tomllib.loads(Path(os.environ.get("PACK_TOML", "packwiz/pack.toml")).read_text(encoding="utf-8"))["name"]
+title = f"{pack_name} {tag.removeprefix('v')}"  # e.g. "My Pack 1.2.0"; the server file adds " Server Pack"
+
 
 
 def call(url, data=None, headers=None):
@@ -83,6 +86,6 @@ main_id = os.environ.get("CLIENT_FILE_ID")  # set to attach the server zip to a 
 if main_id:
     main_id = int(main_id)
 else:
-    main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), tag, rtype)
+    main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), title, rtype)
     print("client file id", main_id)
-print("server file id", upload(server, Path("changelog-server.md").read_text(encoding="utf-8"), f"{tag} server", rtype, main_id))
+print("server file id", upload(server, Path("changelog-server.md").read_text(encoding="utf-8"), f"{title} Server Pack", rtype, main_id))
