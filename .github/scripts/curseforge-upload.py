@@ -9,7 +9,7 @@ from pathlib import Path
 tag, client, server = sys.argv[1:4]
 token, project = os.environ["CURSEFORGE_TOKEN"], os.environ["CURSEFORGE_PROJECT_ID"]
 API = "https://minecraft.curseforge.com/api"
-mc = tomllib.loads(Path("packwiz/pack.toml").read_text(encoding="utf-8"))["versions"]["minecraft"]
+mc = tomllib.loads(Path(os.environ.get("PACK_TOML", "packwiz/pack.toml")).read_text(encoding="utf-8"))["versions"]["minecraft"]
 
 
 def call(url, data=None, headers=None):
@@ -36,8 +36,10 @@ ids = [v["id"] for v in versions if v["name"] == mc]
 if not ids:
     sys.exit(f"CurseForge has no game version named {mc}")
 game_version = ids[0]
-# v1.0.0-alpha.1 -> alpha, any other suffix (-beta.1, -rc.1) -> beta, no suffix -> release
-rtype = "alpha" if "-alpha" in tag else "beta" if "-" in tag else "release"
+# RELEASE_TYPE (alpha|beta|release) overrides; "auto" = from the tag: -alpha -> alpha, other suffix -> beta, none -> release
+rtype = os.environ.get("RELEASE_TYPE", "auto")
+if rtype == "auto":
+    rtype = "alpha" if "-alpha" in tag else "beta" if "-" in tag else "release"
 main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), tag, rtype)
 print("client file id", main_id)
 print("server file id", upload(server, Path("changelog-server.md").read_text(encoding="utf-8"), f"{tag} server", rtype, main_id))

@@ -1,8 +1,8 @@
 name: Publish to CurseForge
 # Manual only: nothing uploads when you push a tag. After a release is built, go to Actions >
-# "Publish to CurseForge" > Run workflow, enter the tag twice (the second time confirms), and it uploads the
-# release's client and server zips with their changelogs. Needs the CURSEFORGE_TOKEN secret and the
-# CURSEFORGE_PROJECT_ID variable (Settings > Secrets and variables > Actions).
+# "Publish to CurseForge" > Run workflow, enter the tag twice (the second time confirms), pick the release type,
+# and it uploads that release's client and server zips with their changelogs. Works for older tags too.
+# Needs the CURSEFORGE_TOKEN secret and the CURSEFORGE_PROJECT_ID variable (Settings > Secrets and variables > Actions).
 on:
   workflow_dispatch:
     inputs:
@@ -12,6 +12,11 @@ on:
       confirm:
         description: 'Type the tag again to confirm. This publishes to CurseForge.'
         required: true
+      release_type:
+        description: 'auto = from the tag (-alpha -> alpha, other suffix -> beta, none -> release)'
+        type: choice
+        default: auto
+        options: [auto, alpha, beta, release]
 permissions:
   contents: read
 jobs:
@@ -20,6 +25,7 @@ jobs:
     env:
       TAG: ${{ inputs.tag }}
       CONFIRM: ${{ inputs.confirm }}
+      RELEASE_TYPE: ${{ inputs.release_type }}
       CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
       GH_TOKEN: ${{ github.token }}
@@ -28,9 +34,14 @@ jobs:
         run: |
           [ "$TAG" = "$CONFIRM" ] || { echo "::error::The two tag fields differ; nothing was uploaded."; exit 1; }
           [ -n "$CURSEFORGE_TOKEN" ] && [ -n "$CURSEFORGE_PROJECT_ID" ] || { echo "::error::Set the CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable first."; exit 1; }
+      # The scripts come from the default branch; only the tag's pack.toml is read from the tag (older tags have no upload script).
       - uses: actions/checkout@v4
-        with: { ref: '${{ inputs.tag }}' }
-      - name: Download the release files
-        run: gh release download "$TAG" --pattern '*-curseforge.zip' --pattern '*-server.zip' --pattern 'changelog-*.md'
+        with: { fetch-depth: 0 }
+      - name: Read the tag's pack.toml and download its release files
+        run: |
+          git show "refs/tags/$TAG:packwiz/pack.toml" > tag-pack.toml
+          gh release download "$TAG" --pattern '*-curseforge.zip' --pattern '*-server.zip' --pattern 'changelog-*.md'
       - name: Upload
+        env:
+          PACK_TOML: tag-pack.toml
         run: python .github/scripts/curseforge-upload.py "$TAG" *-curseforge.zip *-server.zip
