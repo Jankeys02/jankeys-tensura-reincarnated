@@ -43,3 +43,6 @@
 
 # KubeJS web server auth token
 /kubejs/config/web_server.json
+
+__pycache__/
+*.pyc

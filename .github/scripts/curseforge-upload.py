@@ -22,10 +22,42 @@ def call(url, data=None, headers=None):
         sys.exit(f"CurseForge answered HTTP {e.code} for {url.split('/api/')[1]}: {e.read().decode('utf-8', 'replace')[:500]}")
 
 
+def required_deps():
+    """Project ids from .github/curseforge-required-deps.txt, as CurseForge relations (slug = packwiz file name)."""
+    f = Path(".github/curseforge-required-deps.txt")
+    ids = [l.split("#")[0].strip() for l in f.read_text(encoding="utf-8").splitlines()] if f.exists() else []
+    out = []
+    for pid in filter(None, ids):
+        hit = next((p for p in Path("packwiz").rglob("*.pw.toml")
+                    if str(tomllib.loads(p.read_text(encoding="utf-8")).get("update", {}).get("curseforge", {}).get("project-id")) == pid), None)
+        if not hit:
+            sys.exit(f"Project id {pid} in curseforge-required-deps.txt is not in packwiz/")
+        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": pid, "type": "requiredDependency"})
+    return out
+
+
+def required_deps():
+    """Project ids from .github/curseforge-required-deps.txt, as CurseForge relations (slug = packwiz file name)."""
+    f = Path(".github/curseforge-required-deps.txt")
+    ids = [l.split("#")[0].strip() for l in f.read_text(encoding="utf-8").splitlines()] if f.exists() else []
+    out = []
+    for pid in filter(None, ids):
+        hit = next((p for p in Path("packwiz").rglob("*.pw.toml")
+                    if str(tomllib.loads(p.read_text(encoding="utf-8")).get("update", {}).get("curseforge", {}).get("project-id")) == pid), None)
+        if not hit:
+            sys.exit(f"Project id {pid} in curseforge-required-deps.txt is not in packwiz/")
+        out.append({"slug": hit.name.removesuffix(".pw.toml"), "projectID": pid, "type": "requiredDependency"})
+    return out
+
+
 def upload(path, changelog, name, release_type, parent=None):
     meta = {"changelog": changelog, "changelogType": "markdown", "displayName": name, "releaseType": release_type}
     if parent:  # an additional file inherits the parent's game versions; CurseForge rejects them here
         meta["parentFileID"] = parent
+        if required_deps():  # the server file lists the mods that can only be downloaded from CurseForge
+            meta["relations"] = {"projects": required_deps()}
+        if required_deps():  # the server file lists the mods that can only be downloaded from CurseForge
+            meta["relations"] = {"projects": required_deps()}
     else:
         meta["gameVersions"] = game_versions
     b = uuid.uuid4().hex

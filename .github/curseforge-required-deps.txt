@@ -1,0 +1,9 @@
+# CurseForge project ids attached as Required Dependencies to the SERVER file on every publish.
+# These are server mods whose authors block downloads outside CurseForge (so the packwiz installer can't fetch them).
+# One id per line; the project must be in packwiz/. Add a line when a new blocked server mod is added.
+1489224  # Tensura: Better Subordinates
+1299711  # Tensura: Enigmatic
+1489273  # Tensura: Unique Monsters
+1308987  # Easy NPC: Core
+1343005  # Custom Chest Menus
+700141   # FiltPick
