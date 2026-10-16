@@ -1,7 +1,15 @@
 name: Server zip (test build)
-# Builds the finished server zip from the current main branch and keeps it as a downloadable artifact (no release).
-# Use it to test the zip before tagging: Actions > "Server zip (test build)" > Run workflow.
-on: workflow_dispatch
+# Builds the finished server zip from the current branch and keeps it as a downloadable artifact (no release).
+# Optional smoke test: type yes in "accept_eula" and the zip is also started on the runner until the server reports
+# "Done" (then stopped). By typing yes you accept the Minecraft EULA (https://aka.ms/MinecraftEULA) for that test start.
+# The mods whose authors block downloads are not in the zip, so the smoke test shows whether the server boots without them.
+on:
+  workflow_dispatch:
+    inputs:
+      accept_eula:
+        description: 'Smoke test: type yes to accept the Minecraft EULA and start the server once'
+        required: false
+        default: 'no'
 permissions:
   contents: read
 jobs:
@@ -17,4 +25,43 @@ jobs:
         with:
           name: server-test
           path: server-test.zip
+          retention-days: 3
+  smoke:
+    needs: bundle
+    if: ${{ inputs.accept_eula == 'yes' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21' }
+      - uses: actions/download-artifact@v4
+        with: { name: server-test }
+      - name: Start the server until it is ready
+        run: |
+          unzip -q server-test.zip -d srv
+          cd srv
+          echo "eula=true" > eula.txt
+          echo "-Xmx5G" > user_jvm_args.txt
+          mkfifo console.in
+          sh start.sh < console.in > console.log 2>&1 &
+          PID=$!
+          exec 3> console.in
+          RESULT=timeout
+          for i in $(seq 1 90); do
+            sleep 10
+            if grep -q 'Done (' console.log; then RESULT=ready; break; fi
+            if ! kill -0 $PID 2>/dev/null; then RESULT=exited; break; fi
+          done
+          echo "result: $RESULT"
+          if [ "$RESULT" = ready ]; then echo stop >&3; wait $PID || true; fi
+          kill $PID 2>/dev/null || true
+          echo "### Server start: $RESULT" >> "$GITHUB_STEP_SUMMARY"
+          grep -E 'MISSING MOD|Done \(|ERROR|Exception|Missing or unsupported' console.log | head -40 >> "$GITHUB_STEP_SUMMARY" || true
+          [ "$RESULT" = ready ]
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: server-console-log
+          path: |
+            srv/console.log
+            srv/logs/latest.log
           retention-days: 3
