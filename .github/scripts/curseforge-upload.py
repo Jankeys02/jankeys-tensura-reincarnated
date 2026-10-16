@@ -3,7 +3,7 @@
 Usage: curseforge-upload.py <tag> <client.zip> <server.zip>   (reads changelog-client.md / changelog-server.md)
 Env: CURSEFORGE_TOKEN (API token from curseforge.com/account/api-tokens), CURSEFORGE_PROJECT_ID.
 The token is only sent as a header and never printed."""
-import json, os, sys, tomllib, urllib.request, uuid
+import json, os, sys, tomllib, urllib.error, urllib.request, uuid
 from pathlib import Path
 
 tag, client, server = sys.argv[1:4]
@@ -14,8 +14,11 @@ mc = tomllib.loads(Path(os.environ.get("PACK_TOML", "packwiz/pack.toml")).read_t
 
 def call(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers={"X-Api-Token": token, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        return json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:  # show CurseForge's reason (the response body holds no secrets)
+        sys.exit(f"CurseForge answered HTTP {e.code} for {url.split('/api/')[1]}: {e.read().decode('utf-8', 'replace')[:500]}")
 
 
 def upload(path, changelog, name, release_type, parent=None):
