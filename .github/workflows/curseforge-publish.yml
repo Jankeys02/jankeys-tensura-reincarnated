@@ -17,6 +17,9 @@ on:
         type: choice
         default: auto
         options: [auto, alpha, beta, release]
+      client_file_id:
+        description: 'Optional: id of a client file already on CurseForge. Skips the client upload and only adds the server zip to it.'
+        required: false
 permissions:
   contents: read
 jobs:
@@ -26,6 +29,7 @@ jobs:
       TAG: ${{ inputs.tag }}
       CONFIRM: ${{ inputs.confirm }}
       RELEASE_TYPE: ${{ inputs.release_type }}
+      CLIENT_FILE_ID: ${{ inputs.client_file_id }}
       CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
       GH_TOKEN: ${{ github.token }}

@@ -1,7 +1,7 @@
 """Upload the client and server zips to CurseForge. Run only by the manual "Publish to CurseForge" workflow
 (never on a tag push). Needs the CURSEFORGE_TOKEN secret and CURSEFORGE_PROJECT_ID variable.
 Usage: curseforge-upload.py <tag> <client.zip> <server.zip>   (reads changelog-client.md / changelog-server.md)
-Env: CURSEFORGE_TOKEN (API token from curseforge.com/account/api-tokens), CURSEFORGE_PROJECT_ID.
+Env: CLIENT_FILE_ID (optional, skips the client upload), CURSEFORGE_TOKEN (API token from curseforge.com/account/api-tokens), CURSEFORGE_PROJECT_ID.
 The token is only sent as a header and never printed."""
 import json, os, sys, tomllib, urllib.error, urllib.request, uuid
 from pathlib import Path
@@ -22,10 +22,11 @@ def call(url, data=None, headers=None):
 
 
 def upload(path, changelog, name, release_type, parent=None):
-    meta = {"changelog": changelog, "changelogType": "markdown", "displayName": name,
-            "gameVersions": [game_version], "releaseType": release_type}
-    if parent:
+    meta = {"changelog": changelog, "changelogType": "markdown", "displayName": name, "releaseType": release_type}
+    if parent:  # an additional file inherits the parent's game versions; CurseForge rejects them here
         meta["parentFileID"] = parent
+    else:
+        meta["gameVersions"] = [game_version]
     b = uuid.uuid4().hex
     body = b"".join([
         f'--{b}\r\nContent-Disposition: form-data; name="metadata"\r\n\r\n{json.dumps(meta)}\r\n'.encode(),
@@ -43,6 +44,10 @@ game_version = ids[0]
 rtype = os.environ.get("RELEASE_TYPE", "auto")
 if rtype == "auto":
     rtype = "alpha" if "-alpha" in tag else "beta" if "-" in tag else "release"
-main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), tag, rtype)
-print("client file id", main_id)
+main_id = os.environ.get("CLIENT_FILE_ID")  # set to attach the server zip to a client file that is already uploaded
+if main_id:
+    main_id = int(main_id)
+else:
+    main_id = upload(client, Path("changelog-client.md").read_text(encoding="utf-8"), tag, rtype)
+    print("client file id", main_id)
 print("server file id", upload(server, Path("changelog-server.md").read_text(encoding="utf-8"), f"{tag} server", rtype, main_id))
