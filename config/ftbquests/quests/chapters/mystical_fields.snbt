@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_fields"
+	group: "067D1EA3E221EC5E"
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
+	id: "51BAD9A79D013787"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F82C660D223533E"
+			rewards: [{
+				id: "03607925C9CE91A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F62C39850B3ADAE"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F82C660D223533E"]
+			id: "7054E8805CA288C7"
+			rewards: [{
+				id: "458EC171A62704F8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2C35893D75B1B91B"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7054E8805CA288C7"]
+			id: "18811E1E4BBEE8B2"
+			rewards: [{
+				id: "032AFE07E9E75936"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "534967B918BA09C8"
+				item: { count: 1, id: "mysticalagriculture:watering_can" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18811E1E4BBEE8B2"]
+			id: "241755F664BB452F"
+			rewards: [{
+				id: "2D0CBF1CF51622E1"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6890B6B092B33D2C"
+				item: { count: 1, id: "mysticalagriculture:inferium_farmland" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["241755F664BB452F"]
+			id: "772828691DBEF63B"
+			rewards: [{
+				id: "0B97264EB1A5C78F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3F691D80A321A78A"
+				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["772828691DBEF63B"]
+			id: "67CFE7BD2C98952D"
+			rewards: [{
+				id: "3F7A5BD3FEF02FFE"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CC3E2AB930A5D36"
+				item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67CFE7BD2C98952D"]
+			id: "65738C78FD7DC37B"
+			rewards: [{
+				id: "14C1A5F2011230CF"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "13A3701EC02E0E8F"
+				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65738C78FD7DC37B"]
+			hide_details_until_startable: true
+			id: "2CF7F73D6C9CB6EF"
+			rewards: [{
+				id: "760F08AD11A87A8C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 4L
+				id: "3DD44C8CB0A515A3"
+				item: { count: 1, id: "mysticalagriculture:mystical_fertilizer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CF7F73D6C9CB6EF"]
+			hide_details_until_startable: true
+			id: "64ED9CF9F2CB96F7"
+			rewards: [{
+				id: "459DECE781AF98D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "64021CB7CD72D3A8"
+				item: { count: 1, id: "mysticalagriculture:fertilized_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64ED9CF9F2CB96F7"]
+			hide_details_until_startable: true
+			id: "5D85D4D88D94D6CE"
+			rewards: [{
+				id: "54038A70B3B4DB94"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7E569A092ECFEC0D"
+				item: { count: 1, id: "mysticalagriculture:prosperity_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D85D4D88D94D6CE"]
+			hide_details_until_startable: true
+			id: "337CF9703ADACCF0"
+			rewards: [{
+				id: "76E8F442B6A54936"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "27D60D307F795EE8"
+				item: { count: 1, id: "productivefarming:pollen" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["337CF9703ADACCF0"]
+			hide_details_until_startable: true
+			id: "3CD3514EEF236765"
+			rewards: [{
+				id: "3C752E73E99E7F82"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					id: "281FC95E19497EBC"
+					item: { count: 1, id: "productivefarming:farm_controller" }
+					type: "item"
+				}
+				{
+					id: "7C284A8BC9B84BAE"
+					item: { count: 1, id: "productivefarming:farm_hatch" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CD3514EEF236765"]
+			hide_details_until_startable: true
+			id: "2D5A3E75098728FF"
+			rewards: [{
+				id: "0AE5CD09487D16A4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "7784928193047DF5"
+					item: { count: 1, id: "productivefarming:feeding_trough" }
+					type: "item"
+				}
+				{
+					id: "183B6C03B90165AF"
+					item: { count: 1, id: "productivefarming:watering_trough" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D5A3E75098728FF"]
+			hide_details_until_startable: true
+			id: "04C0E9AF8D8F2DB2"
+			rewards: [{
+				id: "748A349C3AC176FC"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "328ADEABBA66833C"
+				item: { count: 1, id: "productivefarming:nutrient_water_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04C0E9AF8D8F2DB2"]
+			hide_details_until_startable: true
+			id: "6BC0216B05E0ACF1"
+			rewards: [{
+				id: "6AEC42EF4CD2FF0C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6011F65692E3138A"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BC0216B05E0ACF1"]
+			hide_details_until_startable: true
+			id: "20B6A20F88B40AAF"
+			rewards: [{
+				id: "5D1D46BBF1B4747F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "21EAB97037AF3C8D"
+					item: { count: 1, id: "cookingforblockheads:sink" }
+					type: "item"
+				}
+				{
+					id: "6921B3F1F561A1C8"
+					item: { count: 1, id: "cookingforblockheads:milk_jar" }
+					type: "item"
+				}
+				{
+					id: "76B797DBE1D55C62"
+					item: { count: 1, id: "cookingforblockheads:toaster" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20B6A20F88B40AAF"]
+			hide_details_until_startable: true
+			id: "136CEFE6D0405E1B"
+			rewards: [{
+				id: "651DAAB831593061"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7766BEC4A553C25A"
+				item: { count: 1, id: "farmingforblockheads:market" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["136CEFE6D0405E1B"]
+			hide_until_deps_complete: true
+			id: "20EDC8F586AD872D"
+			rewards: [{
+				id: "066FE893261F77A3"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "29423431F7D53610"
+				item: { count: 1, id: "mysticalagriculture:iron_essence" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["20EDC8F586AD872D"]
+			hide_until_deps_complete: true
+			id: "485B8D62D3A91795"
+			rewards: [{
+				id: "0C60097E9493AF17"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7B2303603B932B0A"
+				item: { count: 1, id: "mysticalagriculture:diamond_essence" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["485B8D62D3A91795"]
+			hide_until_deps_complete: true
+			id: "44EA363F4A859E64"
+			rewards: [{
+				id: "3BA9656E95FB39C2"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20359E942C96DCAC"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+	]
+}
