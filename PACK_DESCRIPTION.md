@@ -9,6 +9,7 @@ Reincarnate as a slime (or anything else) in a NeoForge 1.21.1 world built aroun
 - **Dimension gate:** in survival, Eternal Starlight, Chrono Dawn and The Afterdark stay locked until you have visited the Nether or summoned a Wither.
 - **Difficulty-scaled spawns:** the strongest mobs only spawn naturally on higher difficulties. Spawn eggs and commands still work.
 - **World and loot:** Terralith biomes, four extra dimensions (Twilight Forest, Eternal Starlight, Chrono Dawn, The Afterdark), YUNG's structures, Dungeons Arise, Cataclysm, Mowzie's Mobs, Apotheosis, and homestead mods like Farmer's Delight and Supplementaries.
+- **Farming:** Mystical Agriculture (grow resources as crops instead of mining), Productive Farming (crop breeding and self-harvesting multiblock farms), Cooking for Blockheads and Farming for Blockheads.
 - **Performance and visuals:** Sodium, Iris, ModernFix, FerriteCore and Distant Horizons, plus optional Fresh Animations and shaders.
 
 **Requirements**

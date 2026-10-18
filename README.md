@@ -18,6 +18,7 @@ NeoForge 1.21.1 modpack built around *That Time I Got Reincarnated as a Slime* (
 - **Structures and loot:** the YUNG's suite, Dungeons Arise, Artifacts, Backpacked, Sophisticated Storage, and Apotheosis (gear affixes, gems and new enchanting).
 - **Bosses:** L_Ender's Cataclysm, Mowzie's Mobs, plus custom Tensura boss structures (some boss structures are rare and may be far from spawn).
 - **Homestead:** Farmer's Delight, Comforts, Supplementaries, Waystones.
+- **Farming:** Mystical Agriculture (grow resources such as iron or diamond as crops instead of mining them), Productive Farming (about 200 crops, crop breeding, and multiblock farms that harvest by themselves), Cooking for Blockheads and Farming for Blockheads (kitchen, market, shipping bin).
 - **Performance:** Sodium, Iris, ModernFix, FerriteCore, Entity Culling, Distant Horizons.
 - **Visuals (optional):** Fresh Animations, 3D trims, Complementary shaders.
 
