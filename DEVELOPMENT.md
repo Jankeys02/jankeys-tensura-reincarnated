@@ -2,6 +2,8 @@
 
 How this repo works, how to get it onto your machine, and how to stay in sync while developing.
 
+**Never used GitHub?** You do not need this page. Start with the section "New here?" at the top of [CONTRIBUTING.md](CONTRIBUTING.md): it explains the words (repo, branch, commit, pull request ...) and three easy ways to help, none of which need Git or a setup. This page is for people who change the pack regularly.
+
 ## How it works
 
 There are two separate things, and they travel by different routes:

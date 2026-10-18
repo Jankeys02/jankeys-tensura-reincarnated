@@ -2,6 +2,39 @@
 
 Thanks for taking a look. This is a small project, and issues and Pull Requests are welcome: quest fixes, config tweaks, KubeJS scripts, new mod suggestions, bug reports.
 
+## New here? Never used GitHub?
+
+**You do not need GitHub to help.** The easiest way is to play the pack and tell us what you notice (on Discord, or as a comment on an issue). You can also just send files (configs, scripts, mod lists) on Discord; someone who uses GitHub will add them.
+
+**The words you will see, in plain language**
+
+| Word | What it means |
+|---|---|
+| **Repository (repo)** | The folder with the whole pack online (mod list, configs, quests, scripts). It remembers every change ever made. |
+| **Issue** | A note about one topic: a bug, an idea or a task ("chests render sunk", "add the farming mods"). It is where we discuss and tick things off. Anyone with a GitHub account can comment. |
+| **Sub-issue** | A smaller note that belongs to a bigger one. The big issue shows how many of its sub-issues are done. |
+| **Branch** | A copy of the pack where you can change things without touching the real pack (`main`). |
+| **Commit** | A saved state with a short description ("fixed a quest text"). |
+| **Push** | Uploading your saved state to GitHub. |
+| **Pull Request (PR)** | A change proposal: "please take my changes into the pack." It is checked, then taken over. |
+| **Draft** | A PR that is not finished yet. It cannot be merged by accident. |
+| **Merge** | Taking the changes into the real pack (`main`). |
+| **Fork** | Your own copy of the whole repo under your account, so you can change things without rights on the original. |
+| **Collaborator** | Someone who was invited and may create branches directly in this repo. |
+| **`main`** | The main branch, the real pack. Only checked changes end up here. |
+
+**Three ways to help, from easiest to hardest**
+1. **Play and report.** No GitHub needed. Say on Discord or in the matching issue what works and what does not (and send the file from `crash-reports` after a crash).
+2. **Change one file in your browser** (only a GitHub account is needed):
+   1. Open the file in the repo (for example `CHANGELOG.md` or a quest file).
+   2. Click the **pencil icon** (Edit) at the top right.
+   3. Change the text.
+   4. Click **Commit changes...**, write a short note on what you changed, choose **Create a new branch**, then **Propose changes**.
+   5. Click **Create pull request**. Done; the owner takes it from there.
+3. **Change things in the game and upload them with GitHub Desktop** (see "Sharing in-game changes without commands" below). This is for quests you edit in the game.
+
+**Questions are fine.** If a word or a step is unclear, ask on Discord. We will explain it and improve this page.
+
 ## Get set up
 
 You need Git and Prism Launcher (a separate dev instance that installs the mods for you). [DEVELOPMENT.md](DEVELOPMENT.md) has the click-by-click setup, how to stay in sync, and how the repo is laid out. Read it first.
