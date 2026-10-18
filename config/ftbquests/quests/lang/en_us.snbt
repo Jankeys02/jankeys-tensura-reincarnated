@@ -3421,4 +3421,118 @@
 	]
 	quest.0ADDCE62D1ADEB09.title: "A Body That Is Not Yours"
 	task.320DF8494E39BD4D.title: "Hold the Parasite skill"
+	chapter.51BAD9A79D013787.chapter_subtitle: ["Mystical Agriculture, Productive Farming and the Blockheads kitchen. Open from the start."]
+	chapter.51BAD9A79D013787.title: "Fields of Plenty"
+	quest.04C0E9AF8D8F2DB2.quest_desc: [
+		"&7&oThe fish give, and the fields drink.&r"
+		"&6Field note:&r Make a farm taller to use it as a fish farm. The water it makes speeds up a crop farm."
+	]
+	quest.04C0E9AF8D8F2DB2.title: "Rich Waters"
+	quest.136CEFE6D0405E1B.quest_desc: [
+		"&7&oGood things grown in one place are worth more in another.&r"
+		"&6Field note:&r Trade crops and animals for goods at the market. Fertilizers from it make crops grow better."
+	]
+	quest.136CEFE6D0405E1B.title: "The Market"
+	quest.18811E1E4BBEE8B2.quest_desc: [
+		"&7&oWater, carried where the rain will not fall.&r"
+		"&6Field note:&r Water crops by hand to grow them faster."
+	]
+	quest.18811E1E4BBEE8B2.title: "A Gentle Rain"
+	quest.20B6A20F88B40AAF.quest_desc: ["&7&oA cold jar of milk and a warm slice of bread.&r"]
+	quest.20B6A20F88B40AAF.title: "Kitchen Comforts"
+	quest.20EDC8F586AD872D.quest_desc: [
+		"&7&oEven the earth's metals can be taught to grow.&r"
+		"&6Field note:&r Resource crops replace mining for plain metals. Tensura materials still have to be found."
+	]
+	quest.20EDC8F586AD872D.title: "A Field of Iron"
+	quest.241755F664BB452F.quest_desc: [
+		"&7&oPlain dirt, taught to listen.&r"
+		"&6Field note:&r Farmland and one essence, or hoe dirt with an essence in your off-hand slot."
+	]
+	quest.241755F664BB452F.title: "Blessed Soil"
+	quest.2CF7F73D6C9CB6EF.quest_desc: [
+		"&7&oBone and essence, and the fields hurry.&r"
+		"&6Field note:&r Fertilizer makes resource crops grow much faster."
+	]
+	quest.2CF7F73D6C9CB6EF.title: "Quickening"
+	quest.2D5A3E75098728FF.quest_desc: [
+		"&7&oAnimals, given a trough, find reasons to stay.&r"
+		"&6Field note:&r The feeding trough makes nearby animals breed, the watering trough grows them faster."
+	]
+	quest.2D5A3E75098728FF.title: "Well-Fed Herds"
+	quest.2F82C660D223533E.quest_desc: [
+		"&7&oThe world gives a little back to those who hunt it.&r"
+		"&6Field note:&r Mobs drop it now and then (about 1 in 5). It is the seed of everything in this chapter."
+	]
+	quest.2F82C660D223533E.title: "First Essence"
+	quest.337CF9703ADACCF0.quest_desc: [
+		"&7&oA flower, a bee, and a hundred little children of one plant.&r"
+		"&6Field note:&r Use pollen on a fully grown crop to breed it. Crops have growth, yield and resistance, and can mutate."
+	]
+	quest.337CF9703ADACCF0.title: "Golden Dust"
+	quest.3CD3514EEF236765.quest_desc: [
+		"&7&oA field that harvests itself needs a door and a mind.&r"
+		"&6Field note:&r Build a farm at least 3x3 with the controller. The Ponder scenes in the game show how."
+	]
+	quest.3CD3514EEF236765.title: "The Hatch"
+	quest.44EA363F4A859E64.quest_desc: [
+		"&7&oEvery part of the household, working for you.&r"
+		"&6Field note:&r The higher the tier, the better the farmland and fertilizer you need."
+	]
+	quest.44EA363F4A859E64.title: "Harvest Home"
+	quest.485B8D62D3A91795.quest_desc: ["&7&oGems, grown. The mountains will not miss them.&r"]
+	quest.485B8D62D3A91795.title: "A Shining Harvest"
+	quest.5D85D4D88D94D6CE.quest_desc: ["&7&oProsperity, melted and hammered into something that lasts.&r"]
+	quest.5D85D4D88D94D6CE.title: "Essence into Ingot"
+	quest.64ED9CF9F2CB96F7.quest_desc: [
+		"&7&oSometimes a crop gives more than it promised.&r"
+		"&6Field note:&r Resource crops sometimes drop it. Use it in better fertilizer."
+	]
+	quest.64ED9CF9F2CB96F7.title: "A Richer Harvest"
+	quest.65738C78FD7DC37B.quest_desc: [
+		"&7&oShards around a diamond, and the altar finally wakes.&r"
+		"&6Field note:&r The crystal powers the altar. Crops are made there from essence and a few ingredients."
+	]
+	quest.65738C78FD7DC37B.title: "A Crystal Heart"
+	quest.67CFE7BD2C98952D.quest_desc: ["&7&oStone, gold, and a red cloth: a table that asks for patience.&r"]
+	quest.67CFE7BD2C98952D.title: "The Altar of Infusion"
+	quest.6BC0216B05E0ACF1.quest_desc: [
+		"&7&oA counter, a sink, and the feeling of a real kitchen.&r"
+		"&6Field note:&r It shows what you can cook with the food in nearby chests. Place the sink and counters next to it."
+	]
+	quest.6BC0216B05E0ACF1.title: "A Place to Cook"
+	quest.7054E8805CA288C7.quest_desc: [
+		"&7&oEight pinches of essence around one seed, and the seed remembers.&r"
+		"&6Field note:&r Put wheat seeds in the middle of a crafting grid and ring them with inferium essence. The crop gives essence back."
+	]
+	quest.7054E8805CA288C7.title: "Seeds of Plenty"
+	quest.772828691DBEF63B.quest_desc: [
+		"&7&oSomething glitters under the stone, and it is not gold.&r"
+		"&6Field note:&r Smelt prosperity ore. The ore only exists in newly generated chunks, so look in unexplored land."
+	]
+	quest.772828691DBEF63B.title: "Shards of Fortune"
+	task.13A3701EC02E0E8F.title: "Craft an infusion crystal"
+	task.183B6C03B90165AF.title: "Craft a watering trough"
+	task.20359E942C96DCAC.title: "Harvest imperium essence"
+	task.21EAB97037AF3C8D.title: "Craft a sink"
+	task.27D60D307F795EE8.title: "Collect pollen"
+	task.281FC95E19497EBC.title: "Craft a farm controller"
+	task.29423431F7D53610.title: "Harvest iron essence"
+	task.2C35893D75B1B91B.title: "Craft inferium seeds"
+	task.328ADEABBA66833C.title: "Fill a bucket of nutrient water"
+	task.3CC3E2AB930A5D36.title: "Build an infusion altar"
+	task.3DD44C8CB0A515A3.title: "Craft mystical fertilizer"
+	task.3F691D80A321A78A.title: "Find a prosperity shard"
+	task.534967B918BA09C8.title: "Craft a watering can"
+	task.6011F65692E3138A.title: "Craft a cooking table"
+	task.64021CB7CD72D3A8.title: "Harvest fertilized essence"
+	task.6890B6B092B33D2C.title: "Make inferium farmland"
+	task.6921B3F1F561A1C8.title: "Craft a milk jar"
+	task.76B797DBE1D55C62.title: "Craft a toaster"
+	task.7766BEC4A553C25A.title: "Craft a market"
+	task.7784928193047DF5.title: "Craft a feeding trough"
+	task.7B2303603B932B0A.title: "Harvest diamond essence"
+	task.7C284A8BC9B84BAE.title: "Craft a farm hatch"
+	task.7E569A092ECFEC0D.title: "Craft a prosperity ingot"
+	task.7F62C39850B3ADAE.title: "Collect inferium essence"
 }

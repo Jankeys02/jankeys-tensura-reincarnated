@@ -6,6 +6,7 @@ Versioning: [SemVer](https://semver.org/).
 
 ### Added
 - Farming mods (first group of the tier 2 mods): Mystical Agriculture 8.0.28 (resource crops) with its library Cucumber Library, Productive Farming 0.5.3, Cooking for Blockheads and Farming for Blockheads. Install all five in the CurseForge app. Not yet play-tested; no quest chapter or progression gating yet.
+- Quest book: new chapter **Fields of Plenty** (Homestead group, 20 quests) for the farming mods: Mystical Agriculture, Productive Farming, Cooking for Blockheads and Farming for Blockheads. XP rewards only; the later quests are hidden until earlier ones are done.
 
 ### Server pack
 - The server pack is now a ready-to-run zip: the mods are inside, with `start.bat` / `start.sh` and a readme, so you no longer run an installer or visit GitHub. A few mods can't be bundled because their authors block downloads outside CurseForge: `MISSING-MODS.txt` in the zip lists them, and the start scripts warn at every start if they are missing from `mods/`. The old installer-based pack is still attached as `-server-installer.zip`.
