@@ -1,13 +1,13 @@
 name = "Tensura: Ascension"
-filename = "ascension-2.1.2.jar"
+filename = "ascension-3.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "84cbe87a6641bd8275624f8251eb2b25c57f0bbc"
+hash = "0168d03d5b4ed4491ed36623a378eb5ce24f4c1c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8060740
+file-id = 9293273
 project-id = 1505110
