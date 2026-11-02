@@ -1,13 +1,13 @@
 name = "Simple Voice Chat: Voice Physics"
-filename = "voice-physics-forge-neoforge-2.11.1+mc1.16.5-26.x.jar"
+filename = "voice-physics-forge-neoforge-2.12.4-mc1.16.5-26.x.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "888c01ed6aeca4e518f6c30bb61ff424896bac2d"
+hash = "192478c0d44aaeecbdf7f80995f665b283a24507"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9143289
+file-id = 9372057
 project-id = 1712556

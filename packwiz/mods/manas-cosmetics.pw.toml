@@ -1,13 +1,13 @@
 name = "Manas Cosmetics"
-filename = "manas_cosmetics-neoforge-client-1.0.6.jar"
+filename = "manas_cosmetics-neoforge-server-1.0.7.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "4da01da247086d19b9848eb1b8b907586365aaa8"
+hash = "6f52f264bfb434dd733c79b15e5d9fd6a11186d0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8866794
+file-id = 9345339
 project-id = 1613750
