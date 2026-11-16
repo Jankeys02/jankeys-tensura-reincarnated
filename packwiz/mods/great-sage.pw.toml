@@ -1,13 +1,13 @@
 name = "Great Sage - Tensura Reincarnated Addon"
-filename = "greatsage-0.0.6.1.jar"
+filename = "greatsage-0.0.7.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6aeac074acd27ca2f41641e72d5de5fd7bba81b2"
+hash = "eeb938adb7b8b7a15a112e59221b5abdaea3c5bc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8931858
+file-id = 9224429
 project-id = 1635097
