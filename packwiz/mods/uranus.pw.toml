@@ -1,13 +1,13 @@
 name = "Uranus"
-filename = "uranus-2.4.1-bugfix-1.21.1-neoforge.jar"
+filename = "uranus-3.0-beta.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ccdb021d6eb0f0699a7113c814d3886eac458874"
+hash = "c87886ec34ba1282366801f84f6953dc42cb42b2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8587525
+file-id = 8682870
 project-id = 1010827
